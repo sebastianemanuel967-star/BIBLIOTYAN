@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administración — BIBLIOTYAN</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23120b1e' stroke='%239333ea' stroke-width='6'/><path d='M35 32 L65 32 L65 68 L35 68 Z' fill='none' stroke='%23b469fc' stroke-width='5'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --bg: #09060f;
+      --bg2: #120b1e;
+      --card: #180f27;
+      --card-hover: #221537;
+      --text: #f5f3f8;
+      --text2: #b8adc9;
+      --muted: #7d7191;
+      --accent: #9333ea;
+      --accent-light: #b469fc;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(168, 85, 247, 0.35);
+      --radius: 12px;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2.5rem 1.5rem;
+    }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+
+    .admin-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .admin-header h1 { font-size: 2rem; margin-bottom: 0.3rem; }
+    .admin-header h1 span { color: var(--accent-light); }
+    .admin-header p { color: var(--text2); font-size: 0.95rem; }
+    .admin-header a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 0.75rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .admin-header a:hover { text-decoration: underline; }
+
+    /* Login */
+    .login-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .login-box h2 { margin-bottom: 1.25rem; font-size: 1.4rem; }
+    .login-icon {
+      font-size: 2.2rem;
+      color: var(--accent-light);
+      margin-bottom: 1.25rem;
+    }
+
+    /* Form elements */
+    .form-group {
+      margin-bottom: 1.2rem;
+      text-align: left;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--text2);
+      margin-bottom: 0.4rem;
+      font-weight: 500;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem 0.9rem;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.92rem;
+      outline: none;
+      transition: all 0.2s;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--accent-light);
+      box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.25);
+    }
+    .form-group textarea { resize: vertical; min-height: 90px; }
+    .form-group small { color: var(--muted); font-size: 0.78rem; display: block; margin-top: 0.3rem; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.4rem;
+      border: none;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+    .btn-primary:hover { background: var(--accent-light); }
+
+    .btn-ai {
+      background: rgba(147, 51, 234, 0.15);
+      border: 1px solid var(--border-accent);
+      color: var(--accent-light);
+      font-size: 0.85rem;
+      padding: 0.5rem 0.9rem;
+      margin-bottom: 0.8rem;
+    }
+    .btn-ai:hover { background: rgba(147, 51, 234, 0.25); }
+
+    .btn-secondary {
+      background: var(--bg2);
+      color: var(--text2);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover { border-color: var(--accent-light); color: var(--text); }
+    .btn-copy {
+      background: #10b981;
+      color: white;
+    }
+    .btn-copy:hover { background: #059669; }
+
+    /* Admin panel */
+    .admin-panel {
+      display: none;
+      max-width: 800px;
+      width: 100%;
+    }
+    .admin-panel.visible { display: block; }
+
+    .admin-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .admin-card h2 {
+      font-size: 1.3rem;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--accent-light);
+    }
+    .admin-card > p {
+      color: var(--text2);
+      font-size: 0.9rem;
+      margin-bottom: 1.4rem;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .output-container {
+      margin-top: 1.6rem;
+    }
+    .output-container h3 {
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+      color: var(--accent-light);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .code-output {
+      background: #06040a;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem;
+      font-family: 'Consolas', 'Monaco', monospace;
+      font-size: 0.84rem;
+      color: #e9d5ff;
+      white-space: pre-wrap;
+      word-break: break-all;
+      max-height: 380px;
+      overflow-y: auto;
+      line-height: 1.5;
+    }
+    .output-actions {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 0.85rem;
+    }
+
+    .alert {
+      padding: 0.8rem 1rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      font-size: 0.88rem;
+    }
+    .alert-success {
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: #34d399;
+    }
+    .alert-error {
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #f87171;
+    }
+
+    .hidden { display: none !important; }
+
+    @media (max-width: 600px) {
+      body { padding: 1.2rem 1rem; }
+      .form-row { grid-template-columns: 1fr; }
+      .login-box, .admin-card { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="admin-header">
+    <h1>Administración <span>BIBLIOTYAN</span></h1>
+    <p>Indexación de Libros y Diagnóstico Temático</p>
+    <a href="index.html"><i class="fa-solid fa-arrow-left"></i> Volver a la biblioteca</a>
+  </div>
+
+  <!-- ── Login ── -->
+  <div class="login-box" id="loginBox">
+    <div class="login-icon"><i class="fa-solid fa-shield-halved"></i></div>
+    <h2>Acceso Restringido</h2>
+    <div class="form-group">
+      <label for="adminPass">Contraseña de Administrador</label>
+      <input type="password" id="adminPass" placeholder="Ingresa la contraseña" onkeydown="if(event.key==='Enter') doLogin()">
+    </div>
+    <div class="alert alert-error hidden" id="loginError">Contraseña incorrecta</div>
+    <button class="btn btn-primary" onclick="doLogin()" style="width:100%">
+      <i class="fa-solid fa-key"></i> Entrar al Panel
+    </button>
+  </div>
+
+  <!-- ── Panel Admin ── -->
+  <div class="admin-panel" id="adminPanel">
+
+    <!-- Formulario para Nuevo Libro con IA -->
+    <div class="admin-card">
+      <h2><i class="fa-solid fa-book-bookmark"></i> Registrar Nuevo Libro con Clasificación IA</h2>
+      <p>Ingresa el título y la sinopsis para que el motor identifique género, palabras clave y público objetivo.</p>
+
+      <form id="bookForm" onsubmit="event.preventDefault(); generateCode()">
+        <div class="form-group">
+          <label for="bookTitle">Título del libro *</label>
+          <input type="text" id="bookTitle" required placeholder="Ej: Reinicia tu mente">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookAuthor">Autor *</label>
+            <input type="text" id="bookAuthor" required placeholder="Ej: Begoña del Campo Zafra">
+          </div>
+          <div class="form-group">
+            <label for="bookCategory">Categoría / Género</label>
+            <select id="bookCategory">
+              <option value="Productividad & Hábitos">Productividad & Hábitos</option>
+              <option value="Finanzas & Inversión">Finanzas & Inversión</option>
+              <option value="Liderazgo & Estrategia">Liderazgo & Estrategia</option>
+              <option value="Marketing & Ventas">Marketing & Ventas</option>
+              <option value="Crecimiento Personal">Crecimiento Personal</option>
+              <option value="Neurociencia & Mente" selected>Neurociencia & Mente</option>
+              <option value="Salud & Longevidad">Salud & Longevidad</option>
+              <option value="Psicología & Conducta">Psicología & Conducta</option>
+              <option value="Tecnología & Futuro">Tecnología & Futuro</option>
+              <option value="Autoayuda & Mente">Autoayuda & Mente</option>
+              <option value="National Geographic">National Geographic</option>
+              <option value="Otros">Otros</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="bookDesc">Sinopsis o Resumen de Contenido</label>
+          <textarea id="bookDesc" placeholder="Pega el resumen o introducción del ejemplar..."></textarea>
+        </div>
+
+        <!-- Botón Diagnóstico Inteligente -->
+        <button type="button" class="btn btn-ai" onclick="runAiGenreAnalysis()">
+          <i class="fa-solid fa-brain"></i> Clasificar Género y Conceptos con IA
+        </button>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookFormat">Formato Digital</label>
+            <select id="bookFormat">
+              <option value="pdf" selected>PDF</option>
+              <option value="epub">EPUB</option>
+              <option value="dual">Dual (PDF + EPUB)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="bookYear">Año de publicación</label>
+            <input type="number" id="bookYear" value="2025">
+          </div>
+          <div class="form-group">
+            <label for="bookPages">Número de páginas</label>
+            <input type="number" id="bookPages" value="250">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookCover">Archivo de Portada</label>
+            <input type="text" id="bookCover" placeholder="Ej: covers/reinicia-tu-mente.jpg">
+          </div>
+          <div class="form-group">
+            <label for="bookPdf">Ruta archivo PDF (si aplica)</label>
+            <input type="text" id="bookPdf" placeholder="Ej: pdfs/reinicia-tu-mente.pdf">
+          </div>
+          <div class="form-group">
+            <label for="bookEpub">Ruta archivo EPUB (si aplica)</label>
+            <input type="text" id="bookEpub" placeholder="Ej: pdfs/epubs/libro.epub">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>
+            <input type="checkbox" id="bookFeatured" checked> Destacar en portada
+          </label>
+        </div>
+
+        <button class="btn btn-primary" type="submit" style="width:100%; margin-top: 0.5rem">
+          <i class="fa-solid fa-code"></i> Generar Estructura para js/data.js
+        </button>
+      </form>
+
+      <!-- Salida -->
+      <div class="output-container hidden" id="outputContainer">
+        <h3><i class="fa-solid fa-terminal"></i> Código generado para BIBLIOTYAN</h3>
+        <div class="code-output" id="codeOutput"></div>
+        <div class="output-actions">
+          <button class="btn btn-copy" onclick="copyCode()">
+            <i class="fa-solid fa-copy"></i> Copiar Código
+          </button>
+          <button class="btn btn-secondary" onclick="resetForm()">
+            <i class="fa-solid fa-plus"></i> Registrar Otro
+          </button>
+        </div>
+        <div class="alert alert-success hidden" id="copySuccess" style="margin-top: 0.75rem">
+          Código copiado con éxito. Pégalo dentro del arreglo <code>BOOKS</code> en <code>js/data.js</code>.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script>
+    function doLogin() {
+      const pass = document.getElementById('adminPass').value;
+      if (pass === CONFIG.adminPassword) {
+        document.getElementById('loginBox').classList.add('hidden');
+        document.getElementById('adminPanel').classList.add('visible');
+      } else {
+        document.getElementById('loginError').classList.remove('hidden');
+        setTimeout(() => document.getElementById('loginError').classList.add('hidden'), 3000);
+      }
+    }
+
+    function runAiGenreAnalysis() {
+      const title = document.getElementById('bookTitle').value;
+      const desc = document.getElementById('bookDesc').value;
+      const author = document.getElementById('bookAuthor').value;
+
+      const analysis = AIClassifier.analyze({ title, description: desc, author });
+
+      const select = document.getElementById('bookCategory');
+      for (let i = 0; i < select.options.length; i++) {
+        if (select.options[i].value === analysis.suggestedGenre) {
+          select.selectedIndex = i;
+          break;
+        }
+      }
+
+      alert(`Análisis de Contenido:\n\n- Género detectado: ${analysis.suggestedGenre}\n- Confianza: ${analysis.confidenceScore}%\n- Tono: ${analysis.vibe}\n- Conceptos clave: ${analysis.keyConcepts.join(', ')}`);
+    }
+
+    function generateCode() {
+      const title = document.getElementById('bookTitle').value.trim();
+      const author = document.getElementById('bookAuthor').value.trim();
+      const category = document.getElementById('bookCategory').value;
+      const format = document.getElementById('bookFormat').value;
+      const year = parseInt(document.getElementById('bookYear').value) || 2025;
+      const pages = parseInt(document.getElementById('bookPages').value) || 200;
+      const desc = document.getElementById('bookDesc').value.trim();
+      let cover = document.getElementById('bookCover').value.trim() || 'covers/reinicia-tu-mente.jpg';
+      if (!cover.startsWith('covers/')) cover = 'covers/' + cover;
+
+      let pdf = document.getElementById('bookPdf').value.trim();
+      if (pdf && !pdf.startsWith('pdfs/')) pdf = 'pdfs/' + pdf;
+
+      let epub = document.getElementById('bookEpub').value.trim();
+      if (epub && !epub.startsWith('pdfs/')) epub = 'pdfs/' + epub;
+
+      const featured = document.getElementById('bookFeatured').checked;
+
+      const analysis = AIClassifier.analyze({ title, description: desc, author, category });
+      const id = Date.now();
+
+      let pathsCode = `    format: "${format}",\n`;
+      if (pdf) pathsCode += `    pdf: "${pdf}",\n`;
+      if (epub) pathsCode += `    epub: "${epub}",\n`;
+
+      const code = `  {
+    id: ${id},
+    title: "${title.replace(/"/g, '\\"')}",
+    author: "${author.replace(/"/g, '\\"')}",
+    category: "${category}",
+${pathsCode}    year: ${year},
+    language: "Español",
+    pages: ${pages},
+    description: "${desc.replace(/"/g, '\\"').replace(/\n/g, ' ')}",
+    cover: "${cover}",
+    downloads: 0,
+    featured: ${featured},
+    aiAnalysis: {
+      genre: "${category}",
+      vibe: "${analysis.vibe}",
+      keyConcepts: ${JSON.stringify(analysis.keyConcepts)},
+      targetAudience: "${analysis.targetAudience}",
+      aiSummary: "${desc.substring(0, 140)}..."
+    }
+  },`;
+
+      document.getElementById('codeOutput').textContent = code;
+      document.getElementById('outputContainer').classList.remove('hidden');
+    }
+
+    function copyCode() {
+      const code = document.getElementById('codeOutput').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        const el = document.getElementById('copySuccess');
+        el.classList.remove('hidden');
+        setTimeout(() => el.classList.add('hidden'), 3000);
+      });
+    }
+
+    function resetForm() {
+      document.getElementById('bookForm').reset();
+      document.getElementById('outputContainer').classList.add('hidden');
+    }
+  </script>
+
+</body>
+</html>

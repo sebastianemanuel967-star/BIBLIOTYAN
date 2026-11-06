@@ -1,0 +1,12 @@
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+edge_temp/
+
+# Scripts de prueba locales
+test_*.ps1
+check_*.ps1
+find_*.ps1

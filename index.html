@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>BIBLIOTYAN — Biblioteca Digital & Repositorio Libre</title>
+  <meta name="description" content="BIBLIOTYAN: Repositorio editorial digital de libros en PDF con clasificación inteligente y entregas garantizadas en 10 horas.">
+  <meta property="og:title" content="BIBLIOTYAN — Biblioteca Digital">
+  <meta property="og:description" content="Descarga libros en PDF organizados por género. Solicita cualquier título y recíbelo en 10 horas.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon minimalista -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23120b1e' stroke='%239333ea' stroke-width='6'/><path d='M35 32 L65 32 L65 68 L35 68 Z' fill='none' stroke='%23b469fc' stroke-width='5'/><line x1='50' y1='32' x2='50' y2='68' stroke='%23b469fc' stroke-width='4'/></svg>">
+
+  <!-- Google Fonts: Inter & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons (Reemplazo sobrio de emojis) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- PDF.js para renderizado de vista previa -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>
+    if (typeof pdfjsLib !== 'undefined') {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    }
+  </script>
+
+  <!-- Estilos Minimalistas Obsidian Violeta -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ═══════ NAVBAR (ADMIN TOTALMENTE OCULTO) ═══════ -->
+  <nav class="navbar">
+    <a href="#" class="nav-brand">
+      <i class="fa-solid fa-book-bookmark brand-icon"></i>
+      <span class="brand-name">BIBLIOTYAN</span>
+    </a>
+
+    <div class="nav-menu">
+      <a href="#catalog" class="nav-link"><i class="fa-solid fa-book-open"></i> Catálogo</a>
+      <a href="#pedidos" class="nav-link badge-pill"><i class="fa-solid fa-clock"></i> Solicitar Libro (10h)</a>
+      <a href="#beneficios" class="nav-link"><i class="fa-solid fa-lightbulb"></i> Beneficios</a>
+    </div>
+
+    <div class="nav-actions">
+      <div class="nav-social-links"></div>
+      <button class="theme-toggle" id="themeToggle" title="Alternar Modo Oscuro / Claro">
+        <i class="fa-solid fa-sun"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════ HERO SECTION ═══════ -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge-container">
+        <div class="hero-badge">
+          <i class="fa-solid fa-hand-holding-heart"></i>
+          Acceso Libre & Sin Costo
+        </div>
+        <div class="hero-badge ai-badge">
+          <i class="fa-solid fa-brain"></i>
+          Clasificación Inteligente por Género
+        </div>
+      </div>
+
+      <h1>Biblioteca Digital <span class="brand-highlight">BIBLIOTYAN</span></h1>
+      <p class="hero-tagline">Repositorio editorial de conocimiento, psicología y desarrollo. Descarga libre en formato PDF.</p>
+
+      <div class="hero-quote" id="heroQuote"></div>
+
+      <!-- Barra de búsqueda minimalista -->
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input
+          type="text"
+          class="search-input"
+          id="searchInput"
+          placeholder="Buscar por título, autor, género o temática..."
+          autocomplete="off"
+        >
+      </div>
+
+      <div class="hero-cta-buttons">
+        <a href="#catalog" class="btn-hero-primary">
+          <i class="fa-solid fa-book-open"></i> Explorar Catálogo
+        </a>
+        <a href="#pedidos" class="btn-hero-secondary">
+          <i class="fa-solid fa-paper-plane"></i> Solicitar Libro (10h)
+        </a>
+      </div>
+
+      <!-- Estadísticas Sobrias -->
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="stat-number" id="statBooks">0</div>
+          <div class="stat-label">Títulos Disponibles</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-number" id="statDownloads">0</div>
+          <div class="stat-label">Descargas Realizadas</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-number" id="statCategories">0</div>
+          <div class="stat-label">Géneros Analizados</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ SECCIÓN CATÁLOGO CON IA ═══════ -->
+  <section class="catalog-section" id="catalog">
+    <div class="section-header">
+      <h2>Catálogo de Libros</h2>
+      <p>Obras seleccionadas y analizadas con diagnóstico temático de género</p>
+      <div class="accent-line"></div>
+    </div>
+
+    <!-- Filtros de Géneros -->
+    <div class="filter-bar" id="filterBar"></div>
+
+    <!-- Orden y Resultados -->
+    <div class="sort-bar">
+      <span class="results-count" id="resultsCount"></span>
+      <select class="sort-select" id="sortSelect">
+        <option value="recent">Recién añadidos</option>
+        <option value="popular">Más leídos y descargados</option>
+        <option value="alpha">Alfabético (A-Z)</option>
+      </select>
+    </div>
+
+    <!-- Grid de Libros -->
+    <div class="books-grid" id="booksGrid"></div>
+  </section>
+
+  <!-- ═══════ SECCIÓN SOLICITUD DE LIBROS (ENTREGA EN 10 HORAS) ═══════ -->
+  <section class="requests-section" id="pedidos">
+    <div class="requests-container">
+      <div class="section-header">
+        <h2>Servicio de Solicitud de Libros</h2>
+        <p>¿Buscas un libro que aún no está en el catálogo? Lo buscamos, optimizamos en PDF y lo entregamos en <strong>máximo 10 horas</strong>.</p>
+        <div class="accent-line"></div>
+      </div>
+
+      <div class="requests-grid">
+        <!-- Formulario -->
+        <div class="request-card">
+          <div class="request-card-header">
+            <span class="timer-pill">
+              <i class="fa-solid fa-bolt"></i> Compromiso 10 Horas
+            </span>
+            <h3>Nueva Solicitud</h3>
+            <p>Indica el título del ejemplar. Te daremos un código QR y ticket para unirte a nuestro canal de entrega.</p>
+          </div>
+
+          <form id="bookRequestForm" class="request-form">
+            <div class="form-field">
+              <label for="reqTitle">Título del libro solicitado *</label>
+              <input type="text" id="reqTitle" required placeholder="Ej: Hábitos Atómicos, El Poder del Ahora...">
+            </div>
+
+            <div class="form-field">
+              <label for="reqAuthor">Autor (opcional)</label>
+              <input type="text" id="reqAuthor" placeholder="Ej: James Clear">
+            </div>
+
+            <div class="form-field">
+              <label for="reqContact">Tu usuario de Instagram o Telegram *</label>
+              <input type="text" id="reqContact" required placeholder="Ej: @tu_usuario">
+            </div>
+
+            <div class="form-field">
+              <label for="reqNotes">Nota o idioma preferido (opcional)</label>
+              <textarea id="reqNotes" rows="2" placeholder="Ej: Edición completa en español..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-request-submit">
+              <i class="fa-solid fa-paper-plane"></i>
+              Registrar Pedido (Entrega en 10h)
+            </button>
+          </form>
+        </div>
+
+        <!-- Panel de seguimiento -->
+        <div class="request-tracker">
+          <div class="tracker-header">
+            <h3><i class="fa-solid fa-list-check"></i> Solicitudes en Proceso</h3>
+            <span class="tracker-count" id="activeRequestsCounter">Cargando...</span>
+          </div>
+
+          <div class="request-items-list" id="requestItemsList"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════ BENEFICIOS DE LA LECTURA ═══════ -->
+  <section class="why-read-section" id="beneficios">
+    <div class="section-header">
+      <h2>El Hábito de la Lectura</h2>
+      <p>Respaldado por la neurociencia y el desarrollo cognitivo</p>
+      <div class="accent-line"></div>
+    </div>
+    <div class="why-read-grid"></div>
+  </section>
+
+  <!-- ═══════ FRASE DEL DÍA ═══════ -->
+  <section class="daily-quote-section">
+    <div class="section-header">
+      <h2>Reflexión Editorial</h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="daily-quote-content">
+      <p class="daily-quote-text" id="dailyQuoteText"></p>
+      <p class="daily-quote-author" id="dailyQuoteAuthor"></p>
+    </div>
+  </section>
+
+  <!-- ═══════ FOOTER CON ACCESO ADMIN OCULTO ═══════ -->
+  <footer class="footer">
+    <div class="footer-social"></div>
+    <p class="footer-text">
+      <strong>BIBLIOTYAN</strong> — Repositorio digital de acceso abierto. Comprometidos con la difusión de la lectura y el crecimiento personal.
+      <br>
+      <span id="secretAdminTrigger" class="secret-admin-trigger" title="BIBLIOTYAN">
+        © <span class="footer-year"></span> BIBLIOTYAN · Creado por Tyan Mena · Todos los derechos reservados.
+      </span>
+    </p>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--              MODAL DE VISTA PREVIA & IA         -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="modal-overlay preview-modal" id="previewModal">
+    <div class="modal-content">
+      <div class="modal-drag-handle"></div>
+      <button class="modal-close" onclick="closePreviewModal()" title="Cerrar">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="preview-layout">
+        <!-- Portada -->
+        <div class="preview-cover-side" id="previewCover"></div>
+
+        <!-- Información detallada y análisis IA -->
+        <div class="preview-info-side">
+          <div class="preview-badges-row">
+            <span class="preview-category" id="previewCategory"></span>
+            <span id="previewFormatBadge"></span>
+            <span class="preview-ai-pill">
+              <i class="fa-solid fa-brain"></i> Análisis Temático
+            </span>
+          </div>
+
+          <h2 class="preview-title" id="previewTitle"></h2>
+          <p class="preview-author" id="previewAuthor"></p>
+
+          <!-- Diagnóstico de Contenido -->
+          <div class="ai-insights-box">
+            <div class="ai-insights-title">
+              <i class="fa-solid fa-tags"></i> Diagnóstico de Género y Conceptos Clave
+            </div>
+            <div class="ai-tags-row" id="previewAiTags"></div>
+            <p class="ai-target-text" style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.4rem;">
+              <strong style="color: var(--text-primary)">Lectores afines:</strong> <span id="previewAiTarget"></span>
+            </p>
+          </div>
+
+          <p class="preview-description" id="previewDescription"></p>
+
+          <!-- Visor PDF Embebido en la Misma Página -->
+          <div class="pdf-viewer-container" id="pdfViewerContainer">
+            <div class="pdf-viewer-header">
+              <h4><i class="fa-solid fa-book-open"></i> Lector Integrado en Página</h4>
+              <button class="btn-expand-reader" id="btnExpandReader" onclick="openFullscreenReader()" title="Leer en pantalla completa sin salir de la página">
+                <i class="fa-solid fa-expand"></i> Pantalla Completa
+              </button>
+            </div>
+            <div class="pdf-viewer" id="pdfViewerFrameContainer">
+              <iframe id="previewPdfFrame" class="preview-pdf-frame" src="" frameborder="0" title="Vista Previa en Página"></iframe>
+              <div class="epub-preview-placeholder" id="epubPreviewPlaceholder" style="display:none;"></div>
+            </div>
+          </div>
+
+          <!-- Botones de Acción (Leer / Descargar PDF / EPUB) -->
+          <div id="previewDownloadContainer">
+            <button class="btn-download-action" onclick="openSocialModal('pdf')">
+              <i class="fa-solid fa-download"></i>
+              Descargar Ejemplar Completo (PDF)
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--      MODAL DE AGRADECIMIENTO (REDES SOCIALES)   -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="modal-overlay social-modal" id="socialModal">
+    <div class="modal-content">
+      <div class="modal-drag-handle"></div>
+      <button class="modal-close" onclick="closeSocialModal()" title="Cerrar">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <i class="fa-solid fa-shield-heart" style="font-size: 2.2rem; color: var(--accent-light); margin-bottom: 0.8rem; display: inline-block;"></i>
+      <h2 style="font-size: 1.45rem; margin-bottom: 0.5rem;">Descarga Libre y Gratuita</h2>
+      <p class="social-message" style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1.5rem;">
+        En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apóyanos siguiendo nuestras redes comunitarias:
+      </p>
+
+      <!-- Botones de Redes Sociales -->
+      <div class="social-buttons" id="socialButtonsContainer"></div>
+
+      <div style="margin: 1.2rem 0; font-size: 0.82rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">
+        — Acceso Directo —
+      </div>
+
+      <!-- Botones de Acción Dinámicos -->
+      <div id="socialActionButtonsContainer">
+        <button class="btn-confirmed-download" onclick="downloadCurrentBook()">
+          <i class="fa-solid fa-circle-check"></i>
+          ¡Ya sigo la cuenta! Descargar PDF
+        </button>
+
+        <button class="btn-skip-download" onclick="downloadCurrentBook()" style="margin-top: 0.6rem;">
+          Descargar sin seguir
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--    MODAL QR DE SOLICITUD DE LIBRO (10 HORAS)    -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="modal-overlay qr-modal" id="qrModal">
+    <div class="modal-content">
+      <div class="modal-drag-handle"></div>
+      <button class="modal-close" onclick="closeQrModal()" title="Cerrar">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      
+      <div>
+        <span class="timer-pill" style="margin-bottom: 0.6rem;">
+          <i class="fa-solid fa-bolt"></i> Solicitud Registrada
+        </span>
+        <h2 id="qrTicketId" style="font-size: 1.5rem; margin-top: 0.4rem;">Ticket #REQ-0000</h2>
+        <p id="qrBookTitle" style="color: var(--accent-light); font-weight: 500; font-size: 1.05rem; margin-top: 0.2rem;"></p>
+      </div>
+
+      <p class="qr-instructions" style="margin-top: 1rem;">
+        Tu libro se entregará en un plazo máximo de <strong>10 horas</strong>.
+        Escanea el código QR o pulsa el enlace a continuación para unirte a nuestro canal oficial y recibir la notificación apenas esté listo para descarga:
+      </p>
+
+      <!-- Contenedor del Código QR -->
+      <div class="qr-code-frame">
+        <img id="qrCodeImage" src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Ft.me%2F%2BOhqKLNF35gY1Mjkx&bgcolor=ffffff&color=09060f&margin=1" alt="Código QR Enlace BIBLIOTYAN">
+      </div>
+
+      <div class="qr-links-row">
+        <a href="https://t.me/+OhqKLNF35gY1Mjkx" target="_blank" rel="noopener noreferrer" class="btn-qr-link btn-telegram">
+          <i class="fa-brands fa-telegram"></i> Unirme al Canal de Telegram
+        </a>
+        <a href="https://www.instagram.com/tyanmena/" target="_blank" rel="noopener noreferrer" class="btn-qr-link btn-instagram">
+          <i class="fa-brands fa-instagram"></i> Seguir en Instagram (@tyanmena)
+        </a>
+      </div>
+
+      <button class="btn-skip-download" style="margin-top: 1.2rem; width: 100%;" onclick="closeQrModal()">
+        Entendido, volver a la biblioteca
+      </button>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--   LECTOR EN PANTALLA COMPLETA (EN LA MISMA PÁGINA) -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <div class="modal-overlay reader-modal" id="readerModal">
+    <div class="reader-modal-content">
+      <div class="reader-toolbar">
+        <div class="reader-book-info">
+          <i class="fa-solid fa-book-open" style="color: var(--accent-light); margin-right: 0.5rem;"></i>
+          <strong id="readerTitle" style="color: var(--text-primary); font-size: 1.05rem;"></strong>
+          <span id="readerAuthor" style="color: var(--text-muted); font-size: 0.88rem; margin-left: 0.5rem;"></span>
+        </div>
+        <div class="reader-toolbar-actions">
+          <button class="btn-reader-action" onclick="downloadFromReader()" title="Descargar ejemplar">
+            <i class="fa-solid fa-download"></i> Descargar
+          </button>
+          <button class="reader-close-btn" onclick="closeFullscreenReader()" title="Cerrar lectura">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="reader-frame-wrapper">
+        <iframe id="fullscreenPdfFrame" class="fullscreen-pdf-frame" src="" frameborder="0" title="Lector PDF Integrado"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── NOTIFICACIÓN TOAST ── -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-bell"></i>
+    <div class="toast-text">
+      <strong>Notificación</strong>
+      <span>Mensaje</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!--        BARRA DE NAVEGACIÓN INFERIOR MOBILE      -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <nav class="mobile-bottom-nav" id="mobileBottomNav" aria-label="Navegación móvil">
+    <a href="#" class="mobile-nav-item active" data-target="top">
+      <i class="fa-solid fa-house"></i>
+      <span>Inicio</span>
+    </a>
+    <a href="#catalog" class="mobile-nav-item" data-target="catalog">
+      <i class="fa-solid fa-book-open"></i>
+      <span>Catálogo</span>
+    </a>
+    <button class="mobile-nav-item mobile-search-action" id="mobileSearchTrigger" type="button" aria-label="Buscar en catálogo">
+      <div class="mobile-search-icon-bubble">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <span>Buscar</span>
+    </button>
+    <a href="#pedidos" class="mobile-nav-item" data-target="pedidos">
+      <i class="fa-solid fa-clock"></i>
+      <span>Pedir (10h)</span>
+    </a>
+    <a href="#beneficios" class="mobile-nav-item" data-target="beneficios">
+      <i class="fa-solid fa-compass"></i>
+      <span>Beneficios</span>
+    </a>
+  </nav>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
