@@ -319,18 +319,47 @@ document.addEventListener('DOMContentLoaded', () => {
       aiTargetEl.textContent = analysis.targetAudience || 'Lectores que valoran el desarrollo intelectual.';
     }
 
-    // ── Lector PDF Integrado en la Misma Página ──
+    // ── Lector / Ficha de Acceso al Documento ──
     const pdfFrame = document.getElementById('previewPdfFrame');
     const epubPlaceholder = document.getElementById('epubPreviewPlaceholder');
     const btnExpand = document.getElementById('btnExpandReader');
 
+    const isMobile = window.innerWidth <= 768;
+    const isExternalUrl = book.pdf && book.pdf.startsWith('http');
+
     if (book.pdf) {
-      if (pdfFrame) {
-        pdfFrame.style.display = 'block';
-        pdfFrame.src = book.pdf;
-      }
-      if (epubPlaceholder) {
-        epubPlaceholder.style.display = 'none';
+      if (isMobile || isExternalUrl) {
+        if (pdfFrame) {
+          pdfFrame.style.display = 'none';
+          pdfFrame.src = '';
+        }
+        if (epubPlaceholder) {
+          epubPlaceholder.style.display = 'block';
+          epubPlaceholder.innerHTML = `
+            <div class="reading-access-card">
+              <div class="reading-access-badge">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>Edición Digital en Alta Calidad</span>
+              </div>
+              <p class="reading-access-desc">
+                Ejemplar con maquetación completa y texto optimizado para visualización en pantalla, lectores electrónicos y dispositivos móviles.
+              </p>
+              <div class="reading-access-actions">
+                <button class="btn-read-online" onclick="openFullscreenReader()">
+                  <i class="fa-solid fa-book-open"></i> Visualizar Ejemplar
+                </button>
+              </div>
+            </div>
+          `;
+        }
+      } else {
+        if (pdfFrame) {
+          pdfFrame.style.display = 'block';
+          pdfFrame.src = book.pdf;
+        }
+        if (epubPlaceholder) {
+          epubPlaceholder.style.display = 'none';
+        }
       }
       if (btnExpand) {
         btnExpand.style.display = 'inline-flex';
@@ -346,10 +375,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (epubPlaceholder) {
         epubPlaceholder.style.display = 'block';
         epubPlaceholder.innerHTML = `
-          <div class="pdf-loading" style="padding: 2.8rem 1.5rem; text-align: center;">
-            <i class="fa-solid fa-book-open-reader" style="font-size: 3.2rem; color: #10b981; margin-bottom: 1rem; display: block;"></i>
-            <strong style="color: var(--text-primary); font-size: 1.15rem; display: block; margin-bottom: 0.4rem;">Libro Digital en Formato EPUB</strong>
-            <span style="color: var(--text-secondary); font-size: 0.88rem; max-width: 340px; line-height: 1.55; display: inline-block;">Optimizado para lectura en lectores de tinta electrónica (Kindle, Kobo), Apple Books, tabletas y teléfonos móviles.</span>
+          <div class="pdf-loading" style="padding: 2.4rem 1.2rem; text-align: center;">
+            <i class="fa-solid fa-book-open-reader" style="font-size: 2.8rem; color: #10b981; margin-bottom: 0.8rem; display: block;"></i>
+            <strong style="color: var(--text-primary); font-size: 1.05rem; display: block; margin-bottom: 0.3rem;">Libro Digital en Formato EPUB</strong>
+            <span style="color: var(--text-secondary); font-size: 0.85rem; max-width: 320px; line-height: 1.5; display: inline-block;">Optimizado para lectura en lectores de tinta electrónica (Kindle, Kobo), Apple Books, tabletas y teléfonos móviles.</span>
           </div>
         `;
       }
@@ -401,6 +430,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const target = book || state.currentBook;
     if (!target) return;
     state.currentBook = target;
+
+    // Si es un enlace CDN externo o estamos en móvil, abrir directamente en nueva pestaña para lectura nativa limpia
+    if (target.pdf && (target.pdf.startsWith('http') || window.innerWidth <= 768)) {
+      window.open(target.pdf, '_blank');
+      return;
+    }
 
     const modal = document.getElementById('readerModal');
     const titleEl = document.getElementById('readerTitle');
@@ -523,14 +558,22 @@ document.addEventListener('DOMContentLoaded', () => {
     renderBooks();
     updateStats();
 
-    const link = document.createElement('a');
-    link.href = filePath;
-    link.download = `${book.title} - ${book.author}.${ext}`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    if (filePath) {
+      const link = document.createElement('a');
+      link.href = filePath;
+      if (filePath.startsWith('http')) {
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+      }
+      link.download = `${book.title} - ${book.author}.${ext}`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
 
-    showToast('Descarga Iniciada', `Disfruta la lectura de "${book.title}" (${ext.toUpperCase()}).`);
+      showToast('Descarga Iniciada', `Disfruta la lectura de "${book.title}" (${ext.toUpperCase()}).`);
+    } else {
+      showToast('Solicitud en Proceso', `El archivo está preparándose. Puedes solicitarlo por nuestro canal de Telegram.`);
+    }
   }
 
   // ═══════ MODAL QR DE SOLICITUD (10 HORAS) ═══════
