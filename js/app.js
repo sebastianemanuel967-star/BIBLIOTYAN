@@ -25,6 +25,131 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // ======================================================== INICIALIZACIÓN ═══════
+    // ======================================================== SISTEMA DE ENLACES PROFUNDOS Y COMPARTIR ═══════
+  function slugify(text) {
+    return (text || '')
+      .toString()
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .substring(0, 60);
+  }
+
+  function getBookShareUrl(book) {
+    if (!book) return window.location.href;
+    const base = window.location.origin + window.location.pathname;
+    const slug = slugify(book.title);
+    return `${base}?libro=${book.id}-${slug}`;
+  }
+
+  async function shareBook(book) {
+    if (!book) return;
+    const shareUrl = getBookShareUrl(book);
+    const shareTitle = `${book.title} — BIBLIOTYAN`;
+    const shareText = `Lee y descarga "${book.title}" de ${book.author} en la Biblioteca Digital BIBLIOTYAN:`;
+
+    if (navigator.share && window.isSecureContext) {
+      try {
+        await navigator.share({
+          title: shareTitle,
+          text: shareText,
+          url: shareUrl
+        });
+        showToast('Enlace Compartido', `Has compartido "${book.title}" con éxito.`);
+        return;
+      } catch (err) {
+        if (err.name === 'AbortError') return;
+      }
+    }
+
+    copyLinkToClipboard(shareUrl, book.title);
+  }
+
+  function copyLinkToClipboard(url, title) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(() => {
+        showToast('¡Enlace Copiado!', `El enlace de "${title}" está en tu portapapeles listo para enviar.`);
+      }).catch(() => {
+        legacyCopy(url, title);
+      });
+    } else {
+      legacyCopy(url, title);
+    }
+  }
+
+  function legacyCopy(url, title) {
+    const input = document.createElement('input');
+    input.value = url;
+    input.style.position = 'fixed';
+    input.style.opacity = '0';
+    document.body.appendChild(input);
+    input.select();
+    try {
+      document.execCommand('copy');
+      showToast('¡Enlace Copiado!', `El enlace de "${title}" se copió al portapapeles.`);
+    } catch (e) {
+      prompt('Copia este enlace para compartir el libro:', url);
+    }
+    document.body.removeChild(input);
+  }
+
+  function shareCurrentBook() {
+    if (state.currentBook) {
+      shareBook(state.currentBook);
+    }
+  }
+
+  function shareBookDirect(bookId) {
+    const book = BOOKS.find(b => b.id === bookId);
+    if (book) {
+      shareBook(book);
+    }
+  }
+
+  function shareViaWhatsApp() {
+    const book = state.currentBook;
+    if (!book) return;
+    const shareUrl = getBookShareUrl(book);
+    const msg = `*${book.title}* — ${book.author}\n\nEncuentra este libro para leer y descargar gratis en BIBLIOTYAN:\n${shareUrl}`;
+    const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
+    window.open(waUrl, '_blank');
+  }
+
+  function handleInitialUrlBook() {
+    const params = new URLSearchParams(window.location.search);
+    const libroParam = params.get('libro') || params.get('id') || params.get('book');
+
+    let targetBook = null;
+    if (libroParam) {
+      const idMatch = libroParam.match(/^(\d+)/);
+      if (idMatch) {
+        const id = parseInt(idMatch[1], 10);
+        targetBook = BOOKS.find(b => b.id === id);
+      }
+      if (!targetBook) {
+        const cleanQuery = slugify(libroParam);
+        targetBook = BOOKS.find(b => {
+          const bSlug = slugify(b.title);
+          return bSlug === cleanQuery || bSlug.includes(cleanQuery);
+        });
+      }
+    } else if (window.location.hash && window.location.hash.startsWith('#libro-')) {
+      const hashId = parseInt(window.location.hash.replace('#libro-', ''), 10);
+      targetBook = BOOKS.find(b => b.id === hashId);
+    }
+
+    if (targetBook) {
+      setTimeout(() => {
+        openPreviewModal(targetBook, false);
+        showToast('Libro Seleccionado', `Mostrando "${targetBook.title}"`);
+        const catalog = document.getElementById('catalogo');
+        if (catalog) catalog.scrollIntoView({ behavior: 'smooth' });
+      }, 350);
+    }
+  }
+
   function init() {
     setupNavbar();
     setupThemeToggle();
@@ -40,6 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSecretAdminAccess();
     setupMobileBottomNav();
     updateStats();
+    handleInitialUrlBook();
   }
 
   // ======================================================== NAVBAR ═══════
@@ -240,6 +366,9 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="card-tags-row">
             <span class="card-category" style="background: ${catColor}24; color: ${catColor}; border: 1px solid ${catColor}44;">${book.category}</span>
             ${formatBadgeHtml}
+            <button class="card-share-btn" title="Compartir enlace de este libro" onclick="event.stopPropagation(); shareBookDirect(${book.id})">
+              <i class="fa-solid fa-share-nodes"></i>
+            </button>
           </div>
           <h3 class="card-title">${book.title}</h3>
           <p class="card-author">${book.author}</p>
@@ -268,7 +397,15 @@ document.addEventListener('DOMContentLoaded', () => {
   if (sortSelect) sortSelect.addEventListener('change', () => renderBooks());
 
   // ======================================================== MODAL VISTA PREVIA Y DIAGNÓSTICO IA ═══════
-  function openPreviewModal(book) {
+  function openPreviewModal(book, updateUrl = true) {
+    if (!book) return;
+    state.currentBook = book;
+    if (updateUrl) {
+      try {
+        const shareUrl = getBookShareUrl(book);
+        window.history.replaceState({ bookId: book.id }, book.title, shareUrl);
+      } catch (e) {}
+    }
     state.currentBook = book;
     const modal = document.getElementById('previewModal');
     const catColor = CONFIG.categoryColors[book.category] || '#9333ea';
@@ -423,6 +560,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const pdfFrame = document.getElementById('previewPdfFrame');
     if (pdfFrame) pdfFrame.src = '';
     document.body.style.overflow = '';
+    try {
+      const cleanUrl = window.location.origin + window.location.pathname;
+      window.history.replaceState({}, document.title, cleanUrl);
+    } catch (e) {}
   }
 
   // ======================================================== LECTOR EN PANTALLA COMPLETA EN LA MISMA PÁGINA ═══════
@@ -557,6 +698,7 @@ document.addEventListener('DOMContentLoaded', () => {
     book.downloads++;
     renderBooks();
     updateStats();
+    handleInitialUrlBook();
 
     if (filePath) {
       const link = document.createElement('a');
@@ -973,4 +1115,22 @@ document.addEventListener('DOMContentLoaded', () => {
   window.downloadCurrentBook = downloadCurrentBook;
 
   init();
+
+  // Exponer métodos globales para compartir y acceso externo
+  window.shareCurrentBook = shareCurrentBook;
+  window.shareBookDirect = shareBookDirect;
+  window.shareViaWhatsApp = shareViaWhatsApp;
+  window.getBookShareUrl = getBookShareUrl;
+  window.openPreviewModal = openPreviewModal;
+  window.closePreviewModal = closePreviewModal;
+
+  window.addEventListener('popstate', (e) => {
+    if (e.state && e.state.bookId) {
+      const book = BOOKS.find(b => b.id === e.state.bookId);
+      if (book) openPreviewModal(book, false);
+    } else {
+      closePreviewModal();
+    }
+  });
+
 });

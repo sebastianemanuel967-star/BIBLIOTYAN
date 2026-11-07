@@ -251,6 +251,7 @@
           <div class="preview-badges-row">
             <span class="preview-category" id="previewCategory"></span>
             <span id="previewFormatBadge"></span>
+            <button class="btn-share-modal" onclick="shareCurrentBook()" title="Compartir este libro"><i class="fa-solid fa-share-nodes"></i> Compartir</button>
             <span class="preview-ai-pill">
               <i class="fa-solid fa-brain"></i> Análisis Temático
             </span>
@@ -272,6 +273,36 @@
 
           <p class="preview-description" id="previewDescription"></p>
 
+          <!-- Pasos para Leer y Descargar este Ejemplar -->
+          <div class="download-steps-card">
+            <div class="download-steps-title">
+              <i class="fa-solid fa-list-check"></i> Pasos para Leer o Descargar este Ejemplar
+            </div>
+            <div class="download-steps-grid">
+              <div class="step-item">
+                <span class="step-number">1</span>
+                <div class="step-text">
+                  <strong>Elige tu Modo</strong>
+                  <span>Visualiza online o descarga el archivo completo a tu equipo.</span>
+                </div>
+              </div>
+              <div class="step-item">
+                <span class="step-number">2</span>
+                <div class="step-text">
+                  <strong>Acceso Directo</strong>
+                  <span>Pulsa <em>Visualizar Ejemplar</em> o <em>Descargar Ejemplar</em> abajo.</span>
+                </div>
+              </div>
+              <div class="step-item">
+                <span class="step-number">3</span>
+                <div class="step-text">
+                  <strong>Lectura Libre</strong>
+                  <span>Sin registros ni costo. Enlace oficial del repositorio BIBLIOTYAN.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- Visor PDF Embebido en la Misma Página -->
           <div class="pdf-viewer-container" id="pdfViewerContainer">
             <div class="pdf-viewer-header">
@@ -291,6 +322,16 @@
             <button class="btn-download-action" onclick="openSocialModal('pdf')">
               <i class="fa-solid fa-download"></i>
               Descargar Ejemplar Completo (PDF)
+            </button>
+          </div>
+
+          <!-- Barra de Compartir Enlace Directo -->
+          <div class="modal-share-bar">
+            <button class="btn-copy-link" onclick="shareCurrentBook()" title="Copiar enlace directo al portapapeles">
+              <i class="fa-solid fa-link"></i> Copiar Enlace Directo
+            </button>
+            <button class="btn-whatsapp-share" onclick="shareViaWhatsApp()" title="Enviar recomendaciÃ³n por WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i> Enviar por WhatsApp
             </button>
           </div>
         </div>
