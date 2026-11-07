@@ -1,8 +1,8 @@
-// ═══════════════════════════════════════════════════════════
+// ========================================================
 //  BIBLIOTYAN — Motor de Aplicación
 //  Gestión de Libros, Diagnóstico de Géneros y Peticiones (10h)
 //  Estética: Editorial Minimalista (Obsidian Violeta)
-// ═══════════════════════════════════════════════════════════
+// ========================================================
 
 document.addEventListener('DOMContentLoaded', () => {
   // ── Estado Global ──
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     img.src = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='420' viewBox='0 0 300 420'><rect width='100%' height='100%' fill='%23120b1e'/><rect x='10' y='10' width='280' height='400' fill='none' stroke='%239333ea' stroke-width='2' stroke-opacity='0.4'/><circle cx='150' cy='180' r='45' fill='%23180f27' stroke='%23b469fc' stroke-width='2'/><text x='150' y='192' font-family='sans-serif' font-size='32' fill='%23b469fc' font-weight='bold' text-anchor='middle'>" + initial + "</text><text x='150' y='260' font-family='sans-serif' font-size='14' fill='%23e9d5ff' text-anchor='middle'>BIBLIOTYAN</text><text x='150' y='285' font-family='sans-serif' font-size='11' fill='%23a855f7' text-anchor='middle'>Edici%C3%B3n Digital</text></svg>";
   };
 
-  // ═══════ INICIALIZACIÓN ═══════
+  // ======================================================== INICIALIZACIÓN ═══════
   function init() {
     setupNavbar();
     setupThemeToggle();
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateStats();
   }
 
-  // ═══════ NAVBAR ═══════
+  // ======================================================== NAVBAR ═══════
   function setupNavbar() {
     const navbar = document.querySelector('.navbar');
     const brandName = document.querySelector('.brand-name');
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ═══════ TEMA (OSCURO / CLARO MINIMALISTA) ═══════
+  // ======================================================== TEMA (OSCURO / CLARO MINIMALISTA) ═══════
   function setupThemeToggle() {
     const btn = document.getElementById('themeToggle');
     if (!btn) return;
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
       : '<i class="fa-solid fa-moon"></i>';
   }
 
-  // ═══════ HERO: CITA ROTATIVA SOBRIA ═══════
+  // ======================================================== HERO: CITA ROTATIVA SOBRIA ═══════
   function setupHeroQuote() {
     const el = document.getElementById('heroQuote');
     if (!el) return;
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(showQuote, 9000);
   }
 
-  // ═══════ BÚSQUEDA EN TIEMPO REAL ═══════
+  // ======================================================== BÚSQUEDA EN TIEMPO REAL ═══════
   function setupSearchBar() {
     const input = document.getElementById('searchInput');
     if (!input) return;
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ═══════ FILTROS DE GÉNERO ═══════
+  // ======================================================== FILTROS DE GÉNERO ═══════
   function renderFilterButtons() {
     const bar = document.getElementById('filterBar');
     if (!bar) return;
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ═══════ RENDERIZADO DEL CATÁLOGO ═══════
+  // ======================================================== RENDERIZADO DEL CATÁLOGO ═══════
   function renderBooks() {
     const grid = document.getElementById('booksGrid');
     const countEl = document.getElementById('resultsCount');
@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sortSelect = document.getElementById('sortSelect');
   if (sortSelect) sortSelect.addEventListener('change', () => renderBooks());
 
-  // ═══════ MODAL VISTA PREVIA Y DIAGNÓSTICO IA ═══════
+  // ======================================================== MODAL VISTA PREVIA Y DIAGNÓSTICO IA ═══════
   function openPreviewModal(book) {
     state.currentBook = book;
     const modal = document.getElementById('previewModal');
@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   }
 
-  // ═══════ LECTOR EN PANTALLA COMPLETA EN LA MISMA PÁGINA ═══════
+  // ======================================================== LECTOR EN PANTALLA COMPLETA EN LA MISMA PÁGINA ═══════
   function openFullscreenReader(book) {
     const target = book || state.currentBook;
     if (!target) return;
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
     openSocialModal(state.currentBook && state.currentBook.pdf ? 'pdf' : 'epub');
   }
 
-  // ═══════ MODAL DE DESCARGA / REDES SOCIALES ═══════
+  // ======================================================== MODAL DE DESCARGA / REDES SOCIALES ═══════
   function openSocialModal(format) {
     closePreviewModal();
     closeFullscreenReader();
@@ -576,7 +576,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ═══════ MODAL QR DE SOLICITUD (10 HORAS) ═══════
+  // ======================================================== MODAL QR DE SOLICITUD (10 HORAS) ═══════
   function openQrModal(ticketId, bookTitle) {
     const modal = document.getElementById('qrModal');
     if (!modal) return;
@@ -604,7 +604,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   }
 
-  // ═══════ SISTEMA DE PETICIONES (ENTREGA EN 10 HORAS) ═══════
+  // ======================================================== SISTEMA DE PETICIONES (ENTREGA EN 10 HORAS) ═══════
   function initRequestsSystem() {
     const saved = localStorage.getItem('bibliotyan_requests');
     if (saved) {
@@ -763,7 +763,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showToast('Libro Entregado', `Abriendo ejemplar de "${title}" en BIBLIOTYAN.`);
   };
 
-  // ═══════ ACCESO ADMIN OCULTO (Ctrl + Shift + A o Triple Click) ═══════
+  // ======================================================== ACCESO ADMIN OCULTO (Ctrl + Shift + A o Triple Click) ═══════
   function setupSecretAdminAccess() {
     // 1. Atajo de teclado: Ctrl + Shift + A
     document.addEventListener('keydown', (e) => {
@@ -791,14 +791,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ═══════ INSPECTOR IA DE LIBROS ═══════
+  // ======================================================== INSPECTOR IA DE LIBROS ═══════
   window.openAiInspector = function(bookId) {
     const book = BOOKS.find(b => b.id === bookId);
     if (!book) return;
     openPreviewModal(book);
   };
 
-  // ═══════ NOTIFICACIÓN TOAST ═══════
+  // ======================================================== NOTIFICACIÓN TOAST ═══════
   function showToast(title, message) {
     const toast = document.getElementById('toast');
     if (!toast) return;
@@ -810,7 +810,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => toast.classList.remove('show'), 3800);
   }
 
-  // ═══════ REDES SOCIALES FOOTER ═══════
+  // ======================================================== REDES SOCIALES FOOTER ═══════
   function renderSocialLinks() {
     const footerSocial = document.querySelector('.footer-social');
     if (footerSocial) {
@@ -828,7 +828,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ═══════ SECCIÓN BENEFICIOS DE LA LECTURA ═══════
+  // ======================================================== SECCIÓN BENEFICIOS DE LA LECTURA ═══════
   function renderWhyReadSection() {
     const grid = document.querySelector('.why-read-grid');
     if (!grid) return;
@@ -865,7 +865,7 @@ document.addEventListener('DOMContentLoaded', () => {
     `).join('');
   }
 
-  // ═══════ CITA DEL DÍA ═══════
+  // ======================================================== CITA DEL DÍA ═══════
   function renderDailyQuote() {
     const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
     const quote = QUOTES[dayOfYear % QUOTES.length];
@@ -881,7 +881,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (yearEl) yearEl.textContent = new Date().getFullYear();
   }
 
-  // ═══════ NAVEGACIÓN MÓVIL INFERIOR ═══════
+  // ======================================================== NAVEGACIÓN MÓVIL INFERIOR ═══════
   function setupMobileBottomNav() {
     const bottomNav = document.getElementById('mobileBottomNav');
     if (!bottomNav) return;

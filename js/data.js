@@ -1,7 +1,7 @@
-// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
-//  BIBLIOTYAN Ã¢â‚¬â€ Configuración, Datos y Módulo de Inteligencia
+// --------------------------------------------------------
+//  BIBLIOTYAN — Configuración, Datos y Módulo de Inteligencia
 //  Catálogo General de Libros en PDF y EPUB
-// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+// --------------------------------------------------------
 
 const CONFIG = {
   libraryName: "BIBLIOTYAN",
@@ -10,7 +10,7 @@ const CONFIG = {
   adminPassword: "tyan2024",
   communityInviteUrl: "https://t.me/+OhqKLNF35gY1Mjkx",
 
-  // Ã¢â€â‚¬Ã¢â€â‚¬ Redes Sociales Comunitarias Ã¢â€â‚¬Ã¢â€â‚¬
+  // --------------------------------------------------------
   socialMedia: {
     telegram: {
       active: true,
@@ -35,7 +35,7 @@ const CONFIG = {
     }
   },
 
-  // Ã¢â€â‚¬Ã¢â€â‚¬ Categorías y Filtros por Género Ã¢â€â‚¬Ã¢â€â‚¬
+  // --------------------------------------------------------
   categories: [
     "Todos",
     "National Geographic",
@@ -54,7 +54,7 @@ const CONFIG = {
     "Libros en Inglés"
   ],
 
-  // Ã¢â€â‚¬Ã¢â€â‚¬ Paleta de Colores por Género Ã¢â€â‚¬Ã¢â€â‚¬
+  // --------------------------------------------------------
   categoryColors: {
     "National Geographic": "#eab308",
     "E-Books (EPUB)": "#10b981",
@@ -74,7 +74,7 @@ const CONFIG = {
   }
 };
 
-// Ã¢â€â‚¬Ã¢â€â‚¬ Citas Editoriales sobre Lectura y sabiduría Ã¢â€â‚¬Ã¢â€â‚¬
+// --------------------------------------------------------
 const QUOTES = [
   { text: "Un lector vive mil vidas antes de morir. El que nunca lee vive solo una.", author: "George R.R. Martin" },
   { text: "Todo hombre puede ser, si se lo propone, escultor de su propio cerebro.", author: "Santiago Ramón y Cajal" },
@@ -87,14 +87,14 @@ const QUOTES = [
   { text: "Siempre imaginé que el paraíso sería algún tipo de biblioteca.", author: "Jorge Luis Borges" }
 ];
 
-// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
-//  MOTOR CLASIFICADOR TEMÃTICO (IA)
-// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+// --------------------------------------------------------
+//  MOTOR CLASIFICADOR TEMÁTICO (IA)
+// --------------------------------------------------------
 const AIClassifier = {
   genreRules: [
     {
       genre: "Espiritualidad & sabiduría",
-      keywords: ["estoic", "séneca", "seneca", "marco aurelio", "epicteto", "hadot", "sabiduria", "filosofia", "virtud", "sentido"],
+      keywords: ["estoic", "Séneca", "seneca", "marco aurelio", "epicteto", "hadot", "sabiduria", "filosofia", "virtud", "sentido"],
       vibe: "Profundo & Reflexivo",
       target: "Buscadores de serenidad, fortaleza interior y principios de vida atemporales"
     },
@@ -204,7 +204,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 380,
-    description: "Considerado uno de los libros de gestión y desarrollo personal más influyentes del siglo. Covey presenta un enfoque holï¿½stico e integrado para resolver problemas personales y profesionales basado en principios imperecederos como la proactividad, el beneficio mutuo y la renovaciï¿½n continua.",
+    description: "Considerado uno de los libros de gestión y desarrollo personal más influyentes del siglo. Covey presenta un enfoque holístico e integrado para resolver problemas personales y profesionales basado en principios imperecederos como la proactividad, el beneficio mutuo y la renovación continua.",
     cover: "covers/los-7-habitos.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b201_los-7-habitos-stephen-covey.pdf",
     downloads: 512,
@@ -213,13 +213,13 @@ const BOOKS = [
       genre: "Desarrollo del Liderazgo & Efectividad",
       vibe: "Clásico & Trascendental",
       keyConcepts: ["Proactividad", "Primero lo Primero", "Ganar-Ganar", "Sinergia"],
-      targetAudience: "Profesionales, directivos y personas orientadas a la excelencia ï¿½tica y productiva.",
+      targetAudience: "Profesionales, directivos y personas orientadas a la excelencia ética y productiva.",
       aiSummary: "Marco de trabajo integral para la transformación personal y la efectividad interpersonal sostenible."
     }
   },
   {
     id: 202,
-    title: "Trï¿½guese ese Sapo: 21 maneras de dejar de procrastinar",
+    title: "Tráguese ese Sapo: 21 maneras de dejar de procrastinar",
     author: "Brian Tracy",
     category: "Productividad & Hábitos",
     collection: "Bestsellers",
@@ -227,7 +227,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 140,
-    description: "Una guía contundente y pragmï¿½tica para erradicar la postergaciï¿½n. Tracy enseï¿½a a identificar las tareas más críticas, aplicar la regla del 80/20 y afrontar la tarea más difácil al comenzar el dï¿½a para multiplicar los resultados en menor tiempo.",
+    description: "Una guía contundente y pragmática para erradicar la postergación. Tracy enseña a identificar las tareas más críticas, aplicar la regla del 80/20 y afrontar la tarea más difícil al comenzar el día para multiplicar los resultados en menor tiempo.",
     cover: "covers/traguese-ese-sapo.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b202_traguese-ese-sapo-brian-tracy.pdf",
     downloads: 440,
@@ -235,9 +235,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Gestión del Tiempo & Enfoque",
       vibe: "Práctico & Contundente",
-      keyConcepts: ["Priorizaciï¿½n ABCDE", "Erradicaciï¿½n de Procrastinaciï¿½n", "Regla 80/20", "Foco Unidireccional"],
+      keyConcepts: ["Priorización ABCDE", "Erradicación de Procrastinación", "Regla 80/20", "Foco Unidireccional"],
       targetAudience: "Lectores abrumados por el exceso de trabajo que buscan simplificar y ejecutar con rapidez.",
-      aiSummary: "Pautas directas para vencer la pereza mental y ejecutar las tareas de mayor impacto cada dï¿½a."
+      aiSummary: "Pautas directas para vencer la pereza mental y ejecutar las tareas de mayor impacto cada día."
     }
   },
   {
@@ -250,7 +250,7 @@ const BOOKS = [
     year: 2014,
     language: "Español",
     pages: 320,
-    description: "El psicï¿½logo y autor de Inteligencia Emocional analiza la atención como el activo mental más preciado y escaso del mundo hiperconectado. Explora los tres tipos de foco (interno, hacia los demï¿½s y externo) y cómo cultivarlos para la toma de decisiones certeras.",
+    description: "El psicólogo y autor de Inteligencia Emocional analiza la atención como el activo mental más preciado y escaso del mundo hiperconectado. Explora los tres tipos de foco (interno, hacia los demás y externo) y cómo cultivarlos para la toma de decisiones certeras.",
     cover: "covers/focus-goleman.jpg",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b203_focus-daniel-goleman.pdf",
     epub: "pdfs/epubs/focus-daniel-goleman.epub",
@@ -259,14 +259,14 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Psicología Cognitiva & Atención",
       vibe: "Analítico & Esclarecedor",
-      keyConcepts: ["Atención Focalizada", "Foco Interno y Externo", "Sobrecarga de estámulos", "Autocontrol"],
-      targetAudience: "Estudiantes, creadores y líderes que sufren la dispersiï¿½n de la era de los smartphones.",
-      aiSummary: "Investigaciï¿½n sobre por quï¿½ la capacidad de atención profunda determina el éxito en la vida moderna."
+      keyConcepts: ["Atención Focalizada", "Foco Interno y Externo", "Sobrecarga de estímulos", "Autocontrol"],
+      targetAudience: "Estudiantes, creadores y líderes que sufren la dispersión de la era de los smartphones.",
+      aiSummary: "Investigación sobre por qué la capacidad de atención profunda determina el éxito en la vida moderna."
     }
   },
   {
     id: 204,
-    title: "Organï¿½zate con Eficacia (GTD)",
+    title: "Organízate con Eficacia (GTD)",
     author: "David Allen",
     category: "Productividad & Hábitos",
     collection: "Bestsellers",
@@ -274,31 +274,31 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 360,
-    description: "El mï¿½todo de productividad personal más aclamado internacionalmente (Getting Things Done). Allen demuestra que la mente debe usarse para tener ideas, no para retenerlas, enseï¿½ando a vaciar la mente mediante un sistema fiable de bandejas de entrada, listas de acciones y revisiones periï¿½dicas.",
+    description: "El método de productividad personal más aclamado internacionalmente (Getting Things Done). Allen demuestra que la mente debe usarse para tener ideas, no para retenerlas, enseñando a vaciar la mente mediante un sistema fiable de bandejas de entrada, listas de acciones y revisiones periódicas.",
     cover: "covers/organizate-con-eficacia.jpg",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b204_organizate-con-eficacia-david-allen.pdf",
     epub: "pdfs/epubs/organizate-con-eficacia-david-allen.epub",
     downloads: 410,
     featured: false,
     aiAnalysis: {
-      genre: "Metodologï¿½a GTD & Organización",
+      genre: "Metodología GTD & Organización",
       vibe: "Estructurado & Eficiente",
       keyConcepts: ["Vaciar la Mente", "Procesamiento de Acciones", "Contextos", "Revisión Semanal"],
-      targetAudience: "Profesionales y creativos con mï¿½ltiples proyectos que necesitan orden mental sin estrï¿½s.",
+      targetAudience: "Profesionales y creativos con múltiples proyectos que necesitan orden mental sin estrés.",
       aiSummary: "Sistema completo para capturar compromisos, estructurar tareas y trabajar con tranquilidad mental."
     }
   },
   {
     id: 205,
-    title: "Productividad Personal: Aprende a liberarte del estrï¿½s con GTD",
-    author: "Josï¿½ Miguel Bolï¿½var",
+    title: "Productividad Personal: Aprende a liberarte del estrés con GTD",
+    author: "José Miguel Bolívar",
     category: "Productividad & Hábitos",
     collection: "Productividad",
     format: "epub",
     year: 2017,
     language: "Español",
     pages: 280,
-    description: "Una obra de referencia en habla hispana que adapta la metodologï¿½a de efectividad personal a la realidad del trabajo del conocimiento actual. Desmenuza cada fase del flujo de trabajo productivo sin tecnicismos innecesarios.",
+    description: "Una obra de referencia en habla hispana que adapta la metodología de efectividad personal a la realidad del trabajo del conocimiento actual. Desmenuza cada fase del flujo de trabajo productivo sin tecnicismos innecesarios.",
     cover: "covers/productividad-personal.jpg",
     
     epub: "pdfs/epubs/productividad-personal-jose-bolivar.epub",
@@ -307,22 +307,22 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Efectividad Personal",
       vibe: "Claro & Metódico",
-      keyConcepts: ["Trabajo del Conocimiento", "Reducciï¿½n del Estrï¿½s", "Hábitos Productivos", "Enfoque"],
-      targetAudience: "Trabajadores del conocimiento y emprendedores que buscan un mï¿½todo paso a paso en Español.",
+      keyConcepts: ["Trabajo del Conocimiento", "Reducción del Estrés", "Hábitos Productivos", "Enfoque"],
+      targetAudience: "Trabajadores del conocimiento y emprendedores que buscan un método paso a paso en Español.",
       aiSummary: "Guía práctica para tomar el control de tus tareas diarias y eliminar la sensación de desborde."
     }
   },
   {
     id: 206,
     title: "Ultraproductividad: Trabajar menos, producir más, vivir mejor",
-    author: "Isra Garcï¿½a",
+    author: "Isra García",
     category: "Productividad & Hábitos",
     collection: "Productividad",
     format: "epub",
     year: 2018,
     language: "Español",
     pages: 240,
-    description: "Un compendio de técnicas de alto rendimiento, biohacking, microhábitos y disciplina implacable aplicadas por el consultor e inconformista Isra Garcï¿½a para maximizar la energía física y mental en cada jornada.",
+    description: "Un compendio de técnicas de alto rendimiento, biohacking, microhábitos y disciplina implacable aplicadas por el consultor e inconformista Isra García para maximizar la energía física y mental en cada jornada.",
     cover: "covers/ultraproductividad.jpg",
     
     epub: "pdfs/epubs/ultraproductividad-isra-garcia.epub",
@@ -331,22 +331,22 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Alto Rendimiento & Hábitos",
       vibe: "Intenso & Disruptivo",
-      keyConcepts: ["Microhábitos", "Alto Rendimiento", "Optimizaciï¿½n de energía", "Autodisciplina"],
-      targetAudience: "Emprendedores y personas orientadas a la superación extrema de lï¿½mites cotidianos.",
-      aiSummary: "Metodologï¿½a no convencional para multiplicar el impacto personal mediante la disciplina consciente."
+      keyConcepts: ["Microhábitos", "Alto Rendimiento", "Optimización de energía", "Autodisciplina"],
+      targetAudience: "Emprendedores y personas orientadas a la superación extrema de límites cotidianos.",
+      aiSummary: "Metodología no convencional para multiplicar el impacto personal mediante la disciplina consciente."
     }
   },
   {
     id: 207,
     title: "Productividad personal en una semana",
-    author: "Jerï¿½nimo sínchez",
+    author: "Jerónimo Sánchez",
     category: "Productividad & Hábitos",
     collection: "Productividad",
     format: "epub",
     year: 2019,
     language: "Español",
     pages: 180,
-    description: "Un curso acelerado de siete dï¿½as diseï¿½ado para reordenar tu espacio de trabajo físico y digital, definir prioridades y establecer rutinas sostenibles de enfoque continuo.",
+    description: "Un curso acelerado de siete días diseñado para reordenar tu espacio de trabajo físico y digital, definir prioridades y establecer rutinas sostenibles de enfoque continuo.",
     cover: "covers/productividad-personal-semana.jpg",
     
     epub: "pdfs/epubs/productividad-personal-en-una-semana.epub",
@@ -355,9 +355,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Productividad Express",
       vibe: "Sencillo & Ágil",
-      keyConcepts: ["Rutinas de Enfoque", "Organización Digital", "Siete Dï¿½as", "Prioridades Claras"],
-      targetAudience: "Personas que desean un cambio rï¿½pido y estructurado en su organización semanal.",
-      aiSummary: "Plan intensivo de 7 dï¿½as para recuperar el tiempo perdido y estructurar tu agenda con orden."
+      keyConcepts: ["Rutinas de Enfoque", "Organización Digital", "Siete Días", "Prioridades Claras"],
+      targetAudience: "Personas que desean un cambio rápido y estructurado en su organización semanal.",
+      aiSummary: "Plan intensivo de 7 días para recuperar el tiempo perdido y estructurar tu agenda con orden."
     }
   },
   {
@@ -370,30 +370,30 @@ const BOOKS = [
     year: 2012,
     language: "Español",
     pages: 160,
-    description: "Un Clásico eterno de la educación financiera ambientado en la antigua Babilonia. A travï¿½s de parï¿½bolas amenas, enseï¿½a las reglas fundamentales para adquirir riqueza, controlar los gastos, hacer que el oro trabaje para ti y asegurar el porvenir.",
+    description: "Un Clásico eterno de la educación financiera ambientado en la antigua Babilonia. A través de parábolas amenas, enseña las reglas fundamentales para adquirir riqueza, controlar los gastos, hacer que el oro trabaje para ti y asegurar el porvenir.",
     cover: "covers/hombre-mas-rico-babilonia.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b205_el-hombre-mas-rico-de-babilonia.pdf",
     downloads: 480,
     featured: true,
     aiAnalysis: {
-      genre: "Educación Financiera Clï¿½sica",
+      genre: "Educación Financiera Clásica",
       vibe: "Sabio & Universal",
-      keyConcepts: ["págate a Ti Mismo Primero", "Control del Gasto", "Inversión Prudente", "Multiplicaciï¿½n del Oro"],
-      targetAudience: "Cualquier persona que comience su camino hacia la independencia econï¿½mica.",
+      keyConcepts: ["págate a Ti Mismo Primero", "Control del Gasto", "Inversión Prudente", "Multiplicación del Oro"],
+      targetAudience: "Cualquier persona que comience su camino hacia la independencia económica.",
       aiSummary: "Los principios atemporales para acumular y preservar patrimonio mediante el ahorro disciplinado."
     }
   },
   {
     id: 302,
     title: "pequeño Cerdo Inversionista",
-    author: "Sofï¿½a Macï¿½as",
+    author: "Sofía Macías",
     category: "Finanzas & Inversión",
     collection: "Bestsellers",
     format: "pdf",
     year: 2017,
     language: "Español",
     pages: 260,
-    description: "La biblia contemporï¿½nea de las finanzas personales en Español. Explica con humor y lenguaje aterrizado cómo salir de deudas, crear un fondo de emergencia, entender los intereses y empezar a invertir en fondos, bienes raï¿½ces y bolsa.",
+    description: "La biblia contemporánea de las finanzas personales en Español. Explica con humor y lenguaje aterrizado cómo salir de deudas, crear un fondo de emergencia, entender los intereses y empezar a invertir en fondos, bienes raíces y bolsa.",
     cover: "covers/pequeno-cerdo-inversionista.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b302_pequeno-cerdo-inversionista-sofia-macias.pdf",
     downloads: 365,
@@ -402,7 +402,7 @@ const BOOKS = [
       genre: "Finanzas Prácticas",
       vibe: "Cercano & Didáctico",
       keyConcepts: ["Fondo de Emergencia", "Inversión sin Miedo", "Control de Tarjetas", "Retiro Digno"],
-      targetAudience: "Jï¿½venes y adultos que desean dominar su dinero sin enredos técnicos.",
+      targetAudience: "Jóvenes y adultos que desean dominar su dinero sin enredos técnicos.",
       aiSummary: "Guía completa para poner a trabajar tu dinero y alcanzar tranquilidad financiera a largo plazo."
     }
   },
@@ -416,7 +416,7 @@ const BOOKS = [
     year: 1910,
     language: "Español",
     pages: 110,
-    description: "El texto pionero que inspirï¿½ libros como El Secreto. Wattles argumenta que la riqueza no es cuestiï¿½n de suerte, sino el resultado de actuar y pensar 'de cierta manera', cultivando gratitud, visión mental y acción coordinada.",
+    description: "El texto pionero que inspiró libros como El Secreto. Wattles argumenta que la riqueza no es cuestión de suerte, sino el resultado de actuar y pensar 'de cierta manera', cultivando gratitud, visión mental y acción coordinada.",
     cover: "covers/ciencia-hacerse-rico.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b303_la-ciencia-de-hacerse-rico.pdf",
     downloads: 310,
@@ -425,13 +425,13 @@ const BOOKS = [
       genre: "Mentalidad de Prosperidad",
       vibe: "Filosófico & Motivador",
       keyConcepts: ["Mentalidad de Abundancia", "Gratitud Activa", "creación vs Competencia", "Acción Eficaz"],
-      targetAudience: "Emprendedores interesados en alinear su mentalidad y fe con metas econï¿½micas ambiciosas.",
-      aiSummary: "Fundamentos Filosóficos sobre cómo la actitud mental interna precede a la manifestaciï¿½n de riqueza."
+      targetAudience: "Emprendedores interesados en alinear su mentalidad y fe con metas económicas ambiciosas.",
+      aiSummary: "Fundamentos Filosóficos sobre cómo la actitud mental interna precede a la manifestación de riqueza."
     }
   },
   {
     id: 304,
-    title: "El Hombre más Rico que jamás Existiï¿½",
+    title: "El Hombre más Rico que jamás Existió",
     author: "Steven K. Scott",
     category: "Finanzas & Inversión",
     collection: "Bestsellers",
@@ -439,7 +439,7 @@ const BOOKS = [
     year: 2011,
     language: "Español",
     pages: 230,
-    description: "Las estrategias de éxito y sabiduría del Rey Salomï¿½n traducidas a principios aplicables para los negocios y la vida contemporï¿½nea. Revela el valor de la diligencia, el consejo sabio y la integridad como cimientos del éxito duradero.",
+    description: "Las estrategias de éxito y sabiduría del Rey Salomón traducidas a principios aplicables para los negocios y la vida contemporánea. Revela el valor de la diligencia, el consejo sabio y la integridad como cimientos del éxito duradero.",
     cover: "covers/hombre-mas-rico-jamas-existio.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b304_el-hombre-mas-rico-que-jamas-existio.pdf",
     downloads: 285,
@@ -447,9 +447,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "sabiduría Financiera",
       vibe: "Espiritual & Estratégico",
-      keyConcepts: ["sabiduría de Salomï¿½n", "Diligencia Absoluta", "Resoluciï¿½n de Conflictos", "Alianzas de Valor"],
+      keyConcepts: ["sabiduría de Salomón", "Diligencia Absoluta", "Resolución de Conflictos", "Alianzas de Valor"],
       targetAudience: "líderes de negocios y personas que buscan prosperidad basada en valores morales.",
-      aiSummary: "Estrategias del sabio bï¿½blico Salomï¿½n para alcanzar éxito financiero y respeto comunitario."
+      aiSummary: "Estrategias del sabio bíblico Salomón para alcanzar éxito financiero y respeto comunitario."
     }
   },
   {
@@ -457,12 +457,12 @@ const BOOKS = [
     title: "El Lobo de Wall Street",
     author: "Jordan Belfort",
     category: "Finanzas & Inversión",
-    collection: "Biografï¿½as & Finanzas",
+    collection: "Biografías & Finanzas",
     format: "pdf",
     year: 2013,
     language: "Español",
     pages: 420,
-    description: "La trepidante autobiografï¿½a de Jordan Belfort en los vertiginosos aï¿½os de Stratton Oakmont. Una mirada sin censura a la euforia bursï¿½til, la Psicología de las ventas agresivas, el auge financiero y las consecuencias de perder los lï¿½mites ï¿½ticos.",
+    description: "La trepidante autobiografía de Jordan Belfort en los vertiginosos años de Stratton Oakmont. Una mirada sin censura a la euforia bursátil, la Psicología de las ventas agresivas, el auge financiero y las consecuencias de perder los límites éticos.",
     cover: "covers/lobo-wall-street.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b305_el-lobo-de-wall-street-jordan-belfort.pdf",
     downloads: 350,
@@ -470,9 +470,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Finanzas & Memorias Reales",
       vibe: "Electrizante & Crudo",
-      keyConcepts: ["Mercado Bursï¿½til", "Persuasiï¿½n Extrema", "Avaricia y Caï¿½da", "Psicología Comercial"],
-      targetAudience: "Lectores atraï¿½dos por el mundo financiero, el poder de las ventas y las lecciones de cautela econï¿½mica.",
-      aiSummary: "Crï¿½nica descarnada sobre el auge y desplome de un imperio bursï¿½til basado en la venta implacable."
+      keyConcepts: ["Mercado Bursátil", "Persuasión Extrema", "Avaricia y Caída", "Psicología Comercial"],
+      targetAudience: "Lectores atraídos por el mundo financiero, el poder de las ventas y las lecciones de cautela económica.",
+      aiSummary: "Crónica descarnada sobre el auge y desplome de un imperio bursátil basado en la venta implacable."
     }
   },
   {
@@ -485,7 +485,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 590,
-    description: "Ray Dalio, fundador de Bridgewater Associates (el fondo de cobertura más exitoso del planeta), comparte los principios fundamentales que creï¿½ y refinï¿½ a lo largo de 40 aï¿½os. Su metodologï¿½a de 'meritocracia de ideas' y transparencia radical ofrece una guía inestimable para tomar decisiones en la vida y los negocios.",
+    description: "Ray Dalio, fundador de Bridgewater Associates (el fondo de cobertura más exitoso del planeta), comparte los principios fundamentales que creó y refinó a lo largo de 40 años. Su metodología de 'meritocracia de ideas' y transparencia radical ofrece una guía inestimable para tomar decisiones en la vida y los negocios.",
     cover: "covers/principios-ray-dalio.jpeg",
     epub: "pdfs/epubs/principios-ray-dalio.epub",
     downloads: 460,
@@ -500,7 +500,7 @@ const BOOKS = [
   },
   {
     id: 402,
-    title: "El Arte de la Seducciï¿½n",
+    title: "El Arte de la Seducción",
     author: "Robert Greene",
     category: "Liderazgo & Estrategia",
     collection: "Estrategia",
@@ -508,18 +508,18 @@ const BOOKS = [
     year: 2014,
     language: "Español",
     pages: 510,
-    description: "Greene desvela los perfiles Psicológicos del seductor y las dinï¿½micas maestras del poder emocional y la influencia interpersonal. A travï¿½s de figuras Históricas como Cleopatra, Casanova o Napoleï¿½n, analiza cómo cautivar voluntades y dirigir la fascinaciï¿½n de los demï¿½s.",
+    description: "Greene desvela los perfiles Psicológicos del seductor y las dinámicas maestras del poder emocional y la influencia interpersonal. A través de figuras Históricas como Cleopatra, Casanova o Napoleón, analiza cómo cautivar voluntades y dirigir la fascinación de los demás.",
     cover: "covers/arte-seduccion-hd.jpg",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b401_el-arte-de-la-seduccion-robert-greene.pdf",
     epub: "pdfs/epubs/el-arte-de-la-seduccion-robert-greene.epub",
     downloads: 380,
     featured: true,
     aiAnalysis: {
-      genre: "Psicología del Poder & Persuasiï¿½n",
+      genre: "Psicología del Poder & Persuasión",
       vibe: "Provocador & Hipnótico",
       keyConcepts: ["Perfiles Psicológicos", "Magnetismo Social", "Manejo de la Atención", "Estrategia Interpersonal"],
-      targetAudience: "Estudiosos de la Psicología del poder, la negociación y el arte de la persuasiï¿½n sutil.",
-      aiSummary: "Tratado exhaustivo sobre las claves Psicológicas que gobiernan la fascinaciï¿½n y la influencia humana."
+      targetAudience: "Estudiosos de la Psicología del poder, la negociación y el arte de la persuasión sutil.",
+      aiSummary: "Tratado exhaustivo sobre las claves Psicológicas que gobiernan la fascinación y la influencia humana."
     }
   },
   {
@@ -532,7 +532,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 250,
-    description: "Inspirado en la Filosofía estoica de Marco Aurelio y síneca, Holiday expone cómo el ego es el mayor obstï¿½culo en el camino hacia el éxito, el peor enemigo durante el triunfo y la causa más comï¿½n del fracaso estrepitoso.",
+    description: "Inspirado en la Filosofía estoica de Marco Aurelio y Séneca, Holiday expone cómo el ego es el mayor obstáculo en el camino hacia el éxito, el peor enemigo durante el triunfo y la causa más común del fracaso estrepitoso.",
     cover: "covers/ego-es-el-enemigo.jpg",
     epub: "pdfs/epubs/el-ego-es-el-enemigo-ryan-holiday.epub",
     downloads: 345,
@@ -540,37 +540,37 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Estoicismo & Autocontrol",
       vibe: "Sobrio & Esclarecedor",
-      keyConcepts: ["Humildad Tï¿½ctica", "Aprendizaje Continuo", "Silencio vs Alarde", "Resiliencia"],
+      keyConcepts: ["Humildad Táctica", "Aprendizaje Continuo", "Silencio vs Alarde", "Resiliencia"],
       targetAudience: "Líderes, creadores y personas que buscan autodominio estoico y humildad.",
-      aiSummary: "Lecciones Históricas sobre cómo domar el ego para construir una trayectoria sílida y duradera."
+      aiSummary: "Lecciones Históricas sobre cómo domar el ego para construir una trayectoria sólida y duradera."
     }
   },
   {
     id: 404,
-    title: "Steve Jobs: La Biografï¿½a",
+    title: "Steve Jobs: La Biografía",
     author: "Walter Isaacson",
     category: "Liderazgo & Estrategia",
-    collection: "Biografï¿½as",
+    collection: "Biografías",
     format: "pdf",
     year: 2011,
     language: "Español",
     pages: 650,
-    description: "La biografï¿½a autorizada del visionario que revolucionï¿½ seis industrias: ordenadores, telefonï¿½a, animaciï¿½n, música, tabletas y edición digital. Un retrato apasionante sobre su obsesiï¿½n por el diseño, el campo de distorsiï¿½n de la realidad y la bï¿½squeda incansable de la perfección.",
+    description: "La biografía autorizada del visionario que revolucionó seis industrias: ordenadores, telefonía, animación, música, tabletas y edición digital. Un retrato apasionante sobre su obsesión por el diseño, el campo de distorsión de la realidad y la búsqueda incansable de la perfección.",
     cover: "covers/steve-jobs-biografia.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b403_steve-jobs-la-biografia-walter-isaacson.pdf",
     downloads: 420,
     featured: true,
     aiAnalysis: {
-      genre: "innovación & Biografï¿½a Histórica",
-      vibe: "Ã‰pico & Apasionante",
-      keyConcepts: ["Campo de Distorsiï¿½n", "Obsesiï¿½n por el diseño", "Intersecciï¿½n Humanidades y Tecnología", "Simplicidad"],
+      genre: "innovación & Biografía Histórica",
+      vibe: "Épico & Apasionante",
+      keyConcepts: ["Campo de Distorsión", "Obsesión por el diseño", "Intersección Humanidades y Tecnología", "Simplicidad"],
       targetAudience: "Innovadores, fundadores de startups y entusiastas de la Tecnología y el diseño vanguardista.",
       aiSummary: "El relato definitivo sobre la vida, luces y sombras del genio más influyente de la era digital."
     }
   },
   {
     id: 405,
-    title: "El líder que no Tenï¿½a Cargo",
+    title: "El líder que no Tenía Cargo",
     author: "Robin Sharma",
     category: "Liderazgo & Estrategia",
     collection: "Liderazgo",
@@ -578,7 +578,7 @@ const BOOKS = [
     year: 2013,
     language: "Español",
     pages: 240,
-    description: "A travï¿½s de una fï¿½bula inspiradora, Robin Sharma (autor de El Monje que Vendiï¿½ su Ferrari) enseï¿½a que el verdadero liderazgo no depende de tï¿½tulos nobiliarios ni nombramientos oficiales, sino de la actitud interna de excelencia y servicio en cualquier puesto.",
+    description: "A través de una fábula inspiradora, Robin Sharma (autor de El Monje que Vendió su Ferrari) enseña que el verdadero liderazgo no depende de títulos nobiliarios ni nombramientos oficiales, sino de la actitud interna de excelencia y servicio en cualquier puesto.",
     cover: "covers/lider-sin-cargo.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b405_el-lider-que-no-tenia-cargo-robin-sharma.pdf",
     downloads: 310,
@@ -588,20 +588,20 @@ const BOOKS = [
       vibe: "Motivador & Cálido",
       keyConcepts: ["Liderazgo Interior", "Excelencia sin Excusas", "Influencia sin Autoridad", "maestría Diaria"],
       targetAudience: "Empleados, mandos intermedios y profesionales que desean inspirar a su entorno sin esperar permisos.",
-      aiSummary: "Filosofía para liderar desde cualquier posiciï¿½n aportando valor incondicional a la organización."
+      aiSummary: "Filosofía para liderar desde cualquier posición aportando valor incondicional a la organización."
     }
   },
   {
     id: 406,
-    title: "La Estrategia del Ocï¿½ano Azul",
-    author: "W. Chan Kim & Renï¿½e Mauborgne",
+    title: "La Estrategia del Océano Azul",
+    author: "W. Chan Kim & Renée Mauborgne",
     category: "Liderazgo & Estrategia",
     collection: "Bestsellers",
     format: "pdf",
     year: 2015,
     language: "Español",
     pages: 330,
-    description: "El libro que transformï¿½ el pensamiento corporativo mundial. Demuestra por quï¿½ competir en mercados saturados (ocï¿½anos rojos) es desgastante y enseï¿½a a crear espacios de mercado vï¿½rgenes (ocï¿½anos azules) donde la competencia se vuelve irrelevante mediante la innovación en valor.",
+    description: "El libro que transformó el pensamiento corporativo mundial. Demuestra por qué competir en mercados saturados (océanos rojos) es desgastante y enseña a crear espacios de mercado vírgenes (océanos azules) donde la competencia se vuelve irrelevante mediante la innovación en valor.",
     cover: "covers/estrategia-oceano-azul.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b406_la-estrategia-del-oceano-azul.pdf",
     downloads: 375,
@@ -609,14 +609,14 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Estrategia Empresarial",
       vibe: "Revolucionario & Metódico",
-      keyConcepts: ["Ocï¿½ano Azul", "innovación en Valor", "Eliminar-Reducir-Incrementar-Crear", "Diferenciaciï¿½n"],
-      targetAudience: "Emprendedores, directores generales y diseï¿½adores de nuevos modelos de negocio.",
-      aiSummary: "Metodologï¿½a probada para inventar mercados desprovistos de competidores y generar crecimiento veloz."
+      keyConcepts: ["Océano Azul", "innovación en Valor", "Eliminar-Reducir-Incrementar-Crear", "Diferenciación"],
+      targetAudience: "Emprendedores, directores generales y diseñadores de nuevos modelos de negocio.",
+      aiSummary: "Metodología probada para inventar mercados desprovistos de competidores y generar crecimiento veloz."
     }
   },
   {
     id: 407,
-    title: "Sprint: El mï¿½todo para resolver problemas y testar ideas en 5 dï¿½as",
+    title: "Sprint: El método para resolver problemas y testar ideas en 5 días",
     author: "Jake Knapp",
     category: "Liderazgo & Estrategia",
     collection: "innovación",
@@ -624,16 +624,16 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 290,
-    description: "Creado en Google Ventures y probado en más de cien startups (como Uber, Slack y Blue Bottle), el proceso Design Sprint comprime meses de deliberaciï¿½n en una sola semana de prototipado rï¿½pido y validaciï¿½n directa con usuarios reales.",
+    description: "Creado en Google Ventures y probado en más de cien startups (como Uber, Slack y Blue Bottle), el proceso Design Sprint comprime meses de deliberación en una sola semana de prototipado rápido y validación directa con usuarios reales.",
     cover: "covers/sprint-jake-knapp.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b407_el-arte-de-cerrar-la-venta-brian-tracy.pdf",
     downloads: 295,
     featured: false,
     aiAnalysis: {
-      genre: "Design Sprint & Metodologï¿½as Ágiles",
+      genre: "Design Sprint & Metodologías Ágiles",
       vibe: "Ágil & Eficaz",
-      keyConcepts: ["Prototipado Rï¿½pido", "5 Dï¿½as de Trabajo", "Testeo con Usuarios", "Decisiones Colectivas"],
-      targetAudience: "Equipos de producto, diseï¿½adores UX y fundadores que necesitan validar hipï¿½tesis velozmente.",
+      keyConcepts: ["Prototipado Rápido", "5 Días de Trabajo", "Testeo con Usuarios", "Decisiones Colectivas"],
+      targetAudience: "Equipos de producto, diseñadores UX y fundadores que necesitan validar hipótesis velozmente.",
       aiSummary: "El proceso paso a paso de Google para validar ideas millonarias en apenas cinco jornadas de trabajo."
     }
   },
@@ -647,7 +647,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 250,
-    description: "Con prï¿½logo de Robert Kiyosaki, Blair Singer clasifica a los comerciales en cinco razas caninas (Pit Bull, Golden Retriever, Caniche, Chihuahua y Basset Hound) para que descubras tu estilo natural de venta y desarrolles las destrezas de un cerrador legendario.",
+    description: "Con prólogo de Robert Kiyosaki, Blair Singer clasifica a los comerciales en cinco razas caninas (Pit Bull, Golden Retriever, Caniche, Chihuahua y Basset Hound) para que descubras tu estilo natural de venta y desarrolles las destrezas de un cerrador legendario.",
     cover: "covers/vendedores-perros.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b501_vendedores-perros-blair-singer.pdf",
     downloads: 410,
@@ -655,9 +655,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "técnicas de Cierre & Psicología Comercial",
       vibe: "Enérgico & Pragmático",
-      keyConcepts: ["Razas de Ventas", "Manejo de Objeciones", "energía Comercial", "Fidelizaciï¿½n"],
-      targetAudience: "Vendedores, agentes inmobiliarios y autï¿½nomos que buscan maximizar sus conversiones.",
-      aiSummary: "Enfoque dinï¿½mico para explotar tus fortalezas innatas y convertirte en una fiera del cierre comercial."
+      keyConcepts: ["Razas de Ventas", "Manejo de Objeciones", "energía Comercial", "Fidelización"],
+      targetAudience: "Vendedores, agentes inmobiliarios y autónomos que buscan maximizar sus conversiones.",
+      aiSummary: "Enfoque dinámico para explotar tus fortalezas innatas y convertirte en una fiera del cierre comercial."
     }
   },
   {
@@ -670,7 +670,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 310,
-    description: "El principal negociador internacional de rehenes del FBI revela las técnicas de empatía tï¿½ctica, escucha calibrada y preguntas abiertas que salvan vidas y permiten ganar cualquier negociación comercial o cotidiana sin ceder terreno.",
+    description: "El principal negociador internacional de rehenes del FBI revela las técnicas de empatía táctica, escucha calibrada y preguntas abiertas que salvan vidas y permiten ganar cualquier negociación comercial o cotidiana sin ceder terreno.",
     cover: "covers/rompe-barrera-del-no.jpg",
     epub: "pdfs/epubs/rompe-la-barrera-del-no-chris-voss.epub",
     downloads: 385,
@@ -678,9 +678,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "negociación de Alto Riesgo",
       vibe: "Táctico & Fascinante",
-      keyConcepts: ["empatía Tï¿½ctica", "Espejo Verbal", "Preguntas Calibradas", "La Voz del Locutor Nocturno"],
+      keyConcepts: ["empatía Táctica", "Espejo Verbal", "Preguntas Calibradas", "La Voz del Locutor Nocturno"],
       targetAudience: "Negociadores, empresarios y cualquier persona que enfrente conversaciones cruciales.",
-      aiSummary: "Tï¿½cticas Psicológicas del FBI para inclinar la balanza a tu favor en cualquier discusiï¿½n o trato."
+      aiSummary: "Tácticas Psicológicas del FBI para inclinar la balanza a tu favor en cualquier discusión o trato."
     }
   },
   {
@@ -693,7 +693,7 @@ const BOOKS = [
     year: 2014,
     language: "Español",
     pages: 160,
-    description: "Grant Cardone defiende que la venta no es solo un empleo, sino un requisito indispensable para la vida. Quien no sabe vender sus ideas, su talento o sus proyectos, termina comprado por las ideas de los demï¿½s.",
+    description: "Grant Cardone defiende que la venta no es solo un empleo, sino un requisito indispensable para la vida. Quien no sabe vender sus ideas, su talento o sus proyectos, termina comprado por las ideas de los demás.",
     cover: "covers/vendes-o-vendes.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b502_vendes-o-vendes-grant-cardone.pdf",
     downloads: 330,
@@ -701,14 +701,14 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Mentalidad Comercial 10X",
       vibe: "Agresivo & Motivador",
-      keyConcepts: ["Todo es una Venta", "Convicciï¿½n Absoluta", "Manejo del Rechazo", "Acción Masiva"],
-      targetAudience: "Vendedores, agentes y dueï¿½os de negocio que necesitan hambre de victoria comercial.",
+      keyConcepts: ["Todo es una Venta", "Convicción Absoluta", "Manejo del Rechazo", "Acción Masiva"],
+      targetAudience: "Vendedores, agentes y dueños de negocio que necesitan hambre de victoria comercial.",
       aiSummary: "Discurso Enérgico para asumir que tu éxito depende de tu capacidad para convencer a otros."
     }
   },
   {
     id: 504,
-    title: "Vender es Humano: La sorprendente verdad sobre cómo mover a los demï¿½s",
+    title: "Vender es Humano: La sorprendente verdad sobre cómo mover a los demás",
     author: "Daniel H. Pink",
     category: "Marketing & Ventas",
     collection: "Psicología Comercial",
@@ -716,30 +716,30 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 270,
-    description: "Basado en estudios Científicos y sociológicos, Pink demuestra que hoy en dï¿½a uno de cada nueve trabajadores estï¿½ en ventas, pero los otros ocho pasan sus jornadas convenciendo, persuadiendo e influyendo a otros. Presenta las tres nuevas reglas: sintonï¿½a, flotabilidad y claridad.",
+    description: "Basado en estudios Científicos y sociológicos, Pink demuestra que hoy en día uno de cada nueve trabajadores está en ventas, pero los otros ocho pasan sus jornadas convenciendo, persuadiendo e influyendo a otros. Presenta las tres nuevas reglas: sintonía, flotabilidad y claridad.",
     cover: "covers/vender-es-humano.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b504_vender-es-humano-daniel-pink.pdf",
     downloads: 295,
     featured: false,
     aiAnalysis: {
-      genre: "Sociologï¿½a de la Persuasiï¿½n",
+      genre: "Sociología de la Persuasión",
       vibe: "Inteligente & Elegante",
-      keyConcepts: ["Sintonï¿½a con el Cliente", "Flotabilidad ante el No", "Claridad de Problema", "Mover a Otros"],
+      keyConcepts: ["Sintonía con el Cliente", "Flotabilidad ante el No", "Claridad de Problema", "Mover a Otros"],
       targetAudience: "Profesionales modernos que desean influir con honestidad y rigor Psicológico.",
-      aiSummary: "Una reinterpretaciï¿½n ï¿½tica de la venta como un acto genuino de comprensiï¿½n humana."
+      aiSummary: "Una reinterpretación ética de la venta como un acto genuino de comprensión humana."
     }
   },
   {
     id: 505,
-    title: "ï¿½Hazlo! (Poke the Box)",
+    title: "¡Hazlo! (Poke the Box)",
     author: "Seth Godin",
     category: "Libros en Inglés",
     collection: "Iniciativa",
     format: "pdf",
     year: 2012,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 100,
-    description: "Un manifiesto electrizante sobre el poder de tomar la iniciativa. Godin nos reta a dejar de esperar ï¿½rdenes, superar el miedo al quï¿½ dirï¿½n y lanzarnos al ruedo con curiosidad indomable.",
+    description: "Un manifiesto electrizante sobre el poder de tomar la iniciativa. Godin nos reta a dejar de esperar órdenes, superar el miedo al qué dirán y lanzarnos al ruedo con curiosidad indomable.",
     cover: "covers/hazlo-seth-godin.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b505_hazlo-seth-godin.pdf",
     downloads: 320,
@@ -747,14 +747,14 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Business & Strategy (English)",
       vibe: "Provocador & Conciso",
-      keyConcepts: ["Tomar la Iniciativa", "Vencer el Miedo al Fracaso", "Experimentaciï¿½n Continua", "Lanzar"],
-      targetAudience: "Personas atrapadas en la parï¿½lisis por Análisis que necesitan un empujï¿½n para actuar.",
+      keyConcepts: ["Tomar la Iniciativa", "Vencer el Miedo al Fracaso", "Experimentación Continua", "Lanzar"],
+      targetAudience: "Personas atrapadas en la parálisis por Análisis que necesitan un empujón para actuar.",
       aiSummary: "Llamado a la acción visceral para atreverte a empezar tus proyectos sin pedir permiso a nadie."
     }
   },
   {
     id: 506,
-    title: "Tribus: Necesitamos que tï¿½ nos lideres",
+    title: "Tribus: Necesitamos que tú nos lideres",
     author: "Seth Godin",
     category: "Marketing & Ventas",
     collection: "Comunidad & Marketing",
@@ -762,7 +762,7 @@ const BOOKS = [
     year: 2013,
     language: "Español",
     pages: 150,
-    description: "Internet ha pulverizado las barreras geogrï¿½ficas, permitiendo que florezcan miles de tribus unidas por ideas y pasiones compartidas. Seth Godin demuestra que el marketing moderno no consiste en gritar a la masa, sino en conectar y liderar a tu tribu.",
+    description: "Internet ha pulverizado las barreras geográficas, permitiendo que florezcan miles de tribus unidas por ideas y pasiones compartidas. Seth Godin demuestra que el marketing moderno no consiste en gritar a la masa, sino en conectar y liderar a tu tribu.",
     cover: "covers/tribus-seth-godin.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b506_tribus-seth-godin.pdf",
     downloads: 310,
@@ -770,14 +770,14 @@ const BOOKS = [
     aiAnalysis: {
       genre: "creación de Comunidades",
       vibe: "Visionario & Inspirador",
-      keyConcepts: ["creación de Tribus", "Liderazgo Comunitario", "Pasión Compartida", "conexión Autï¿½ntica"],
+      keyConcepts: ["creación de Tribus", "Liderazgo Comunitario", "Pasión Compartida", "conexión Auténtica"],
       targetAudience: "Creadores de contenido, activistas y marcas que desean construir una base leal de seguidores.",
-      aiSummary: "Las claves para articular movimientos y reunir a personas apasionadas alrededor de un propï¿½sito comï¿½n."
+      aiSummary: "Las claves para articular movimientos y reunir a personas apasionadas alrededor de un propósito común."
     }
   },
   {
     id: 601,
-    title: "Una Vida sin Lï¿½mites",
+    title: "Una Vida sin Límites",
     author: "Nick Vujicic",
     category: "Crecimiento Personal",
     collection: "Superación",
@@ -785,7 +785,7 @@ const BOOKS = [
     year: 2012,
     language: "Español",
     pages: 280,
-    description: "Nacido sin brazos ni piernas debido al síndrome de focomelia, Nick Vujicic comparte su testimonio conmovedor de cómo transformï¿½ el desespero en una vida de propï¿½sito extraordinario, amor incondicional y fe inquebrantable.",
+    description: "Nacido sin brazos ni piernas debido al síndrome de focomelia, Nick Vujicic comparte su testimonio conmovedor de cómo transformó el desespero en una vida de propósito extraordinario, amor incondicional y fe inquebrantable.",
     cover: "covers/vida-sin-limites.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b601_una-vida-sin-limites-nick-vujicic.pdf",
     downloads: 360,
@@ -793,7 +793,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Superación & Testimonio Real",
       vibe: "Conmovedor & Esperanzador",
-      keyConcepts: ["Gratitud Incondicional", "Propï¿½sito Mayor", "Resiliencia Extrema", "Fe"],
+      keyConcepts: ["Gratitud Incondicional", "Propósito Mayor", "Resiliencia Extrema", "Fe"],
       targetAudience: "Cualquier persona que enfrente adversidades graves y necesite renovar su amor por la vida.",
       aiSummary: "lección magistral de coraje y gratitud ante dificultades físicas y emocionales aparentemente insuperables."
     }
@@ -808,7 +808,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 350,
-    description: "El reconocido neuroCientífico Facundo Manes desvela los misterios de la toma de decisiones, la inteligencia colectiva, el impacto del optimismo en la longevidad y cómo el conocimiento de la mente nos ayuda a vivir con mayor plenitud.",
+    description: "El reconocido neurocientífico Facundo Manes desvela los misterios de la toma de decisiones, la inteligencia colectiva, el impacto del optimismo en la longevidad y cómo el conocimiento de la mente nos ayuda a vivir con mayor plenitud.",
     cover: "covers/usar-el-cerebro.jpeg",
     epub: "pdfs/epubs/usar-el-cerebro-facundo-manes.epub",
     downloads: 320,
@@ -818,7 +818,7 @@ const BOOKS = [
       vibe: "Cálido & Didáctico",
       keyConcepts: ["Toma de Decisiones", "Inteligencia Emocional", "Optimismo Biológico", "Salud Cerebral"],
       targetAudience: "Lectores interesados en aplicar los hallazgos de la neurociencia al bienestar cotidiano.",
-      aiSummary: "Explicaciï¿½n amena de cómo los descubrimientos cerebrales mejoran nuestra calidad de vida diaria."
+      aiSummary: "Explicación amena de cómo los descubrimientos cerebrales mejoran nuestra calidad de vida diaria."
     }
   },
   {
@@ -831,7 +831,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 400,
-    description: "Tras el impacto colosal de Sapiens y Homo Deus, el historiador Harari enfoca su mirada en los desafï¿½os urgentes del presente: la disrupciï¿½n de la inteligencia artificial, las noticias falsas, la crisis climï¿½tica, la pï¿½rdida de empleo y el sentido de la verdad.",
+    description: "Tras el impacto colosal de Sapiens y Homo Deus, el historiador Harari enfoca su mirada en los desafíos urgentes del presente: la disrupción de la inteligencia artificial, las noticias falsas, la crisis climática, la pérdida de empleo y el sentido de la verdad.",
     cover: "covers/21-lecciones-siglo-xxi.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b602_21-lecciones-siglo-xxi-yuval-harari.pdf",
     downloads: 390,
@@ -839,22 +839,22 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Filosofía Global & Ensayo",
       vibe: "Lúcido & Urgente",
-      keyConcepts: ["Algoritmos e IA", "Posverdad", "Desafï¿½o Climï¿½tico", "meditación y Claridad"],
+      keyConcepts: ["Algoritmos e IA", "Posverdad", "Desafío Climático", "meditación y Claridad"],
       targetAudience: "Ciudadanos conscientes, pensadores y estudiantes de la encrucijada tecnológica y social.",
-      aiSummary: "Brillante mapa de orientaciï¿½n para no perderse en el caos informativo y tecnológico de nuestro tiempo."
+      aiSummary: "Brillante mapa de orientación para no perderse en el caos informativo y tecnológico de nuestro tiempo."
     }
   },
   {
     id: 604,
-    title: "sílvese Quien Pueda: El futuro del trabajo en la era de la automatizaciï¿½n",
-    author: "Andrï¿½s Oppenheimer",
+    title: "Sálvese Quien Pueda: El futuro del trabajo en la era de la automatización",
+    author: "Andrés Oppenheimer",
     category: "Crecimiento Personal",
     collection: "Futuro del Empleo",
     format: "epub",
     year: 2018,
     language: "Español",
     pages: 360,
-    description: "Una investigaciï¿½n periodï¿½stica de alcance mundial en Silicon Valley, Japï¿½n y Europa sobre quï¿½ profesiones sobrevivirï¿½n a la robï¿½tica y la inteligencia artificial y cómo reinventarse para no quedar obsoleto.",
+    description: "Una investigación periodística de alcance mundial en Silicon Valley, Japón y Europa sobre qué profesiones sobrevivirán a la robótica y la inteligencia artificial y cómo reinventarse para no quedar obsoleto.",
     cover: "covers/salvese-quien-pueda.jpg",
     epub: "pdfs/epubs/salvese-quien-pueda-andres-oppenheimer.epub",
     downloads: 305,
@@ -862,14 +862,14 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Prospectiva Laboral & Tecnología",
       vibe: "Alerta & Revelador",
-      keyConcepts: ["Automatizaciï¿½n Laboral", "Reinvenciï¿½n Profesional", "Habilidades Blandas", "Futuro de los Oficios"],
-      targetAudience: "Trabajadores, docentes y jï¿½venes que necesitan planificar su futuro profesional con visión.",
-      aiSummary: "Radiografï¿½a de las profesiones amenazadas por la IA y las habilidades humanas que serán insustituibles."
+      keyConcepts: ["Automatización Laboral", "Reinvención Profesional", "Habilidades Blandas", "Futuro de los Oficios"],
+      targetAudience: "Trabajadores, docentes y jóvenes que necesitan planificar su futuro profesional con visión.",
+      aiSummary: "Radiografía de las profesiones amenazadas por la IA y las habilidades humanas que serán insustituibles."
     }
   },
   {
     id: 605,
-    title: "ï¿½Quï¿½ Harï¿½as si no Tuvieras Miedo?",
+    title: "¿Qué Harías si no Tuvieras Miedo?",
     author: "Borja Vilaseca",
     category: "Crecimiento Personal",
     collection: "Desarrollo Personal",
@@ -877,7 +877,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 220,
-    description: "Vilaseca cuestiona el viejo paradigma de la educación industrial, el empleo seguro y el miedo al cambio, proponiendo una transiciï¿½n hacia el autoconocimiento, la vocación genuina y la reinvenciï¿½n como profesional libre.",
+    description: "Vilaseca cuestiona el viejo paradigma de la educación industrial, el empleo seguro y el miedo al cambio, proponiendo una transición hacia el autoconocimiento, la vocación genuina y la reinvención como profesional libre.",
     cover: "covers/que-harias-sin-miedo.jpeg",
     epub: "pdfs/epubs/que-harias-si-no-tuvieras-miedo-borja-vilaseca.epub",
     downloads: 315,
@@ -885,14 +885,14 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Autoconocimiento & Libertad Financiera",
       vibe: "Desafiante & Liberador",
-      keyConcepts: ["Vencer el Miedo", "vocación Autï¿½ntica", "Reinvenciï¿½n Laboral", "Mentalidad Abundante"],
+      keyConcepts: ["Vencer el Miedo", "vocación Auténtica", "Reinvención Laboral", "Mentalidad Abundante"],
       targetAudience: "Personas inconformes con su empleo tradicional que anhelan alinear su vocación con sus ingresos.",
-      aiSummary: "Invitaciï¿½n radical a superar condicionamientos heredados y diseï¿½ar una vida alineada con tu verdad."
+      aiSummary: "Invitación radical a superar condicionamientos heredados y diseñar una vida alineada con tu verdad."
     }
   },
   {
     id: 101,
-    title: "El Cerebro: Descifrar y potenciar nuestro ï¿½rgano más complejo",
+    title: "El Cerebro: Descifrar y potenciar nuestro órgano más complejo",
     author: "National Geographic",
     category: "Neurociencia & Mente",
     collection: "National Geographic",
@@ -900,17 +900,17 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 144,
-    description: "Una expedición Científica fascinante al interior del ï¿½rgano más sofisticado del universo conocido. Analiza cómo 86.000 millones de neuronas orquestan la percepciï¿½n, el pensamiento y la consciencia humana.",
+    description: "Una expedición Científica fascinante al interior del órgano más sofisticado del universo conocido. Analiza cómo 86.000 millones de neuronas orquestan la percepción, el pensamiento y la consciencia humana.",
     cover: "covers/01-el-cerebro.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b604_01-el-cerebro.pdf",
     downloads: 312,
     featured: true,
     aiAnalysis: {
-      genre: "Neuroanatomï¿½a & Ciencias Cognitivas",
+      genre: "Neuroanatomía & Ciencias Cognitivas",
       vibe: "Científico & Esclarecedor",
-      keyConcepts: ["86 Mil Millones de Neuronas", "Corteza Cerebral", "Mapeo Cerebral", "Bioquï¿½mica Sinï¿½ptica"],
+      keyConcepts: ["86 Mil Millones de Neuronas", "Corteza Cerebral", "Mapeo Cerebral", "Bioquímica Sináptica"],
       targetAudience: "Estudiantes, divulgadores y lectores que desean comprender la estructura del cerebro.",
-      aiSummary: "Exposiciï¿½n integral de la arquitectura cerebral humana y las fronteras de la investigaciï¿½n actual."
+      aiSummary: "Exposición integral de la arquitectura cerebral humana y las fronteras de la investigación actual."
     }
   },
   {
@@ -923,22 +923,22 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 141,
-    description: "cómo codifica, almacena y reconstruye el cerebro nuestros recuerdos. Desde el papel esencial del hipocampo y la corteza hasta la plasticidad sinï¿½ptica y la función biológica del olvido.",
+    description: "cómo codifica, almacena y reconstruye el cerebro nuestros recuerdos. Desde el papel esencial del hipocampo y la corteza hasta la plasticidad sináptica y la función biológica del olvido.",
     cover: "covers/02-la-memoria.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b102_02-la-memoria.pdf",
     downloads: 275,
     featured: true,
     aiAnalysis: {
-      genre: "Neurobiologï¿½a de la Memoria",
+      genre: "Neurobiología de la Memoria",
       vibe: "Profundo & Fascinante",
-      keyConcepts: ["Hipocampo", "Memoria a Largo Plazo", "Consolidaciï¿½n Sinï¿½ptica", "Enagramas"],
-      targetAudience: "Interesados en optimizar su capacidad de retenciï¿½n y comprender la huella del pasado.",
+      keyConcepts: ["Hipocampo", "Memoria a Largo Plazo", "Consolidación Sináptica", "Enagramas"],
+      targetAudience: "Interesados en optimizar su capacidad de retención y comprender la huella del pasado.",
       aiSummary: "Análisis exhaustivo de cómo el cerebro archiva y recrea las experiencias vitales que definen el yo."
     }
   },
   {
     id: 103,
-    title: "La Conciencia: La más enigmï¿½tica de las funciones cerebrales",
+    title: "La Conciencia: La más enigmática de las funciones cerebrales",
     author: "National Geographic",
     category: "Tecnología & Futuro",
     collection: "National Geographic",
@@ -946,22 +946,22 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 141,
-    description: "ï¿½cómo emergen las experiencias subjetivas, los colores y las emociones a partir de impulsos electroQuímicos? Este volumen aborda el 'problema difácil' de la ciencia y los lï¿½mites de la mente y la IA.",
+    description: "¿Cómo emergen las experiencias subjetivas, los colores y las emociones a partir de impulsos electroquímicos? Este volumen aborda el 'problema difícil' de la ciencia y los límites de la mente y la IA.",
     cover: "covers/03-la-conciencia.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b103_03-la-conciencia.pdf",
     downloads: 240,
     featured: true,
     aiAnalysis: {
-      genre: "NeuroFilosofía & Ciencias de la Mente",
+      genre: "Neurofilosofía & Ciencias de la Mente",
       vibe: "Reflexivo & Trascendental",
-      keyConcepts: ["Experiencia Subjetiva", "Qualia", "Libre Albedrï¿½o", "Espacio Global"],
-      targetAudience: "Mentes curiosas atraï¿½das por el enigma de la existencia consciente y la inteligencia artificial.",
-      aiSummary: "Indagaciï¿½n Científica y Filosófica sobre el origen biológico de la percepciï¿½n consciente del yo."
+      keyConcepts: ["Experiencia Subjetiva", "Qualia", "Libre Albedrío", "Espacio Global"],
+      targetAudience: "Mentes curiosas atraídas por el enigma de la existencia consciente y la inteligencia artificial.",
+      aiSummary: "Indagación Científica y Filosófica sobre el origen biológico de la percepción consciente del yo."
     }
   },
   {
     id: 104,
-    title: "La Edad del Cerebro: ï¿½Se puede frenar el envejecimiento del cerebro?",
+    title: "La Edad del Cerebro: ¿Se puede frenar el envejecimiento del cerebro?",
     author: "National Geographic",
     category: "Salud & Longevidad",
     collection: "National Geographic",
@@ -975,9 +975,9 @@ const BOOKS = [
     downloads: 198,
     featured: false,
     aiAnalysis: {
-      genre: "Neurogerontologï¿½a & Longevidad",
+      genre: "Neurogerontología & Longevidad",
       vibe: "Preventivo & Práctico",
-      keyConcepts: ["Reserva Cognitiva", "Envejecimiento Saludable", "Neurogï¿½nesis Adulta", "Estilo de Vida"],
+      keyConcepts: ["Reserva Cognitiva", "Envejecimiento Saludable", "Neurogénesis Adulta", "Estilo de Vida"],
       targetAudience: "Adultos de cualquier edad que buscan blindar su salud cerebral frente al paso del tiempo.",
       aiSummary: "Pautas basadas en evidencia para estimular la plasticidad y preservar las capacidades en la vejez."
     }
@@ -992,22 +992,22 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 61,
-    description: "Lejos de ser obstï¿½culos a la razï¿½n, las emociones son herramientas adaptativas cruciales. Este libro desvela el funcionamiento del sistema lï¿½mbico, la amï¿½gdala y la quémica del afecto humano.",
+    description: "Lejos de ser obstáculos a la razón, las emociones son herramientas adaptativas cruciales. Este libro desvela el funcionamiento del sistema límbico, la amígdala y la química del afecto humano.",
     cover: "covers/05-las-emociones.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b105_05-las-emociones.pdf",
     downloads: 215,
     featured: false,
     aiAnalysis: {
-      genre: "Neurobiologï¿½a Emocional",
+      genre: "Neurobiología Emocional",
       vibe: "Empático & Analítico",
-      keyConcepts: ["Sistema Lï¿½mbico", "Amï¿½gdala Cerebral", "Regulaciï¿½n Afectiva", "Marcador Somï¿½tico"],
+      keyConcepts: ["Sistema Límbico", "Amígdala Cerebral", "Regulación Afectiva", "Marcador Somático"],
       targetAudience: "Lectores interesados en el autoconocimiento emocional y las bases fisiológicas de la conducta.",
-      aiSummary: "Demuestra por quï¿½ la inteligencia emocional depende de la interacción balanceada entre emoción y razï¿½n."
+      aiSummary: "Demuestra por qué la inteligencia emocional depende de la interacción balanceada entre emoción y razón."
     }
   },
   {
     id: 106,
-    title: "La Naturaleza del sueño: ï¿½Quï¿½ ocurre en el cerebro mientras dormimos?",
+    title: "La Naturaleza del sueño: ¿Qué ocurre en el cerebro mientras dormimos?",
     author: "National Geographic",
     category: "Salud & Longevidad",
     collection: "National Geographic",
@@ -1015,22 +1015,22 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 56,
-    description: "El sueño no es un estado inerte, sino una fase de intensa calibraciï¿½n metabï¿½lica. National Geographic examina los ritmos circadianos, las fases REM y el sistema glinfï¿½tico de limpieza de residuos tï¿½xicos.",
+    description: "El sueño no es un estado inerte, sino una fase de intensa calibración metabólica. National Geographic examina los ritmos circadianos, las fases REM y el sistema glinfático de limpieza de residuos tóxicos.",
     cover: "covers/06-la-naturaleza-del-sueno.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b106_06-la-naturaleza-del-sueno.pdf",
     downloads: 230,
     featured: false,
     aiAnalysis: {
-      genre: "Neurobiologï¿½a del Descanso",
+      genre: "Neurobiología del Descanso",
       vibe: "Regenerador & Revelador",
-      keyConcepts: ["Fases REM", "Sistema Glinfï¿½tico", "Ritmo Circadiano", "Consolidaciï¿½n de Memoria"],
-      targetAudience: "Personas buscando optimizar su descanso, rendimiento mental y salud metabï¿½lica integral.",
-      aiSummary: "Explica cómo dormir adecuadamente desintoxica el cerebro y consolida los aprendizajes del dï¿½a."
+      keyConcepts: ["Fases REM", "Sistema Glinfático", "Ritmo Circadiano", "Consolidación de Memoria"],
+      targetAudience: "Personas buscando optimizar su descanso, rendimiento mental y salud metabólica integral.",
+      aiSummary: "Explica cómo dormir adecuadamente desintoxica el cerebro y consolida los aprendizajes del día."
     }
   },
   {
     id: 107,
-    title: "La Neurociencia del Aprendizaje: La construcciï¿½n del cerebro por la experiencia",
+    title: "La Neurociencia del Aprendizaje: La construcción del cerebro por la experiencia",
     author: "National Geographic",
     category: "Tecnología & Futuro",
     collection: "National Geographic",
@@ -1038,22 +1038,22 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 51,
-    description: "El aprendizaje físico de la red sinï¿½ptica. Descubre los mecanismos de la potenciaciï¿½n a largo plazo, la atención focalizada y las estrategias más eficaces para adquirir nuevas destrezas.",
+    description: "El aprendizaje físico de la red sináptica. Descubre los mecanismos de la potenciación a largo plazo, la atención focalizada y las estrategias más eficaces para adquirir nuevas destrezas.",
     cover: "covers/07-la-neurociencia-del-aprendizaje.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b107_07-la-neurociencia-del-aprendizaje.pdf",
     downloads: 260,
     featured: false,
     aiAnalysis: {
-      genre: "Neuroeducación & Cogniciï¿½n",
+      genre: "Neuroeducación & Cognición",
       vibe: "Formativo & Aplicado",
-      keyConcepts: ["Potenciaciï¿½n a Largo Plazo", "Atención Selectiva", "Adquisiciï¿½n de Destrezas", "Plasticidad"],
+      keyConcepts: ["Potenciación a Largo Plazo", "Atención Selectiva", "Adquisición de Destrezas", "Plasticidad"],
       targetAudience: "Educadores, autodidactas y profesionales enfocados en maximizar su aprendizaje.",
       aiSummary: "Claves de la neurociencia para estructurar sesiones de estudio y asimilar conocimientos velozmente."
     }
   },
   {
     id: 108,
-    title: "El Futuro del Alzhï¿½imer: Vencer el olvido",
+    title: "El Futuro del Alzheimer: Vencer el olvido",
     author: "National Geographic",
     category: "Salud & Longevidad",
     collection: "National Geographic",
@@ -1061,7 +1061,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 56,
-    description: "Un Análisis riguroso sobre las lï¿½neas de investigaciï¿½n más prometedoras contra el alzhï¿½imer: placas de proteï¿½na beta-amiloide, ovillos tau, diagnï¿½stico precoz por biomarcadores e inmunoterapia.",
+    description: "Un Análisis riguroso sobre las líneas de investigación más prometedoras contra el alzheimer: placas de proteína beta-amiloide, ovillos tau, diagnóstico precoz por biomarcadores e inmunoterapia.",
     cover: "covers/08-el-futuro-del-alzheimer.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b108_08-el-futuro-del-alzheimer.pdf",
     downloads: 185,
@@ -1069,14 +1069,14 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Medicina Neurológica",
       vibe: "Esperanzador & Científico",
-      keyConcepts: ["Beta-Amiloide", "Proteï¿½na Tau", "Diagnï¿½stico Precoz", "Inmunoterapia Cerebral"],
-      targetAudience: "Familias, profesionales de la salud e investigadores de la prevenciï¿½n del deterioro cognitivo.",
-      aiSummary: "Estado del arte de los tratamientos mï¿½dicos y hábitos de vida que prometen contener el alzhï¿½imer."
+      keyConcepts: ["Beta-Amiloide", "Proteína Tau", "Diagnóstico Precoz", "Inmunoterapia Cerebral"],
+      targetAudience: "Familias, profesionales de la salud e investigadores de la prevención del deterioro cognitivo.",
+      aiSummary: "Estado del arte de los tratamientos médicos y hábitos de vida que prometen contener el alzheimer."
     }
   },
   {
     id: 109,
-    title: "El Cerebro Social: Por quï¿½ estamos diseï¿½ados para conectar con los demï¿½s",
+    title: "El Cerebro Social: Por qué estamos diseñados para conectar con los demás",
     author: "National Geographic",
     category: "Psicología & Conducta",
     collection: "National Geographic",
@@ -1084,7 +1084,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 56,
-    description: "Nuestra especie logrï¿½ sobrevivir gracias a la cooperación comunitaria. Analiza la neuroquímica del apego y la oxitocina, el dolor social en el cerebro y cómo leemos intenciones ajenas.",
+    description: "Nuestra especie logró sobrevivir gracias a la cooperación comunitaria. Analiza la neuroquímica del apego y la oxitocina, el dolor social en el cerebro y cómo leemos intenciones ajenas.",
     cover: "covers/09-el-cerebro-social.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b109_09-el-cerebro-social.pdf",
     downloads: 205,
@@ -1094,7 +1094,7 @@ const BOOKS = [
       vibe: "Conector & Empático",
       keyConcepts: ["Oxitocina", "Dolor Social", "cooperación Humana", "teoría de la Mente"],
       targetAudience: "líderes, comunicadores y personas que buscan comprender la necesidad de pertenencia.",
-      aiSummary: "Evidencias neurológicas de por quï¿½ el bienestar Psicológico estï¿½ ligado a nuestras relaciones."
+      aiSummary: "Evidencias neurológicas de por qué el bienestar Psicológico está ligado a nuestras relaciones."
     }
   },
   {
@@ -1107,7 +1107,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 56,
-    description: "Durante la infancia se construyen los cimientos del pensamiento. Examina la explosiï¿½n de sinapsis en los primeros aï¿½os, los periodos sensibles del lenguaje y el impacto determinante del afecto.",
+    description: "Durante la infancia se construyen los cimientos del pensamiento. Examina la explosión de sinapsis en los primeros años, los periodos sensibles del lenguaje y el impacto determinante del afecto.",
     cover: "covers/10-el-cerebro-infantil.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b110_10-el-cerebro-infantil.pdf",
     downloads: 190,
@@ -1115,9 +1115,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Neurodesarrollo & Crianza",
       vibe: "Sensible & Esclarecedor",
-      keyConcepts: ["Periodos críticos", "Sinaptogï¿½nesis", "Estimulaciï¿½n Temprana", "Vï¿½nculo Seguro"],
-      targetAudience: "Padres, pedagogos y psicï¿½logos infantiles comprometidos con el desarrollo en la niï¿½ez.",
-      aiSummary: "Manual esencial sobre cómo el entorno y la afectividad moldean el cerebro en sus etapas plï¿½sticas."
+      keyConcepts: ["Periodos críticos", "Sinaptogénesis", "Estimulación Temprana", "Vínculo Seguro"],
+      targetAudience: "Padres, pedagogos y psicólogos infantiles comprometidos con el desarrollo en la niñez.",
+      aiSummary: "Manual esencial sobre cómo el entorno y la afectividad moldean el cerebro en sus etapas plásticas."
     }
   },
   {
@@ -1130,7 +1130,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 56,
-    description: "ï¿½Quï¿½ ocurre en la corteza cerebral cuando surge una idea original? National Geographic explora el diï¿½logo entre la red por defecto, el pensamiento divergente y el estado de flujo (flow).",
+    description: "¿Qué ocurre en la corteza cerebral cuando surge una idea original? National Geographic explora el diálogo entre la red por defecto, el pensamiento divergente y el estado de flujo (flow).",
     cover: "covers/11-el-cerebro-creativo.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b111_11-el-cerebro-creativo.pdf",
     downloads: 295,
@@ -1145,7 +1145,7 @@ const BOOKS = [
   },
   {
     id: 112,
-    title: "La Plasticidad Cerebral: ï¿½Somos arquitectos de nuestro propio cerebro?",
+    title: "La Plasticidad Cerebral: ¿Somos arquitectos de nuestro propio cerebro?",
     author: "National Geographic",
     category: "Neurociencia & Mente",
     collection: "National Geographic",
@@ -1153,7 +1153,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 51,
-    description: "La demostraciï¿½n de que el cerebro es un ï¿½rgano maleable. Examina la recuperaciï¿½n motora tras lesiones, adaptaciï¿½n en másicos y la capacidad de remodelar sinapsis mediante el entrenamiento.",
+    description: "La demostración de que el cerebro es un órgano maleable. Examina la recuperación motora tras lesiones, adaptación en músicos y la capacidad de remodelar sinapsis mediante el entrenamiento.",
     cover: "covers/12-la-plasticidad-cerebral.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b112_12-la-plasticidad-cerebral.pdf",
     downloads: 320,
@@ -1161,9 +1161,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Neuroplasticidad Funcional",
       vibe: "Empoderador & Científico",
-      keyConcepts: ["Remodelaciï¿½n Sinï¿½ptica", "Recuperaciï¿½n Neuronal", "Práctica Deliberada", "Cerebro Maleable"],
+      keyConcepts: ["Remodelación Sináptica", "Recuperación Neuronal", "Práctica Deliberada", "Cerebro Maleable"],
       targetAudience: "Cualquier persona que desee romper viejos hábitos y reprogramar sus facultades mentales.",
-      aiSummary: "La prueba Científica definitiva de que nunca es tarde para transformar la configuraciï¿½n de nuestra mente."
+      aiSummary: "La prueba Científica definitiva de que nunca es tarde para transformar la configuración de nuestra mente."
     }
   },
   {
@@ -1176,17 +1176,17 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 51,
-    description: "Una crï¿½nica evolutiva que explica cómo simples redes nerviosas dieron paso al encï¿½falo humano. Aborda el coste metabï¿½lico de la encefalizaciï¿½n, el uso de herramientas y las presiones evolutivas.",
+    description: "Una crónica evolutiva que explica cómo simples redes nerviosas dieron paso al encéfalo humano. Aborda el coste metabólico de la encefalización, el uso de herramientas y las presiones evolutivas.",
     cover: "covers/13-la-evolucion-del-cerebro.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b113_13-la-evolucion-del-cerebro.pdf",
     downloads: 175,
     featured: false,
     aiAnalysis: {
-      genre: "Antropologï¿½a & evolución Biológica",
+      genre: "Antropología & evolución Biológica",
       vibe: "Histórico & Riguroso",
-      keyConcepts: ["Hominizaciï¿½n", "Cï¿½rtex Prefrontal", "Presiï¿½n Selectiva", "Encefalizaciï¿½n"],
-      targetAudience: "Amantes de la biologï¿½a evolutiva, la antropologï¿½a y los orï¿½genes del pensamiento simbï¿½lico.",
-      aiSummary: "El viaje evolutivo que convirtiï¿½ al cerebro del Homo sapiens en la mï¿½quina cognitiva dominante del planeta."
+      keyConcepts: ["Hominización", "Córtex Prefrontal", "Presión Selectiva", "Encefalización"],
+      targetAudience: "Amantes de la biología evolutiva, la antropología y los orígenes del pensamiento simbólico.",
+      aiSummary: "El viaje evolutivo que convirtió al cerebro del Homo sapiens en la máquina cognitiva dominante del planeta."
     }
   },
   {
@@ -1205,16 +1205,16 @@ const BOOKS = [
     downloads: 245,
     featured: false,
     aiAnalysis: {
-      genre: "Neurobiologï¿½a de la empatía",
+      genre: "Neurobiología de la empatía",
       vibe: "Conmovedor & Preciso",
-      keyConcepts: ["Neuronas Espejo", "Resonancia Motora", "empatía Afectiva", "Imitaciï¿½n Social"],
-      targetAudience: "Profesionales de la Comunicación, psicï¿½logos e interesados en la inteligencia interpersonal.",
+      keyConcepts: ["Neuronas Espejo", "Resonancia Motora", "empatía Afectiva", "Imitación Social"],
+      targetAudience: "Profesionales de la Comunicación, psicólogos e interesados en la inteligencia interpersonal.",
       aiSummary: "Las bases biológicas que nos permiten ponernos en el lugar del otro y sentir compasión genuina."
     }
   },
   {
     id: 115,
-    title: "La Lucha contra el Cï¿½ncer: En busca de una cura definitiva",
+    title: "La Lucha contra el Cáncer: En busca de una cura definitiva",
     author: "National Geographic",
     category: "Salud & Longevidad",
     collection: "National Geographic",
@@ -1222,17 +1222,17 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 143,
-    description: "Un balance completo sobre la mayor gesta mï¿½dica contemporï¿½nea. Detalla la investigaciï¿½n en tumores cerebrales, la biologï¿½a molecular celular, los anticuerpos monoclonales y las terapias celulares CAR-T.",
+    description: "Un balance completo sobre la mayor gesta médica contemporánea. Detalla la investigación en tumores cerebrales, la biología molecular celular, los anticuerpos monoclonales y las terapias celulares CAR-T.",
     cover: "covers/16-la-lucha-contra-el-cancer.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b115_16-la-lucha-contra-el-cancer.pdf",
     downloads: 210,
     featured: false,
     aiAnalysis: {
-      genre: "Oncologï¿½a & Biologï¿½a Molecular",
+      genre: "Oncología & Biología Molecular",
       vibe: "Riguroso & Esperanzador",
-      keyConcepts: ["Inmunoterapia CAR-T", "Biopsia Lï¿½quida", "Genï¿½tica Tumoral", "Oncologï¿½a de Precisiï¿½n"],
+      keyConcepts: ["Inmunoterapia CAR-T", "Biopsia Líquida", "Genética Tumoral", "Oncología de Precisión"],
       targetAudience: "Interesados en los avances más recientes de la biomedicina y la lucha contra tumores complejos.",
-      aiSummary: "cómo las terapias biológicas dirigidas están transformando el pronï¿½stico de los tumores más difáciles."
+      aiSummary: "cómo las terapias biológicas dirigidas están transformando el pronóstico de los tumores más difíciles."
     }
   },
   {
@@ -1245,17 +1245,17 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 56,
-    description: "El diï¿½logo continuo entre el sistema nervioso y el endocrino. cómo el hipotï¿½lamo y la hipï¿½fisis dirigen la liberaciï¿½n hormonal y el impacto del cortisol, dopamina y serotonina en el estado de ï¿½nimo.",
+    description: "El diálogo continuo entre el sistema nervioso y el endocrino. cómo el hipotálamo y la hipófisis dirigen la liberación hormonal y el impacto del cortisol, dopamina y serotonina en el estado de ánimo.",
     cover: "covers/17-el-cerebro-y-las-hormonas.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b116_17-el-cerebro-y-las-hormonas.pdf",
     downloads: 220,
     featured: false,
     aiAnalysis: {
-      genre: "Neuroendocrinologï¿½a",
+      genre: "Neuroendocrinología",
       vibe: "Químico & Revelador",
-      keyConcepts: ["Eje Hipotï¿½lamo-Hipï¿½fisis", "Cortisol y Estrï¿½s", "Dopamina y Recompensa", "Serotonina"],
-      targetAudience: "Lectores que quieren equilibrar su bienestar fisiológico comprendiendo su quémica interna.",
-      aiSummary: "Una mirada profunda a cómo las molï¿½culas quémicas condicionan nuestras sensaciones y temperamento."
+      keyConcepts: ["Eje Hipotálamo-Hipófisis", "Cortisol y Estrés", "Dopamina y Recompensa", "Serotonina"],
+      targetAudience: "Lectores que quieren equilibrar su bienestar fisiológico comprendiendo su química interna.",
+      aiSummary: "Una mirada profunda a cómo las moléculas químicas condicionan nuestras sensaciones y temperamento."
     }
   },
   {
@@ -1268,17 +1268,17 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 67,
-    description: "El ambicioso Proyecto Conectoma Humano busca trazar cada 'cable' neuronal del encï¿½falo. Explica la tractografï¿½a por resonancia magnï¿½tica y la teoría de redes cerebrales.",
+    description: "El ambicioso Proyecto Conectoma Humano busca trazar cada 'cable' neuronal del encéfalo. Explica la tractografía por resonancia magnética y la teoría de redes cerebrales.",
     cover: "covers/19-el-conectoma.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b117_19-el-conectoma.pdf",
     downloads: 255,
     featured: true,
     aiAnalysis: {
-      genre: "Conectï¿½mica & Redes Complejas",
+      genre: "Conectómica & Redes Complejas",
       vibe: "Futurista & Preciso",
-      keyConcepts: ["Tractografï¿½a", "Redes de pequeño Mundo", "Sustancia Blanca", "Cableado Neuronal"],
+      keyConcepts: ["Tractografía", "Redes de pequeño Mundo", "Sustancia Blanca", "Cableado Neuronal"],
       targetAudience: "Aficionados a la ciencia de datos, la física de redes y el mapa estructural del pensamiento.",
-      aiSummary: "El ambicioso mapa tridimensional que revela cómo dialogan entre sï¿½ los distintos centros cerebrales."
+      aiSummary: "El ambicioso mapa tridimensional que revela cómo dialogan entre sí los distintos centros cerebrales."
     }
   },
   {
@@ -1291,22 +1291,22 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 61,
-    description: "ï¿½cómo traduce el cerebro ondas sonoras en pensamientos complejos? Recorre las ï¿½reas de Broca y Wernicke, el bilingï¿½ismo en el cerebro infantil y el origen de la palabra articulada.",
+    description: "¿Cómo traduce el cerebro ondas sonoras en pensamientos complejos? Recorre las áreas de Broca y Wernicke, el bilingüismo en el cerebro infantil y el origen de la palabra articulada.",
     cover: "covers/21-el-lenguaje.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b118_21-el-lenguaje.pdf",
     downloads: 195,
     featured: false,
     aiAnalysis: {
-      genre: "Biolingï¿½ï¿½stica & Neurocogniciï¿½n",
+      genre: "Biolingüística & Neurocognición",
       vibe: "Elocuente & Científico",
-      keyConcepts: ["ï¿½rea de Broca", "ï¿½rea de Wernicke", "Fascï¿½culo Arqueado", "Gramï¿½tica Universal"],
-      targetAudience: "Lingï¿½istas, escritores, comunicadores y apasionados del poder del lenguaje humano.",
+      keyConcepts: ["Área de Broca", "Área de Wernicke", "Fascículo Arqueado", "Gramática Universal"],
+      targetAudience: "Lingüistas, escritores, comunicadores y apasionados del poder del lenguaje humano.",
       aiSummary: "Desvela la prodigiosa maquinaria neural que nos permite dialogar, formular conceptos y transmitir cultura."
     }
   },
   {
     id: 119,
-    title: "La Regeneraciï¿½n Neuronal: El reto de crear nuevas neuronas",
+    title: "La Regeneración Neuronal: El reto de crear nuevas neuronas",
     author: "National Geographic",
     category: "Salud & Longevidad",
     collection: "National Geographic",
@@ -1314,7 +1314,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 51,
-    description: "La ruptura del dogma de que las neuronas no se reproducen en la vida adulta. Un informe sobre las cï¿½lulas madre neurales del hipocampo y las terapias de reparaciï¿½n nerviosa.",
+    description: "La ruptura del dogma de que las neuronas no se reproducen en la vida adulta. Un informe sobre las células madre neurales del hipocampo y las terapias de reparación nerviosa.",
     cover: "covers/22-la-regeneracion-neuronal.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b119_22-la-regeneracion-neuronal.pdf",
     downloads: 200,
@@ -1322,9 +1322,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Medicina Regenerativa",
       vibe: "Esperanzador & Vanguardista",
-      keyConcepts: ["Neurogï¿½nesis Adulta", "Cï¿½lulas Madre", "Factor BDNF", "Reparaciï¿½n Medular"],
-      targetAudience: "Interesados en la regeneraciï¿½n celular y la capacidad del cuerpo para sanar el tejido nervioso.",
-      aiSummary: "cómo la ciencia moderna estï¿½ aprendiendo a estimular el nacimiento de nuevas neuronas en cerebros adultos."
+      keyConcepts: ["Neurogénesis Adulta", "Células Madre", "Factor BDNF", "Reparación Medular"],
+      targetAudience: "Interesados en la regeneración celular y la capacidad del cuerpo para sanar el tejido nervioso.",
+      aiSummary: "cómo la ciencia moderna está aprendiendo a estimular el nacimiento de nuevas neuronas en cerebros adultos."
     }
   },
   {
@@ -1337,22 +1337,22 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 51,
-    description: "Cada sensación, pensamiento y sueño se expresa como una onda bioelï¿½ctrica. Descubre el papel de los canales iï¿½nicos, los ritmos cerebrales (ondas gamma, beta, alfa y delta) y la electroencefalografï¿½a.",
+    description: "Cada sensación, pensamiento y sueño se expresa como una onda bioeléctrica. Descubre el papel de los canales iónicos, los ritmos cerebrales (ondas gamma, beta, alfa y delta) y la electroencefalografía.",
     cover: "covers/23-la-electricidad-del-cerebro.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b120_23-la-electricidad-del-cerebro.pdf",
     downloads: 225,
     featured: false,
     aiAnalysis: {
-      genre: "Biofísica & Neurofisiologï¿½a",
+      genre: "Biofísica & Neurofisiología",
       vibe: "Energético & Preciso",
-      keyConcepts: ["Potenciales de Acción", "Ondas Cerebrales", "Canales Iï¿½nicos", "Sincronï¿½a Neuronal"],
-      targetAudience: "Curiosos de la física biológica, la neuroingenierï¿½a y los circuitos oscilatorios de la mente.",
-      aiSummary: "Explica cómo miles de millones de micro-corrientes elï¿½ctricas coordinadas dan origen a la mente humana."
+      keyConcepts: ["Potenciales de Acción", "Ondas Cerebrales", "Canales Iónicos", "Sincronía Neuronal"],
+      targetAudience: "Curiosos de la física biológica, la neuroingeniería y los circuitos oscilatorios de la mente.",
+      aiSummary: "Explica cómo miles de millones de micro-corrientes eléctricas coordinadas dan origen a la mente humana."
     }
   },
   {
     id: 121,
-    title: "Las Interfaces Cerebro-Mï¿½quina: Tecnología para ampliar nuestras capacidades",
+    title: "Las Interfaces Cerebro-Máquina: Tecnología para ampliar nuestras capacidades",
     author: "National Geographic",
     category: "Tecnología & Futuro",
     collection: "National Geographic",
@@ -1360,17 +1360,17 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 51,
-    description: "La convergencia definitiva entre el tejido cerebral y los microprocesadores. Explora implantes corticales, neuroprï¿½tesis biï¿½nicas que restauran la movilidad y los horizontes del transhumanismo.",
+    description: "La convergencia definitiva entre el tejido cerebral y los microprocesadores. Explora implantes corticales, neuroprótesis biónicas que restauran la movilidad y los horizontes del transhumanismo.",
     cover: "covers/27-las-interfaces-cerebro-maquina.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b121_27-las-interfaces-cerebro-maquina.pdf",
     downloads: 340,
     featured: true,
     aiAnalysis: {
-      genre: "BioTecnología & Neuroingenierï¿½a",
+      genre: "Biotecnología & Neuroingeniería",
       vibe: "Futurista & Disruptivo",
-      keyConcepts: ["Brain-Computer Interface", "Neuroprï¿½tesis", "Decodificaciï¿½n Neuronal", "Transhumanismo"],
-      targetAudience: "Entusiastas de la Tecnología puntera, cibernï¿½tica, IA y el futuro de las capacidades humanas.",
-      aiSummary: "Las Tecnologías que hoy permiten controlar brazos robï¿½ticos y computadoras directamente con el pensamiento."
+      keyConcepts: ["Brain-Computer Interface", "Neuroprótesis", "Decodificación Neuronal", "Transhumanismo"],
+      targetAudience: "Entusiastas de la Tecnología puntera, cibernética, IA y el futuro de las capacidades humanas.",
+      aiSummary: "Las Tecnologías que hoy permiten controlar brazos robóticos y computadoras directamente con el pensamiento."
     }
   },
   {
@@ -1383,7 +1383,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 224,
-    description: "Un enfoque rompedor y sin anestesia hacia la autoayuda moderna. Manson sostiene que mejorar nuestra vida no depende de saber transformar limones en limonada, sino de aprender a tolerar y digerir los limones: elegir conscientemente por quï¿½ luchas y quï¿½ estás dispuesto a dejar de lado.",
+    description: "Un enfoque rompedor y sin anestesia hacia la autoayuda moderna. Manson sostiene que mejorar nuestra vida no depende de saber transformar limones en limonada, sino de aprender a tolerar y digerir los limones: elegir conscientemente por qué luchas y qué estás dispuesto a dejar de lado.",
     cover: "covers/el-sutil-arte.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b606_el-sutil-arte-mark-manson.pdf",
     downloads: 530,
@@ -1391,9 +1391,9 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Filosofía Práctica & Anti-Autoayuda",
       vibe: "Crudo & Liberador",
-      keyConcepts: ["Aceptaciï¿½n Radical", "Valores Reales", "Responsabilidad Personal", "Elección de Batallas"],
-      targetAudience: "Lectores saturados del positivismo tï¿½xico que buscan sensatez y autenticidad visceral.",
-      aiSummary: "Manifiesto provocador para aprender a dar importancia ï¿½nicamente a lo que verdaderamente enriquece tu vida."
+      keyConcepts: ["Aceptación Radical", "Valores Reales", "Responsabilidad Personal", "Elección de Batallas"],
+      targetAudience: "Lectores saturados del positivismo tóxico que buscan sensatez y autenticidad visceral.",
+      aiSummary: "Manifiesto provocador para aprender a dar importancia únicamente a lo que verdaderamente enriquece tu vida."
     }
   },
   {
@@ -1406,7 +1406,7 @@ const BOOKS = [
     year: 2004,
     language: "Español",
     pages: 260,
-    description: "La guía definitiva para emprendedores del legendario evangelista de Apple. Kawasaki explica con precisiï¿½n quirï¿½rgica cómo transformar una idea en un proyecto viable: crear sentido, posicionar la marca, reclutar talento y lanzar productos al mercado con agilidad implacable.",
+    description: "La guía definitiva para emprendedores del legendario evangelista de Apple. Kawasaki explica con precisión quirúrgica cómo transformar una idea en un proyecto viable: crear sentido, posicionar la marca, reclutar talento y lanzar productos al mercado con agilidad implacable.",
     cover: "covers/el-arte-de-empezar.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b508_el-arte-de-empezar-guy-kawasaki.pdf",
     downloads: 360,
@@ -1414,7 +1414,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Emprendimiento & Lanzamiento",
       vibe: "Ágil & Pragmático",
-      keyConcepts: ["Crear Sentido", "Pitch Efectivo", "Evangelizaciï¿½n de Marca", "Ejecuciï¿½n Rï¿½pida"],
+      keyConcepts: ["Crear Sentido", "Pitch Efectivo", "Evangelización de Marca", "Ejecución Rápida"],
       targetAudience: "Fundadores, creadores de startups y profesionales con ganas de poner ideas en acción.",
       aiSummary: "Manual de combate empresarial para convertir cualquier chispa creativa en un negocio de alto impacto."
     }
@@ -1429,7 +1429,7 @@ const BOOKS = [
     year: 2012,
     language: "Español",
     pages: 212,
-    description: "Una de las obras maestras de la Psicología comercial moderna. Tracy revela las claves de persuasiï¿½n, escucha activa y manejo de objeciones que permiten cerrar acuerdos comerciales con solidez y respeto mutuo.",
+    description: "Una de las obras maestras de la Psicología comercial moderna. Tracy revela las claves de persuasión, escucha activa y manejo de objeciones que permiten cerrar acuerdos comerciales con solidez y respeto mutuo.",
     cover: "covers/el-arte-de-cerrar-la-venta.png",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b407_el-arte-de-cerrar-la-venta-brian-tracy.pdf",
     downloads: 415,
@@ -1453,7 +1453,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 273,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-23-habitos-inteligentes-para-tus-finanzas-personales.png",
     downloads: 262,
     featured: false,
@@ -1476,7 +1476,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 299,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-big-data-analisis-de-grandes-volumenes-de-datos-en-or.png",
     downloads: 276,
     featured: false,
@@ -1499,7 +1499,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 312,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-como-gestionar-las-redes-sociales-rdstatio-gosocial.png",
     downloads: 283,
     featured: false,
@@ -1522,7 +1522,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 325,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-comportamiento-organizacional-ivancevich-et-al.png",
     downloads: 290,
     featured: false,
@@ -1537,7 +1537,7 @@ const BOOKS = [
   {
     id: 1006,
     title: "Covey R. Stephen",
-    author: "El 8ï¿½ Habito",
+    author: "El 8.º Habito",
     category: "Productividad & Hábitos",
     collection: "General",
     format: "pdf",
@@ -1545,7 +1545,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 338,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-covey-r-stephen-el-8-habito.png",
     downloads: 297,
     featured: false,
@@ -1591,7 +1591,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 364,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-desarrollo-organizacional-principios-y-aplicaciones.png",
     downloads: 311,
     featured: false,
@@ -1614,7 +1614,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 377,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-eficacia-ejecutiva.png",
     downloads: 318,
     featured: false,
@@ -1638,7 +1638,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 390,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-poder-del-desorden-tim-harford.png",
     downloads: 325,
     featured: false,
@@ -1661,7 +1661,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 403,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-los-7-habitos-de-la-gente-altamente-efectiva-stephen.png",
     downloads: 332,
     featured: false,
@@ -1684,7 +1684,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 416,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-ponte-en-forma-sin-perder-el-tiempo.png",
     downloads: 339,
     featured: false,
@@ -1705,9 +1705,9 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1013_The_Power_of_Habit_-_Charles_Duhigg.pdf",
     year: 2018,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 149,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-the-power-of-habit-charles-duhigg.png",
     downloads: 346,
     featured: false,
@@ -1721,7 +1721,7 @@ const BOOKS = [
   },
   {
     id: 1014,
-    title: "Abc Adm Bienes Raï¿½ces",
+    title: "Abc Adm Bienes Raíces",
     author: "Selección Bibliotyan",
     category: "Finanzas & Inversión",
     collection: "General",
@@ -1730,14 +1730,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 162,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-abc-adm-bienes-ra-ces.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1753,14 +1753,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 175,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-antes-de-renunciar-a-tu-empleo-robert-kiyosaki.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1776,21 +1776,21 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 188,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-cambia-tu-vida-antes-del-desayuno-robert-kiyosaki.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1017,
-    title: "Como Crear Riqueza Invirtiendo en Bienes Raï¿½ces",
+    title: "Como Crear Riqueza Invirtiendo en Bienes Raíces",
     author: "Selección Bibliotyan",
     category: "Finanzas & Inversión",
     collection: "General",
@@ -1799,14 +1799,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 201,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-como-crear-riqueza-invirtiendo-en-bienes-ra-ces.png",
     downloads: 129,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1822,21 +1822,21 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 214,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-contabilidad-y-finanzas-para-dummies-oriol-amat.png",
     downloads: 136,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1019,
-    title: "Conï¿½ctate con el Dinero",
+    title: "Conéctate con el Dinero",
     author: "Jurgen Klaric",
     category: "Finanzas & Inversión",
     collection: "General",
@@ -1845,14 +1845,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 227,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-con-ctate-con-el-dinero-jurgen-klaric.png",
     downloads: 143,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1860,7 +1860,7 @@ const BOOKS = [
   {
     id: 1020,
     title: "Copia de de Deudor a Millonario",
-    author: "Isela Muï¿½oz",
+    author: "Isela Muñoz",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
@@ -1868,14 +1868,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 240,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-copia-de-de-deudor-a-millonario-isela-mu-oz.png",
     downloads: 150,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1891,14 +1891,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 253,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-copia-de-el-camino-hacia-la-riqueza-brian-tracy.png",
     downloads: 157,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1914,14 +1914,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 266,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-despierta-el-genio-financiero-de-tus-hijos-robert-kiy.png",
     downloads: 164,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1938,14 +1938,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 279,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-economia-para-el-99-de-la-poblacion-ha-joon-chang.png",
     downloads: 171,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1961,14 +1961,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 292,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-abc-de-la-inversi-n-en-bienes-raices.png",
     downloads: 178,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -1984,14 +1984,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 305,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-abc-para-crear-un-equipo-de-negocios-exitoso-rober.png",
     downloads: 185,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2008,14 +2008,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 318,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/economista-camuflado-hd.jpg",
     downloads: 192,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2031,14 +2031,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 331,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-hombre-ma-rico-de-babilonia-george-s-clason-53-pag.png",
     downloads: 199,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2054,14 +2054,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 344,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-hombre-mas-rico-de-babilonia-george-s-clason-79-pa.png",
     downloads: 206,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2077,14 +2077,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 357,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-inversor-inteligente-warren-e-buffett.png",
     downloads: 213,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2100,14 +2100,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 370,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-juego-del-dinero-por-robert-t-kiyosaki.png",
     downloads: 220,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2123,14 +2123,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 383,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-millonario-de-la-puerta-de-al-lado.png",
     downloads: 227,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2146,14 +2146,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 396,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-negocio-del-siglo-21-robert-kiyosaki.png",
     downloads: 234,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2169,14 +2169,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 409,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-tao-de-warren-buffett-la-sabidur-a-de-un-genio.png",
     downloads: 241,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores de valor, ahorradores y apasionados de las finanzas inteligentes.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2192,14 +2192,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 142,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-toque-de-midas-por-donald-j-trump-y-robert-t-kiyos.png",
     downloads: 248,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2215,14 +2215,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 194,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-es-hora-de-emprender-el-vuelo-kim-kiyosaki.png",
     downloads: 276,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2238,14 +2238,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 207,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-guia-para-hacerse-rico-robert-kiyosaki.png",
     downloads: 283,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2261,14 +2261,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 220,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-hill-napoleon-piense-y-hagase-rico.png",
     downloads: 290,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2276,7 +2276,7 @@ const BOOKS = [
   {
     id: 1041,
     title: "Hábitos",
-    author: "De Ricos Juan Diego Gï¿½mez 1",
+    author: "De Ricos Juan Diego Gómez 1",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
@@ -2284,14 +2284,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 233,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-h-bitos-de-ricos-juan-diego-g-mez-1.png",
     downloads: 297,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2307,21 +2307,21 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 246,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-kiyosaki-robert-ni-o-listo-ni-o-rico.png",
     downloads: 304,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1043,
-    title: "La Conspiraciï¿½n",
+    title: "La Conspiración",
     author: "Los Ricos (robert Kiyosaki)",
     category: "Finanzas & Inversión",
     collection: "General",
@@ -2330,14 +2330,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 259,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-conspiraci-n-de-los-ricos-robert-kiyosaki.png",
     downloads: 311,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2353,14 +2353,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 285,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-lo-mejor-de-padre-rico-secretos-para-el-exito.png",
     downloads: 325,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2376,14 +2376,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 298,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-los-secretos-de-la-mente-millonaria-t-harv-eker.png",
     downloads: 332,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2399,14 +2399,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 311,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-los-secretos-de-la-mente-millonaria.png",
     downloads: 339,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2422,14 +2422,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 324,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-mujer-millonaria-kim-kiyosaki.png",
     downloads: 346,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2445,14 +2445,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 350,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-padre-rico-padre-pobre-de-robert-kiyosaki.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2468,14 +2468,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 363,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-padre-rico-padre-pobre-para-jovenes.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2491,14 +2491,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 376,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-peque-o-cerdo-capitalista-sofia-macias.png",
     downloads: 129,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2514,14 +2514,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 389,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-queremos-que-seas-rico.png",
     downloads: 136,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2537,14 +2537,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 402,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-robert-kiyosaki-retirate-joven-y-rico.png",
     downloads: 143,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2560,14 +2560,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 415,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-sabidur-a-financiera-el-dinero-se-hace-en-la-mente-sp.png",
     downloads: 150,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2583,14 +2583,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 148,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-segunda-oportunidad-robert-kiyosaki.png",
     downloads: 157,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2606,14 +2606,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 161,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-segunda-oportunidad-reinventa-tus-finanzas-y-tu-vida.png",
     downloads: 164,
     featured: false,
     aiAnalysis: {
       genre: "Finanzas & Inversión",
       vibe: "Financiero & Analítico",
-      keyConcepts: ["Inteligencia Financiera", "Generaciï¿½n de Activos", "Gestión del Riesgo", "Libertad Econï¿½mica"],
+      keyConcepts: ["Inteligencia Financiera", "Generación de Activos", "Gestión del Riesgo", "Libertad Económica"],
       targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
       aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -2629,7 +2629,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 174,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-039-las-cuatro-vidas-de-steve-jobs-daniel-ichbiah.png",
     downloads: 171,
     featured: false,
@@ -2652,7 +2652,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 187,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-055-zara-david-martinez.png",
     downloads: 178,
     featured: false,
@@ -2675,7 +2675,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 200,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-065-perdiendo-la-virginidad.png",
     downloads: 185,
     featured: false,
@@ -2698,7 +2698,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 226,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-100-startup-chris-guillebeau.png",
     downloads: 199,
     featured: false,
@@ -2721,7 +2721,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 239,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-100eurosstartupontenmarch-5012.png",
     downloads: 206,
     featured: false,
@@ -2744,7 +2744,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 252,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-12-leyes-de-los-grandes-empresarios-mauricio-chaves.png",
     downloads: 213,
     featured: false,
@@ -2767,7 +2767,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 265,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-240ideasnegocios.png",
     downloads: 220,
     featured: false,
@@ -2790,7 +2790,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 291,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-amazon-un-nuevo-modelo-de-negocio-a-golpe-de-clic.png",
     downloads: 234,
     featured: false,
@@ -2813,7 +2813,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 304,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-captio-consejos-para-evento-de-empresa.png",
     downloads: 241,
     featured: false,
@@ -2836,7 +2836,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 317,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-community-management-para-dummies-copia.png",
     downloads: 248,
     featured: false,
@@ -2859,7 +2859,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 330,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-daniela-r-principios-de-marketing.png",
     downloads: 255,
     featured: false,
@@ -2882,7 +2882,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 343,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-david-a-de-haro-oratoria-y-liderazgo.png",
     downloads: 262,
     featured: false,
@@ -2905,7 +2905,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 382,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-gran-libro-de-los-negocios-online.png",
     downloads: 283,
     featured: false,
@@ -2928,7 +2928,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 408,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-elon-musk-el-empresario-que-anticipa-el-f-ashlee-vanc.png",
     downloads: 297,
     featured: false,
@@ -2951,7 +2951,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 141,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-estamos-ciegos-por-jurgen-klaric.png",
     downloads: 304,
     featured: false,
@@ -2974,7 +2974,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 154,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-inteligencia-emocional-en-la-empresa.png",
     downloads: 311,
     featured: false,
@@ -2997,7 +2997,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 167,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-john-c-maxwell-liderazgo-excitantepdf.png",
     downloads: 318,
     featured: false,
@@ -3020,7 +3020,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 180,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-juego-de-tronos-para-los-negocios-tim-phili.png",
     downloads: 325,
     featured: false,
@@ -3043,7 +3043,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 193,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-empresa-triunfadora-mejorar-el-presente-inventar-e.png",
     downloads: 332,
     featured: false,
@@ -3066,7 +3066,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 206,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-escuela-de-negocios.png",
     downloads: 339,
     featured: false,
@@ -3080,7 +3080,7 @@ const BOOKS = [
   },
   {
     id: 1083,
-    title: "La Estrategia del Delfï¿½n. éxito para Negociaciones Difáciles",
+    title: "La Estrategia del Delfín. éxito para Negociaciones Difíciles",
     author: "Selección Bibliotyan",
     category: "Liderazgo & Estrategia",
     collection: "General",
@@ -3089,7 +3089,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 219,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-estrategia-del-delf-n-xito-para-negociaciones-dif.png",
     downloads: 346,
     featured: false,
@@ -3112,7 +3112,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 232,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-estrategia-del-oceano-azul-w-chan-kim-renee-maubor.png",
     downloads: 353,
     featured: false,
@@ -3135,7 +3135,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 245,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-gerencia-de-empresas.png",
     downloads: 115,
     featured: false,
@@ -3158,7 +3158,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 258,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-regla-de-oro-de-los-negocios-aprende-la-clave-para.png",
     downloads: 122,
     featured: false,
@@ -3181,7 +3181,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 271,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-las-48-leyes-del-poder-robert-greene.png",
     downloads: 129,
     featured: false,
@@ -3204,7 +3204,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 323,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-liderazgo-el-poder-de-la-inteligencia-emocional.png",
     downloads: 157,
     featured: false,
@@ -3227,7 +3227,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 336,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-maestr-a-robert-greene.png",
     downloads: 164,
     featured: false,
@@ -3241,7 +3241,7 @@ const BOOKS = [
   },
   {
     id: 1093,
-    title: "Mba en 10 Dï¿½as. Guía Paso a Paso con las enseñanzas",
+    title: "Mba en 10 Días. Guía Paso a Paso con las enseñanzas",
     author: "Las Mejores Escuelas de Negocios del Mundo",
     category: "Liderazgo & Estrategia",
     collection: "General",
@@ -3250,7 +3250,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 349,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-mba-en-10-d-as-gu-a-paso-a-paso-con-las-ense-anzas-de.png",
     downloads: 171,
     featured: false,
@@ -3264,7 +3264,7 @@ const BOOKS = [
   },
   {
     id: 1095,
-    title: "Motivación 360ï¿½ cómo Implementarla en la Vida y en la Empresa",
+    title: "Motivación 360° cómo Implementarla en la Vida y en la Empresa",
     author: "Selección Bibliotyan",
     category: "Liderazgo & Estrategia",
     collection: "General",
@@ -3273,7 +3273,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 375,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-motivaci-n-360-c-mo-implementarla-en-la-vida-y-en-la.png",
     downloads: 185,
     featured: false,
@@ -3287,7 +3287,7 @@ const BOOKS = [
   },
   {
     id: 1096,
-    title: "Obtenga el Sï¿½ Consigo Mismo. Superar los Obstï¿½culos Interiores para Negociar con éxito",
+    title: "Obtenga el Sí Consigo Mismo. Superar los Obstáculos Interiores para Negociar con éxito",
     author: "Selección Bibliotyan",
     category: "Liderazgo & Estrategia",
     collection: "General",
@@ -3296,7 +3296,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 388,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-obtenga-el-s-consigo-mismo-superar-los-obst-culos-int.png",
     downloads: 192,
     featured: false,
@@ -3319,7 +3319,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 414,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-rompe-la-barrera-del-no-9-principios-para-negociar-co.png",
     downloads: 206,
     featured: false,
@@ -3342,7 +3342,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 147,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-steve-jobs-como-ser-increiblemente.png",
     downloads: 213,
     featured: false,
@@ -3365,7 +3365,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 160,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-universidad-disney-c-mo-la-estrategia-empresarial-de.png",
     downloads: 220,
     featured: false,
@@ -3388,7 +3388,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 173,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-030-desnudando-a-google-alejandro-suarez-sanchez-ocan.png",
     downloads: 227,
     featured: false,
@@ -3396,7 +3396,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3411,7 +3411,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 199,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-24-mitos-sobre-el-marketing-en-facebook.png",
     downloads: 241,
     featured: false,
@@ -3419,7 +3419,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3432,9 +3432,9 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1105_All_Marketers_Are_Liars_The_Power_of_Telling_Authentic_Stories_in.pdf",
     year: 2020,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 225,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-all-marketers-are-liars-the-power-of-telling-authenti.png",
     downloads: 255,
     featured: false,
@@ -3442,7 +3442,7 @@ const BOOKS = [
       genre: "Business & Strategy (English)",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3457,7 +3457,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 251,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-claves-para-construir-marcas-aporten-valor.png",
     downloads: 269,
     featured: false,
@@ -3465,7 +3465,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3480,7 +3480,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 264,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-como-te-vendes-te-contratan-t-cnicas-infalibles-para.png",
     downloads: 276,
     featured: false,
@@ -3488,13 +3488,13 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1109,
-    title: "cómo Crear una Presentaciï¿½n",
+    title: "cómo Crear una Presentación",
     author: "Ventas Que Cierre Tratos",
     category: "Marketing & Ventas",
     collection: "General",
@@ -3503,7 +3503,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 277,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-c-mo-crear-una-presentaci-n-de-ventas-que-cierre-trat.png",
     downloads: 283,
     featured: false,
@@ -3511,7 +3511,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3526,7 +3526,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 290,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-diccionario-email-marketing.png",
     downloads: 290,
     featured: false,
@@ -3534,7 +3534,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3549,7 +3549,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 303,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-ebook-marketing-de-contenidos.png",
     downloads: 297,
     featured: false,
@@ -3557,13 +3557,13 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1112,
-    title: "El Marketing Segï¿½n Kotler. cómo Crear, Ganar y Dominar los Mercados",
+    title: "El Marketing Según Kotler. cómo Crear, Ganar y Dominar los Mercados",
     author: "Selección Bibliotyan",
     category: "Marketing & Ventas",
     collection: "General",
@@ -3572,7 +3572,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 316,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-marketing-seg-n-kotler-c-mo-crear-ganar-y-dominar.png",
     downloads: 304,
     featured: false,
@@ -3580,7 +3580,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3595,7 +3595,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 329,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-vendedor-m-s-grande-del-mundo-og-mandino.png",
     downloads: 311,
     featured: false,
@@ -3603,7 +3603,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3618,7 +3618,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 394,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-estudio-email-marketing-low-definitivo.png",
     downloads: 346,
     featured: false,
@@ -3626,7 +3626,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3641,7 +3641,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 407,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-guia-seo-de-marketing-de-contenidos-2017-definitiva.png",
     downloads: 353,
     featured: false,
@@ -3649,7 +3649,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3664,7 +3664,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 140,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-guia-marketing-facebook.png",
     downloads: 115,
     featured: false,
@@ -3672,7 +3672,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3687,7 +3687,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 166,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-guia-estrategia-instagram-rimarketing-2017.png",
     downloads: 129,
     featured: false,
@@ -3695,7 +3695,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3710,7 +3710,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 179,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-gu-a-completa-de-marketing-automation.png",
     downloads: 136,
     featured: false,
@@ -3718,7 +3718,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3733,7 +3733,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 192,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-informe-facebook-rebeldes.png",
     downloads: 143,
     featured: false,
@@ -3741,7 +3741,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3756,7 +3756,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 205,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-internet-marketing-guia.png",
     downloads: 150,
     featured: false,
@@ -3764,7 +3764,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3779,7 +3779,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 218,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-biblia-del-vendedor-alex-dey.png",
     downloads: 157,
     featured: false,
@@ -3787,13 +3787,13 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1127,
-    title: "La Vaca Pï¿½rpura, Diferï¿½nciate",
+    title: "La Vaca Púrpura, Diferénciate",
     author: "Seth Godin",
     category: "Marketing & Ventas",
     collection: "General",
@@ -3802,7 +3802,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 231,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-vaca-p-rpura-difer-nciate-seth-godin.png",
     downloads: 164,
     featured: false,
@@ -3810,7 +3810,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3825,7 +3825,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 244,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-ventaja-del-ganador-robert-k.png",
     downloads: 171,
     featured: false,
@@ -3833,13 +3833,13 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1130,
-    title: "La Fï¿½rmula Perfecta para Que tu página",
+    title: "La Fórmula Perfecta para Que tu página",
     author: "Ventas Sea Todo Un éxito",
     category: "Marketing & Ventas",
     collection: "General",
@@ -3848,7 +3848,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 270,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-f-rmula-perfecta-para-que-tu-p-gina-de-ventas-sea.png",
     downloads: 185,
     featured: false,
@@ -3856,7 +3856,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3871,7 +3871,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 283,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-venta-con-pnl.png",
     downloads: 192,
     featured: false,
@@ -3879,14 +3879,14 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1132,
     title: "Libro Halcones",
-    author: "Venta Carlos Muï¿½oz 50imag",
+    author: "Venta Carlos Muñoz 50imag",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
@@ -3894,7 +3894,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 296,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-libro-halcones-de-venta-carlos-mu-oz-50imag.png",
     downloads: 199,
     featured: false,
@@ -3902,7 +3902,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3917,7 +3917,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 309,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-linchpin-are-you-indispensable-seth-godin.png",
     downloads: 206,
     featured: false,
@@ -3925,7 +3925,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3940,7 +3940,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 335,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-manual-marketing-facebook.png",
     downloads: 220,
     featured: false,
@@ -3948,7 +3948,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3963,7 +3963,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 348,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-marca-personal-para-dummies-sp-andres-perez-ortega.png",
     downloads: 227,
     featured: false,
@@ -3971,7 +3971,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -3986,7 +3986,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 361,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-marca-personal.png",
     downloads: 234,
     featured: false,
@@ -3994,7 +3994,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4009,7 +4009,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 374,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-marketing-de-guerra-by-al-ries-y-jack-trout.png",
     downloads: 241,
     featured: false,
@@ -4017,7 +4017,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4032,7 +4032,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 400,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-marketingdecontenidos.png",
     downloads: 255,
     featured: false,
@@ -4040,7 +4040,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4055,7 +4055,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 413,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-marketingviral-3-definitivo.png",
     downloads: 262,
     featured: false,
@@ -4063,7 +4063,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4076,9 +4076,9 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1142_Martin_Lindstrom_Brand_Sense_How_to_Build_Powerful_Brands_Through.pdf",
     year: 2017,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 146,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-martin-lindstrom-brand-sense-how-to-build-powerful-br.png",
     downloads: 269,
     featured: false,
@@ -4101,7 +4101,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 159,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-neuro-oratoria-spanish-edition-jurgen-klaric.png",
     downloads: 276,
     featured: false,
@@ -4109,7 +4109,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4124,7 +4124,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 172,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-objetivo-vender-m-s.png",
     downloads: 283,
     featured: false,
@@ -4132,7 +4132,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4147,7 +4147,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 185,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-paginas-facebook.png",
     downloads: 290,
     featured: false,
@@ -4155,7 +4155,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4170,7 +4170,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 198,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-permission-marketing-la-bible-de-lemalingc-seth-godin.png",
     downloads: 297,
     featured: false,
@@ -4178,7 +4178,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4191,9 +4191,9 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1147_Permission_Marketing_Turning_Strangers_Into_Friends_And_Friends.pdf",
     year: 2022,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 211,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-permission-marketing-turning-strangers-into-friends-a.png",
     downloads: 304,
     featured: false,
@@ -4201,7 +4201,7 @@ const BOOKS = [
       genre: "Business & Strategy (English)",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4216,7 +4216,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 224,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-publicidad-blog.png",
     downloads: 311,
     featured: false,
@@ -4224,7 +4224,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4239,7 +4239,7 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 250,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-tedx-manual-del-orador.png",
     downloads: 325,
     featured: false,
@@ -4247,7 +4247,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4260,9 +4260,9 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1151_The_Icarus_Deception_How_High_Will_You_Fly_-_Seth_Godin.pdf",
     year: 2016,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 263,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-the-icarus-deception-how-high-will-you-fly-seth-godin.png",
     downloads: 332,
     featured: false,
@@ -4270,7 +4270,7 @@ const BOOKS = [
       genre: "Business & Strategy (English)",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4283,9 +4283,9 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1152_Tribes_-_Seth_Godin.pdf",
     year: 2017,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 276,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-tribes-seth-godin.png",
     downloads: 339,
     featured: false,
@@ -4293,7 +4293,7 @@ const BOOKS = [
       genre: "Business & Strategy (English)",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4308,7 +4308,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 289,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-un-clic-el-auge-de-amazon-richard-l-brandt.png",
     downloads: 346,
     featured: false,
@@ -4316,7 +4316,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4329,9 +4329,9 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1154_Unleashing_the_Ideavirus_-_Seth_Godin_Malcolm_Gladwell.pdf",
     year: 2019,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 302,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-unleashing-the-ideavirus-seth-godin-malcolm-gladwell.png",
     downloads: 353,
     featured: false,
@@ -4339,7 +4339,7 @@ const BOOKS = [
       genre: "Business & Strategy (English)",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4354,7 +4354,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 315,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-vendedores-perros-de-robert-k.png",
     downloads: 115,
     featured: false,
@@ -4362,7 +4362,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4377,7 +4377,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 328,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-vendele-a-la-mente-no-a-la-gente-jurgen-klaric-podero.png",
     downloads: 122,
     featured: false,
@@ -4385,7 +4385,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4400,7 +4400,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 341,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-ventas-para-dummies-tom-hopkins.png",
     downloads: 129,
     featured: false,
@@ -4408,7 +4408,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4423,7 +4423,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 367,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-ventas-zig-ziglar-poderoso-conocimientopdf.png",
     downloads: 143,
     featured: false,
@@ -4431,7 +4431,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4444,9 +4444,9 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1160_V_Is_for_Vulnerable_Life_Outside_the_Comfort_Zone_Seth_Godin_Hugh.pdf",
     year: 2015,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 380,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-v-is-for-vulnerable-life-outside-the-comfort-zone-set.png",
     downloads: 150,
     featured: false,
@@ -4454,7 +4454,7 @@ const BOOKS = [
       genre: "Business & Strategy (English)",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -4476,7 +4476,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores en busca de calor humano, consuelo emocional e inspiración de vida.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4499,7 +4499,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Buscadores espirituales, curiosos de la filosofía oriental y meditadores.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4515,14 +4515,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 419,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-crear-o-morir-oppenheimer.png",
     downloads: 171,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4538,14 +4538,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 152,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-creatividad-publicitaria-online-copia.png",
     downloads: 178,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4553,7 +4553,7 @@ const BOOKS = [
   {
     id: 1165,
     title: "El Club de las 5",
-    author: "La Maï¿½ana. Controla Tus Maï¿½anas, Impulsa Tu Vida",
+    author: "La Mañana. Controla Tus Mañanas, Impulsa Tu Vida",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
@@ -4561,14 +4561,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 165,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-club-de-las-5-de-la-ma-ana-controla-tus-ma-anas-im.png",
     downloads: 185,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4584,14 +4584,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 191,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-enciclopedia-oratoria-motivacional-2007.png",
     downloads: 199,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4608,14 +4608,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 204,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-logica-oculta-de-la-vida-tim-harford.png",
     downloads: 206,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4638,7 +4638,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Personas dedicadas a la práctica contemplativa y la serenidad de espíritu.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4661,7 +4661,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Personas estresadas y principiantes que desean serenar su mente en el día a día.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4677,14 +4677,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 243,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-psicologia-del-color.png",
     downloads: 227,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4707,7 +4707,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Estudiantes, opositores y lectores que buscan dominar técnicas de estudio y memoria sobrehumana.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4715,7 +4715,7 @@ const BOOKS = [
   {
     id: 1173,
     title: "Rica Mente",
-    author: "Raimon Samsï¿½",
+    author: "Raimon Samsó",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
@@ -4723,14 +4723,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 269,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-rica-mente-raimon-sams.png",
     downloads: 241,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4747,14 +4747,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 282,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/salvese-quien-pueda-hd.jpg",
     downloads: 248,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4770,14 +4770,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 295,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-siete-reglas-de-oro-para-vivir-en-pareja.png",
     downloads: 255,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4793,14 +4793,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 308,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-stephen-hawking-la-teor-a-del-todo-el.png",
     downloads: 262,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4817,14 +4817,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 321,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-usar-el-cerebro-facundo-manes.png",
     downloads: 269,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4840,14 +4840,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 334,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-10elementos.png",
     downloads: 276,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4863,14 +4863,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 347,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-10errores.png",
     downloads: 283,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4886,14 +4886,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 360,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-16mitos.png",
     downloads: 290,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4909,14 +4909,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 373,
-    description: "Un texto formativo de gran valor práctico centrado en Tecnología & futuro. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en Tecnología & futuro. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-200-apps-gratuitas-cm.png",
     downloads: 297,
     featured: false,
     aiAnalysis: {
       genre: "Tecnología & Futuro",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Tecnología & Futuro que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4932,14 +4932,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 386,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-21-lecciones-para-el-siglo-xxi.png",
     downloads: 304,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4955,14 +4955,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 399,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-50-consells-castella.png",
     downloads: 311,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -4978,22 +4978,22 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 412,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-5claves.png",
     downloads: 318,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1185,
-    title: "Hábitos para Combatir la Infoxicaciï¿½n del Community Manager",
-    author: "Emos Formaciï¿½n Copia",
+    title: "Hábitos para Combatir la Infoxicación del Community Manager",
+    author: "Emos Formación Copia",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
@@ -5001,14 +5001,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 145,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-7-h-bitos-para-combatir-la-infoxicaci-n-del-community.png",
     downloads: 325,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5024,14 +5024,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 158,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-7pasos2.png",
     downloads: 332,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5048,14 +5048,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 171,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-adaptate-tim-harford.png",
     downloads: 339,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5071,14 +5071,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 197,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-amar-o-depender.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5094,14 +5094,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 223,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-armas-de-titanes-los-secretos-trucos-y-costumbres-de.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5117,21 +5117,21 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 236,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-autoboicotbernardo-stamateas.png",
     downloads: 129,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1193,
-    title: "Blockchain Arroyo Guardeï¿½o, David Diaz Vico, Jesus Hernandez Encinas",
+    title: "Blockchain Arroyo Guardeño, David Diaz Vico, Jesus Hernandez Encinas",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
@@ -5140,14 +5140,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 249,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-blockchain-arroyo-guarde-o-david-diaz-vico-jesus-hern.png",
     downloads: 136,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5163,14 +5163,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 262,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-brainfluence.png",
     downloads: 143,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5178,7 +5178,7 @@ const BOOKS = [
   {
     id: 1195,
     title: "Calendario",
-    author: "30 Dï¿½as",
+    author: "30 Días",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
@@ -5186,14 +5186,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 275,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-calendario-30-d-as.png",
     downloads: 150,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5209,14 +5209,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 288,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-cisne-negro-talebpdf.png",
     downloads: 157,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5232,14 +5232,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 301,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-coaching-para-dummies-jeni-mumford.png",
     downloads: 164,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5255,14 +5255,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 314,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-community-manager.png",
     downloads: 171,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5278,14 +5278,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 327,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-como-analizar-a-las-personas-robert-leary.png",
     downloads: 178,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5301,14 +5301,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 340,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-como-ganar-amigos-e-influenciar-en-las-personas-dale.png",
     downloads: 185,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5324,14 +5324,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 353,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-como-recordar-todo-lo-que-leemos-stanley-d-frank.png",
     downloads: 192,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5347,21 +5347,21 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 379,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-copia-de-desarrolle-a-su-gente-al-estilo-toyota-jeffr.png",
     downloads: 206,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1204,
-    title: "cómo Aplastar a tu Competencia en Solo 30 Dï¿½as",
+    title: "cómo Aplastar a tu Competencia en Solo 30 Días",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
@@ -5370,14 +5370,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 392,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-c-mo-aplastar-a-tu-competencia-en-solo-30-d-as.png",
     downloads: 213,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5393,21 +5393,21 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 418,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-decir-no-no-basta-contra-las-nuevas-pol-ticas-del-sho.png",
     downloads: 227,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1207,
-    title: "Derecho Administrativo para Estudios No Jurï¿½dicos",
+    title: "Derecho Administrativo para Estudios No Jurídicos",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
@@ -5416,14 +5416,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 151,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-derecho-administrativo-para-estudios-no-jur-dicos.png",
     downloads: 234,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5446,7 +5446,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Líderes y personas orientadas al máximo rendimiento y la autorrealización.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5462,14 +5462,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 177,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-despertando-al-gigante-interior-3-1.png",
     downloads: 248,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5485,14 +5485,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 190,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-diploma-curso-community-manager.png",
     downloads: 255,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5508,14 +5508,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 203,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-douglas-holt-douglas-cameron-cultural-strategy-using.png",
     downloads: 262,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5531,14 +5531,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 216,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-drive-by-daniel-h-pink.png",
     downloads: 269,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5554,7 +5554,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 242,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-ebook-el-mito-del-emprendedor.png",
     downloads: 283,
     featured: false,
@@ -5577,7 +5577,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 255,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-ebook-instagram-stories-de-vero-ruiz-del-vizo-mashup.png",
     downloads: 290,
     featured: false,
@@ -5585,7 +5585,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -5607,7 +5607,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores buscando ejercicios prácticos de relajación y presencia plena.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5623,14 +5623,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 281,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-ahorrador-inteligente-emilio-ontiveros.png",
     downloads: 304,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5646,14 +5646,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 294,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-alquimista-paulo-coelho.png",
     downloads: 311,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5669,21 +5669,21 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 307,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-arte-del-enga-o-daniel-tubau.png",
     downloads: 318,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1220,
-    title: "El Desafï¿½o Starbucks",
+    title: "El Desafío Starbucks",
     author: "Howard Schultz",
     category: "Crecimiento Personal",
     collection: "General",
@@ -5692,14 +5692,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 320,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-desaf-o-starbucks-howard-schultz.png",
     downloads: 325,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5715,14 +5715,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 333,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-efecto-compuesto-darren-hardy.png",
     downloads: 332,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5738,7 +5738,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 346,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-ejecutivo-eficaz.png",
     downloads: 339,
     featured: false,
@@ -5762,14 +5762,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 359,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-enemigo-conoce-el-sistema-marta-peirano.png",
     downloads: 346,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5785,14 +5785,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 372,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-lenguaje-del-cuerpo-por-pease-allan.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5808,14 +5808,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 385,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-libro-del-administrador-debian.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5831,14 +5831,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 398,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-libro-negro-de-la-persuasion-alejandro-llantada.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5854,7 +5854,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 411,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-manual-del-emprendedor-steve-blank-bob-dorf.png",
     downloads: 129,
     featured: false,
@@ -5884,7 +5884,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Profesionales en búsqueda de renovación interior y sabiduría perenne.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5900,14 +5900,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 170,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-poder-de-los-h-bitos-charles-duhigg.png",
     downloads: 150,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5930,7 +5930,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Buscadores espirituales y personas que desean liberarse de la ansiedad y la sobrepensadera.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5946,7 +5946,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 209,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-secreto-de-las-7-semillas-david-fleishman.png",
     downloads: 171,
     featured: false,
@@ -5954,7 +5954,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -5969,14 +5969,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 222,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-sutil-arte-que-todo-te-importe-una-mierda-mark-man.png",
     downloads: 178,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -5992,7 +5992,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 274,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-eln-del-emprendedor.png",
     downloads: 206,
     featured: false,
@@ -6015,21 +6015,21 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 287,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-l-der-80-20-diez-formas-para-convertirte-en-un-gra.png",
     downloads: 213,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1240,
-    title: "Empieza con el Porquï¿½",
+    title: "Empieza con el Porqué",
     author: "Simon Sinek",
     category: "Crecimiento Personal",
     collection: "General",
@@ -6038,14 +6038,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 300,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-empieza-con-el-porqu-simon-sinek.png",
     downloads: 220,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6061,7 +6061,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 313,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-emprendedor-anthony-robbins.png",
     downloads: 227,
     featured: false,
@@ -6075,7 +6075,7 @@ const BOOKS = [
   },
   {
     id: 1242,
-    title: "En Cien Aï¿½os Todos Muertos",
+    title: "En Cien Años Todos Muertos",
     author: "Joan Boluda",
     category: "Crecimiento Personal",
     collection: "General",
@@ -6084,14 +6084,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 326,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-en-cien-a-os-todos-muertos-joan-boluda.png",
     downloads: 234,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6105,23 +6105,23 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1243_epdf.pub_the-millionaire-real-estate-investor_1_.pdf",
     year: 2018,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 339,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-epdf-pub-the-millionaire-real-estate-investor-1.png",
     downloads: 241,
     featured: false,
     aiAnalysis: {
       genre: "Business & Strategy (English)",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1244,
-    title: "Fidelizar Sin Lï¿½mites cómo Ganarse la Devociï¿½n",
+    title: "Fidelizar Sin Límites cómo Ganarse la Devoción",
     author: "Los Clientes",
     category: "Crecimiento Personal",
     collection: "General",
@@ -6130,14 +6130,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 352,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-fidelizar-sin-l-mites-c-mo-ganarse-la-devoci-n-de-los.png",
     downloads: 248,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6153,14 +6153,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 365,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-gary-keller-the-millionaire-real-estate-agent.png",
     downloads: 255,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6183,7 +6183,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Emprendedores, creadores de contenido y apasionados de las marcas personales.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6199,14 +6199,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 391,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-grandes-secretos-de-zig-ziglar.png",
     downloads: 269,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6222,14 +6222,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 404,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-grant-adam-originales.png",
     downloads: 276,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6245,14 +6245,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 163,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-guia-optimizacion-motores-busqueda.png",
     downloads: 297,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6268,14 +6268,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 176,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-gu-a-para-invertir-en-oro-y-plata-robert.png",
     downloads: 304,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6291,14 +6291,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 189,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-habilidades-directivas-para-un-nuevo-man.png",
     downloads: 311,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6314,7 +6314,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 202,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-hablar-en-publico-en-una-semana-jose-maria-palomares.png",
     downloads: 318,
     featured: false,
@@ -6322,7 +6322,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -6337,14 +6337,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 215,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-hiit-entrenamiento-de-intervalos-de-alta-intensidad.png",
     downloads: 325,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6360,14 +6360,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 228,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-homo-deus.png",
     downloads: 332,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6383,14 +6383,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 241,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-ikigai-esencial-ken-mogi.png",
     downloads: 339,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6406,14 +6406,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 254,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-incrementa-tu-iq-financiero-robert-k.png",
     downloads: 346,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6429,14 +6429,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 267,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-ingresos-pasivos-santiago-rt.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6452,14 +6452,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 280,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-joe-navarro-what-every-body-is-saying.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6473,16 +6473,16 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1261_John_Maeda_The_Laws_of_Simplicit.pdf",
     year: 2016,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 293,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-john-maeda-the-laws-of-simplicit.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
       genre: "Business & Strategy (English)",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6498,21 +6498,21 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 306,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-kas-29112-1522-4-30-1.png",
     downloads: 129,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1263,
-    title: "La Administraciï¿½n en una ï¿½poca",
+    title: "La Administración en una época",
     author: "Grandes Cambios",
     category: "Crecimiento Personal",
     collection: "General",
@@ -6521,14 +6521,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 319,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-administraci-n-en-una-poca-de-grandes-cambios.png",
     downloads: 136,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6544,14 +6544,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 332,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-calle-es-tu-gimnasio-gu-a-completa-de-calistenia-y.png",
     downloads: 143,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6567,14 +6567,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 345,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-gerencia-efectiva.png",
     downloads: 150,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6590,14 +6590,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 358,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-quinta-disciplina-peter-m-senge.png",
     downloads: 157,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6613,7 +6613,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 384,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-semana-laboral-de-4-horas.png",
     downloads: 171,
     featured: false,
@@ -6621,7 +6621,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -6636,14 +6636,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 143,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-las-12-claves-in.png",
     downloads: 192,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6659,7 +6659,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 169,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-la-ciencia-del-exito-en-twitter.png",
     downloads: 206,
     featured: false,
@@ -6667,7 +6667,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -6682,7 +6682,7 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 182,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-leads-generation.png",
     downloads: 213,
     featured: false,
@@ -6690,7 +6690,7 @@ const BOOKS = [
       genre: "Marketing & Ventas",
       vibe: "Persuasivo & Comercial",
       keyConcepts: ["Psicología del Consumidor", "Estrategia Comercial", "Posicionamiento", "Cierre de Ventas"],
-      targetAudience: "Comerciales, mercadï¿½logos y profesionales de venta y captaciï¿½n.",
+      targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
       aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -6705,14 +6705,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 195,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-los-88-pelda-os-del-exito-anxo-perez.png",
     downloads: 220,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6728,14 +6728,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 208,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-los-secretos-del-lettering-copia.png",
     downloads: 227,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6751,14 +6751,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 221,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-magiapensargrande.png",
     downloads: 234,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6774,14 +6774,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 234,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-manual-propiedades-css3.png",
     downloads: 241,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6795,23 +6795,23 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1279_Martin_Lindstrom_Buyology_Truth_and_Lies_About_Why_We_Buy_2008.pdf",
     year: 2024,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 247,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-martin-lindstrom-buyology-truth-and-lies-about-why-we.png",
     downloads: 248,
     featured: false,
     aiAnalysis: {
       genre: "Business & Strategy (English)",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1280,
-    title: "Mas Allï¿½ del Ctr",
+    title: "Mas Allá del Ctr",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
@@ -6820,14 +6820,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 260,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-mas-all-del-ctr.png",
     downloads: 255,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6843,14 +6843,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 273,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-mba-personal-josh-kaufman.png",
     downloads: 262,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6866,14 +6866,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 286,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-mensaje-a-un-amigo-anthony-robbins.png",
     downloads: 269,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6889,14 +6889,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 299,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-mercedes-benz-driven-to-delight-joseph-a-michelli.png",
     downloads: 276,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6912,14 +6912,14 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 312,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-metas-de-brian-tracy.png",
     downloads: 283,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6942,7 +6942,7 @@ const BOOKS = [
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Personas interesadas en meditación científica y reducción de estrés.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -6958,7 +6958,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 338,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-mision-emprender-sergio-fernandez-raimon-samso.png",
     downloads: 297,
     featured: false,
@@ -6981,21 +6981,21 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 351,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-networking-para-dummies.png",
     downloads: 304,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1288,
-    title: "No Hay Excusas. Entrï¿½nate con Francesc Gascï¿½ y Cambia tu Cuerpo",
+    title: "No Hay Excusas. Entrénate con Francesc Gascó y Cambia tu Cuerpo",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
@@ -7004,14 +7004,14 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 364,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-no-hay-excusas-entr-nate-con-francesc-gasc-y-cambia-t.png",
     downloads: 311,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7027,21 +7027,21 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 377,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-nunca-pares-phil-knight.png",
     downloads: 318,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1290,
-    title: "Paleo Dieta para Deportistas. Guía para una Alimentaciï¿½n Evolutiva",
+    title: "Paleo Dieta para Deportistas. Guía para una Alimentación Evolutiva",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
@@ -7050,14 +7050,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 390,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-paleo-dieta-para-deportistas-gu-a-para-una-alimentaci.png",
     downloads: 325,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7073,14 +7073,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 403,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-pasos-hacia-la-cumbre-del-exito-ziglar-zig.png",
     downloads: 332,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7096,14 +7096,14 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 416,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-paulo-coelho-el-alquimista.png",
     downloads: 339,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7119,38 +7119,38 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 149,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-perder-peso-para-dummies.png",
     downloads: 346,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1294,
-    title: "Que las Matematicas Te Acompaï¿½en",
+    title: "Que las Matematicas Te Acompañen",
     author: "Clara Grima Ruiz",
     category: "Crecimiento Personal",
     collection: "General",
     format: "dual",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1294_Que_las_matematicas_te_acompa_en_-_Clara_Grima_Ruiz.epub",
-    epub: "pdfs/epubs/Que las matematicas te acompaï¿½en - Clara Grima Ruiz.epub",
+    epub: "pdfs/epubs/Que las matematicas te acompañen - Clara Grima Ruiz.epub",
     year: 2019,
     language: "Español",
     pages: 162,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-que-las-matematicas-te-acompa-en-clara-grima-ruiz.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7166,14 +7166,14 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 175,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-quien-se-ha-llevado-mi-queso.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7189,14 +7189,14 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 188,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-reinicia.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7212,14 +7212,14 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 201,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-reputacion-online.png",
     downloads: 129,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7235,14 +7235,14 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 240,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-se-mas-eficaz-52-claves-para-m-david-allen.png",
     downloads: 150,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7258,14 +7258,14 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 253,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-secretos-del-lenguaje-corporal-jorge-kaham.png",
     downloads: 157,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7281,21 +7281,21 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 266,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-social-media-plan.png",
     downloads: 164,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1303,
-    title: "Sï¿½ Grande en un Mercado pequeño Raimon Sansï¿½ Freelibros Org",
+    title: "Sí Grande en un Mercado pequeño Raimon Samsó Freelibros Org",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
@@ -7304,14 +7304,14 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 279,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-s-grande-en-un-mercado-peque-o-raimon-sans-freelibros.png",
     downloads: 171,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7325,16 +7325,16 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1305_Whatcha_Gonna_Do_With_That_Duck_And_Other_Provocations_2006_2012.pdf",
     year: 2020,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 305,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-whatcha-gonna-do-with-that-duck-and-other-provocation.png",
     downloads: 185,
     featured: false,
     aiAnalysis: {
       genre: "Business & Strategy (English)",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7348,23 +7348,23 @@ const BOOKS = [
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1307_Your_Email_Profits_No_Event_-_Anthony_Morrison.pdf",
     year: 2022,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 331,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-your-email-profits-no-event-anthony-morrison.png",
     downloads: 199,
     featured: false,
     aiAnalysis: {
       genre: "Business & Strategy (English)",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
     id: 1309,
-    title: "ï¿½que",
+    title: "¿Qué",
     author: "Te Detiene",
     category: "Crecimiento Personal",
     collection: "General",
@@ -7373,14 +7373,14 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 357,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinï¿½micas clave para comprender y aplicar sus lecciones con claridad en el dï¿½a a dï¿½a.",
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-que-te-detiene.png",
     downloads: 213,
     featured: false,
     aiAnalysis: {
       genre: "Crecimiento Personal",
       vibe: "Transformador & Consciente",
-      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propï¿½sito"],
+      keyConcepts: ["Mentalidad Positiva", "Autoconocimiento", "Resiliencia Emocional", "Claridad de Propósito"],
       targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
       aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
@@ -7396,7 +7396,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 290,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/asi-se-manipula-consumidor.png",
     downloads: 170,
     featured: false,
@@ -7419,7 +7419,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 301,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-bharat-anand-the-content-trap.jpg",
     downloads: 179,
     featured: false,
@@ -7440,9 +7440,9 @@ const BOOKS = [
     format: "epub",
     epub: "pdfs/epubs/Ed_Catmull,_Amy_Wallace_Creativity.epub",
     year: 2017,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 312,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-ed-catmull-amy-wallace-creativity.jpg",
     downloads: 188,
     featured: false,
@@ -7463,9 +7463,9 @@ const BOOKS = [
     format: "epub",
     epub: "pdfs/epubs/Expert_Secrets_The_Underground_Playbook_for_Finding_Your_Message.epub",
     year: 2022,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 367,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-expert-secrets-the-underground-playbook-for-finding-your-message.jpg",
     downloads: 233,
     featured: false,
@@ -7488,7 +7488,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 378,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/c-focus-daniel-goleman.png",
     downloads: 242,
     featured: false,
@@ -7532,7 +7532,7 @@ const BOOKS = [
     format: "epub",
     epub: "pdfs/epubs/Martin_Lindstrom_Brandwashed_Tricks_Companies_Use_to_Manipulate.epub",
     year: 2018,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 191,
     description: "Revela los trucos psicológicos encubiertos que las multinacionales usan para manipular nuestras emociones, sembrar lealtad y acelerar compras compulsivas.",
     cover: "covers/c-martin-lindstrom-brandwashed.jpg",
@@ -7555,7 +7555,7 @@ const BOOKS = [
     format: "epub",
     epub: "pdfs/epubs/Martin_Lindstrom_Small_Data_The_Tiny_Clues_That_Uncover_Huge_Trends.epub",
     year: 2019,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 202,
     description: "Frente a la frialdad del Big Data, Lindstrom demuestra cómo pequeños detalles en los hogares de las personas revelan las verdades más profundas sobre el deseo humano.",
     cover: "covers/c-martin-lindstrom-small-data.jpg",
@@ -7580,7 +7580,7 @@ const BOOKS = [
     year: 2020,
     language: "Español",
     pages: 213,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-organizate-con-eficacia-allen-david.jpeg",
     downloads: 287,
     featured: false,
@@ -7603,7 +7603,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 224,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-principios-ray-dalio.jpeg",
     downloads: 296,
     featured: false,
@@ -7626,7 +7626,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 235,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-productividad-personal-en-una-s-jeronimo-sanchez.jpg",
     downloads: 305,
     featured: false,
@@ -7649,7 +7649,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 246,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-productividad-personal-aprende-jose-miguel-bolivar.jpg",
     downloads: 314,
     featured: false,
@@ -7672,7 +7672,7 @@ const BOOKS = [
     year: 2024,
     language: "Español",
     pages: 257,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-redes-neuronales-guia-sencilla.jpeg",
     downloads: 323,
     featured: false,
@@ -7693,9 +7693,9 @@ const BOOKS = [
     format: "epub",
     epub: "pdfs/epubs/Schaefer,_Mark_The_Content_Code_Six_essential_strategies_to_ignite.epub",
     year: 2019,
-    language: "Inglï¿½s",
+    language: "Inglés",
     pages: 290,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-schaefer-mark-the-content-code-six-essential-strategies-to-ignite.jpeg",
     downloads: 140,
     featured: false,
@@ -7718,7 +7718,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 312,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-steve-jobs-lecciones-de-liderazgo-walter-isaacson.jpeg",
     downloads: 158,
     featured: false,
@@ -7741,7 +7741,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 323,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y telï¿½fonos.",
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
     cover: "covers/epub-ultraproductividad-isra-garcia-rodriguez.jpeg",
     downloads: 167,
     featured: false,
@@ -7757,7 +7757,7 @@ const BOOKS = [
   // --- LA GRAN BIBLIOTECA ESTOICA ---
   {
     id: 1401,
-    title: "La teoría Sintï¿½rgica",
+    title: "La teoría Sintérgica",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -7775,7 +7775,7 @@ const BOOKS = [
       vibe: "Científico & Trascendente",
       keyConcepts: ["Enfoque Profundo", "Consciencia Cuántica", "Reprogramación Subconsciente"],
       targetAudience: "Estudiantes y profesionales interesados en la expansión cognitiva, el potencial humano y el cerebro.",
-      aiSummary: "Análisis editorial: La teoría Sintï¿½rgica aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
+      aiSummary: "Análisis editorial: La teoría Sintérgica aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
     }
   },
   {
@@ -7804,7 +7804,7 @@ const BOOKS = [
   {
     id: 1403,
     title: "20 Filósofos Visitan su Empresa",
-    author: "Heinz-Peter Rï¿½hr",
+    author: "Heinz-Peter Röhr",
     category: "Liderazgo & Estrategia",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -7812,7 +7812,7 @@ const BOOKS = [
     year: 2018,
     language: "Español",
     pages: 184,
-    description: "Obra esencial de Heinz-Peter Rï¿½hr centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Heinz-Peter Röhr centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-20_filosofos_visitan_su_empresa-3.png",
     downloads: 351,
     featured: false,
@@ -7849,8 +7849,8 @@ const BOOKS = [
   },
   {
     id: 1405,
-    title: "Amor Zero: cómo sobrevivir a los amores con psicï¿½patas",
-    author: "Dr. Iï¿½aki Piï¿½uel",
+    title: "Amor Zero: cómo sobrevivir a los amores con psicópatas",
+    author: "Dr. Iñaki Piñuel",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -7858,7 +7858,7 @@ const BOOKS = [
     year: 2016,
     language: "Español",
     pages: 271,
-    description: "Obra esencial de Dr. Iï¿½aki Piï¿½uel centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Dr. Iñaki Piñuel centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-amor_zero_o_aqui_pi_uel-5.png",
     downloads: 385,
     featured: false,
@@ -7867,7 +7867,7 @@ const BOOKS = [
       vibe: "Sanador & Esclarecedor",
       keyConcepts: ["Ciudadela Interior", "Dicotomía del Control", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Amor Zero: cómo sobrevivir a los amores con psicï¿½patas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Amor Zero: cómo sobrevivir a los amores con psicópatas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -7895,7 +7895,7 @@ const BOOKS = [
   },
   {
     id: 1407,
-    title: "Apologï¿½a de sícrates por Platï¿½n VERSIï¿½N 2",
+    title: "Apología de Sócrates por Platón VERSIÓN 2",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -7913,13 +7913,13 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Virtud como Bien Supremo", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Apologï¿½a de sícrates por Platï¿½n VERSIï¿½N 2 aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Apología de Sócrates por Platón VERSIÓN 2 aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1408,
     title: "Aprender a Pensar",
-    author: "Lucio Anneo síneca",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -7927,7 +7927,7 @@ const BOOKS = [
     year: 65,
     language: "Español",
     pages: 142,
-    description: "Obra esencial de Lucio Anneo síneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-aprender_a_pensar__seneca-8.png",
     downloads: 436,
     featured: false,
@@ -7941,7 +7941,7 @@ const BOOKS = [
   },
   {
     id: 1409,
-    title: "Aunque Tenga Miedo Hï¿½galo Igual",
+    title: "Aunque Tenga Miedo Hágalo Igual",
     author: "Susan Jeffers",
     category: "Autoayuda & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -7959,12 +7959,12 @@ const BOOKS = [
       vibe: "Valiente & Transformador",
       keyConcepts: ["Límites Personales", "Resiliencia Activa", "Gestión Emocional"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
-      aiSummary: "Análisis editorial: Aunque Tenga Miedo Hï¿½galo Igual aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
+      aiSummary: "Análisis editorial: Aunque Tenga Miedo Hágalo Igual aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
     }
   },
   {
     id: 1410,
-    title: "Los Filósofos Estoicos: Ontologï¿½a, lógica y ??tica",
+    title: "Los Filósofos Estoicos: Ontología, lógica y Ética",
     author: "Marcelo D. Boeri & Ricardo Salles",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -7979,10 +7979,10 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Acadï¿½mico & Riguroso",
+      vibe: "Académico & Riguroso",
       keyConcepts: ["Dicotomía del Control", "Amor Fati", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Los Filósofos Estoicos: Ontologï¿½a, lógica y ??tica aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Los Filósofos Estoicos: Ontología, lógica y Ética aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8010,7 +8010,7 @@ const BOOKS = [
   },
   {
     id: 1412,
-    title: "CARTAS DE síNECA A LUCILIO",
+    title: "CARTAS DE SÉNECA A LUCILIO",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8028,7 +8028,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Dicotomía del Control", "Memento Mori", "Virtud como Bien Supremo"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: CARTAS DE síNECA A LUCILIO aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: CARTAS DE SÉNECA A LUCILIO aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8056,7 +8056,7 @@ const BOOKS = [
   },
   {
     id: 1414,
-    title: "cómo curar un corazï¿½n roto - Gaby Pï¿½rez Islas",
+    title: "cómo curar un corazón roto - Gaby Pérez Islas",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8074,12 +8074,12 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Dicotomía del Control", "Ciudadela Interior", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: cómo curar un corazï¿½n roto - Gaby Pï¿½rez Islas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: cómo curar un corazón roto - Gaby Pérez Islas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1415,
-    title: "cómo dejar de preocuparte. Ser estoico en tiempos caï¿½ticos (Brigid Delaney) ",
+    title: "cómo dejar de preocuparte. Ser estoico en tiempos caóticos (Brigid Delaney) ",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8097,7 +8097,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: cómo dejar de preocuparte. Ser estoico en tiempos caï¿½ticos (Brigid Delaney)  aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: cómo dejar de preocuparte. Ser estoico en tiempos caóticos (Brigid Delaney)  aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8125,7 +8125,7 @@ const BOOKS = [
   },
   {
     id: 1417,
-    title: "Confï¿½a en mï¿½, estoy mintiendo",
+    title: "Confía en mí, estoy mintiendo",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8143,12 +8143,12 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Dicotomía del Control", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Confï¿½a en mï¿½, estoy mintiendo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Confía en mí, estoy mintiendo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1418,
-    title: "Conocernos ï¿½quï¿½ nos quiere decir el cuerpo con la enfermedad",
+    title: "Conocernos ¿qué nos quiere decir el cuerpo con la enfermedad",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8166,7 +8166,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Dicotomía del Control", "Memento Mori", "Virtud como Bien Supremo"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Conocernos ï¿½quï¿½ nos quiere decir el cuerpo con la enfermedad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Conocernos ¿qué nos quiere decir el cuerpo con la enfermedad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8195,7 +8195,7 @@ const BOOKS = [
   {
     id: 1420,
     title: "De la Ira",
-    author: "Lucio Anneo síneca",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -8203,7 +8203,7 @@ const BOOKS = [
     year: 52,
     language: "Español",
     pages: 87,
-    description: "Obra esencial de Lucio Anneo síneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-de_la_ira_seneca-20.png",
     downloads: 320,
     featured: false,
@@ -8217,7 +8217,7 @@ const BOOKS = [
   },
   {
     id: 1421,
-    title: "DEMï¿½CRITO ï¿½TICA",
+    title: "DEMÓCRITO ÉTICA",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8235,7 +8235,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: DEMï¿½CRITO ï¿½TICA aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: DEMÓCRITO ÉTICA aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8263,7 +8263,7 @@ const BOOKS = [
   },
   {
     id: 1423,
-    title: "Diï¿½logos IV. Repï¿½blica (Platï¿½n)",
+    title: "Diálogos IV. República (Platón)",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8281,7 +8281,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Dicotomía del Control", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Diï¿½logos IV. Repï¿½blica (Platï¿½n) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Diálogos IV. República (Platón) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8301,7 +8301,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Socrítico & Directo",
+      vibe: "Socrático & Directo",
       keyConcepts: ["Dicotomía del Control", "Memento Mori", "Virtud como Bien Supremo"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Disertaciones por Arriano aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -8309,7 +8309,7 @@ const BOOKS = [
   },
   {
     id: 1425,
-    title: "Dispenza, Joe - Deja-de-Ser-Tï¿½",
+    title: "Dispenza, Joe - Deja-de-Ser-Tú",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8327,13 +8327,13 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Virtud como Bien Supremo", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Dispenza, Joe - Deja-de-Ser-Tï¿½ aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Dispenza, Joe - Deja-de-Ser-Tú aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1426,
     title: "Ecos Estoicos: Mantras para forjar una mentalidad inquebrantable",
-    author: "Pedro Vivar Nï¿½ï¿½ez",
+    author: "Pedro Vivar Núñez",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -8341,7 +8341,7 @@ const BOOKS = [
     year: 2023,
     language: "Español",
     pages: 334,
-    description: "Obra esencial de Pedro Vivar Nï¿½ï¿½ez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Pedro Vivar Núñez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-ecos_estoicos__los_mantras_que_han_-26.png",
     downloads: 422,
     featured: false,
@@ -8439,7 +8439,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Autoayuda & Mente",
-      vibe: "Propï¿½sito & Presencia",
+      vibe: "Propósito & Presencia",
       keyConcepts: ["Autoestima Saludable", "Fortaleza Mental", "Paz Interior"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
       aiSummary: "Análisis editorial: El Camino del Hombre Superior aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
@@ -8447,7 +8447,7 @@ const BOOKS = [
   },
   {
     id: 1431,
-    title: "El pequeño libro del estoicismo - Jonas-Salzgeber.pdf ï¿½ versiï¿½n 1.pdf ï¿½ versiï¿½n 1.pdf ï¿½ versiï¿½n 1",
+    title: "El pequeño libro del estoicismo - Jonas-Salzgeber.pdf  versión 1.pdf  versión 1.pdf  versión 1",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8465,7 +8465,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Virtud como Bien Supremo", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: El pequeño libro del estoicismo - Jonas-Salzgeber.pdf ï¿½ versiï¿½n 1.pdf ï¿½ versiï¿½n 1.pdf ï¿½ versiï¿½n 1 aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: El pequeño libro del estoicismo - Jonas-Salzgeber.pdf  versión 1.pdf  versión 1.pdf  versión 1 aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8485,7 +8485,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Esotï¿½rico & Metafísico",
+      vibe: "Esotérico & Metafísico",
       keyConcepts: ["Dicotomía del Control", "Ciudadela Interior", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: El Ser Uno I: Los Arcanos de Thoth aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -8493,7 +8493,7 @@ const BOOKS = [
   },
   {
     id: 1433,
-    title: "El Vehï¿½culo de las Transformaciones - Jacobo Grinberg",
+    title: "El Vehículo de las Transformaciones - Jacobo Grinberg",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8511,7 +8511,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: El Vehï¿½culo de las Transformaciones - Jacobo Grinberg aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: El Vehículo de las Transformaciones - Jacobo Grinberg aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8531,7 +8531,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Neurociencia & Mente",
-      vibe: "Introspecciï¿½n Científica",
+      vibe: "Introspección Científica",
       keyConcepts: ["Campo Neuronal", "Consciencia Cuántica", "Plasticidad Cerebral"],
       targetAudience: "Estudiantes y profesionales interesados en la expansión cognitiva, el potencial humano y el cerebro.",
       aiSummary: "Análisis editorial: El Yo como Idea aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
@@ -8540,7 +8540,7 @@ const BOOKS = [
   {
     id: 1435,
     title: "El Arte de la Prudencia",
-    author: "Baltasar Graciï¿½n",
+    author: "Baltasar Gracián",
     category: "Liderazgo & Estrategia",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -8548,7 +8548,7 @@ const BOOKS = [
     year: 1647,
     language: "Español",
     pages: 68,
-    description: "Obra esencial de Baltasar Graciï¿½n centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Baltasar Gracián centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-el_arte_de_prudencia-36.png",
     downloads: 255,
     featured: true,
@@ -8563,7 +8563,7 @@ const BOOKS = [
   {
     id: 1436,
     title: "Elige No Tener Miedo: cómo aprender a vivir después de un gran dolor",
-    author: "Gaby Pï¿½rez Islas",
+    author: "Gaby Pérez Islas",
     category: "Autoayuda & Mente",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -8571,13 +8571,13 @@ const BOOKS = [
     year: 2019,
     language: "Español",
     pages: 99,
-    description: "Obra esencial de Gaby Pï¿½rez Islas centrada en autoayuda & mente. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Gaby Pérez Islas centrada en autoayuda & mente. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-elige_no_tener_miedo__c_mo_aprender-37.png",
     downloads: 272,
     featured: false,
     aiAnalysis: {
       genre: "Autoayuda & Mente",
-      vibe: "Sanaciï¿½n & Coraje",
+      vibe: "Sanación & Coraje",
       keyConcepts: ["Autoestima Saludable", "Fortaleza Mental", "Paz Interior"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
       aiSummary: "Análisis editorial: Elige No Tener Miedo: cómo aprender a vivir después de un gran dolor aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
@@ -8586,7 +8586,7 @@ const BOOKS = [
   {
     id: 1437,
     title: "Encuentra tu Persona Vitamina",
-    author: "Dra. Marian Rojas Estapï¿½",
+    author: "Dra. Marian Rojas Estapé",
     category: "Autoayuda & Mente",
     collection: "La Gran Biblioteca Estoica",
     format: "epub",
@@ -8594,7 +8594,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 240,
-    description: "Obra esencial de Dra. Marian Rojas Estapï¿½ centrada en autoayuda & mente. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Dra. Marian Rojas Estapé centrada en autoayuda & mente. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-encuentra_tu_persona_vitamina-122.jpg",
     downloads: 289,
     featured: false,
@@ -8608,7 +8608,7 @@ const BOOKS = [
   },
   {
     id: 1438,
-    title: "Enquiridiï¿½n (Manual de Vida)",
+    title: "Enquiridión (Manual de Vida)",
     author: "Epicteto",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8626,13 +8626,13 @@ const BOOKS = [
       vibe: "Pilar Estoico",
       keyConcepts: ["Dicotomía del Control", "Ciudadela Interior", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Enquiridiï¿½n (Manual de Vida) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Enquiridión (Manual de Vida) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1439,
-    title: "Manual de Vida: La vï¿½a de la serenidad",
-    author: "Sharon Lebell (Adaptaciï¿½n de Epicteto)",
+    title: "Manual de Vida: La vía de la serenidad",
+    author: "Sharon Lebell (Adaptación de Epicteto)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -8640,7 +8640,7 @@ const BOOKS = [
     year: 1995,
     language: "Español",
     pages: 57,
-    description: "Obra esencial de Sharon Lebell (Adaptaciï¿½n de Epicteto) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Sharon Lebell (Adaptación de Epicteto) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-epicteto_manualdevida_sharon_lebell-39.png",
     downloads: 323,
     featured: false,
@@ -8649,13 +8649,13 @@ const BOOKS = [
       vibe: "Cálido & Práctico",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Manual de Vida: La vï¿½a de la serenidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Manual de Vida: La vía de la serenidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1440,
-    title: "Epï¿½stolas Morales a Lucilio (Volumen I)",
-    author: "Lucio Anneo síneca",
+    title: "Epístolas Morales a Lucilio (Volumen I)",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "epub",
@@ -8663,7 +8663,7 @@ const BOOKS = [
     year: 65,
     language: "Español",
     pages: 240,
-    description: "Obra esencial de Lucio Anneo síneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-epistolas_morales_a_lucilio_i-123.jpg",
     downloads: 340,
     featured: false,
@@ -8672,13 +8672,13 @@ const BOOKS = [
       vibe: "sabiduría de Vida",
       keyConcepts: ["Dicotomía del Control", "Amor Fati", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Epï¿½stolas Morales a Lucilio (Volumen I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Epístolas Morales a Lucilio (Volumen I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1441,
     title: "Escuela de Estoicismo Moderno",
-    author: "Isra Garcï¿½a",
+    author: "Isra García",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -8686,7 +8686,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 257,
-    description: "Obra esencial de Isra Garcï¿½a centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Isra García centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-escuela_de_estoicismo_moderno_by_is-40.png",
     downloads: 357,
     featured: false,
@@ -8700,8 +8700,8 @@ const BOOKS = [
   },
   {
     id: 1442,
-    title: "Hercï¿½lubus o Planeta Rojo",
-    author: "V.M. Rabolï¿½",
+    title: "Hercólubus o Planeta Rojo",
+    author: "V.M. Rabolú",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -8709,16 +8709,16 @@ const BOOKS = [
     year: 1998,
     language: "Español",
     pages: 45,
-    description: "Obra esencial de V.M. Rabolï¿½ centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de V.M. Rabolú centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-es_hercolubus_o_planeta_rojo-41.png",
     downloads: 374,
     featured: true,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Místico & Enigmï¿½tico",
+      vibe: "Místico & Enigmático",
       keyConcepts: ["Dicotomía del Control", "Memento Mori", "Virtud como Bien Supremo"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Hercï¿½lubus o Planeta Rojo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Hercólubus o Planeta Rojo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8755,13 +8755,13 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 83,
-    description: "Obra esencial de Josï¿½ Villa centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de José Villa centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-estoicismo_para_principiantes_gu_a_-43.png",
     downloads: 408,
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Iniciaciï¿½n & Claridad",
+      vibe: "Iniciación & Claridad",
       keyConcepts: ["Dicotomía del Control", "Ciudadela Interior", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Estoicismo para Principiantes (Edición Digital EPUB) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -8778,13 +8778,13 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 240,
-    description: "Obra esencial de Josï¿½ Villa centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de José Villa centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-estoicismo_para_principiantes____vi-124.jpg",
     downloads: 425,
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Iniciaciï¿½n & Claridad",
+      vibe: "Iniciación & Claridad",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Estoicismo para Principiantes: Guía práctica para una vida resiliente aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -8838,7 +8838,7 @@ const BOOKS = [
   },
   {
     id: 1448,
-    title: "No estás Deprimido, estás Distraï¿½do",
+    title: "No estás Deprimido, estás Distraído",
     author: "Facundo Cabral",
     category: "Autoayuda & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -8856,7 +8856,7 @@ const BOOKS = [
       vibe: "Poético & Despertador",
       keyConcepts: ["Autoestima Saludable", "Fortaleza Mental", "Paz Interior"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
-      aiSummary: "Análisis editorial: No estás Deprimido, estás Distraï¿½do aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
+      aiSummary: "Análisis editorial: No estás Deprimido, estás Distraído aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
     }
   },
   {
@@ -8931,7 +8931,7 @@ const BOOKS = [
   {
     id: 1452,
     title: "Escuela de Estoicismo Moderno (Edición Digital)",
-    author: "Isra Garcï¿½a",
+    author: "Isra García",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "epub",
@@ -8939,7 +8939,7 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 240,
-    description: "Obra esencial de Isra Garcï¿½a centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Isra García centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-garcia_isra___escuela_de_estoicismo-126.jpg",
     downloads: 224,
     featured: false,
@@ -8976,7 +8976,7 @@ const BOOKS = [
   },
   {
     id: 1454,
-    title: "HADOT. ï¿½QUï¿½ ES LA Filosofía ANTIGUAï¿½",
+    title: "HADOT. ¿QUÉ ES LA Filosofía ANTIGUA?",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -8994,7 +8994,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Dicotomía del Control", "Memento Mori", "Virtud como Bien Supremo"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: HADOT. ï¿½QUï¿½ ES LA Filosofía ANTIGUAï¿½ aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: HADOT. ¿QUÉ ES LA Filosofía ANTIGUA? aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9014,7 +9014,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Profundo & Acadï¿½mico",
+      vibe: "Profundo & Académico",
       keyConcepts: ["Ciudadela Interior", "Virtud como Bien Supremo", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: La Ciudadela Interior: Introducción a las Meditaciones de Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -9045,7 +9045,7 @@ const BOOKS = [
   },
   {
     id: 1457,
-    title: "Manual para la Vida Feliz: Comentarios al Enquiridiï¿½n",
+    title: "Manual para la Vida Feliz: Comentarios al Enquiridión",
     author: "Pierre Hadot (sobre Epicteto)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -9063,12 +9063,12 @@ const BOOKS = [
       vibe: "Guía Estoica",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Manual para la Vida Feliz: Comentarios al Enquiridiï¿½n aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Manual para la Vida Feliz: Comentarios al Enquiridión aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1458,
-    title: "Historia de la Decadencia y Caï¿½da del Imperio Romano (Tomo I)",
+    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo I)",
     author: "Edward Gibbon",
     category: "Liderazgo & Estrategia",
     collection: "La Gran Biblioteca Estoica",
@@ -9083,15 +9083,15 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Liderazgo & Estrategia",
-      vibe: "Monumental & ??pico",
+      vibe: "Monumental & Épico",
       keyConcepts: ["Visión a Largo Plazo", "Antifragilidad", "Toma de Decisiones"],
       targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-      aiSummary: "Análisis editorial: Historia de la Decadencia y Caï¿½da del Imperio Romano (Tomo I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+      aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
     }
   },
   {
     id: 1459,
-    title: "Historia de la Decadencia y Caï¿½da del Imperio Romano (Tomo II)",
+    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo II)",
     author: "Edward Gibbon",
     category: "Liderazgo & Estrategia",
     collection: "La Gran Biblioteca Estoica",
@@ -9106,15 +9106,15 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Liderazgo & Estrategia",
-      vibe: "Monumental & ??pico",
+      vibe: "Monumental & Épico",
       keyConcepts: ["Dominio del Poder", "Antifragilidad", "Pensamiento Estratégico"],
       targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-      aiSummary: "Análisis editorial: Historia de la Decadencia y Caï¿½da del Imperio Romano (Tomo II) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+      aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo II) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
     }
   },
   {
     id: 1460,
-    title: "Historia de la Decadencia y Caï¿½da del Imperio Romano (Tomo III)",
+    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo III)",
     author: "Edward Gibbon",
     category: "Liderazgo & Estrategia",
     collection: "La Gran Biblioteca Estoica",
@@ -9129,15 +9129,15 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Liderazgo & Estrategia",
-      vibe: "Monumental & ??pico",
+      vibe: "Monumental & Épico",
       keyConcepts: ["Pensamiento Estratégico", "Antifragilidad", "Dominio del Poder"],
       targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-      aiSummary: "Análisis editorial: Historia de la Decadencia y Caï¿½da del Imperio Romano (Tomo III) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+      aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo III) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
     }
   },
   {
     id: 1461,
-    title: "Historia de la Decadencia y Caï¿½da del Imperio Romano (Tomo IV)",
+    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo IV)",
     author: "Edward Gibbon",
     category: "Liderazgo & Estrategia",
     collection: "La Gran Biblioteca Estoica",
@@ -9152,15 +9152,15 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Liderazgo & Estrategia",
-      vibe: "Monumental & ??pico",
+      vibe: "Monumental & Épico",
       keyConcepts: ["Toma de Decisiones", "Antifragilidad", "Visión a Largo Plazo"],
       targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-      aiSummary: "Análisis editorial: Historia de la Decadencia y Caï¿½da del Imperio Romano (Tomo IV) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+      aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo IV) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
     }
   },
   {
     id: 1462,
-    title: "Holiday Ryan - El Obstï¿½culo Es El Camino",
+    title: "Holiday Ryan - El Obstáculo Es El Camino",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -9178,7 +9178,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Dicotomía del Control", "Ciudadela Interior", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Holiday Ryan - El Obstï¿½culo Es El Camino aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Holiday Ryan - El Obstáculo Es El Camino aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9206,7 +9206,7 @@ const BOOKS = [
   },
   {
     id: 1464,
-    title: "Introducción a la sabiduría Autor Juan Luï¿½s Vives",
+    title: "Introducción a la sabiduría Autor Juan Luís Vives",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -9224,12 +9224,12 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Dicotomía del Control", "Amor Fati", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Introducción a la sabiduría Autor Juan Luï¿½s Vives aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Introducción a la sabiduría Autor Juan Luís Vives aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1465,
-    title: "Invicto Logra más, Sufre Menos de Marcos Vï¿½zquez",
+    title: "Invicto Logra más, Sufre Menos de Marcos Vázquez",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -9247,7 +9247,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Dicotomía del Control", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Invicto Logra más, Sufre Menos de Marcos Vï¿½zquez aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Invicto Logra más, Sufre Menos de Marcos Vázquez aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9275,7 +9275,7 @@ const BOOKS = [
   },
   {
     id: 1467,
-    title: "La disciplina marcarï¿½ tu destino (Las 4 virtudes estoicas",
+    title: "La disciplina marcará tu destino (Las 4 virtudes estoicas",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -9293,13 +9293,13 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Virtud como Bien Supremo", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: La disciplina marcarï¿½ tu destino (Las 4 virtudes estoicas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: La disciplina marcará tu destino (Las 4 virtudes estoicas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1468,
     title: "La Educación del Estoico",
-    author: "Fernando Pessoa (Barï¿½n de Teive)",
+    author: "Fernando Pessoa (Barón de Teive)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -9307,13 +9307,13 @@ const BOOKS = [
     year: 1928,
     language: "Español",
     pages: 292,
-    description: "Obra esencial de Fernando Pessoa (Barï¿½n de Teive) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Fernando Pessoa (Barón de Teive) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-la_educacion_del_estoico___fernando-65.png",
     downloads: 496,
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Melancï¿½lico & Lúcido",
+      vibe: "Melancólico & Lúcido",
       keyConcepts: ["Dicotomía del Control", "Ciudadela Interior", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: La Educación del Estoico aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -9321,7 +9321,7 @@ const BOOKS = [
   },
   {
     id: 1469,
-    title: "La ï¿½tica en Demï¿½crito por Fondo  Editorial  Universidad Nacional Mayor de San Marcos",
+    title: "La ética en Demócrito por Fondo  Editorial  Universidad Nacional Mayor de San Marcos",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -9339,7 +9339,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: La ï¿½tica en Demï¿½crito por Fondo  Editorial  Universidad Nacional Mayor de San Marcos aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: La ética en Demócrito por Fondo  Editorial  Universidad Nacional Mayor de San Marcos aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9367,8 +9367,8 @@ const BOOKS = [
   },
   {
     id: 1471,
-    title: "La Lï¿½grima de Jantipa",
-    author: "Manel Garcï¿½a sínchez",
+    title: "La Lágrima de Jantipa",
+    author: "Manel García Sánchez",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -9376,7 +9376,7 @@ const BOOKS = [
     year: 2017,
     language: "Español",
     pages: 135,
-    description: "Obra esencial de Manel Garcï¿½a sínchez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Manel García Sánchez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-la_lagrima_de_jantipa__spanish___ga-68.png",
     downloads: 227,
     featured: false,
@@ -9385,7 +9385,7 @@ const BOOKS = [
       vibe: "Histórico & Filosófico",
       keyConcepts: ["Ciudadela Interior", "Dicotomía del Control", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: La Lï¿½grima de Jantipa aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: La Lágrima de Jantipa aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9459,7 +9459,7 @@ const BOOKS = [
   },
   {
     id: 1475,
-    title: "Antifrï¿½gil: Las cosas que se benefician del desorden",
+    title: "Antifrágil: Las cosas que se benefician del desorden",
     author: "Nassim Nicholas Taleb",
     category: "Liderazgo & Estrategia",
     collection: "La Gran Biblioteca Estoica",
@@ -9477,7 +9477,7 @@ const BOOKS = [
       vibe: "Robusto & Visionario",
       keyConcepts: ["Pensamiento Estratégico", "Antifragilidad", "Dominio del Poder"],
       targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-      aiSummary: "Análisis editorial: Antifrï¿½gil: Las cosas que se benefician del desorden aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+      aiSummary: "Análisis editorial: Antifrágil: Las cosas que se benefician del desorden aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
     }
   },
   {
@@ -9520,7 +9520,7 @@ const BOOKS = [
     featured: true,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Sintï¿½tico & Elegante",
+      vibe: "Sintético & Elegante",
       keyConcepts: ["Ciudadela Interior", "Dicotomía del Control", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Lecciones de Estoicismo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -9575,7 +9575,7 @@ const BOOKS = [
   {
     id: 1480,
     title: "Los Estoicos Antiguos: Zenón, Cleantes, Crisipo",
-    author: "ï¿½ngel J. Cappelletti",
+    author: "Ángel J. Cappelletti",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -9583,13 +9583,13 @@ const BOOKS = [
     year: 1996,
     language: "Español",
     pages: 880,
-    description: "Obra esencial de ï¿½ngel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Ángel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-los_estoicos_antiguos___aa_vv-79.png",
     downloads: 380,
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Pioneros del Pï¿½rtico",
+      vibe: "Pioneros del Pórtico",
       keyConcepts: ["Dicotomía del Control", "Ciudadela Interior", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Los Estoicos Antiguos: Zenón, Cleantes, Crisipo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -9598,7 +9598,7 @@ const BOOKS = [
   {
     id: 1481,
     title: "Los Estoicos Antiguos (Edición Digital)",
-    author: "ï¿½ngel J. Cappelletti",
+    author: "Ángel J. Cappelletti",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "epub",
@@ -9606,13 +9606,13 @@ const BOOKS = [
     year: 1996,
     language: "Español",
     pages: 240,
-    description: "Obra esencial de ï¿½ngel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Ángel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-los_estoicos_antiguos-127.jpg",
     downloads: 397,
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Filosofía del Pï¿½rtico",
+      vibe: "Filosofía del Pórtico",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Los Estoicos Antiguos (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -9620,8 +9620,8 @@ const BOOKS = [
   },
   {
     id: 1482,
-    title: "Los Estoicos: Epicteto, síneca, Marco Aurelio",
-    author: "Selección Clï¿½sica",
+    title: "Los Estoicos: Epicteto, Séneca, Marco Aurelio",
+    author: "Selección Clásica",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -9629,16 +9629,16 @@ const BOOKS = [
     year: 2015,
     language: "Español",
     pages: 184,
-    description: "Obra esencial de Selección Clï¿½sica centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Selección Clásica centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-los_estoicos_libro-80.png",
     downloads: 414,
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Antologï¿½a Esencial",
+      vibe: "Antología Esencial",
       keyConcepts: ["Dicotomía del Control", "Amor Fati", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Los Estoicos: Epicteto, síneca, Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Los Estoicos: Epicteto, Séneca, Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9712,12 +9712,12 @@ const BOOKS = [
   },
   {
     id: 1486,
-    title: "más Platï¿½n y menos Prozac",
+    title: "más Platón y menos Prozac",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "pdfs/La Gran Biblioteca Estoica/más Platï¿½n y menos Prozac.pdf",
+    pdf: "pdfs/La Gran Biblioteca Estoica/más Platón y menos Prozac.pdf",
     year: 2020,
     language: "Español",
     pages: 299,
@@ -9730,12 +9730,12 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Dicotomía del Control", "Ciudadela Interior", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: más Platï¿½n y menos Prozac aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: más Platón y menos Prozac aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1487,
-    title: "Matar a sícrates . Gregorio Luri",
+    title: "Matar a Sócrates . Gregorio Luri",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -9753,7 +9753,7 @@ const BOOKS = [
       vibe: "Profundo & Reflexivo",
       keyConcepts: ["Ciudadela Interior", "Ataraxia", "Amor Fati"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Matar a sícrates . Gregorio Luri aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Matar a Sócrates . Gregorio Luri aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9773,7 +9773,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Autoayuda & Mente",
-      vibe: "Sanaciï¿½n & Paz",
+      vibe: "Sanación & Paz",
       keyConcepts: ["Autoestima Saludable", "Gestión Emocional", "Resiliencia Activa"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
       aiSummary: "Análisis editorial: meditación: Lograr paz interior y bienestar aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
@@ -9804,8 +9804,8 @@ const BOOKS = [
   },
   {
     id: 1490,
-    title: "Meditaciones de Marco Aurelio (Novela Grï¿½fica Manga)",
-    author: "Marco Aurelio (Adaptaciï¿½n Manga)",
+    title: "Meditaciones de Marco Aurelio (Novela Gráfica Manga)",
+    author: "Marco Aurelio (Adaptación Manga)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -9813,21 +9813,21 @@ const BOOKS = [
     year: 2021,
     language: "Español",
     pages: 195,
-    description: "Obra esencial de Marco Aurelio (Adaptaciï¿½n Manga) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Marco Aurelio (Adaptación Manga) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-meditaciones__el_manga__corregido_-87.png",
     downloads: 230,
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Visual & Dinï¿½mico",
+      vibe: "Visual & Dinámico",
       keyConcepts: ["Dicotomía del Control", "Memento Mori", "Virtud como Bien Supremo"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Meditaciones de Marco Aurelio (Novela Grï¿½fica Manga) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Meditaciones de Marco Aurelio (Novela Gráfica Manga) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1491,
-    title: "Meditaciones (Traducciï¿½n Completa)",
+    title: "Meditaciones (Traducción Completa)",
     author: "Marco Aurelio",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -9842,10 +9842,10 @@ const BOOKS = [
     featured: true,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Emperador Filï¿½sofo",
+      vibe: "Emperador Filósofo",
       keyConcepts: ["Ciudadela Interior", "Virtud como Bien Supremo", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Meditaciones (Traducciï¿½n Completa) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Meditaciones (Traducción Completa) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9873,8 +9873,8 @@ const BOOKS = [
   },
   {
     id: 1493,
-    title: "El Mï¿½todo Silva de Control Mental",
-    author: "Josï¿½ Silva & Philip Miele",
+    title: "El Método Silva de Control Mental",
+    author: "José Silva & Philip Miele",
     category: "Neurociencia & Mente",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -9882,7 +9882,7 @@ const BOOKS = [
     year: 1977,
     language: "Español",
     pages: 69,
-    description: "Obra esencial de Josï¿½ Silva & Philip Miele centrada en neurociencia & mente. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de José Silva & Philip Miele centrada en neurociencia & mente. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-metodo_jose_silva_de_control_mental-91.png",
     downloads: 281,
     featured: false,
@@ -9891,7 +9891,7 @@ const BOOKS = [
       vibe: "Reprogramación & Foco",
       keyConcepts: ["Reprogramación Subconsciente", "Consciencia Cuántica", "Enfoque Profundo"],
       targetAudience: "Estudiantes y profesionales interesados en la expansión cognitiva, el potencial humano y el cerebro.",
-      aiSummary: "Análisis editorial: El Mï¿½todo Silva de Control Mental aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
+      aiSummary: "Análisis editorial: El Método Silva de Control Mental aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
     }
   },
   {
@@ -9919,8 +9919,8 @@ const BOOKS = [
   },
   {
     id: 1495,
-    title: "El Prï¿½ncipe",
-    author: "Nicolï¿½s Maquiavelo",
+    title: "El Príncipe",
+    author: "Nicolás Maquiavelo",
     category: "Liderazgo & Estrategia",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -9928,7 +9928,7 @@ const BOOKS = [
     year: 1532,
     language: "Español",
     pages: 88,
-    description: "Obra esencial de Nicolï¿½s Maquiavelo centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Nicolás Maquiavelo centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-nicolas_maquiavelo___el_principe_pd-94.png",
     downloads: 315,
     featured: false,
@@ -9937,7 +9937,7 @@ const BOOKS = [
       vibe: "Poder & Realismo político",
       keyConcepts: ["Pensamiento Estratégico", "Antifragilidad", "Dominio del Poder"],
       targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-      aiSummary: "Análisis editorial: El Prï¿½ncipe aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+      aiSummary: "Análisis editorial: El Príncipe aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
     }
   },
   {
@@ -9988,7 +9988,7 @@ const BOOKS = [
   },
   {
     id: 1498,
-    title: "No te Ahogues en un Vaso de Agua: Estrategias para no estresarte por pequeï¿½eces",
+    title: "No te Ahogues en un Vaso de Agua: Estrategias para no estresarte por pequeñeces",
     author: "Richard Carlson",
     category: "Autoayuda & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -10006,12 +10006,12 @@ const BOOKS = [
       vibe: "Tranquilizador & Diario",
       keyConcepts: ["Autoestima Saludable", "Límites Personales", "Resiliencia Activa"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
-      aiSummary: "Análisis editorial: No te Ahogues en un Vaso de Agua: Estrategias para no estresarte por pequeï¿½eces aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
+      aiSummary: "Análisis editorial: No te Ahogues en un Vaso de Agua: Estrategias para no estresarte por pequeñeces aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
     }
   },
   {
     id: 1499,
-    title: "Obedece a tu Cuerpo, ï¿½ï¿½mate!",
+    title: "Obedece a tu Cuerpo, ¡Ámate!",
     author: "Lise Bourbeau",
     category: "Autoayuda & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -10029,7 +10029,7 @@ const BOOKS = [
       vibe: "Metafísico & Sanador",
       keyConcepts: ["Límites Personales", "Resiliencia Activa", "Gestión Emocional"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
-      aiSummary: "Análisis editorial: Obedece a tu Cuerpo, ï¿½ï¿½mate! aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
+      aiSummary: "Análisis editorial: Obedece a tu Cuerpo, ¡Ámate! aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
     }
   },
   {
@@ -10103,7 +10103,7 @@ const BOOKS = [
   },
   {
     id: 1503,
-    title: "Psicología Oscura: Secretos de persuasiï¿½n y manipulaciï¿½n Psicológica",
+    title: "Psicología Oscura: Secretos de persuasión y manipulación Psicológica",
     author: "S. L. Moore",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
@@ -10121,12 +10121,12 @@ const BOOKS = [
       vibe: "Analítico & Cautelar",
       keyConcepts: ["Ciudadela Interior", "Virtud como Bien Supremo", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Psicología Oscura: Secretos de persuasiï¿½n y manipulaciï¿½n Psicológica aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Psicología Oscura: Secretos de persuasión y manipulación Psicológica aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
     id: 1504,
-    title: "Resiliencia desde el Corazï¿½n: El poder de la coherencia mente-corazï¿½n",
+    title: "Resiliencia desde el Corazón: El poder de la coherencia mente-corazón",
     author: "Gregg Braden",
     category: "Autoayuda & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -10144,7 +10144,7 @@ const BOOKS = [
       vibe: "Científico & Espiritual",
       keyConcepts: ["Autoestima Saludable", "Límites Personales", "Resiliencia Activa"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
-      aiSummary: "Análisis editorial: Resiliencia desde el Corazï¿½n: El poder de la coherencia mente-corazï¿½n aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
+      aiSummary: "Análisis editorial: Resiliencia desde el Corazón: El poder de la coherencia mente-corazón aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
     }
   },
   {
@@ -10173,7 +10173,7 @@ const BOOKS = [
   {
     id: 1506,
     title: "La Caverna",
-    author: "Josï¿½ Saramago (Premio Nobel)",
+    author: "José Saramago (Premio Nobel)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -10181,7 +10181,7 @@ const BOOKS = [
     year: 2000,
     language: "Español",
     pages: 251,
-    description: "Obra esencial de Josï¿½ Saramago (Premio Nobel) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de José Saramago (Premio Nobel) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-saramago__jose___la_caverna-105.png",
     downloads: 182,
     featured: false,
@@ -10195,8 +10195,8 @@ const BOOKS = [
   },
   {
     id: 1507,
-    title: "Diï¿½logos Completos: Consolaciones, De la Providencia, De la Tranquilidad",
-    author: "Lucio Anneo síneca",
+    title: "Diálogos Completos: Consolaciones, De la Providencia, De la Tranquilidad",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -10204,7 +10204,7 @@ const BOOKS = [
     year: 60,
     language: "Español",
     pages: 411,
-    description: "Obra esencial de Lucio Anneo síneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-seneca_dialogos-106.png",
     downloads: 199,
     featured: false,
@@ -10213,7 +10213,7 @@ const BOOKS = [
       vibe: "sabiduría de Vida",
       keyConcepts: ["Ciudadela Interior", "Dicotomía del Control", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-      aiSummary: "Análisis editorial: Diï¿½logos Completos: Consolaciones, De la Providencia, De la Tranquilidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+      aiSummary: "Análisis editorial: Diálogos Completos: Consolaciones, De la Providencia, De la Tranquilidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -10233,7 +10233,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "??tica & Rectitud",
+      vibe: "Ética & Rectitud",
       keyConcepts: ["Dicotomía del Control", "Memento Mori", "Virtud como Bien Supremo"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Ser Justo en un Mundo Injusto: La justicia como virtud estoica aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -10242,7 +10242,7 @@ const BOOKS = [
   {
     id: 1509,
     title: "Siempre en Pie: cómo el estoicismo te ayuda a superar cualquier adversidad",
-    author: "Pepe Garcï¿½a (El Charco Estoico)",
+    author: "Pepe García (El Charco Estoico)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -10250,7 +10250,7 @@ const BOOKS = [
     year: 2022,
     language: "Español",
     pages: 189,
-    description: "Obra esencial de Pepe Garcï¿½a (El Charco Estoico) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Pepe García (El Charco Estoico) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-siempre_en_pie____pepe_garc_a___-108.png",
     downloads: 233,
     featured: false,
@@ -10265,7 +10265,7 @@ const BOOKS = [
   {
     id: 1510,
     title: "Sobre la Brevedad de la Vida",
-    author: "Lucio Anneo síneca",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
@@ -10273,7 +10273,7 @@ const BOOKS = [
     year: 49,
     language: "Español",
     pages: 80,
-    description: "Obra esencial de Lucio Anneo síneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
     cover: "covers/c-est-sobre_la_brevedad_de_la_vida___sene-109.png",
     downloads: 250,
     featured: false,
@@ -10287,7 +10287,7 @@ const BOOKS = [
   },
   {
     id: 1511,
-    title: "Sobrenatural: Gente comï¿½n haciendo lo extraordinario",
+    title: "Sobrenatural: Gente común haciendo lo extraordinario",
     author: "Dr. Joe Dispenza",
     category: "Neurociencia & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -10305,7 +10305,7 @@ const BOOKS = [
       vibe: "Trascendente & Cuántico",
       keyConcepts: ["Enfoque Profundo", "Consciencia Cuántica", "Reprogramación Subconsciente"],
       targetAudience: "Estudiantes y profesionales interesados en la expansión cognitiva, el potencial humano y el cerebro.",
-      aiSummary: "Análisis editorial: Sobrenatural: Gente comï¿½n haciendo lo extraordinario aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
+      aiSummary: "Análisis editorial: Sobrenatural: Gente común haciendo lo extraordinario aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
     }
   },
   {
@@ -10325,7 +10325,7 @@ const BOOKS = [
     featured: true,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Alegï¿½rico & Moral",
+      vibe: "Alegórico & Moral",
       keyConcepts: ["Dicotomía del Control", "Amor Fati", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Tabla de Cebes y Disertaciones Estoicas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -10348,7 +10348,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Fuentes Clï¿½sicas",
+      vibe: "Fuentes Clásicas",
       keyConcepts: ["Ciudadela Interior", "Dicotomía del Control", "Memento Mori"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo II) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -10371,7 +10371,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Fuentes Clï¿½sicas",
+      vibe: "Fuentes Clásicas",
       keyConcepts: ["Dicotomía del Control", "Memento Mori", "Virtud como Bien Supremo"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -10463,7 +10463,7 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Espiritualidad & sabiduría",
-      vibe: "Biogrï¿½fico & Magistral",
+      vibe: "Biográfico & Magistral",
       keyConcepts: ["Dicotomía del Control", "Amor Fati", "Ataraxia"],
       targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
       aiSummary: "Análisis editorial: Vidas de los Estoicos: El arte de vivir de Zenón a Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
@@ -10517,7 +10517,7 @@ const BOOKS = [
   },
   {
     id: 1521,
-    title: "Los Chamanes de Mï¿½xico: Psicología autï¿½ctona mexicana (Vol. 1)",
+    title: "Los Chamanes de México: Psicología autóctona mexicana (Vol. 1)",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -10532,15 +10532,15 @@ const BOOKS = [
     featured: false,
     aiAnalysis: {
       genre: "Neurociencia & Mente",
-      vibe: "Etnofisiologï¿½a & Misterio",
+      vibe: "Etnofisiología & Misterio",
       keyConcepts: ["Enfoque Profundo", "Consciencia Cuántica", "Reprogramación Subconsciente"],
       targetAudience: "Estudiantes y profesionales interesados en la expansión cognitiva, el potencial humano y el cerebro.",
-      aiSummary: "Análisis editorial: Los Chamanes de Mï¿½xico: Psicología autï¿½ctona mexicana (Vol. 1) aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
+      aiSummary: "Análisis editorial: Los Chamanes de México: Psicología autóctona mexicana (Vol. 1) aporta herramientas rigurosas y prácticas para el desarrollo integral en Neurociencia & Mente."
     }
   },
   {
     id: 1522,
-    title: "Enamï¿½rate de Ti: El valor de la autoestima",
+    title: "Enamórate de Ti: El valor de la autoestima",
     author: "Walter Riso",
     category: "Autoayuda & Mente",
     collection: "La Gran Biblioteca Estoica",
@@ -10558,7 +10558,7 @@ const BOOKS = [
       vibe: "Autoestima & Amor Propio",
       keyConcepts: ["Autoestima Saludable", "Límites Personales", "Resiliencia Activa"],
       targetAudience: "Lectores comprometidos con su bienestar emocional, superación personal y salud integral.",
-      aiSummary: "Análisis editorial: Enamï¿½rate de Ti: El valor de la autoestima aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
+      aiSummary: "Análisis editorial: Enamórate de Ti: El valor de la autoestima aporta herramientas rigurosas y prácticas para el desarrollo integral en Autoayuda & Mente."
     }
   }
 ];
