@@ -108,11 +108,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function shareViaWhatsApp() {
-    const book = state.currentBook;
+  function shareViaWhatsApp(bookOverride) {
+    const book = bookOverride || state.currentBook;
     if (!book) return;
     const shareUrl = getBookShareUrl(book);
-    const msg = `*${book.title}* — ${book.author}\n\nEncuentra este libro para leer y descargar gratis en BIBLIOTYAN:\n${shareUrl}`;
+    const catText = book.category ? ` [${book.category}]` : '';
+    const pagesText = book.pages ? ` · 📖 ${book.pages} págs.` : '';
+    let synopsisSnippet = '';
+    if (book.synopsis) {
+      synopsisSnippet = `\n\n"${book.synopsis.slice(0, 140).trim()}..."`;
+    }
+    const msg = `📚 *${book.title}*\n✍️ ${book.author}${catText}${pagesText}${synopsisSnippet}\n\n📥 *Léelo y descárgalo libremente en BIBLIOTYAN:*\n${shareUrl}`;
     const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
     window.open(waUrl, '_blank');
   }
