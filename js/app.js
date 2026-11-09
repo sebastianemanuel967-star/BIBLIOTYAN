@@ -123,10 +123,195 @@ document.addEventListener('DOMContentLoaded', () => {
     window.open(waUrl, '_blank');
   }
 
-  function handleInitialUrlBook() {
-    const params = new URLSearchParams(window.location.search);
-    const libroParam = params.get('libro') || params.get('id') || params.get('book');
+    // ======================================================== ENLACES Y COMPARTIR COLECCIONES =======================
+  function getCollectionShareUrl(categoryName) {
+    const base = window.location.origin + window.location.pathname;
+    const cat = categoryName || state.currentFilter;
+    if (!cat || cat === 'Todos') {
+      return base;
+    }
+    if (cat === 'HARVARD LIBROS') {
+      return `${base}?coleccion=harvard-libros`;
+    }
+    return `${base}?categoria=${slugify(cat)}`;
+  }
 
+  async function copyCollectionLink(categoryName) {
+    const cat = categoryName || state.currentFilter;
+    const url = getCollectionShareUrl(cat);
+    const label = cat === 'HARVARD LIBROS' ? 'Colecci\u00f3n HARVARD LIBROS (12 t\u00edtulos)' : `Colecci\u00f3n "${cat}"`;
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      try {
+        await navigator.clipboard.writeText(url);
+        showToast('\u00a1Enlace de Colecci\u00f3n Copiado!', `El enlace de ${label} est\u00e1 en tu portapapeles.`);
+        return;
+      } catch (e) {}
+    }
+    legacyCopy(url, label);
+  }
+
+  function shareCollectionWhatsApp(categoryName) {
+    const cat = categoryName || state.currentFilter;
+    const url = getCollectionShareUrl(cat);
+    let msg = '';
+    if (cat === 'HARVARD LIBROS') {
+      msg = `\ud83c\udfdb\ufe0f *Colecci\u00f3n HARVARD LIBROS en BIBLIOTYAN*\n` +
+        `Accede y descarga gratis los 12 t\u00edtulos de la Serie Inteligencia Emocional de Harvard Business Review Press en PDF de alta resoluci\u00f3n:\n\n` +
+        `\u2022 Autoconciencia\n` +
+        `\u2022 Buenos H\u00e1bitos\n` +
+        `\u2022 Energ\u00eda y Motivaci\u00f3n\n` +
+        `\u2022 Saber Escuchar\n` +
+        `\u2022 Empat\u00eda\n` +
+        `\u2022 Y 7 t\u00edtulos m\u00e1s...\n\n` +
+        `\ud83d\udc49 *Enlace directo a la colecci\u00f3n:*\n${url}`;
+    } else {
+      msg = `\ud83d\udcda *Colecci\u00f3n "${cat}" en BIBLIOTYAN*\n` +
+        `Explora y descarga libros completos en PDF y EPUB de alta calidad:\n\n` +
+        `\ud83d\udc49 *Enlace directo:*\n${url}`;
+    }
+    const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
+    window.open(waUrl, '_blank');
+  }
+
+  function updateCollectionUrl(categoryName) {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      params.delete('libro');
+      params.delete('id');
+      params.delete('book');
+
+      if (!categoryName || categoryName === 'Todos') {
+        params.delete('coleccion');
+        params.delete('categoria');
+        params.delete('cat');
+      } else if (categoryName === 'HARVARD LIBROS') {
+        params.set('coleccion', 'harvard-libros');
+        params.delete('categoria');
+        params.delete('cat');
+      } else {
+        params.set('categoria', slugify(categoryName));
+        params.delete('coleccion');
+        params.delete('cat');
+      }
+
+      const qs = params.toString();
+      const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+      const pageTitle = categoryName && categoryName !== 'Todos'
+        ? `${categoryName} \u2014 BIBLIOTYAN`
+        : 'BIBLIOTYAN \u2014 Biblioteca Digital & Repositorio Libre';
+      window.history.replaceState({ filter: categoryName }, pageTitle, newUrl);
+    } catch (e) {
+      console.warn('Could not update history state:', e);
+    }
+  }
+
+  function renderCollectionBanner() {
+    const bannerEl = document.getElementById('collectionBanner');
+    if (!bannerEl) return;
+
+    if (state.currentFilter === 'HARVARD LIBROS') {
+      const shareUrl = getCollectionShareUrl('HARVARD LIBROS');
+      bannerEl.style.display = 'block';
+      bannerEl.innerHTML = `
+        <div class="harvard-collection-card">
+          <div class="hbr-banner-header">
+            <div class="hbr-banner-badge-group">
+              <span class="hbr-banner-badge">
+                <i class="fa-solid fa-building-columns"></i> COLECCI&Oacute;N OFICIAL HBR
+              </span>
+              <span class="hbr-banner-count">
+                <i class="fa-solid fa-layer-group"></i> 12 Vol&uacute;menes Completos
+              </span>
+            </div>
+            <a href="${shareUrl}" class="hbr-direct-link-badge" onclick="event.preventDefault(); copyCollectionLink('HARVARD LIBROS');" title="Copiar enlace directo">
+              <i class="fa-solid fa-link"></i> bibliotyan/?coleccion=harvard-libros
+            </a>
+          </div>
+
+          <h3 class="hbr-banner-title">Harvard Business Review &mdash; Serie Inteligencia Emocional</h3>
+          <p class="hbr-banner-desc">
+            Colecci&oacute;n editorial completa de gu&iacute;as maestras de Harvard Business Review Press: autoconciencia, gesti&oacute;n del agotamiento, rutinas diarias efectivas, comunicaci&oacute;n y liderazgo consciente. Ediciones digitales en PDF listas para visualizaci&oacute;n y descarga libre.
+          </p>
+
+          <div class="hbr-share-box">
+            <div class="hbr-link-wrapper">
+              <i class="fa-solid fa-link hbr-link-icon"></i>
+              <input type="text" readonly id="harvardShareInput" class="hbr-link-input" value="${shareUrl}" onclick="this.select()" aria-label="Enlace directo a la colecci&oacute;n Harvard" />
+            </div>
+            <div class="hbr-share-actions">
+              <button type="button" class="btn-hbr-copy" onclick="copyCollectionLink('HARVARD LIBROS')" title="Copiar enlace de esta colecci&oacute;n al portapapeles">
+                <i class="fa-solid fa-copy"></i> Copiar Enlace
+              </button>
+              <button type="button" class="btn-hbr-whatsapp" onclick="shareCollectionWhatsApp('HARVARD LIBROS')" title="Compartir colecci&oacute;n en WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i> Enviar por WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    } else {
+      bannerEl.style.display = 'none';
+      bannerEl.innerHTML = '';
+    }
+  }
+
+  function selectCategory(categoryName, shouldScroll = false, updateUrl = true) {
+    state.currentFilter = categoryName;
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      if (btn.getAttribute('data-cat') === categoryName) {
+        btn.classList.add('active');
+        try {
+          btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } catch (e) {}
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+
+    renderBooks();
+    renderCollectionBanner();
+
+    if (updateUrl) {
+      updateCollectionUrl(categoryName);
+    }
+
+    if (shouldScroll) {
+      const catalogEl = document.getElementById('catalog') || document.getElementById('catalogo');
+      if (catalogEl) {
+        catalogEl.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }
+
+  function handleInitialUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const colParam = params.get('coleccion') || params.get('categoria') || params.get('collection') || params.get('cat') || params.get('filter');
+    const hash = (window.location.hash || '').toLowerCase();
+
+    let targetCat = null;
+    if (colParam) {
+      const cleanSlug = slugify(colParam);
+      if (cleanSlug === 'harvard' || cleanSlug === 'harvard-libros' || cleanSlug.includes('harvard')) {
+        targetCat = 'HARVARD LIBROS';
+      } else {
+        targetCat = CONFIG.categories.find(c => slugify(c) === cleanSlug || slugify(c).includes(cleanSlug) || cleanSlug.includes(slugify(c)));
+      }
+    } else if (hash.includes('harvard')) {
+      targetCat = 'HARVARD LIBROS';
+    }
+
+    if (targetCat) {
+      selectCategory(targetCat, true, false);
+      if (targetCat === 'HARVARD LIBROS') {
+        showToast('Colecci\u00f3n Harvard Activa', 'Explorando los 12 t\u00edtulos de Harvard Business Review');
+      } else {
+        showToast('Colecci\u00f3n Seleccionada', `Mostrando t\u00edtulos de "${targetCat}"`);
+      }
+    }
+
+    const libroParam = params.get('libro') || params.get('id') || params.get('book');
     let targetBook = null;
     if (libroParam) {
       const idMatch = libroParam.match(/^(\d+)/);
@@ -141,8 +326,8 @@ document.addEventListener('DOMContentLoaded', () => {
           return bSlug === cleanQuery || bSlug.includes(cleanQuery);
         });
       }
-    } else if (window.location.hash && window.location.hash.startsWith('#libro-')) {
-      const hashId = parseInt(window.location.hash.replace('#libro-', ''), 10);
+    } else if (hash.startsWith('#libro-')) {
+      const hashId = parseInt(hash.replace('#libro-', ''), 10);
       targetBook = BOOKS.find(b => b.id === hashId);
     }
 
@@ -150,12 +335,11 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
         openPreviewModal(targetBook, false);
         showToast('Libro Seleccionado', `Mostrando "${targetBook.title}"`);
-        const catalog = document.getElementById('catalogo');
+        const catalog = document.getElementById('catalog') || document.getElementById('catalogo');
         if (catalog) catalog.scrollIntoView({ behavior: 'smooth' });
       }, 350);
     }
   }
-
   function init() {
     setupNavbar();
     setupThemeToggle();
@@ -171,7 +355,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSecretAdminAccess();
     setupMobileBottomNav();
     updateStats();
-    handleInitialUrlBook();
+    handleInitialUrl();
   }
 
   // ======================================================== NAVBAR ═══════
@@ -270,11 +454,9 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (cat === 'HARVARD LIBROS') labelHtml = '<i class="fa-solid fa-building-columns"></i> HARVARD LIBROS';
       else if (cat === 'National Geographic') labelHtml = '<i class="fa-solid fa-earth-americas"></i> National Geographic';
       btn.innerHTML = labelHtml;
+      btn.setAttribute('data-cat', cat);
       btn.addEventListener('click', () => {
-        state.currentFilter = cat;
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        renderBooks();
+        selectCategory(cat, false, true);
       });
       bar.appendChild(btn);
     });
@@ -374,7 +556,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <div class="card-body">
           <div class="card-tags-row">
-            <span class="card-category" style="background: ${catColor}24; color: ${catColor}; border: 1px solid ${catColor}44;">${book.category}</span>
+            <span class="card-category" onclick="event.stopPropagation(); selectCategory(BOOKS.find(b => b.id === ${book.id}).category, true, true);" style="background: ${catColor}24; color: ${catColor}; border: 1px solid ${catColor}44; cursor: pointer;" title="Filtrar colección ${book.category}">${book.category}</span>
             ${formatBadgeHtml}
             <button class="card-share-btn" title="Compartir enlace de este libro" onclick="event.stopPropagation(); shareBookDirect(${book.id})">
               <i class="fa-solid fa-share-nodes"></i>
@@ -431,6 +613,26 @@ document.addEventListener('DOMContentLoaded', () => {
       catEl.style.background = catColor + '24';
       catEl.style.color = catColor;
       catEl.style.borderColor = catColor + '55';
+      catEl.style.cursor = 'pointer';
+      catEl.title = `Ver toda la colección de ${book.category}`;
+      catEl.onclick = () => {
+        closePreviewModal();
+        selectCategory(book.category, true, true);
+      };
+    }
+
+    const colLinkEl = document.getElementById('previewCollectionLink');
+    if (colLinkEl) {
+      if (book.category === 'HARVARD LIBROS') {
+        colLinkEl.style.display = 'inline-flex';
+        colLinkEl.onclick = (e) => {
+          e.preventDefault();
+          closePreviewModal();
+          selectCategory('HARVARD LIBROS', true, true);
+        };
+      } else {
+        colLinkEl.style.display = 'none';
+      }
     }
 
     // Badge de formato en el modal
@@ -514,8 +716,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modal) modal.classList.remove('active');
     document.body.style.overflow = '';
     try {
-      const cleanUrl = window.location.origin + window.location.pathname;
-      window.history.replaceState({}, document.title, cleanUrl);
+      updateCollectionUrl(state.currentFilter);
     } catch (e) {}
   }
 
@@ -651,7 +852,6 @@ document.addEventListener('DOMContentLoaded', () => {
     book.downloads++;
     renderBooks();
     updateStats();
-    handleInitialUrlBook();
 
     if (filePath) {
       const link = document.createElement('a');
@@ -1069,20 +1269,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
   init();
 
-  // Exponer métodos globales para compartir y acceso externo
+  // Exponer metodos globales para compartir y acceso externo
   window.shareCurrentBook = shareCurrentBook;
   window.shareBookDirect = shareBookDirect;
   window.shareViaWhatsApp = shareViaWhatsApp;
   window.getBookShareUrl = getBookShareUrl;
   window.openPreviewModal = openPreviewModal;
   window.closePreviewModal = closePreviewModal;
+  window.selectCategory = selectCategory;
+  window.copyCollectionLink = copyCollectionLink;
+  window.shareCollectionWhatsApp = shareCollectionWhatsApp;
+  window.getCollectionShareUrl = getCollectionShareUrl;
+  window.openCollectionFromModal = function(e) {
+    if (e) e.preventDefault();
+    closePreviewModal();
+    selectCategory('HARVARD LIBROS', true, true);
+  };
 
   window.addEventListener('popstate', (e) => {
     if (e.state && e.state.bookId) {
       const book = BOOKS.find(b => b.id === e.state.bookId);
       if (book) openPreviewModal(book, false);
+    } else if (e.state && e.state.filter) {
+      closePreviewModal();
+      selectCategory(e.state.filter, false, false);
     } else {
       closePreviewModal();
+      handleInitialUrl();
     }
   });
 

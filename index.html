@@ -44,7 +44,7 @@
   </script>
 
   <!-- Estilos Minimalistas Obsidian Violeta -->
-  <link rel="stylesheet" href="css/styles.css?v=3.0">
+  <link rel="stylesheet" href="css/styles.css?v=3.2">
 </head>
 <body>
 
@@ -109,6 +109,15 @@
         </a>
       </div>
 
+      <!-- Acceso Directo y Enlace a Colección HARVARD LIBROS -->
+      <div class="hero-featured-pill-row">
+        <a href="?coleccion=harvard-libros" class="hero-featured-pill" id="heroHarvardLink" onclick="event.preventDefault(); selectCategory('HARVARD LIBROS', true, true);">
+          <span class="pill-badge"><i class="fa-solid fa-building-columns"></i> Colección Oficial</span>
+          <span class="pill-title">HARVARD LIBROS: Serie Inteligencia Emocional (12 Ejemplares)</span>
+          <span class="pill-action">Explorar Colección <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+      </div>
+
       <!-- Estadísticas Sobrias -->
       <div class="hero-stats">
         <div class="hero-stat">
@@ -137,6 +146,9 @@
 
     <!-- Filtros de Géneros -->
     <div class="filter-bar" id="filterBar"></div>
+
+    <!-- Banner Especial de Colección Activa y Compartir Enlace -->
+    <div class="collection-highlight-banner" id="collectionBanner" style="display: none;"></div>
 
     <!-- Orden y Resultados -->
     <div class="sort-bar">
@@ -266,6 +278,9 @@
           <div class="preview-badges-row">
             <span class="preview-category" id="previewCategory"></span>
             <span id="previewFormatBadge"></span>
+            <a href="?coleccion=harvard-libros" id="previewCollectionLink" class="modal-collection-pill" style="display: none;" onclick="openCollectionFromModal(event)">
+              <i class="fa-solid fa-building-columns"></i> Colección Harvard (12) →
+            </a>
             <button class="btn-share-modal" onclick="shareCurrentBook()" title="Compartir este libro"><i class="fa-solid fa-share-nodes"></i> Compartir</button>
             <span class="preview-ai-pill">
               <i class="fa-solid fa-brain"></i> Análisis Temático
@@ -458,8 +473,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=3.0"></script>
-  <script src="js/app.js?v=3.0"></script>
+  <script src="js/data.js?v=3.2"></script>
+  <script src="js/app.js?v=3.2"></script>
 
 </body>
 </html>

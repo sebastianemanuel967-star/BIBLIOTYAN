@@ -2603,3 +2603,322 @@ a {
     width: 100%;
   }
 }
+
+
+/* ═══════════════════════════════════════════════════════
+   COLECCIÓN DESTACADA: HARVARD LIBROS & DEEPLINKS
+   ═══════════════════════════════════════════════════════ */
+
+/* Hero Featured Collection Pill */
+.hero-featured-pill-row {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-featured-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.65rem 1.25rem;
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.15), rgba(18, 11, 30, 0.9));
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: var(--radius-pill);
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(147, 51, 234, 0.12);
+  cursor: pointer;
+}
+
+.hero-featured-pill:hover {
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.28), rgba(28, 16, 48, 0.95));
+  border-color: var(--accent-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4), 0 0 25px rgba(147, 51, 234, 0.3);
+}
+
+.hero-featured-pill .pill-badge {
+  background: rgba(147, 51, 234, 0.35);
+  color: #d8b4fe;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.hero-featured-pill .pill-title {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.hero-featured-pill .pill-action {
+  color: var(--accent-light);
+  font-size: 0.82rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.35rem;
+  transition: transform 0.2s ease;
+}
+
+.hero-featured-pill:hover .pill-action {
+  transform: translateX(3px);
+}
+
+/* Banner de Colección Activa en Catálogo */
+.collection-highlight-banner {
+  margin-bottom: 2rem;
+  animation: fadeInDown 0.35s ease;
+}
+
+.harvard-collection-card {
+  background: linear-gradient(135deg, rgba(24, 14, 42, 0.95), rgba(12, 7, 20, 0.98));
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: 18px;
+  padding: 1.6rem 2rem;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.5), 0 0 25px rgba(147, 51, 234, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.harvard-collection-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #a855f7, #c084fc, transparent);
+}
+
+.hbr-banner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.hbr-banner-badge-group {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.hbr-banner-badge {
+  background: rgba(147, 51, 234, 0.25);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  color: #d8b4fe;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.28rem 0.75rem;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hbr-banner-count {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.28rem 0.75rem;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hbr-direct-link-badge {
+  color: var(--accent-light);
+  font-size: 0.8rem;
+  font-family: monospace;
+  text-decoration: none;
+  background: rgba(147, 51, 234, 0.12);
+  border: 1px dashed rgba(168, 85, 247, 0.35);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.hbr-direct-link-badge:hover {
+  background: rgba(147, 51, 234, 0.22);
+  border-style: solid;
+  color: #fff;
+}
+
+.hbr-banner-title {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.hbr-banner-desc {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-bottom: 1.4rem;
+  max-width: 860px;
+}
+
+.hbr-share-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 0.6rem 0.85rem;
+}
+
+.hbr-link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex: 1;
+  min-width: 0;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+}
+
+.hbr-link-icon {
+  color: var(--accent-light);
+  font-size: 0.85rem;
+}
+
+.hbr-link-input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #c084fc;
+  font-family: monospace;
+  font-size: 0.82rem;
+  cursor: text;
+}
+
+.hbr-share-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+.btn-hbr-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(147, 51, 234, 0.28);
+  border: 1px solid rgba(168, 85, 247, 0.45);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-hbr-copy:hover {
+  background: rgba(147, 51, 234, 0.45);
+  border-color: var(--accent-light);
+  transform: translateY(-1px);
+}
+
+.btn-hbr-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(37, 211, 102, 0.15);
+  border: 1px solid rgba(37, 211, 102, 0.35);
+  color: #25d366;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-hbr-whatsapp:hover {
+  background: rgba(37, 211, 102, 0.25);
+  border-color: #25d366;
+  transform: translateY(-1px);
+}
+
+/* Modal Collection Shortcut */
+.modal-collection-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(147, 51, 234, 0.2);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  color: #d8b4fe;
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.modal-collection-pill:hover {
+  background: rgba(147, 51, 234, 0.35);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-featured-pill {
+    padding: 0.55rem 0.95rem;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .harvard-collection-card {
+    padding: 1.2rem;
+  }
+  .hbr-banner-title {
+    font-size: 1.2rem;
+  }
+  .hbr-share-box {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+  .hbr-share-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn-hbr-copy, .btn-hbr-whatsapp {
+    width: 100%;
+    justify-content: center;
+  }
+}
