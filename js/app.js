@@ -500,7 +500,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSearchBar();
     renderFilterButtons();
     renderEditorialShelf();
-    renderDailyRecommendation();
+    // renderDailyRecommendation();
     renderBooks();
     renderSocialLinks();
     renderWhyReadSection();
@@ -575,35 +575,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // RECOMENDACIÓN DEL DÍA (BANNER EDITORIAL)
+  // RECOMENDACION DEL DIA (ELIMINADO A PETICION)
   // ========================================================
-  function renderDailyRecommendation() {
-    const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
-    // Seleccionar obra seminal según el día del año
-    const seminalList = BOOKS.filter(b => EDITORIAL_SELECTION_IDS.includes(b.id));
-    const pool = seminalList.length > 0 ? seminalList : BOOKS;
-    state.dailyBook = pool[dayOfYear % pool.length];
-
-    const titleEl = document.getElementById('dailyRecTitle');
-    const descEl = document.getElementById('dailyRecDesc');
-
-    if (titleEl && state.dailyBook) {
-      titleEl.textContent = '¿Qué deberías conocer hoy?';
-    }
-    if (descEl && state.dailyBook) {
-      descEl.textContent = `«${state.dailyBook.title}» — ${state.dailyBook.author}`;
-    }
-  }
-
-  window.openDailyRecommendation = function() {
-    if (state.dailyBook) {
-      openPreviewModal(state.dailyBook);
-    } else {
-      const first = BOOKS[0];
-      if (first) openPreviewModal(first);
-    }
-  };
-
+  function renderDailyRecommendation() {}
+  window.openDailyRecommendation = function() {};
   // ========================================================
   // FILTROS DE GÉNERO Y COLECCIÓN (PILLS)
   // ========================================================
