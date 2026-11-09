@@ -44,7 +44,7 @@
   </script>
 
   <!-- Estilos Minimalistas Obsidian Violeta -->
-  <link rel="stylesheet" href="css/styles.css?v=3.3">
+  <link rel="stylesheet" href="css/styles.css?v=3.4">
 </head>
 <body>
 
@@ -302,6 +302,26 @@
 
           <p class="preview-description" id="previewDescription"></p>
 
+          <!-- Aviso de Apoyo al Creador (Exclusivo para Colección Harvard) -->
+          <div class="harvard-creator-notice" id="harvardCreatorNotice" style="display: none;">
+            <div class="notice-icon">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <div class="notice-content">
+              <div class="notice-title">
+                <i class="fa-solid fa-building-columns"></i> Colección Exclusiva · Apoyo al Creador
+              </div>
+              <p class="notice-text">
+                Para mantener activa y disponible esta colección de Harvard, apoya al creador. Gracias a su esfuerzo y dedicación tenemos estos ejemplares completos para ti.
+              </p>
+              <div class="notice-actions">
+                <button type="button" class="btn-support-creator" onclick="openSocialModal('pdf')">
+                  <i class="fa-solid fa-heart"></i> Apoyar al Creador
+                </button>
+              </div>
+            </div>
+          </div>
+
                     <!-- Acciones Directas: Leer Online & Descargar (Sin rodeos) -->
           <div id="previewDownloadContainer">
             <div class="modal-direct-actions">
@@ -338,9 +358,9 @@
         <i class="fa-solid fa-xmark"></i>
       </button>
 
-      <i class="fa-solid fa-shield-heart" style="font-size: 2.2rem; color: var(--accent-light); margin-bottom: 0.8rem; display: inline-block;"></i>
-      <h2 style="font-size: 1.45rem; margin-bottom: 0.5rem;">Descarga Libre y Gratuita</h2>
-      <p class="social-message" style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1.5rem;">
+      <i class="fa-solid fa-shield-heart" id="socialModalIcon" style="font-size: 2.2rem; color: var(--accent-light); margin-bottom: 0.8rem; display: inline-block;"></i>
+      <h2 id="socialModalTitle" style="font-size: 1.45rem; margin-bottom: 0.5rem;">Descarga Libre y Gratuita</h2>
+      <p class="social-message" id="socialModalMsg" style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1.5rem;">
         En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apóyanos siguiendo nuestras redes comunitarias:
       </p>
 
@@ -472,8 +492,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=3.3"></script>
-  <script src="js/app.js?v=3.3"></script>
+  <script src="js/data.js?v=3.4"></script>
+  <script src="js/app.js?v=3.4"></script>
 
 </body>
 </html>

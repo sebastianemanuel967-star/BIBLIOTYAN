@@ -617,6 +617,16 @@ document.addEventListener('DOMContentLoaded', () => {
       aiTargetEl.textContent = analysis.targetAudience || 'Lectores que valoran el desarrollo intelectual.';
     }
 
+    // Aviso de Apoyo al Creador (Exclusivo para libros de Harvard)
+    const harvardNoticeEl = document.getElementById('harvardCreatorNotice');
+    if (harvardNoticeEl) {
+      if (book.category === 'HARVARD LIBROS') {
+        harvardNoticeEl.style.display = 'flex';
+      } else {
+        harvardNoticeEl.style.display = 'none';
+      }
+    }
+
     // == Acciones Directas (Sin rodeos ni pantallas extensas) ==
     const dlContainer = document.getElementById('previewDownloadContainer');
     if (dlContainer) {
@@ -718,6 +728,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const modal = document.getElementById('socialModal');
     const container = document.getElementById('socialButtonsContainer');
+
+    const iconEl = document.getElementById('socialModalIcon');
+    const titleEl = document.getElementById('socialModalTitle');
+    const msgEl = document.getElementById('socialModalMsg');
+
+    const isHarvard = state.currentBook && state.currentBook.category === 'HARVARD LIBROS';
+
+    if (iconEl && titleEl && msgEl) {
+      if (isHarvard) {
+        iconEl.className = 'fa-solid fa-building-columns';
+        titleEl.textContent = 'Apoya al Creador \u2022 Colecci\u00f3n Harvard';
+        msgEl.innerHTML = 'Para mantener activa y disponible esta colecci\u00f3n de Harvard, <strong>apoya al creador</strong>. Gracias a su esfuerzo y dedicaci\u00f3n tenemos estos ejemplares completos para ti. \u00danete y ap\u00f3yalo en sus canales comunitarios:';
+      } else {
+        iconEl.className = 'fa-solid fa-shield-heart';
+        titleEl.textContent = 'Descarga Libre y Gratuita';
+        msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, ap\u00f3yanos siguiendo nuestras redes comunitarias:';
+      }
+    }
     container.innerHTML = '';
 
     Object.entries(CONFIG.socialMedia).forEach(([key, social]) => {
