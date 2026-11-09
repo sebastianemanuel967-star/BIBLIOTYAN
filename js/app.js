@@ -206,56 +206,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function renderCollectionBanner() {
-    const bannerEl = document.getElementById('collectionBanner');
-    if (!bannerEl) return;
-
-    if (state.currentFilter === 'HARVARD LIBROS') {
-      const shareUrl = getCollectionShareUrl('HARVARD LIBROS');
-      bannerEl.style.display = 'block';
-      bannerEl.innerHTML = `
-        <div class="harvard-collection-card">
-          <div class="hbr-banner-header">
-            <div class="hbr-banner-badge-group">
-              <span class="hbr-banner-badge">
-                <i class="fa-solid fa-building-columns"></i> COLECCI&Oacute;N OFICIAL HBR
-              </span>
-              <span class="hbr-banner-count">
-                <i class="fa-solid fa-layer-group"></i> 12 Vol&uacute;menes Completos
-              </span>
-            </div>
-            <a href="${shareUrl}" class="hbr-direct-link-badge" onclick="event.preventDefault(); copyCollectionLink('HARVARD LIBROS');" title="Copiar enlace directo">
-              <i class="fa-solid fa-link"></i> bibliotyan/?coleccion=harvard-libros
-            </a>
-          </div>
-
-          <h3 class="hbr-banner-title">Harvard Business Review &mdash; Serie Inteligencia Emocional</h3>
-          <p class="hbr-banner-desc">
-            Colecci&oacute;n editorial completa de gu&iacute;as maestras de Harvard Business Review Press: autoconciencia, gesti&oacute;n del agotamiento, rutinas diarias efectivas, comunicaci&oacute;n y liderazgo consciente. Ediciones digitales en PDF listas para visualizaci&oacute;n y descarga libre.
-          </p>
-
-          <div class="hbr-share-box">
-            <div class="hbr-link-wrapper">
-              <i class="fa-solid fa-link hbr-link-icon"></i>
-              <input type="text" readonly id="harvardShareInput" class="hbr-link-input" value="${shareUrl}" onclick="this.select()" aria-label="Enlace directo a la colecci&oacute;n Harvard" />
-            </div>
-            <div class="hbr-share-actions">
-              <button type="button" class="btn-hbr-copy" onclick="copyCollectionLink('HARVARD LIBROS')" title="Copiar enlace de esta colecci&oacute;n al portapapeles">
-                <i class="fa-solid fa-copy"></i> Copiar Enlace
-              </button>
-              <button type="button" class="btn-hbr-whatsapp" onclick="shareCollectionWhatsApp('HARVARD LIBROS')" title="Compartir colecci&oacute;n en WhatsApp">
-                <i class="fa-brands fa-whatsapp"></i> Enviar por WhatsApp
-              </button>
-            </div>
-          </div>
-        </div>
-      `;
-    } else {
-      bannerEl.style.display = 'none';
-      bannerEl.innerHTML = '';
-    }
-  }
-
   function selectCategory(categoryName, shouldScroll = false, updateUrl = true) {
     state.currentFilter = categoryName;
 
@@ -271,7 +221,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     renderBooks();
-    renderCollectionBanner();
 
     if (updateUrl) {
       updateCollectionUrl(categoryName);
