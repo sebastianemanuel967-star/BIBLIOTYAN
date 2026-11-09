@@ -265,7 +265,11 @@ document.addEventListener('DOMContentLoaded', () => {
     CONFIG.categories.forEach(cat => {
       const btn = document.createElement('button');
       btn.className = `filter-btn ${cat === state.currentFilter ? 'active' : ''}`;
-      btn.innerHTML = cat === 'Todos' ? '<i class="fa-solid fa-border-all"></i> Todos' : cat;
+      let labelHtml = cat;
+      if (cat === 'Todos') labelHtml = '<i class="fa-solid fa-border-all"></i> Todos';
+      else if (cat === 'HARVARD LIBROS') labelHtml = '<i class="fa-solid fa-building-columns"></i> HARVARD LIBROS';
+      else if (cat === 'National Geographic') labelHtml = '<i class="fa-solid fa-earth-americas"></i> National Geographic';
+      btn.innerHTML = labelHtml;
       btn.addEventListener('click', () => {
         state.currentFilter = cat;
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
