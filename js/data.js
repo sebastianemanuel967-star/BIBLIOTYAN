@@ -10581,7 +10581,7 @@ const BOOKS = [
     language: "Español",
     pages: 98,
     description: "Guía fundamental de Harvard Business Review para desarrollar una autoconciencia profunda: cómo nos vemos a nosotros mismos, cómo nos perciben los demás y cómo usar esta claridad para liderar con eficacia.",
-    cover: "covers/hbr-autoconciencia.jpg",
+    cover: "covers/hbr-autoconciencia-v2.jpg",
     downloads: 512,
     featured: true,
     aiAnalysis: {
@@ -10604,7 +10604,7 @@ const BOOKS = [
     language: "Español",
     pages: 158,
     description: "Expertos de Harvard explican la ciencia detrás de cómo romper malos hábitos de trabajo, automatizar conductas positivas y mantener la energía a lo largo de la jornada.",
-    cover: "covers/hbr-buenos-habitos.jpg",
+    cover: "covers/hbr-buenos-habitos-v2.jpg",
     downloads: 489,
     featured: true,
     aiAnalysis: {
@@ -10627,7 +10627,7 @@ const BOOKS = [
     language: "Español",
     pages: 153,
     description: "Estrategias basadas en investigaciones de HBR para fortalecer la autoconfianza genuina, gestionar la vulnerabilidad y construir credibilidad duradera en cualquier equipo.",
-    cover: "covers/hbr-confianza.jpg",
+    cover: "covers/hbr-confianza-v2.jpg",
     downloads: 432,
     featured: true,
     aiAnalysis: {
@@ -10650,7 +10650,7 @@ const BOOKS = [
     language: "Español",
     pages: 107,
     description: "Cómo fomentar la indagación abierta y la exploración sin prejuicios dentro de las organizaciones para descubrir soluciones disruptivas y adaptarse al cambio.",
-    cover: "covers/hbr-curiosidad.jpg",
+    cover: "covers/hbr-curiosidad-v2.jpg",
     downloads: 375,
     featured: false,
     aiAnalysis: {
@@ -10673,7 +10673,7 @@ const BOOKS = [
     language: "Español",
     pages: 160,
     description: "Técnicas comprobadas por negociadores de Harvard para neutralizar actitudes hostiles, mantener la calma bajo presión y construir acuerdos constructivos.",
-    cover: "covers/hbr-como-tratar-con-gente-dificil.jpg",
+    cover: "covers/hbr-como-tratar-con-gente-dificil-v2.jpg",
     downloads: 567,
     featured: true,
     aiAnalysis: {
@@ -10696,7 +10696,7 @@ const BOOKS = [
     language: "Español",
     pages: 118,
     description: "Los mejores autores de Harvard analizan qué distingue a los líderes verdaderamente respetados: autenticidad, empatía, coherencia ética y visión a largo plazo.",
-    cover: "covers/hbr-el-autentico-liderazgo.jpg",
+    cover: "covers/hbr-el-autentico-liderazgo-v2.jpg",
     downloads: 441,
     featured: true,
     aiAnalysis: {
@@ -10719,7 +10719,7 @@ const BOOKS = [
     language: "Español",
     pages: 214,
     description: "Por qué la empatía no es una debilidad, sino la habilidad técnica más codiciada en la era digital para coordinar talentos diversos y crear lealtad.",
-    cover: "covers/hbr-empatia.jpg",
+    cover: "covers/hbr-empatia-v2.jpg",
     downloads: 418,
     featured: false,
     aiAnalysis: {
@@ -10742,7 +10742,7 @@ const BOOKS = [
     language: "Español",
     pages: 176,
     description: "Un enfoque científico sobre cómo gestionar no el tiempo, sino la energía personal para sostener un rendimiento de élite sin comprometer la salud física y mental.",
-    cover: "covers/hbr-energia-y-motivacion.jpg",
+    cover: "covers/hbr-energia-y-motivacion-v2.jpg",
     downloads: 495,
     featured: true,
     aiAnalysis: {
@@ -10765,7 +10765,7 @@ const BOOKS = [
     language: "Español",
     pages: 143,
     description: "Estudios de psicología positiva aplicados a las organizaciones: cómo la felicidad real eleva la creatividad, disminuye el estrés y multiplica el éxito profesional.",
-    cover: "covers/hbr-felicidad.jpg",
+    cover: "covers/hbr-felicidad-v2.jpg",
     downloads: 388,
     featured: false,
     aiAnalysis: {
@@ -10788,7 +10788,7 @@ const BOOKS = [
     language: "Español",
     pages: 100,
     description: "Cómo comunicar proyectos e ideas con impacto magnético utilizando los principios de persuasión ética investigados por la Escuela de Negocios de Harvard.",
-    cover: "covers/hbr-influencia-y-persuasion.jpg",
+    cover: "covers/hbr-influencia-y-persuasion-v2.jpg",
     downloads: 504,
     featured: true,
     aiAnalysis: {
@@ -10811,7 +10811,7 @@ const BOOKS = [
     language: "Español",
     pages: 112,
     description: "Artículos esenciales sobre cómo alinear lo que haces a diario con lo que verdaderamente te importa, redefiniendo el éxito a través del propósito profesional.",
-    cover: "covers/hbr-proposito-sentido-y-pasion.jpg",
+    cover: "covers/hbr-proposito-sentido-y-pasion-v2.jpg",
     downloads: 462,
     featured: false,
     aiAnalysis: {
@@ -10834,7 +10834,7 @@ const BOOKS = [
     language: "Español",
     pages: 92,
     description: "Descubre por qué saber escuchar con atención plena es la competencia de liderazgo más escasa y valiosa en un entorno saturado de ruido y distracciones.",
-    cover: "covers/hbr-saber-escuchar.jpg",
+    cover: "covers/hbr-saber-escuchar-v2.jpg",
     downloads: 427,
     featured: true,
     aiAnalysis: {
