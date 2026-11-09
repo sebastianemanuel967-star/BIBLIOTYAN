@@ -1500,7 +1500,7 @@ body {
   text-align: center;
 }
 
-.footer-social-row {
+.footer-social, .footer-social-row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1970,40 +1970,137 @@ body {
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
-   MODAL QR & REDES SOCIALES
+   MODAL QR & REDES SOCIALES (LUXURY EDITORIAL CARDS)
    ══════════════════════════════════════════════════════════════════════════ */
 .social-buttons {
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
-  margin: 1.2rem 0;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
 }
 
-.btn-social {
-  display: inline-flex;
+.social-follow-card {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  background: rgba(33, 23, 44, 0.75);
+  border: 1px solid var(--purple-border);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  text-decoration: none !important;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.social-follow-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(182, 106, 255, 0.05), transparent);
+  opacity: 0;
+  transition: var(--transition);
+  pointer-events: none;
+}
+
+.social-follow-card:hover {
+  background: rgba(44, 31, 59, 0.95);
+  border-color: var(--purple-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 16px rgba(182, 106, 255, 0.2);
+}
+
+.social-follow-card:hover::before {
+  opacity: 1;
+}
+
+.social-card-icon-box {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.55rem;
-  padding: 0.8rem 1rem;
-  border-radius: var(--radius-sm);
   color: #ffffff;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.social-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  flex: 1;
+  min-width: 0;
+}
+
+.social-card-title {
+  font-family: var(--font-sans);
+  font-size: 0.94rem;
   font-weight: 600;
-  font-size: 0.9rem;
-  text-decoration: none;
+  color: var(--text-main) !important;
+  text-decoration: none !important;
+  line-height: 1.3;
+}
+
+.social-card-sub {
+  font-size: 0.75rem;
+  color: var(--text-secondary) !important;
+  text-decoration: none !important;
+  line-height: 1.3;
+  margin-top: 2px;
+}
+
+.social-card-action {
+  flex-shrink: 0;
+}
+
+.social-card-pill {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid currentColor;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   transition: var(--transition);
 }
 
-.btn-social.telegram {
-  background: #229ED9;
+.social-follow-card:hover .social-card-pill {
+  background: rgba(182, 106, 255, 0.15);
+  transform: translateX(2px);
 }
 
-.btn-social.instagram {
-  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+/* Modal Section Divider */
+.modal-section-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 1.4rem 0 1.1rem;
 }
 
-.btn-social:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.1);
+.modal-section-divider::before,
+.modal-section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--purple-border), transparent);
+}
+
+.modal-section-divider span {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
 }
 
 .qr-code-frame {
@@ -2031,8 +2128,8 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
+  gap: 0.55rem;
+  padding: 0.8rem 1rem;
   border-radius: var(--radius-sm);
   font-size: 0.88rem;
   font-weight: 600;
@@ -2042,19 +2139,29 @@ body {
 }
 
 .btn-qr-link.btn-telegram {
-  background: #229ED9;
+  background: linear-gradient(135deg, #229ED9 0%, #1778a6 100%);
+  border: 1px solid rgba(34, 158, 217, 0.4);
+  box-shadow: 0 4px 14px rgba(34, 158, 217, 0.25);
 }
 
 .btn-qr-link.btn-instagram {
   background: linear-gradient(45deg, #f09433, #dc2743, #bc1888);
+  border: 1px solid rgba(220, 39, 67, 0.4);
+  box-shadow: 0 4px 14px rgba(220, 39, 67, 0.25);
+}
+
+.btn-qr-link:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 .btn-confirmed-download {
   width: 100%;
-  background: var(--purple-primary);
-  border: none;
+  background: linear-gradient(135deg, #B66AFF 0%, #9744e8 100%);
+  border: 1px solid rgba(182, 106, 255, 0.5);
   color: #ffffff;
-  padding: 0.85rem;
+  padding: 0.85rem 1.15rem;
   border-radius: var(--radius-sm);
   font-size: 0.92rem;
   font-weight: 600;
@@ -2062,12 +2169,16 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.55rem;
+  box-shadow: 0 4px 16px rgba(182, 106, 255, 0.35);
   transition: var(--transition);
+  letter-spacing: 0.2px;
 }
 
 .btn-confirmed-download:hover {
-  background: var(--purple-light);
+  background: linear-gradient(135deg, #c88aff 0%, #a855f7 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(182, 106, 255, 0.55);
 }
 
 .btn-skip-download {
@@ -2075,14 +2186,24 @@ body {
   background: transparent;
   border: 1px solid var(--purple-border);
   color: var(--text-secondary);
-  padding: 0.75rem;
+  padding: 0.75rem 1rem;
   border-radius: var(--radius-sm);
-  font-size: 0.85rem;
+  font-size: 0.86rem;
+  font-weight: 500;
   cursor: pointer;
   transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
 }
 
 .btn-skip-download:hover {
+  background: rgba(182, 106, 255, 0.08);
+  border-color: var(--purple-primary);
+  color: var(--text-main);
+  transform: translateY(-1px);
+}
   color: var(--text-main);
   background: var(--bg-card);
 }

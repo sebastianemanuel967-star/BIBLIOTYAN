@@ -1096,15 +1096,55 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     container.innerHTML = '';
 
+    const socialMeta = {
+      telegram: {
+        subtitle: 'Canal oficial · Libros diarios & avisos',
+        badge: 'Unirse',
+        badgeColor: '#229ED9',
+        iconBg: 'linear-gradient(135deg, #229ED9 0%, #1778a6 100%)'
+      },
+      instagram: {
+        subtitle: 'Comunidad · Novedades & lecturas',
+        badge: 'Seguir',
+        badgeColor: '#E4405F',
+        iconBg: 'linear-gradient(45deg, #f09433, #dc2743, #bc1888)'
+      },
+      facebook: {
+        subtitle: 'Página oficial · Reseñas & videos',
+        badge: 'Seguir',
+        badgeColor: '#1877F2',
+        iconBg: 'linear-gradient(135deg, #1877F2 0%, #0d5bb5 100%)'
+      }
+    };
+
     Object.entries(CONFIG.socialMedia).forEach(([key, social]) => {
       if (!social.active) return;
+      const meta = socialMeta[key] || {
+        subtitle: 'Comunidad oficial',
+        badge: 'Seguir',
+        badgeColor: '#B66AFF',
+        iconBg: 'linear-gradient(135deg, #B66AFF 0%, #8e3ee8 100%)'
+      };
+
       const a = document.createElement('a');
       a.href = social.url;
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
-      a.className = 'social-follow-btn';
-      a.style.background = social.color;
-      a.innerHTML = `<i class="${social.icon}"></i> ${social.label}`;
+      a.className = `social-follow-card ${key}`;
+      a.innerHTML = `
+        <div class="social-card-icon-box" style="background: ${meta.iconBg}">
+          <i class="${social.icon}"></i>
+        </div>
+        <div class="social-card-info">
+          <span class="social-card-title">${social.label}</span>
+          <span class="social-card-sub">${meta.subtitle}</span>
+        </div>
+        <div class="social-card-action">
+          <span class="social-card-pill" style="border-color: ${meta.badgeColor}55; color: ${meta.badgeColor};">
+            ${meta.badge} <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.65rem; margin-left: 2px;"></i>
+          </span>
+        </div>
+      `;
       container.appendChild(a);
     });
 
@@ -1438,6 +1478,7 @@ document.addEventListener('DOMContentLoaded', () => {
         a.href = social.url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
+        a.className = 'footer-social-btn';
         a.innerHTML = `<i class="${social.icon}"></i>`;
         a.title = social.label;
         footerSocial.appendChild(a);
