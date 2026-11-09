@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------
+// --------------------------------------------------------
 //  BIBLIOTYAN — Configuración, Datos y Módulo de Inteligencia
 //  Catálogo General de Libros en PDF y EPUB
 // --------------------------------------------------------
@@ -15485,6 +15485,28 @@ const BOOKS = [
 
 
 
+  {
+    id: 1960,
+    title: "Pensar r\u00e1pido, pensar despacio",
+    author: "Daniel Kahneman",
+    category: "Psicolog\u00eda & Conducta",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1960_pensar-rapido-pensar-despacio.pdf",
+    pages: 1063,
+    year: 2012,
+    language: "Espa\u00f1ol",
+    description: "Obra cumbre de la psicolog\u00eda cognitiva y la econom\u00eda conductual. El premio Nobel Daniel Kahneman desvela los dos sistemas que modelan nuestro pensamiento: el Sistema 1, r\u00e1pido e intuitivo, y el Sistema 2, lento y reflexivo. Una exploraci\u00f3n fascinante sobre sesgos cognitivos, heur\u00edstica y toma de decisiones.",
+    cover: "covers/c-pensar-rapido-pensar-despacio.jpg",
+    downloads: 840,
+    featured: true,
+    aiAnalysis: {
+      genre: "Psicolog\u00eda & Econom\u00eda Conductual",
+      vibe: "Profundo & Revelador",
+      keyConcepts: ["Sistema 1 y Sistema 2", "Sesgos Cognitivos", "Heur\u00edstica de Juicio", "Econom\u00eda Conductual"],
+      targetAudience: "Lectores, psic\u00f3logos, economistas y profesionales que buscan comprender los resortes invisibles que gobiernan el juicio humano y la toma de decisiones.",
+      aiSummary: "Kahneman expone d\u00e9cadas de investigaciones pioneras que le valieron el Nobel de Econom\u00eda: c\u00f3mo la intuici\u00f3n nos enga\u00f1a, por qu\u00e9 sobreestimamos lo que sabemos y c\u00f3mo activar el pensamiento deliberado para tomar mejores decisiones."
+    }
+  }
 ];
 
 const INITIAL_REQUESTS = [

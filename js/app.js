@@ -1,4 +1,4 @@
-﻿// ========================================================
+// ========================================================
 //  BIBLIOTYAN — The Personal Knowledge Archive
 //  Motor de Aplicación & Experiencia Editorial Luxury
 //  Paleta: #09070D · #171020 · #21172C · #B66AFF
@@ -536,7 +536,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ========================================================
   // SELECCIÓN EDITORIAL (HORIZONTAL SHELF)
   // ========================================================
-  const EDITORIAL_SELECTION_IDS = [1087, 1467, 1453, 1519, 1491, 1476, 1411, 603];
+  const EDITORIAL_SELECTION_IDS = [1960, 1087, 1467, 1453, 1519, 1491, 1476, 1411, 603];
 
   function renderEditorialShelf() {
     const shelf = document.getElementById('editorialShelf');
