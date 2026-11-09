@@ -117,6 +117,7 @@
 
       <nav class="desktop-nav-links">
         <a href="#catalog" class="desktop-nav-link"><i data-lucide="book-open"></i> Cat&aacute;logo</a>
+        <a href="#colecciones" class="desktop-nav-link"><i data-lucide="layers"></i> Colecciones</a>
         <a href="#pedidos" class="desktop-nav-link badge-pill"><i data-lucide="clock"></i> Solicitar Libro (10h)</a>
         <a href="#beneficios" class="desktop-nav-link"><i data-lucide="sparkles"></i> Beneficios</a>
       </nav>
@@ -165,12 +166,25 @@
           </div>
         </div>
 
-        <!-- Acceso Directo Coleccion HARVARD LIBROS -->
+        <!-- Acceso Directo Colecciones Especiales (Dummies, Breve Historia, Harvard) -->
         <div class="hero-featured-pill-row">
-          <a href="?coleccion=harvard-libros" class="hero-featured-pill" id="heroHarvardLink" onclick="event.preventDefault(); selectCategory('HARVARD LIBROS', true, true);">
-            <span class="pill-badge"><i data-lucide="building-2"></i> Colecci&oacute;n Oficial</span>
-            <span class="pill-title">HARVARD LIBROS: Serie Inteligencia Emocional (12 Ejemplares)</span>
-            <span class="pill-action">Explorar Colecci&oacute;n <i data-lucide="arrow-right"></i></span>
+          <span class="hero-collections-label">
+            <i data-lucide="sparkles"></i> Colecciones:
+          </span>
+          <a href="?coleccion=dummies" class="hero-featured-pill pill-dummies" id="heroDummiesLink" onclick="event.preventDefault(); selectCategory('PARA DUMMIES', true, true);" title="Colecci&oacute;n Para Dummies">
+            <span class="pill-badge badge-dummies"><i data-lucide="lightbulb"></i> Para Dummies</span>
+            <span class="pill-count" id="heroDummiesCount">70 Libros</span>
+            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
+          </a>
+          <a href="?coleccion=breve-historia" class="hero-featured-pill pill-historia" id="heroHistoriaLink" onclick="event.preventDefault(); selectCategory('BREVE HISTORIA', true, true);" title="Colecci&oacute;n Breve Historia">
+            <span class="pill-badge badge-historia"><i data-lucide="landmark"></i> Breve Historia</span>
+            <span class="pill-count" id="heroHistoriaCount">142 Libros</span>
+            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
+          </a>
+          <a href="?coleccion=harvard-libros" class="hero-featured-pill pill-harvard" id="heroHarvardLink" onclick="event.preventDefault(); selectCategory('HARVARD LIBROS', true, true);" title="Colecci&oacute;n Harvard Libros">
+            <span class="pill-badge badge-harvard"><i data-lucide="building-2"></i> Harvard Libros</span>
+            <span class="pill-count" id="heroHarvardCount">12 Libros</span>
+            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
           </a>
         </div>
       </div>
@@ -235,6 +249,123 @@
             <i data-lucide="atom" class="knowledge-card-icon"></i>
             <span class="knowledge-card-label">Ciencia</span>
           </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== APARTADO DE COLECCIONES DESTACADAS ==================== -->
+    <section class="special-collections-section" id="colecciones">
+      <div class="container">
+        <div class="section-title-row">
+          <div>
+            <span class="section-kicker">ARCHIVOS & SERIES MONOGR&Aacute;FICAS</span>
+            <h2 class="section-title">Colecciones Destacadas</h2>
+          </div>
+          <a href="#catalog" class="section-view-all" onclick="selectCategory('Todos', true, true)">
+            Ver cat&aacute;logo completo <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="special-collections-grid">
+          <!-- TARJETA 1: COLECCION PARA DUMMIES -->
+          <div class="collection-card-item card-dummies" onclick="selectCategory('PARA DUMMIES', true, true);">
+            <div class="collection-card-top">
+              <span class="collection-top-badge badge-dummies">
+                <i data-lucide="lightbulb"></i> Serie Pr&aacute;ctica
+              </span>
+              <span class="collection-count-pill" id="colCountDummies">70 Libros en PDF</span>
+            </div>
+            <div class="collection-card-content">
+              <h3 class="collection-item-title">Colecci&oacute;n Para Dummies</h3>
+              <p class="collection-item-desc">
+                La m&iacute;tica serie mundial creada para aprender cualquier disciplina sin rodeos: finanzas personales, inversi&oacute;n, idiomas, tecnolog&iacute;a, ciencias, filosof&iacute;a y habilidades pr&aacute;cticas.
+              </p>
+              <div class="collection-tags-row">
+                <span class="collection-tag-chip">Finanzas</span>
+                <span class="collection-tag-chip">Inversi&oacute;n</span>
+                <span class="collection-tag-chip">Idiomas</span>
+                <span class="collection-tag-chip">Tecnolog&iacute;a</span>
+                <span class="collection-tag-chip">Salud</span>
+              </div>
+            </div>
+            <div class="collection-card-actions">
+              <a href="?coleccion=dummies" class="btn-collection-explore btn-dummies" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('PARA DUMMIES', true, true);">
+                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
+              </a>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('PARA DUMMIES');" title="Copiar enlace directo">
+                <i data-lucide="link"></i>
+              </button>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); shareCollectionWhatsApp('PARA DUMMIES');" title="Compartir en WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- TARJETA 2: COLECCION BREVE HISTORIA -->
+          <div class="collection-card-item card-historia" onclick="selectCategory('BREVE HISTORIA', true, true);">
+            <div class="collection-card-top">
+              <span class="collection-top-badge badge-historia">
+                <i data-lucide="landmark"></i> Ediciones Nowtilus
+              </span>
+              <span class="collection-count-pill" id="colCountHistoria">142 Libros en PDF</span>
+            </div>
+            <div class="collection-card-content">
+              <h3 class="collection-item-title">Colecci&oacute;n Breve Historia</h3>
+              <p class="collection-item-desc">
+                Monograf&iacute;as de investigaci&oacute;n hist&oacute;rica rigurosas y apasionantes: civilizaciones cl&aacute;sicas, imperios milenarios, mitolog&iacute;a, las grandes guerras y personajes trascendentales.
+              </p>
+              <div class="collection-tags-row">
+                <span class="collection-tag-chip">Roma y Grecia</span>
+                <span class="collection-tag-chip">Guerras Mundiales</span>
+                <span class="collection-tag-chip">Mitolog&iacute;a</span>
+                <span class="collection-tag-chip">Imperios</span>
+              </div>
+            </div>
+            <div class="collection-card-actions">
+              <a href="?coleccion=breve-historia" class="btn-collection-explore btn-historia" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('BREVE HISTORIA', true, true);">
+                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
+              </a>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('BREVE HISTORIA');" title="Copiar enlace directo">
+                <i data-lucide="link"></i>
+              </button>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); shareCollectionWhatsApp('BREVE HISTORIA');" title="Compartir en WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- TARJETA 3: COLECCION HARVARD LIBROS -->
+          <div class="collection-card-item card-harvard" onclick="selectCategory('HARVARD LIBROS', true, true);">
+            <div class="collection-card-top">
+              <span class="collection-top-badge badge-harvard">
+                <i data-lucide="building-2"></i> Harvard Business Review
+              </span>
+              <span class="collection-count-pill" id="colCountHarvard">12 Libros en PDF</span>
+            </div>
+            <div class="collection-card-content">
+              <h3 class="collection-item-title">Colecci&oacute;n Harvard Libros</h3>
+              <p class="collection-item-desc">
+                Serie oficial Inteligencia Emocional de Harvard Business Review: empat&iacute;a, resiliencia ejecutiva, liderazgo consciente, mindfulness estrat&eacute;gico y toma de decisiones.
+              </p>
+              <div class="collection-tags-row">
+                <span class="collection-tag-chip">Inteligencia Emocional</span>
+                <span class="collection-tag-chip">Liderazgo</span>
+                <span class="collection-tag-chip">Empat&iacute;a</span>
+                <span class="collection-tag-chip">Mindfulness</span>
+              </div>
+            </div>
+            <div class="collection-card-actions">
+              <a href="?coleccion=harvard-libros" class="btn-collection-explore btn-harvard" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('HARVARD LIBROS', true, true);">
+                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
+              </a>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('HARVARD LIBROS');" title="Copiar enlace directo">
+                <i data-lucide="link"></i>
+              </button>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); shareCollectionWhatsApp('HARVARD LIBROS');" title="Compartir en WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </section>

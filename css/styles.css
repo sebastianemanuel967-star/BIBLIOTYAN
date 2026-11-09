@@ -2323,69 +2323,360 @@ body {
 }
 
 /* ==========================================================================
-   COLLECTION HIGHLIGHT BANNER & HERO PILL
+   COLLECTION HIGHLIGHT BANNER & HERO PILLS
    ========================================================================== */
 .hero-featured-pill-row {
   margin-top: 1.25rem;
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
   width: 100%;
+}
+
+.hero-collections-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--purple-light);
+  font-weight: 700;
+  margin-right: 0.2rem;
 }
 
 .hero-featured-pill {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.55rem 1.15rem;
-  background: rgba(33, 23, 44, 0.85);
+  gap: 0.55rem;
+  padding: 0.45rem 0.9rem;
+  background: rgba(23, 16, 32, 0.88);
   border: 1px solid var(--purple-border);
   border-radius: var(--radius-pill);
   color: var(--text-main);
   text-decoration: none;
-  font-size: 0.84rem;
+  font-size: 0.82rem;
   transition: var(--transition);
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .hero-featured-pill:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--purple-primary);
   transform: translateY(-2px);
-  box-shadow: 0 6px 22px rgba(182, 106, 255, 0.25);
+  background: var(--bg-card-hover);
+}
+
+.hero-featured-pill.pill-dummies:hover {
+  border-color: rgba(234, 179, 8, 0.6);
+  box-shadow: 0 6px 20px rgba(234, 179, 8, 0.22);
+}
+
+.hero-featured-pill.pill-historia:hover {
+  border-color: rgba(217, 119, 6, 0.6);
+  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.22);
+}
+
+.hero-featured-pill.pill-harvard:hover {
+  border-color: rgba(225, 29, 72, 0.6);
+  box-shadow: 0 6px 20px rgba(225, 29, 72, 0.22);
 }
 
 .hero-featured-pill .pill-badge {
-  background: var(--purple-soft);
-  color: var(--purple-light);
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 0.2rem 0.55rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.18rem 0.5rem;
   border-radius: var(--radius-pill);
-  border: 1px solid var(--purple-border);
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+}
+
+.hero-featured-pill .pill-badge.badge-dummies {
+  background: rgba(234, 179, 8, 0.18);
+  color: #FACC15;
+  border: 1px solid rgba(234, 179, 8, 0.35);
+}
+
+.hero-featured-pill .pill-badge.badge-historia {
+  background: rgba(217, 119, 6, 0.18);
+  color: #F59E0B;
+  border: 1px solid rgba(217, 119, 6, 0.35);
+}
+
+.hero-featured-pill .pill-badge.badge-harvard {
+  background: rgba(225, 29, 72, 0.18);
+  color: #FB7185;
+  border: 1px solid rgba(225, 29, 72, 0.35);
 }
 
 .hero-featured-pill .pill-title {
   font-weight: 500;
+  color: var(--text-main);
+}
+
+.hero-featured-pill .pill-count {
+  font-size: 0.74rem;
+  color: var(--text-secondary);
 }
 
 .hero-featured-pill .pill-action {
   color: var(--purple-light);
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.75rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  margin-left: 0.25rem;
   transition: transform 0.2s ease;
 }
 
 .hero-featured-pill:hover .pill-action {
   transform: translateX(3px);
   color: #ffffff;
+}
+
+/* ==========================================================================
+   APARTADO DE COLECCIONES ESPECIALES (DUMMIES, BREVE HISTORIA, HARVARD)
+   ========================================================================== */
+.special-collections-section {
+  padding: 3.5rem 0 2rem;
+  position: relative;
+}
+
+.special-collections-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .special-collections-grid {
+    grid-template-columns: 1fr;
+    gap: 1.15rem;
+  }
+}
+
+.collection-card-item {
+  background: linear-gradient(145deg, rgba(23, 16, 32, 0.95) 0%, rgba(33, 23, 44, 0.85) 100%);
+  border: 1px solid var(--purple-border);
+  border-radius: var(--radius-lg);
+  padding: 1.6rem 1.45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition);
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+}
+
+.collection-card-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.collection-card-item.card-dummies::before {
+  background: linear-gradient(90deg, transparent, #EAB308, transparent);
+}
+
+.collection-card-item.card-historia::before {
+  background: linear-gradient(90deg, transparent, #D97706, transparent);
+}
+
+.collection-card-item.card-harvard::before {
+  background: linear-gradient(90deg, transparent, #E11D48, transparent);
+}
+
+.collection-card-item:hover {
+  transform: translateY(-4px);
+}
+
+.collection-card-item.card-dummies:hover {
+  border-color: rgba(234, 179, 8, 0.45);
+  box-shadow: 0 10px 32px rgba(234, 179, 8, 0.16);
+}
+
+.collection-card-item.card-historia:hover {
+  border-color: rgba(217, 119, 6, 0.45);
+  box-shadow: 0 10px 32px rgba(217, 119, 6, 0.16);
+}
+
+.collection-card-item.card-harvard:hover {
+  border-color: rgba(225, 29, 72, 0.45);
+  box-shadow: 0 10px 32px rgba(225, 29, 72, 0.16);
+}
+
+.collection-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.collection-top-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.65rem;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.collection-top-badge.badge-dummies {
+  background: rgba(234, 179, 8, 0.16);
+  border: 1px solid rgba(234, 179, 8, 0.35);
+  color: #FACC15;
+}
+
+.collection-top-badge.badge-historia {
+  background: rgba(217, 119, 6, 0.16);
+  border: 1px solid rgba(217, 119, 6, 0.35);
+  color: #F59E0B;
+}
+
+.collection-top-badge.badge-harvard {
+  background: rgba(225, 29, 72, 0.16);
+  border: 1px solid rgba(225, 29, 72, 0.35);
+  color: #FB7185;
+}
+
+.collection-count-pill {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.22rem 0.55rem;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+}
+
+.collection-card-content {
+  margin-bottom: 1.35rem;
+}
+
+.collection-item-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.65rem;
+  letter-spacing: -0.01em;
+}
+
+.collection-item-desc {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.collection-tags-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.collection-tag-chip {
+  font-size: 0.7rem;
+  padding: 0.18rem 0.5rem;
+  border-radius: var(--radius-xs);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  color: var(--text-secondary);
+}
+
+.collection-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: auto;
+  padding-top: 1.1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.btn-collection-explore {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+}
+
+.btn-collection-explore.btn-dummies {
+  background: linear-gradient(135deg, #FACC15 0%, #EAB308 100%);
+  color: #09070D;
+  box-shadow: 0 4px 16px rgba(234, 179, 8, 0.28);
+}
+
+.btn-collection-explore.btn-dummies:hover {
+  background: #FDE047;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(234, 179, 8, 0.4);
+}
+
+.btn-collection-explore.btn-historia {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  color: #09070D;
+  box-shadow: 0 4px 16px rgba(217, 119, 6, 0.28);
+}
+
+.btn-collection-explore.btn-historia:hover {
+  background: #FBBF24;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.4);
+}
+
+.btn-collection-explore.btn-harvard {
+  background: linear-gradient(135deg, #E11D48 0%, #BE123C 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 16px rgba(225, 29, 72, 0.28);
+}
+
+.btn-collection-explore.btn-harvard:hover {
+  background: #F43F5E;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(225, 29, 72, 0.4);
+}
+
+.btn-collection-share {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--purple-border);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-collection-share:hover {
+  background: var(--purple-soft);
+  color: var(--purple-light);
+  border-color: var(--purple-primary);
+  transform: translateY(-2px);
 }
 
 .collection-highlight-banner {

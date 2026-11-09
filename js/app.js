@@ -510,6 +510,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSecretAdminAccess();
     setupMobileBottomNav();
     updateStats();
+    updateCollectionShowcaseBadges();
     handleInitialUrl();
     refreshIcons();
   }
@@ -1317,6 +1318,7 @@ document.addEventListener('DOMContentLoaded', () => {
     book.downloads++;
     renderBooks();
     updateStats();
+    updateCollectionShowcaseBadges();
 
     if (filePath) {
       const link = document.createElement('a');
@@ -1695,6 +1697,27 @@ document.addEventListener('DOMContentLoaded', () => {
     if (el1) el1.textContent = totalBooks;
     if (el2) el2.textContent = totalDownloads;
     if (el3) el3.textContent = categories;
+  }
+
+  function updateCollectionShowcaseBadges() {
+    if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return;
+    const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES').length;
+    const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA').length;
+    const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;
+
+    const elDummies = document.getElementById('colCountDummies');
+    const elHistoria = document.getElementById('colCountHistoria');
+    const elHarvard = document.getElementById('colCountHarvard');
+    if (elDummies) elDummies.textContent = `${dCount} Libros en PDF`;
+    if (elHistoria) elHistoria.textContent = `${hCount} Libros en PDF`;
+    if (elHarvard) elHarvard.textContent = `${hbrCount} Libros en PDF`;
+
+    const heroD = document.getElementById('heroDummiesCount');
+    const heroH = document.getElementById('heroHistoriaCount');
+    const heroHbr = document.getElementById('heroHarvardCount');
+    if (heroD) heroD.textContent = `${dCount} Libros`;
+    if (heroH) heroH.textContent = `${hCount} Libros`;
+    if (heroHbr) heroHbr.textContent = `${hbrCount} Libros`;
   }
 
   // Cierre de modales
