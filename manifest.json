@@ -1,0 +1,32 @@
+{
+  "name": "BIBLIOTYAN — The Personal Knowledge Archive",
+  "short_name": "BIBLIOTYAN",
+  "description": "Una biblioteca digital de libros, ideas y herramientas para pensar, crear y construir. Acceso 100% libre a colecciones selectas de Filosofía, Psicología, Negocios, Economía, Historia y Ciencia.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#09070D",
+  "theme_color": "#09070D",
+  "lang": "es",
+  "orientation": "any",
+  "categories": [
+    "education",
+    "books",
+    "productivity",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

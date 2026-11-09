@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+# Sitemap oficial para motores de busqueda (Google, Bing, etc.)
+Sitemap: https://bibliotyan.vercel.app/sitemap.xml
+Host: https://bibliotyan.vercel.app

@@ -3,18 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>BIBLIOTYAN &mdash; The Personal Knowledge Archive &amp; Biblioteca Digital</title>
-  <meta name="description" content="BIBLIOTYAN: Repositorio editorial digital de libros, ideas y herramientas para pensar, crear y construir. Acceso 100% libre.">
-  <meta property="og:title" content="BIBLIOTYAN &mdash; The Personal Knowledge Archive">
-  <meta property="og:description" content="Biblioteca digital de libros curados en PDF y EPUB. Filosof&iacute;a, Psicolog&iacute;a, Negocios, Econom&iacute;a, Historia y Ciencia. Acceso libre.">
+  <title>BIBLIOTYAN &mdash; The Personal Knowledge Archive | Biblioteca Digital Gratuita</title>
+  
+  <!-- SEO Primario & Motores de B&uacute;squeda (Google, Bing) -->
+  <meta name="description" content="BIBLIOTYAN es una biblioteca digital y archivo editorial de conocimiento libre con colecciones de Filosof&iacute;a, Psicolog&iacute;a, Negocios, Econom&iacute;a, Breve Historia y Harvard Libros en PDF.">
+  <meta name="keywords" content="BIBLIOTYAN, bibliotyan, biblioteca digital, biblioteca digital gratuita, descargar libros pdf, libros gratis pdf, libros de harvard, coleccion breve historia, desarrollo personal, filosofia, psicologia, negocios, economia, historia, ciencia, biblioteca personal, epubs gratis">
+  <meta name="author" content="BIBLIOTYAN">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://bibliotyan.vercel.app/">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+  <!-- Open Graph / Facebook / WhatsApp / Telegram -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BIBLIOTYAN">
+  <meta property="og:title" content="BIBLIOTYAN &mdash; The Personal Knowledge Archive">
+  <meta property="og:description" content="Biblioteca digital y archivo editorial de libros selectos en PDF y EPUB. Filosof&iacute;a, Psicolog&iacute;a, Negocios, Harvard y Breve Historia. Acceso 100% libre.">
   <meta property="og:url" content="https://bibliotyan.vercel.app/">
-  <meta property="og:image" content="https://raw.githubusercontent.com/sebastianemanuel967-star/BIBLIOTYAN/main/covers/og-bibliotyan.jpg">
-  <meta name="theme-color" content="#09070D">
+  <meta property="og:image" content="https://bibliotyan.vercel.app/images/hero-mountains.jpg">
+  <meta property="og:image:alt" content="BIBLIOTYAN — The Personal Knowledge Archive">
+  <meta property="og:locale" content="es_ES">
 
-  <!-- Favicon minimalista -->
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BIBLIOTYAN &mdash; The Personal Knowledge Archive">
+  <meta name="twitter:description" content="Biblioteca digital de libros curados en PDF y EPUB. Acceso libre a las grandes ideas del pensamiento universal.">
+  <meta name="twitter:image" content="https://bibliotyan.vercel.app/images/hero-mountains.jpg">
+
+  <!-- Mobile, PWA & Theming -->
+  <meta name="theme-color" content="#09070D">
+  <meta name="msapplication-TileColor" content="#09070D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BIBLIOTYAN">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23171020' stroke='%23B66AFF' stroke-width='6'/><path d='M35 32 L65 32 L65 68 L35 68 Z' fill='none' stroke='%23B66AFF' stroke-width='5'/><line x1='50' y1='32' x2='50' y2='68' stroke='%23B66AFF' stroke-width='4'/></svg>">
+
+  <!-- Google Search Console: etiqueta meta de verificaci&oacute;n -->
+  <meta name="google-site-verification" content="GSC_VERIFICATION_PLACEHOLDER">
+
+  <!-- Datos Estructurados JSON-LD (Schema.org) para Google Indexing -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://bibliotyan.vercel.app/#website",
+        "url": "https://bibliotyan.vercel.app/",
+        "name": "BIBLIOTYAN",
+        "alternateName": ["Bibliotyan", "BIBLIOTYAN - Biblioteca Digital", "The Personal Knowledge Archive"],
+        "description": "Una biblioteca digital de libros, ideas y herramientas para pensar, crear y construir. Acceso 100% libre a colecciones selectas de Filosofía, Psicología, Negocios, Economía, Historia y Ciencia.",
+        "inLanguage": "es-ES",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://bibliotyan.vercel.app/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "EducationalOrganization",
+        "@id": "https://bibliotyan.vercel.app/#organization",
+        "name": "BIBLIOTYAN",
+        "alternateName": "Bibliotyan Digital Archive",
+        "url": "https://bibliotyan.vercel.app/",
+        "logo": "https://bibliotyan.vercel.app/images/icon-512.png",
+        "image": "https://bibliotyan.vercel.app/images/hero-mountains.jpg",
+        "sameAs": [
+          "https://t.me/bibliotyan",
+          "https://instagram.com/tyanmena"
+        ],
+        "description": "Archivo y biblioteca digital curada de conocimiento editorial, desarrollo personal, filosofía, historia y ciencias."
+      }
+    ]
+  }
+  </script>
 
   <!-- Google Fonts: Inter & Playfair Display -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

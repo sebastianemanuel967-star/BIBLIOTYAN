@@ -445,6 +445,22 @@ document.addEventListener('DOMContentLoaded', () => {
         if (catalog) catalog.scrollIntoView({ behavior: 'smooth' });
       }, 350);
     }
+
+    // Soporte para busquedas desde motores como Google SearchAction (?q=... o ?buscar=...)
+    const searchParam = params.get('q') || params.get('buscar') || params.get('search');
+    if (searchParam && searchParam.trim()) {
+      const qVal = searchParam.trim();
+      state.searchQuery = qVal;
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) searchInput.value = qVal;
+      const heroSearchInput = document.getElementById('heroSearchInput');
+      if (heroSearchInput) heroSearchInput.value = qVal;
+      renderBooks();
+      const catalog = document.getElementById('catalog');
+      if (catalog) {
+        setTimeout(() => catalog.scrollIntoView({ behavior: 'smooth' }), 200);
+      }
+    }
   }
 
   // ========================================================
