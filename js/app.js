@@ -488,15 +488,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // ========================================================
   // SELECCIÓN EDITORIAL (HORIZONTAL SHELF)
   // ========================================================
-  const EDITORIAL_SELECTION_IDS = [1087, 1467, 1519, 1491, 1502, 1830, 1611, 1604, 1601];
+  const EDITORIAL_SELECTION_IDS = [1087, 1467, 1453, 1519, 1491, 1476, 1411, 603];
 
   function renderEditorialShelf() {
     const shelf = document.getElementById('editorialShelf');
     if (!shelf) return;
 
-    const curated = BOOKS.filter(b => EDITORIAL_SELECTION_IDS.includes(b.id));
+    const curated = EDITORIAL_SELECTION_IDS.map(id => BOOKS.find(b => b.id === id)).filter(Boolean);
     if (curated.length === 0) {
-      // Fallback a los primeros con portada
       curated.push(...BOOKS.slice(0, 6));
     }
 
@@ -765,16 +764,27 @@ document.addEventListener('DOMContentLoaded', () => {
       sortBy = 'recent';
     }
 
-    switch (sortBy) {
-      case 'popular':
-        filtered.sort((a, b) => b.downloads - a.downloads);
-        break;
-      case 'alpha':
-        filtered.sort((a, b) => a.title.localeCompare(b.title));
-        break;
-      case 'recent':
-      default:
-        filtered.sort((a, b) => b.id - a.id);
+    if (state.currentFilter === 'Recomendados') {
+      filtered.sort((a, b) => {
+        const idxA = EDITORIAL_SELECTION_IDS.indexOf(a.id);
+        const idxB = EDITORIAL_SELECTION_IDS.indexOf(b.id);
+        if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+        if (idxA !== -1) return -1;
+        if (idxB !== -1) return 1;
+        return b.downloads - a.downloads;
+      });
+    } else {
+      switch (sortBy) {
+        case 'popular':
+          filtered.sort((a, b) => b.downloads - a.downloads);
+          break;
+        case 'alpha':
+          filtered.sort((a, b) => a.title.localeCompare(b.title));
+          break;
+        case 'recent':
+        default:
+          filtered.sort((a, b) => b.id - a.id);
+      }
     }
 
     if (countEl) {

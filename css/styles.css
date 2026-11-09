@@ -590,12 +590,18 @@ body {
 }
 
 .editorial-shelf::-webkit-scrollbar {
-  height: 5px;
+  height: 4px;
+}
+
+.editorial-shelf::-webkit-scrollbar-track {
+  background: rgba(182, 106, 255, 0.08);
+  border-radius: var(--radius-pill);
 }
 
 .editorial-shelf::-webkit-scrollbar-thumb {
-  background: var(--purple-border);
+  background: var(--purple-primary);
   border-radius: var(--radius-pill);
+  box-shadow: 0 0 8px rgba(182, 106, 255, 0.4);
 }
 
 .editorial-mini-card {
