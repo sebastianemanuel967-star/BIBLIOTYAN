@@ -1,4 +1,4 @@
-# BIBLIOTYAN — Biblioteca Digital & Repositorio Editorial
+﻿# BIBLIOTYAN — Biblioteca Digital & Repositorio Editorial
 
 **Plataforma web de lectura libre, diagnóstico temático por Inteligencia y servicio de entrega de libros en 10 horas.**
 
@@ -51,7 +51,7 @@ Todo el material suministrado ha sido procesado, extraído, clasificado e integr
 
 3. **Sistema de Pedidos Express con Código QR (Compromiso 10 Horas)**:
    - Registro de solicitudes para ejemplares no listados.
-   - Generación de ticket con **Código QR** y enlace al canal oficial de Telegram (`https://t.me/+OhqKLNF35gY1Mjkx`) e Instagram [@tyanmena](https://www.instagram.com/tyanmena/).
+   - Generación de ticket con **Código QR** y enlace al canal oficial de Telegram (`https://t.me/bibliotyan`) e Instagram [@tyanmena](https://www.instagram.com/tyanmena/).
    - Panel de seguimiento en tiempo real con temporizador decreciente de 10 horas.
 
 ---

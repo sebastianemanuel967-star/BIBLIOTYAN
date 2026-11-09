@@ -8,13 +8,13 @@ const CONFIG = {
   tagline: "Repositorio Editorial & Lectura Libre",
   deliveryHours: 10,
   adminPassword: "tyan2024",
-  communityInviteUrl: "https://t.me/+OhqKLNF35gY1Mjkx",
+  communityInviteUrl: "https://t.me/bibliotyan",
 
   // ── Redes Sociales Comunitarias ──
   socialMedia: {
     telegram: {
       active: true,
-      url: "https://t.me/+OhqKLNF35gY1Mjkx",
+      url: "https://t.me/bibliotyan",
       label: "Canal Oficial de Telegram",
       icon: "fa-brands fa-telegram",
       color: "#229ED9"

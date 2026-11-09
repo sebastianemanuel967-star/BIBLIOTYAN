@@ -875,7 +875,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (bookEl) bookEl.textContent = `«${bookTitle}»`;
 
     // Código QR apuntando a la invitación de Telegram/Comunidad
-    const encodedUrl = encodeURIComponent(CONFIG.communityInviteUrl || "https://t.me/+OhqKLNF35gY1Mjkx");
+    const encodedUrl = encodeURIComponent(CONFIG.communityInviteUrl || "https://t.me/bibliotyan");
     if (qrImg) {
       qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodedUrl}&bgcolor=ffffff&color=09060f&margin=1`;
     }
