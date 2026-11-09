@@ -1,4 +1,4 @@
-// ========================================================
+﻿// ========================================================
 //  BIBLIOTYAN — Motor de Aplicación
 //  Gestión de Libros, Diagnóstico de Géneros y Peticiones (10h)
 //  Estética: Editorial Minimalista (Obsidian Violeta)
@@ -244,6 +244,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const cleanSlug = slugify(colParam);
       if (cleanSlug === 'harvard' || cleanSlug === 'harvard-libros' || cleanSlug.includes('harvard')) {
         targetCat = 'HARVARD LIBROS';
+      } else if (cleanSlug === 'breve-historia' || cleanSlug === 'historia' || cleanSlug.includes('breve-historia')) {
+        targetCat = 'BREVE HISTORIA';
       } else {
         targetCat = CONFIG.categories.find(c => slugify(c) === cleanSlug || slugify(c).includes(cleanSlug) || cleanSlug.includes(slugify(c)));
       }
@@ -255,6 +257,8 @@ document.addEventListener('DOMContentLoaded', () => {
       selectCategory(targetCat, true, false);
       if (targetCat === 'HARVARD LIBROS') {
         showToast('Colecci\u00f3n Harvard Activa', 'Explorando los 12 t\u00edtulos de Harvard Business Review');
+      } else if (targetCat === 'BREVE HISTORIA') {
+        showToast('Colecci\u00f3n Breve Historia', 'Explorando los 142 t\u00edtulos de Ediciones Nowtilus');
       } else {
         showToast('Colecci\u00f3n Seleccionada', `Mostrando t\u00edtulos de "${targetCat}"`);
       }
@@ -401,6 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
       let labelHtml = cat;
       if (cat === 'Todos') labelHtml = '<i class="fa-solid fa-border-all"></i> Todos';
       else if (cat === 'HARVARD LIBROS') labelHtml = '<i class="fa-solid fa-building-columns"></i> HARVARD LIBROS';
+      else if (cat === 'BREVE HISTORIA') labelHtml = '<i class="fa-solid fa-landmark"></i> BREVE HISTORIA';
       else if (cat === 'National Geographic') labelHtml = '<i class="fa-solid fa-earth-americas"></i> National Geographic';
       btn.innerHTML = labelHtml;
       btn.setAttribute('data-cat', cat);
@@ -574,10 +579,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (colLinkEl) {
       if (book.category === 'HARVARD LIBROS') {
         colLinkEl.style.display = 'inline-flex';
+        colLinkEl.innerHTML = '<i class="fa-solid fa-layer-group"></i> Colecci\u00f3n Harvard Libros';
         colLinkEl.onclick = (e) => {
           e.preventDefault();
           closePreviewModal();
           selectCategory('HARVARD LIBROS', true, true);
+        };
+      } else if (book.category === 'BREVE HISTORIA') {
+        colLinkEl.style.display = 'inline-flex';
+        colLinkEl.innerHTML = '<i class="fa-solid fa-landmark"></i> Colecci\u00f3n Breve Historia (142 Libros)';
+        colLinkEl.onclick = (e) => {
+          e.preventDefault();
+          closePreviewModal();
+          selectCategory('BREVE HISTORIA', true, true);
         };
       } else {
         colLinkEl.style.display = 'none';
