@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `• Y 7 títulos más...\n\n` +
         `👉 *Enlace directo a la colección:*\n${url}`;
     } else if (cat === 'PARA DUMMIES') {
-      const dummiesCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 36;
+      const dummiesCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
       msg = `💡 *Colección PARA DUMMIES en BIBLIOTYAN*\n` +
         `Accede y descarga gratis ${dummiesCount} guías prácticas de la icónica colección Para Dummies en PDF:\n\n` +
         `• Finanzas e Inversión\n` +
@@ -440,7 +440,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (targetCat === 'BREVE HISTORIA') {
         showToast('Colección Breve Historia', 'Explorando los 142 títulos de Ediciones Nowtilus');
       } else if (targetCat === 'PARA DUMMIES') {
-        const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 36;
+        const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
         showToast('Colección Para Dummies', `Explorando las ${dCount} guías prácticas en PDF`);
       } else {
         showToast('Colección Seleccionada', `Mostrando títulos de "${targetCat}"`);
@@ -1015,7 +1015,7 @@ document.addEventListener('DOMContentLoaded', () => {
           selectCategory('BREVE HISTORIA', true, true);
         };
       } else if (book.category === 'PARA DUMMIES') {
-        const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 36;
+        const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
         colLinkEl.style.display = 'inline-flex';
         colLinkEl.innerHTML = `<i class="fa-solid fa-lightbulb"></i> Colección Para Dummies (${dCount} Libros)`;
         colLinkEl.onclick = (e) => {
