@@ -186,6 +186,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (categoryName === 'HARVARD LIBROS') {
       return `${base}?coleccion=harvard-libros`;
     }
+    if (categoryName === 'BREVE HISTORIA') {
+      return `${base}?coleccion=breve-historia`;
+    }
+    if (categoryName === 'PARA DUMMIES') {
+      return `${base}?coleccion=dummies`;
+    }
     return `${base}?coleccion=${slugify(categoryName)}`;
   }
 
@@ -218,6 +224,15 @@ document.addEventListener('DOMContentLoaded', () => {
         `• Empatía\n` +
         `• Y 7 títulos más...\n\n` +
         `👉 *Enlace directo a la colección:*\n${url}`;
+    } else if (cat === 'PARA DUMMIES') {
+      const dummiesCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 36;
+      msg = `💡 *Colección PARA DUMMIES en BIBLIOTYAN*\n` +
+        `Accede y descarga gratis ${dummiesCount} guías prácticas de la icónica colección Para Dummies en PDF:\n\n` +
+        `• Finanzas e Inversión\n` +
+        `• Excel, Windows y Tecnología\n` +
+        `• Idiomas, Música y Arte\n` +
+        `• Ajedrez, Jardinería y Salud\n\n` +
+        `👉 *Enlace directo a la colección:*\n${url}`;
     } else {
       msg = `📚 *Colección "${cat}" en BIBLIOTYAN*\n` +
         `Explora y descarga libros completos en PDF y EPUB de alta calidad:\n\n` +
@@ -240,6 +255,14 @@ document.addEventListener('DOMContentLoaded', () => {
         params.delete('cat');
       } else if (categoryName === 'HARVARD LIBROS') {
         params.set('coleccion', 'harvard-libros');
+        params.delete('categoria');
+        params.delete('cat');
+      } else if (categoryName === 'BREVE HISTORIA') {
+        params.set('coleccion', 'breve-historia');
+        params.delete('categoria');
+        params.delete('cat');
+      } else if (categoryName === 'PARA DUMMIES') {
+        params.set('coleccion', 'dummies');
         params.delete('categoria');
         params.delete('cat');
       } else {
@@ -399,11 +422,15 @@ document.addEventListener('DOMContentLoaded', () => {
         targetCat = 'HARVARD LIBROS';
       } else if (cleanSlug === 'breve-historia' || cleanSlug === 'historia' || cleanSlug.includes('breve-historia')) {
         targetCat = 'BREVE HISTORIA';
+      } else if (cleanSlug === 'dummies' || cleanSlug === 'para-dummies' || cleanSlug.includes('dummies')) {
+        targetCat = 'PARA DUMMIES';
       } else {
         targetCat = CONFIG.categories.find(c => slugify(c) === cleanSlug || slugify(c).includes(cleanSlug) || cleanSlug.includes(slugify(c)));
       }
     } else if (hash.includes('harvard')) {
       targetCat = 'HARVARD LIBROS';
+    } else if (hash.includes('dummies')) {
+      targetCat = 'PARA DUMMIES';
     }
 
     if (targetCat) {
@@ -412,6 +439,9 @@ document.addEventListener('DOMContentLoaded', () => {
         showToast('Colección Harvard Activa', 'Explorando los 12 títulos de Harvard Business Review');
       } else if (targetCat === 'BREVE HISTORIA') {
         showToast('Colección Breve Historia', 'Explorando los 142 títulos de Ediciones Nowtilus');
+      } else if (targetCat === 'PARA DUMMIES') {
+        const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 36;
+        showToast('Colección Para Dummies', `Explorando las ${dCount} guías prácticas en PDF`);
       } else {
         showToast('Colección Seleccionada', `Mostrando títulos de "${targetCat}"`);
       }
@@ -587,6 +617,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Recomendados',
       'HARVARD LIBROS',
       'BREVE HISTORIA',
+      'PARA DUMMIES',
       'National Geographic',
       'E-Books (EPUB)',
       'Espiritualidad & sabiduría',
@@ -616,6 +647,7 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (cat === 'Recomendados') iconHtml = '<i data-lucide="award"></i>';
       else if (cat === 'HARVARD LIBROS') iconHtml = '<i data-lucide="building-2"></i>';
       else if (cat === 'BREVE HISTORIA') iconHtml = '<i data-lucide="landmark"></i>';
+      else if (cat === 'PARA DUMMIES') iconHtml = '<i data-lucide="lightbulb"></i>';
 
       btn.innerHTML = `${iconHtml} <span>${cat}</span>`;
       btn.addEventListener('click', () => {
@@ -712,6 +744,49 @@ document.addEventListener('DOMContentLoaded', () => {
                   <i data-lucide="copy"></i> Copiar Enlace
                 </button>
                 <button type="button" class="btn-hbr-wa" onclick="shareCollectionWhatsApp('BREVE HISTORIA')">
+                  <i class="fa-brands fa-whatsapp"></i> Compartir
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      refreshIcons();
+    } else if (state.currentFilter === 'PARA DUMMIES') {
+      const count = BOOKS.filter(b => b.category === 'PARA DUMMIES').length;
+      const shareUrl = getCollectionShareUrl('PARA DUMMIES');
+      container.innerHTML = `
+        <div class="collection-highlight-banner">
+          <div class="harvard-collection-card" style="border-color: rgba(234, 179, 8, 0.35);">
+            <div class="hbr-banner-header">
+              <div class="hbr-banner-badge-group">
+                <span class="hbr-banner-badge" style="background: rgba(234, 179, 8, 0.22); color: #FACC15; border: 1px solid rgba(234, 179, 8, 0.4);">
+                  <i data-lucide="lightbulb"></i> Colección Para Dummies
+                </span>
+                <span class="hbr-banner-count" style="color: #FACC15;">
+                  <i data-lucide="layers"></i> ${count} Guías Prácticas
+                </span>
+              </div>
+              <a href="${shareUrl}" class="hbr-direct-link-badge" onclick="event.preventDefault(); copyCollectionLink('PARA DUMMIES');" title="Copiar enlace directo de la colección">
+                <i data-lucide="link"></i> bibliotyan/?coleccion=dummies
+              </a>
+            </div>
+
+            <h3 class="hbr-banner-title">Colección Para Dummies &mdash; Guías Claras, Prácticas y Accesibles</h3>
+            <p class="hbr-banner-desc">
+              La célebre colección editorial creada para explicar cualquier tema de manera clara, amena y directa: finanzas, inversiones, idiomas, música, tecnología, ciencias y habilidades prácticas en PDF libres.
+            </p>
+
+            <div class="hbr-share-box">
+              <div class="hbr-link-wrapper">
+                <i data-lucide="link" class="hbr-link-icon"></i>
+                <input type="text" class="hbr-link-input" value="${shareUrl}" readonly onclick="this.select()">
+              </div>
+              <div class="hbr-share-actions">
+                <button type="button" class="btn-hbr-copy" onclick="copyCollectionLink('PARA DUMMIES')">
+                  <i data-lucide="copy"></i> Copiar Enlace
+                </button>
+                <button type="button" class="btn-hbr-wa" onclick="shareCollectionWhatsApp('PARA DUMMIES')">
                   <i class="fa-brands fa-whatsapp"></i> Compartir
                 </button>
               </div>
@@ -938,6 +1013,15 @@ document.addEventListener('DOMContentLoaded', () => {
           e.preventDefault();
           closePreviewModal();
           selectCategory('BREVE HISTORIA', true, true);
+        };
+      } else if (book.category === 'PARA DUMMIES') {
+        const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 36;
+        colLinkEl.style.display = 'inline-flex';
+        colLinkEl.innerHTML = `<i class="fa-solid fa-lightbulb"></i> Colección Para Dummies (${dCount} Libros)`;
+        colLinkEl.onclick = (e) => {
+          e.preventDefault();
+          closePreviewModal();
+          selectCategory('PARA DUMMIES', true, true);
         };
       } else {
         colLinkEl.style.display = 'none';
