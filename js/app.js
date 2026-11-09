@@ -1,4 +1,4 @@
-// ========================================================
+﻿// ========================================================
 //  BIBLIOTYAN — The Personal Knowledge Archive
 //  Motor de Aplicación & Experiencia Editorial Luxury
 //  Paleta: #09070D · #171020 · #21172C · #B66AFF
@@ -662,146 +662,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // BANNER DE COLECCIÓN COMPARTIDA EN CATÁLOGO
+  // BANNER DE COLECCION EN CATALOGO (ELIMINADO A PETICION)
   // ========================================================
   function renderCollectionBanner() {
     const container = document.getElementById('collectionBannerContainer');
-    if (!container) return;
-
-    if (state.currentFilter === 'HARVARD LIBROS') {
-      const count = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;
-      const shareUrl = getCollectionShareUrl('HARVARD LIBROS');
-      container.innerHTML = `
-        <div class="collection-highlight-banner">
-          <div class="harvard-collection-card">
-            <div class="hbr-banner-header">
-              <div class="hbr-banner-badge-group">
-                <span class="hbr-banner-badge">
-                  <i data-lucide="building-2"></i> Colección Oficial HBR
-                </span>
-                <span class="hbr-banner-count">
-                  <i data-lucide="layers"></i> ${count} Volúmenes Completos
-                </span>
-              </div>
-              <a href="${shareUrl}" class="hbr-direct-link-badge" onclick="event.preventDefault(); copyCollectionLink('HARVARD LIBROS');" title="Copiar enlace directo de la colección">
-                <i data-lucide="link"></i> bibliotyan/?coleccion=harvard-libros
-              </a>
-            </div>
-
-            <h3 class="hbr-banner-title">Harvard Business Review — Serie Inteligencia Emocional</h3>
-            <p class="hbr-banner-desc">
-              Colección editorial completa de guías maestras de Harvard Business Review Press: autoconciencia, gestión del agotamiento, rutinas diarias efectivas, comunicación y liderazgo consciente. Ediciones digitales en PDF listas para visualización y descarga libre.
-            </p>
-
-            <div class="hbr-share-box">
-              <div class="hbr-link-wrapper">
-                <i data-lucide="link" class="hbr-link-icon"></i>
-                <input type="text" class="hbr-link-input" value="${shareUrl}" readonly onclick="this.select()">
-              </div>
-              <div class="hbr-share-actions">
-                <button type="button" class="btn-hbr-copy" onclick="copyCollectionLink('HARVARD LIBROS')">
-                  <i data-lucide="copy"></i> Copiar Enlace
-                </button>
-                <button type="button" class="btn-hbr-wa" onclick="shareCollectionWhatsApp('HARVARD LIBROS')">
-                  <i class="fa-brands fa-whatsapp"></i> Compartir
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      `;
-      refreshIcons();
-    } else if (state.currentFilter === 'BREVE HISTORIA') {
-      const count = BOOKS.filter(b => b.category === 'BREVE HISTORIA').length;
-      const shareUrl = getCollectionShareUrl('BREVE HISTORIA');
-      container.innerHTML = `
-        <div class="collection-highlight-banner">
-          <div class="harvard-collection-card">
-            <div class="hbr-banner-header">
-              <div class="hbr-banner-badge-group">
-                <span class="hbr-banner-badge" style="background: rgba(182, 106, 255, 0.22); color: #B66AFF;">
-                  <i data-lucide="landmark"></i> Colección Breve Historia
-                </span>
-                <span class="hbr-banner-count">
-                  <i data-lucide="layers"></i> ${count} Títulos Nowtilus
-                </span>
-              </div>
-              <a href="${shareUrl}" class="hbr-direct-link-badge" onclick="event.preventDefault(); copyCollectionLink('BREVE HISTORIA');" title="Copiar enlace directo de la colección">
-                <i data-lucide="link"></i> bibliotyan/?coleccion=breve-historia
-              </a>
-            </div>
-
-            <h3 class="hbr-banner-title">Colección Breve Historia — Ediciones Nowtilus</h3>
-            <p class="hbr-banner-desc">
-              Archivo enciclopédico de historia universal: civilizaciones clásicas, conflictos bélicos, biografías de emperadores, filosofía, religión y mitología. Libros completos en PDF optimizados para lectura libre.
-            </p>
-
-            <div class="hbr-share-box">
-              <div class="hbr-link-wrapper">
-                <i data-lucide="link" class="hbr-link-icon"></i>
-                <input type="text" class="hbr-link-input" value="${shareUrl}" readonly onclick="this.select()">
-              </div>
-              <div class="hbr-share-actions">
-                <button type="button" class="btn-hbr-copy" onclick="copyCollectionLink('BREVE HISTORIA')">
-                  <i data-lucide="copy"></i> Copiar Enlace
-                </button>
-                <button type="button" class="btn-hbr-wa" onclick="shareCollectionWhatsApp('BREVE HISTORIA')">
-                  <i class="fa-brands fa-whatsapp"></i> Compartir
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      `;
-      refreshIcons();
-    } else if (state.currentFilter === 'PARA DUMMIES') {
-      const count = BOOKS.filter(b => b.category === 'PARA DUMMIES').length;
-      const shareUrl = getCollectionShareUrl('PARA DUMMIES');
-      container.innerHTML = `
-        <div class="collection-highlight-banner">
-          <div class="harvard-collection-card" style="border-color: rgba(234, 179, 8, 0.35);">
-            <div class="hbr-banner-header">
-              <div class="hbr-banner-badge-group">
-                <span class="hbr-banner-badge" style="background: rgba(234, 179, 8, 0.22); color: #FACC15; border: 1px solid rgba(234, 179, 8, 0.4);">
-                  <i data-lucide="lightbulb"></i> Colección Para Dummies
-                </span>
-                <span class="hbr-banner-count" style="color: #FACC15;">
-                  <i data-lucide="layers"></i> ${count} Guías Prácticas
-                </span>
-              </div>
-              <a href="${shareUrl}" class="hbr-direct-link-badge" onclick="event.preventDefault(); copyCollectionLink('PARA DUMMIES');" title="Copiar enlace directo de la colección">
-                <i data-lucide="link"></i> bibliotyan/?coleccion=dummies
-              </a>
-            </div>
-
-            <h3 class="hbr-banner-title">Colección Para Dummies &mdash; Guías Claras, Prácticas y Accesibles</h3>
-            <p class="hbr-banner-desc">
-              La célebre colección editorial creada para explicar cualquier tema de manera clara, amena y directa: finanzas, inversiones, idiomas, música, tecnología, ciencias y habilidades prácticas en PDF libres.
-            </p>
-
-            <div class="hbr-share-box">
-              <div class="hbr-link-wrapper">
-                <i data-lucide="link" class="hbr-link-icon"></i>
-                <input type="text" class="hbr-link-input" value="${shareUrl}" readonly onclick="this.select()">
-              </div>
-              <div class="hbr-share-actions">
-                <button type="button" class="btn-hbr-copy" onclick="copyCollectionLink('PARA DUMMIES')">
-                  <i data-lucide="copy"></i> Copiar Enlace
-                </button>
-                <button type="button" class="btn-hbr-wa" onclick="shareCollectionWhatsApp('PARA DUMMIES')">
-                  <i class="fa-brands fa-whatsapp"></i> Compartir
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      `;
-      refreshIcons();
-    } else {
-      container.innerHTML = '';
-    }
+    if (container) container.innerHTML = '';
   }
-
   // ========================================================
   // RENDERIZADO DEL CATÁLOGO (GRID 2 COLUMNAS EN MÓVIL)
   // ========================================================
