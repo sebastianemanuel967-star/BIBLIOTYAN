@@ -466,96 +466,41 @@ document.addEventListener('DOMContentLoaded', () => {
       aiTargetEl.textContent = analysis.targetAudience || 'Lectores que valoran el desarrollo intelectual.';
     }
 
-    // ── Lector / Ficha de Acceso al Documento ──
-    const pdfFrame = document.getElementById('previewPdfFrame');
-    const epubPlaceholder = document.getElementById('epubPreviewPlaceholder');
-    const btnExpand = document.getElementById('btnExpandReader');
-
-    const isMobile = window.innerWidth <= 768;
-    const isExternalUrl = book.pdf && book.pdf.startsWith('http');
-
-    if (book.pdf) {
-      if (isMobile || isExternalUrl) {
-        if (pdfFrame) {
-          pdfFrame.style.display = 'none';
-          pdfFrame.src = '';
-        }
-        if (epubPlaceholder) {
-          epubPlaceholder.style.display = 'block';
-          epubPlaceholder.innerHTML = `
-            <div class="reading-access-card">
-              <div class="reading-access-badge">
-                <i class="fa-solid fa-file-pdf"></i>
-                <span>Edición Digital en Alta Calidad</span>
-              </div>
-              <p class="reading-access-desc">
-                Ejemplar con maquetación completa y texto optimizado para visualización en pantalla, lectores electrónicos y dispositivos móviles.
-              </p>
-              <div class="reading-access-actions">
-                <button class="btn-read-online" onclick="openFullscreenReader()">
-                  <i class="fa-solid fa-book-open"></i> Visualizar Ejemplar
-                </button>
-              </div>
-            </div>
-          `;
-        }
-      } else {
-        if (pdfFrame) {
-          pdfFrame.style.display = 'block';
-          pdfFrame.src = book.pdf;
-        }
-        if (epubPlaceholder) {
-          epubPlaceholder.style.display = 'none';
-        }
-      }
-      if (btnExpand) {
-        btnExpand.style.display = 'inline-flex';
-      }
-    } else {
-      if (pdfFrame) {
-        pdfFrame.style.display = 'none';
-        pdfFrame.src = '';
-      }
-      if (btnExpand) {
-        btnExpand.style.display = 'none';
-      }
-      if (epubPlaceholder) {
-        epubPlaceholder.style.display = 'block';
-        epubPlaceholder.innerHTML = `
-          <div class="pdf-loading" style="padding: 2.4rem 1.2rem; text-align: center;">
-            <i class="fa-solid fa-book-open-reader" style="font-size: 2.8rem; color: #10b981; margin-bottom: 0.8rem; display: block;"></i>
-            <strong style="color: var(--text-primary); font-size: 1.05rem; display: block; margin-bottom: 0.3rem;">Libro Digital en Formato EPUB</strong>
-            <span style="color: var(--text-secondary); font-size: 0.85rem; max-width: 320px; line-height: 1.5; display: inline-block;">Optimizado para lectura en lectores de tinta electrónica (Kindle, Kobo), Apple Books, tabletas y teléfonos móviles.</span>
-          </div>
-        `;
-      }
-    }
-
-    // Botones de descarga según formato
+    // == Acciones Directas (Sin rodeos ni pantallas extensas) ==
     const dlContainer = document.getElementById('previewDownloadContainer');
     if (dlContainer) {
       if (book.format === 'dual' || (book.pdf && book.epub)) {
         dlContainer.innerHTML = `
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 1.2rem;">
-            <button class="btn-download-action" style="margin-top: 0;" onclick="openSocialModal('pdf')">
+          <div class="modal-direct-actions">
+            <button class="btn-direct-read" onclick="openFullscreenReader()">
+              <i class="fa-solid fa-book-open"></i> Leer en Pantalla
+            </button>
+            <button class="btn-direct-download" onclick="openSocialModal('pdf')">
               <i class="fa-solid fa-file-pdf"></i> Descargar PDF
             </button>
-            <button class="btn-download-action" style="margin-top: 0; background: linear-gradient(135deg, #059669 0%, #10b981 100%); border-color: rgba(16, 185, 129, 0.4);" onclick="openSocialModal('epub')">
+            <button class="btn-direct-download btn-direct-epub" onclick="openSocialModal('epub')">
               <i class="fa-solid fa-book-open-reader"></i> Descargar EPUB
             </button>
           </div>
         `;
       } else if (book.format === 'epub' || (!book.pdf && book.epub)) {
         dlContainer.innerHTML = `
-          <button class="btn-download-action" style="margin-top: 1.2rem; background: linear-gradient(135deg, #059669 0%, #10b981 100%); border-color: rgba(16, 185, 129, 0.4);" onclick="openSocialModal('epub')">
-            <i class="fa-solid fa-book-open-reader"></i> Descargar Ejemplar Completo (EPUB)
-          </button>
+          <div class="modal-direct-actions">
+            <button class="btn-direct-download btn-direct-epub" onclick="openSocialModal('epub')">
+              <i class="fa-solid fa-book-open-reader"></i> Descargar Ejemplar Completo (EPUB)
+            </button>
+          </div>
         `;
       } else {
         dlContainer.innerHTML = `
-          <button class="btn-download-action" style="margin-top: 1.2rem;" onclick="openSocialModal('pdf')">
-            <i class="fa-solid fa-file-pdf"></i> Descargar Ejemplar Completo (PDF)
-          </button>
+          <div class="modal-direct-actions">
+            <button class="btn-direct-read" onclick="openFullscreenReader()">
+              <i class="fa-solid fa-book-open"></i> Leer en Pantalla
+            </button>
+            <button class="btn-direct-download" onclick="openSocialModal('pdf')">
+              <i class="fa-solid fa-download"></i> Descargar Ejemplar Completo (PDF)
+            </button>
+          </div>
         `;
       }
     }
@@ -567,8 +512,6 @@ document.addEventListener('DOMContentLoaded', () => {
   function closePreviewModal() {
     const modal = document.getElementById('previewModal');
     if (modal) modal.classList.remove('active');
-    const pdfFrame = document.getElementById('previewPdfFrame');
-    if (pdfFrame) pdfFrame.src = '';
     document.body.style.overflow = '';
     try {
       const cleanUrl = window.location.origin + window.location.pathname;

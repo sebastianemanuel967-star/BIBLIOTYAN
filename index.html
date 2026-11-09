@@ -288,56 +288,16 @@
 
           <p class="preview-description" id="previewDescription"></p>
 
-          <!-- Pasos para Leer y Descargar este Ejemplar -->
-          <div class="download-steps-card">
-            <div class="download-steps-title">
-              <i class="fa-solid fa-list-check"></i> Pasos para Leer o Descargar este Ejemplar
-            </div>
-            <div class="download-steps-grid">
-              <div class="step-item">
-                <span class="step-number">1</span>
-                <div class="step-text">
-                  <strong>Elige tu Modo</strong>
-                  <span>Visualiza online o descarga el archivo completo a tu equipo.</span>
-                </div>
-              </div>
-              <div class="step-item">
-                <span class="step-number">2</span>
-                <div class="step-text">
-                  <strong>Acceso Directo</strong>
-                  <span>Pulsa <em>Visualizar Ejemplar</em> o <em>Descargar Ejemplar</em> abajo.</span>
-                </div>
-              </div>
-              <div class="step-item">
-                <span class="step-number">3</span>
-                <div class="step-text">
-                  <strong>Lectura Libre</strong>
-                  <span>Sin registros ni costo. Enlace oficial del repositorio BIBLIOTYAN.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Visor PDF Embebido en la Misma Página -->
-          <div class="pdf-viewer-container" id="pdfViewerContainer">
-            <div class="pdf-viewer-header">
-              <h4><i class="fa-solid fa-book-open"></i> Lector Integrado en Página</h4>
-              <button class="btn-expand-reader" id="btnExpandReader" onclick="openFullscreenReader()" title="Leer en pantalla completa sin salir de la página">
-                <i class="fa-solid fa-expand"></i> Pantalla Completa
+                    <!-- Acciones Directas: Leer Online & Descargar (Sin rodeos) -->
+          <div id="previewDownloadContainer">
+            <div class="modal-direct-actions">
+              <button class="btn-direct-read" onclick="openFullscreenReader()">
+                <i class="fa-solid fa-book-open"></i> Leer en Pantalla
+              </button>
+              <button class="btn-direct-download" onclick="openSocialModal('pdf')">
+                <i class="fa-solid fa-download"></i> Descargar Ejemplar Completo (PDF)
               </button>
             </div>
-            <div class="pdf-viewer" id="pdfViewerFrameContainer">
-              <iframe id="previewPdfFrame" class="preview-pdf-frame" src="" frameborder="0" title="Vista Previa en Página"></iframe>
-              <div class="epub-preview-placeholder" id="epubPreviewPlaceholder" style="display:none;"></div>
-            </div>
-          </div>
-
-          <!-- Botones de Acción (Leer / Descargar PDF / EPUB) -->
-          <div id="previewDownloadContainer">
-            <button class="btn-download-action" onclick="openSocialModal('pdf')">
-              <i class="fa-solid fa-download"></i>
-              Descargar Ejemplar Completo (PDF)
-            </button>
           </div>
 
           <!-- Barra de Compartir Enlace Directo -->
