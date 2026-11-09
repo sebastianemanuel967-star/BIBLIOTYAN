@@ -266,26 +266,25 @@
           </a>
         </div>
 
-        <div class="special-collections-grid">
+        <div class="special-collections-grid" id="specialCollectionsGrid">
           <!-- TARJETA 1: COLECCION PARA DUMMIES -->
-          <div class="collection-card-item card-dummies" onclick="selectCategory('PARA DUMMIES', true, true);">
+          <div class="collection-card-item card-dummies" id="cardColDummies" onclick="selectCategory('PARA DUMMIES', true, true);">
             <div class="collection-card-top">
               <span class="collection-top-badge badge-dummies">
                 <i data-lucide="lightbulb"></i> Serie Pr&aacute;ctica
               </span>
-              <span class="collection-count-pill" id="colCountDummies">70 Libros en PDF</span>
+              <span class="collection-count-pill" id="colCountDummies">70 Libros</span>
             </div>
             <div class="collection-card-content">
               <h3 class="collection-item-title">Colecci&oacute;n Para Dummies</h3>
               <p class="collection-item-desc">
-                La m&iacute;tica serie mundial creada para aprender cualquier disciplina sin rodeos: finanzas personales, inversi&oacute;n, idiomas, tecnolog&iacute;a, ciencias, filosof&iacute;a y habilidades pr&aacute;cticas.
+                Gu&iacute;as paso a paso para dominar finanzas, inversi&oacute;n, idiomas, ciencias y tecnolog&iacute;a sin complicaciones.
               </p>
               <div class="collection-tags-row">
                 <span class="collection-tag-chip">Finanzas</span>
                 <span class="collection-tag-chip">Inversi&oacute;n</span>
                 <span class="collection-tag-chip">Idiomas</span>
                 <span class="collection-tag-chip">Tecnolog&iacute;a</span>
-                <span class="collection-tag-chip">Salud</span>
               </div>
             </div>
             <div class="collection-card-actions">
@@ -295,28 +294,25 @@
               <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('PARA DUMMIES');" title="Copiar enlace directo">
                 <i data-lucide="link"></i>
               </button>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); shareCollectionWhatsApp('PARA DUMMIES');" title="Compartir en WhatsApp">
-                <i class="fa-brands fa-whatsapp"></i>
-              </button>
             </div>
           </div>
 
           <!-- TARJETA 2: COLECCION BREVE HISTORIA -->
-          <div class="collection-card-item card-historia" onclick="selectCategory('BREVE HISTORIA', true, true);">
+          <div class="collection-card-item card-historia" id="cardColHistoria" onclick="selectCategory('BREVE HISTORIA', true, true);">
             <div class="collection-card-top">
               <span class="collection-top-badge badge-historia">
                 <i data-lucide="landmark"></i> Ediciones Nowtilus
               </span>
-              <span class="collection-count-pill" id="colCountHistoria">142 Libros en PDF</span>
+              <span class="collection-count-pill" id="colCountHistoria">142 Libros</span>
             </div>
             <div class="collection-card-content">
               <h3 class="collection-item-title">Colecci&oacute;n Breve Historia</h3>
               <p class="collection-item-desc">
-                Monograf&iacute;as de investigaci&oacute;n hist&oacute;rica rigurosas y apasionantes: civilizaciones cl&aacute;sicas, imperios milenarios, mitolog&iacute;a, las grandes guerras y personajes trascendentales.
+                Monograf&iacute;as rigurosas y amenas sobre civilizaciones cl&aacute;sicas, imperios, mitolog&iacute;a y grandes guerras.
               </p>
               <div class="collection-tags-row">
                 <span class="collection-tag-chip">Roma y Grecia</span>
-                <span class="collection-tag-chip">Guerras Mundiales</span>
+                <span class="collection-tag-chip">Guerras</span>
                 <span class="collection-tag-chip">Mitolog&iacute;a</span>
                 <span class="collection-tag-chip">Imperios</span>
               </div>
@@ -328,30 +324,26 @@
               <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('BREVE HISTORIA');" title="Copiar enlace directo">
                 <i data-lucide="link"></i>
               </button>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); shareCollectionWhatsApp('BREVE HISTORIA');" title="Compartir en WhatsApp">
-                <i class="fa-brands fa-whatsapp"></i>
-              </button>
             </div>
           </div>
 
           <!-- TARJETA 3: COLECCION HARVARD LIBROS -->
-          <div class="collection-card-item card-harvard" onclick="selectCategory('HARVARD LIBROS', true, true);">
+          <div class="collection-card-item card-harvard" id="cardColHarvard" onclick="selectCategory('HARVARD LIBROS', true, true);">
             <div class="collection-card-top">
               <span class="collection-top-badge badge-harvard">
-                <i data-lucide="building-2"></i> Harvard Business Review
+                <i data-lucide="building-2"></i> Harvard Review
               </span>
-              <span class="collection-count-pill" id="colCountHarvard">12 Libros en PDF</span>
+              <span class="collection-count-pill" id="colCountHarvard">12 Libros</span>
             </div>
             <div class="collection-card-content">
               <h3 class="collection-item-title">Colecci&oacute;n Harvard Libros</h3>
               <p class="collection-item-desc">
-                Serie oficial Inteligencia Emocional de Harvard Business Review: empat&iacute;a, resiliencia ejecutiva, liderazgo consciente, mindfulness estrat&eacute;gico y toma de decisiones.
+                Serie oficial HBR de Inteligencia Emocional: empat&iacute;a, resiliencia ejecutiva, mindfulness y liderazgo consciente.
               </p>
               <div class="collection-tags-row">
                 <span class="collection-tag-chip">Inteligencia Emocional</span>
                 <span class="collection-tag-chip">Liderazgo</span>
-                <span class="collection-tag-chip">Empat&iacute;a</span>
-                <span class="collection-tag-chip">Mindfulness</span>
+                <span class="collection-tag-chip">Resiliencia</span>
               </div>
             </div>
             <div class="collection-card-actions">
@@ -361,11 +353,15 @@
               <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('HARVARD LIBROS');" title="Copiar enlace directo">
                 <i data-lucide="link"></i>
               </button>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); shareCollectionWhatsApp('HARVARD LIBROS');" title="Compartir en WhatsApp">
-                <i class="fa-brands fa-whatsapp"></i>
-              </button>
             </div>
           </div>
+        </div>
+
+        <!-- Paginador de puntos para swipe movil -->
+        <div class="collections-carousel-dots" id="collectionsDots">
+          <button type="button" class="c-dot active" onclick="scrollCollectionCard(0)" aria-label="Coleccion Para Dummies"></button>
+          <button type="button" class="c-dot" onclick="scrollCollectionCard(1)" aria-label="Coleccion Breve Historia"></button>
+          <button type="button" class="c-dot" onclick="scrollCollectionCard(2)" aria-label="Coleccion Harvard Libros"></button>
         </div>
       </div>
     </section>

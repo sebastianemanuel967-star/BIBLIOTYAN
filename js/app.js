@@ -511,6 +511,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupMobileBottomNav();
     updateStats();
     updateCollectionShowcaseBadges();
+    setupCollectionsCarousel();
     handleInitialUrl();
     refreshIcons();
   }
@@ -587,10 +588,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const descEl = document.getElementById('dailyRecDesc');
 
     if (titleEl && state.dailyBook) {
-      titleEl.textContent = `¿Qué deberías conocer hoy? — «${state.dailyBook.title}»`;
+      titleEl.textContent = '¿Qué deberías conocer hoy?';
     }
     if (descEl && state.dailyBook) {
-      descEl.textContent = `Una recomendación de ${state.dailyBook.author} para ampliar tu perspectiva e intelecto.`;
+      descEl.textContent = `«${state.dailyBook.title}» — ${state.dailyBook.author}`;
     }
   }
 
@@ -1319,6 +1320,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderBooks();
     updateStats();
     updateCollectionShowcaseBadges();
+    setupCollectionsCarousel();
 
     if (filePath) {
       const link = document.createElement('a');
@@ -1718,6 +1720,28 @@ document.addEventListener('DOMContentLoaded', () => {
     if (heroD) heroD.textContent = `${dCount} Libros`;
     if (heroH) heroH.textContent = `${hCount} Libros`;
     if (heroHbr) heroHbr.textContent = `${hbrCount} Libros`;
+  }
+
+  function setupCollectionsCarousel() {
+    const grid = document.getElementById('specialCollectionsGrid');
+    const dots = document.querySelectorAll('.collections-carousel-dots .c-dot');
+    if (!grid || dots.length === 0) return;
+
+    grid.addEventListener('scroll', () => {
+      const scrollLeft = grid.scrollLeft;
+      const cardWidth = grid.querySelector('.collection-card-item')?.offsetWidth || 280;
+      const activeIdx = Math.min(dots.length - 1, Math.max(0, Math.round(scrollLeft / (cardWidth + 10))));
+      dots.forEach((dot, idx) => {
+        dot.classList.toggle('active', idx === activeIdx);
+      });
+    }, { passive: true });
+
+    window.scrollCollectionCard = function(idx) {
+      const cards = grid.querySelectorAll('.collection-card-item');
+      if (cards[idx]) {
+        cards[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+    };
   }
 
   // Cierre de modales

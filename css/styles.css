@@ -727,27 +727,25 @@ body {
   border: 1px solid var(--purple-border);
   border-radius: var(--radius-xl);
   overflow: hidden;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   box-shadow: var(--shadow-card);
   position: relative;
-}
-
-@media (min-width: 640px) {
-  .daily-rec-card {
-    grid-template-columns: 1.25fr 1fr;
-    align-items: center;
-  }
+  min-height: 150px;
 }
 
 .daily-rec-text-side {
-  padding: 1.8rem 1.4rem;
+  padding: 1.6rem 1.4rem;
   z-index: 2;
+  flex: 1 1 60%;
+  max-width: 62%;
 }
 
 @media (min-width: 768px) {
   .daily-rec-text-side {
-    padding: 2.4rem 2.2rem;
+    padding: 2.2rem 2rem;
   }
 }
 
@@ -758,29 +756,29 @@ body {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.45rem;
 }
 
 .daily-rec-title {
   font-family: var(--font-serif);
-  font-size: clamp(1.4rem, 3.8vw, 1.95rem);
+  font-size: clamp(1.25rem, 3.2vw, 1.85rem);
   font-weight: 600;
   line-height: 1.2;
   color: var(--text-main);
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.5rem;
 }
 
 .daily-rec-desc {
-  font-size: 0.9rem;
-  line-height: 1.55;
+  font-size: 0.88rem;
+  line-height: 1.5;
   color: var(--text-secondary);
-  margin-bottom: 1.3rem;
-  max-width: 380px;
+  margin-bottom: 1.1rem;
+  max-width: 420px;
 }
 
 .daily-rec-btn-circle {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   background: var(--purple-primary);
   border: none;
@@ -801,28 +799,63 @@ body {
 
 .daily-rec-img-side {
   position: relative;
-  width: 100%;
+  flex: 0 0 40%;
   height: 100%;
-  min-height: 180px;
+  min-height: 150px;
+  max-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
 .daily-rec-img-side img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
-  mask-image: linear-gradient(to right, transparent 0%, black 25%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 25%);
+  transform: scale(1.08);
 }
 
 @media (max-width: 639px) {
+  .daily-rec-card {
+    min-height: 135px;
+    border-radius: var(--radius-lg);
+  }
+  .daily-rec-text-side {
+    padding: 1.1rem 0.65rem 1.1rem 1.1rem;
+    flex: 1 1 65%;
+    max-width: 66%;
+  }
+  .daily-rec-kicker {
+    font-size: 0.62rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: 1.2px;
+  }
+  .daily-rec-title {
+    font-size: 1.15rem;
+    margin-bottom: 0.35rem;
+  }
+  .daily-rec-desc {
+    font-size: 0.78rem;
+    line-height: 1.35;
+    margin-bottom: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .daily-rec-btn-circle {
+    width: 36px;
+    height: 36px;
+  }
   .daily-rec-img-side {
-    max-height: 200px;
+    flex: 0 0 35%;
+    min-height: 135px;
+    max-height: 150px;
   }
   .daily-rec-img-side img {
-    mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
+    transform: scale(1.18) translateX(6%);
   }
 }
 
@@ -2361,6 +2394,37 @@ body {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-featured-pill-row {
+    margin-top: 0.75rem;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 0.45rem;
+    padding: 0.15rem 0 0.4rem;
+  }
+  .hero-featured-pill-row::-webkit-scrollbar {
+    display: none;
+  }
+  .hero-collections-label {
+    flex-shrink: 0;
+    font-size: 0.66rem;
+    letter-spacing: 0.05em;
+    margin-right: 0.15rem;
+  }
+  .hero-featured-pill {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.76rem;
+    gap: 0.35rem;
+  }
+  .hero-featured-pill .pill-badge {
+    font-size: 0.68rem;
+    padding: 0.14rem 0.42rem;
+  }
 }
 
 .hero-featured-pill:hover {
@@ -2438,7 +2502,7 @@ body {
    APARTADO DE COLECCIONES ESPECIALES (DUMMIES, BREVE HISTORIA, HARVARD)
    ========================================================================== */
 .special-collections-section {
-  padding: 3.5rem 0 2rem;
+  padding: 2.8rem 0 1.5rem;
   position: relative;
 }
 
@@ -2446,21 +2510,14 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
-  margin-top: 1.5rem;
-}
-
-@media (max-width: 900px) {
-  .special-collections-grid {
-    grid-template-columns: 1fr;
-    gap: 1.15rem;
-  }
+  margin-top: 1.25rem;
 }
 
 .collection-card-item {
   background: linear-gradient(145deg, rgba(23, 16, 32, 0.95) 0%, rgba(33, 23, 44, 0.85) 100%);
   border: 1px solid var(--purple-border);
   border-radius: var(--radius-lg);
-  padding: 1.6rem 1.45rem;
+  padding: 1.4rem 1.3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -2517,21 +2574,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
 }
 
 .collection-top-badge {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 0.28rem 0.65rem;
+  padding: 0.24rem 0.55rem;
   border-radius: var(--radius-pill);
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.35rem;
 }
 
 .collection-top-badge.badge-dummies {
@@ -2553,9 +2610,9 @@ body {
 }
 
 .collection-count-pill {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 600;
-  padding: 0.22rem 0.55rem;
+  padding: 0.18rem 0.5rem;
   border-radius: var(--radius-pill);
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -2563,34 +2620,34 @@ body {
 }
 
 .collection-card-content {
-  margin-bottom: 1.35rem;
+  margin-bottom: 1rem;
 }
 
 .collection-item-title {
   font-family: var(--font-serif);
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-main);
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.45rem;
   letter-spacing: -0.01em;
 }
 
 .collection-item-desc {
-  font-size: 0.88rem;
-  line-height: 1.55;
+  font-size: 0.84rem;
+  line-height: 1.48;
   color: var(--text-secondary);
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
 }
 
 .collection-tags-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.35rem;
 }
 
 .collection-tag-chip {
-  font-size: 0.7rem;
-  padding: 0.18rem 0.5rem;
+  font-size: 0.68rem;
+  padding: 0.14rem 0.45rem;
   border-radius: var(--radius-xs);
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.07);
@@ -2600,9 +2657,9 @@ body {
 .collection-card-actions {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.5rem;
   margin-top: auto;
-  padding-top: 1.1rem;
+  padding-top: 0.85rem;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -2611,10 +2668,10 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  padding: 0.65rem 1rem;
+  gap: 0.45rem;
+  padding: 0.6rem 0.95rem;
   border-radius: var(--radius-sm);
-  font-size: 0.84rem;
+  font-size: 0.82rem;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -2662,8 +2719,8 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--purple-border);
@@ -2677,6 +2734,97 @@ body {
   color: var(--purple-light);
   border-color: var(--purple-primary);
   transform: translateY(-2px);
+}
+
+.collections-carousel-dots {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.85rem;
+}
+
+.c-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.c-dot.active {
+  width: 22px;
+  border-radius: var(--radius-pill);
+  background: var(--purple-primary);
+  box-shadow: 0 0 10px rgba(182, 106, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .special-collections-section {
+    padding: 1.5rem 0 0.85rem;
+  }
+  .special-collections-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.75rem;
+    padding: 0.2rem 0.25rem 0.5rem;
+    scrollbar-width: none;
+    margin-top: 0.85rem;
+  }
+  .special-collections-grid::-webkit-scrollbar {
+    display: none;
+  }
+  .collection-card-item {
+    flex: 0 0 84vw;
+    max-width: 315px;
+    scroll-snap-align: center;
+    padding: 1.15rem 1rem;
+    border-radius: var(--radius-md);
+  }
+  .collection-item-title {
+    font-size: 1.15rem;
+    margin-bottom: 0.35rem;
+  }
+  .collection-item-desc {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-bottom: 0.65rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .collection-tags-row {
+    gap: 0.28rem;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .collection-tag-chip {
+    font-size: 0.66rem;
+    padding: 0.12rem 0.38rem;
+    white-space: nowrap;
+  }
+  .collection-card-actions {
+    padding-top: 0.75rem;
+    margin-top: 0.4rem;
+    gap: 0.45rem;
+  }
+  .btn-collection-explore {
+    padding: 0.52rem 0.85rem;
+    font-size: 0.78rem;
+  }
+  .btn-collection-share {
+    width: 32px;
+    height: 32px;
+  }
+  .collections-carousel-dots {
+    display: flex;
+  }
 }
 
 .collection-highlight-banner {
