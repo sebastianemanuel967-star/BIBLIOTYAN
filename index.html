@@ -186,6 +186,11 @@
             <span class="pill-count" id="heroHarvardCount">12 Libros</span>
             <span class="pill-action"><i data-lucide="arrow-right"></i></span>
           </a>
+          <a href="?coleccion=emprendedores" class="hero-featured-pill pill-emprendedores" id="heroEmprendedoresLink" onclick="event.preventDefault(); selectCategory('LIBROS EMPRENDEDORES', true, true);" title="Colecci&oacute;n Emprendedores">
+            <span class="pill-badge badge-emprendedores"><i data-lucide="trending-up"></i> Emprendedores</span>
+            <span class="pill-count" id="heroEmprendedoresCount">24 Libros</span>
+            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
+          </a>
         </div>
       </div>
     </section>
@@ -355,6 +360,37 @@
               </button>
             </div>
           </div>
+
+          <!-- TARJETA 4: COLECCION EMPRENDEDORES -->
+          <div class="collection-card-item card-emprendedores" id="cardColEmprendedores" onclick="selectCategory('LIBROS EMPRENDEDORES', true, true);">
+            <div class="collection-card-top">
+              <span class="collection-top-badge badge-emprendedores">
+                <i data-lucide="trending-up"></i> Negocios & Startups
+              </span>
+              <span class="collection-count-pill" id="colCountEmprendedores">24 Libros en PDF</span>
+            </div>
+            <div class="collection-card-content">
+              <h3 class="collection-item-title">Colecci&oacute;n Emprendedores</h3>
+              <p class="collection-item-desc">
+                Obras maestras de estrategia empresarial, modelos de negocio, ventas, marketing viral, finanzas y mentalidad de &eacute;xito.
+              </p>
+              <div class="collection-tags-row">
+                <span class="collection-tag-chip">Startups</span>
+                <span class="collection-tag-chip">Estrategia</span>
+                <span class="collection-tag-chip">Marketing</span>
+                <span class="collection-tag-chip">Ventas</span>
+                <span class="collection-tag-chip">Finanzas</span>
+              </div>
+            </div>
+            <div class="collection-card-actions">
+              <a href="?coleccion=emprendedores" class="btn-collection-explore btn-emprendedores" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('LIBROS EMPRENDEDORES', true, true);">
+                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
+              </a>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('LIBROS EMPRENDEDORES');" title="Copiar enlace directo">
+                <i data-lucide="link"></i>
+              </button>
+            </div>
+          </div>
         </div>
 
         <!-- Paginador de puntos para swipe movil -->
@@ -362,6 +398,7 @@
           <button type="button" class="c-dot active" onclick="scrollCollectionCard(0)" aria-label="Coleccion Para Dummies"></button>
           <button type="button" class="c-dot" onclick="scrollCollectionCard(1)" aria-label="Coleccion Breve Historia"></button>
           <button type="button" class="c-dot" onclick="scrollCollectionCard(2)" aria-label="Coleccion Harvard Libros"></button>
+          <button type="button" class="c-dot" onclick="scrollCollectionCard(3)" aria-label="Coleccion Emprendedores"></button>
         </div>
       </div>
     </section>

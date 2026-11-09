@@ -2447,6 +2447,11 @@ body {
   box-shadow: 0 6px 20px rgba(225, 29, 72, 0.22);
 }
 
+.hero-featured-pill.pill-emprendedores:hover {
+  border-color: rgba(16, 185, 129, 0.6);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.22);
+}
+
 .hero-featured-pill .pill-badge {
   font-size: 0.7rem;
   font-weight: 700;
@@ -2473,6 +2478,12 @@ body {
   background: rgba(225, 29, 72, 0.18);
   color: #FB7185;
   border: 1px solid rgba(225, 29, 72, 0.35);
+}
+
+.hero-featured-pill .pill-badge.badge-emprendedores {
+  background: rgba(16, 185, 129, 0.18);
+  color: #34D399;
+  border: 1px solid rgba(16, 185, 129, 0.35);
 }
 
 .hero-featured-pill .pill-title {
@@ -2551,6 +2562,10 @@ body {
   background: linear-gradient(90deg, transparent, #E11D48, transparent);
 }
 
+.collection-card-item.card-emprendedores::before {
+  background: linear-gradient(90deg, transparent, #10B981, transparent);
+}
+
 .collection-card-item:hover {
   transform: translateY(-4px);
 }
@@ -2568,6 +2583,11 @@ body {
 .collection-card-item.card-harvard:hover {
   border-color: rgba(225, 29, 72, 0.45);
   box-shadow: 0 10px 32px rgba(225, 29, 72, 0.16);
+}
+
+.collection-card-item.card-emprendedores:hover {
+  border-color: rgba(16, 185, 129, 0.45);
+  box-shadow: 0 10px 32px rgba(16, 185, 129, 0.16);
 }
 
 .collection-card-top {
@@ -2607,6 +2627,12 @@ body {
   background: rgba(225, 29, 72, 0.16);
   border: 1px solid rgba(225, 29, 72, 0.35);
   color: #FB7185;
+}
+
+.collection-top-badge.badge-emprendedores {
+  background: rgba(16, 185, 129, 0.16);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  color: #34D399;
 }
 
 .collection-count-pill {
@@ -2713,6 +2739,18 @@ body {
   background: #F43F5E;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(225, 29, 72, 0.4);
+}
+
+.btn-collection-explore.btn-emprendedores {
+  background: linear-gradient(135deg, #34D399 0%, #10B981 100%);
+  color: #09070D;
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.28);
+}
+
+.btn-collection-explore.btn-emprendedores:hover {
+  background: #6EE7B7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
 }
 
 .btn-collection-share {

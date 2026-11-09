@@ -33,6 +33,14 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Coleccion Exclusiva: EMPRENDEDORES -->
+  <url>
+    <loc>https://bibliotyan.vercel.app/?coleccion=emprendedores</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Ejes de Conocimiento -->
   <url>
     <loc>https://bibliotyan.vercel.app/?categoria=filosofia</loc>

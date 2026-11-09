@@ -192,6 +192,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (categoryName === 'PARA DUMMIES') {
       return `${base}?coleccion=dummies`;
     }
+    if (categoryName === 'LIBROS EMPRENDEDORES' || categoryName === 'EMPRENDEDORES') {
+      return `${base}?coleccion=emprendedores`;
+    }
     return `${base}?coleccion=${slugify(categoryName)}`;
   }
 
@@ -224,6 +227,17 @@ document.addEventListener('DOMContentLoaded', () => {
         `• Empatía\n` +
         `• Y 7 títulos más...\n\n` +
         `👉 *Enlace directo a la colección:*\n${url}`;
+    } else if (cat === 'LIBROS EMPRENDEDORES' || cat === 'EMPRENDEDORES') {
+      const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 24;
+      msg = `\uD83D\uDE80 *Colecci\u00f3n EMPRENDEDORES en BIBLIOTYAN*\n` +
+        `Accede y descarga gratis ${eCount} libros imprescindibles de negocios, startups, finanzas, ventas y liderazgo en PDF:\n\n` +
+        `\u2022 El M\u00e9todo Lean Startup (Eric Ries)\n` +
+        `\u2022 La Vaca P\u00farpura (Seth Godin)\n` +
+        `\u2022 Perdiendo la Virginidad (Richard Branson)\n` +
+        `\u2022 Finanzas para Emprendedores (Antonio Manzanera)\n` +
+        `\u2022 El Tao de Warren Buffett\n` +
+        `\u2022 Y decenas de t\u00edtulos m\u00e1s...\n\n` +
+        `\uD83D\uDC49 *Enlace directo a la colecci\u00f3n:*\n${url}`;
     } else if (cat === 'PARA DUMMIES') {
       const dummiesCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
       msg = `💡 *Colección PARA DUMMIES en BIBLIOTYAN*\n` +
@@ -263,6 +277,10 @@ document.addEventListener('DOMContentLoaded', () => {
         params.delete('cat');
       } else if (categoryName === 'PARA DUMMIES') {
         params.set('coleccion', 'dummies');
+        params.delete('categoria');
+        params.delete('cat');
+      } else if (categoryName === 'LIBROS EMPRENDEDORES') {
+        params.set('coleccion', 'emprendedores');
         params.delete('categoria');
         params.delete('cat');
       } else {
@@ -424,6 +442,8 @@ document.addEventListener('DOMContentLoaded', () => {
         targetCat = 'BREVE HISTORIA';
       } else if (cleanSlug === 'dummies' || cleanSlug === 'para-dummies' || cleanSlug.includes('dummies')) {
         targetCat = 'PARA DUMMIES';
+      } else if (cleanSlug === 'emprendedores' || cleanSlug === 'libros-emprendedores' || cleanSlug.includes('emprendedor')) {
+        targetCat = 'LIBROS EMPRENDEDORES';
       } else {
         targetCat = CONFIG.categories.find(c => slugify(c) === cleanSlug || slugify(c).includes(cleanSlug) || cleanSlug.includes(slugify(c)));
       }
@@ -442,6 +462,9 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (targetCat === 'PARA DUMMIES') {
         const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
         showToast('Colección Para Dummies', `Explorando las ${dCount} guías prácticas en PDF`);
+      } else if (targetCat === 'LIBROS EMPRENDEDORES') {
+        const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 24;
+        showToast('Colección Emprendedores', `Explorando los ${eCount} libros de negocios y startups en PDF`);
       } else {
         showToast('Colección Seleccionada', `Mostrando títulos de "${targetCat}"`);
       }
@@ -595,6 +618,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'HARVARD LIBROS',
       'BREVE HISTORIA',
       'PARA DUMMIES',
+      'LIBROS EMPRENDEDORES',
       'National Geographic',
       'E-Books (EPUB)',
       'Espiritualidad & sabiduría',
@@ -1547,6 +1571,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES').length;
     const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA').length;
     const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;
+
+    const elEmprendedores = document.getElementById('colCountEmprendedores');
+    const heroE = document.getElementById('heroEmprendedoresCount');
+    const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 24;
+    if (elEmprendedores) elEmprendedores.textContent = `${eCount} Libros en PDF`;
+    if (heroE) heroE.textContent = `${eCount} Libros`;
 
     const elDummies = document.getElementById('colCountDummies');
     const elHistoria = document.getElementById('colCountHistoria');
