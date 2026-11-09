@@ -1,7 +1,7 @@
-﻿// ========================================================
-//  BIBLIOTYAN — Motor de Aplicación
-//  Gestión de Libros, Diagnóstico de Géneros y Peticiones (10h)
-//  Estética: Editorial Minimalista (Obsidian Violeta)
+// ========================================================
+//  BIBLIOTYAN — The Personal Knowledge Archive
+//  Motor de Aplicación & Experiencia Editorial Luxury
+//  Paleta: #09070D · #171020 · #21172C · #B66AFF
 // ========================================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -14,18 +14,80 @@ document.addEventListener('DOMContentLoaded', () => {
     currentPdfPage: 1,
     totalPdfPages: 0,
     pdfDoc: null,
-    requests: []
+    requests: [],
+    favorites: [],
+    selectedFormat: 'pdf',
+    dailyBook: null
   };
 
-  // Fallback visual sobrio para portadas que garantiza que nunca se repita otra portada
+  // Cargar favoritos desde almacenamiento local
+  try {
+    const savedFavs = localStorage.getItem('bibliotyan_favorites');
+    state.favorites = savedFavs ? JSON.parse(savedFavs) : [];
+  } catch (e) {
+    state.favorites = [];
+  }
+
+  // Refrescar iconos Lucide de forma segura en cualquier ciclo de render
+  function refreshIcons() {
+    if (window.lucide && typeof window.lucide.createIcons === 'function') {
+      window.lucide.createIcons();
+    }
+  }
+
+  // Fallback visual sobrio para portadas
   window.handleCoverError = function(img, title) {
     img.onerror = null;
     const initial = (title || 'B').charAt(0).toUpperCase();
-    img.src = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='420' viewBox='0 0 300 420'><rect width='100%' height='100%' fill='%23120b1e'/><rect x='10' y='10' width='280' height='400' fill='none' stroke='%239333ea' stroke-width='2' stroke-opacity='0.4'/><circle cx='150' cy='180' r='45' fill='%23180f27' stroke='%23b469fc' stroke-width='2'/><text x='150' y='192' font-family='sans-serif' font-size='32' fill='%23b469fc' font-weight='bold' text-anchor='middle'>" + initial + "</text><text x='150' y='260' font-family='sans-serif' font-size='14' fill='%23e9d5ff' text-anchor='middle'>BIBLIOTYAN</text><text x='150' y='285' font-family='sans-serif' font-size='11' fill='%23a855f7' text-anchor='middle'>Edici%C3%B3n Digital</text></svg>";
+    img.src = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='420' viewBox='0 0 300 420'><rect width='100%' height='100%' fill='%23171020'/><rect x='10' y='10' width='280' height='400' fill='none' stroke='%23B66AFF' stroke-width='2' stroke-opacity='0.4'/><circle cx='150' cy='180' r='45' fill='%2321172C' stroke='%23B66AFF' stroke-width='2'/><text x='150' y='192' font-family='sans-serif' font-size='32' fill='%23B66AFF' font-weight='bold' text-anchor='middle'>" + initial + "</text><text x='150' y='260' font-family='sans-serif' font-size='14' fill='%23F2EEF5' text-anchor='middle'>BIBLIOTYAN</text><text x='150' y='285' font-family='sans-serif' font-size='11' fill='%23B66AFF' text-anchor='middle'>Edici%C3%B3n Digital</text></svg>";
   };
 
-  // ======================================================== INICIALIZACIÓN ═══════
-    // ======================================================== SISTEMA DE ENLACES PROFUNDOS Y COMPARTIR ═══════
+  // ========================================================
+  // SISTEMA DE FAVORITOS (MI BIBLIOTECA)
+  // ========================================================
+  window.toggleFavorite = function(bookId, event) {
+    if (event) event.stopPropagation();
+    const id = Number(bookId);
+    const index = state.favorites.indexOf(id);
+    let isFav = false;
+
+    if (index > -1) {
+      state.favorites.splice(index, 1);
+      showToast('Mi biblioteca', 'Libro retirado de tus favoritos.');
+    } else {
+      state.favorites.push(id);
+      isFav = true;
+      showToast('Mi biblioteca', 'Libro guardado en tus favoritos.');
+    }
+
+    try {
+      localStorage.setItem('bibliotyan_favorites', JSON.stringify(state.favorites));
+    } catch (e) {}
+
+    updateFavoriteButtons();
+
+    // Si estamos en la pestaña Mi biblioteca, re-renderizar
+    if (state.currentFilter === 'Mi biblioteca') {
+      renderBooks();
+    }
+  };
+
+  function updateFavoriteButtons() {
+    document.querySelectorAll('.card-fav-btn, .btn-mini-fav').forEach(btn => {
+      const bId = Number(btn.getAttribute('data-id'));
+      if (state.favorites.includes(bId)) {
+        btn.classList.add('active');
+        btn.setAttribute('title', 'Quitar de favoritos');
+      } else {
+        btn.classList.remove('active');
+        btn.setAttribute('title', 'Guardar en favoritos');
+      }
+    });
+  }
+
+  // ========================================================
+  // SISTEMA DE ENLACES PROFUNDOS Y COMPARTIR
+  // ========================================================
   function slugify(text) {
     return (text || '')
       .toString()
@@ -48,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!book) return;
     const shareUrl = getBookShareUrl(book);
     const shareTitle = `${book.title} — BIBLIOTYAN`;
-    const shareText = `Lee y descarga "${book.title}" de ${book.author} en la Biblioteca Digital BIBLIOTYAN:`;
+    const shareText = `Lee y descarga "${book.title}" de ${book.author} en BIBLIOTYAN — The Personal Knowledge Archive:`;
 
     if (navigator.share && window.isSecureContext) {
       try {
@@ -70,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function copyLinkToClipboard(url, title) {
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url).then(() => {
-        showToast('¡Enlace Copiado!', `El enlace de "${title}" está en tu portapapeles listo para enviar.`);
+        showToast('¡Enlace Copiado!', `El enlace de "${title}" está en tu portapapeles.`);
       }).catch(() => {
         legacyCopy(url, title);
       });
@@ -108,45 +170,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function shareViaWhatsApp(bookOverride) {
-    const book = bookOverride || state.currentBook;
-    if (!book) return;
+  function shareViaWhatsApp() {
+    if (!state.currentBook) return;
+    const book = state.currentBook;
     const shareUrl = getBookShareUrl(book);
-    const catText = book.category ? ` [${book.category}]` : '';
-    const pagesText = book.pages ? ` · 📖 ${book.pages} págs.` : '';
-    let synopsisSnippet = '';
-    if (book.synopsis) {
-      synopsisSnippet = `\n\n"${book.synopsis.slice(0, 140).trim()}..."`;
-    }
-    const msg = `📚 *${book.title}*\n✍️ ${book.author}${catText}${pagesText}${synopsisSnippet}\n\n📥 *Léelo y descárgalo libremente en BIBLIOTYAN:*\n${shareUrl}`;
+    const msg = `📖 *${book.title}* — ${book.author}\n\n` +
+      `Descarga gratuita en PDF de alta calidad en *BIBLIOTYAN*:\n` +
+      `👉 ${shareUrl}`;
     const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
     window.open(waUrl, '_blank');
   }
 
-    // ======================================================== ENLACES Y COMPARTIR COLECCIONES =======================
   function getCollectionShareUrl(categoryName) {
     const base = window.location.origin + window.location.pathname;
-    const cat = categoryName || state.currentFilter;
-    if (!cat || cat === 'Todos') {
-      return base;
-    }
-    if (cat === 'HARVARD LIBROS') {
+    if (categoryName === 'HARVARD LIBROS') {
       return `${base}?coleccion=harvard-libros`;
     }
-    return `${base}?categoria=${slugify(cat)}`;
+    return `${base}?coleccion=${slugify(categoryName)}`;
   }
 
-  async function copyCollectionLink(categoryName) {
+  function copyCollectionLink(categoryName) {
     const cat = categoryName || state.currentFilter;
     const url = getCollectionShareUrl(cat);
-    const label = cat === 'HARVARD LIBROS' ? 'Colecci\u00f3n HARVARD LIBROS (12 t\u00edtulos)' : `Colecci\u00f3n "${cat}"`;
-
+    const label = cat === 'HARVARD LIBROS' ? 'Colección Harvard Libros' : `Colección ${cat}`;
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      try {
-        await navigator.clipboard.writeText(url);
-        showToast('\u00a1Enlace de Colecci\u00f3n Copiado!', `El enlace de ${label} est\u00e1 en tu portapapeles.`);
-        return;
-      } catch (e) {}
+      navigator.clipboard.writeText(url).then(() => {
+        showToast('¡Enlace Copiado!', `Enlace directo de ${label} copiado al portapapeles.`);
+      }).catch(() => {
+        legacyCopy(url, label);
+      });
+      return;
     }
     legacyCopy(url, label);
   }
@@ -156,19 +209,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const url = getCollectionShareUrl(cat);
     let msg = '';
     if (cat === 'HARVARD LIBROS') {
-      msg = `\ud83c\udfdb\ufe0f *Colecci\u00f3n HARVARD LIBROS en BIBLIOTYAN*\n` +
-        `Accede y descarga gratis los 12 t\u00edtulos de la Serie Inteligencia Emocional de Harvard Business Review Press en PDF de alta resoluci\u00f3n:\n\n` +
-        `\u2022 Autoconciencia\n` +
-        `\u2022 Buenos H\u00e1bitos\n` +
-        `\u2022 Energ\u00eda y Motivaci\u00f3n\n` +
-        `\u2022 Saber Escuchar\n` +
-        `\u2022 Empat\u00eda\n` +
-        `\u2022 Y 7 t\u00edtulos m\u00e1s...\n\n` +
-        `\ud83d\udc49 *Enlace directo a la colecci\u00f3n:*\n${url}`;
+      msg = `🏛️ *Colección HARVARD LIBROS en BIBLIOTYAN*\n` +
+        `Accede y descarga gratis los 12 títulos de la Serie Inteligencia Emocional de Harvard Business Review Press en PDF:\n\n` +
+        `• Autoconciencia\n` +
+        `• Buenos Hábitos\n` +
+        `• Energía y Motivación\n` +
+        `• Saber Escuchar\n` +
+        `• Empatía\n` +
+        `• Y 7 títulos más...\n\n` +
+        `👉 *Enlace directo a la colección:*\n${url}`;
     } else {
-      msg = `\ud83d\udcda *Colecci\u00f3n "${cat}" en BIBLIOTYAN*\n` +
+      msg = `📚 *Colección "${cat}" en BIBLIOTYAN*\n` +
         `Explora y descarga libros completos en PDF y EPUB de alta calidad:\n\n` +
-        `\ud83d\udc49 *Enlace directo:*\n${url}`;
+        `👉 *Enlace directo:*\n${url}`;
     }
     const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
     window.open(waUrl, '_blank');
@@ -181,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
       params.delete('id');
       params.delete('book');
 
-      if (!categoryName || categoryName === 'Todos') {
+      if (!categoryName || categoryName === 'Todos' || categoryName === 'Más leídos' || categoryName === 'Nuevos' || categoryName === 'Recomendados') {
         params.delete('coleccion');
         params.delete('categoria');
         params.delete('cat');
@@ -198,18 +251,17 @@ document.addEventListener('DOMContentLoaded', () => {
       const qs = params.toString();
       const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
       const pageTitle = categoryName && categoryName !== 'Todos'
-        ? `${categoryName} \u2014 BIBLIOTYAN`
-        : 'BIBLIOTYAN \u2014 Biblioteca Digital & Repositorio Libre';
+        ? `${categoryName} — BIBLIOTYAN`
+        : 'BIBLIOTYAN — The Personal Knowledge Archive';
       window.history.replaceState({ filter: categoryName }, pageTitle, newUrl);
-    } catch (e) {
-      console.warn('Could not update history state:', e);
-    }
+    } catch (e) {}
   }
 
   function selectCategory(categoryName, shouldScroll = false, updateUrl = true) {
     state.currentFilter = categoryName;
 
-    document.querySelectorAll('.filter-btn').forEach(btn => {
+    // Actualizar botones de filtro
+    document.querySelectorAll('.filter-pill').forEach(btn => {
       if (btn.getAttribute('data-cat') === categoryName) {
         btn.classList.add('active');
         try {
@@ -227,13 +279,114 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (shouldScroll) {
-      const catalogEl = document.getElementById('catalog') || document.getElementById('catalogo');
+      const catalogEl = document.getElementById('catalog');
       if (catalogEl) {
         catalogEl.scrollIntoView({ behavior: 'smooth' });
       }
     }
   }
 
+  // ========================================================
+  // EXPLORA POR CONOCIMIENTO & FILTROS ESPECIALES
+  // ========================================================
+  window.selectKnowledgeCategory = function(name) {
+    const catalogEl = document.getElementById('catalog');
+    if (catalogEl) {
+      catalogEl.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    if (name === 'Todos') {
+      selectCategory('Todos', false, true);
+      return;
+    }
+
+    const n = name.toLowerCase();
+    let match = null;
+
+    if (n.includes('filosof')) {
+      match = CONFIG.categories.find(c => c.toLowerCase().includes('espiritualidad') || c.toLowerCase().includes('filosof'));
+    } else if (n.includes('psicol')) {
+      match = CONFIG.categories.find(c => c.toLowerCase().includes('psicolog') || c.toLowerCase().includes('mente'));
+    } else if (n.includes('negocio')) {
+      match = CONFIG.categories.find(c => c.toLowerCase().includes('liderazgo') || c.toLowerCase().includes('marketing'));
+    } else if (n.includes('econom') || n.includes('finanz')) {
+      match = CONFIG.categories.find(c => c.toLowerCase().includes('finanzas'));
+    } else if (n.includes('histor')) {
+      match = CONFIG.categories.find(c => c.toLowerCase().includes('breve historia') || c.toLowerCase().includes('historia'));
+    } else if (n.includes('cienc')) {
+      match = CONFIG.categories.find(c => c.toLowerCase().includes('tecnolog') || c.toLowerCase().includes('salud'));
+    }
+
+    if (match) {
+      selectCategory(match, false, true);
+    } else {
+      state.currentFilter = 'Todos';
+      state.searchQuery = n;
+      const searchInput = document.getElementById('searchInput');
+      if (searchInput) searchInput.value = name;
+      renderBooks();
+    }
+  };
+
+  window.selectSpecialFilter = function(filterName) {
+    selectCategory(filterName, true, true);
+  };
+
+  // ========================================================
+  // BÚSQUEDA Y NAVEGACIÓN
+  // ========================================================
+  window.focusSearch = function() {
+    const input = document.getElementById('searchInput');
+    if (input) {
+      input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => input.focus(), 320);
+    }
+  };
+
+  window.clearSearch = function() {
+    const input = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('searchClearBtn');
+    if (input) {
+      input.value = '';
+      state.searchQuery = '';
+    }
+    if (clearBtn) clearBtn.style.display = 'none';
+    renderBooks();
+  };
+
+  window.openNotifications = function() {
+    showToast('BIBLIOTYAN', 'Catálogo actualizado con colecciones de Harvard, Breve Historia y novedades.');
+  };
+
+  window.handleDockNav = function(tab) {
+    document.querySelectorAll('.dock-item').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-tab') === tab);
+    });
+
+    if (tab === 'inicio') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (tab === 'catalogo') {
+      const cat = document.getElementById('catalog');
+      if (cat) cat.scrollIntoView({ behavior: 'smooth' });
+    } else if (tab === 'buscar') {
+      focusSearch();
+    } else if (tab === 'solicitar') {
+      const req = document.getElementById('pedidos');
+      if (req) req.scrollIntoView({ behavior: 'smooth' });
+    } else if (tab === 'biblioteca') {
+      state.currentFilter = 'Mi biblioteca';
+      const cat = document.getElementById('catalog');
+      if (cat) cat.scrollIntoView({ behavior: 'smooth' });
+      renderBooks();
+      if (state.favorites.length === 0) {
+        showToast('Mi biblioteca', 'Aún no tienes libros guardados. Pulsa el marcador en cualquier libro para guardarlo.');
+      }
+    }
+  };
+
+  // ========================================================
+  // GESTIÓN DE ENLACES INICIALES (DEEP LINKS)
+  // ========================================================
   function handleInitialUrl() {
     const params = new URLSearchParams(window.location.search);
     const colParam = params.get('coleccion') || params.get('categoria') || params.get('collection') || params.get('cat') || params.get('filter');
@@ -256,11 +409,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (targetCat) {
       selectCategory(targetCat, true, false);
       if (targetCat === 'HARVARD LIBROS') {
-        showToast('Colecci\u00f3n Harvard Activa', 'Explorando los 12 t\u00edtulos de Harvard Business Review');
+        showToast('Colección Harvard Activa', 'Explorando los 12 títulos de Harvard Business Review');
       } else if (targetCat === 'BREVE HISTORIA') {
-        showToast('Colecci\u00f3n Breve Historia', 'Explorando los 142 t\u00edtulos de Ediciones Nowtilus');
+        showToast('Colección Breve Historia', 'Explorando los 142 títulos de Ediciones Nowtilus');
       } else {
-        showToast('Colecci\u00f3n Seleccionada', `Mostrando t\u00edtulos de "${targetCat}"`);
+        showToast('Colección Seleccionada', `Mostrando títulos de "${targetCat}"`);
       }
     }
 
@@ -288,17 +441,20 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
         openPreviewModal(targetBook, false);
         showToast('Libro Seleccionado', `Mostrando "${targetBook.title}"`);
-        const catalog = document.getElementById('catalog') || document.getElementById('catalogo');
+        const catalog = document.getElementById('catalog');
         if (catalog) catalog.scrollIntoView({ behavior: 'smooth' });
       }, 350);
     }
   }
+
+  // ========================================================
+  // INICIALIZACIÓN
+  // ========================================================
   function init() {
-    setupNavbar();
-    setupThemeToggle();
-    setupHeroQuote();
     setupSearchBar();
     renderFilterButtons();
+    renderEditorialShelf();
+    renderDailyRecommendation();
     renderBooks();
     renderSocialLinks();
     renderWhyReadSection();
@@ -309,136 +465,306 @@ document.addEventListener('DOMContentLoaded', () => {
     setupMobileBottomNav();
     updateStats();
     handleInitialUrl();
+    refreshIcons();
   }
 
-  // ======================================================== NAVBAR ═══════
-  function setupNavbar() {
-    const navbar = document.querySelector('.navbar');
-    const brandName = document.querySelector('.brand-name');
-    if (brandName) brandName.textContent = CONFIG.libraryName;
-
-    // Enlaces de redes sociales en la barra superior
-    const navSocial = document.querySelector('.nav-social-links');
-    if (navSocial) {
-      navSocial.innerHTML = '';
-      Object.entries(CONFIG.socialMedia).forEach(([key, social]) => {
-        if (!social.active) return;
-        const a = document.createElement('a');
-        a.href = social.url;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.className = 'nav-social-link';
-        a.innerHTML = `<i class="${social.icon}"></i>`;
-        a.title = social.label;
-        navSocial.appendChild(a);
-      });
-    }
-
-    window.addEventListener('scroll', () => {
-      navbar.classList.toggle('scrolled', window.scrollY > 40);
-    });
-  }
-
-  // ======================================================== TEMA (OSCURO / CLARO MINIMALISTA) ═══════
-  function setupThemeToggle() {
-    const btn = document.getElementById('themeToggle');
-    if (!btn) return;
-
-    const saved = localStorage.getItem('bibliotyan-theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', saved);
-    updateThemeIcon(btn, saved);
-
-    btn.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme');
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('bibliotyan-theme', next);
-      updateThemeIcon(btn, next);
-    });
-  }
-
-  function updateThemeIcon(btn, theme) {
-    btn.innerHTML = theme === 'dark'
-      ? '<i class="fa-solid fa-sun"></i>'
-      : '<i class="fa-solid fa-moon"></i>';
-  }
-
-  // ======================================================== HERO: CITA ROTATIVA SOBRIA ═══════
-  function setupHeroQuote() {
-    const el = document.getElementById('heroQuote');
-    if (!el) return;
-    let index = Math.floor(Math.random() * QUOTES.length);
-
-    function showQuote() {
-      const q = QUOTES[index];
-      el.style.opacity = '0';
-      setTimeout(() => {
-        el.innerHTML = `"${q.text}" <span class="quote-author">— ${q.author}</span>`;
-        el.style.opacity = '1';
-      }, 400);
-      index = (index + 1) % QUOTES.length;
-    }
-
-    showQuote();
-    setInterval(showQuote, 9000);
-  }
-
-  // ======================================================== BÚSQUEDA EN TIEMPO REAL ═══════
+  // ========================================================
+  // BÚSQUEDA EN TIEMPO REAL
+  // ========================================================
   function setupSearchBar() {
     const input = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('searchClearBtn');
     if (!input) return;
+
     input.addEventListener('input', (e) => {
       state.searchQuery = e.target.value.toLowerCase().trim();
+      if (clearBtn) {
+        clearBtn.style.display = state.searchQuery ? 'inline-flex' : 'none';
+      }
       renderBooks();
     });
   }
 
-  // ======================================================== FILTROS DE GÉNERO ═══════
+  // ========================================================
+  // SELECCIÓN EDITORIAL (HORIZONTAL SHELF)
+  // ========================================================
+  const EDITORIAL_SELECTION_IDS = [1087, 1467, 1519, 1491, 1502, 1830, 1611, 1604, 1601];
+
+  function renderEditorialShelf() {
+    const shelf = document.getElementById('editorialShelf');
+    if (!shelf) return;
+
+    const curated = BOOKS.filter(b => EDITORIAL_SELECTION_IDS.includes(b.id));
+    if (curated.length === 0) {
+      // Fallback a los primeros con portada
+      curated.push(...BOOKS.slice(0, 6));
+    }
+
+    shelf.innerHTML = '';
+    curated.forEach(book => {
+      const isFav = state.favorites.includes(book.id);
+      const card = document.createElement('div');
+      card.className = 'editorial-mini-card';
+      card.innerHTML = `
+        <div class="editorial-cover-wrap">
+          <img src="${book.cover}" alt="${book.title}" loading="lazy" onerror="handleCoverError(this, '${(book.title || '').replace(/'/g, "\\'")}')">
+        </div>
+        <div class="editorial-mini-info">
+          <h4 class="editorial-mini-title">${book.title}</h4>
+          <p class="editorial-mini-author">${book.author}</p>
+          <div class="editorial-mini-footer">
+            <span class="editorial-mini-badge">${book.category}</span>
+            <button type="button" class="btn-mini-fav ${isFav ? 'active' : ''}" data-id="${book.id}" onclick="event.stopPropagation(); toggleFavorite(${book.id}, event)" title="${isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}" aria-label="Favorito">
+              <i data-lucide="bookmark"></i>
+            </button>
+          </div>
+        </div>
+      `;
+      card.addEventListener('click', () => openPreviewModal(book));
+      shelf.appendChild(card);
+    });
+
+    refreshIcons();
+  }
+
+  // ========================================================
+  // RECOMENDACIÓN DEL DÍA (BANNER EDITORIAL)
+  // ========================================================
+  function renderDailyRecommendation() {
+    const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
+    // Seleccionar obra seminal según el día del año
+    const seminalList = BOOKS.filter(b => EDITORIAL_SELECTION_IDS.includes(b.id));
+    const pool = seminalList.length > 0 ? seminalList : BOOKS;
+    state.dailyBook = pool[dayOfYear % pool.length];
+
+    const titleEl = document.getElementById('dailyRecTitle');
+    const descEl = document.getElementById('dailyRecDesc');
+
+    if (titleEl && state.dailyBook) {
+      titleEl.textContent = `¿Qué deberías conocer hoy? — «${state.dailyBook.title}»`;
+    }
+    if (descEl && state.dailyBook) {
+      descEl.textContent = `Una recomendación de ${state.dailyBook.author} para ampliar tu perspectiva e intelecto.`;
+    }
+  }
+
+  window.openDailyRecommendation = function() {
+    if (state.dailyBook) {
+      openPreviewModal(state.dailyBook);
+    } else {
+      const first = BOOKS[0];
+      if (first) openPreviewModal(first);
+    }
+  };
+
+  // ========================================================
+  // FILTROS DE GÉNERO Y COLECCIÓN (PILLS)
+  // ========================================================
   function renderFilterButtons() {
     const bar = document.getElementById('filterBar');
     if (!bar) return;
     bar.innerHTML = '';
 
-    CONFIG.categories.forEach(cat => {
+    const filterList = [
+      'Todos',
+      'Más leídos',
+      'Nuevos',
+      'Recomendados',
+      'HARVARD LIBROS',
+      'BREVE HISTORIA',
+      'National Geographic',
+      'E-Books (EPUB)',
+      'Espiritualidad & sabiduría',
+      'Autoayuda & Mente',
+      'Neurociencia & Mente',
+      'Productividad & Hábitos',
+      'Finanzas & Inversión',
+      'Liderazgo & Estrategia',
+      'Marketing & Ventas',
+      'Crecimiento Personal',
+      'Psicología & Conducta',
+      'Salud & Longevidad',
+      'Tecnología & Futuro',
+      'Libros en Inglés'
+    ];
+
+    filterList.forEach(cat => {
       const btn = document.createElement('button');
-      btn.className = `filter-btn ${cat === state.currentFilter ? 'active' : ''}`;
-      let labelHtml = cat;
-      if (cat === 'Todos') labelHtml = '<i class="fa-solid fa-border-all"></i> Todos';
-      else if (cat === 'HARVARD LIBROS') labelHtml = '<i class="fa-solid fa-building-columns"></i> HARVARD LIBROS';
-      else if (cat === 'BREVE HISTORIA') labelHtml = '<i class="fa-solid fa-landmark"></i> BREVE HISTORIA';
-      else if (cat === 'National Geographic') labelHtml = '<i class="fa-solid fa-earth-americas"></i> National Geographic';
-      btn.innerHTML = labelHtml;
+      btn.type = 'button';
+      btn.className = `filter-pill ${cat === state.currentFilter ? 'active' : ''}`;
       btn.setAttribute('data-cat', cat);
+
+      let iconHtml = '';
+      if (cat === 'Todos') iconHtml = '<i data-lucide="grid"></i>';
+      else if (cat === 'Más leídos') iconHtml = '<i data-lucide="trending-up"></i>';
+      else if (cat === 'Nuevos') iconHtml = '<i data-lucide="sparkles"></i>';
+      else if (cat === 'Recomendados') iconHtml = '<i data-lucide="award"></i>';
+      else if (cat === 'HARVARD LIBROS') iconHtml = '<i data-lucide="building-2"></i>';
+      else if (cat === 'BREVE HISTORIA') iconHtml = '<i data-lucide="landmark"></i>';
+
+      btn.innerHTML = `${iconHtml} <span>${cat}</span>`;
       btn.addEventListener('click', () => {
         selectCategory(cat, false, true);
       });
       bar.appendChild(btn);
     });
+
+    refreshIcons();
   }
 
-  // ======================================================== RENDERIZADO DEL CATÁLOGO ═══════
+  // ========================================================
+  // BANNER DE COLECCIÓN COMPARTIDA EN CATÁLOGO
+  // ========================================================
+  function renderCollectionBanner() {
+    const container = document.getElementById('collectionBannerContainer');
+    if (!container) return;
+
+    if (state.currentFilter === 'HARVARD LIBROS') {
+      const count = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;
+      const shareUrl = getCollectionShareUrl('HARVARD LIBROS');
+      container.innerHTML = `
+        <div class="collection-highlight-banner">
+          <div class="harvard-collection-card">
+            <div class="hbr-banner-header">
+              <div class="hbr-banner-badge-group">
+                <span class="hbr-banner-badge">
+                  <i data-lucide="building-2"></i> Colección Oficial HBR
+                </span>
+                <span class="hbr-banner-count">
+                  <i data-lucide="layers"></i> ${count} Volúmenes Completos
+                </span>
+              </div>
+              <a href="${shareUrl}" class="hbr-direct-link-badge" onclick="event.preventDefault(); copyCollectionLink('HARVARD LIBROS');" title="Copiar enlace directo de la colección">
+                <i data-lucide="link"></i> bibliotyan/?coleccion=harvard-libros
+              </a>
+            </div>
+
+            <h3 class="hbr-banner-title">Harvard Business Review — Serie Inteligencia Emocional</h3>
+            <p class="hbr-banner-desc">
+              Colección editorial completa de guías maestras de Harvard Business Review Press: autoconciencia, gestión del agotamiento, rutinas diarias efectivas, comunicación y liderazgo consciente. Ediciones digitales en PDF listas para visualización y descarga libre.
+            </p>
+
+            <div class="hbr-share-box">
+              <div class="hbr-link-wrapper">
+                <i data-lucide="link" class="hbr-link-icon"></i>
+                <input type="text" class="hbr-link-input" value="${shareUrl}" readonly onclick="this.select()">
+              </div>
+              <div class="hbr-share-actions">
+                <button type="button" class="btn-hbr-copy" onclick="copyCollectionLink('HARVARD LIBROS')">
+                  <i data-lucide="copy"></i> Copiar Enlace
+                </button>
+                <button type="button" class="btn-hbr-wa" onclick="shareCollectionWhatsApp('HARVARD LIBROS')">
+                  <i class="fa-brands fa-whatsapp"></i> Compartir
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      refreshIcons();
+    } else if (state.currentFilter === 'BREVE HISTORIA') {
+      const count = BOOKS.filter(b => b.category === 'BREVE HISTORIA').length;
+      const shareUrl = getCollectionShareUrl('BREVE HISTORIA');
+      container.innerHTML = `
+        <div class="collection-highlight-banner">
+          <div class="harvard-collection-card">
+            <div class="hbr-banner-header">
+              <div class="hbr-banner-badge-group">
+                <span class="hbr-banner-badge" style="background: rgba(182, 106, 255, 0.22); color: #B66AFF;">
+                  <i data-lucide="landmark"></i> Colección Breve Historia
+                </span>
+                <span class="hbr-banner-count">
+                  <i data-lucide="layers"></i> ${count} Títulos Nowtilus
+                </span>
+              </div>
+              <a href="${shareUrl}" class="hbr-direct-link-badge" onclick="event.preventDefault(); copyCollectionLink('BREVE HISTORIA');" title="Copiar enlace directo de la colección">
+                <i data-lucide="link"></i> bibliotyan/?coleccion=breve-historia
+              </a>
+            </div>
+
+            <h3 class="hbr-banner-title">Colección Breve Historia — Ediciones Nowtilus</h3>
+            <p class="hbr-banner-desc">
+              Archivo enciclopédico de historia universal: civilizaciones clásicas, conflictos bélicos, biografías de emperadores, filosofía, religión y mitología. Libros completos en PDF optimizados para lectura libre.
+            </p>
+
+            <div class="hbr-share-box">
+              <div class="hbr-link-wrapper">
+                <i data-lucide="link" class="hbr-link-icon"></i>
+                <input type="text" class="hbr-link-input" value="${shareUrl}" readonly onclick="this.select()">
+              </div>
+              <div class="hbr-share-actions">
+                <button type="button" class="btn-hbr-copy" onclick="copyCollectionLink('BREVE HISTORIA')">
+                  <i data-lucide="copy"></i> Copiar Enlace
+                </button>
+                <button type="button" class="btn-hbr-wa" onclick="shareCollectionWhatsApp('BREVE HISTORIA')">
+                  <i class="fa-brands fa-whatsapp"></i> Compartir
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      refreshIcons();
+    } else {
+      container.innerHTML = '';
+    }
+  }
+
+  // ========================================================
+  // RENDERIZADO DEL CATÁLOGO (GRID 2 COLUMNAS EN MÓVIL)
+  // ========================================================
   function renderBooks() {
     const grid = document.getElementById('booksGrid');
     const countEl = document.getElementById('resultsCount');
     if (!grid) return;
 
+    renderCollectionBanner();
+
     let filtered = BOOKS.filter(book => {
-      const matchesCategory = state.currentFilter === 'Todos' ||
-        book.category === state.currentFilter ||
-        (state.currentFilter === 'National Geographic' && (book.collection === 'National Geographic' || book.category === 'National Geographic')) ||
-        (state.currentFilter === 'E-Books (EPUB)' && (book.format === 'epub' || book.format === 'dual' || !!book.epub));
-      const matchesSearch = !state.searchQuery ||
-        book.title.toLowerCase().includes(state.searchQuery) ||
-        book.author.toLowerCase().includes(state.searchQuery) ||
-        book.category.toLowerCase().includes(state.searchQuery) ||
-        (book.collection && book.collection.toLowerCase().includes(state.searchQuery)) ||
-        book.description.toLowerCase().includes(state.searchQuery) ||
-        (book.aiAnalysis && book.aiAnalysis.keyConcepts && book.aiAnalysis.keyConcepts.some(k => k.toLowerCase().includes(state.searchQuery)));
+      // 1. Filtrado especial o de categoría
+      let matchesCategory = false;
+
+      if (state.currentFilter === 'Todos') {
+        matchesCategory = true;
+      } else if (state.currentFilter === 'Más leídos') {
+        matchesCategory = true; // Se ordenará por descargas
+      } else if (state.currentFilter === 'Nuevos') {
+        matchesCategory = true; // Se ordenará por ID reciente
+      } else if (state.currentFilter === 'Recomendados') {
+        matchesCategory = EDITORIAL_SELECTION_IDS.includes(book.id) || (book.downloads >= 400);
+      } else if (state.currentFilter === 'Mi biblioteca') {
+        matchesCategory = state.favorites.includes(book.id);
+      } else if (state.currentFilter === 'National Geographic') {
+        matchesCategory = (book.collection === 'National Geographic' || book.category === 'National Geographic');
+      } else if (state.currentFilter === 'E-Books (EPUB)') {
+        matchesCategory = (book.format === 'epub' || book.format === 'dual' || !!book.epub);
+      } else {
+        matchesCategory = book.category === state.currentFilter;
+      }
+
+      // 2. Filtrado de búsqueda en tiempo real
+      const q = state.searchQuery;
+      const matchesSearch = !q ||
+        book.title.toLowerCase().includes(q) ||
+        book.author.toLowerCase().includes(q) ||
+        book.category.toLowerCase().includes(q) ||
+        (book.collection && book.collection.toLowerCase().includes(q)) ||
+        book.description.toLowerCase().includes(q) ||
+        (book.aiAnalysis && book.aiAnalysis.keyConcepts && book.aiAnalysis.keyConcepts.some(k => k.toLowerCase().includes(q)));
+
       return matchesCategory && matchesSearch;
     });
 
+    // Ordenamiento
     const sortSelect = document.getElementById('sortSelect');
-    const sortBy = sortSelect ? sortSelect.value : 'recent';
+    let sortBy = sortSelect ? sortSelect.value : state.sortBy;
+
+    if (state.currentFilter === 'Más leídos') {
+      sortBy = 'popular';
+    } else if (state.currentFilter === 'Nuevos') {
+      sortBy = 'recent';
+    }
+
     switch (sortBy) {
       case 'popular':
         filtered.sort((a, b) => b.downloads - a.downloads);
@@ -452,22 +778,39 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (countEl) {
-      countEl.textContent = `${filtered.length} título${filtered.length !== 1 ? 's' : ''} en ${state.currentFilter}`;
+      const filterLabel = state.currentFilter === 'Todos' ? 'el archivo general' : state.currentFilter;
+      countEl.textContent = `${filtered.length} título${filtered.length !== 1 ? 's' : ''} en ${filterLabel}`;
     }
 
     grid.innerHTML = '';
 
     if (filtered.length === 0) {
-      grid.innerHTML = `
-        <div style="grid-column: 1/-1; text-align: center; padding: 4.5rem 1rem; color: var(--text-muted)">
-          <i class="fa-solid fa-book-open" style="font-size: 3rem; color: var(--accent-light); margin-bottom: 1.2rem; display: block;"></i>
-          <h3 style="color: var(--text-primary); margin-bottom: 0.5rem; font-size: 1.35rem">No se encontraron libros</h3>
-          <p style="max-width: 480px; margin: 0 auto; line-height: 1.55;">
-            Si el título que buscas no figura en nuestro catálogo, puedes pedirlo en la sección de
-            <a href="#pedidos" style="color: var(--accent-light); font-weight: 500; text-decoration: underline;">Solicitudes Express</a> y lo subiremos en máximo 10 horas.
-          </p>
-        </div>
-      `;
+      if (state.currentFilter === 'Mi biblioteca') {
+        grid.innerHTML = `
+          <div style="grid-column: 1/-1; text-align: center; padding: 4rem 1rem; color: var(--text-muted)">
+            <i data-lucide="bookmark" style="width: 48px; height: 48px; color: var(--purple-primary); margin: 0 auto 1.2rem; display: block;"></i>
+            <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.35rem">Tu biblioteca está vacía</h3>
+            <p style="max-width: 460px; margin: 0 auto 1.5rem; line-height: 1.55; color: var(--text-secondary);">
+              Aún no has guardado ningún libro. Explora el catálogo y pulsa el icono de marcador en tus títulos favoritos para verlos aquí reunidos.
+            </p>
+            <button type="button" class="btn-hero-explore" onclick="selectCategory('Todos', false, true)">
+              Explorar Catálogo Completo
+            </button>
+          </div>
+        `;
+      } else {
+        grid.innerHTML = `
+          <div style="grid-column: 1/-1; text-align: center; padding: 4.5rem 1rem; color: var(--text-muted)">
+            <i data-lucide="book-open" style="width: 48px; height: 48px; color: var(--purple-primary); margin: 0 auto 1.2rem; display: block;"></i>
+            <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.35rem">No se encontraron libros</h3>
+            <p style="max-width: 480px; margin: 0 auto; line-height: 1.55; color: var(--text-secondary);">
+              Si el título que buscas no figura en nuestro archivo, puedes pedirlo en la sección de
+              <a href="#pedidos" style="color: var(--purple-light); font-weight: 500; text-decoration: underline;">Solicitudes Express</a> y lo entregaremos en máximo 10 horas.
+            </p>
+          </div>
+        `;
+      }
+      refreshIcons();
       return;
     }
 
@@ -475,86 +818,63 @@ document.addEventListener('DOMContentLoaded', () => {
       const card = document.createElement('div');
       card.className = 'book-card';
 
-      const analysis = book.aiAnalysis || AIClassifier.analyze(book);
-      const catColor = CONFIG.categoryColors[book.category] || '#9333ea';
+      const isFav = state.favorites.includes(book.id);
+      let formatIcon = 'file-text';
+      let formatText = 'PDF';
 
-      let formatBadgeHtml = '';
       if (book.format === 'dual' || (book.pdf && book.epub)) {
-        formatBadgeHtml = '<span class="format-badge dual-badge" title="Disponible en PDF y EPUB"><i class="fa-solid fa-layer-group"></i> PDF + EPUB</span>';
+        formatIcon = 'layers';
+        formatText = 'PDF + EPUB';
       } else if (book.format === 'epub' || (!book.pdf && book.epub)) {
-        formatBadgeHtml = '<span class="format-badge epub-badge" title="E-Book digital"><i class="fa-solid fa-book-open-reader"></i> EPUB</span>';
-      } else {
-        formatBadgeHtml = '<span class="format-badge" title="Documento digital"><i class="fa-solid fa-file-pdf"></i> PDF</span>';
+        formatIcon = 'book';
+        formatText = 'EPUB';
       }
 
       card.innerHTML = `
-        <div class="card-cover">
-          <div class="card-ai-badge">
-            <i class="fa-solid fa-brain"></i> Análisis IA
-          </div>
+        <div class="card-cover-container">
+          <span class="card-floating-badge">
+            <i data-lucide="${formatIcon}"></i> ${formatText}
+          </span>
           <img src="${book.cover}" alt="${book.title}" loading="lazy" onerror="handleCoverError(this, '${(book.title || '').replace(/'/g, "\\'")}')">
-          <div class="cover-overlay">
-            ${book.pdf ? `
-              <button class="btn-cover-action btn-preview-primary" onclick="event.stopPropagation(); openFullscreenReader(BOOKS.find(b => b.id === ${book.id}))">
-                <i class="fa-solid fa-book-open"></i> Leer en Pantalla
-              </button>
-            ` : `
-              <button class="btn-cover-action btn-preview-primary" onclick="event.stopPropagation(); openPreviewModal(BOOKS.find(b => b.id === ${book.id}))">
-                <i class="fa-solid fa-book-open-reader"></i> Vista EPUB
-              </button>
-            `}
-            <button class="btn-cover-action btn-preview-secondary" onclick="event.stopPropagation(); openPreviewModal(BOOKS.find(b => b.id === ${book.id}))">
-              <i class="fa-solid fa-circle-info"></i> Ficha y Vista Previa
-            </button>
-          </div>
         </div>
-        <div class="card-body">
-          <div class="card-tags-row">
-            <span class="card-category" onclick="event.stopPropagation(); selectCategory(BOOKS.find(b => b.id === ${book.id}).category, true, true);" style="background: ${catColor}24; color: ${catColor}; border: 1px solid ${catColor}44; cursor: pointer;" title="Filtrar colección ${book.category}">${book.category}</span>
-            ${formatBadgeHtml}
-            <button class="card-share-btn" title="Compartir enlace de este libro" onclick="event.stopPropagation(); shareBookDirect(${book.id})">
-              <i class="fa-solid fa-share-nodes"></i>
-            </button>
-          </div>
-          <h3 class="card-title">${book.title}</h3>
+        <div class="card-details">
+          <h3 class="card-title" title="${book.title}">${book.title}</h3>
           <p class="card-author">${book.author}</p>
-          <div class="card-ai-vibe">
-            <i class="fa-solid fa-compass"></i>
-            <span>${analysis.vibe || 'Selección Editorial'}</span>
-          </div>
-          <div class="card-meta">
-            <span title="Extensión del ejemplar"><i class="fa-solid fa-file-lines"></i> ${book.pages || 220} págs.</span>
-            <span class="card-downloads">
-              <i class="fa-solid fa-download"></i> ${book.downloads}
-            </span>
+          <div class="card-meta-row">
+            <span class="card-category-pill" onclick="event.stopPropagation(); selectCategory('${book.category}', true, true);" title="Filtrar colección ${book.category}">${book.category}</span>
+            <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" data-id="${book.id}" onclick="event.stopPropagation(); toggleFavorite(${book.id}, event)" title="${isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}" aria-label="Guardar en favoritos">
+              <i data-lucide="bookmark"></i>
+            </button>
           </div>
         </div>
       `;
 
       card.addEventListener('click', () => openPreviewModal(book));
-      const pBtn = card.querySelector('.preview-btn');
-      if (pBtn) pBtn.addEventListener('click', () => openPreviewModal(book));
-
       grid.appendChild(card);
     });
+
+    refreshIcons();
   }
 
   const sortSelect = document.getElementById('sortSelect');
   if (sortSelect) sortSelect.addEventListener('change', () => renderBooks());
 
-  // ======================================================== MODAL VISTA PREVIA Y DIAGNÓSTICO IA ═══════
+  // ========================================================
+  // MODAL VISTA PREVIA Y DIAGNÓSTICO IA
+  // ========================================================
   function openPreviewModal(book, updateUrl = true) {
     if (!book) return;
     state.currentBook = book;
+
     if (updateUrl) {
       try {
         const shareUrl = getBookShareUrl(book);
         window.history.replaceState({ bookId: book.id }, book.title, shareUrl);
       } catch (e) {}
     }
-    state.currentBook = book;
+
     const modal = document.getElementById('previewModal');
-    const catColor = CONFIG.categoryColors[book.category] || '#9333ea';
+    const catColor = CONFIG.categoryColors[book.category] || '#B66AFF';
     const analysis = book.aiAnalysis || AIClassifier.analyze(book);
 
     document.getElementById('previewCover').innerHTML = `
@@ -564,9 +884,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const catEl = document.getElementById('previewCategory');
     if (catEl) {
       catEl.textContent = book.category;
-      catEl.style.background = catColor + '24';
-      catEl.style.color = catColor;
-      catEl.style.borderColor = catColor + '55';
+      catEl.style.background = 'rgba(182, 106, 255, 0.12)';
+      catEl.style.color = 'var(--purple-light)';
+      catEl.style.borderColor = 'var(--purple-border)';
       catEl.style.cursor = 'pointer';
       catEl.title = `Ver toda la colección de ${book.category}`;
       catEl.onclick = () => {
@@ -579,7 +899,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (colLinkEl) {
       if (book.category === 'HARVARD LIBROS') {
         colLinkEl.style.display = 'inline-flex';
-        colLinkEl.innerHTML = '<i class="fa-solid fa-layer-group"></i> Colecci\u00f3n Harvard Libros';
+        colLinkEl.innerHTML = '<i class="fa-solid fa-layer-group"></i> Colección Harvard Libros';
         colLinkEl.onclick = (e) => {
           e.preventDefault();
           closePreviewModal();
@@ -587,7 +907,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
       } else if (book.category === 'BREVE HISTORIA') {
         colLinkEl.style.display = 'inline-flex';
-        colLinkEl.innerHTML = '<i class="fa-solid fa-landmark"></i> Colecci\u00f3n Breve Historia (142 Libros)';
+        colLinkEl.innerHTML = '<i class="fa-solid fa-landmark"></i> Colección Breve Historia (142 Libros)';
         colLinkEl.onclick = (e) => {
           e.preventDefault();
           closePreviewModal();
@@ -628,7 +948,7 @@ document.addEventListener('DOMContentLoaded', () => {
       aiTagsEl.innerHTML = concepts.map(c => `<span class="ai-tag-item"># ${c}</span>`).join('');
     }
     if (aiTargetEl) {
-      aiTargetEl.textContent = analysis.targetAudience || 'Lectores que valoran el desarrollo intelectual.';
+      aiTargetEl.textContent = analysis.targetAudience || 'Lectores que valoran el pensamiento crítico y el desarrollo cognitivo.';
     }
 
     // Aviso de Apoyo al Creador (Exclusivo para libros de Harvard)
@@ -641,7 +961,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // == Acciones Directas (Sin rodeos ni pantallas extensas) ==
+    // Acciones Directas: Leer Online & Descargar
     const dlContainer = document.getElementById('previewDownloadContainer');
     if (dlContainer) {
       if (book.format === 'dual' || (book.pdf && book.epub)) {
@@ -693,13 +1013,15 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (e) {}
   }
 
-  // ======================================================== LECTOR EN PANTALLA COMPLETA EN LA MISMA PÁGINA ═══════
+  // ========================================================
+  // LECTOR EN PANTALLA COMPLETA
+  // ========================================================
   function openFullscreenReader(book) {
     const target = book || state.currentBook;
     if (!target) return;
     state.currentBook = target;
 
-    // Si es un enlace CDN externo o estamos en móvil, abrir directamente en nueva pestaña para lectura nativa limpia
+    // En móvil o enlaces directos, abrir en pestaña limpia
     if (target.pdf && (target.pdf.startsWith('http') || window.innerWidth <= 768)) {
       window.open(target.pdf, '_blank');
       return;
@@ -733,7 +1055,9 @@ document.addEventListener('DOMContentLoaded', () => {
     openSocialModal(state.currentBook && state.currentBook.pdf ? 'pdf' : 'epub');
   }
 
-  // ======================================================== MODAL DE DESCARGA / REDES SOCIALES ═══════
+  // ========================================================
+  // MODAL DE DESCARGA / COMUNIDAD
+  // ========================================================
   function openSocialModal(format) {
     closePreviewModal();
     closeFullscreenReader();
@@ -752,12 +1076,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (iconEl && titleEl && msgEl) {
       if (isHarvard) {
         iconEl.className = 'fa-solid fa-building-columns';
-        titleEl.textContent = 'Apoya al Creador \u2022 Colecci\u00f3n Harvard';
-        msgEl.innerHTML = 'Para mantener activa y disponible esta colecci\u00f3n de Harvard, <strong>apoya al creador</strong>. Gracias a su esfuerzo y dedicaci\u00f3n tenemos estos ejemplares completos para ti. \u00danete y ap\u00f3yalo en sus canales comunitarios:';
+        titleEl.textContent = 'Apoya al Creador • Colección Harvard';
+        msgEl.innerHTML = 'Para mantener activa y disponible esta colección de Harvard, <strong>apoya al creador</strong>. Gracias a su esfuerzo y dedicación tenemos estos ejemplares completos para ti. Únete y apóyalo en sus canales comunitarios:';
       } else {
         iconEl.className = 'fa-solid fa-shield-heart';
         titleEl.textContent = 'Descarga Libre y Gratuita';
-        msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, ap\u00f3yanos siguiendo nuestras redes comunitarias:';
+        msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apóyanos siguiendo nuestras redes comunitarias:';
       }
     }
     container.innerHTML = '';
@@ -862,7 +1186,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ======================================================== MODAL QR DE SOLICITUD (10 HORAS) ═══════
+  // ========================================================
+  // MODAL QR DE SOLICITUD (10 HORAS)
+  // ========================================================
   function openQrModal(ticketId, bookTitle) {
     const modal = document.getElementById('qrModal');
     if (!modal) return;
@@ -874,7 +1200,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (titleEl) titleEl.textContent = `Ticket #${ticketId}`;
     if (bookEl) bookEl.textContent = `«${bookTitle}»`;
 
-    // Código QR apuntando a la invitación de Telegram/Comunidad
     const encodedUrl = encodeURIComponent(CONFIG.communityInviteUrl || "https://t.me/bibliotyan");
     if (qrImg) {
       qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodedUrl}&bgcolor=ffffff&color=09060f&margin=1`;
@@ -890,7 +1215,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   }
 
-  // ======================================================== SISTEMA DE PETICIONES (ENTREGA EN 10 HORAS) ═══════
+  // ========================================================
+  // SISTEMA DE PETICIONES (ENTREGA EN 10 HORAS)
+  // ========================================================
   function initRequestsSystem() {
     const saved = localStorage.getItem('bibliotyan_requests');
     if (saved) {
@@ -929,7 +1256,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!title) return;
 
     const now = Date.now();
-    const readyAt = now + (CONFIG.deliveryHours * 3600 * 1000); // 10 horas exactas
+    const readyAt = now + (CONFIG.deliveryHours * 3600 * 1000);
     const ticketId = 'REQ-' + Math.floor(1000 + Math.random() * 9000);
 
     const newRequest = {
@@ -947,15 +1274,12 @@ document.addEventListener('DOMContentLoaded', () => {
     state.requests.unshift(newRequest);
     localStorage.setItem('bibliotyan_requests', JSON.stringify(state.requests));
 
-    // Limpiar formulario
     titleInput.value = '';
     authorInput.value = '';
     contactInput.value = '';
     if (noteInput) noteInput.value = '';
 
     renderRequestsList();
-
-    // Mostrar modal con código QR e instrucciones para seguir la entrega
     openQrModal(ticketId, title);
     showToast('Solicitud Registrada', `Ticket #${ticketId}. Entrega estimada en 10 horas.`);
   }
@@ -1049,9 +1373,10 @@ document.addEventListener('DOMContentLoaded', () => {
     showToast('Libro Entregado', `Abriendo ejemplar de "${title}" en BIBLIOTYAN.`);
   };
 
-  // ======================================================== ACCESO ADMIN OCULTO (Ctrl + Shift + A o Triple Click) ═══════
+  // ========================================================
+  // ACCESO ADMIN OCULTO (Ctrl + Shift + A o Triple Click)
+  // ========================================================
   function setupSecretAdminAccess() {
-    // 1. Atajo de teclado: Ctrl + Shift + A
     document.addEventListener('keydown', (e) => {
       if (e.ctrlKey && e.shiftKey && (e.key === 'A' || e.key === 'a')) {
         e.preventDefault();
@@ -1059,7 +1384,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // 2. Triple clic en el texto de derechos del footer
     const trigger = document.getElementById('secretAdminTrigger');
     if (trigger) {
       let clickCount = 0;
@@ -1077,26 +1401,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ======================================================== INSPECTOR IA DE LIBROS ═══════
-  window.openAiInspector = function(bookId) {
-    const book = BOOKS.find(b => b.id === bookId);
-    if (!book) return;
-    openPreviewModal(book);
-  };
-
-  // ======================================================== NOTIFICACIÓN TOAST ═══════
+  // ========================================================
+  // NOTIFICACIÓN TOAST
+  // ========================================================
   function showToast(title, message) {
     const toast = document.getElementById('toast');
     if (!toast) return;
     const toastTitle = toast.querySelector('.toast-text strong');
     const toastMsg = toast.querySelector('.toast-text span');
-    toastTitle.textContent = title;
-    toastMsg.textContent = message;
-    toast.classList.add('show');
-    setTimeout(() => toast.classList.remove('show'), 3800);
+    if (toastTitle) toastTitle.textContent = title;
+    if (toastMsg) toastMsg.textContent = message;
+    toast.classList.add('active');
+    setTimeout(() => toast.classList.remove('active'), 3800);
   }
 
-  // ======================================================== REDES SOCIALES FOOTER ═══════
+  // ========================================================
+  // REDES SOCIALES FOOTER
+  // ========================================================
   function renderSocialLinks() {
     const footerSocial = document.querySelector('.footer-social');
     if (footerSocial) {
@@ -1114,29 +1435,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ======================================================== SECCIÓN BENEFICIOS DE LA LECTURA ═══════
+  // ========================================================
+  // BENEFICIOS DE LA LECTURA
+  // ========================================================
   function renderWhyReadSection() {
     const grid = document.querySelector('.why-read-grid');
     if (!grid) return;
 
     const reasons = [
       {
-        icon: 'fa-solid fa-brain',
+        icon: 'brain',
         title: 'Neuroplasticidad y Reserva Cognitiva',
         text: 'La lectura activa estimula redes neuronales complejas, fortaleciendo la memoria de trabajo y desacelerando el declive cognitivo.'
       },
       {
-        icon: 'fa-solid fa-compass',
+        icon: 'compass',
         title: 'Expansión de Criterio',
         text: 'Sumergirse en textos rigurosos permite asimilar modelos mentales diversos y contrastar perspectivas con profundidad.'
       },
       {
-        icon: 'fa-solid fa-bullseye',
+        icon: 'target',
         title: 'Enfoque y Atención Sostenida',
         text: 'Contrarresta la dispersión de estímulos inmediatos, cultivando la capacidad de análisis prolongado y pensamiento crítico.'
       },
       {
-        icon: 'fa-solid fa-shield-heart',
+        icon: 'heart-handshake',
         title: 'Regulación del Sistema Nervioso',
         text: 'Estudios confirman que periodos breves de lectura concentrada reducen pulsaciones y niveles de cortisol fisiológico.'
       }
@@ -1144,22 +1467,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     grid.innerHTML = reasons.map(r => `
       <div class="why-card">
-        <div class="why-icon"><i class="${r.icon}"></i></div>
+        <div class="why-icon"><i data-lucide="${r.icon}"></i></div>
         <h3>${r.title}</h3>
         <p>${r.text}</p>
       </div>
     `).join('');
+
+    refreshIcons();
   }
 
-  // ======================================================== CITA DEL DÍA ═══════
+  // ========================================================
+  // REFLEXIÓN EDITORIAL
+  // ========================================================
   function renderDailyQuote() {
     const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
     const quote = QUOTES[dayOfYear % QUOTES.length];
 
     const textEl = document.getElementById('dailyQuoteText');
     const authorEl = document.getElementById('dailyQuoteAuthor');
-    if (textEl) textEl.textContent = `"${quote.text}"`;
-    if (authorEl) authorEl.textContent = `— ${quote.author}`;
+    if (textEl && quote) textEl.textContent = `"${quote.text}"`;
+    if (authorEl && quote) authorEl.textContent = `— ${quote.author}`;
   }
 
   function renderFooter() {
@@ -1167,48 +1494,38 @@ document.addEventListener('DOMContentLoaded', () => {
     if (yearEl) yearEl.textContent = new Date().getFullYear();
   }
 
-  // ======================================================== NAVEGACIÓN MÓVIL INFERIOR ═══════
+  // ========================================================
+  // NAVEGACIÓN MÓVIL INFERIOR (SCROLL SPY)
+  // ========================================================
   function setupMobileBottomNav() {
     const bottomNav = document.getElementById('mobileBottomNav');
     if (!bottomNav) return;
 
-    const navItems = bottomNav.querySelectorAll('.mobile-nav-item');
-    const searchTrigger = document.getElementById('mobileSearchTrigger');
-    const searchInput = document.getElementById('searchInput');
-
-    if (searchTrigger && searchInput) {
-      searchTrigger.addEventListener('click', (e) => {
-        e.preventDefault();
-        searchInput.focus();
-        searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      });
-    }
+    const navItems = bottomNav.querySelectorAll('.dock-item');
 
     const sections = [
-      { id: 'catalog', el: document.getElementById('catalog') },
-      { id: 'pedidos', el: document.getElementById('pedidos') },
-      { id: 'beneficios', el: document.getElementById('beneficios') }
+      { id: 'catalogo', el: document.getElementById('catalog') },
+      { id: 'solicitar', el: document.getElementById('pedidos') }
     ];
 
     function updateActiveTab() {
+      if (state.currentFilter === 'Mi biblioteca') return;
       const scrollPos = window.scrollY + 220;
-      let activeTarget = 'top';
+      let activeTab = 'inicio';
 
-      for (let i = sections.length - 1; i >= 0; i--) {
-        const s = sections[i];
-        if (s.el && scrollPos >= s.el.offsetTop) {
-          activeTarget = s.id;
-          break;
-        }
+      if (scrollPos > 300) {
+        activeTab = 'catalogo';
       }
 
-      navItems.forEach(item => {
-        const target = item.getAttribute('data-target');
-        if (target === activeTarget) {
-          item.classList.add('active');
-        } else if (target) {
-          item.classList.remove('active');
+      sections.forEach(s => {
+        if (s.el && scrollPos >= s.el.offsetTop) {
+          activeTab = s.id;
         }
+      });
+
+      navItems.forEach(item => {
+        const tab = item.getAttribute('data-tab');
+        item.classList.toggle('active', tab === activeTab);
       });
     }
 
@@ -1257,16 +1574,10 @@ document.addEventListener('DOMContentLoaded', () => {
   window.openQrModal = openQrModal;
   window.closeQrModal = closeQrModal;
   window.downloadCurrentBook = downloadCurrentBook;
-
-  init();
-
-  // Exponer metodos globales para compartir y acceso externo
   window.shareCurrentBook = shareCurrentBook;
   window.shareBookDirect = shareBookDirect;
   window.shareViaWhatsApp = shareViaWhatsApp;
   window.getBookShareUrl = getBookShareUrl;
-  window.openPreviewModal = openPreviewModal;
-  window.closePreviewModal = closePreviewModal;
   window.selectCategory = selectCategory;
   window.copyCollectionLink = copyCollectionLink;
   window.shareCollectionWhatsApp = shareCollectionWhatsApp;
@@ -1290,4 +1601,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  init();
 });
