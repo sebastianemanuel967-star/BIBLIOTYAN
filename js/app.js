@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const state = {
     currentFilter: 'Todos',
     searchQuery: '',
-    sortBy: 'recent',
+    sortBy: 'curated',
     currentBook: null,
     currentPdfPage: 1,
     totalPdfPages: 0,
@@ -715,6 +715,16 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesCategory = (book.collection === 'National Geographic' || book.category === 'National Geographic');
       } else if (state.currentFilter === 'E-Books (EPUB)') {
         matchesCategory = (book.format === 'epub' || book.format === 'dual' || !!book.epub);
+      } else if (state.currentFilter === 'LIBROS EMPRENDEDORES' || state.currentFilter === 'Colección Emprendedores') {
+        matchesCategory = (book.collection && book.collection.includes('Emprendedor')) || book.category === 'LIBROS EMPRENDEDORES';
+      } else if (state.currentFilter === 'PARA DUMMIES' || state.currentFilter === 'Colección Para Dummies') {
+        matchesCategory = (book.collection && book.collection.includes('Dummies')) || book.category === 'PARA DUMMIES';
+      } else if (state.currentFilter === 'BREVE HISTORIA' || state.currentFilter === 'Colección Breve Historia') {
+        matchesCategory = (book.collection && book.collection.includes('Breve Historia')) || book.category === 'BREVE HISTORIA';
+      } else if (state.currentFilter === 'HARVARD LIBROS' || state.currentFilter === 'Colección Harvard Libros') {
+        matchesCategory = (book.collection && book.collection.includes('Harvard')) || book.category === 'HARVARD LIBROS';
+      } else if (state.currentFilter === 'TEOLOGÍA CONTEMPORÁNEA' || state.currentFilter === 'Colección Teológica Contemporánea') {
+        matchesCategory = (book.collection && book.collection.includes('Teolog')) || book.category === 'TEOLOGÍA CONTEMPORÁNEA';
       } else {
         matchesCategory = book.category === state.currentFilter;
       }
@@ -760,8 +770,22 @@ document.addEventListener('DOMContentLoaded', () => {
           filtered.sort((a, b) => a.title.localeCompare(b.title));
           break;
         case 'recent':
-        default:
           filtered.sort((a, b) => b.id - a.id);
+          break;
+        case 'curated':
+        default:
+          if (state.currentFilter !== 'Todos' || state.searchQuery) {
+            filtered.sort((a, b) => {
+              const isEdA = EDITORIAL_SELECTION_IDS.includes(a.id) ? 1 : 0;
+              const isEdB = EDITORIAL_SELECTION_IDS.includes(b.id) ? 1 : 0;
+              if (isEdA !== isEdB) return isEdB - isEdA;
+              const isFeatA = a.featured ? 1 : 0;
+              const isFeatB = b.featured ? 1 : 0;
+              if (isFeatA !== isFeatB) return isFeatB - isFeatA;
+              return (b.downloads || 0) - (a.downloads || 0);
+            });
+          }
+          break;
       }
     }
 
@@ -1588,19 +1612,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateCollectionShowcaseBadges() {
     if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return;
-    const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES').length;
-    const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA').length;
-    const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;
+    const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES' || (b.collection && b.collection.includes('Dummies'))).length;
+    const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA' || (b.collection && b.collection.includes('Breve Historia'))).length;
+    const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS' || (b.collection && b.collection.includes('Harvard'))).length;
 
     const elTeologia = document.getElementById('colCountTeologia');
     const heroT = document.getElementById('heroTeologiaCount');
-    const tCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA').length : 38;
+    const tCount = BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA' || (b.collection && b.collection.includes('Teolog'))).length;
     if (elTeologia) elTeologia.textContent = `${tCount} Libros en PDF`;
     if (heroT) heroT.textContent = `${tCount} Libros`;
 
     const elEmprendedores = document.getElementById('colCountEmprendedores');
     const heroE = document.getElementById('heroEmprendedoresCount');
-    const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 394;
+    const eCount = BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length;
     if (elEmprendedores) elEmprendedores.textContent = `${eCount} Libros en PDF`;
     if (heroE) heroE.textContent = `${eCount} Libros`;
 
