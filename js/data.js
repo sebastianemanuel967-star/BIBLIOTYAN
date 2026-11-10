@@ -246,31 +246,33 @@ const BOOKS = [
     }
   },
   {
-    id: 201,
-    title: "Los 7 Hábitos de la Gente Altamente Efectiva",
-    author: "Stephen R. Covey",
+    id: 2592,
+    title: "El Método Bullet Journal",
+    author: "Ryder Carroll",
     category: "Productividad & Hábitos",
+    subtopic: "Productividad Personal y Organización",
     collection: "Bestsellers",
     format: "pdf",
-    year: 2015,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2592_el-metodo-bullet-journal.pdf",
+    pages: 333,
+    year: 2018,
     language: "Español",
-    pages: 380,
-    description: "Considerado uno de los libros de gestión y desarrollo personal más influyentes del siglo. Covey presenta un enfoque holístico e integrado para resolver problemas personales y profesionales basado en principios imperecederos como la proactividad, el beneficio mutuo y la renovación continua.",
-    cover: "covers/los-7-habitos.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b201_los-7-habitos-stephen-covey.pdf",
-    downloads: 512,
+    description: "Examina tu pasado, ordena tu presente, diseña tu futuro. El célebre método creado por Ryder Carroll para despejar la mente, organizar tareas diarias, gestionar metas a largo plazo y enfocar la energía en lo verdaderamente significativo.",
+    cover: "covers/c-2592-el-metodo-bullet-journal.png",
+    downloads: 864,
     featured: true,
     aiAnalysis: {
-    genre: "Desarrollo del Liderazgo & Efectividad",
-    vibe: "Clásico & Trascendental",
+    genre: "Productividad & Hábitos",
+    vibe: "Estructurado & Transformador",
     keyConcepts: [
-        "Proactividad",
-        "Primero lo Primero",
-        "Ganar-Ganar",
-        "Sinergia"
+        "Mindfulness Práctico",
+        "Registro Rápido (Rapid Logging)",
+        "Migración de Tareas",
+        "Enfoque Intencional",
+        "Claridad Mental"
       ],
-    targetAudience: "Profesionales, directivos y personas orientadas a la excelencia ética y productiva.",
-    aiSummary: "Marco de trabajo integral para la transformación personal y la efectividad interpersonal sostenible."
+    targetAudience: "Profesionales, creativos y personas que buscan liberarse de la sobrecarga digital y organizar su vida con intención.",
+    aiSummary: "Ryder Carroll presenta una filosofía de organización personal que combina la toma de notas analógica con la atención plena para transformar listas de pendientes en un mapa de vida intencional."
     }
   },
   {
@@ -687,31 +689,31 @@ const BOOKS = [
     }
   },
   {
-    id: 202,
-    title: "Tráguese ese Sapo: 21 maneras de dejar de procrastinar",
-    author: "Brian Tracy",
+    id: 201,
+    title: "Los 7 Hábitos de la Gente Altamente Efectiva",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     collection: "Bestsellers",
     format: "pdf",
-    year: 2018,
+    year: 2015,
     language: "Español",
-    pages: 140,
-    description: "Una guía contundente y pragmática para erradicar la postergación. Tracy enseña a identificar las tareas más críticas, aplicar la regla del 80/20 y afrontar la tarea más difícil al comenzar el día para multiplicar los resultados en menor tiempo.",
-    cover: "covers/traguese-ese-sapo.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b202_traguese-ese-sapo-brian-tracy.pdf",
-    downloads: 440,
+    pages: 380,
+    description: "Considerado uno de los libros de gestión y desarrollo personal más influyentes del siglo. Covey presenta un enfoque holístico e integrado para resolver problemas personales y profesionales basado en principios imperecederos como la proactividad, el beneficio mutuo y la renovación continua.",
+    cover: "covers/los-7-habitos.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b201_los-7-habitos-stephen-covey.pdf",
+    downloads: 512,
     featured: true,
     aiAnalysis: {
-    genre: "Gestión del Tiempo & Enfoque",
-    vibe: "Práctico & Contundente",
+    genre: "Desarrollo del Liderazgo & Efectividad",
+    vibe: "Clásico & Trascendental",
     keyConcepts: [
-        "Priorización ABCDE",
-        "Erradicación de Procrastinación",
-        "Regla 80/20",
-        "Foco Unidireccional"
+        "Proactividad",
+        "Primero lo Primero",
+        "Ganar-Ganar",
+        "Sinergia"
       ],
-    targetAudience: "Lectores abrumados por el exceso de trabajo que buscan simplificar y ejecutar con rapidez.",
-    aiSummary: "Pautas directas para vencer la pereza mental y ejecutar las tareas de mayor impacto cada día."
+    targetAudience: "Profesionales, directivos y personas orientadas a la excelencia ética y productiva.",
+    aiSummary: "Marco de trabajo integral para la transformación personal y la efectividad interpersonal sostenible."
     }
   },
   {
@@ -770,32 +772,34 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2100,
-    title: "El Exito No Llega Por Casualidad",
-    author: "Dr. Lair Ribeiro",
+    id: 2593,
+    title: "La Biblioteca de la Medianoche",
+    author: "Matt Haig",
     category: "Crecimiento Personal",
+    subtopic: "Filosofía de Vida y Propósito",
+    collection: "Bestsellers",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2100_el-exito-no-llega-por-casualidad-dr-lair-ribeiro.pdf",
-    pages: 52,
-    year: 2007,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2593_la-biblioteca-de-la-medianoche.pdf",
+    pages: 276,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el exito no llega por casualidad por Dr. Lair Ribeiro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-exito-no-llega-por-casualidad-dr-lair-ribeiro.jpg",
-    downloads: 889,
+    description: "Entre la vida y la muerte hay una biblioteca con infinitas estanterías. Cada libro ofrece la oportunidad de probar otra vida que pudiste haber vivido si hubieras tomado decisiones distintas. Un deslumbrante viaje sobre el arrepentimiento, la esperanza y el valor de la vida ordinaria.",
+    cover: "covers/c-2593-la-biblioteca-de-la-medianoche.png",
+    downloads: 915,
     featured: true,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Crecimiento Personal & Reflexión Existencial",
+    vibe: "Esperanzador & Emotivo",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Aceptación Radical",
+        "Gestión del Arrepentimiento",
+        "Sentido de Vida",
+        "Salud Mental",
+        "Gratitud"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Lectores que enfrentan encrucijadas existenciales, duelo de caminos no tomados o búsqueda de paz interior.",
+    aiSummary: "A través de la alegoría de una biblioteca mágica en el umbral del tiempo, Matt Haig explora con delicadeza la depresión, el peso de los arrepentimientos y el descubrimiento de que la vida vale la pena ser vivida tal y como es."
+    }
   },
   {
     id: 2265,
@@ -1131,32 +1135,31 @@ const BOOKS = [
     }
   },
   {
-    id: 203,
-    title: "Focus: Desarrollar la atención para alcanzar la excelencia",
-    author: "Daniel Goleman",
+    id: 202,
+    title: "Tráguese ese Sapo: 21 maneras de dejar de procrastinar",
+    author: "Brian Tracy",
     category: "Productividad & Hábitos",
     collection: "Bestsellers",
-    format: "dual",
-    year: 2014,
+    format: "pdf",
+    year: 2018,
     language: "Español",
-    pages: 320,
-    description: "El psicólogo y autor de Inteligencia Emocional analiza la atención como el activo mental más preciado y escaso del mundo hiperconectado. Explora los tres tipos de foco (interno, hacia los demás y externo) y cómo cultivarlos para la toma de decisiones certeras.",
-    cover: "covers/focus-goleman.jpg",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b203_focus-daniel-goleman.pdf",
-    epub: "pdfs/epubs/focus-daniel-goleman.epub",
-    downloads: 395,
+    pages: 140,
+    description: "Una guía contundente y pragmática para erradicar la postergación. Tracy enseña a identificar las tareas más críticas, aplicar la regla del 80/20 y afrontar la tarea más difícil al comenzar el día para multiplicar los resultados en menor tiempo.",
+    cover: "covers/traguese-ese-sapo.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b202_traguese-ese-sapo-brian-tracy.pdf",
+    downloads: 440,
     featured: true,
     aiAnalysis: {
-    genre: "Psicología Cognitiva & Atención",
-    vibe: "Analítico & Esclarecedor",
+    genre: "Gestión del Tiempo & Enfoque",
+    vibe: "Práctico & Contundente",
     keyConcepts: [
-        "Atención Focalizada",
-        "Foco Interno y Externo",
-        "Sobrecarga de estímulos",
-        "Autocontrol"
+        "Priorización ABCDE",
+        "Erradicación de Procrastinación",
+        "Regla 80/20",
+        "Foco Unidireccional"
       ],
-    targetAudience: "Estudiantes, creadores y líderes que sufren la dispersión de la era de los smartphones.",
-    aiSummary: "Investigación sobre por qué la capacidad de atención profunda determina el éxito en la vida moderna."
+    targetAudience: "Lectores abrumados por el exceso de trabajo que buscan simplificar y ejecutar con rapidez.",
+    aiSummary: "Pautas directas para vencer la pereza mental y ejecutar las tareas de mayor impacto cada día."
     }
   },
   {
@@ -1214,30 +1217,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1967,
-    title: "La Magia de Pensar en Grande",
-    author: "David J. Schwartz",
+    id: 2100,
+    title: "El Exito No Llega Por Casualidad",
+    author: "Dr. Lair Ribeiro",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1967_la-magia-de-pensar-en-grande-david-schwartz.pdf",
-    pages: 146,
-    year: 1959,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2100_el-exito-no-llega-por-casualidad-dr-lair-ribeiro.pdf",
+    pages: 52,
+    year: 2007,
     language: "Español",
-    description: "Clásico intemporal de mentalidad millonaria: cómo superar la mediocridad, fijar objetivos de alto calibre y transformar la actitud para liderar.",
-    cover: "covers/c-emprendedores-la-magia-de-pensar-en-grande-david-schwartz.jpg",
-    downloads: 880,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el exito no llega por casualidad por Dr. Lair Ribeiro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-exito-no-llega-por-casualidad-dr-lair-ribeiro.jpg",
+    downloads: 889,
     featured: true,
     aiAnalysis: {
-    genre: "Mentalidad & Liderazgo",
-    vibe: "Clásico & Empoderador",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Pensamiento de Escala",
-        "Confianza Inquebrantable",
-        "Superación del Miedo",
-        "Hábitos de Acción"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Líderes, comerciales y personas comprometidas con elevar sus estándares profesionales.",
-    aiSummary: "Una de las obras más influyentes en desarrollo del potencial humano: el tamaño de tu cuenta bancaria y de tu éxito dependen del tamaño de tu pensamiento."
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
   },
@@ -1574,32 +1577,33 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2072,
-    title: "El Arte De Cerrar La Venta",
-    author: "Brian Tracy",
+    id: 203,
+    title: "Focus: Desarrollar la atención para alcanzar la excelencia",
+    author: "Daniel Goleman",
     category: "Productividad & Hábitos",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2072_el-arte-de-cerrar-la-venta-brian-tracy-212-paginas.pdf",
-    pages: 58,
-    year: 2020,
+    collection: "Bestsellers",
+    format: "dual",
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de cerrar la venta por Brian Tracy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-cerrar-la-venta-brian-tracy-212-paginas.jpg",
-    downloads: 844,
-    featured: false,
+    pages: 320,
+    description: "El psicólogo y autor de Inteligencia Emocional analiza la atención como el activo mental más preciado y escaso del mundo hiperconectado. Explora los tres tipos de foco (interno, hacia los demás y externo) y cómo cultivarlos para la toma de decisiones certeras.",
+    cover: "covers/focus-goleman.jpg",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b203_focus-daniel-goleman.pdf",
+    epub: "pdfs/epubs/focus-daniel-goleman.epub",
+    downloads: 395,
+    featured: true,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Psicología Cognitiva & Atención",
+    vibe: "Analítico & Esclarecedor",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Atención Focalizada",
+        "Foco Interno y Externo",
+        "Sobrecarga de estímulos",
+        "Autocontrol"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Estudiantes, creadores y líderes que sufren la dispersión de la era de los smartphones.",
+    aiSummary: "Investigación sobre por qué la capacidad de atención profunda determina el éxito en la vida moderna."
+    }
   },
   {
     id: 1453,
@@ -1657,30 +1661,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2220,
-    title: "Las Estaciones De La Vida",
-    author: "Jin Rohn",
+    id: 1967,
+    title: "La Magia de Pensar en Grande",
+    author: "David J. Schwartz",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2220_las-estaciones-de-la-vida-jin-rohn.pdf",
-    pages: 45,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1967_la-magia-de-pensar-en-grande-david-schwartz.pdf",
+    pages: 146,
+    year: 1959,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las estaciones de la vida por Jin Rohn. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-las-estaciones-de-la-vida-jin-rohn.jpg",
-    downloads: 869,
+    description: "Clásico intemporal de mentalidad millonaria: cómo superar la mediocridad, fijar objetivos de alto calibre y transformar la actitud para liderar.",
+    cover: "covers/c-emprendedores-la-magia-de-pensar-en-grande-david-schwartz.jpg",
+    downloads: 880,
     featured: true,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Mentalidad & Liderazgo",
+    vibe: "Clásico & Empoderador",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Pensamiento de Escala",
+        "Confianza Inquebrantable",
+        "Superación del Miedo",
+        "Hábitos de Acción"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    targetAudience: "Líderes, comerciales y personas comprometidas con elevar sus estándares profesionales.",
+    aiSummary: "Una de las obras más influyentes en desarrollo del potencial humano: el tamaño de tu cuenta bancaria y de tu éxito dependen del tamaño de tu pensamiento."
     },
     collection: "Colección Emprendedores"
   },
@@ -1961,17 +1965,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2163,
-    title: "Fuera De Serie - Porque Unas Personas Tienen Exito Y Otras No",
-    author: "Malcolm Gladwell",
+    id: 2320,
+    title: "Se Lo Que Piensas - Secretos Para Leer La Mente",
+    author: "Thorten Havener",
     category: "Psicología & Conducta",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2163_fuera-de-serie-porque-unas-personas-tienen-exito-y.pdf",
-    pages: 155,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2320_se-lo-que-piensas-secretos-para-leer-la-mente-thor.pdf",
+    pages: 45,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre fuera de serie - porque unas personas tienen exito y otras no por Malcolm Gladwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-fuera-de-serie-porque-unas-personas-tienen-exito-y-otras-no.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre se lo que piensas - secretos para leer la mente por Thorten Havener. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-se-lo-que-piensas-secretos-para-leer-la-mente-thorten-havene.jpg",
     downloads: 835,
     featured: false,
     aiAnalysis: {
@@ -2017,18 +2021,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2068,
-    title: "El 8Vo Habito",
-    author: "Stephen R. Covey",
+    id: 2072,
+    title: "El Arte De Cerrar La Venta",
+    author: "Brian Tracy",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2068_el-8vo-habito-stephen-r-covey.pdf",
-    pages: 395,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2072_el-arte-de-cerrar-la-venta-brian-tracy-212-paginas.pdf",
+    pages: 58,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el 8vo habito por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-8vo-habito-stephen-r-covey.jpg",
-    downloads: 818,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de cerrar la venta por Brian Tracy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-cerrar-la-venta-brian-tracy-212-paginas.jpg",
+    downloads: 844,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -2100,18 +2104,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2085,
-    title: "El Arte De Tomar Decisiones",
-    author: "Armando Tapia Olivares",
+    id: 2220,
+    title: "Las Estaciones De La Vida",
+    author: "Jin Rohn",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2085_el-arte-de-tomar-decisiones-armando-tapia-olivares.pdf",
-    pages: 63,
-    year: 2019,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2220_las-estaciones-de-la-vida-jin-rohn.pdf",
+    pages: 45,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de tomar decisiones por Armando Tapia Olivares. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-tomar-decisiones-armando-tapia-olivares.jpg",
-    downloads: 855,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las estaciones de la vida por Jin Rohn. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-las-estaciones-de-la-vida-jin-rohn.jpg",
+    downloads: 869,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -2404,17 +2408,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2213,
-    title: "La Vibracion Del Pensamiento",
-    author: "William Walker Atkinson",
+    id: 2163,
+    title: "Fuera De Serie - Porque Unas Personas Tienen Exito Y Otras No",
+    author: "Malcolm Gladwell",
     category: "Psicología & Conducta",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2213_la-vibracion-del-pensamiento-william-walker-atkins.pdf",
-    pages: 397,
-    year: 2010,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2163_fuera-de-serie-porque-unas-personas-tienen-exito-y.pdf",
+    pages: 155,
+    year: 2015,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la vibracion del pensamiento por William Walker Atkinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vibracion-del-pensamiento-william-walker-atkinson.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre fuera de serie - porque unas personas tienen exito y otras no por Malcolm Gladwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-fuera-de-serie-porque-unas-personas-tienen-exito-y-otras-no.jpg",
     downloads: 835,
     featured: false,
     aiAnalysis: {
@@ -2460,18 +2464,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2007,
-    title: "Autodisciplina En Diez Dias",
-    author: "Theodore Bryant",
+    id: 2068,
+    title: "El 8Vo Habito",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2007_autodisciplina-en-diez-dias-theodore-bryant-111-pa.pdf",
-    pages: 109,
-    year: 2006,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2068_el-8vo-habito-stephen-r-covey.pdf",
+    pages: 395,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autodisciplina en diez dias por Theodore Bryant. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-autodisciplina-en-diez-dias-theodore-bryant-111-paginas.jpg",
-    downloads: 659,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el 8vo habito por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-8vo-habito-stephen-r-covey.jpg",
+    downloads: 818,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -2543,30 +2547,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1982,
-    title: "Lo que Saben los Mejores MBA",
-    author: "Peter Navarro",
+    id: 2085,
+    title: "El Arte De Tomar Decisiones",
+    author: "Armando Tapia Olivares",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1982_lo-que-saben-los-mejores-mba-peter-navarro.pdf",
-    pages: 380,
-    year: 2005,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2085_el-arte-de-tomar-decisiones-armando-tapia-olivares.pdf",
+    pages: 63,
+    year: 2019,
     language: "Español",
-    description: "Compendio de los conceptos esenciales impartidos en las escuelas de negocios más prestigiosas del mundo: estrategia, macroeconomía y decisión gerencial.",
-    cover: "covers/c-emprendedores-lo-que-saben-los-mejores-mba-peter-navarro.jpg",
-    downloads: 850,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de tomar decisiones por Armando Tapia Olivares. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-tomar-decisiones-armando-tapia-olivares.jpg",
+    downloads: 855,
     featured: true,
     aiAnalysis: {
-    genre: "MBA & Estrategia Empresarial",
-    vibe: "Académico & Práctico",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Estrategia Competitiva",
-        "Análisis Financiero",
-        "Macroeconomía para Ejecutivos",
-        "Gestión Operativa"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Profesionales que buscan los fundamentos de un MBA de élite aplicados a sus propios negocios.",
-    aiSummary: "Una panorámica integral de los marcos analíticos y herramientas de decisión que se enseñan en Harvard, Wharton y Stanford."
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
   },
@@ -2626,18 +2630,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1927,
-    title: "Astronomía para Dummies",
-    author: "Stephen P. Maran",
+    id: 1940,
+    title: "Historia del Arte para Dummies",
+    author: "Jesse Bryant Wilder",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1927_astronomia-para-dummies.pdf",
-    year: 2013,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1940_historia-del-arte-para-dummies.pdf",
+    year: 2012,
     language: "Español",
-    pages: 391,
-    description: "Un viaje fascinante por el cosmos: planetas, estrellas, galaxias, agujeros negros y el Big Bang. Cómo observar el cielo nocturno con prismáticos o telescopios y entender los misterios del universo.",
-    cover: "covers/dummies-astronomia-para-dummies.jpg",
+    pages: 279,
+    description: "Desde las pinturas rupestres y el Renacimiento hasta el Impresionismo y el arte contemporáneo. Aprende a contemplar e interpretar cuadros, esculturas y movimientos artísticos.",
+    cover: "covers/dummies-historia-del-arte-para-dummies.jpg",
     downloads: 406,
     featured: true,
     aiAnalysis: {
@@ -2648,8 +2652,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en Astronomía para Dummies.",
-    aiSummary: "Un viaje fascinante por el cosmos: planetas, estrellas, galaxias, agujeros negros y el Big Bang. Cómo observar el cielo nocturno con prismáticos o telescopios y entender los misterios del universo."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en Historia del Arte para Dummies.",
+    aiSummary: "Desde las pinturas rupestres y el Renacimiento hasta el Impresionismo y el arte contemporáneo. Aprende a contemplar e interpretar cuadros, esculturas y movimientos artísticos."
     }
   },
   {
@@ -2818,17 +2822,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2320,
-    title: "Se Lo Que Piensas - Secretos Para Leer La Mente",
-    author: "Thorten Havener",
+    id: 2213,
+    title: "La Vibracion Del Pensamiento",
+    author: "William Walker Atkinson",
     category: "Psicología & Conducta",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2320_se-lo-que-piensas-secretos-para-leer-la-mente-thor.pdf",
-    pages: 45,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2213_la-vibracion-del-pensamiento-william-walker-atkins.pdf",
+    pages: 397,
+    year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre se lo que piensas - secretos para leer la mente por Thorten Havener. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-se-lo-que-piensas-secretos-para-leer-la-mente-thorten-havene.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la vibracion del pensamiento por William Walker Atkinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-vibracion-del-pensamiento-william-walker-atkinson.jpg",
     downloads: 835,
     featured: false,
     aiAnalysis: {
@@ -2874,18 +2878,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2016,
-    title: "Cinco Habitos Que Ayudan A Desarrollar Tu Mente",
-    author: "Editorial Emprendedora",
+    id: 2007,
+    title: "Autodisciplina En Diez Dias",
+    author: "Theodore Bryant",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2016_cinco-habitos-que-ayudan-a-desarrollar-tu-mente.pdf",
-    pages: 45,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2007_autodisciplina-en-diez-dias-theodore-bryant-111-pa.pdf",
+    pages: 109,
+    year: 2006,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre cinco habitos que ayudan a desarrollar tu mente por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-cinco-habitos-que-ayudan-a-desarrollar-tu-mente.jpg",
-    downloads: 634,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autodisciplina en diez dias por Theodore Bryant. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-autodisciplina-en-diez-dias-theodore-bryant-111-paginas.jpg",
+    downloads: 659,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -2958,30 +2962,30 @@ const BOOKS = [
     }
   },
   {
-    id: 2250,
-    title: "Los Millonarios No Nacen Se Hacen",
-    author: "Juan Antonio Gerrero",
+    id: 1982,
+    title: "Lo que Saben los Mejores MBA",
+    author: "Peter Navarro",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2250_los-millonarios-no-nacen-se-hacen-juan-antonio-ger.pdf",
-    pages: 45,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1982_lo-que-saben-los-mejores-mba-peter-navarro.pdf",
+    pages: 380,
+    year: 2005,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los millonarios no nacen se hacen por Juan Antonio Gerrero. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-los-millonarios-no-nacen-se-hacen-juan-antonio-gerrero.jpg",
-    downloads: 831,
+    description: "Compendio de los conceptos esenciales impartidos en las escuelas de negocios más prestigiosas del mundo: estrategia, macroeconomía y decisión gerencial.",
+    cover: "covers/c-emprendedores-lo-que-saben-los-mejores-mba-peter-navarro.jpg",
+    downloads: 850,
     featured: true,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "MBA & Estrategia Empresarial",
+    vibe: "Académico & Práctico",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Estrategia Competitiva",
+        "Análisis Financiero",
+        "Macroeconomía para Ejecutivos",
+        "Gestión Operativa"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    targetAudience: "Profesionales que buscan los fundamentos de un MBA de élite aplicados a sus propios negocios.",
+    aiSummary: "Una panorámica integral de los marcos analíticos y herramientas de decisión que se enseñan en Harvard, Wharton y Stanford."
     },
     collection: "Colección Emprendedores"
   },
@@ -3041,18 +3045,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1940,
-    title: "Historia del Arte para Dummies",
-    author: "Jesse Bryant Wilder",
+    id: 1927,
+    title: "Astronomía para Dummies",
+    author: "Stephen P. Maran",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1940_historia-del-arte-para-dummies.pdf",
-    year: 2012,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1927_astronomia-para-dummies.pdf",
+    year: 2013,
     language: "Español",
-    pages: 279,
-    description: "Desde las pinturas rupestres y el Renacimiento hasta el Impresionismo y el arte contemporáneo. Aprende a contemplar e interpretar cuadros, esculturas y movimientos artísticos.",
-    cover: "covers/dummies-historia-del-arte-para-dummies.jpg",
+    pages: 391,
+    description: "Un viaje fascinante por el cosmos: planetas, estrellas, galaxias, agujeros negros y el Big Bang. Cómo observar el cielo nocturno con prismáticos o telescopios y entender los misterios del universo.",
+    cover: "covers/dummies-astronomia-para-dummies.jpg",
     downloads: 406,
     featured: true,
     aiAnalysis: {
@@ -3063,8 +3067,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en Historia del Arte para Dummies.",
-    aiSummary: "Desde las pinturas rupestres y el Renacimiento hasta el Impresionismo y el arte contemporáneo. Aprende a contemplar e interpretar cuadros, esculturas y movimientos artísticos."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en Astronomía para Dummies.",
+    aiSummary: "Un viaje fascinante por el cosmos: planetas, estrellas, galaxias, agujeros negros y el Big Bang. Cómo observar el cielo nocturno con prismáticos o telescopios y entender los misterios del universo."
     }
   },
   {
@@ -3261,18 +3265,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2056,
-    title: "Desarrolle Tu Disciplina Personal",
-    author: "Steve Pavlina",
+    id: 2016,
+    title: "Cinco Habitos Que Ayudan A Desarrollar Tu Mente",
+    author: "Editorial Emprendedora",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2056_desarrolle-tu-disciplina-personal-steve-pavlina.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2016_cinco-habitos-que-ayudan-a-desarrollar-tu-mente.pdf",
     pages: 45,
     year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolle tu disciplina personal por Steve Pavlina. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-desarrolle-tu-disciplina-personal-steve-pavlina.jpg",
-    downloads: 609,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre cinco habitos que ayudan a desarrollar tu mente por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-cinco-habitos-que-ayudan-a-desarrollar-tu-mente.jpg",
+    downloads: 634,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -3345,30 +3349,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1965,
-    title: "Finanzas para Emprendedores",
-    author: "Antonio Manzanera",
+    id: 2250,
+    title: "Los Millonarios No Nacen Se Hacen",
+    author: "Juan Antonio Gerrero",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1965_finanzas-para-emprendedores-antonio-manzanera.pdf",
-    pages: 312,
-    year: 2012,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2250_los-millonarios-no-nacen-se-hacen-juan-antonio-ger.pdf",
+    pages: 45,
+    year: 2016,
     language: "Español",
-    description: "Manual imprescindible sobre valoración de startups, rondas de financiación, venture capital, pactos de socios y estructura de capital.",
-    cover: "covers/c-emprendedores-finanzas-para-emprendedores-antonio-manzanera.jpg",
-    downloads: 810,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los millonarios no nacen se hacen por Juan Antonio Gerrero. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-los-millonarios-no-nacen-se-hacen-juan-antonio-gerrero.jpg",
+    downloads: 831,
     featured: true,
     aiAnalysis: {
-    genre: "Finanzas & Capital Riesgo",
-    vibe: "Práctico & Riguroso",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Rondas Semilla y Serie A",
-        "Valoración Pre-Money y Post-Money",
-        "Pactos de Socios",
-        "Plan Financiero"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Fundadores en búsqueda de inversión, directores financieros y business angels.",
-    aiSummary: "Todo lo necesario para entender la economía de una startup: cap table, flujo de caja, métricas unitarias y negociación con fondos de inversión."
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
   },
@@ -3564,31 +3568,31 @@ const BOOKS = [
     }
   },
   {
-    id: 1142,
-    title: "Brand Sense: Secretos sensoriales tras las marcas",
+    id: 1321,
+    title: "Brandwashed: El lavado de cerebro de las marcas",
     author: "Martin Lindstrom",
     category: "Libros en Inglés",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1142_Martin_Lindstrom_Brand_Sense_How_to_Build_Powerful_Brands_Through.pdf",
-    year: 2017,
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Martin_Lindstrom_Brandwashed_Tricks_Companies_Use_to_Manipulate.epub",
+    year: 2018,
     language: "Inglés",
-    pages: 146,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-martin-lindstrom-brand-sense-how-to-build-powerful-br.png",
+    pages: 191,
+    description: "Revela los trucos psicológicos encubiertos que las multinacionales usan para manipular nuestras emociones, sembrar lealtad y acelerar compras compulsivas.",
+    cover: "covers/c-martin-lindstrom-brandwashed.jpg",
     downloads: 269,
     featured: false,
     aiAnalysis: {
     genre: "Business & Strategy (English)",
-    vibe: "Persuasivo & Comercial",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Publicistas, diseñadores de marca y estrategas comerciales.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Consumidores conscientes, publicistas y especialistas en neuromarketing.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
@@ -3648,18 +3652,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1991,
-    title: "23 Habitos Inteligentes Para Tus Finanzas Personales",
-    author: "El Contador",
+    id: 2056,
+    title: "Desarrolle Tu Disciplina Personal",
+    author: "Steve Pavlina",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1991_23-habitos-inteligentes-para-tus-finanzas-personal.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2056_desarrolle-tu-disciplina-personal-steve-pavlina.pdf",
     pages: 45,
-    year: 2019,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 23 habitos inteligentes para tus finanzas personales por El Contador. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-23-habitos-inteligentes-para-tus-finanzas-personales-el-cont.jpg",
-    downloads: 608,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolle tu disciplina personal por Steve Pavlina. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-desarrolle-tu-disciplina-personal-steve-pavlina.jpg",
+    downloads: 609,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -3731,30 +3735,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2115,
-    title: "El Libro Negro De La Manipulacion",
-    author: "Ismael Linares",
+    id: 1965,
+    title: "Finanzas para Emprendedores",
+    author: "Antonio Manzanera",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2115_el-libro-negro-de-la-manipulacion-ismael-linares.pdf",
-    pages: 45,
-    year: 2018,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1965_finanzas-para-emprendedores-antonio-manzanera.pdf",
+    pages: 312,
+    year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro negro de la manipulacion por Ismael Linares. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-libro-negro-de-la-manipulacion-ismael-linares.jpg",
-    downloads: 797,
+    description: "Manual imprescindible sobre valoración de startups, rondas de financiación, venture capital, pactos de socios y estructura de capital.",
+    cover: "covers/c-emprendedores-finanzas-para-emprendedores-antonio-manzanera.jpg",
+    downloads: 810,
     featured: true,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Finanzas & Capital Riesgo",
+    vibe: "Práctico & Riguroso",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Rondas Semilla y Serie A",
+        "Valoración Pre-Money y Post-Money",
+        "Pactos de Socios",
+        "Plan Financiero"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    targetAudience: "Fundadores en búsqueda de inversión, directores financieros y business angels.",
+    aiSummary: "Todo lo necesario para entender la economía de una startup: cap table, flujo de caja, métricas unitarias y negociación con fondos de inversión."
     },
     collection: "Colección Emprendedores"
   },
@@ -3950,31 +3954,31 @@ const BOOKS = [
     }
   },
   {
-    id: 1321,
-    title: "Brandwashed: El lavado de cerebro de las marcas",
+    id: 1142,
+    title: "Brand Sense: Secretos sensoriales tras las marcas",
     author: "Martin Lindstrom",
     category: "Libros en Inglés",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Martin_Lindstrom_Brandwashed_Tricks_Companies_Use_to_Manipulate.epub",
-    year: 2018,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1142_Martin_Lindstrom_Brand_Sense_How_to_Build_Powerful_Brands_Through.pdf",
+    year: 2017,
     language: "Inglés",
-    pages: 191,
-    description: "Revela los trucos psicológicos encubiertos que las multinacionales usan para manipular nuestras emociones, sembrar lealtad y acelerar compras compulsivas.",
-    cover: "covers/c-martin-lindstrom-brandwashed.jpg",
+    pages: 146,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-martin-lindstrom-brand-sense-how-to-build-powerful-br.png",
     downloads: 269,
     featured: false,
     aiAnalysis: {
     genre: "Business & Strategy (English)",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Persuasivo & Comercial",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
       ],
-    targetAudience: "Consumidores conscientes, publicistas y especialistas en neuromarketing.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Publicistas, diseñadores de marca y estrategas comerciales.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -4034,18 +4038,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2087,
-    title: "El Camino Hacia La Riqueza",
-    author: "Brian Tracy",
+    id: 1991,
+    title: "23 Habitos Inteligentes Para Tus Finanzas Personales",
+    author: "El Contador",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2087_el-camino-hacia-la-riqueza-brian-tracy.pdf",
-    pages: 363,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1991_23-habitos-inteligentes-para-tus-finanzas-personal.pdf",
+    pages: 45,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el camino hacia la riqueza por Brian Tracy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-camino-hacia-la-riqueza-brian-tracy.jpg",
-    downloads: 573,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 23 habitos inteligentes para tus finanzas personales por El Contador. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-23-habitos-inteligentes-para-tus-finanzas-personales-el-cont.jpg",
+    downloads: 608,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4117,18 +4121,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2295,
-    title: "Pasos De Gigantes",
-    author: "Anthony Robbins",
+    id: 2115,
+    title: "El Libro Negro De La Manipulacion",
+    author: "Ismael Linares",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2295_pasos-de-gigantes-anthony-robbins.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2115_el-libro-negro-de-la-manipulacion-ismael-linares.pdf",
     pages: 45,
-    year: 2019,
+    year: 2018,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pasos de gigantes por Anthony Robbins. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-pasos-de-gigantes-anthony-robbins.jpg",
-    downloads: 737,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro negro de la manipulacion por Ismael Linares. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-libro-negro-de-la-manipulacion-ismael-linares.jpg",
+    downloads: 797,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4421,18 +4425,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2245,
-    title: "Los 7 Habitos De La Gente Altamente Efectiva",
-    author: "Stephen R. Covey",
+    id: 2087,
+    title: "El Camino Hacia La Riqueza",
+    author: "Brian Tracy",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2245_los-7-habitos-de-la-gente-altamente-efectiva-steph.pdf",
-    pages: 149,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2087_el-camino-hacia-la-riqueza-brian-tracy.pdf",
+    pages: 363,
     year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los 7 habitos de la gente altamente efectiva por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-los-7-habitos-de-la-gente-altamente-efectiva-stephen-r-covey.jpg",
-    downloads: 565,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el camino hacia la riqueza por Brian Tracy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-camino-hacia-la-riqueza-brian-tracy.jpg",
+    downloads: 573,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4504,18 +4508,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2025,
-    title: "Como Adquirir Una Super Memoria",
-    author: "Harry Lorayne",
+    id: 2295,
+    title: "Pasos De Gigantes",
+    author: "Anthony Robbins",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2025_como-adquirir-una-super-memoria-harry-lorayne.pdf",
-    pages: 76,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2295_pasos-de-gigantes-anthony-robbins.pdf",
+    pages: 45,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como adquirir una super memoria por Harry Lorayne. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-adquirir-una-super-memoria-harry-lorayne.jpg",
-    downloads: 693,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pasos de gigantes por Anthony Robbins. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-pasos-de-gigantes-anthony-robbins.jpg",
+    downloads: 737,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4560,30 +4564,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1775,
-    title: "Breve Historia de las Ciudades del Mundo Clasico",
-    author: "Angel LUis Vera",
+    id: 1812,
+    title: "Breve historia de Roma II. El Imperio",
+    author: "Ediciones Nowtilus",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1775_bh-ciudades-del-mundo-clasico.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1812_bh-roma-ii-el-imperio.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 141,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de las Ciudades del Mundo Clasico.",
-    cover: "covers/bh-ciudades-del-mundo-clasico.jpg",
+    pages: 170,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Roma II. El Imperio.",
+    cover: "covers/bh-roma-ii-el-imperio.jpg",
     downloads: 521,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
+    vibe: "Marcial & Erudito",
     keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
+        "Antigua Roma",
+        "Estrategia Imperial",
+        "Poder y Senado"
       ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de las Ciudades del Mundo Clasico, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Aficionados al mundo clasico, historiadores y estrategas.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Roma II. El Imperio, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -4808,18 +4812,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2253,
-    title: "Los Siete Habitos Para Dirigir Tu Vida",
-    author: "Jose M. Acosta",
+    id: 2245,
+    title: "Los 7 Habitos De La Gente Altamente Efectiva",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2253_los-siete-habitos-para-dirigir-tu-vida-jose-m-acos.pdf",
-    pages: 45,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2245_los-7-habitos-de-la-gente-altamente-efectiva-steph.pdf",
+    pages: 149,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los siete habitos para dirigir tu vida por Jose M. Acosta. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-los-siete-habitos-para-dirigir-tu-vida-jose-m-acosta.jpg",
-    downloads: 496,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los 7 habitos de la gente altamente efectiva por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-los-7-habitos-de-la-gente-altamente-efectiva-stephen-r-covey.jpg",
+    downloads: 565,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4891,18 +4895,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2325,
-    title: "Ser Paz _ El Corazon De La Comprension",
-    author: "Thich Nhat Hanh",
+    id: 2025,
+    title: "Como Adquirir Una Super Memoria",
+    author: "Harry Lorayne",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2325_ser-paz-el-corazon-de-la-comprension-thich-nhat-ha.pdf",
-    pages: 129,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2025_como-adquirir-una-super-memoria-harry-lorayne.pdf",
+    pages: 76,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ser paz _ el corazon de la comprension por Thich Nhat Hanh. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-ser-paz-el-corazon-de-la-comprension-thich-nhat-hanh.jpg",
-    downloads: 689,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como adquirir una super memoria por Harry Lorayne. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-adquirir-una-super-memoria-harry-lorayne.jpg",
+    downloads: 693,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4947,30 +4951,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1812,
-    title: "Breve historia de Roma II. El Imperio",
-    author: "Ediciones Nowtilus",
+    id: 1775,
+    title: "Breve Historia de las Ciudades del Mundo Clasico",
+    author: "Angel LUis Vera",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1812_bh-roma-ii-el-imperio.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1775_bh-ciudades-del-mundo-clasico.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 170,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Roma II. El Imperio.",
-    cover: "covers/bh-roma-ii-el-imperio.jpg",
+    pages: 141,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de las Ciudades del Mundo Clasico.",
+    cover: "covers/bh-ciudades-del-mundo-clasico.jpg",
     downloads: 521,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Marcial & Erudito",
+    vibe: "Riguroso & Esclarecedor",
     keyConcepts: [
-        "Antigua Roma",
-        "Estrategia Imperial",
-        "Poder y Senado"
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
       ],
-    targetAudience: "Aficionados al mundo clasico, historiadores y estrategas.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Roma II. El Imperio, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de las Ciudades del Mundo Clasico, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -5195,18 +5199,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2032,
-    title: "Como Estudiar Y Aprender Mas Y Mejor En Menos Tiempo",
-    author: "Richard Fenker",
+    id: 2253,
+    title: "Los Siete Habitos Para Dirigir Tu Vida",
+    author: "Jose M. Acosta",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2032_como-estudiar-y-aprender-mas-y-mejor-en-menos-tiem.pdf",
-    pages: 77,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2253_los-siete-habitos-para-dirigir-tu-vida-jose-m-acos.pdf",
+    pages: 45,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como estudiar y aprender mas y mejor en menos tiempo por Richard Fenker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-estudiar-y-aprender-mas-y-mejor-en-menos-tiempo-richard.jpg",
-    downloads: 457,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los siete habitos para dirigir tu vida por Jose M. Acosta. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-los-siete-habitos-para-dirigir-tu-vida-jose-m-acosta.jpg",
+    downloads: 496,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -5278,18 +5282,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2310,
-    title: "Quien Se Ha Llevado Mi Queso",
-    author: "Spencer Johnson",
+    id: 2325,
+    title: "Ser Paz _ El Corazon De La Comprension",
+    author: "Thich Nhat Hanh",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2310_quien-se-ha-llevado-mi-queso-spencer-johnson.pdf",
-    pages: 45,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2325_ser-paz-el-corazon-de-la-comprension-thich-nhat-ha.pdf",
+    pages: 129,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quien se ha llevado mi queso por Spencer Johnson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-quien-se-ha-llevado-mi-queso-spencer-johnson.jpg",
-    downloads: 662,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ser paz _ el corazon de la comprension por Thich Nhat Hanh. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-ser-paz-el-corazon-de-la-comprension-thich-nhat-hanh.jpg",
+    downloads: 689,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -5555,18 +5559,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2028,
-    title: "Como Construir La Autodisciplina",
-    author: "Martin Meadows",
+    id: 2032,
+    title: "Como Estudiar Y Aprender Mas Y Mejor En Menos Tiempo",
+    author: "Richard Fenker",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2028_como-construir-la-autodisciplina-martin-meadows.pdf",
-    pages: 208,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2032_como-estudiar-y-aprender-mas-y-mejor-en-menos-tiem.pdf",
+    pages: 77,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como construir la autodisciplina por Martin Meadows. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-construir-la-autodisciplina-martin-meadows.jpg",
-    downloads: 452,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como estudiar y aprender mas y mejor en menos tiempo por Richard Fenker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-estudiar-y-aprender-mas-y-mejor-en-menos-tiempo-richard.jpg",
+    downloads: 457,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -5638,18 +5642,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2340,
-    title: "The Millonaire Next Door",
-    author: "Thomas Stanley _ William Danko",
+    id: 2310,
+    title: "Quien Se Ha Llevado Mi Queso",
+    author: "Spencer Johnson",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2340_the-millonaire-next-door-thomas-stanley-william-da.pdf",
-    pages: 921,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2310_quien-se-ha-llevado-mi-queso-spencer-johnson.pdf",
+    pages: 45,
+    year: 2017,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre the millonaire next door por Thomas Stanley _ William Danko. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-the-millonaire-next-door-thomas-stanley-william-danko.jpg",
-    downloads: 627,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quien se ha llevado mi queso por Spencer Johnson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-quien-se-ha-llevado-mi-queso-spencer-johnson.jpg",
+    downloads: 662,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -5916,18 +5920,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2168,
-    title: "Guia De Habitos Inteligentes",
-    author: "I. C. Robledo",
+    id: 2028,
+    title: "Como Construir La Autodisciplina",
+    author: "Martin Meadows",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2168_guia-de-habitos-inteligentes-i-c-robledo.pdf",
-    pages: 45,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2028_como-construir-la-autodisciplina-martin-meadows.pdf",
+    pages: 208,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre guia de habitos inteligentes por I. C. Robledo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-guia-de-habitos-inteligentes-i-c-robledo.jpg",
-    downloads: 439,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como construir la autodisciplina por Martin Meadows. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-construir-la-autodisciplina-martin-meadows.jpg",
+    downloads: 452,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -6000,18 +6004,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2175,
-    title: "Hipnosis Para Principiantes",
-    author: "William W. Hewitt",
+    id: 2340,
+    title: "The Millonaire Next Door",
+    author: "Thomas Stanley _ William Danko",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2175_hipnosis-para-principiantes-william-w-hewitt.pdf",
-    pages: 45,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2340_the-millonaire-next-door-thomas-stanley-william-da.pdf",
+    pages: 921,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre hipnosis para principiantes por William W. Hewitt. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-hipnosis-para-principiantes-william-w-hewitt.jpg",
-    downloads: 623,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre the millonaire next door por Thomas Stanley _ William Danko. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-the-millonaire-next-door-thomas-stanley-william-danko.jpg",
+    downloads: 627,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -6056,30 +6060,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1727,
-    title: "Breve historia de la Antigua Grecia",
-    author: "Dionisio Minguez Fernandez",
+    id: 1786,
+    title: "Breve historia de los celtas version extendida",
+    author: "Velasco Manuel",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1727_bh-antigua-grecia.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1786_bh-celtas-version-extendida.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 150,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Antigua Grecia.",
-    cover: "covers/bh-antigua-grecia.jpg",
+    pages: 314,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los celtas version extendida.",
+    cover: "covers/bh-celtas-version-extendida.jpg",
     downloads: 515,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Filosofico & Epico",
+    vibe: "Mistico & Revelador",
     keyConcepts: [
-        "Mundo Helenistico",
-        "Tactica Militar",
-        "Cultura Clasica"
+        "Mitologia Ancestral",
+        "Ordenes y Misterios",
+        "Cosmovision Historica"
       ],
-    targetAudience: "Lectores interesados en el origen de la civilizacion occidental.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Antigua Grecia, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Investigadores de mitos, simbolismo y enigmas del pasado.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los celtas version extendida, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -6277,33 +6281,32 @@ const BOOKS = [
     }
   },
   {
-    id: 204,
-    title: "Organízate con Eficacia (GTD)",
-    author: "David Allen",
+    id: 2168,
+    title: "Guia De Habitos Inteligentes",
+    author: "I. C. Robledo",
     category: "Productividad & Hábitos",
-    collection: "Bestsellers",
-    format: "dual",
-    year: 2016,
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2168_guia-de-habitos-inteligentes-i-c-robledo.pdf",
+    pages: 45,
+    year: 2021,
     language: "Español",
-    pages: 360,
-    description: "El método de productividad personal más aclamado internacionalmente (Getting Things Done). Allen demuestra que la mente debe usarse para tener ideas, no para retenerlas, enseñando a vaciar la mente mediante un sistema fiable de bandejas de entrada, listas de acciones y revisiones periódicas.",
-    cover: "covers/organizate-con-eficacia.jpg",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b204_organizate-con-eficacia-david-allen.pdf",
-    epub: "pdfs/epubs/organizate-con-eficacia-david-allen.epub",
-    downloads: 410,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre guia de habitos inteligentes por I. C. Robledo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-guia-de-habitos-inteligentes-i-c-robledo.jpg",
+    downloads: 439,
     featured: false,
     aiAnalysis: {
-    genre: "Metodología GTD & Organización",
-    vibe: "Estructurado & Eficiente",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Vaciar la Mente",
-        "Procesamiento de Acciones",
-        "Contextos",
-        "Revisión Semanal"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Profesionales y creativos con múltiples proyectos que necesitan orden mental sin estrés.",
-    aiSummary: "Sistema completo para capturar compromisos, estructurar tareas y trabajar con tranquilidad mental."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2101,
@@ -6362,18 +6365,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2040,
-    title: "Como Vencer Los No Del Prospecto",
-    author: "Editorial Emprendedora",
+    id: 2175,
+    title: "Hipnosis Para Principiantes",
+    author: "William W. Hewitt",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2040_como-vencer-los-no-del-prospecto.pdf",
-    pages: 83,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2175_hipnosis-para-principiantes-william-w-hewitt.pdf",
+    pages: 45,
     year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como vencer los no del prospecto por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-vencer-los-no-del-prospecto.jpg",
-    downloads: 575,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre hipnosis para principiantes por William W. Hewitt. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-hipnosis-para-principiantes-william-w-hewitt.jpg",
+    downloads: 623,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -6418,30 +6421,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1786,
-    title: "Breve historia de los celtas version extendida",
-    author: "Velasco Manuel",
+    id: 1727,
+    title: "Breve historia de la Antigua Grecia",
+    author: "Dionisio Minguez Fernandez",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1786_bh-celtas-version-extendida.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1727_bh-antigua-grecia.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 314,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los celtas version extendida.",
-    cover: "covers/bh-celtas-version-extendida.jpg",
+    pages: 150,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Antigua Grecia.",
+    cover: "covers/bh-antigua-grecia.jpg",
     downloads: 515,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Mistico & Revelador",
+    vibe: "Filosofico & Epico",
     keyConcepts: [
-        "Mitologia Ancestral",
-        "Ordenes y Misterios",
-        "Cosmovision Historica"
+        "Mundo Helenistico",
+        "Tactica Militar",
+        "Cultura Clasica"
       ],
-    targetAudience: "Investigadores de mitos, simbolismo y enigmas del pasado.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los celtas version extendida, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores interesados en el origen de la civilizacion occidental.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Antigua Grecia, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -6638,32 +6641,33 @@ const BOOKS = [
     }
   },
   {
-    id: 2126,
-    title: "El Octavo Habito De La Efectividad A La Grandeza",
-    author: "Stephen R. Covey",
+    id: 204,
+    title: "Organízate con Eficacia (GTD)",
+    author: "David Allen",
     category: "Productividad & Hábitos",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2126_el-octavo-habito-de-la-efectividad-a-la-grandeza-s.pdf",
-    pages: 209,
-    year: 2008,
+    collection: "Bestsellers",
+    format: "dual",
+    year: 2016,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el octavo habito de la efectividad a la grandeza por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-octavo-habito-de-la-efectividad-a-la-grandeza-stephen-r-c.jpg",
-    downloads: 396,
+    pages: 360,
+    description: "El método de productividad personal más aclamado internacionalmente (Getting Things Done). Allen demuestra que la mente debe usarse para tener ideas, no para retenerlas, enseñando a vaciar la mente mediante un sistema fiable de bandejas de entrada, listas de acciones y revisiones periódicas.",
+    cover: "covers/organizate-con-eficacia.jpg",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b204_organizate-con-eficacia-david-allen.pdf",
+    epub: "pdfs/epubs/organizate-con-eficacia-david-allen.epub",
+    downloads: 410,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Metodología GTD & Organización",
+    vibe: "Estructurado & Eficiente",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Vaciar la Mente",
+        "Procesamiento de Acciones",
+        "Contextos",
+        "Revisión Semanal"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Profesionales y creativos con múltiples proyectos que necesitan orden mental sin estrés.",
+    aiSummary: "Sistema completo para capturar compromisos, estructurar tareas y trabajar con tranquilidad mental."
+    }
   },
   {
     id: 2211,
@@ -6722,32 +6726,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 606,
-    title: "El Sutil Arte de que (casi todo) te Importe una Mierda",
-    author: "Mark Manson",
+    id: 2040,
+    title: "Como Vencer Los No Del Prospecto",
+    author: "Editorial Emprendedora",
     category: "Crecimiento Personal",
-    collection: "Bestsellers",
     format: "pdf",
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2040_como-vencer-los-no-del-prospecto.pdf",
+    pages: 83,
+    year: 2021,
     language: "Español",
-    pages: 224,
-    description: "Un enfoque rompedor y sin anestesia hacia la autoayuda moderna. Manson sostiene que mejorar nuestra vida no depende de saber transformar limones en limonada, sino de aprender a tolerar y digerir los limones: elegir conscientemente por qué luchas y qué estás dispuesto a dejar de lado.",
-    cover: "covers/el-sutil-arte.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b606_el-sutil-arte-mark-manson.pdf",
-    downloads: 530,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como vencer los no del prospecto por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-vencer-los-no-del-prospecto.jpg",
+    downloads: 575,
     featured: true,
     aiAnalysis: {
-    genre: "Filosofía Práctica & Anti-Autoayuda",
-    vibe: "Crudo & Liberador",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Aceptación Radical",
-        "Valores Reales",
-        "Responsabilidad Personal",
-        "Elección de Batallas"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Lectores saturados del positivismo tóxico que buscan sensatez y autenticidad visceral.",
-    aiSummary: "Manifiesto provocador para aprender a dar importancia únicamente a lo que verdaderamente enriquece tu vida."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2267,
@@ -7000,18 +7004,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2199,
-    title: "La Guia De Habitos Exitosos",
-    author: "J. Santiago",
+    id: 2126,
+    title: "El Octavo Habito De La Efectividad A La Grandeza",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2199_la-guia-de-habitos-exitosos-j-santiago.pdf",
-    pages: 45,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2126_el-octavo-habito-de-la-efectividad-a-la-grandeza-s.pdf",
+    pages: 209,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la guia de habitos exitosos por J. Santiago. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-guia-de-habitos-exitosos-j-santiago.jpg",
-    downloads: 350,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el octavo habito de la efectividad a la grandeza por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-octavo-habito-de-la-efectividad-a-la-grandeza-stephen-r-c.jpg",
+    downloads: 396,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -7083,32 +7087,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2205,
-    title: "La Magia Mental",
-    author: "William W. Atkinson",
+    id: 606,
+    title: "El Sutil Arte de que (casi todo) te Importe una Mierda",
+    author: "Mark Manson",
     category: "Crecimiento Personal",
+    collection: "Bestsellers",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2205_la-magia-mental-william-w-atkinson.pdf",
-    pages: 45,
-    year: 2009,
+    year: 2016,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la magia mental por William W. Atkinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-magia-mental-william-w-atkinson.jpg",
-    downloads: 529,
+    pages: 224,
+    description: "Un enfoque rompedor y sin anestesia hacia la autoayuda moderna. Manson sostiene que mejorar nuestra vida no depende de saber transformar limones en limonada, sino de aprender a tolerar y digerir los limones: elegir conscientemente por qué luchas y qué estás dispuesto a dejar de lado.",
+    cover: "covers/el-sutil-arte.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b606_el-sutil-arte-mark-manson.pdf",
+    downloads: 530,
     featured: true,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Filosofía Práctica & Anti-Autoayuda",
+    vibe: "Crudo & Liberador",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Aceptación Radical",
+        "Valores Reales",
+        "Responsabilidad Personal",
+        "Elección de Batallas"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Lectores saturados del positivismo tóxico que buscan sensatez y autenticidad visceral.",
+    aiSummary: "Manifiesto provocador para aprender a dar importancia únicamente a lo que verdaderamente enriquece tu vida."
+    }
   },
   {
     id: 2012,
@@ -7360,32 +7364,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1012,
-    title: "Ponte en Forma Sin Perder el Tiempo",
-    author: "Selección Bibliotyan",
+    id: 2199,
+    title: "La Guia De Habitos Exitosos",
+    author: "J. Santiago",
     category: "Productividad & Hábitos",
-    collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1012_Ponte_en_forma_sin_perder_el_tiempo.pdf",
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2199_la-guia-de-habitos-exitosos-j-santiago.pdf",
+    pages: 45,
+    year: 2016,
     language: "Español",
-    pages: 416,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-ponte-en-forma-sin-perder-el-tiempo.png",
-    downloads: 339,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la guia de habitos exitosos por J. Santiago. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-guia-de-habitos-exitosos-j-santiago.jpg",
+    downloads: 350,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 1468,
@@ -7443,18 +7447,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2130,
-    title: "El Poder De La Intencion",
-    author: "Wayne W. Dyer",
+    id: 2205,
+    title: "La Magia Mental",
+    author: "William W. Atkinson",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2130_el-poder-de-la-intencion-wayne-w-dyer-254-paginas.pdf",
-    pages: 65,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2205_la-magia-mental-william-w-atkinson.pdf",
+    pages: 45,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el poder de la intencion por Wayne W. Dyer. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-poder-de-la-intencion-wayne-w-dyer-254-paginas.jpg",
-    downloads: 515,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la magia mental por William W. Atkinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-magia-mental-william-w-atkinson.jpg",
+    downloads: 529,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -7471,17 +7475,17 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2009,
-    title: "Branding",
-    author: "Doppler",
+    id: 2116,
+    title: "El Libro Negro De La Persuasion",
+    author: "Alejandro Llantada",
     category: "Marketing & Ventas",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2009_branding-doppler.pdf",
-    pages: 104,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2116_el-libro-negro-de-la-persuasion-alejandro-llantada.pdf",
+    pages: 46,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre branding por Doppler. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-branding-doppler.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro negro de la persuasion por Alejandro Llantada. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-libro-negro-de-la-persuasion-alejandro-llantada.jpg",
     downloads: 618,
     featured: false,
     aiAnalysis: {
@@ -7719,19 +7723,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1011,
-    title: "Los 7 Habitos de la Gente Altamente Efectiva",
-    author: "Stephen R. Covey",
+    id: 1012,
+    title: "Ponte en Forma Sin Perder el Tiempo",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1011_LOS_7_HABITOS_DE_LA_GENTE_ALTAMENTE_EFECTIVA_-_STEPHEN_R._COVEY.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1012_Ponte_en_forma_sin_perder_el_tiempo.pdf",
+    year: 2017,
     language: "Español",
-    pages: 403,
+    pages: 416,
     description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-los-7-habitos-de-la-gente-altamente-efectiva-stephen.png",
-    downloads: 332,
+    cover: "covers/c-ponte-en-forma-sin-perder-el-tiempo.png",
+    downloads: 339,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -7802,18 +7806,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2010,
-    title: "Burlar Al Diablo - Secreto Desde La Cripta",
-    author: "Napoleon Hill",
+    id: 2130,
+    title: "El Poder De La Intencion",
+    author: "Wayne W. Dyer",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2010_burlar-al-diablo-secreto-desde-la-cripta-napoleon.pdf",
-    pages: 55,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2130_el-poder-de-la-intencion-wayne-w-dyer-254-paginas.pdf",
+    pages: 65,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre burlar al diablo - secreto desde la cripta por Napoleon Hill. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-burlar-al-diablo-secreto-desde-la-cripta-napoleon-hill.jpg",
-    downloads: 366,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el poder de la intencion por Wayne W. Dyer. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-poder-de-la-intencion-wayne-w-dyer-254-paginas.jpg",
+    downloads: 515,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -7830,17 +7834,17 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2116,
-    title: "El Libro Negro De La Persuasion",
-    author: "Alejandro Llantada",
+    id: 2009,
+    title: "Branding",
+    author: "Doppler",
     category: "Marketing & Ventas",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2116_el-libro-negro-de-la-persuasion-alejandro-llantada.pdf",
-    pages: 46,
-    year: 2019,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2009_branding-doppler.pdf",
+    pages: 104,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro negro de la persuasion por Alejandro Llantada. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-libro-negro-de-la-persuasion-alejandro-llantada.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre branding por Doppler. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-branding-doppler.jpg",
     downloads: 618,
     featured: false,
     aiAnalysis: {
@@ -8023,20 +8027,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1010,
-    title: "El Poder del Desorden",
-    author: "Tim Harford",
+    id: 1011,
+    title: "Los 7 Habitos de la Gente Altamente Efectiva",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     collection: "General",
-    format: "dual",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1010_El_poder_del_desorden_-_Tim_Harford.pdf",
-    epub: "pdfs/epubs/el-poder-del-desorden-tim-harford.epub",
-    year: 2015,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1011_LOS_7_HABITOS_DE_LA_GENTE_ALTAMENTE_EFECTIVA_-_STEPHEN_R._COVEY.pdf",
+    year: 2016,
     language: "Español",
-    pages: 390,
+    pages: 403,
     description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-poder-del-desorden-tim-harford.png",
-    downloads: 325,
+    cover: "covers/c-los-7-habitos-de-la-gente-altamente-efectiva-stephen.png",
+    downloads: 332,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -8107,32 +8110,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 601,
-    title: "Una Vida sin Límites",
-    author: "Nick Vujicic",
+    id: 2010,
+    title: "Burlar Al Diablo - Secreto Desde La Cripta",
+    author: "Napoleon Hill",
     category: "Crecimiento Personal",
-    collection: "Superación",
     format: "pdf",
-    year: 2012,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2010_burlar-al-diablo-secreto-desde-la-cripta-napoleon.pdf",
+    pages: 55,
+    year: 2021,
     language: "Español",
-    pages: 280,
-    description: "Nacido sin brazos ni piernas debido al síndrome de focomelia, Nick Vujicic comparte su testimonio conmovedor de cómo transformó el desespero en una vida de propósito extraordinario, amor incondicional y fe inquebrantable.",
-    cover: "covers/vida-sin-limites.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b601_una-vida-sin-limites-nick-vujicic.pdf",
-    downloads: 360,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre burlar al diablo - secreto desde la cripta por Napoleon Hill. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-burlar-al-diablo-secreto-desde-la-cripta-napoleon-hill.jpg",
+    downloads: 366,
     featured: true,
     aiAnalysis: {
-    genre: "Superación & Testimonio Real",
-    vibe: "Conmovedor & Esperanzador",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gratitud Incondicional",
-        "Propósito Mayor",
-        "Resiliencia Extrema",
-        "Fe"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Cualquier persona que enfrente adversidades graves y necesite renovar su amor por la vida.",
-    aiSummary: "lección magistral de coraje y gratitud ante dificultades físicas y emocionales aparentemente insuperables."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2202,
@@ -8329,31 +8332,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1327,
-    title: "Redes Neuronales Guia Sencilla",
-    author: "Selección Bibliotyan",
+    id: 1010,
+    title: "El Poder del Desorden",
+    author: "Tim Harford",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/REDES_NEURONALES__Guia_Sencilla.epub",
-    year: 2024,
+    collection: "General",
+    format: "dual",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1010_El_poder_del_desorden_-_Tim_Harford.pdf",
+    epub: "pdfs/epubs/el-poder-del-desorden-tim-harford.epub",
+    year: 2015,
     language: "Español",
-    pages: 257,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-redes-neuronales-guia-sencilla.jpeg",
-    downloads: 323,
+    pages: 390,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-poder-del-desorden-tim-harford.png",
+    downloads: 325,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -8412,32 +8416,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2160,
-    title: "Fire And Fury Inside The Trump",
-    author: "Michael Wolff",
+    id: 601,
+    title: "Una Vida sin Límites",
+    author: "Nick Vujicic",
     category: "Crecimiento Personal",
+    collection: "Superación",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2160_fire-and-fury-inside-the-trump-michael-wolff.pdf",
-    pages: 366,
-    year: 2006,
+    year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre fire and fury inside the trump por Michael Wolff. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-fire-and-fury-inside-the-trump-michael-wolff.jpg",
+    pages: 280,
+    description: "Nacido sin brazos ni piernas debido al síndrome de focomelia, Nick Vujicic comparte su testimonio conmovedor de cómo transformó el desespero en una vida de propósito extraordinario, amor incondicional y fe inquebrantable.",
+    cover: "covers/vida-sin-limites.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b601_una-vida-sin-limites-nick-vujicic.pdf",
     downloads: 360,
     featured: true,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Superación & Testimonio Real",
+    vibe: "Conmovedor & Esperanzador",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Gratitud Incondicional",
+        "Propósito Mayor",
+        "Resiliencia Extrema",
+        "Fe"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Cualquier persona que enfrente adversidades graves y necesite renovar su amor por la vida.",
+    aiSummary: "lección magistral de coraje y gratitud ante dificultades físicas y emocionales aparentemente insuperables."
+    }
   },
   {
     id: 2189,
@@ -8633,31 +8637,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1009,
-    title: "Eficacia Ejecutiva",
+    id: 1327,
+    title: "Redes Neuronales Guia Sencilla",
     author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1009_Eficacia_ejecutiva.pdf",
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/REDES_NEURONALES__Guia_Sencilla.epub",
     year: 2024,
     language: "Español",
-    pages: 377,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-eficacia-ejecutiva.png",
-    downloads: 318,
+    pages: 257,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-redes-neuronales-guia-sencilla.jpeg",
+    downloads: 323,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
@@ -8716,18 +8720,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2235,
-    title: "Leyes",
-    author: "Presentacion",
+    id: 2160,
+    title: "Fire And Fury Inside The Trump",
+    author: "Michael Wolff",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2235_leyes-presentacion.pdf",
-    pages: 437,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2160_fire-and-fury-inside-the-trump-michael-wolff.pdf",
+    pages: 366,
+    year: 2006,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por Presentacion. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-presentacion.jpg",
-    downloads: 345,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre fire and fury inside the trump por Michael Wolff. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-fire-and-fury-inside-the-trump-michael-wolff.jpg",
+    downloads: 360,
     featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -8910,31 +8914,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1326,
-    title: "Productividad Personal Aprende",
-    author: "Jose Miguel Bolivar",
+    id: 1009,
+    title: "Eficacia Ejecutiva",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Productividad Personal_ Aprende - Jose Miguel Bolivar.epub",
-    year: 2023,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1009_Eficacia_ejecutiva.pdf",
+    year: 2024,
     language: "Español",
-    pages: 246,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-productividad-personal-aprende-jose-miguel-bolivar.jpg",
-    downloads: 314,
+    pages: 377,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-eficacia-ejecutiva.png",
+    downloads: 318,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -8993,19 +8997,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1997,
-    title: "Ahorra Y Se Feliz",
-    author: "Tomas Pulido Galan",
+    id: 2235,
+    title: "Leyes",
+    author: "Presentacion",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1997_ahorra-y-se-feliz-tomas-pulido-galan.pdf",
-    pages: 45,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2235_leyes-presentacion.pdf",
+    pages: 437,
+    year: 2017,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ahorra y se feliz por Tomas Pulido Galan. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-ahorra-y-se-feliz-tomas-pulido-galan.jpg",
-    downloads: 889,
-    featured: false,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por Presentacion. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-presentacion.jpg",
+    downloads: 345,
+    featured: true,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
     vibe: "Práctico & Accesible",
@@ -9187,31 +9191,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1008,
-    title: "Desarrollo Organizacional. Principios y Aplicaciones",
-    author: "Selección Bibliotyan",
+    id: 1326,
+    title: "Productividad Personal Aprende",
+    author: "Jose Miguel Bolivar",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1008_Desarrollo_organizacional._Principios_y_aplicaciones.pdf",
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Productividad Personal_ Aprende - Jose Miguel Bolivar.epub",
     year: 2023,
     language: "Español",
-    pages: 364,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-desarrollo-organizacional-principios-y-aplicaciones.png",
-    downloads: 311,
+    pages: 246,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-productividad-personal-aprende-jose-miguel-bolivar.jpg",
+    downloads: 314,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
@@ -9270,18 +9274,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2065,
-    title: "Econometria",
-    author: "Damodar N. Gujarati _ Dawn C. Porter",
+    id: 1997,
+    title: "Ahorra Y Se Feliz",
+    author: "Tomas Pulido Galan",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2065_econometria-damodar-n-gujarati-dawn-c-porter.pdf",
-    pages: 353,
-    year: 2019,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1997_ahorra-y-se-feliz-tomas-pulido-galan.pdf",
+    pages: 45,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre econometria por Damodar N. Gujarati _ Dawn C. Porter. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-econometria-damodar-n-gujarati-dawn-c-porter.jpg",
-    downloads: 888,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ahorra y se feliz por Tomas Pulido Galan. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-ahorra-y-se-feliz-tomas-pulido-galan.jpg",
+    downloads: 889,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -9464,31 +9468,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1325,
-    title: "Productividad Personal en una S",
-    author: "Jeronimo Sanchez",
+    id: 1008,
+    title: "Desarrollo Organizacional. Principios y Aplicaciones",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Productividad personal en una s - Jeronimo Sanchez.epub",
-    year: 2022,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1008_Desarrollo_organizacional._Principios_y_aplicaciones.pdf",
+    year: 2023,
     language: "Español",
-    pages: 235,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-productividad-personal-en-una-s-jeronimo-sanchez.jpg",
-    downloads: 305,
+    pages: 364,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-desarrollo-organizacional-principios-y-aplicaciones.png",
+    downloads: 311,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -9547,17 +9551,17 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2343,
-    title: "Tres Poderes Para La Superacion Personal",
-    author: "Dr. Fernando Daniel Peiro",
+    id: 2065,
+    title: "Econometria",
+    author: "Damodar N. Gujarati _ Dawn C. Porter",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2343_tres-poderes-para-la-superacion-personal-dr-fernan.pdf",
-    pages: 85,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2065_econometria-damodar-n-gujarati-dawn-c-porter.pdf",
+    pages: 353,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tres poderes para la superacion personal por Dr. Fernando Daniel Peiro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-tres-poderes-para-la-superacion-personal-dr-fernando-daniel.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre econometria por Damodar N. Gujarati _ Dawn C. Porter. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-econometria-damodar-n-gujarati-dawn-c-porter.jpg",
     downloads: 888,
     featured: false,
     aiAnalysis: {
@@ -9657,18 +9661,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2380,
-    title: "El Libro de los Hechos",
-    author: "F. F. Bruce",
+    id: 2388,
+    title: "Jesús es el Cristo: Estudios sobre la teología de Juan",
+    author: "Leon Morris",
     category: "TEOLOGÍA CONTEMPORÁNEA",
     collection: "Teología Contemporánea",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2380_el-libro-de-los-hechos-f-f-bruce.pdf",
-    pages: 506,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2388_jesus-es-el-cristo-estudios-sobre-la-teologia-de-j.pdf",
+    pages: 111,
+    year: 2003,
     language: "Español",
     description: "Obra monumental de la Colección Teológica Contemporánea (Editorial CLIE). Análisis exegético, rigor teológico y marco doctrinal imprescindible para académicos, pastores y estudiantes serios de las Escrituras.",
-    cover: "covers/c-ctc-32-libro-de-los-hechos-f-f-bruce.jpg",
+    cover: "covers/c-ctc-5-jesus-es-el-cristo-estudios-so-morris-leon-pdf.jpg",
     downloads: 500,
     featured: false,
     aiAnalysis: {
@@ -9741,31 +9745,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1006,
-    title: "Covey R. Stephen",
-    author: "El 8.º Habito",
+    id: 1325,
+    title: "Productividad Personal en una S",
+    author: "Jeronimo Sanchez",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1006_Covey_R._Stephen_-_EL_8_HABITO.pdf",
-    year: 2021,
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Productividad personal en una s - Jeronimo Sanchez.epub",
+    year: 2022,
     language: "Español",
-    pages: 338,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-covey-r-stephen-el-8-habito.png",
-    downloads: 297,
+    pages: 235,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-productividad-personal-en-una-s-jeronimo-sanchez.jpg",
+    downloads: 305,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
@@ -9824,18 +9828,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2109,
-    title: "El Lenguaje De La Seduccion",
-    author: "David Givens",
+    id: 2343,
+    title: "Tres Poderes Para La Superacion Personal",
+    author: "Dr. Fernando Daniel Peiro",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2109_el-lenguaje-de-la-seduccion-david-givens.pdf",
-    pages: 83,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2343_tres-poderes-para-la-superacion-personal-dr-fernan.pdf",
+    pages: 85,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el lenguaje de la seduccion por David Givens. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-lenguaje-de-la-seduccion-david-givens.jpg",
-    downloads: 885,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tres poderes para la superacion personal por Dr. Fernando Daniel Peiro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-tres-poderes-para-la-superacion-personal-dr-fernando-daniel.jpg",
+    downloads: 888,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -9907,18 +9911,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1909,
-    title: "Estadística para Dummies",
-    author: "Deborah J. Rumsey",
+    id: 1923,
+    title: "Windows 10 para Dummies",
+    author: "Andy Rathbone",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1909_estadistica-para-dummies.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1923_windows-10-para-dummies.pdf",
+    year: 2015,
     language: "Español",
-    pages: 710,
-    description: "Desmitifica los datos y el análisis numérico. Aprende distribuciones de probabilidad, intervalos de confianza, pruebas de hipótesis y gráficos estadísticos de manera intuitiva, práctica y sin fórmulas intimidantes.",
-    cover: "covers/dummies-estadistica-para-dummies.jpg",
+    pages: 695,
+    description: "Sácale el máximo partido al sistema operativo: personalización del menú Inicio, gestión de archivos, navegación segura en Edge, configuración de redes, privacidad y resolución de problemas comunes paso a paso.",
+    cover: "covers/dummies-windows-10-para-dummies.jpg",
     downloads: 360,
     featured: false,
     aiAnalysis: {
@@ -9929,23 +9933,23 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes universitarios, analistas y profesionales que necesitan dominar la estadística descriptiva e inferencial.",
-    aiSummary: "Explicación intuitiva de la probabilidad, gráficos, intervalos de confianza y pruebas de hipótesis."
+    targetAudience: "Usuarios de computadoras que desean dominar las funciones esenciales y avanzadas de Windows 10.",
+    aiSummary: "Guía completa de Windows 10: organización, seguridad, personalización y trucos de productividad."
     }
   },
   {
-    id: 2388,
-    title: "Jesús es el Cristo: Estudios sobre la teología de Juan",
-    author: "Leon Morris",
+    id: 2380,
+    title: "El Libro de los Hechos",
+    author: "F. F. Bruce",
     category: "TEOLOGÍA CONTEMPORÁNEA",
     collection: "Teología Contemporánea",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2388_jesus-es-el-cristo-estudios-sobre-la-teologia-de-j.pdf",
-    pages: 111,
-    year: 2003,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2380_el-libro-de-los-hechos-f-f-bruce.pdf",
+    pages: 506,
+    year: 2009,
     language: "Español",
     description: "Obra monumental de la Colección Teológica Contemporánea (Editorial CLIE). Análisis exegético, rigor teológico y marco doctrinal imprescindible para académicos, pastores y estudiantes serios de las Escrituras.",
-    cover: "covers/c-ctc-5-jesus-es-el-cristo-estudios-so-morris-leon-pdf.jpg",
+    cover: "covers/c-ctc-32-libro-de-los-hechos-f-f-bruce.jpg",
     downloads: 500,
     featured: false,
     aiAnalysis: {
@@ -10018,31 +10022,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1324,
-    title: "Principios",
-    author: "Ray Dalio",
+    id: 1006,
+    title: "Covey R. Stephen",
+    author: "El 8.º Habito",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Principios - Ray Dalio.epub",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1006_Covey_R._Stephen_-_EL_8_HABITO.pdf",
     year: 2021,
     language: "Español",
-    pages: 224,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-principios-ray-dalio.jpeg",
-    downloads: 296,
+    pages: 338,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-covey-r-stephen-el-8-habito.png",
+    downloads: 297,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -10101,18 +10105,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2044,
-    title: "Copia Este Libro",
-    author: "David Bravo Bueno",
+    id: 2109,
+    title: "El Lenguaje De La Seduccion",
+    author: "David Givens",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2044_copia-este-libro-david-bravo-bueno.pdf",
-    pages: 129,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2109_el-lenguaje-de-la-seduccion-david-givens.pdf",
+    pages: 83,
     year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre copia este libro por David Bravo Bueno. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-copia-este-libro-david-bravo-bueno.jpg",
-    downloads: 883,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el lenguaje de la seduccion por David Givens. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-lenguaje-de-la-seduccion-david-givens.jpg",
+    downloads: 885,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -10184,18 +10188,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1923,
-    title: "Windows 10 para Dummies",
-    author: "Andy Rathbone",
+    id: 1909,
+    title: "Estadística para Dummies",
+    author: "Deborah J. Rumsey",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1923_windows-10-para-dummies.pdf",
-    year: 2015,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1909_estadistica-para-dummies.pdf",
+    year: 2016,
     language: "Español",
-    pages: 695,
-    description: "Sácale el máximo partido al sistema operativo: personalización del menú Inicio, gestión de archivos, navegación segura en Edge, configuración de redes, privacidad y resolución de problemas comunes paso a paso.",
-    cover: "covers/dummies-windows-10-para-dummies.jpg",
+    pages: 710,
+    description: "Desmitifica los datos y el análisis numérico. Aprende distribuciones de probabilidad, intervalos de confianza, pruebas de hipótesis y gráficos estadísticos de manera intuitiva, práctica y sin fórmulas intimidantes.",
+    cover: "covers/dummies-estadistica-para-dummies.jpg",
     downloads: 360,
     featured: false,
     aiAnalysis: {
@@ -10206,8 +10210,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Usuarios de computadoras que desean dominar las funciones esenciales y avanzadas de Windows 10.",
-    aiSummary: "Guía completa de Windows 10: organización, seguridad, personalización y trucos de productividad."
+    targetAudience: "Estudiantes universitarios, analistas y profesionales que necesitan dominar la estadística descriptiva e inferencial.",
+    aiSummary: "Explicación intuitiva de la probabilidad, gráficos, intervalos de confianza y pruebas de hipótesis."
     }
   },
   {
@@ -10295,31 +10299,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 206,
-    title: "Ultraproductividad: Trabajar menos, producir más, vivir mejor",
-    author: "Isra García",
+    id: 1324,
+    title: "Principios",
+    author: "Ray Dalio",
     category: "Productividad & Hábitos",
-    collection: "Productividad",
+    collection: "E-Books",
     format: "epub",
-    year: 2018,
+    epub: "pdfs/epubs/Principios - Ray Dalio.epub",
+    year: 2021,
     language: "Español",
-    pages: 240,
-    description: "Un compendio de técnicas de alto rendimiento, biohacking, microhábitos y disciplina implacable aplicadas por el consultor e inconformista Isra García para maximizar la energía física y mental en cada jornada.",
-    cover: "covers/ultraproductividad.jpg",
-    epub: "pdfs/epubs/ultraproductividad-isra-garcia.epub",
-    downloads: 290,
+    pages: 224,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-principios-ray-dalio.jpeg",
+    downloads: 296,
     featured: false,
     aiAnalysis: {
-    genre: "Alto Rendimiento & Hábitos",
-    vibe: "Intenso & Disruptivo",
+    genre: "Productividad & Hábitos",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Microhábitos",
-        "Alto Rendimiento",
-        "Optimización de energía",
-        "Autodisciplina"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Emprendedores y personas orientadas a la superación extrema de límites cotidianos.",
-    aiSummary: "Metodología no convencional para multiplicar el impacto personal mediante la disciplina consciente."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
@@ -10378,18 +10382,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2037,
-    title: "Como Recordar Todo Lo Que Leemos",
-    author: "Stanley D. Frank",
+    id: 2044,
+    title: "Copia Este Libro",
+    author: "David Bravo Bueno",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2037_como-recordar-todo-lo-que-leemos-stanley-d-frank.pdf",
-    pages: 510,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2044_copia-este-libro-david-bravo-bueno.pdf",
+    pages: 129,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como recordar todo lo que leemos por Stanley D. Frank. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-recordar-todo-lo-que-leemos-stanley-d-frank.jpg",
-    downloads: 879,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre copia este libro por David Bravo Bueno. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-copia-este-libro-david-bravo-bueno.jpg",
+    downloads: 883,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -10655,18 +10659,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2104,
-    title: "El Hombre Sabio",
-    author: "Erin Thiele",
+    id: 2037,
+    title: "Como Recordar Todo Lo Que Leemos",
+    author: "Stanley D. Frank",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2104_el-hombre-sabio-erin-thiele.pdf",
-    pages: 84,
-    year: 2010,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2037_como-recordar-todo-lo-que-leemos-stanley-d-frank.pdf",
+    pages: 510,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el hombre sabio por Erin Thiele. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-hombre-sabio-erin-thiele.jpg",
-    downloads: 877,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como recordar todo lo que leemos por Stanley D. Frank. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-recordar-todo-lo-que-leemos-stanley-d-frank.jpg",
+    downloads: 879,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -10850,31 +10854,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1323,
-    title: "Organizate con Eficacia",
-    author: "Allen David",
+    id: 206,
+    title: "Ultraproductividad: Trabajar menos, producir más, vivir mejor",
+    author: "Isra García",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
+    collection: "Productividad",
     format: "epub",
-    epub: "pdfs/epubs/Organizate Con Eficacia - Allen David.epub",
-    year: 2020,
+    year: 2018,
     language: "Español",
-    pages: 213,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-organizate-con-eficacia-allen-david.jpeg",
-    downloads: 287,
+    pages: 240,
+    description: "Un compendio de técnicas de alto rendimiento, biohacking, microhábitos y disciplina implacable aplicadas por el consultor e inconformista Isra García para maximizar la energía física y mental en cada jornada.",
+    cover: "covers/ultraproductividad.jpg",
+    epub: "pdfs/epubs/ultraproductividad-isra-garcia.epub",
+    downloads: 290,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    genre: "Alto Rendimiento & Hábitos",
+    vibe: "Intenso & Disruptivo",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Microhábitos",
+        "Alto Rendimiento",
+        "Optimización de energía",
+        "Autodisciplina"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Emprendedores y personas orientadas a la superación extrema de límites cotidianos.",
+    aiSummary: "Metodología no convencional para multiplicar el impacto personal mediante la disciplina consciente."
     }
   },
   {
@@ -10933,18 +10937,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2228,
-    title: "Leyes",
-    author: "2Da Ley",
+    id: 2104,
+    title: "El Hombre Sabio",
+    author: "Erin Thiele",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2228_leyes-2da-ley.pdf",
-    pages: 569,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2104_el-hombre-sabio-erin-thiele.pdf",
+    pages: 84,
+    year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 2Da Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-2da-ley.jpg",
-    downloads: 876,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el hombre sabio por Erin Thiele. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-hombre-sabio-erin-thiele.jpg",
+    downloads: 877,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -11128,31 +11132,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1004,
-    title: "Como",
-    author: "Gestionar Las Redes Sociales Rdstatio Gosocial",
+    id: 1323,
+    title: "Organizate con Eficacia",
+    author: "Allen David",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1004_como-gestionar-las-redes-sociales-RDStatio-GoSocial.pdf",
-    year: 2019,
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Organizate Con Eficacia - Allen David.epub",
+    year: 2020,
     language: "Español",
-    pages: 312,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-como-gestionar-las-redes-sociales-rdstatio-gosocial.png",
-    downloads: 283,
+    pages: 213,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-organizate-con-eficacia-allen-david.jpeg",
+    downloads: 287,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
@@ -11211,18 +11215,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2231,
+    id: 2228,
     title: "Leyes",
-    author: "5Ta Ley",
+    author: "2Da Ley",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2231_leyes-5ta-ley.pdf",
-    pages: 353,
-    year: 2010,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2228_leyes-2da-ley.pdf",
+    pages: 569,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 5Ta Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-5ta-ley.jpg",
-    downloads: 874,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 2Da Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-2da-ley.jpg",
+    downloads: 876,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -11407,19 +11411,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1003,
-    title: "Big Data Analisis",
-    author: "Grandes Volumenes de Datos En Organizaciones",
+    id: 1004,
+    title: "Como",
+    author: "Gestionar Las Redes Sociales Rdstatio Gosocial",
     category: "Productividad & Hábitos",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1003_Big_Data_analisis_de_grandes_volumenes_de_datos_en_organizaciones.pdf",
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1004_como-gestionar-las-redes-sociales-RDStatio-GoSocial.pdf",
+    year: 2019,
     language: "Español",
-    pages: 299,
+    pages: 312,
     description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-big-data-analisis-de-grandes-volumenes-de-datos-en-or.png",
-    downloads: 276,
+    cover: "covers/c-como-gestionar-las-redes-sociales-rdstatio-gosocial.png",
+    downloads: 283,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -11490,18 +11494,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2159,
-    title: "Finanzas Personales Para Dummies",
-    author: "Eric Tyson",
+    id: 2231,
+    title: "Leyes",
+    author: "5Ta Ley",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2159_finanzas-personales-para-dummies-eric-tyson.pdf",
-    pages: 373,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2231_leyes-5ta-ley.pdf",
+    pages: 353,
+    year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre finanzas personales para dummies por Eric Tyson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-finanzas-personales-para-dummies-eric-tyson.jpg",
-    downloads: 873,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 5Ta Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-5ta-ley.jpg",
+    downloads: 874,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -11685,31 +11689,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 205,
-    title: "Productividad Personal: Aprende a liberarte del estrés con GTD",
-    author: "José Miguel Bolívar",
+    id: 1003,
+    title: "Big Data Analisis",
+    author: "Grandes Volumenes de Datos En Organizaciones",
     category: "Productividad & Hábitos",
-    collection: "Productividad",
-    format: "epub",
-    year: 2017,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1003_Big_Data_analisis_de_grandes_volumenes_de_datos_en_organizaciones.pdf",
+    year: 2018,
     language: "Español",
-    pages: 280,
-    description: "Una obra de referencia en habla hispana que adapta la metodología de efectividad personal a la realidad del trabajo del conocimiento actual. Desmenuza cada fase del flujo de trabajo productivo sin tecnicismos innecesarios.",
-    cover: "covers/productividad-personal.jpg",
-    epub: "pdfs/epubs/productividad-personal-jose-bolivar.epub",
-    downloads: 270,
+    pages: 299,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-big-data-analisis-de-grandes-volumenes-de-datos-en-or.png",
+    downloads: 276,
     featured: false,
     aiAnalysis: {
-    genre: "Efectividad Personal",
-    vibe: "Claro & Metódico",
+    genre: "Productividad & Hábitos",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Trabajo del Conocimiento",
-        "Reducción del Estrés",
-        "Hábitos Productivos",
-        "Enfoque"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Trabajadores del conocimiento y emprendedores que buscan un método paso a paso en Español.",
-    aiSummary: "Guía práctica para tomar el control de tus tareas diarias y eliminar la sensación de desborde."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -11852,18 +11856,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1926,
-    title: "Adopción de SOA para Dummies",
-    author: "Miko Matsumura, Bjoern Brauel & Jignesh Shah",
+    id: 1945,
+    title: "La Operación del Sistema Eléctrico para Dummies",
+    author: "Red Eléctrica de España",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1926_adopcion-de-soa-para-dummies.pdf",
-    year: 2008,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1945_la-operacion-del-sistema-electrico-para-dummies.pdf",
+    year: 2014,
     language: "Español",
-    pages: 99,
-    description: "Guía estratégica sobre Arquitectura Orientada a Servicios (SOA). Cómo integrar sistemas heterogéneos, alinear TI con los objetivos del negocio y maximizar la agilidad tecnológica empresarial.",
-    cover: "covers/dummies-adopcion-de-soa-para-dummies.jpg",
+    pages: 156,
+    description: "Descubre cómo se genera, transporta y distribuye la electricidad. Redes de alta tensión, energías renovables, equilibrio entre oferta y demanda y seguridad del suministro.",
+    cover: "covers/dummies-la-operacion-del-sistema-electrico-para-dummies.jpg",
     downloads: 342,
     featured: false,
     aiAnalysis: {
@@ -11874,8 +11878,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en Adopción de SOA para Dummies.",
-    aiSummary: "Guía estratégica sobre Arquitectura Orientada a Servicios (SOA). Cómo integrar sistemas heterogéneos, alinear TI con los objetivos del negocio y maximizar la agilidad tecnológica empresarial."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en La Operación del Sistema Eléctrico para Dummies.",
+    aiSummary: "Descubre cómo se genera, transporta y distribuye la electricidad. Redes de alta tensión, energías renovables, equilibrio entre oferta y demanda y seguridad del suministro."
     }
   },
   {
@@ -11963,31 +11967,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1001,
-    title: "Habitos Inteligentes para tus Finanzas Personales el Contador",
-    author: "Selección Bibliotyan",
+    id: 205,
+    title: "Productividad Personal: Aprende a liberarte del estrés con GTD",
+    author: "José Miguel Bolívar",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1001_23_HABITOS_INTELIGENTES_PARA_TUS_FINANZAS_PERSONALES_EL_CONTADOR.pdf",
-    year: 2016,
+    collection: "Productividad",
+    format: "epub",
+    year: 2017,
     language: "Español",
-    pages: 273,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-23-habitos-inteligentes-para-tus-finanzas-personales.png",
-    downloads: 262,
+    pages: 280,
+    description: "Una obra de referencia en habla hispana que adapta la metodología de efectividad personal a la realidad del trabajo del conocimiento actual. Desmenuza cada fase del flujo de trabajo productivo sin tecnicismos innecesarios.",
+    cover: "covers/productividad-personal.jpg",
+    epub: "pdfs/epubs/productividad-personal-jose-bolivar.epub",
+    downloads: 270,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    genre: "Efectividad Personal",
+    vibe: "Claro & Metódico",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Trabajo del Conocimiento",
+        "Reducción del Estrés",
+        "Hábitos Productivos",
+        "Enfoque"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Trabajadores del conocimiento y emprendedores que buscan un método paso a paso en Español.",
+    aiSummary: "Guía práctica para tomar el control de tus tareas diarias y eliminar la sensación de desborde."
     }
   },
   {
@@ -12131,18 +12135,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1945,
-    title: "La Operación del Sistema Eléctrico para Dummies",
-    author: "Red Eléctrica de España",
+    id: 1926,
+    title: "Adopción de SOA para Dummies",
+    author: "Miko Matsumura, Bjoern Brauel & Jignesh Shah",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1945_la-operacion-del-sistema-electrico-para-dummies.pdf",
-    year: 2014,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1926_adopcion-de-soa-para-dummies.pdf",
+    year: 2008,
     language: "Español",
-    pages: 156,
-    description: "Descubre cómo se genera, transporta y distribuye la electricidad. Redes de alta tensión, energías renovables, equilibrio entre oferta y demanda y seguridad del suministro.",
-    cover: "covers/dummies-la-operacion-del-sistema-electrico-para-dummies.jpg",
+    pages: 99,
+    description: "Guía estratégica sobre Arquitectura Orientada a Servicios (SOA). Cómo integrar sistemas heterogéneos, alinear TI con los objetivos del negocio y maximizar la agilidad tecnológica empresarial.",
+    cover: "covers/dummies-adopcion-de-soa-para-dummies.jpg",
     downloads: 342,
     featured: false,
     aiAnalysis: {
@@ -12153,8 +12157,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en La Operación del Sistema Eléctrico para Dummies.",
-    aiSummary: "Descubre cómo se genera, transporta y distribuye la electricidad. Redes de alta tensión, energías renovables, equilibrio entre oferta y demanda y seguridad del suministro."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en Adopción de SOA para Dummies.",
+    aiSummary: "Guía estratégica sobre Arquitectura Orientada a Servicios (SOA). Cómo integrar sistemas heterogéneos, alinear TI con los objetivos del negocio y maximizar la agilidad tecnológica empresarial."
     }
   },
   {
@@ -12214,17 +12218,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2076,
-    title: "El Arte De La Ejecucion En Los Negocios",
-    author: "Larry Bossidy",
+    id: 2182,
+    title: "Inteligencia Espiritual Para Lideres",
+    author: "Ricardo Perret",
     category: "Liderazgo & Estrategia",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2076_el-arte-de-la-ejecucion-en-los-negocios-larry-boss.pdf",
-    pages: 106,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2182_inteligencia-espiritual-para-lideres-ricardo-perre.pdf",
+    pages: 198,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la ejecucion en los negocios por Larry Bossidy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-la-ejecucion-en-los-negocios-larry-bossidy.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual para lideres por Ricardo Perret. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-inteligencia-espiritual-para-lideres-ricardo-perret.jpg",
     downloads: 637,
     featured: false,
     aiAnalysis: {
@@ -12242,31 +12246,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1318,
-    title: "Focus",
-    author: "Daniel Goleman",
+    id: 1001,
+    title: "Habitos Inteligentes para tus Finanzas Personales el Contador",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Focus - Daniel Goleman.epub",
-    year: 2023,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1001_23_HABITOS_INTELIGENTES_PARA_TUS_FINANZAS_PERSONALES_EL_CONTADOR.pdf",
+    year: 2016,
     language: "Español",
-    pages: 378,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/c-focus-daniel-goleman.png",
-    downloads: 242,
+    pages: 273,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-23-habitos-inteligentes-para-tus-finanzas-personales.png",
+    downloads: 262,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -12297,17 +12301,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2106,
-    title: "El Inversor Inteligente",
-    author: "Benjamin Grahan",
+    id: 2149,
+    title: "En Deuda - Una Historia Alternativa De La Economia",
+    author: "David Graeber",
     category: "Finanzas & Inversión",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2106_el-inversor-inteligente-benjamin-grahan.pdf",
-    pages: 525,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2149_en-deuda-una-historia-alternativa-de-la-economia-d.pdf",
+    pages: 314,
     year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el inversor inteligente por Benjamin Grahan. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-inversor-inteligente-benjamin-grahan.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre en deuda - una historia alternativa de la economia por David Graeber. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-en-deuda-una-historia-alternativa-de-la-economia-david-graeb.jpg",
     downloads: 503,
     featured: false,
     aiAnalysis: {
@@ -12325,18 +12329,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2136,
-    title: "El Principito Se Pone La Corbata",
-    author: "Borja Vilaseca",
+    id: 2159,
+    title: "Finanzas Personales Para Dummies",
+    author: "Eric Tyson",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2136_el-principito-se-pone-la-corbata-borja-vilaseca.pdf",
-    pages: 45,
-    year: 2010,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2159_finanzas-personales-para-dummies-eric-tyson.pdf",
+    pages: 373,
+    year: 2016,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el principito se pone la corbata por Borja Vilaseca. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-principito-se-pone-la-corbata-borja-vilaseca.jpg",
-    downloads: 870,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre finanzas personales para dummies por Eric Tyson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-finanzas-personales-para-dummies-eric-tyson.jpg",
+    downloads: 873,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -12492,17 +12496,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2182,
-    title: "Inteligencia Espiritual Para Lideres",
-    author: "Ricardo Perret",
+    id: 2076,
+    title: "El Arte De La Ejecucion En Los Negocios",
+    author: "Larry Bossidy",
     category: "Liderazgo & Estrategia",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2182_inteligencia-espiritual-para-lideres-ricardo-perre.pdf",
-    pages: 198,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2076_el-arte-de-la-ejecucion-en-los-negocios-larry-boss.pdf",
+    pages: 106,
+    year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual para lideres por Ricardo Perret. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-inteligencia-espiritual-para-lideres-ricardo-perret.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la ejecucion en los negocios por Larry Bossidy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-la-ejecucion-en-los-negocios-larry-bossidy.jpg",
     downloads: 637,
     featured: false,
     aiAnalysis: {
@@ -12520,31 +12524,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 207,
-    title: "Productividad personal en una semana",
-    author: "Jerónimo Sánchez",
+    id: 1318,
+    title: "Focus",
+    author: "Daniel Goleman",
     category: "Productividad & Hábitos",
-    collection: "Productividad",
+    collection: "E-Books",
     format: "epub",
-    year: 2019,
+    epub: "pdfs/epubs/Focus - Daniel Goleman.epub",
+    year: 2023,
     language: "Español",
-    pages: 180,
-    description: "Un curso acelerado de siete días diseñado para reordenar tu espacio de trabajo físico y digital, definir prioridades y establecer rutinas sostenibles de enfoque continuo.",
-    cover: "covers/productividad-personal-semana.jpg",
-    epub: "pdfs/epubs/productividad-personal-en-una-semana.epub",
-    downloads: 215,
+    pages: 378,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/c-focus-daniel-goleman.png",
+    downloads: 242,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad Express",
-    vibe: "Sencillo & Ágil",
+    genre: "Productividad & Hábitos",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Rutinas de Enfoque",
-        "Organización Digital",
-        "Siete Días",
-        "Prioridades Claras"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Personas que desean un cambio rápido y estructurado en su organización semanal.",
-    aiSummary: "Plan intensivo de 7 días para recuperar el tiempo perdido y estructurar tu agenda con orden."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
@@ -12575,17 +12579,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2149,
-    title: "En Deuda - Una Historia Alternativa De La Economia",
-    author: "David Graeber",
+    id: 2106,
+    title: "El Inversor Inteligente",
+    author: "Benjamin Grahan",
     category: "Finanzas & Inversión",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2149_en-deuda-una-historia-alternativa-de-la-economia-d.pdf",
-    pages: 314,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2106_el-inversor-inteligente-benjamin-grahan.pdf",
+    pages: 525,
     year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre en deuda - una historia alternativa de la economia por David Graeber. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-en-deuda-una-historia-alternativa-de-la-economia-david-graeb.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el inversor inteligente por Benjamin Grahan. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-inversor-inteligente-benjamin-grahan.jpg",
     downloads: 503,
     featured: false,
     aiAnalysis: {
@@ -12603,17 +12607,17 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2294,
-    title: "Pasajes Dificiles De La Biblia",
-    author: "Walter C. Kaiser",
+    id: 2136,
+    title: "El Principito Se Pone La Corbata",
+    author: "Borja Vilaseca",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2294_pasajes-dificiles-de-la-biblia-walter-c-kaiser.pdf",
-    pages: 126,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2136_el-principito-se-pone-la-corbata-borja-vilaseca.pdf",
+    pages: 45,
+    year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pasajes dificiles de la biblia por Walter C. Kaiser. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-pasajes-dificiles-de-la-biblia-walter-c-kaiser.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el principito se pone la corbata por Borja Vilaseca. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-principito-se-pone-la-corbata-borja-vilaseca.jpg",
     downloads: 870,
     featured: false,
     aiAnalysis: {
@@ -12660,18 +12664,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1725,
-    title: "Breve historia de Jesús de Nazaret",
-    author: "Ediciones Nowtilus",
+    id: 1793,
+    title: "Breve historia de los grandes generales de la Antigüedad",
+    author: "Jose Ignacio Lago",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1725_bh-jes-s-de-nazaret.pdf",
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1793_bh-grandes-generales-de-la-antig-edad.epub",
     year: 2017,
     language: "Espanol",
-    pages: 134,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Jesús de Nazaret.",
-    cover: "covers/bh-jes-s-de-nazaret.jpg",
+    pages: 310,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los grandes generales de la Antigüedad.",
+    cover: "covers/bh-grandes-generales-de-la-antig-edad.jpg",
     downloads: 464,
     featured: false,
     aiAnalysis: {
@@ -12683,7 +12687,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Jesús de Nazaret, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los grandes generales de la Antigüedad, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -12798,31 +12802,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1311,
-    title: "Bharat Anand",
-    author: "The Content Trap",
+    id: 207,
+    title: "Productividad personal en una semana",
+    author: "Jerónimo Sánchez",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
+    collection: "Productividad",
     format: "epub",
-    epub: "pdfs/epubs/Bharat_Anand - The_Content_Trap.epub",
-    year: 2024,
+    year: 2019,
     language: "Español",
-    pages: 301,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-bharat-anand-the-content-trap.jpg",
-    downloads: 179,
+    pages: 180,
+    description: "Un curso acelerado de siete días diseñado para reordenar tu espacio de trabajo físico y digital, definir prioridades y establecer rutinas sostenibles de enfoque continuo.",
+    cover: "covers/productividad-personal-semana.jpg",
+    epub: "pdfs/epubs/productividad-personal-en-una-semana.epub",
+    downloads: 215,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    genre: "Productividad Express",
+    vibe: "Sencillo & Ágil",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Rutinas de Enfoque",
+        "Organización Digital",
+        "Siete Días",
+        "Prioridades Claras"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Personas que desean un cambio rápido y estructurado en su organización semanal.",
+    aiSummary: "Plan intensivo de 7 días para recuperar el tiempo perdido y estructurar tu agenda con orden."
     }
   },
   {
@@ -12881,18 +12885,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2078,
-    title: "El Arte De La Seduccion",
-    author: "Robert Green",
+    id: 2294,
+    title: "Pasajes Dificiles De La Biblia",
+    author: "Walter C. Kaiser",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2078_el-arte-de-la-seduccion-robert-green-547-paginas.pdf",
-    pages: 152,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2294_pasajes-dificiles-de-la-biblia-walter-c-kaiser.pdf",
+    pages: 126,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la seduccion por Robert Green. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-la-seduccion-robert-green-547-paginas.jpg",
-    downloads: 868,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pasajes dificiles de la biblia por Walter C. Kaiser. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-pasajes-dificiles-de-la-biblia-walter-c-kaiser.jpg",
+    downloads: 870,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -12938,18 +12942,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1793,
-    title: "Breve historia de los grandes generales de la Antigüedad",
-    author: "Jose Ignacio Lago",
+    id: 1725,
+    title: "Breve historia de Jesús de Nazaret",
+    author: "Ediciones Nowtilus",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1793_bh-grandes-generales-de-la-antig-edad.epub",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1725_bh-jes-s-de-nazaret.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 310,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los grandes generales de la Antigüedad.",
-    cover: "covers/bh-grandes-generales-de-la-antig-edad.jpg",
+    pages: 134,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Jesús de Nazaret.",
+    cover: "covers/bh-jes-s-de-nazaret.jpg",
     downloads: 464,
     featured: false,
     aiAnalysis: {
@@ -12961,7 +12965,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los grandes generales de la Antigüedad, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Jesús de Nazaret, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -13048,19 +13052,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1310,
-    title: "Asi Se Manipula al Consumidor",
-    author: "Martin Lindstrom (1)",
+    id: 1311,
+    title: "Bharat Anand",
+    author: "The Content Trap",
     category: "Productividad & Hábitos",
     collection: "E-Books",
     format: "epub",
-    epub: "pdfs/epubs/Asi se manipula al consumidor - Martin Lindstrom (1).epub",
-    year: 2023,
+    epub: "pdfs/epubs/Bharat_Anand - The_Content_Trap.epub",
+    year: 2024,
     language: "Español",
-    pages: 290,
+    pages: 301,
     description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/asi-se-manipula-consumidor.png",
-    downloads: 170,
+    cover: "covers/epub-bharat-anand-the-content-trap.jpg",
+    downloads: 179,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -13076,31 +13080,32 @@ const BOOKS = [
     }
   },
   {
-    id: 1481,
-    title: "Los Estoicos Antiguos (Edición Digital)",
-    author: "Ángel J. Cappelletti",
+    id: 2179,
+    title: "Inteligencia Espiritual",
+    author: "Dan Millman",
     category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1481_Los_estoicos_antiguos.epub",
-    year: 1996,
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2179_inteligencia-espiritual-dan-millman-43-paginas.pdf",
+    pages: 45,
+    year: 2018,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Ángel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-los_estoicos_antiguos-127.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual por Dan Millman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-inteligencia-espiritual-dan-millman-43-paginas.jpg",
     downloads: 397,
     featured: false,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Filosofía del Pórtico",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Los Estoicos Antiguos (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2061,
@@ -13131,18 +13136,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2348,
-    title: "Una Mujer Sabia",
-    author: "Erin Thiele",
+    id: 2078,
+    title: "El Arte De La Seduccion",
+    author: "Robert Green",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2348_una-mujer-sabia-erin-thiele.pdf",
-    pages: 84,
-    year: 2010,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2078_el-arte-de-la-seduccion-robert-green-547-paginas.pdf",
+    pages: 152,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre una mujer sabia por Erin Thiele. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-una-mujer-sabia-erin-thiele.jpg",
-    downloads: 866,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la seduccion por Robert Green. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-la-seduccion-robert-green-547-paginas.jpg",
+    downloads: 868,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -13187,30 +13192,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1721,
-    title: "Breve historia de Hernan Cortes",
-    author: "Francisco Martinez Hoyos",
+    id: 1756,
+    title: "Breve historia de la mitología de Roma y Etruria",
+    author: "Lucia Avial Chicharro",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1721_bh-hernan-cortes.pdf",
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1756_bh-mitolog-a-de-roma-y-etruria.epub",
     year: 2017,
     language: "Espanol",
-    pages: 206,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Hernan Cortes.",
-    cover: "covers/bh-hernan-cortes.jpg",
+    pages: 310,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la mitología de Roma y Etruria.",
+    cover: "covers/bh-mitolog-a-de-roma-y-etruria.jpg",
     downloads: 463,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
+    vibe: "Marcial & Erudito",
     keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
+        "Antigua Roma",
+        "Estrategia Imperial",
+        "Poder y Senado"
       ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Hernan Cortes, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Aficionados al mundo clasico, historiadores y estrategas.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la mitología de Roma y Etruria, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -13269,19 +13274,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1333,
-    title: "Ultraproductividad",
-    author: "Isra Garcia Rodriguez",
+    id: 1310,
+    title: "Asi Se Manipula al Consumidor",
+    author: "Martin Lindstrom (1)",
     category: "Productividad & Hábitos",
     collection: "E-Books",
     format: "epub",
-    epub: "pdfs/epubs/Ultraproductividad - Isra Garcia Rodriguez.epub",
-    year: 2022,
+    epub: "pdfs/epubs/Asi se manipula al consumidor - Martin Lindstrom (1).epub",
+    year: 2023,
     language: "Español",
-    pages: 323,
+    pages: 290,
     description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-ultraproductividad-isra-garcia-rodriguez.jpeg",
-    downloads: 167,
+    cover: "covers/asi-se-manipula-consumidor.png",
+    downloads: 170,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -13297,32 +13302,31 @@ const BOOKS = [
     }
   },
   {
-    id: 2179,
-    title: "Inteligencia Espiritual",
-    author: "Dan Millman",
+    id: 1481,
+    title: "Los Estoicos Antiguos (Edición Digital)",
+    author: "Ángel J. Cappelletti",
     category: "Espiritualidad & sabiduría",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2179_inteligencia-espiritual-dan-millman-43-paginas.pdf",
-    pages: 45,
-    year: 2018,
+    collection: "La Gran Biblioteca Estoica",
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1481_Los_estoicos_antiguos.epub",
+    year: 1996,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual por Dan Millman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-inteligencia-espiritual-dan-millman-43-paginas.jpg",
+    pages: 240,
+    description: "Obra esencial de Ángel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-los_estoicos_antiguos-127.jpg",
     downloads: 397,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Filosofía del Pórtico",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Ciudadela Interior",
+        "Ataraxia",
+        "Amor Fati"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: Los Estoicos Antiguos (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    }
   },
   {
     id: 2305,
@@ -13353,18 +13357,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2000,
-    title: "Aprende Como Einstein",
-    author: "Steve Allen",
+    id: 2348,
+    title: "Una Mujer Sabia",
+    author: "Erin Thiele",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2000_aprende-como-einstein-steve-allen.pdf",
-    pages: 45,
-    year: 2011,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2348_una-mujer-sabia-erin-thiele.pdf",
+    pages: 84,
+    year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre aprende como einstein por Steve Allen. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-aprende-como-einstein-steve-allen.jpg",
-    downloads: 865,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre una mujer sabia por Erin Thiele. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-una-mujer-sabia-erin-thiele.jpg",
+    downloads: 866,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -13410,30 +13414,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1756,
-    title: "Breve historia de la mitología de Roma y Etruria",
-    author: "Lucia Avial Chicharro",
+    id: 1721,
+    title: "Breve historia de Hernan Cortes",
+    author: "Francisco Martinez Hoyos",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1756_bh-mitolog-a-de-roma-y-etruria.epub",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1721_bh-hernan-cortes.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 310,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la mitología de Roma y Etruria.",
-    cover: "covers/bh-mitolog-a-de-roma-y-etruria.jpg",
+    pages: 206,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Hernan Cortes.",
+    cover: "covers/bh-hernan-cortes.jpg",
     downloads: 463,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Marcial & Erudito",
+    vibe: "Riguroso & Esclarecedor",
     keyConcepts: [
-        "Antigua Roma",
-        "Estrategia Imperial",
-        "Poder y Senado"
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
       ],
-    targetAudience: "Aficionados al mundo clasico, historiadores y estrategas.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la mitología de Roma y Etruria, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Hernan Cortes, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -13492,19 +13496,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1332,
-    title: "Steve Jobs. Lecciones de Liderazgo",
-    author: "Walter Isaacson",
+    id: 1333,
+    title: "Ultraproductividad",
+    author: "Isra Garcia Rodriguez",
     category: "Productividad & Hábitos",
     collection: "E-Books",
     format: "epub",
-    epub: "pdfs/epubs/Steve Jobs. Lecciones de liderazgo - Walter Isaacson.epub",
-    year: 2021,
+    epub: "pdfs/epubs/Ultraproductividad - Isra Garcia Rodriguez.epub",
+    year: 2022,
     language: "Español",
-    pages: 312,
+    pages: 323,
     description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-steve-jobs-lecciones-de-liderazgo-walter-isaacson.jpeg",
-    downloads: 158,
+    cover: "covers/epub-ultraproductividad-isra-garcia-rodriguez.jpeg",
+    downloads: 167,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -13576,18 +13580,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2324,
-    title: "Ser Emprensario Para Aprender A Emprender",
-    author: "Misena",
+    id: 2000,
+    title: "Aprende Como Einstein",
+    author: "Steve Allen",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2324_ser-emprensario-para-aprender-a-emprender-misena.pdf",
-    pages: 366,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2000_aprende-como-einstein-steve-allen.pdf",
+    pages: 45,
+    year: 2011,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ser emprensario para aprender a emprender por Misena. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-ser-emprensario-para-aprender-a-emprender-misena.jpg",
-    downloads: 855,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre aprende como einstein por Steve Allen. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-aprende-como-einstein-steve-allen.jpg",
+    downloads: 865,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -13660,18 +13664,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1903,
-    title: "Ajedrez para Dummies",
-    author: "James Eade",
+    id: 1917,
+    title: "Nuevo Management para Dummies",
+    author: "Ana María Castillo & Juan Carlos Cubeiro",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1903_ajedrez-para-dummies.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1917_nuevo-management-para-dummies.pdf",
+    year: 2013,
     language: "Español",
-    pages: 708,
-    description: "El compendio más completo y accesible para dominar el tablero. Explicación de aperturas célebres, tácticas de medio juego, finales maestros y desarrollo de visión estratégica frente a cualquier oponente.",
-    cover: "covers/dummies-ajedrez-para-dummies.jpg",
+    pages: 693,
+    description: "Las claves de la gestión empresarial en el siglo XXI: liderazgo adaptativo, agilidad organizativa, motivación de equipos multidisciplinarios, innovación continua y retención del talento clave.",
+    cover: "covers/dummies-nuevo-management-para-dummies.jpg",
     downloads: 310,
     featured: false,
     aiAnalysis: {
@@ -13682,8 +13686,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Jugadores principiantes y aficionados que buscan comprender la estrategia y la táctica del ajedrez.",
-    aiSummary: "Compendio completo y accesible para dominar aperturas, tácticas y finales en el ajedrez."
+    targetAudience: "Directivos, gerentes y consultores empresariales que buscan liderar la transformación organizativa.",
+    aiSummary: "Nuevas tendencias de management, agilidad estratégica, gestión del cambio y desarrollo de talento."
     }
   },
   {
@@ -13713,6 +13717,34 @@ const BOOKS = [
     aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
+  },
+  {
+    id: 1332,
+    title: "Steve Jobs. Lecciones de Liderazgo",
+    author: "Walter Isaacson",
+    category: "Productividad & Hábitos",
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Steve Jobs. Lecciones de liderazgo - Walter Isaacson.epub",
+    year: 2021,
+    language: "Español",
+    pages: 312,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-steve-jobs-lecciones-de-liderazgo-walter-isaacson.jpeg",
+    downloads: 158,
+    featured: false,
+    aiAnalysis: {
+    genre: "Productividad & Hábitos",
+    vibe: "Digital & Enriquecedor",
+    keyConcepts: [
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
+      ],
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    }
   },
   {
     id: 1443,
@@ -13770,18 +13802,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2005,
-    title: "Aumtente Su Autoestima",
-    author: "Dr. Lair Ribeiro",
+    id: 2324,
+    title: "Ser Emprensario Para Aprender A Emprender",
+    author: "Misena",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2005_aumtente-su-autoestima-dr-lair-ribeiro.pdf",
-    pages: 45,
-    year: 2011,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2324_ser-emprensario-para-aprender-a-emprender-misena.pdf",
+    pages: 366,
+    year: 2015,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre aumtente su autoestima por Dr. Lair Ribeiro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-aumtente-su-autoestima-dr-lair-ribeiro.jpg",
-    downloads: 849,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ser emprensario para aprender a emprender por Misena. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-ser-emprensario-para-aprender-a-emprender-misena.jpg",
+    downloads: 855,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -13854,18 +13886,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1917,
-    title: "Nuevo Management para Dummies",
-    author: "Ana María Castillo & Juan Carlos Cubeiro",
+    id: 1903,
+    title: "Ajedrez para Dummies",
+    author: "James Eade",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1917_nuevo-management-para-dummies.pdf",
-    year: 2013,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1903_ajedrez-para-dummies.pdf",
+    year: 2016,
     language: "Español",
-    pages: 693,
-    description: "Las claves de la gestión empresarial en el siglo XXI: liderazgo adaptativo, agilidad organizativa, motivación de equipos multidisciplinarios, innovación continua y retención del talento clave.",
-    cover: "covers/dummies-nuevo-management-para-dummies.jpg",
+    pages: 708,
+    description: "El compendio más completo y accesible para dominar el tablero. Explicación de aperturas célebres, tácticas de medio juego, finales maestros y desarrollo de visión estratégica frente a cualquier oponente.",
+    cover: "covers/dummies-ajedrez-para-dummies.jpg",
     downloads: 310,
     featured: false,
     aiAnalysis: {
@@ -13876,8 +13908,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Directivos, gerentes y consultores empresariales que buscan liderar la transformación organizativa.",
-    aiSummary: "Nuevas tendencias de management, agilidad estratégica, gestión del cambio y desarrollo de talento."
+    targetAudience: "Jugadores principiantes y aficionados que buscan comprender la estrategia y la táctica del ajedrez.",
+    aiSummary: "Compendio completo y accesible para dominar aperturas, tácticas y finales en el ajedrez."
     }
   },
   {
@@ -13964,18 +13996,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2172,
-    title: "Hazla Tuya",
-    author: "Gerry Sanchez",
+    id: 2005,
+    title: "Aumtente Su Autoestima",
+    author: "Dr. Lair Ribeiro",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2172_hazla-tuya-gerry-sanchez.pdf",
-    pages: 54,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2005_aumtente-su-autoestima-dr-lair-ribeiro.pdf",
+    pages: 45,
+    year: 2011,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre hazla tuya por Gerry Sanchez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-hazla-tuya-gerry-sanchez.jpg",
-    downloads: 847,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre aumtente su autoestima por Dr. Lair Ribeiro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-aumtente-su-autoestima-dr-lair-ribeiro.jpg",
+    downloads: 849,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -14047,31 +14079,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1287,
-    title: "Networking para Dummies",
-    author: "Selección Bibliotyan",
+    id: 1934,
+    title: "Facebook para Dummies",
+    author: "Cristina Aced & Eva Sanagustín",
     category: "PARA DUMMIES",
-    collection: "ColecciÃ³n Para Dummies",
+    collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1287_Networking_para_dummies.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1934_facebook-para-dummies.pdf",
+    year: 2012,
     language: "Español",
-    pages: 351,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-networking-para-dummies.png",
+    pages: 279,
+    description: "Cómo sacar partido a la red social tanto a nivel personal como para negocios: páginas de empresa, privacidad, creación de contenidos virales y gestión de comunidades.",
+    cover: "covers/dummies-facebook-para-dummies.jpg",
     downloads: 304,
     featured: false,
     aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
+    genre: "PARA DUMMIES",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
+        "Guía Paso a Paso",
+        "Método Práctico",
+        "Aprendizaje Rápido"
       ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en Facebook para Dummies.",
+    aiSummary: "Cómo sacar partido a la red social tanto a nivel personal como para negocios: páginas de empresa, privacidad, creación de contenidos virales y gestión de comunidades."
     }
   },
   {
@@ -14159,18 +14190,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2251,
-    title: "Los Nuevos Profesionales",
-    author: "Charles King",
+    id: 2172,
+    title: "Hazla Tuya",
+    author: "Gerry Sanchez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2251_los-nuevos-profesionales-charles-king.pdf",
-    pages: 293,
-    year: 2006,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2172_hazla-tuya-gerry-sanchez.pdf",
+    pages: 54,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los nuevos profesionales por Charles King. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-los-nuevos-profesionales-charles-king.jpg",
-    downloads: 839,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre hazla tuya por Gerry Sanchez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-hazla-tuya-gerry-sanchez.jpg",
+    downloads: 847,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -14187,32 +14218,33 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2321,
-    title: "Sea Un Vendedor Superestrella",
-    author: "Resumen",
+    id: 2554,
+    title: "Aulafacil",
+    author: "Curso de Publicidad",
     category: "Marketing & Ventas",
+    subtopic: "Marketing y Ventas",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2321_sea-un-vendedor-superestrella-resumen.pdf",
-    pages: 45,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2516_aulafacil-curso-de-publicidad.pdf",
+    pages: 67,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre sea un vendedor superestrella por Resumen. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-sea-un-vendedor-superestrella-resumen.jpg",
+    description: "Manual y tratado de referencia sobre Aulafacil. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2516-aulafacil-curso-de-publicidad.jpg",
     downloads: 374,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Marketing & Ventas",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Aulafacil. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
+    }
   },
   {
     id: 1772,
@@ -14242,30 +14274,31 @@ const BOOKS = [
     }
   },
   {
-    id: 1934,
-    title: "Facebook para Dummies",
-    author: "Cristina Aced & Eva Sanagustín",
+    id: 1287,
+    title: "Networking para Dummies",
+    author: "Selección Bibliotyan",
     category: "PARA DUMMIES",
-    collection: "Colección Para Dummies",
+    collection: "ColecciÃ³n Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1934_facebook-para-dummies.pdf",
-    year: 2012,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1287_Networking_para_dummies.pdf",
+    year: 2022,
     language: "Español",
-    pages: 279,
-    description: "Cómo sacar partido a la red social tanto a nivel personal como para negocios: páginas de empresa, privacidad, creación de contenidos virales y gestión de comunidades.",
-    cover: "covers/dummies-facebook-para-dummies.jpg",
+    pages: 351,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-networking-para-dummies.png",
     downloads: 304,
     featured: false,
     aiAnalysis: {
-    genre: "PARA DUMMIES",
-    vibe: "Práctico & Accesible",
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
     keyConcepts: [
-        "Guía Paso a Paso",
-        "Método Práctico",
-        "Aprendizaje Rápido"
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en Facebook para Dummies.",
-    aiSummary: "Cómo sacar partido a la red social tanto a nivel personal como para negocios: páginas de empresa, privacidad, creación de contenidos virales y gestión de comunidades."
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -14353,18 +14386,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2119,
-    title: "El Mago Que Olvido Su Poder",
-    author: "Marco Navarro",
+    id: 2251,
+    title: "Los Nuevos Profesionales",
+    author: "Charles King",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2119_el-mago-que-olvido-su-poder-marco-navarro-1.pdf",
-    pages: 45,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2251_los-nuevos-profesionales-charles-king.pdf",
+    pages: 293,
     year: 2006,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el mago que olvido su poder por Marco Navarro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-mago-que-olvido-su-poder-marco-navarro-1.jpg",
-    downloads: 830,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los nuevos profesionales por Charles King. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-los-nuevos-profesionales-charles-king.jpg",
+    downloads: 839,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -14381,33 +14414,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2554,
-    title: "Aulafacil",
-    author: "Curso de Publicidad",
+    id: 2321,
+    title: "Sea Un Vendedor Superestrella",
+    author: "Resumen",
     category: "Marketing & Ventas",
-    subtopic: "Marketing y Ventas",
-    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2516_aulafacil-curso-de-publicidad.pdf",
-    pages: 67,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2321_sea-un-vendedor-superestrella-resumen.pdf",
+    pages: 45,
+    year: 2007,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Aulafacil. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2516-aulafacil-curso-de-publicidad.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre sea un vendedor superestrella por Resumen. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-sea-un-vendedor-superestrella-resumen.jpg",
     downloads: 374,
     featured: false,
     aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Práctico & Empresarial",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Aulafacil. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 1809,
@@ -14437,18 +14469,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1932,
-    title: "Diabetes para Dummies",
-    author: "Alan L. Rubin",
+    id: 1950,
+    title: "Ortografía y Gramática para Dummies",
+    author: "Pilar Comín Sebastián",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1932_diabetes-para-dummies.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1950_ortografia-y-gramatica-para-dummies.pdf",
     year: 2013,
     language: "Español",
-    pages: 553,
-    description: "Manual médico accesible para comprender la diabetes tipo 1 y 2, controlar los niveles de glucosa, planificar dietas saludables, evitar complicaciones y llevar una vida plena.",
-    cover: "covers/dummies-diabetes-para-dummies.jpg",
+    pages: 336,
+    description: "Escribe sin faltas y con total seguridad en español. Reglas de acentuación, puntuación, uso correcto de letras dudosas (b/v, c/s/z, g/j) y concordancia sintáctica.",
+    cover: "covers/dummies-ortografia-y-gramatica-para-dummies.jpg",
     downloads: 303,
     featured: false,
     aiAnalysis: {
@@ -14459,8 +14491,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en Diabetes para Dummies.",
-    aiSummary: "Manual médico accesible para comprender la diabetes tipo 1 y 2, controlar los niveles de glucosa, planificar dietas saludables, evitar complicaciones y llevar una vida plena."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en Ortografía y Gramática para Dummies.",
+    aiSummary: "Escribe sin faltas y con total seguridad en español. Reglas de acentuación, puntuación, uso correcto de letras dudosas (b/v, c/s/z, g/j) y concordancia sintáctica."
     }
   },
   {
@@ -14520,46 +14552,47 @@ const BOOKS = [
     }
   },
   {
-    id: 2238,
-    title: "Libro Maestro De Educacion Financiera",
-    author: "Un Sistema Para Vivir Mejor",
+    id: 2452,
+    title: "Auditoría de Estados Financieros (2ª Edición)",
+    author: "Gabriel Sánchez Curiel",
     category: "Finanzas & Inversión",
+    subtopic: "Finanzas y Contabilidad",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2238_libro-maestro-de-educacion-financiera-un-sistema-p.pdf",
-    pages: 119,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2414_auditor-a-de-estados-financieros-2ed-gabriel.pdf",
+    pages: 282,
+    year: 2016,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre libro maestro de educacion financiera por Un Sistema Para Vivir Mejor. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-libro-maestro-de-educacion-financiera-un-sistema-para-vivir.jpg",
+    description: "Manual y tratado de referencia sobre Auditoría de Estados Financieros (2ª Edición). Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2414-auditor-a-de-estados-financieros-2ed-gabriel.jpg",
     downloads: 389,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Finanzas & Inversión",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Auditoría de Estados Financieros (2ª Edición). Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
+    }
   },
   {
-    id: 2293,
-    title: "Parece Dificil Pero No Lo Es",
-    author: "Angel Llacer",
+    id: 2119,
+    title: "El Mago Que Olvido Su Poder",
+    author: "Marco Navarro",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2293_parece-dificil-pero-no-lo-es-angel-llacer.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2119_el-mago-que-olvido-su-poder-marco-navarro-1.pdf",
     pages: 45,
-    year: 2012,
+    year: 2006,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre parece dificil pero no lo es por Angel Llacer. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-parece-dificil-pero-no-lo-es-angel-llacer.jpg",
-    downloads: 825,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el mago que olvido su poder por Marco Navarro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-mago-que-olvido-su-poder-marco-navarro-1.jpg",
+    downloads: 830,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -14632,18 +14665,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1950,
-    title: "Ortografía y Gramática para Dummies",
-    author: "Pilar Comín Sebastián",
+    id: 1932,
+    title: "Diabetes para Dummies",
+    author: "Alan L. Rubin",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1950_ortografia-y-gramatica-para-dummies.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1932_diabetes-para-dummies.pdf",
     year: 2013,
     language: "Español",
-    pages: 336,
-    description: "Escribe sin faltas y con total seguridad en español. Reglas de acentuación, puntuación, uso correcto de letras dudosas (b/v, c/s/z, g/j) y concordancia sintáctica.",
-    cover: "covers/dummies-ortografia-y-gramatica-para-dummies.jpg",
+    pages: 553,
+    description: "Manual médico accesible para comprender la diabetes tipo 1 y 2, controlar los niveles de glucosa, planificar dietas saludables, evitar complicaciones y llevar una vida plena.",
+    cover: "covers/dummies-diabetes-para-dummies.jpg",
     downloads: 303,
     featured: false,
     aiAnalysis: {
@@ -14654,8 +14687,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en Ortografía y Gramática para Dummies.",
-    aiSummary: "Escribe sin faltas y con total seguridad en español. Reglas de acentuación, puntuación, uso correcto de letras dudosas (b/v, c/s/z, g/j) y concordancia sintáctica."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en Diabetes para Dummies.",
+    aiSummary: "Manual médico accesible para comprender la diabetes tipo 1 y 2, controlar los niveles de glucosa, planificar dietas saludables, evitar complicaciones y llevar una vida plena."
     }
   },
   {
@@ -14715,47 +14748,46 @@ const BOOKS = [
     }
   },
   {
-    id: 2452,
-    title: "Auditoría de Estados Financieros (2ª Edición)",
-    author: "Gabriel Sánchez Curiel",
+    id: 2238,
+    title: "Libro Maestro De Educacion Financiera",
+    author: "Un Sistema Para Vivir Mejor",
     category: "Finanzas & Inversión",
-    subtopic: "Finanzas y Contabilidad",
-    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2414_auditor-a-de-estados-financieros-2ed-gabriel.pdf",
-    pages: 282,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2238_libro-maestro-de-educacion-financiera-un-sistema-p.pdf",
+    pages: 119,
+    year: 2007,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Auditoría de Estados Financieros (2ª Edición). Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2414-auditor-a-de-estados-financieros-2ed-gabriel.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre libro maestro de educacion financiera por Un Sistema Para Vivir Mejor. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-libro-maestro-de-educacion-financiera-un-sistema-para-vivir.jpg",
     downloads: 389,
     featured: false,
     aiAnalysis: {
-    genre: "Finanzas & Inversión",
-    vibe: "Práctico & Empresarial",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Auditoría de Estados Financieros (2ª Edición). Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
-    id: 2311,
-    title: "Quiero Ser Coach - Ahondando En La Materia",
-    author: "Jose Ignacio",
+    id: 2293,
+    title: "Parece Dificil Pero No Lo Es",
+    author: "Angel Llacer",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2311_quiero-ser-coach-ahondando-en-la-materia-jose-igna.pdf",
-    pages: 553,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2293_parece-dificil-pero-no-lo-es-angel-llacer.pdf",
+    pages: 45,
+    year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - ahondando en la materia por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-quiero-ser-coach-ahondando-en-la-materia-jose-ignacio.jpg",
-    downloads: 822,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre parece dificil pero no lo es por Angel Llacer. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-parece-dificil-pero-no-lo-es-angel-llacer.jpg",
+    downloads: 825,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -14911,46 +14943,47 @@ const BOOKS = [
     }
   },
   {
-    id: 2102,
-    title: "El Hombre Ma$ Rico De Babilonia",
-    author: "George S. Clason",
+    id: 2501,
+    title: "Manual de Introduccion A la Contabilidad1",
+    author: "Especialistas en Administración",
     category: "Finanzas & Inversión",
+    subtopic: "Finanzas y Contabilidad",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2102_el-hombre-ma-rico-de-babilonia-george-s-clason-53.pdf",
-    pages: 105,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2463_manual-de-introduccion-a-la-contabilidad1.pdf",
+    pages: 212,
+    year: 2017,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el hombre ma$ rico de babilonia por George S. Clason. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-hombre-ma-rico-de-babilonia-george-s-clason-53-paginas.jpg",
+    description: "Manual y tratado de referencia sobre Manual de Introduccion A la Contabilidad1. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2463-manual-de-introduccion-a-la-contabilidad1.jpg",
     downloads: 385,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Finanzas & Inversión",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Manual de Introduccion A la Contabilidad1. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
+    }
   },
   {
-    id: 2021,
-    title: "Coaching De Pnl",
-    author: "Miguel Angel Leon",
+    id: 2311,
+    title: "Quiero Ser Coach - Ahondando En La Materia",
+    author: "Jose Ignacio",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2021_coaching-de-pnl-miguel-angel-leon.pdf",
-    pages: 152,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2311_quiero-ser-coach-ahondando-en-la-materia-jose-igna.pdf",
+    pages: 553,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching de pnl por Miguel Angel Leon. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-coaching-de-pnl-miguel-angel-leon.jpg",
-    downloads: 817,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - ahondando en la materia por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-quiero-ser-coach-ahondando-en-la-materia-jose-ignacio.jpg",
+    downloads: 822,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -14967,32 +15000,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1119,
-    title: "Guia Seo",
-    author: "Marketing de Contenidos 2017 (definitiva)",
+    id: 2262,
+    title: "Marketing En Redes Sociales",
+    author: "Juan Merodia",
     category: "Marketing & Ventas",
-    collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1119_Guia_Seo_de_Marketing_de_Contenidos_2017_definitiva_.pdf",
-    year: 2024,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2262_marketing-en-redes-sociales-juan-merodia.pdf",
+    pages: 256,
+    year: 2007,
     language: "Español",
-    pages: 407,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-guia-seo-de-marketing-de-contenidos-2017-definitiva.png",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre marketing en redes sociales por Juan Merodia. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-marketing-en-redes-sociales-juan-merodia.jpg",
     downloads: 353,
     featured: false,
     aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 1757,
@@ -15050,19 +15083,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2400,
-    title: "El CAMP",
-    author: "50minutos.es",
+    id: 2436,
+    title: "Administración: Teoría, Proceso y Práctica (3ª Edición)",
+    author: "Idalberto Chiavenato",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2362_el-camp-amazon.pdf",
-    pages: 36,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2398_administraci-n-teor-a-proceso-y-pr-ctica-3ed.pdf",
+    pages: 436,
+    year: 2016,
     language: "Español",
-    description: "Manual y tratado de referencia sobre El CAMP. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2362-el-camp-amazon.jpg",
+    description: "Manual y tratado de referencia sobre Administración: Teoría, Proceso y Práctica (3ª Edición). Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2398-administraci-n-teor-a-proceso-y-pr-ctica-3ed.jpg",
     downloads: 472,
     featured: false,
     aiAnalysis: {
@@ -15075,7 +15108,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El CAMP. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Administración: Teoría, Proceso y Práctica (3ª Edición). Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -15106,47 +15139,46 @@ const BOOKS = [
     }
   },
   {
-    id: 2501,
-    title: "Manual de Introduccion A la Contabilidad1",
-    author: "Especialistas en Administración",
+    id: 2102,
+    title: "El Hombre Ma$ Rico De Babilonia",
+    author: "George S. Clason",
     category: "Finanzas & Inversión",
-    subtopic: "Finanzas y Contabilidad",
-    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2463_manual-de-introduccion-a-la-contabilidad1.pdf",
-    pages: 212,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2102_el-hombre-ma-rico-de-babilonia-george-s-clason-53.pdf",
+    pages: 105,
+    year: 2020,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Manual de Introduccion A la Contabilidad1. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2463-manual-de-introduccion-a-la-contabilidad1.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el hombre ma$ rico de babilonia por George S. Clason. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-hombre-ma-rico-de-babilonia-george-s-clason-53-paginas.jpg",
     downloads: 385,
     featured: false,
     aiAnalysis: {
-    genre: "Finanzas & Inversión",
-    vibe: "Práctico & Empresarial",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Manual de Introduccion A la Contabilidad1. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
-    id: 2086,
-    title: "El Arte Y La Ciencia De Obtener Lo Que Deseas Pnl",
-    author: "Dr. Harry Alder",
+    id: 2021,
+    title: "Coaching De Pnl",
+    author: "Miguel Angel Leon",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2086_el-arte-y-la-ciencia-de-obtener-lo-que-deseas-pnl.pdf",
-    pages: 748,
-    year: 2008,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2021_coaching-de-pnl-miguel-angel-leon.pdf",
+    pages: 152,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte y la ciencia de obtener lo que deseas pnl por Dr. Harry Alder. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-y-la-ciencia-de-obtener-lo-que-deseas-pnl-dr-harry-a.jpg",
-    downloads: 814,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching de pnl por Miguel Angel Leon. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-coaching-de-pnl-miguel-angel-leon.jpg",
+    downloads: 817,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -15191,74 +15223,73 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1744,
-    title: "Breve historia de la guerra civil de los Estados Unidos",
-    author: "Ediciones Nowtilus",
+    id: 1837,
+    title: "Breve historia del liberalismo",
+    author: "Juan Granados",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1744_bh-guerra-civil-de-los-estados-unidos.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1837_bh-del-liberalismo.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 191,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la guerra civil de los Estados Unidos.",
-    cover: "covers/bh-guerra-civil-de-los-estados-unidos.jpg",
+    pages: 171,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del liberalismo.",
+    cover: "covers/bh-del-liberalismo.jpg",
     downloads: 442,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Belico & Riguroso",
+    vibe: "Riguroso & Esclarecedor",
     keyConcepts: [
-        "Historia Militar",
-        "Tacticas de Batalla",
-        "Geopolitica"
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
       ],
-    targetAudience: "Entusiastas del analisis militar y los grandes conflictos belicos.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la guerra civil de los Estados Unidos, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del liberalismo, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
-    id: 1285,
-    title: "Mindfulness para Dummies",
-    author: "Shamash Alidina",
+    id: 1924,
+    title: "Windows 7 para Dummies",
+    author: "Andy Rathbone",
     category: "PARA DUMMIES",
-    collection: "ColecciÃ³n Para Dummies",
+    collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1285_Mindfulness_para_dummies.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1924_windows-7-para-dummies.pdf",
+    year: 2010,
     language: "Español",
-    pages: 325,
-    description: "El manual esencial de atención plena para desconectar el piloto automático y vivir con mayor lucidez, compasión y plenitud.",
-    cover: "covers/c-mindfulness-para-dummies.png",
+    pages: 705,
+    description: "La guía clásica para dominar uno de los sistemas operativos más estables y utilizados de la historia. Organización de carpetas, seguridad, configuración de periféricos y solución de errores sin dolores de cabeza.",
+    cover: "covers/dummies-windows-7-para-dummies.jpg",
     downloads: 290,
     featured: false,
     aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
+    genre: "PARA DUMMIES",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
+        "Guía Paso a Paso",
+        "Método Práctico",
+        "Aprendizaje Rápido"
       ],
-    targetAudience: "Personas interesadas en meditación científica y reducción de estrés.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Usuarios y administradores de sistemas que utilizan o mantienen entornos Windows 7.",
+    aiSummary: "Guía práctica para configurar, proteger y resolver problemas en entornos Windows 7."
     }
   },
   {
-    id: 2436,
-    title: "Administración: Teoría, Proceso y Práctica (3ª Edición)",
-    author: "Idalberto Chiavenato",
+    id: 2400,
+    title: "El CAMP",
+    author: "50minutos.es",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2398_administraci-n-teor-a-proceso-y-pr-ctica-3ed.pdf",
-    pages: 436,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2362_el-camp-amazon.pdf",
+    pages: 36,
+    year: 2020,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Administración: Teoría, Proceso y Práctica (3ª Edición). Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2398-administraci-n-teor-a-proceso-y-pr-ctica-3ed.jpg",
+    description: "Manual y tratado de referencia sobre El CAMP. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2362-el-camp-amazon.jpg",
     downloads: 472,
     featured: false,
     aiAnalysis: {
@@ -15271,7 +15302,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Administración: Teoría, Proceso y Práctica (3ª Edición). Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre El CAMP. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -15331,17 +15362,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2227,
-    title: "Leyes",
-    author: "1Ra Ley",
+    id: 2086,
+    title: "El Arte Y La Ciencia De Obtener Lo Que Deseas Pnl",
+    author: "Dr. Harry Alder",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2227_leyes-1ra-ley.pdf",
-    pages: 423,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2086_el-arte-y-la-ciencia-de-obtener-lo-que-deseas-pnl.pdf",
+    pages: 748,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 1Ra Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-1ra-ley.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte y la ciencia de obtener lo que deseas pnl por Dr. Harry Alder. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-y-la-ciencia-de-obtener-lo-que-deseas-pnl-dr-harry-a.jpg",
     downloads: 814,
     featured: false,
     aiAnalysis: {
@@ -15359,58 +15390,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2262,
-    title: "Marketing En Redes Sociales",
-    author: "Juan Merodia",
+    id: 1119,
+    title: "Guia Seo",
+    author: "Marketing de Contenidos 2017 (definitiva)",
     category: "Marketing & Ventas",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2262_marketing-en-redes-sociales-juan-merodia.pdf",
-    pages: 256,
-    year: 2007,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1119_Guia_Seo_de_Marketing_de_Contenidos_2017_definitiva_.pdf",
+    year: 2024,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre marketing en redes sociales por Juan Merodia. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-marketing-en-redes-sociales-juan-merodia.jpg",
+    pages: 407,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-guia-seo-de-marketing-de-contenidos-2017-definitiva.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Marketing & Ventas",
+    vibe: "Persuasivo & Comercial",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    }
   },
   {
-    id: 1837,
-    title: "Breve historia del liberalismo",
-    author: "Juan Granados",
+    id: 1744,
+    title: "Breve historia de la guerra civil de los Estados Unidos",
+    author: "Ediciones Nowtilus",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1837_bh-del-liberalismo.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1744_bh-guerra-civil-de-los-estados-unidos.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 171,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del liberalismo.",
-    cover: "covers/bh-del-liberalismo.jpg",
+    pages: 191,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la guerra civil de los Estados Unidos.",
+    cover: "covers/bh-guerra-civil-de-los-estados-unidos.jpg",
     downloads: 442,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
+    vibe: "Belico & Riguroso",
     keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
+        "Historia Militar",
+        "Tacticas de Batalla",
+        "Geopolitica"
       ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del liberalismo, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Entusiastas del analisis militar y los grandes conflictos belicos.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la guerra civil de los Estados Unidos, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -15609,30 +15640,31 @@ const BOOKS = [
     }
   },
   {
-    id: 1924,
-    title: "Windows 7 para Dummies",
-    author: "Andy Rathbone",
+    id: 1285,
+    title: "Mindfulness para Dummies",
+    author: "Shamash Alidina",
     category: "PARA DUMMIES",
-    collection: "Colección Para Dummies",
+    collection: "ColecciÃ³n Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1924_windows-7-para-dummies.pdf",
-    year: 2010,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1285_Mindfulness_para_dummies.pdf",
+    year: 2020,
     language: "Español",
-    pages: 705,
-    description: "La guía clásica para dominar uno de los sistemas operativos más estables y utilizados de la historia. Organización de carpetas, seguridad, configuración de periféricos y solución de errores sin dolores de cabeza.",
-    cover: "covers/dummies-windows-7-para-dummies.jpg",
+    pages: 325,
+    description: "El manual esencial de atención plena para desconectar el piloto automático y vivir con mayor lucidez, compasión y plenitud.",
+    cover: "covers/c-mindfulness-para-dummies.png",
     downloads: 290,
     featured: false,
     aiAnalysis: {
-    genre: "PARA DUMMIES",
-    vibe: "Práctico & Accesible",
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
     keyConcepts: [
-        "Guía Paso a Paso",
-        "Método Práctico",
-        "Aprendizaje Rápido"
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
       ],
-    targetAudience: "Usuarios y administradores de sistemas que utilizan o mantienen entornos Windows 7.",
-    aiSummary: "Guía práctica para configurar, proteger y resolver problemas en entornos Windows 7."
+    targetAudience: "Personas interesadas en meditación científica y reducción de estrés.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -15693,19 +15725,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2442,
-    title: "Administración Financiera Internacional (4ª Edición)",
-    author: "Cheol S. Eun & Bruce G. Resnick",
+    id: 2504,
+    title: "Uned Dce Teoria de la Contabilidad Financiera",
+    author: "Especialistas en Administración",
     category: "Finanzas & Inversión",
     subtopic: "Finanzas y Contabilidad",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2404_administraci-n-financiera-internacional-4ed-c.pdf",
-    pages: 568,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2466_uned-dce-teoria-de-la-contabilidad-financiera.pdf",
+    pages: 222,
+    year: 2020,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Administración Financiera Internacional (4ª Edición). Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2404-administraci-n-financiera-internacional-4ed-c.jpg",
+    description: "Manual y tratado de referencia sobre Uned Dce Teoria de la Contabilidad Financiera. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2466-uned-dce-teoria-de-la-contabilidad-financiera.jpg",
     downloads: 361,
     featured: false,
     aiAnalysis: {
@@ -15718,22 +15750,22 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Administración Financiera Internacional (4ª Edición). Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
+    aiSummary: "Tratado y guía ejecutiva sobre Uned Dce Teoria de la Contabilidad Financiera. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
     }
   },
   {
-    id: 2255,
-    title: "Making The First Circle Work",
-    author: "Randy Gage",
+    id: 2227,
+    title: "Leyes",
+    author: "1Ra Ley",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2255_making-the-first-circle-work-randy-gage.pdf",
-    pages: 45,
-    year: 2018,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2227_leyes-1ra-ley.pdf",
+    pages: 423,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre making the first circle work por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-making-the-first-circle-work-randy-gage.jpg",
-    downloads: 813,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 1Ra Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-1ra-ley.jpg",
+    downloads: 814,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -15832,32 +15864,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1992,
-    title: "28 Lideres De Negocios Que Cambiaron Al Mundo",
-    author: "Rhymer Rigby",
+    id: 2419,
+    title: "Los Criterios SMART",
+    author: "50minutos.es",
     category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1992_28-lideres-de-negocios-que-cambiaron-al-mundo-rhym.pdf",
-    pages: 51,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2381_los-criterios-smart-amazon.pdf",
+    pages: 29,
+    year: 2015,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 28 lideres de negocios que cambiaron al mundo por Rhymer Rigby. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-28-lideres-de-negocios-que-cambiaron-al-mundo-rhymer-rigby.jpg",
+    description: "Manual y tratado de referencia sobre Los Criterios SMART. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2381-los-criterios-smart-amazon.jpg",
     downloads: 464,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Los Criterios SMART. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
   },
   {
     id: 1440,
@@ -15887,19 +15920,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2504,
-    title: "Uned Dce Teoria de la Contabilidad Financiera",
-    author: "Especialistas en Administración",
+    id: 2442,
+    title: "Administración Financiera Internacional (4ª Edición)",
+    author: "Cheol S. Eun & Bruce G. Resnick",
     category: "Finanzas & Inversión",
     subtopic: "Finanzas y Contabilidad",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2466_uned-dce-teoria-de-la-contabilidad-financiera.pdf",
-    pages: 222,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2404_administraci-n-financiera-internacional-4ed-c.pdf",
+    pages: 568,
+    year: 2022,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Uned Dce Teoria de la Contabilidad Financiera. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2466-uned-dce-teoria-de-la-contabilidad-financiera.jpg",
+    description: "Manual y tratado de referencia sobre Administración Financiera Internacional (4ª Edición). Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2404-administraci-n-financiera-internacional-4ed-c.jpg",
     downloads: 361,
     featured: false,
     aiAnalysis: {
@@ -15912,22 +15945,22 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Uned Dce Teoria de la Contabilidad Financiera. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
+    aiSummary: "Tratado y guía ejecutiva sobre Administración Financiera Internacional (4ª Edición). Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
     }
   },
   {
-    id: 2328,
-    title: "Si Puedes - 40 Pildoras Estimulantes",
-    author: "Alejandro Suarez Sanchez",
+    id: 2255,
+    title: "Making The First Circle Work",
+    author: "Randy Gage",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2328_si-puedes-40-pildoras-estimulantes-alejandro-suare.pdf",
-    pages: 53,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2255_making-the-first-circle-work-randy-gage.pdf",
+    pages: 45,
+    year: 2018,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre si puedes - 40 pildoras estimulantes por Alejandro Suarez Sanchez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-si-puedes-40-pildoras-estimulantes-alejandro-suarez-sanchez.jpg",
-    downloads: 812,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre making the first circle work por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-making-the-first-circle-work-randy-gage.jpg",
+    downloads: 813,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -15944,18 +15977,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1118,
-    title: "Estudio",
-    author: "Email Marketing Low (definitivo)",
+    id: 1153,
+    title: "Un Clic el Auge de Amazon",
+    author: "Richard L. Brandt",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1118_estudio-email-marketing-low_definitivo_.pdf",
-    year: 2023,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1153_UN_CLIC_EL_AUGE_DE_AMAZON_-_RICHARD_L._BRANDT.pdf",
+    year: 2018,
     language: "Español",
-    pages: 394,
+    pages: 289,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-estudio-email-marketing-low-definitivo.png",
+    cover: "covers/c-un-clic-el-auge-de-amazon-richard-l-brandt.png",
     downloads: 346,
     featured: false,
     aiAnalysis: {
@@ -15999,18 +16032,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1933,
-    title: "Entiende a tu Perro para Dummies",
-    author: "Stanley Coren & Sarah Hodgson",
+    id: 1943,
+    title: "Introducción a BPM para Dummies",
+    author: "AA.VV.",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1933_entiende-a-tu-perro-para-dummies.pdf",
-    year: 2011,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1943_introduccion-a-bpm-para-dummies.pdf",
+    year: 2012,
     language: "Español",
-    pages: 243,
-    description: "Descifra el lenguaje corporal, ladridos y emociones de tu perro. Técnicas de adiestramiento positivo, resolución de problemas de conducta y fortalecimiento del vínculo afectivo.",
-    cover: "covers/dummies-entiende-a-tu-perro-para-dummies.jpg",
+    pages: 99,
+    description: "Conceptos fundamentales de la Gestión de Procesos de Negocio (Business Process Management). Modelado, automatización y mejora continua de procesos organizacionales.",
+    cover: "covers/dummies-introduccion-a-bpm-para-dummies.jpg",
     downloads: 279,
     featured: false,
     aiAnalysis: {
@@ -16021,8 +16054,8 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en Entiende a tu Perro para Dummies.",
-    aiSummary: "Descifra el lenguaje corporal, ladridos y emociones de tu perro. Técnicas de adiestramiento positivo, resolución de problemas de conducta y fortalecimiento del vínculo afectivo."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en Introducción a BPM para Dummies.",
+    aiSummary: "Conceptos fundamentales de la Gestión de Procesos de Negocio (Business Process Management). Modelado, automatización y mejora continua de procesos organizacionales."
     }
   },
   {
@@ -16109,18 +16142,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2046,
-    title: "Cree Mas En Ti Con Pnl",
-    author: "David Molden _ Pat Hutchinson",
+    id: 2328,
+    title: "Si Puedes - 40 Pildoras Estimulantes",
+    author: "Alejandro Suarez Sanchez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2046_cree-mas-en-ti-con-pnl-david-molden-pat-hutchinson.pdf",
-    pages: 196,
-    year: 2011,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2328_si-puedes-40-pildoras-estimulantes-alejandro-suare.pdf",
+    pages: 53,
+    year: 2016,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre cree mas en ti con pnl por David Molden _ Pat Hutchinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-cree-mas-en-ti-con-pnl-david-molden-pat-hutchinson.jpg",
-    downloads: 806,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre si puedes - 40 pildoras estimulantes por Alejandro Suarez Sanchez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-si-puedes-40-pildoras-estimulantes-alejandro-suarez-sanchez.jpg",
+    downloads: 812,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -16137,18 +16170,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1153,
-    title: "Un Clic el Auge de Amazon",
-    author: "Richard L. Brandt",
+    id: 1118,
+    title: "Estudio",
+    author: "Email Marketing Low (definitivo)",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1153_UN_CLIC_EL_AUGE_DE_AMAZON_-_RICHARD_L._BRANDT.pdf",
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1118_estudio-email-marketing-low_definitivo_.pdf",
+    year: 2023,
     language: "Español",
-    pages: 289,
+    pages: 394,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-un-clic-el-auge-de-amazon-richard-l-brandt.png",
+    cover: "covers/c-estudio-email-marketing-low-definitivo.png",
     downloads: 346,
     featured: false,
     aiAnalysis: {
@@ -16192,18 +16225,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1943,
-    title: "Introducción a BPM para Dummies",
-    author: "AA.VV.",
+    id: 1933,
+    title: "Entiende a tu Perro para Dummies",
+    author: "Stanley Coren & Sarah Hodgson",
     category: "PARA DUMMIES",
     collection: "Colección Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1943_introduccion-a-bpm-para-dummies.pdf",
-    year: 2012,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1933_entiende-a-tu-perro-para-dummies.pdf",
+    year: 2011,
     language: "Español",
-    pages: 99,
-    description: "Conceptos fundamentales de la Gestión de Procesos de Negocio (Business Process Management). Modelado, automatización y mejora continua de procesos organizacionales.",
-    cover: "covers/dummies-introduccion-a-bpm-para-dummies.jpg",
+    pages: 243,
+    description: "Descifra el lenguaje corporal, ladridos y emociones de tu perro. Técnicas de adiestramiento positivo, resolución de problemas de conducta y fortalecimiento del vínculo afectivo.",
+    cover: "covers/dummies-entiende-a-tu-perro-para-dummies.jpg",
     downloads: 279,
     featured: false,
     aiAnalysis: {
@@ -16214,38 +16247,37 @@ const BOOKS = [
         "Método Práctico",
         "Aprendizaje Rápido"
       ],
-    targetAudience: "Estudiantes, curiosos y profesionales interesados en Introducción a BPM para Dummies.",
-    aiSummary: "Conceptos fundamentales de la Gestión de Procesos de Negocio (Business Process Management). Modelado, automatización y mejora continua de procesos organizacionales."
+    targetAudience: "Estudiantes, curiosos y profesionales interesados en Entiende a tu Perro para Dummies.",
+    aiSummary: "Descifra el lenguaje corporal, ladridos y emociones de tu perro. Técnicas de adiestramiento positivo, resolución de problemas de conducta y fortalecimiento del vínculo afectivo."
     }
   },
   {
-    id: 2419,
-    title: "Los Criterios SMART",
-    author: "50minutos.es",
+    id: 1992,
+    title: "28 Lideres De Negocios Que Cambiaron Al Mundo",
+    author: "Rhymer Rigby",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2381_los-criterios-smart-amazon.pdf",
-    pages: 29,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1992_28-lideres-de-negocios-que-cambiaron-al-mundo-rhym.pdf",
+    pages: 51,
+    year: 2014,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Los Criterios SMART. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2381-los-criterios-smart-amazon.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 28 lideres de negocios que cambiaron al mundo por Rhymer Rigby. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-28-lideres-de-negocios-que-cambiaron-al-mundo-rhymer-rigby.jpg",
     downloads: 464,
     featured: false,
     aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Los Criterios SMART. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 1420,
@@ -16275,46 +16307,46 @@ const BOOKS = [
     }
   },
   {
-    id: 305,
-    title: "El Lobo de Wall Street",
-    author: "Jordan Belfort",
+    id: 2304,
+    title: "Principios De La Administracion Financiera",
+    author: "Lawrence J. Gitman",
     category: "Finanzas & Inversión",
-    collection: "Biografías & Finanzas",
     format: "pdf",
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2304_principios-de-la-administracion-financiera-lawrenc.pdf",
+    pages: 864,
+    year: 2020,
     language: "Español",
-    pages: 420,
-    description: "La trepidante autobiografía de Jordan Belfort en los vertiginosos años de Stratton Oakmont. Una mirada sin censura a la euforia bursátil, la Psicología de las ventas agresivas, el auge financiero y las consecuencias de perder los límites éticos.",
-    cover: "covers/lobo-wall-street.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b305_el-lobo-de-wall-street-jordan-belfort.pdf",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre principios de la administracion financiera por Lawrence J. Gitman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-principios-de-la-administracion-financiera-lawrence-j-gitman.jpg",
     downloads: 350,
     featured: false,
     aiAnalysis: {
-    genre: "Finanzas & Memorias Reales",
-    vibe: "Electrizante & Crudo",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Mercado Bursátil",
-        "Persuasión Extrema",
-        "Avaricia y Caída",
-        "Psicología Comercial"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Lectores atraídos por el mundo financiero, el poder de las ventas y las lecciones de cautela económica.",
-    aiSummary: "Crónica descarnada sobre el auge y desplome de un imperio bursátil basado en la venta implacable."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
-    id: 2067,
-    title: "Einstein - Su Vida Y Su Universo",
-    author: "Walter Isaacson",
+    id: 2046,
+    title: "Cree Mas En Ti Con Pnl",
+    author: "David Molden _ Pat Hutchinson",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2067_einstein-su-vida-y-su-universo-walter-isaacson.pdf",
-    pages: 441,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2046_cree-mas-en-ti-con-pnl-david-molden-pat-hutchinson.pdf",
+    pages: 196,
+    year: 2011,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre einstein - su vida y su universo por Walter Isaacson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-einstein-su-vida-y-su-universo-walter-isaacson.jpg",
-    downloads: 799,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre cree mas en ti con pnl por David Molden _ Pat Hutchinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-cree-mas-en-ti-con-pnl-david-molden-pat-hutchinson.jpg",
+    downloads: 806,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -16468,18 +16500,47 @@ const BOOKS = [
     }
   },
   {
-    id: 2304,
-    title: "Principios De La Administracion Financiera",
-    author: "Lawrence J. Gitman",
+    id: 2503,
+    title: "Uned Dce Manual Prc3a1ctico de Contabilidad Financiera",
+    author: "Especialistas en Administración",
     category: "Finanzas & Inversión",
+    subtopic: "Finanzas y Contabilidad",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2304_principios-de-la-administracion-financiera-lawrenc.pdf",
-    pages: 864,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2465_uned-dce-manual-prc3a1ctico-de-contabilidad-f.pdf",
+    pages: 152,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre principios de la administracion financiera por Lawrence J. Gitman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-principios-de-la-administracion-financiera-lawrence-j-gitman.jpg",
+    description: "Manual y tratado de referencia sobre Uned Dce Manual Prc3a1ctico de Contabilidad Financiera. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2465-uned-dce-manual-prc3a1ctico-de-contabilidad-f.jpg",
     downloads: 350,
+    featured: false,
+    aiAnalysis: {
+    genre: "Finanzas & Inversión",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Uned Dce Manual Prc3a1ctico de Contabilidad Financiera. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
+    }
+  },
+  {
+    id: 2067,
+    title: "Einstein - Su Vida Y Su Universo",
+    author: "Walter Isaacson",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2067_einstein-su-vida-y-su-universo-walter-isaacson.pdf",
+    pages: 441,
+    year: 2007,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre einstein - su vida y su universo por Walter Isaacson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-einstein-su-vida-y-su-universo-walter-isaacson.jpg",
+    downloads: 799,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -16494,6 +16555,173 @@ const BOOKS = [
     aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
+  },
+  {
+    id: 2557,
+    title: "Manual de Publicidad",
+    author: "Especialistas en Administración",
+    category: "Marketing & Ventas",
+    subtopic: "Marketing y Ventas",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2519_manual-de-publicidad.pdf",
+    pages: 117,
+    year: 2017,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Manual de Publicidad. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2519-manual-de-publicidad.jpg",
+    downloads: 330,
+    featured: false,
+    aiAnalysis: {
+    genre: "Marketing & Ventas",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Manual de Publicidad. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
+    }
+  },
+  {
+    id: 1717,
+    title: "Breve historia de Fidel Castro",
+    author: "Jesus Salgado y Javier Otero",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1717_bh-fidel-castro.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 115,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Fidel Castro.",
+    cover: "covers/bh-fidel-castro.jpg",
+    downloads: 430,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Riguroso & Esclarecedor",
+    keyConcepts: [
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
+      ],
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Fidel Castro, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 1922,
+    title: "Triatlón para Dummies",
+    author: "Víctor Manuel del Corral",
+    category: "PARA DUMMIES",
+    collection: "Colección Para Dummies",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1922_triatlon-para-dummies.pdf",
+    year: 2014,
+    language: "Español",
+    pages: 540,
+    description: "Guía completa para debutar y triunfar en natación, ciclismo y carrera a pie. Planes de entrenamiento por distancias (Sprint, Olímpico, Ironman), nutrición deportiva, transiciones rápidas y fortaleza mental.",
+    cover: "covers/dummies-triatlon-para-dummies.jpg",
+    downloads: 275,
+    featured: false,
+    aiAnalysis: {
+    genre: "PARA DUMMIES",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Guía Paso a Paso",
+        "Método Práctico",
+        "Aprendizaje Rápido"
+      ],
+    targetAudience: "Atletas y deportistas que quieren iniciarse o mejorar sus marcas en triatlón.",
+    aiSummary: "Planes de entrenamiento, nutrición, recuperación y consejos estratégicos para completar triatlones con éxito."
+    }
+  },
+  {
+    id: 2522,
+    title: "El Arte de Brillar A Través de Tu Marca Personal",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2484_el-arte-de-brillar-a-trav-s-de-tu-marca-perso.pdf",
+    pages: 67,
+    year: 2022,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre El Arte de Brillar A Través de Tu Marca Personal. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2484-el-arte-de-brillar-a-trav-s-de-tu-marca-perso.jpg",
+    downloads: 459,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre El Arte de Brillar A Través de Tu Marca Personal. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 1457,
+    title: "Manual para la Vida Feliz: Comentarios al Enquiridión",
+    author: "Pierre Hadot (sobre Epicteto)",
+    category: "Espiritualidad & sabiduría",
+    collection: "La Gran Biblioteca Estoica",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1457_HADOT-EPICTETO._MANUAL_PARA_LA_VIDA_FELIZ.pdf",
+    year: 2003,
+    language: "Español",
+    pages: 240,
+    description: "Obra esencial de Pierre Hadot (sobre Epicteto) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-hadot_epicteto__manual_para_la_vida-53.png",
+    downloads: 309,
+    featured: false,
+    aiAnalysis: {
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Guía Estoica",
+    keyConcepts: [
+        "Ciudadela Interior",
+        "Ataraxia",
+        "Amor Fati"
+      ],
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: Manual para la Vida Feliz: Comentarios al Enquiridión aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    }
+  },
+  {
+    id: 305,
+    title: "El Lobo de Wall Street",
+    author: "Jordan Belfort",
+    category: "Finanzas & Inversión",
+    collection: "Biografías & Finanzas",
+    format: "pdf",
+    year: 2013,
+    language: "Español",
+    pages: 420,
+    description: "La trepidante autobiografía de Jordan Belfort en los vertiginosos años de Stratton Oakmont. Una mirada sin censura a la euforia bursátil, la Psicología de las ventas agresivas, el auge financiero y las consecuencias de perder los límites éticos.",
+    cover: "covers/lobo-wall-street.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b305_el-lobo-de-wall-street-jordan-belfort.pdf",
+    downloads: 350,
+    featured: false,
+    aiAnalysis: {
+    genre: "Finanzas & Memorias Reales",
+    vibe: "Electrizante & Crudo",
+    keyConcepts: [
+        "Mercado Bursátil",
+        "Persuasión Extrema",
+        "Avaricia y Caída",
+        "Psicología Comercial"
+      ],
+    targetAudience: "Lectores atraídos por el mundo financiero, el poder de las ventas y las lecciones de cautela económica.",
+    aiSummary: "Crónica descarnada sobre el auge y desplome de un imperio bursátil basado en la venta implacable."
+    }
   },
   {
     id: 2350,
@@ -16552,202 +16780,6 @@ const BOOKS = [
     }
   },
   {
-    id: 1717,
-    title: "Breve historia de Fidel Castro",
-    author: "Jesus Salgado y Javier Otero",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1717_bh-fidel-castro.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 115,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Fidel Castro.",
-    cover: "covers/bh-fidel-castro.jpg",
-    downloads: 430,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
-    keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
-      ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Fidel Castro, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 1922,
-    title: "Triatlón para Dummies",
-    author: "Víctor Manuel del Corral",
-    category: "PARA DUMMIES",
-    collection: "Colección Para Dummies",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1922_triatlon-para-dummies.pdf",
-    year: 2014,
-    language: "Español",
-    pages: 540,
-    description: "Guía completa para debutar y triunfar en natación, ciclismo y carrera a pie. Planes de entrenamiento por distancias (Sprint, Olímpico, Ironman), nutrición deportiva, transiciones rápidas y fortaleza mental.",
-    cover: "covers/dummies-triatlon-para-dummies.jpg",
-    downloads: 275,
-    featured: false,
-    aiAnalysis: {
-    genre: "PARA DUMMIES",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Guía Paso a Paso",
-        "Método Práctico",
-        "Aprendizaje Rápido"
-      ],
-    targetAudience: "Atletas y deportistas que quieren iniciarse o mejorar sus marcas en triatlón.",
-    aiSummary: "Planes de entrenamiento, nutrición, recuperación y consejos estratégicos para completar triatlones con éxito."
-    }
-  },
-  {
-    id: 2462,
-    title: "Quiero Ser Coach Comenzando A Estudiar",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2424_quiero-ser-coach-comenzando-a-estudiar.pdf",
-    pages: 94,
-    year: 2018,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Quiero Ser Coach Comenzando A Estudiar. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2424-quiero-ser-coach-comenzando-a-estudiar.jpg",
-    downloads: 459,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Quiero Ser Coach Comenzando A Estudiar. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
-    }
-  },
-  {
-    id: 1457,
-    title: "Manual para la Vida Feliz: Comentarios al Enquiridión",
-    author: "Pierre Hadot (sobre Epicteto)",
-    category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1457_HADOT-EPICTETO._MANUAL_PARA_LA_VIDA_FELIZ.pdf",
-    year: 2003,
-    language: "Español",
-    pages: 240,
-    description: "Obra esencial de Pierre Hadot (sobre Epicteto) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-hadot_epicteto__manual_para_la_vida-53.png",
-    downloads: 309,
-    featured: false,
-    aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Guía Estoica",
-    keyConcepts: [
-        "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
-      ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Manual para la Vida Feliz: Comentarios al Enquiridión aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
-    }
-  },
-  {
-    id: 2503,
-    title: "Uned Dce Manual Prc3a1ctico de Contabilidad Financiera",
-    author: "Especialistas en Administración",
-    category: "Finanzas & Inversión",
-    subtopic: "Finanzas y Contabilidad",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2465_uned-dce-manual-prc3a1ctico-de-contabilidad-f.pdf",
-    pages: 152,
-    year: 2019,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Uned Dce Manual Prc3a1ctico de Contabilidad Financiera. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2465-uned-dce-manual-prc3a1ctico-de-contabilidad-f.jpg",
-    downloads: 350,
-    featured: false,
-    aiAnalysis: {
-    genre: "Finanzas & Inversión",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Uned Dce Manual Prc3a1ctico de Contabilidad Financiera. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
-    }
-  },
-  {
-    id: 2098,
-    title: "El Emprendedor De Exito",
-    author: "Rafael Alcaraz Rodriguez",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2098_el-emprendedor-de-exito-rafael-alcaraz-rodriguez.pdf",
-    pages: 196,
-    year: 2018,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el emprendedor de exito por Rafael Alcaraz Rodriguez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-emprendedor-de-exito-rafael-alcaraz-rodriguez.jpg",
-    downloads: 794,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 2557,
-    title: "Manual de Publicidad",
-    author: "Especialistas en Administración",
-    category: "Marketing & Ventas",
-    subtopic: "Marketing y Ventas",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2519_manual-de-publicidad.pdf",
-    pages: 117,
-    year: 2017,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Manual de Publicidad. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2519-manual-de-publicidad.jpg",
-    downloads: 330,
-    featured: false,
-    aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Manual de Publicidad. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
-    }
-  },
-  {
     id: 1835,
     title: "Breve historia del Japon feudal",
     author: "Ruben Almarza Gonzalez",
@@ -16802,19 +16834,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2522,
-    title: "El Arte de Brillar A Través de Tu Marca Personal",
+    id: 2462,
+    title: "Quiero Ser Coach Comenzando A Estudiar",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
+    subtopic: "Liderazgo y Gestión Organizacional",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2484_el-arte-de-brillar-a-trav-s-de-tu-marca-perso.pdf",
-    pages: 67,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2424_quiero-ser-coach-comenzando-a-estudiar.pdf",
+    pages: 94,
+    year: 2018,
     language: "Español",
-    description: "Manual y tratado de referencia sobre El Arte de Brillar A Través de Tu Marca Personal. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2484-el-arte-de-brillar-a-trav-s-de-tu-marca-perso.jpg",
+    description: "Manual y tratado de referencia sobre Quiero Ser Coach Comenzando A Estudiar. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2424-quiero-ser-coach-comenzando-a-estudiar.jpg",
     downloads: 459,
     featured: false,
     aiAnalysis: {
@@ -16827,7 +16859,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El Arte de Brillar A Través de Tu Marca Personal. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Quiero Ser Coach Comenzando A Estudiar. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
     }
   },
   {
@@ -16886,18 +16918,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2282,
-    title: "Mundo De Millonarios",
-    author: "Las 50 Mejores Frases",
+    id: 2098,
+    title: "El Emprendedor De Exito",
+    author: "Rafael Alcaraz Rodriguez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2282_mundo-de-millonarios-las-50-mejores-frases.pdf",
-    pages: 712,
-    year: 2005,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2098_el-emprendedor-de-exito-rafael-alcaraz-rodriguez.pdf",
+    pages: 196,
+    year: 2018,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mundo de millonarios por Las 50 Mejores Frases. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-mundo-de-millonarios-las-50-mejores-frases.jpg",
-    downloads: 793,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el emprendedor de exito por Rafael Alcaraz Rodriguez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-emprendedor-de-exito-rafael-alcaraz-rodriguez.jpg",
+    downloads: 794,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -16997,19 +17029,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2448,
-    title: "Auditoria Administrativa",
+    id: 2469,
+    title: "Guía Práctica del E-Commerce",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2410_auditoria-administrativa.pdf",
-    pages: 874,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2431_gu-a-pr-ctica-del-e-commerce.pdf",
+    pages: 62,
+    year: 2017,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Auditoria Administrativa. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2410-auditoria-administrativa.jpg",
+    description: "Manual y tratado de referencia sobre Guía Práctica del E-Commerce. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2431-gu-a-pr-ctica-del-e-commerce.jpg",
     downloads: 458,
     featured: false,
     aiAnalysis: {
@@ -17022,7 +17054,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Auditoria Administrativa. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Guía Práctica del E-Commerce. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -17082,30 +17114,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1980,
-    title: "Mensaje a un Amigo",
-    author: "Anthony Robbins",
+    id: 2282,
+    title: "Mundo De Millonarios",
+    author: "Las 50 Mejores Frases",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1980_mensaje-a-un-amigo-anthony-robbins.pdf",
-    pages: 96,
-    year: 1995,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2282_mundo-de-millonarios-las-50-mejores-frases.pdf",
+    pages: 712,
+    year: 2005,
     language: "Español",
-    description: "Guía concisa e inspiradora de Tony Robbins para tomar el control inmediato del destino, las finanzas y las decisiones determinantes de la vida.",
-    cover: "covers/c-emprendedores-mensaje-a-un-amigo-anthony-robbins.jpg",
-    downloads: 790,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mundo de millonarios por Las 50 Mejores Frases. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-mundo-de-millonarios-las-50-mejores-frases.jpg",
+    downloads: 793,
     featured: false,
     aiAnalysis: {
-    genre: "Superación Personal & Rendimiento",
-    vibe: "Enérgico & Directo",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Poder de Decisión",
-        "Condicionamiento Neuroasociativo",
-        "Gestión del Dolor y Placer",
-        "Metas Inmediatas"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Lectores que necesitan un impulso de decisión y claridad para superar una etapa de estancamiento.",
-    aiSummary: "Una condensación rápida y poderosa de las mejores técnicas de Tony Robbins para romper bloqueos y asumir responsabilidad sobre el futuro."
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
   },
@@ -17194,19 +17226,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2469,
-    title: "Guía Práctica del E-Commerce",
+    id: 2448,
+    title: "Auditoria Administrativa",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2431_gu-a-pr-ctica-del-e-commerce.pdf",
-    pages: 62,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2410_auditoria-administrativa.pdf",
+    pages: 874,
+    year: 2020,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Guía Práctica del E-Commerce. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2431-gu-a-pr-ctica-del-e-commerce.jpg",
+    description: "Manual y tratado de referencia sobre Auditoria Administrativa. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2410-auditoria-administrativa.jpg",
     downloads: 458,
     featured: false,
     aiAnalysis: {
@@ -17219,7 +17251,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Guía Práctica del E-Commerce. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Auditoria Administrativa. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -17278,30 +17310,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2150,
-    title: "Errores De Grandes Emprensarios - 21 Relatos",
-    author: "Bob Sellers",
+    id: 1980,
+    title: "Mensaje a un Amigo",
+    author: "Anthony Robbins",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2150_errores-de-grandes-emprensarios-21-relatos-bob-sel.pdf",
-    pages: 46,
-    year: 2012,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1980_mensaje-a-un-amigo-anthony-robbins.pdf",
+    pages: 96,
+    year: 1995,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre errores de grandes emprensarios - 21 relatos por Bob Sellers. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-errores-de-grandes-emprensarios-21-relatos-bob-sellers.jpg",
+    description: "Guía concisa e inspiradora de Tony Robbins para tomar el control inmediato del destino, las finanzas y las decisiones determinantes de la vida.",
+    cover: "covers/c-emprendedores-mensaje-a-un-amigo-anthony-robbins.jpg",
     downloads: 790,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Superación Personal & Rendimiento",
+    vibe: "Enérgico & Directo",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Poder de Decisión",
+        "Condicionamiento Neuroasociativo",
+        "Gestión del Dolor y Placer",
+        "Metas Inmediatas"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    targetAudience: "Lectores que necesitan un impulso de decisión y claridad para superar una etapa de estancamiento.",
+    aiSummary: "Una condensación rápida y poderosa de las mejores técnicas de Tony Robbins para romper bloqueos y asumir responsabilidad sobre el futuro."
     },
     collection: "Colección Emprendedores"
   },
@@ -17472,18 +17504,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1990,
-    title: "20 Increibles Trucos Mentales",
-    author: "Danilo H. Gomes",
+    id: 2150,
+    title: "Errores De Grandes Emprensarios - 21 Relatos",
+    author: "Bob Sellers",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1990_20-increibles-trucos-mentales-danilo-h-gomes-1.pdf",
-    pages: 45,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2150_errores-de-grandes-emprensarios-21-relatos-bob-sel.pdf",
+    pages: 46,
     year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 20 increibles trucos mentales por Danilo H. Gomes. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-20-increibles-trucos-mentales-danilo-h-gomes-1.jpg",
-    downloads: 784,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre errores de grandes emprensarios - 21 relatos por Bob Sellers. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-errores-de-grandes-emprensarios-21-relatos-bob-sellers.jpg",
+    downloads: 790,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -17529,18 +17561,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1714,
-    title: "Breve Historia de Espana I. Las raices",
-    author: "Luis Enrique Inigo Fernandez",
+    id: 1753,
+    title: "Breve historia de la Literatura espanola",
+    author: "Alberto de Frutos Dávalos",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1714_bh-espana-i-las-raices.pdf",
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1753_bh-literatura-espanola.epub",
     year: 2017,
     language: "Espanol",
-    pages: 158,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de Espana I. Las raices.",
-    cover: "covers/bh-espana-i-las-raices.jpg",
+    pages: 310,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Literatura espanola.",
+    cover: "covers/bh-literatura-espanola.jpg",
     downloads: 414,
     featured: false,
     aiAnalysis: {
@@ -17552,7 +17584,7 @@ const BOOKS = [
         "Trascendencia Global"
       ],
     targetAudience: "Estudiantes y apasionados de las raices y devenir hispanico.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de Espana I. Las raices, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Literatura espanola, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -17583,19 +17615,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2411,
-    title: "El Plan de Negocios",
-    author: "50minutos.es",
+    id: 2486,
+    title: "Guía Práctica de Introducción al Feedback",
+    author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2373_el-plan-de-negocios-amazon.pdf",
-    pages: 38,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2448_gu-a-pr-ctica-de-introducci-n-al-feedback.pdf",
+    pages: 143,
+    year: 2018,
     language: "Español",
-    description: "Manual y tratado de referencia sobre El Plan de Negocios. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2373-el-plan-de-negocios-amazon.jpg",
+    description: "Manual y tratado de referencia sobre Guía Práctica de Introducción al Feedback. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2448-gu-a-pr-ctica-de-introducci-n-al-feedback.jpg",
     downloads: 451,
     featured: false,
     aiAnalysis: {
@@ -17608,7 +17640,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El Plan de Negocios. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Guía Práctica de Introducción al Feedback. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -17667,17 +17699,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2335,
-    title: "Te Felicito Por Estar Aqui",
-    author: "Jhony Chiclayo",
+    id: 1990,
+    title: "20 Increibles Trucos Mentales",
+    author: "Danilo H. Gomes",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2335_te-felicito-por-estar-aqui-jhony-chiclayo.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1990_20-increibles-trucos-mentales-danilo-h-gomes-1.pdf",
     pages: 45,
-    year: 2015,
+    year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre te felicito por estar aqui por Jhony Chiclayo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-te-felicito-por-estar-aqui-jhony-chiclayo.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 20 increibles trucos mentales por Danilo H. Gomes. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-20-increibles-trucos-mentales-danilo-h-gomes-1.jpg",
     downloads: 784,
     featured: false,
     aiAnalysis: {
@@ -17777,19 +17809,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2486,
-    title: "Guía Práctica de Introducción al Feedback",
-    author: "Especialistas en Administración",
+    id: 2411,
+    title: "El Plan de Negocios",
+    author: "50minutos.es",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2448_gu-a-pr-ctica-de-introducci-n-al-feedback.pdf",
-    pages: 143,
-    year: 2018,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2373_el-plan-de-negocios-amazon.pdf",
+    pages: 38,
+    year: 2015,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Guía Práctica de Introducción al Feedback. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2448-gu-a-pr-ctica-de-introducci-n-al-feedback.jpg",
+    description: "Manual y tratado de referencia sobre El Plan de Negocios. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2373-el-plan-de-negocios-amazon.jpg",
     downloads: 451,
     featured: false,
     aiAnalysis: {
@@ -17802,7 +17834,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Guía Práctica de Introducción al Feedback. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre El Plan de Negocios. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -17861,18 +17893,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2022,
-    title: "Coaching Para Padres",
-    author: "Infinito",
+    id: 2335,
+    title: "Te Felicito Por Estar Aqui",
+    author: "Jhony Chiclayo",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2022_coaching-para-padres-infinito.pdf",
-    pages: 175,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2335_te-felicito-por-estar-aqui-jhony-chiclayo.pdf",
+    pages: 45,
+    year: 2015,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching para padres por Infinito. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-coaching-para-padres-infinito.jpg",
-    downloads: 782,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre te felicito por estar aqui por Jhony Chiclayo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-te-felicito-por-estar-aqui-jhony-chiclayo.jpg",
+    downloads: 784,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -17918,18 +17950,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1753,
-    title: "Breve historia de la Literatura espanola",
-    author: "Alberto de Frutos Dávalos",
+    id: 1714,
+    title: "Breve Historia de Espana I. Las raices",
+    author: "Luis Enrique Inigo Fernandez",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1753_bh-literatura-espanola.epub",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1714_bh-espana-i-las-raices.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 310,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Literatura espanola.",
-    cover: "covers/bh-literatura-espanola.jpg",
+    pages: 158,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de Espana I. Las raices.",
+    cover: "covers/bh-espana-i-las-raices.jpg",
     downloads: 414,
     featured: false,
     aiAnalysis: {
@@ -17941,7 +17973,7 @@ const BOOKS = [
         "Trascendencia Global"
       ],
     targetAudience: "Estudiantes y apasionados de las raices y devenir hispanico.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Literatura espanola, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de Espana I. Las raices, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -18057,18 +18089,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2113,
-    title: "El Libro De Las Reglas Mentales",
-    author: "Carlos Logatt Grabner",
+    id: 2022,
+    title: "Coaching Para Padres",
+    author: "Infinito",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2113_el-libro-de-las-reglas-mentales-carlos-logatt-grab.pdf",
-    pages: 87,
-    year: 2008,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2022_coaching-para-padres-infinito.pdf",
+    pages: 175,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro de las reglas mentales por Carlos Logatt Grabner. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-libro-de-las-reglas-mentales-carlos-logatt-grabner.jpg",
-    downloads: 780,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching para padres por Infinito. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-coaching-para-padres-infinito.jpg",
+    downloads: 782,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -18114,18 +18146,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1706,
-    title: "Breve historia de Babilonia",
-    author: "Juan Luis Montero Fonellos",
+    id: 1803,
+    title: "Breve historia de los piratas",
+    author: "Silvia Miguens",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1706_bh-babilonia.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1803_bh-piratas.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 128,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Babilonia.",
-    cover: "covers/bh-babilonia.jpg",
+    pages: 196,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los piratas.",
+    cover: "covers/bh-piratas.jpg",
     downloads: 413,
     featured: false,
     aiAnalysis: {
@@ -18137,7 +18169,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Babilonia, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los piratas, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -18252,18 +18284,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2003,
-    title: "Asi Se Habla En Publico",
-    author: "German Diaz Sossa",
+    id: 2113,
+    title: "El Libro De Las Reglas Mentales",
+    author: "Carlos Logatt Grabner",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2003_asi-se-habla-en-publico-german-diaz-sossa.pdf",
-    pages: 56,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2113_el-libro-de-las-reglas-mentales-carlos-logatt-grab.pdf",
+    pages: 87,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre asi se habla en publico por German Diaz Sossa. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-asi-se-habla-en-publico-german-diaz-sossa.jpg",
-    downloads: 776,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro de las reglas mentales por Carlos Logatt Grabner. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-libro-de-las-reglas-mentales-carlos-logatt-grabner.jpg",
+    downloads: 780,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -18280,18 +18312,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1113,
-    title: "El Vendedor más Grande del Mundo",
-    author: "Og Mandino",
+    id: 1148,
+    title: "Publicidad",
+    author: "Blog",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1113_El_Vendedor_m_s_Grande_del_Mundo_-_Og_Mandino.pdf",
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1148_publicidad-blog.pdf",
+    year: 2023,
     language: "Español",
-    pages: 329,
+    pages: 224,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-vendedor-m-s-grande-del-mundo-og-mandino.png",
+    cover: "covers/c-publicidad-blog.png",
     downloads: 311,
     featured: false,
     aiAnalysis: {
@@ -18446,18 +18478,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2278,
-    title: "Motivacion - 21 Secretos",
-    author: "David Valois",
+    id: 2003,
+    title: "Asi Se Habla En Publico",
+    author: "German Diaz Sossa",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2278_motivacion-21-secretos-david-valois-150-paginas.pdf",
-    pages: 51,
-    year: 2012,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2003_asi-se-habla-en-publico-german-diaz-sossa.pdf",
+    pages: 56,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre motivacion - 21 secretos por David Valois. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-motivacion-21-secretos-david-valois-150-paginas.jpg",
-    downloads: 770,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre asi se habla en publico por German Diaz Sossa. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-asi-se-habla-en-publico-german-diaz-sossa.jpg",
+    downloads: 776,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -18474,18 +18506,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1148,
-    title: "Publicidad",
-    author: "Blog",
+    id: 1113,
+    title: "El Vendedor más Grande del Mundo",
+    author: "Og Mandino",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1148_publicidad-blog.pdf",
-    year: 2023,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1113_El_Vendedor_m_s_Grande_del_Mundo_-_Og_Mandino.pdf",
+    year: 2018,
     language: "Español",
-    pages: 224,
+    pages: 329,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-publicidad-blog.png",
+    cover: "covers/c-el-vendedor-m-s-grande-del-mundo-og-mandino.png",
     downloads: 311,
     featured: false,
     aiAnalysis: {
@@ -18502,18 +18534,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1803,
-    title: "Breve historia de los piratas",
-    author: "Silvia Miguens",
+    id: 1706,
+    title: "Breve historia de Babilonia",
+    author: "Juan Luis Montero Fonellos",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1803_bh-piratas.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1706_bh-babilonia.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 196,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los piratas.",
-    cover: "covers/bh-piratas.jpg",
+    pages: 128,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Babilonia.",
+    cover: "covers/bh-babilonia.jpg",
     downloads: 413,
     featured: false,
     aiAnalysis: {
@@ -18525,7 +18557,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los piratas, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Babilonia, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -18556,17 +18588,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2069,
-    title: "El Abc De Las Relaciones",
+    id: 2216,
+    title: "Las 21 Leyes Irrefutables Del Liderazgo",
     author: "John C. Maxwell",
     category: "Liderazgo & Estrategia",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2069_el-abc-de-las-relaciones-john-c-maxwell.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2216_las-21-leyes-irrefutables-del-liderazgo-john-c-max.pdf",
     pages: 45,
-    year: 2018,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el abc de las relaciones por John C. Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-abc-de-las-relaciones-john-c-maxwell.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las 21 leyes irrefutables del liderazgo por John C. Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-las-21-leyes-irrefutables-del-liderazgo-john-c-maxwell-73-pa.jpg",
     downloads: 442,
     featured: false,
     aiAnalysis: {
@@ -18639,18 +18671,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2208,
-    title: "La Paz Esta En Tu Interior",
-    author: "Thich Nhat Hanh",
+    id: 2278,
+    title: "Motivacion - 21 Secretos",
+    author: "David Valois",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2208_la-paz-esta-en-tu-interior-thich-nhat-hanh.pdf",
-    pages: 128,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2278_motivacion-21-secretos-david-valois-150-paginas.pdf",
+    pages: 51,
+    year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la paz esta en tu interior por Thich Nhat Hanh. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-paz-esta-en-tu-interior-thich-nhat-hanh.jpg",
-    downloads: 768,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre motivacion - 21 secretos por David Valois. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-motivacion-21-secretos-david-valois-150-paginas.jpg",
+    downloads: 770,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -18722,18 +18754,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1162,
-    title: "Budismo para Dummies",
-    author: "Jonathan Landaw y Stephan Bodian",
+    id: 1197,
+    title: "Coaching para Dummies",
+    author: "Jeni Mumford",
     category: "PARA DUMMIES",
     collection: "ColecciÃ³n Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1162_Budismo_para_dummies.pdf",
-    year: 2017,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1197_Coaching_Para_Dummies_-_Jeni_Mumford.pdf",
+    year: 2022,
     language: "Español",
-    pages: 406,
-    description: "Introducción lúcida, accesible y rigurosa al pensamiento budista, las cuatro nobles verdades, el desapego y la práctica de la compasión.",
-    cover: "covers/c-budismo-para-dummies.png",
+    pages: 301,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-coaching-para-dummies-jeni-mumford.png",
     downloads: 164,
     featured: false,
     aiAnalysis: {
@@ -18745,22 +18777,22 @@ const BOOKS = [
         "Resiliencia Emocional",
         "Claridad de Propósito"
       ],
-    targetAudience: "Buscadores espirituales, curiosos de la filosofía oriental y meditadores.",
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
     aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 2216,
-    title: "Las 21 Leyes Irrefutables Del Liderazgo",
+    id: 2069,
+    title: "El Abc De Las Relaciones",
     author: "John C. Maxwell",
     category: "Liderazgo & Estrategia",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2216_las-21-leyes-irrefutables-del-liderazgo-john-c-max.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2069_el-abc-de-las-relaciones-john-c-maxwell.pdf",
     pages: 45,
-    year: 2009,
+    year: 2018,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las 21 leyes irrefutables del liderazgo por John C. Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-las-21-leyes-irrefutables-del-liderazgo-john-c-maxwell-73-pa.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el abc de las relaciones por John C. Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-abc-de-las-relaciones-john-c-maxwell.jpg",
     downloads: 442,
     featured: false,
     aiAnalysis: {
@@ -18834,18 +18866,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2312,
-    title: "Quiero Ser Coach - Comenzando A Estudiar",
-    author: "Jose Ignacio",
+    id: 2208,
+    title: "La Paz Esta En Tu Interior",
+    author: "Thich Nhat Hanh",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2312_quiero-ser-coach-comenzando-a-estudiar-jose-ignaci.pdf",
-    pages: 383,
-    year: 2010,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2208_la-paz-esta-en-tu-interior-thich-nhat-hanh.pdf",
+    pages: 128,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - comenzando a estudiar por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-quiero-ser-coach-comenzando-a-estudiar-jose-ignacio.jpg",
-    downloads: 761,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la paz esta en tu interior por Thich Nhat Hanh. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-paz-esta-en-tu-interior-thich-nhat-hanh.jpg",
+    downloads: 768,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -18917,18 +18949,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1197,
-    title: "Coaching para Dummies",
-    author: "Jeni Mumford",
+    id: 1162,
+    title: "Budismo para Dummies",
+    author: "Jonathan Landaw y Stephan Bodian",
     category: "PARA DUMMIES",
     collection: "ColecciÃ³n Para Dummies",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1197_Coaching_Para_Dummies_-_Jeni_Mumford.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1162_Budismo_para_dummies.pdf",
+    year: 2017,
     language: "Español",
-    pages: 301,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-coaching-para-dummies-jeni-mumford.png",
+    pages: 406,
+    description: "Introducción lúcida, accesible y rigurosa al pensamiento budista, las cuatro nobles verdades, el desapego y la práctica de la compasión.",
+    cover: "covers/c-budismo-para-dummies.png",
     downloads: 164,
     featured: false,
     aiAnalysis: {
@@ -18940,24 +18972,24 @@ const BOOKS = [
         "Resiliencia Emocional",
         "Claridad de Propósito"
       ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    targetAudience: "Buscadores espirituales, curiosos de la filosofía oriental y meditadores.",
     aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 2491,
-    title: "Oratoria para Tímidos",
+    id: 2548,
+    title: "Neuroliderazgo",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
+    subtopic: "Liderazgo y Gestión Organizacional",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2453_oratoria-para-t-midos.pdf",
-    pages: 57,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2510_neuroliderazgo.pdf",
+    pages: 64,
+    year: 2016,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Oratoria para Tímidos. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2453-oratoria-para-t-midos.jpg",
+    description: "Manual y tratado de referencia sobre Neuroliderazgo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2510-neuroliderazgo.jpg",
     downloads: 441,
     featured: false,
     aiAnalysis: {
@@ -18970,7 +19002,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Oratoria para Tímidos. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Neuroliderazgo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
     }
   },
   {
@@ -19029,18 +19061,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2023,
-    title: "Coaching Personal",
-    author: "Miguel D Addario",
+    id: 2312,
+    title: "Quiero Ser Coach - Comenzando A Estudiar",
+    author: "Jose Ignacio",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2023_coaching-personal-miguel-d-addario.pdf",
-    pages: 117,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2312_quiero-ser-coach-comenzando-a-estudiar-jose-ignaci.pdf",
+    pages: 383,
     year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching personal por Miguel D Addario. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-coaching-personal-miguel-d-addario.jpg",
-    downloads: 758,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - comenzando a estudiar por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-quiero-ser-coach-comenzando-a-estudiar-jose-ignacio.jpg",
+    downloads: 761,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -19057,18 +19089,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1111,
-    title: "Ebook",
-    author: "Marketing de Contenidos",
+    id: 1146,
+    title: "Permission Marketing. la Bible de Lemalingc",
+    author: "Seth Godin",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1111_ebook-marketing-de-contenidos.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1146_Permission_marketing._La_bible_de_lemalingc-_Seth_Godin.pdf",
+    year: 2021,
     language: "Español",
-    pages: 303,
+    pages: 198,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-ebook-marketing-de-contenidos.png",
+    cover: "covers/c-permission-marketing-la-bible-de-lemalingc-seth-godin.png",
     downloads: 297,
     featured: false,
     aiAnalysis: {
@@ -19140,19 +19172,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2548,
-    title: "Neuroliderazgo",
+    id: 2491,
+    title: "Oratoria para Tímidos",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
+    subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2510_neuroliderazgo.pdf",
-    pages: 64,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2453_oratoria-para-t-midos.pdf",
+    pages: 57,
+    year: 2015,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Neuroliderazgo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2510-neuroliderazgo.jpg",
+    description: "Manual y tratado de referencia sobre Oratoria para Tímidos. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2453-oratoria-para-t-midos.jpg",
     downloads: 441,
     featured: false,
     aiAnalysis: {
@@ -19165,7 +19197,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Neuroliderazgo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    aiSummary: "Tratado y guía ejecutiva sobre Oratoria para Tímidos. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -19224,18 +19256,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2081,
-    title: "El Arte De Negociar",
-    author: "Enrique De Las Alas",
+    id: 2023,
+    title: "Coaching Personal",
+    author: "Miguel D Addario",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2081_el-arte-de-negociar-enrique-de-las-alas.pdf",
-    pages: 279,
-    year: 2019,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2023_coaching-personal-miguel-d-addario.pdf",
+    pages: 117,
+    year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de negociar por Enrique De Las Alas. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-negociar-enrique-de-las-alas.jpg",
-    downloads: 756,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching personal por Miguel D Addario. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-coaching-personal-miguel-d-addario.jpg",
+    downloads: 758,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -19252,18 +19284,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1146,
-    title: "Permission Marketing. la Bible de Lemalingc",
-    author: "Seth Godin",
+    id: 1111,
+    title: "Ebook",
+    author: "Marketing de Contenidos",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1146_Permission_marketing._La_bible_de_lemalingc-_Seth_Godin.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1111_ebook-marketing-de-contenidos.pdf",
+    year: 2016,
     language: "Español",
-    pages: 198,
+    pages: 303,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-permission-marketing-la-bible-de-lemalingc-seth-godin.png",
+    cover: "covers/c-ebook-marketing-de-contenidos.png",
     downloads: 297,
     featured: false,
     aiAnalysis: {
@@ -19420,18 +19452,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2167,
-    title: "Gratis - El Futuro De Un Precio Radical",
-    author: "Chris Anderson",
+    id: 2081,
+    title: "El Arte De Negociar",
+    author: "Enrique De Las Alas",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2167_gratis-el-futuro-de-un-precio-radical-chris-anders.pdf",
-    pages: 136,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2081_el-arte-de-negociar-enrique-de-las-alas.pdf",
+    pages: 279,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre gratis - el futuro de un precio radical por Chris Anderson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-gratis-el-futuro-de-un-precio-radical-chris-anderson.jpg",
-    downloads: 755,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de negociar por Enrique De Las Alas. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-negociar-enrique-de-las-alas.jpg",
+    downloads: 756,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -19586,18 +19618,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2270,
-    title: "Mba Personal",
-    author: "John Mang",
+    id: 2167,
+    title: "Gratis - El Futuro De Un Precio Radical",
+    author: "Chris Anderson",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2270_mba-personal-john-mang.pdf",
-    pages: 96,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2167_gratis-el-futuro-de-un-precio-radical-chris-anders.pdf",
+    pages: 136,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mba personal por John Mang. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-mba-personal-john-mang.jpg",
-    downloads: 753,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre gratis - el futuro de un precio radical por Chris Anderson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-gratis-el-futuro-de-un-precio-radical-chris-anderson.jpg",
+    downloads: 755,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -19614,19 +19646,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2505,
-    title: "Administración de las Relaciones con el Cliente",
+    id: 2562,
+    title: "Publicidad E Inmigracion",
     author: "Especialistas en Administración",
     category: "Marketing & Ventas",
     subtopic: "Marketing y Ventas",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2467_administraci-n-de-las-relaciones-con-el-clien.pdf",
-    pages: 19,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2524_publicidad-e-inmigracion.pdf",
+    pages: 86,
+    year: 2022,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Administración de las Relaciones con el Cliente. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2467-administraci-n-de-las-relaciones-con-el-clien.jpg",
+    description: "Manual y tratado de referencia sobre Publicidad E Inmigracion. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2524-publicidad-e-inmigracion.jpg",
     downloads: 294,
     featured: false,
     aiAnalysis: {
@@ -19639,7 +19671,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Administración de las Relaciones con el Cliente. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
+    aiSummary: "Tratado y guía ejecutiva sobre Publicidad E Inmigracion. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
     }
   },
   {
@@ -19754,18 +19786,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2341,
-    title: "The Mlm Revolution A Manifesto",
-    author: "Randy Gage",
+    id: 2270,
+    title: "Mba Personal",
+    author: "John Mang",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2341_the-mlm-revolution-a-manifesto-randy-gage.pdf",
-    pages: 45,
-    year: 2008,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2270_mba-personal-john-mang.pdf",
+    pages: 96,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre the mlm revolution a manifesto por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-the-mlm-revolution-a-manifesto-randy-gage.jpg",
-    downloads: 751,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mba personal por John Mang. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-mba-personal-john-mang.jpg",
+    downloads: 753,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -19782,19 +19814,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2562,
-    title: "Publicidad E Inmigracion",
+    id: 2505,
+    title: "Administración de las Relaciones con el Cliente",
     author: "Especialistas en Administración",
     category: "Marketing & Ventas",
     subtopic: "Marketing y Ventas",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2524_publicidad-e-inmigracion.pdf",
-    pages: 86,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2467_administraci-n-de-las-relaciones-con-el-clien.pdf",
+    pages: 19,
+    year: 2021,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Publicidad E Inmigracion. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2524-publicidad-e-inmigracion.jpg",
+    description: "Manual y tratado de referencia sobre Administración de las Relaciones con el Cliente. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2467-administraci-n-de-las-relaciones-con-el-clien.jpg",
     downloads: 294,
     featured: false,
     aiAnalysis: {
@@ -19807,7 +19839,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Publicidad E Inmigracion. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
+    aiSummary: "Tratado y guía ejecutiva sobre Administración de las Relaciones con el Cliente. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
     }
   },
   {
@@ -19922,18 +19954,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2137,
-    title: "El Psicoanalista",
-    author: "John Katzenbach",
+    id: 2341,
+    title: "The Mlm Revolution A Manifesto",
+    author: "Randy Gage",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2137_el-psicoanalista-john-katzenbach.pdf",
-    pages: 84,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2341_the-mlm-revolution-a-manifesto-randy-gage.pdf",
+    pages: 45,
     year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el psicoanalista por John Katzenbach. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-psicoanalista-john-katzenbach.jpg",
-    downloads: 747,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre the mlm revolution a manifesto por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-the-mlm-revolution-a-manifesto-randy-gage.jpg",
+    downloads: 751,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -19950,18 +19982,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1110,
-    title: "Diccionario",
-    author: "Email Marketing",
+    id: 1215,
+    title: "Ebook Instagram Stories",
+    author: "Vero Ruiz del Vizo Mashup .compressed (2)",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1110_diccionario-email-marketing.pdf",
-    year: 2015,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1215_Ebook_Instagram_Stories_de_Vero_Ruiz_del_Vizo_Mashup_.compressed_2_.pdf",
+    year: 2020,
     language: "Español",
-    pages: 290,
+    pages: 255,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-diccionario-email-marketing.png",
+    cover: "covers/c-ebook-instagram-stories-de-vero-ruiz-del-vizo-mashup.png",
     downloads: 290,
     featured: false,
     aiAnalysis: {
@@ -20089,18 +20121,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2314,
-    title: "Quiero Ser Coach - Descrubiendo Mi Vocacion",
-    author: "Jose Ignacio",
+    id: 2137,
+    title: "El Psicoanalista",
+    author: "John Katzenbach",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2314_quiero-ser-coach-descrubiendo-mi-vocacion-jose-ign.pdf",
-    pages: 528,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2137_el-psicoanalista-john-katzenbach.pdf",
+    pages: 84,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - descrubiendo mi vocacion por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-quiero-ser-coach-descrubiendo-mi-vocacion-jose-ignacio.jpg",
-    downloads: 744,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el psicoanalista por John Katzenbach. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-psicoanalista-john-katzenbach.jpg",
+    downloads: 747,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -20145,30 +20177,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1712,
-    title: "Breve historia de Cristobal Colon",
-    author: "Juan Ramon Gomez Gomez",
+    id: 1739,
+    title: "Breve Historia De La Fantasía",
+    author: "Pato Silvia",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1712_bh-cristobal-colon.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1739_bh-fantas-a.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 201,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Cristobal Colon.",
-    cover: "covers/bh-cristobal-colon.jpg",
+    pages: 355,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia De La Fantasía.",
+    cover: "covers/bh-fantas-a.jpg",
     downloads: 379,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Historico & Trascendente",
+    vibe: "Riguroso & Esclarecedor",
     keyConcepts: [
-        "Historia de Espana",
-        "Monarquia Hispanica",
-        "Trascendencia Global"
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
       ],
-    targetAudience: "Estudiantes y apasionados de las raices y devenir hispanico.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Cristobal Colon, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia De La Fantasía, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -20228,46 +20260,47 @@ const BOOKS = [
     }
   },
   {
-    id: 1038,
-    title: "Es Hora de Emprender el Vuelo!",
-    author: "Kim Kiyosaki",
+    id: 2549,
+    title: "Gestión y Costos en Logística Integral",
+    author: "Especialistas en Cadena de Suministro",
     category: "Finanzas & Inversión",
-    collection: "General",
+    subtopic: "Finanzas y Contabilidad",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1038_Es_hora_de_emprender_el_vuelo_-_Kim_Kiyosaki.pdf",
-    year: 2023,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2511_administracion-de-costos.pdf",
+    pages: 88,
+    year: 2017,
     language: "Español",
-    pages: 194,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-es-hora-de-emprender-el-vuelo-kim-kiyosaki.png",
+    description: "Manual y tratado de referencia sobre Gestión y Costos en Logística Integral. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2511-administracion-de-costos.jpg",
     downloads: 276,
     featured: false,
     aiAnalysis: {
     genre: "Finanzas & Inversión",
-    vibe: "Financiero & Analítico",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Inteligencia Financiera",
-        "Generación de Activos",
-        "Gestión del Riesgo",
-        "Libertad Económica"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
-    aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Gestión y Costos en Logística Integral. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
     }
   },
   {
-    id: 2302,
-    title: "Politica Economica",
-    author: "Juan R. Cuadrado Roura",
+    id: 2314,
+    title: "Quiero Ser Coach - Descrubiendo Mi Vocacion",
+    author: "Jose Ignacio",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2302_politica-economica-juan-r-cuadrado-roura.pdf",
-    pages: 165,
-    year: 2012,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2314_quiero-ser-coach-descrubiendo-mi-vocacion-jose-ign.pdf",
+    pages: 528,
+    year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre politica economica por Juan R. Cuadrado Roura. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-politica-economica-juan-r-cuadrado-roura.jpg",
-    downloads: 740,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - descrubiendo mi vocacion por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-quiero-ser-coach-descrubiendo-mi-vocacion-jose-ignacio.jpg",
+    downloads: 744,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -20284,18 +20317,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1215,
-    title: "Ebook Instagram Stories",
-    author: "Vero Ruiz del Vizo Mashup .compressed (2)",
+    id: 1110,
+    title: "Diccionario",
+    author: "Email Marketing",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1215_Ebook_Instagram_Stories_de_Vero_Ruiz_del_Vizo_Mashup_.compressed_2_.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1110_diccionario-email-marketing.pdf",
+    year: 2015,
     language: "Español",
-    pages: 255,
+    pages: 290,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-ebook-instagram-stories-de-vero-ruiz-del-vizo-mashup.png",
+    cover: "covers/c-diccionario-email-marketing.png",
     downloads: 290,
     featured: false,
     aiAnalysis: {
@@ -20312,30 +20345,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1739,
-    title: "Breve Historia De La Fantasía",
-    author: "Pato Silvia",
+    id: 1712,
+    title: "Breve historia de Cristobal Colon",
+    author: "Juan Ramon Gomez Gomez",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1739_bh-fantas-a.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1712_bh-cristobal-colon.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 355,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia De La Fantasía.",
-    cover: "covers/bh-fantas-a.jpg",
+    pages: 201,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Cristobal Colon.",
+    cover: "covers/bh-cristobal-colon.jpg",
     downloads: 379,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
+    vibe: "Historico & Trascendente",
     keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
+        "Historia de Espana",
+        "Monarquia Hispanica",
+        "Trascendencia Global"
       ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia De La Fantasía, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Estudiantes y apasionados de las raices y devenir hispanico.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Cristobal Colon, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -20395,47 +20428,46 @@ const BOOKS = [
     }
   },
   {
-    id: 2549,
-    title: "Gestión y Costos en Logística Integral",
-    author: "Especialistas en Cadena de Suministro",
+    id: 1038,
+    title: "Es Hora de Emprender el Vuelo!",
+    author: "Kim Kiyosaki",
     category: "Finanzas & Inversión",
-    subtopic: "Finanzas y Contabilidad",
-    collection: "Libros de Administración",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2511_administracion-de-costos.pdf",
-    pages: 88,
-    year: 2017,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1038_Es_hora_de_emprender_el_vuelo_-_Kim_Kiyosaki.pdf",
+    year: 2023,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Gestión y Costos en Logística Integral. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2511-administracion-de-costos.jpg",
+    pages: 194,
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-es-hora-de-emprender-el-vuelo-kim-kiyosaki.png",
     downloads: 276,
     featured: false,
     aiAnalysis: {
     genre: "Finanzas & Inversión",
-    vibe: "Práctico & Empresarial",
+    vibe: "Financiero & Analítico",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Inteligencia Financiera",
+        "Generación de Activos",
+        "Gestión del Riesgo",
+        "Libertad Económica"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Gestión y Costos en Logística Integral. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Finanzas y Contabilidad."
+    targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
+    aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 2064,
-    title: "Doce Pilares",
-    author: "Jin Rohn",
+    id: 2302,
+    title: "Politica Economica",
+    author: "Juan R. Cuadrado Roura",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2064_doce-pilares-jin-rohn.pdf",
-    pages: 45,
-    year: 2005,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2302_politica-economica-juan-r-cuadrado-roura.pdf",
+    pages: 165,
+    year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre doce pilares por Jin Rohn. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-doce-pilares-jin-rohn.jpg",
-    downloads: 735,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre politica economica por Juan R. Cuadrado Roura. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-politica-economica-juan-r-cuadrado-roura.jpg",
+    downloads: 740,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -20621,31 +20653,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1109,
-    title: "cómo Crear una Presentación",
-    author: "Ventas Que Cierre Tratos",
+    id: 2453,
+    title: "Branding Corporativo",
+    author: "Paul Capriotti Peri",
     category: "Marketing & Ventas",
-    collection: "General",
+    subtopic: "Marketing y Ventas",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1109_c_mo_crear_una_presentaci_n_de_ventas_que_cierre_tratos.pdf",
-    year: 2024,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2415_branding-corporativo-paul-capriotti-peri.pdf",
+    pages: 274,
+    year: 2017,
     language: "Español",
-    pages: 277,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-c-mo-crear-una-presentaci-n-de-ventas-que-cierre-trat.png",
+    description: "Manual y tratado de referencia sobre Branding Corporativo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2415-branding-corporativo-paul-capriotti-peri.jpg",
     downloads: 283,
     featured: false,
     aiAnalysis: {
     genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Branding Corporativo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
     }
   },
   {
@@ -20704,31 +20737,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1169,
-    title: "La Meditación Paso a Paso",
-    author: "S.S. Dalai Lama",
+    id: 1489,
+    title: "Meditaciones (Edición Gredos)",
+    author: "Marco Aurelio",
     category: "Espiritualidad & sabiduría",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1169_La_meditaci_n_paso_a_paso.pdf",
-    year: 2024,
+    collection: "La Gran Biblioteca Estoica",
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1489_Meditaciones_Gredos_.epub",
+    year: 180,
     language: "Español",
-    pages: 217,
-    description: "Instrucciones directas del XIV Dalai Lama para aquietar la mente, desarrollar la serenidad de shamatha y la visión profunda de vipassana.",
-    cover: "covers/c-la-meditaci-n-paso-a-paso.png",
+    pages: 240,
+    description: "Obra esencial de Marco Aurelio centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-meditaciones__gredos_-128.jpg",
     downloads: 213,
     featured: false,
     aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Clásico Imperial",
     keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
+        "Ciudadela Interior",
+        "Dicotomía del Control",
+        "Memento Mori"
       ],
-    targetAudience: "Personas dedicadas a la práctica contemplativa y la serenidad de espíritu.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: Meditaciones (Edición Gredos) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -20760,18 +20792,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2248,
-    title: "Los Bancos Y La Politica Exterior",
-    author: "Wall Street",
+    id: 2064,
+    title: "Doce Pilares",
+    author: "Jin Rohn",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2248_los-bancos-y-la-politica-exterior-wall-street.pdf",
-    pages: 66,
-    year: 2006,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2064_doce-pilares-jin-rohn.pdf",
+    pages: 45,
+    year: 2005,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los bancos y la politica exterior por Wall Street. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-los-bancos-y-la-politica-exterior-wall-street.jpg",
-    downloads: 734,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre doce pilares por Jin Rohn. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-doce-pilares-jin-rohn.jpg",
+    downloads: 735,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -20872,30 +20904,31 @@ const BOOKS = [
     }
   },
   {
-    id: 1489,
-    title: "Meditaciones (Edición Gredos)",
-    author: "Marco Aurelio",
+    id: 1169,
+    title: "La Meditación Paso a Paso",
+    author: "S.S. Dalai Lama",
     category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1489_Meditaciones_Gredos_.epub",
-    year: 180,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1169_La_meditaci_n_paso_a_paso.pdf",
+    year: 2024,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Marco Aurelio centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-meditaciones__gredos_-128.jpg",
+    pages: 217,
+    description: "Instrucciones directas del XIV Dalai Lama para aquietar la mente, desarrollar la serenidad de shamatha y la visión profunda de vipassana.",
+    cover: "covers/c-la-meditaci-n-paso-a-paso.png",
     downloads: 213,
     featured: false,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Clásico Imperial",
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Dicotomía del Control",
-        "Memento Mori"
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Meditaciones (Edición Gredos) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    targetAudience: "Personas dedicadas a la práctica contemplativa y la serenidad de espíritu.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -20927,60 +20960,59 @@ const BOOKS = [
     }
   },
   {
-    id: 1977,
-    title: "Un Pequeño Paso Puede Cambiar tu Vida",
-    author: "Robert Maurer",
+    id: 2248,
+    title: "Los Bancos Y La Politica Exterior",
+    author: "Wall Street",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1977_un-pequeno-paso-puede-cambiar-tu-vida-robert-maurer.pdf",
-    pages: 180,
-    year: 2004,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2248_los-bancos-y-la-politica-exterior-wall-street.pdf",
+    pages: 66,
+    year: 2006,
     language: "Español",
-    description: "El método Kaizen aplicado a empresas y proyectos: cómo vencer el miedo al cambio mediante pequeñas mejoras continuas que generan gigantescos resultados.",
-    cover: "covers/c-emprendedores-un-pequeno-paso-puede-cambiar-tu-vida-robert-maurer.jpg",
-    downloads: 730,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los bancos y la politica exterior por Wall Street. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-los-bancos-y-la-politica-exterior-wall-street.jpg",
+    downloads: 734,
     featured: false,
     aiAnalysis: {
-    genre: "Kaizen & Productividad",
-    vibe: "Práctico & Sosegado",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Mejora Continua Kaizen",
-        "Micropasos Antiprocrastinación",
-        "Reducción del Estrés",
-        "Hábitos Sostenibles"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Emprendedores abrumados por grandes objetivos y equipos en proceso de transformación.",
-    aiSummary: "La psicología detrás del método Kaizen japonés: por qué las pequeñas acciones diarias eluden el miedo cerebral y garantizan un progreso imparable."
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
   },
   {
-    id: 2453,
-    title: "Branding Corporativo",
-    author: "Paul Capriotti Peri",
+    id: 1109,
+    title: "cómo Crear una Presentación",
+    author: "Ventas Que Cierre Tratos",
     category: "Marketing & Ventas",
-    subtopic: "Marketing y Ventas",
-    collection: "Libros de Administración",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2415_branding-corporativo-paul-capriotti-peri.pdf",
-    pages: 274,
-    year: 2017,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1109_c_mo_crear_una_presentaci_n_de_ventas_que_cierre_tratos.pdf",
+    year: 2024,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Branding Corporativo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2415-branding-corporativo-paul-capriotti-peri.jpg",
+    pages: 277,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-c-mo-crear-una-presentaci-n-de-ventas-que-cierre-trat.png",
     downloads: 283,
     featured: false,
     aiAnalysis: {
     genre: "Marketing & Ventas",
-    vibe: "Práctico & Empresarial",
+    vibe: "Persuasivo & Comercial",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Branding Corporativo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -21095,6 +21127,173 @@ const BOOKS = [
     }
   },
   {
+    id: 1977,
+    title: "Un Pequeño Paso Puede Cambiar tu Vida",
+    author: "Robert Maurer",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1977_un-pequeno-paso-puede-cambiar-tu-vida-robert-maurer.pdf",
+    pages: 180,
+    year: 2004,
+    language: "Español",
+    description: "El método Kaizen aplicado a empresas y proyectos: cómo vencer el miedo al cambio mediante pequeñas mejoras continuas que generan gigantescos resultados.",
+    cover: "covers/c-emprendedores-un-pequeno-paso-puede-cambiar-tu-vida-robert-maurer.jpg",
+    downloads: 730,
+    featured: false,
+    aiAnalysis: {
+    genre: "Kaizen & Productividad",
+    vibe: "Práctico & Sosegado",
+    keyConcepts: [
+        "Mejora Continua Kaizen",
+        "Micropasos Antiprocrastinación",
+        "Reducción del Estrés",
+        "Hábitos Sostenibles"
+      ],
+    targetAudience: "Emprendedores abrumados por grandes objetivos y equipos en proceso de transformación.",
+    aiSummary: "La psicología detrás del método Kaizen japonés: por qué las pequeñas acciones diarias eluden el miedo cerebral y garantizan un progreso imparable."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1143,
+    title: "Neuro Oratoria Spanish Edition",
+    author: "Jurgen Klaric",
+    category: "Marketing & Ventas",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1143_Neuro_oratoria_Spanish_Edition_-_Jurgen_Klaric.pdf",
+    year: 2018,
+    language: "Español",
+    pages: 159,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-neuro-oratoria-spanish-edition-jurgen-klaric.png",
+    downloads: 276,
+    featured: false,
+    aiAnalysis: {
+    genre: "Marketing & Ventas",
+    vibe: "Persuasivo & Comercial",
+    keyConcepts: [
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
+      ],
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1797,
+    title: "Breve historia de los judios",
+    author: "Juan Pedro Cavero Coll",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1797_bh-judios.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 200,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los judios.",
+    cover: "covers/bh-judios.jpg",
+    downloads: 366,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Riguroso & Esclarecedor",
+    keyConcepts: [
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
+      ],
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los judios, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 2571,
+    title: "Desarrollo del Talento Humano Basado en Competencias",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Liderazgo y Gestión Organizacional",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2533_desarrollo-del-talento-humano-basado-en-compe.pdf",
+    pages: 89,
+    year: 2015,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Desarrollo del Talento Humano Basado en Competencias. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2533-desarrollo-del-talento-humano-basado-en-compe.jpg",
+    downloads: 408,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Desarrollo del Talento Humano Basado en Competencias. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    }
+  },
+  {
+    id: 1432,
+    title: "El Ser Uno I: Los Arcanos de Thoth",
+    author: "Franca Rosa Cannicioni",
+    category: "Espiritualidad & sabiduría",
+    collection: "La Gran Biblioteca Estoica",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1432_EL_SER_UNO_I.pdf",
+    year: 2002,
+    language: "Español",
+    pages: 342,
+    description: "Obra esencial de Franca Rosa Cannicioni centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-el_ser_uno_i-33.png",
+    downloads: 204,
+    featured: false,
+    aiAnalysis: {
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Esotérico & Metafísico",
+    keyConcepts: [
+        "Dicotomía del Control",
+        "Ciudadela Interior",
+        "Ataraxia"
+      ],
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: El Ser Uno I: Los Arcanos de Thoth aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    }
+  },
+  {
+    id: 1032,
+    title: "El Negocio del Siglo 21",
+    author: "Robert Kiyosaki",
+    category: "Finanzas & Inversión",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1032_El_Negocio_del_Siglo_21-Robert_Kiyosaki.pdf",
+    year: 2017,
+    language: "Español",
+    pages: 396,
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-negocio-del-siglo-21-robert-kiyosaki.png",
+    downloads: 234,
+    featured: false,
+    aiAnalysis: {
+    genre: "Finanzas & Inversión",
+    vibe: "Financiero & Analítico",
+    keyConcepts: [
+        "Inteligencia Financiera",
+        "Generación de Activos",
+        "Gestión del Riesgo",
+        "Libertad Económica"
+      ],
+    targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
+    aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
     id: 2002,
     title: "Aprendiendo De Los Mejores - Tu Desarrollo Personal Es Tu Destino",
     author: "Francisco Alcaide Hernandez",
@@ -21175,172 +21374,6 @@ const BOOKS = [
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
     aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los godos, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 2239,
-    title: "Liderazgo - El Don De Servicio",
-    author: "Alfonso Siliceo",
-    category: "Liderazgo & Estrategia",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2239_liderazgo-el-don-de-servicio-alfonso-siliceo.pdf",
-    pages: 70,
-    year: 2005,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre liderazgo - el don de servicio por Alfonso Siliceo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-liderazgo-el-don-de-servicio-alfonso-siliceo.jpg",
-    downloads: 408,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1432,
-    title: "El Ser Uno I: Los Arcanos de Thoth",
-    author: "Franca Rosa Cannicioni",
-    category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1432_EL_SER_UNO_I.pdf",
-    year: 2002,
-    language: "Español",
-    pages: 342,
-    description: "Obra esencial de Franca Rosa Cannicioni centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-el_ser_uno_i-33.png",
-    downloads: 204,
-    featured: false,
-    aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Esotérico & Metafísico",
-    keyConcepts: [
-        "Dicotomía del Control",
-        "Ciudadela Interior",
-        "Ataraxia"
-      ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: El Ser Uno I: Los Arcanos de Thoth aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
-    }
-  },
-  {
-    id: 1032,
-    title: "El Negocio del Siglo 21",
-    author: "Robert Kiyosaki",
-    category: "Finanzas & Inversión",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1032_El_Negocio_del_Siglo_21-Robert_Kiyosaki.pdf",
-    year: 2017,
-    language: "Español",
-    pages: 396,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-negocio-del-siglo-21-robert-kiyosaki.png",
-    downloads: 234,
-    featured: false,
-    aiAnalysis: {
-    genre: "Finanzas & Inversión",
-    vibe: "Financiero & Analítico",
-    keyConcepts: [
-        "Inteligencia Financiera",
-        "Generación de Activos",
-        "Gestión del Riesgo",
-        "Libertad Económica"
-      ],
-    targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
-    aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 2018,
-    title: "Coaching Co Activo",
-    author: "Henry Kimsey",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2018_coaching-co-activo-henry-kimsey.pdf",
-    pages: 88,
-    year: 2006,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching co activo por Henry Kimsey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-coaching-co-activo-henry-kimsey.jpg",
-    downloads: 728,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1143,
-    title: "Neuro Oratoria Spanish Edition",
-    author: "Jurgen Klaric",
-    category: "Marketing & Ventas",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1143_Neuro_oratoria_Spanish_Edition_-_Jurgen_Klaric.pdf",
-    year: 2018,
-    language: "Español",
-    pages: 159,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-neuro-oratoria-spanish-edition-jurgen-klaric.png",
-    downloads: 276,
-    featured: false,
-    aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
-    keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
-      ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1797,
-    title: "Breve historia de los judios",
-    author: "Juan Pedro Cavero Coll",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1797_bh-judios.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 200,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los judios.",
-    cover: "covers/bh-judios.jpg",
-    downloads: 366,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
-    keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
-      ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los judios, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -21429,18 +21462,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2058,
-    title: "Despertando Al Gigante Interior",
-    author: "Anthony Robbins",
+    id: 2018,
+    title: "Coaching Co Activo",
+    author: "Henry Kimsey",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2058_despertando-al-gigante-interior-anthony-robbins.pdf",
-    pages: 218,
-    year: 2008,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2018_coaching-co-activo-henry-kimsey.pdf",
+    pages: 88,
+    year: 2006,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre despertando al gigante interior por Anthony Robbins. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-despertando-al-gigante-interior-anthony-robbins.jpg",
-    downloads: 725,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching co activo por Henry Kimsey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-coaching-co-activo-henry-kimsey.jpg",
+    downloads: 728,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -21457,31 +21490,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1107,
-    title: "Claves",
-    author: "Para Construir Marcas Aporten Valor",
+    id: 2457,
+    title: "Destaca Profesionalmente con Tu Marca Personal",
+    author: "Especialistas en Administración",
     category: "Marketing & Ventas",
-    collection: "General",
+    subtopic: "Marketing y Ventas",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1107_Claves-para-construir-marcas-aporten-valor.pdf",
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2419_destaca-profesionalmente-con-tu-marca-persona.pdf",
+    pages: 72,
+    year: 2021,
     language: "Español",
-    pages: 251,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-claves-para-construir-marcas-aporten-valor.png",
+    description: "Manual y tratado de referencia sobre Destaca Profesionalmente con Tu Marca Personal. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2419-destaca-profesionalmente-con-tu-marca-persona.jpg",
     downloads: 269,
     featured: false,
     aiAnalysis: {
     genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Destaca Profesionalmente con Tu Marca Personal. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
     }
   },
   {
@@ -21512,33 +21546,32 @@ const BOOKS = [
     }
   },
   {
-    id: 2571,
-    title: "Desarrollo del Talento Humano Basado en Competencias",
-    author: "Especialistas en Administración",
+    id: 2239,
+    title: "Liderazgo - El Don De Servicio",
+    author: "Alfonso Siliceo",
     category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
-    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2533_desarrollo-del-talento-humano-basado-en-compe.pdf",
-    pages: 89,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2239_liderazgo-el-don-de-servicio-alfonso-siliceo.pdf",
+    pages: 70,
+    year: 2005,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Desarrollo del Talento Humano Basado en Competencias. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2533-desarrollo-del-talento-humano-basado-en-compe.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre liderazgo - el don de servicio por Alfonso Siliceo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-liderazgo-el-don-de-servicio-alfonso-siliceo.jpg",
     downloads: 408,
     featured: false,
     aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Desarrollo del Talento Humano Basado en Competencias. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 1507,
@@ -21596,18 +21629,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2170,
-    title: "Haciendo Que El Primer Circulo Funcione",
-    author: "Randy Gage",
+    id: 2058,
+    title: "Despertando Al Gigante Interior",
+    author: "Anthony Robbins",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2170_haciendo-que-el-primer-circulo-funcione-randy-gage.pdf",
-    pages: 55,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2058_despertando-al-gigante-interior-anthony-robbins.pdf",
+    pages: 218,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre haciendo que el primer circulo funcione por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-haciendo-que-el-primer-circulo-funcione-randy-gage.jpg",
-    downloads: 724,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre despertando al gigante interior por Anthony Robbins. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-despertando-al-gigante-interior-anthony-robbins.jpg",
+    downloads: 725,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -21624,47 +21657,46 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2457,
-    title: "Destaca Profesionalmente con Tu Marca Personal",
-    author: "Especialistas en Administración",
+    id: 1107,
+    title: "Claves",
+    author: "Para Construir Marcas Aporten Valor",
     category: "Marketing & Ventas",
-    subtopic: "Marketing y Ventas",
-    collection: "Libros de Administración",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2419_destaca-profesionalmente-con-tu-marca-persona.pdf",
-    pages: 72,
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1107_Claves-para-construir-marcas-aporten-valor.pdf",
+    year: 2022,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Destaca Profesionalmente con Tu Marca Personal. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2419-destaca-profesionalmente-con-tu-marca-persona.jpg",
+    pages: 251,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-claves-para-construir-marcas-aporten-valor.png",
     downloads: 269,
     featured: false,
     aiAnalysis: {
     genre: "Marketing & Ventas",
-    vibe: "Práctico & Empresarial",
+    vibe: "Persuasivo & Comercial",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Destaca Profesionalmente con Tu Marca Personal. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1711,
-    title: "Breve historia de Cosa Nostra",
-    author: "Fernando Bermejo",
+    id: 1823,
+    title: "Breve historia del comic",
+    author: "Gerardo Vilches Fuentes",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1711_bh-cosa-nostra.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1823_bh-del-comic.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 255,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Cosa Nostra.",
-    cover: "covers/bh-cosa-nostra.jpg",
+    pages: 233,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del comic.",
+    cover: "covers/bh-del-comic.jpg",
     downloads: 363,
     featured: false,
     aiAnalysis: {
@@ -21676,7 +21708,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Cosa Nostra, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del comic, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -21764,17 +21796,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2318,
-    title: "Reinicia",
-    author: "J. Fried _ D. H. Hansson",
+    id: 2170,
+    title: "Haciendo Que El Primer Circulo Funcione",
+    author: "Randy Gage",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2318_reinicia-j-fried-d-h-hansson.pdf",
-    pages: 559,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2170_haciendo-que-el-primer-circulo-funcione-randy-gage.pdf",
+    pages: 55,
+    year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre reinicia por J. Fried _ D. H. Hansson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-reinicia-j-fried-d-h-hansson.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre haciendo que el primer circulo funcione por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-haciendo-que-el-primer-circulo-funcione-randy-gage.jpg",
     downloads: 724,
     featured: false,
     aiAnalysis: {
@@ -21821,18 +21853,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1823,
-    title: "Breve historia del comic",
-    author: "Gerardo Vilches Fuentes",
+    id: 1711,
+    title: "Breve historia de Cosa Nostra",
+    author: "Fernando Bermejo",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1823_bh-del-comic.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1711_bh-cosa-nostra.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 233,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del comic.",
-    cover: "covers/bh-del-comic.jpg",
+    pages: 255,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Cosa Nostra.",
+    cover: "covers/bh-cosa-nostra.jpg",
     downloads: 363,
     featured: false,
     aiAnalysis: {
@@ -21844,7 +21876,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del comic, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Cosa Nostra, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -21932,18 +21964,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2209,
-    title: "La Presentacion De 45 Segundos Que Cambiara Su Vida",
-    author: "Don Failla",
+    id: 2318,
+    title: "Reinicia",
+    author: "J. Fried _ D. H. Hansson",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2209_la-presentacion-de-45-segundos-que-cambiara-su-vid.pdf",
-    pages: 131,
-    year: 2019,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2318_reinicia-j-fried-d-h-hansson.pdf",
+    pages: 559,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la presentacion de 45 segundos que cambiara su vida por Don Failla. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-presentacion-de-45-segundos-que-cambiara-su-vida-don-fail.jpg",
-    downloads: 722,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre reinicia por J. Fried _ D. H. Hansson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-reinicia-j-fried-d-h-hansson.jpg",
+    downloads: 724,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -21960,31 +21992,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1141,
-    title: "Marketingviral",
-    author: "3 (definitivo)",
+    id: 1246,
+    title: "¡Aplástalo!",
+    author: "Gary Vaynerchuk",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1141_MarketingViral-3_definitivo_.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1246_Gary_Vaynerchuck_-_Apl_stalo_.pdf",
+    year: 2021,
     language: "Español",
-    pages: 413,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-marketingviral-3-definitivo.png",
+    pages: 378,
+    description: "Una guía enérgica e inspiradora para convertir tu pasión en tu negocio principal aprovechando el poder de la marca personal y los canales digitales.",
+    cover: "covers/aplastalo-hd.jpg",
     downloads: 262,
     featured: false,
     aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
     keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
       ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, creadores de contenido y apasionados de las marcas personales.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -22100,17 +22132,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2353,
-    title: "Ya Te Dije Adios Ahora Como Te Olvido",
-    author: "Walter Riso",
+    id: 2209,
+    title: "La Presentacion De 45 Segundos Que Cambiara Su Vida",
+    author: "Don Failla",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2353_ya-te-dije-adios-ahora-como-te-olvido-walter-riso.pdf",
-    pages: 45,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2209_la-presentacion-de-45-segundos-que-cambiara-su-vid.pdf",
+    pages: 131,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ya te dije adios ahora como te olvido por Walter Riso. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-ya-te-dije-adios-ahora-como-te-olvido-walter-riso.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la presentacion de 45 segundos que cambiara su vida por Don Failla. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-presentacion-de-45-segundos-que-cambiara-su-vida-don-fail.jpg",
     downloads: 722,
     featured: false,
     aiAnalysis: {
@@ -22128,58 +22160,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1246,
-    title: "¡Aplástalo!",
-    author: "Gary Vaynerchuk",
+    id: 1141,
+    title: "Marketingviral",
+    author: "3 (definitivo)",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1246_Gary_Vaynerchuck_-_Apl_stalo_.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1141_MarketingViral-3_definitivo_.pdf",
+    year: 2016,
     language: "Español",
-    pages: 378,
-    description: "Una guía enérgica e inspiradora para convertir tu pasión en tu negocio principal aprovechando el poder de la marca personal y los canales digitales.",
-    cover: "covers/aplastalo-hd.jpg",
+    pages: 413,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-marketingviral-3-definitivo.png",
     downloads: 262,
     featured: false,
     aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
+    genre: "Marketing & Ventas",
+    vibe: "Persuasivo & Comercial",
     keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
       ],
-    targetAudience: "Emprendedores, creadores de contenido y apasionados de las marcas personales.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1785,
-    title: "Breve historia de los cataros",
-    author: "David Barreras",
+    id: 1839,
+    title: "Breve historia del renacimiento",
+    author: "Carlos Javier Taranilla de la Varga",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1785_bh-cataros.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1839_bh-del-renacimiento.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 214,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los cataros.",
-    cover: "covers/bh-cataros.jpg",
+    pages: 219,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del renacimiento.",
+    cover: "covers/bh-del-renacimiento.jpg",
     downloads: 357,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
+    vibe: "Cultural & Humanista",
     keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
+        "Humanismo Clasico",
+        "Evolucion Artistica",
+        "Genio Creativo"
       ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los cataros, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Amantes del arte, las letras universales y el patrimonio cultural.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del renacimiento, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -22267,18 +22299,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2303,
-    title: "Porque Los Hombres Quieren Sexo Y Las Mujeres Necesitan Amor",
-    author: "Allan _ Barbara Pease",
+    id: 2353,
+    title: "Ya Te Dije Adios Ahora Como Te Olvido",
+    author: "Walter Riso",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2303_porque-los-hombres-quieren-sexo-y-las-mujeres-nece.pdf",
-    pages: 109,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2353_ya-te-dije-adios-ahora-como-te-olvido-walter-riso.pdf",
+    pages: 45,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre porque los hombres quieren sexo y las mujeres necesitan amor por Allan _ Barbara Pease. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-porque-los-hombres-quieren-sexo-y-las-mujeres-necesitan-amor.jpg",
-    downloads: 711,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ya te dije adios ahora como te olvido por Walter Riso. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-ya-te-dije-adios-ahora-como-te-olvido-walter-riso.jpg",
+    downloads: 722,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -22323,30 +22355,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1839,
-    title: "Breve historia del renacimiento",
-    author: "Carlos Javier Taranilla de la Varga",
+    id: 1785,
+    title: "Breve historia de los cataros",
+    author: "David Barreras",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1839_bh-del-renacimiento.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1785_bh-cataros.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 219,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del renacimiento.",
-    cover: "covers/bh-del-renacimiento.jpg",
+    pages: 214,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los cataros.",
+    cover: "covers/bh-cataros.jpg",
     downloads: 357,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Cultural & Humanista",
+    vibe: "Riguroso & Esclarecedor",
     keyConcepts: [
-        "Humanismo Clasico",
-        "Evolucion Artistica",
-        "Genio Creativo"
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
       ],
-    targetAudience: "Amantes del arte, las letras universales y el patrimonio cultural.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del renacimiento, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los cataros, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -22420,6 +22452,174 @@ const BOOKS = [
     description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-hombre-mas-rico-de-babilonia-george-s-clason-79-pa.png",
     downloads: 206,
+    featured: false,
+    aiAnalysis: {
+    genre: "Finanzas & Inversión",
+    vibe: "Financiero & Analítico",
+    keyConcepts: [
+        "Inteligencia Financiera",
+        "Generación de Activos",
+        "Gestión del Riesgo",
+        "Libertad Económica"
+      ],
+    targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
+    aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 2303,
+    title: "Porque Los Hombres Quieren Sexo Y Las Mujeres Necesitan Amor",
+    author: "Allan _ Barbara Pease",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2303_porque-los-hombres-quieren-sexo-y-las-mujeres-nece.pdf",
+    pages: 109,
+    year: 2016,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre porque los hombres quieren sexo y las mujeres necesitan amor por Allan _ Barbara Pease. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-porque-los-hombres-quieren-sexo-y-las-mujeres-necesitan-amor.jpg",
+    downloads: 711,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1138,
+    title: "Marketing de Guerra",
+    author: "Al Ries y Jack Trout",
+    category: "Marketing & Ventas",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1138_Marketing_de_Guerra_by_Al_Ries_y_Jack_Trout.pdf",
+    year: 2023,
+    language: "Español",
+    pages: 374,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-marketing-de-guerra-by-al-ries-y-jack-trout.png",
+    downloads: 241,
+    featured: false,
+    aiAnalysis: {
+    genre: "Marketing & Ventas",
+    vibe: "Persuasivo & Comercial",
+    keyConcepts: [
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
+      ],
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1807,
+    title: "Breve historia de los vikingos",
+    author: "Manuel Velasco",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1807_bh-vikingos.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 254,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los vikingos.",
+    cover: "covers/bh-vikingos.jpg",
+    downloads: 355,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Mistico & Revelador",
+    keyConcepts: [
+        "Mitologia Ancestral",
+        "Ordenes y Misterios",
+        "Cosmovision Historica"
+      ],
+    targetAudience: "Investigadores de mitos, simbolismo y enigmas del pasado.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los vikingos, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 2573,
+    title: "Guía de Buenas Prácticas en Reclutamiento y Selección de Personal",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Liderazgo y Gestión Organizacional",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2535_gu-a-de-buenas-pr-cticas-en-reclutamiento-y-s.pdf",
+    pages: 46,
+    year: 2017,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Guía de Buenas Prácticas en Reclutamiento y Selección de Personal. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2535-gu-a-de-buenas-pr-cticas-en-reclutamiento-y-s.jpg",
+    downloads: 393,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Guía de Buenas Prácticas en Reclutamiento y Selección de Personal. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    }
+  },
+  {
+    id: 1161,
+    title: "Sopa de Pollo para el Alma",
+    author: "Jack Canfield y Mark Victor Hansen",
+    category: "Espiritualidad & sabiduría",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1161_17-Sopa_de_Pollo_para_el_Alma.pdf",
+    year: 2016,
+    language: "Español",
+    pages: 393,
+    description: "Historias reconfortantes que abren el corazón y reavivan el espíritu, recordando la fuerza del perdón, la ternura y la gratitud cotidiana.",
+    cover: "covers/c-17-sopa-de-pollo-para-el-alma.png",
+    downloads: 157,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores en busca de calor humano, consuelo emocional e inspiración de vida.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1027,
+    title: "El Hombre Ma$ Rico de Babilonia",
+    author: "George S. Clason",
+    category: "Finanzas & Inversión",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1027_EL_HOMBRE_MA_RICO_DE_BABILONIA_-_GEORGE_S._CLASON_-_53_PAGINAS.pdf",
+    year: 2022,
+    language: "Español",
+    pages: 331,
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-hombre-ma-rico-de-babilonia-george-s-clason-53-pag.png",
+    downloads: 199,
     featured: false,
     aiAnalysis: {
     genre: "Finanzas & Inversión",
@@ -22518,20 +22718,20 @@ const BOOKS = [
     }
   },
   {
-    id: 2573,
-    title: "Guía de Buenas Prácticas en Reclutamiento y Selección de Personal",
+    id: 2475,
+    title: "Comunicar Es Compartir",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
+    subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2535_gu-a-de-buenas-pr-cticas-en-reclutamiento-y-s.pdf",
-    pages: 46,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2437_comunicar-es-compartir.pdf",
+    pages: 82,
+    year: 2015,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Guía de Buenas Prácticas en Reclutamiento y Selección de Personal. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2535-gu-a-de-buenas-pr-cticas-en-reclutamiento-y-s.jpg",
-    downloads: 393,
+    description: "Manual y tratado de referencia sobre Comunicar Es Compartir. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2437-comunicar-es-compartir.jpg",
+    downloads: 391,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -22543,175 +22743,8 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Guía de Buenas Prácticas en Reclutamiento y Selección de Personal. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    aiSummary: "Tratado y guía ejecutiva sobre Comunicar Es Compartir. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
-  },
-  {
-    id: 1161,
-    title: "Sopa de Pollo para el Alma",
-    author: "Jack Canfield y Mark Victor Hansen",
-    category: "Espiritualidad & sabiduría",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1161_17-Sopa_de_Pollo_para_el_Alma.pdf",
-    year: 2016,
-    language: "Español",
-    pages: 393,
-    description: "Historias reconfortantes que abren el corazón y reavivan el espíritu, recordando la fuerza del perdón, la ternura y la gratitud cotidiana.",
-    cover: "covers/c-17-sopa-de-pollo-para-el-alma.png",
-    downloads: 157,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores en busca de calor humano, consuelo emocional e inspiración de vida.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1027,
-    title: "El Hombre Ma$ Rico de Babilonia",
-    author: "George S. Clason",
-    category: "Finanzas & Inversión",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1027_EL_HOMBRE_MA_RICO_DE_BABILONIA_-_GEORGE_S._CLASON_-_53_PAGINAS.pdf",
-    year: 2022,
-    language: "Español",
-    pages: 331,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-hombre-ma-rico-de-babilonia-george-s-clason-53-pag.png",
-    downloads: 199,
-    featured: false,
-    aiAnalysis: {
-    genre: "Finanzas & Inversión",
-    vibe: "Financiero & Analítico",
-    keyConcepts: [
-        "Inteligencia Financiera",
-        "Generación de Activos",
-        "Gestión del Riesgo",
-        "Libertad Económica"
-      ],
-    targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
-    aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1969,
-    title: "Go Pro: 7 Pasos para Ser un Profesional",
-    author: "Eric Worre",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1969_go-pro-eric-worre.pdf",
-    pages: 130,
-    year: 2013,
-    language: "Español",
-    description: "Metodología paso a paso para prospectar, presentar, cerrar tratos comerciales y construir redes de distribución rentables y escalables.",
-    cover: "covers/c-emprendedores-go-pro-eric-worre.jpg",
-    downloads: 710,
-    featured: false,
-    aiAnalysis: {
-    genre: "Ventas & Network Marketing",
-    vibe: "Estructurado & Directo",
-    keyConcepts: [
-        "Prospección Profesional",
-        "Presentación Efectiva",
-        "Cierre y Seguimiento",
-        "Duplicación de Equipos"
-      ],
-    targetAudience: "Vendedores, profesionales de redes de mercadeo y comerciales de producto.",
-    aiSummary: "Eric Worre sintetiza las destrezas fundamentales para elevar las ventas a nivel profesional y generar ingresos consistentes sin presión tóxica."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1138,
-    title: "Marketing de Guerra",
-    author: "Al Ries y Jack Trout",
-    category: "Marketing & Ventas",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1138_Marketing_de_Guerra_by_Al_Ries_y_Jack_Trout.pdf",
-    year: 2023,
-    language: "Español",
-    pages: 374,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-marketing-de-guerra-by-al-ries-y-jack-trout.png",
-    downloads: 241,
-    featured: false,
-    aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
-    keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
-      ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1807,
-    title: "Breve historia de los vikingos",
-    author: "Manuel Velasco",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1807_bh-vikingos.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 254,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de los vikingos.",
-    cover: "covers/bh-vikingos.jpg",
-    downloads: 355,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Mistico & Revelador",
-    keyConcepts: [
-        "Mitologia Ancestral",
-        "Ordenes y Misterios",
-        "Cosmovision Historica"
-      ],
-    targetAudience: "Investigadores de mitos, simbolismo y enigmas del pasado.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de los vikingos, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 2254,
-    title: "Los Siete Secretos De La Innovacion Segun Steve Jobs",
-    author: "Editorial Emprendedora",
-    category: "Liderazgo & Estrategia",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2254_los-siete-secretos-de-la-innovacion-segun-steve-jo.pdf",
-    pages: 45,
-    year: 2008,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los siete secretos de la innovacion segun steve jobs por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-los-siete-secretos-de-la-innovacion-segun-steve-jobs.jpg",
-    downloads: 391,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
   },
   {
     id: 1229,
@@ -22855,33 +22888,32 @@ const BOOKS = [
     }
   },
   {
-    id: 2475,
-    title: "Comunicar Es Compartir",
-    author: "Especialistas en Administración",
+    id: 2254,
+    title: "Los Siete Secretos De La Innovacion Segun Steve Jobs",
+    author: "Editorial Emprendedora",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2437_comunicar-es-compartir.pdf",
-    pages: 82,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2254_los-siete-secretos-de-la-innovacion-segun-steve-jo.pdf",
+    pages: 45,
+    year: 2008,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Comunicar Es Compartir. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2437-comunicar-es-compartir.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los siete secretos de la innovacion segun steve jobs por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-los-siete-secretos-de-la-innovacion-segun-steve-jobs.jpg",
     downloads: 391,
     featured: false,
     aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Comunicar Es Compartir. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 1025,
@@ -22912,30 +22944,30 @@ const BOOKS = [
     }
   },
   {
-    id: 2177,
-    title: "Ideas Simples Que Te Haran Millonario",
-    author: "Juan Antonio Guerrero",
+    id: 1969,
+    title: "Go Pro: 7 Pasos para Ser un Profesional",
+    author: "Eric Worre",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2177_ideas-simples-que-te-haran-millonario-juan-antonio.pdf",
-    pages: 45,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1969_go-pro-eric-worre.pdf",
+    pages: 130,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ideas simples que te haran millonario por Juan Antonio Guerrero. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-ideas-simples-que-te-haran-millonario-juan-antonio-guerrero.jpg",
-    downloads: 706,
+    description: "Metodología paso a paso para prospectar, presentar, cerrar tratos comerciales y construir redes de distribución rentables y escalables.",
+    cover: "covers/c-emprendedores-go-pro-eric-worre.jpg",
+    downloads: 710,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Ventas & Network Marketing",
+    vibe: "Estructurado & Directo",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Prospección Profesional",
+        "Presentación Efectiva",
+        "Cierre y Seguimiento",
+        "Duplicación de Equipos"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    targetAudience: "Vendedores, profesionales de redes de mercadeo y comerciales de producto.",
+    aiSummary: "Eric Worre sintetiza las destrezas fundamentales para elevar las ventas a nivel profesional y generar ingresos consistentes sin presión tóxica."
     },
     collection: "Colección Emprendedores"
   },
@@ -22969,30 +23001,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1761,
-    title: "Breve historia de la Revolución Francesa",
-    author: "Iñigo Bolinaga",
+    id: 1815,
+    title: "Breve historia de Tartessos",
+    author: "Ediciones Nowtilus",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1761_bh-revoluci-n-francesa.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1815_bh-tartessos.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 164,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Revolución Francesa.",
-    cover: "covers/bh-revoluci-n-francesa.jpg",
+    pages: 185,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Tartessos.",
+    cover: "covers/bh-tartessos.jpg",
     downloads: 349,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
+    vibe: "Cultural & Humanista",
     keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
+        "Humanismo Clasico",
+        "Evolucion Artistica",
+        "Genio Creativo"
       ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Revolución Francesa, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Amantes del arte, las letras universales y el patrimonio cultural.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Tartessos, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -23054,18 +23086,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2319,
-    title: "Saber Que Decir",
-    author: "Rebecca Williams",
+    id: 2177,
+    title: "Ideas Simples Que Te Haran Millonario",
+    author: "Juan Antonio Guerrero",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2319_saber-que-decir-rebecca-williams.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2177_ideas-simples-que-te-haran-millonario-juan-antonio.pdf",
     pages: 45,
-    year: 2014,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre saber que decir por Rebecca Williams. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-saber-que-decir-rebecca-williams.jpg",
-    downloads: 703,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ideas simples que te haran millonario por Juan Antonio Guerrero. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-ideas-simples-que-te-haran-millonario-juan-antonio-guerrero.jpg",
+    downloads: 706,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -23110,30 +23142,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1815,
-    title: "Breve historia de Tartessos",
-    author: "Ediciones Nowtilus",
+    id: 1761,
+    title: "Breve historia de la Revolución Francesa",
+    author: "Iñigo Bolinaga",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1815_bh-tartessos.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1761_bh-revoluci-n-francesa.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 185,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Tartessos.",
-    cover: "covers/bh-tartessos.jpg",
+    pages: 164,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Revolución Francesa.",
+    cover: "covers/bh-revoluci-n-francesa.jpg",
     downloads: 349,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Cultural & Humanista",
+    vibe: "Riguroso & Esclarecedor",
     keyConcepts: [
-        "Humanismo Clasico",
-        "Evolucion Artistica",
-        "Genio Creativo"
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
       ],
-    targetAudience: "Amantes del arte, las letras universales y el patrimonio cultural.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Tartessos, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Revolución Francesa, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -23194,18 +23226,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2223,
-    title: "Leyes",
-    author: "10Ma Ley",
+    id: 2319,
+    title: "Saber Que Decir",
+    author: "Rebecca Williams",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2223_leyes-10ma-ley.pdf",
-    pages: 452,
-    year: 2012,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2319_saber-que-decir-rebecca-williams.pdf",
+    pages: 45,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 10Ma Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-10ma-ley.jpg",
-    downloads: 697,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre saber que decir por Rebecca Williams. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-saber-que-decir-rebecca-williams.jpg",
+    downloads: 703,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -23336,18 +23368,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2057,
-    title: "Descubriendo La Pnl",
-    author: "Dr. Cupertino Castro",
+    id: 2223,
+    title: "Leyes",
+    author: "10Ma Ley",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2057_descubriendo-la-pnl-dr-cupertino-castro.pdf",
-    pages: 45,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2223_leyes-10ma-ley.pdf",
+    pages: 452,
     year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre descubriendo la pnl por Dr. Cupertino Castro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-descubriendo-la-pnl-dr-cupertino-castro.jpg",
-    downloads: 695,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 10Ma Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-10ma-ley.jpg",
+    downloads: 697,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -23364,19 +23396,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2507,
-    title: "Del Marketing Relacional al CRM",
+    id: 2590,
+    title: "Vende Mas Alla de Tus Objetivos",
     author: "Especialistas en Administración",
     category: "Marketing & Ventas",
     subtopic: "Marketing y Ventas",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2469_del-marketing-relacional-al-crm.pdf",
-    pages: 119,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2552_vende-mas-alla-de-tus-objetivos.pdf",
+    pages: 110,
+    year: 2018,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Del Marketing Relacional al CRM. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2469-del-marketing-relacional-al-crm.jpg",
+    description: "Manual y tratado de referencia sobre Vende Mas Alla de Tus Objetivos. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2552-vende-mas-alla-de-tus-objetivos.jpg",
     downloads: 230,
     featured: false,
     aiAnalysis: {
@@ -23389,7 +23421,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Del Marketing Relacional al CRM. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
+    aiSummary: "Tratado y guía ejecutiva sobre Vende Mas Alla de Tus Objetivos. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
     }
   },
   {
@@ -23505,19 +23537,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2590,
-    title: "Vende Mas Alla de Tus Objetivos",
+    id: 2507,
+    title: "Del Marketing Relacional al CRM",
     author: "Especialistas en Administración",
     category: "Marketing & Ventas",
     subtopic: "Marketing y Ventas",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2552_vende-mas-alla-de-tus-objetivos.pdf",
-    pages: 110,
-    year: 2018,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2469_del-marketing-relacional-al-crm.pdf",
+    pages: 119,
+    year: 2015,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Vende Mas Alla de Tus Objetivos. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2552-vende-mas-alla-de-tus-objetivos.jpg",
+    description: "Manual y tratado de referencia sobre Del Marketing Relacional al CRM. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2469-del-marketing-relacional-al-crm.jpg",
     downloads: 230,
     featured: false,
     aiAnalysis: {
@@ -23530,7 +23562,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Vende Mas Alla de Tus Objetivos. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
+    aiSummary: "Tratado y guía ejecutiva sobre Del Marketing Relacional al CRM. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Marketing y Ventas."
     }
   },
   {
@@ -23618,18 +23650,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2060,
-    title: "Despierta Tu Heroe Interior",
-    author: "Victor Hugo Manzanilla",
+    id: 2057,
+    title: "Descubriendo La Pnl",
+    author: "Dr. Cupertino Castro",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2060_despierta-tu-heroe-interior-victor-hugo-manzanilla.pdf",
-    pages: 63,
-    year: 2011,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2057_descubriendo-la-pnl-dr-cupertino-castro.pdf",
+    pages: 45,
+    year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre despierta tu heroe interior por Victor Hugo Manzanilla. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-despierta-tu-heroe-interior-victor-hugo-manzanilla.jpg",
-    downloads: 693,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre descubriendo la pnl por Dr. Cupertino Castro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-descubriendo-la-pnl-dr-cupertino-castro.jpg",
+    downloads: 695,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -23702,30 +23734,32 @@ const BOOKS = [
     }
   },
   {
-    id: 1461,
-    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo IV)",
-    author: "Edward Gibbon",
+    id: 2482,
+    title: "Cómo Realizar una Presentación",
+    author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    collection: "La Gran Biblioteca Estoica",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1461_historia_de_la_decadencia_y_ca_da_del_imperio_romano_iv.pdf",
-    year: 1788,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2444_c-mo-realizar-una-presentaci-n.pdf",
+    pages: 51,
+    year: 2022,
     language: "Español",
-    pages: 459,
-    description: "Obra esencial de Edward Gibbon centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-historia_de_la_decadencia_y_ca_da_d-57.png",
+    description: "Manual y tratado de referencia sobre Cómo Realizar una Presentación. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2444-c-mo-realizar-una-presentaci-n.jpg",
     downloads: 377,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Monumental & Épico",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
         "Toma de Decisiones",
-        "Antifragilidad",
-        "Visión a Largo Plazo"
+        "Casos Prácticos"
       ],
-    targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-    aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo IV) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Cómo Realizar una Presentación. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -23757,17 +23791,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2217,
-    title: "Las Cinco Piezas Del Rompecabezas De La Vida",
-    author: "Jin Rohn",
+    id: 2060,
+    title: "Despierta Tu Heroe Interior",
+    author: "Victor Hugo Manzanilla",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2217_las-cinco-piezas-del-rompecabezas-de-la-vida-jin-r.pdf",
-    pages: 45,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2060_despierta-tu-heroe-interior-victor-hugo-manzanilla.pdf",
+    pages: 63,
+    year: 2011,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las cinco piezas del rompecabezas de la vida por Jin Rohn. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-las-cinco-piezas-del-rompecabezas-de-la-vida-jin-rohn.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre despierta tu heroe interior por Victor Hugo Manzanilla. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-despierta-tu-heroe-interior-victor-hugo-manzanilla.jpg",
     downloads: 693,
     featured: false,
     aiAnalysis: {
@@ -23840,32 +23874,30 @@ const BOOKS = [
     }
   },
   {
-    id: 2482,
-    title: "Cómo Realizar una Presentación",
-    author: "Especialistas en Administración",
+    id: 1461,
+    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo IV)",
+    author: "Edward Gibbon",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2444_c-mo-realizar-una-presentaci-n.pdf",
-    pages: 51,
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1461_historia_de_la_decadencia_y_ca_da_del_imperio_romano_iv.pdf",
+    year: 1788,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Cómo Realizar una Presentación. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2444-c-mo-realizar-una-presentaci-n.jpg",
+    pages: 459,
+    description: "Obra esencial de Edward Gibbon centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-historia_de_la_decadencia_y_ca_da_d-57.png",
     downloads: 377,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    vibe: "Monumental & Épico",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
         "Toma de Decisiones",
-        "Casos Prácticos"
+        "Antifragilidad",
+        "Visión a Largo Plazo"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Cómo Realizar una Presentación. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
+    aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo IV) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
     }
   },
   {
@@ -23897,18 +23929,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2080,
-    title: "El Arte De La Ventaja",
-    author: "Carlos Martin Perez",
+    id: 2217,
+    title: "Las Cinco Piezas Del Rompecabezas De La Vida",
+    author: "Jin Rohn",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2080_el-arte-de-la-ventaja-carlos-martin-perez.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2217_las-cinco-piezas-del-rompecabezas-de-la-vida-jin-r.pdf",
     pages: 45,
-    year: 2019,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la ventaja por Carlos Martin Perez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-la-ventaja-carlos-martin-perez.jpg",
-    downloads: 691,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las cinco piezas del rompecabezas de la vida por Jin Rohn. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-las-cinco-piezas-del-rompecabezas-de-la-vida-jin-rohn.jpg",
+    downloads: 693,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -23981,19 +24013,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2424,
-    title: "Administracion de la Produccion",
+    id: 2514,
+    title: "Claves para un Liderazgo Personal Exitoso",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
+    subtopic: "Liderazgo y Gestión Organizacional",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2386_administracion-de-la-produccion.pdf",
-    pages: 69,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2476_claves-para-un-liderazgo-personal-exitoso.pdf",
+    pages: 53,
+    year: 2022,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Administracion de la Produccion. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2386-administracion-de-la-produccion.jpg",
+    description: "Manual y tratado de referencia sobre Claves para un Liderazgo Personal Exitoso. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2476-claves-para-un-liderazgo-personal-exitoso.jpg",
     downloads: 376,
     featured: false,
     aiAnalysis: {
@@ -24006,7 +24038,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Administracion de la Produccion. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Claves para un Liderazgo Personal Exitoso. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
     }
   },
   {
@@ -24038,30 +24070,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1966,
-    title: "Los 88 Peldaños del Éxito",
-    author: "Anxo Pérez",
+    id: 2080,
+    title: "El Arte De La Ventaja",
+    author: "Carlos Martin Perez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1966_los-88-peldanos-del-exito-anxo-perez.pdf",
-    pages: 199,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2080_el-arte-de-la-ventaja-carlos-martin-perez.pdf",
+    pages: 45,
+    year: 2019,
     language: "Español",
-    description: "88 fórmulas aceleradoras del éxito personal y empresarial por el creador de 8Belts. Una guía vibrante para maximizar el potencial de cualquier proyecto.",
-    cover: "covers/c-emprendedores-los-88-peldanos-del-exito-anxo-perez.jpg",
-    downloads: 690,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la ventaja por Carlos Martin Perez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-la-ventaja-carlos-martin-perez.jpg",
+    downloads: 691,
     featured: false,
     aiAnalysis: {
-    genre: "Desarrollo Personal & Emprendimiento",
-    vibe: "Motivador & Enérgico",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Aceleración del Aprendizaje",
-        "Disciplina Diaria",
-        "Eliminación del Freno Mental",
-        "Ejecución Veloz"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Jóvenes emprendedores, creadores y profesionales que buscan alto rendimiento.",
-    aiSummary: "Consejos concentrados y lecciones prácticas de mentalidad para eliminar la procrastinación y convertir aspiraciones en logros tangibles."
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
   },
@@ -24121,19 +24153,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2514,
-    title: "Claves para un Liderazgo Personal Exitoso",
+    id: 2424,
+    title: "Administracion de la Produccion",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
+    subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2476_claves-para-un-liderazgo-personal-exitoso.pdf",
-    pages: 53,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2386_administracion-de-la-produccion.pdf",
+    pages: 69,
+    year: 2020,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Claves para un Liderazgo Personal Exitoso. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2476-claves-para-un-liderazgo-personal-exitoso.jpg",
+    description: "Manual y tratado de referencia sobre Administracion de la Produccion. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2386-administracion-de-la-produccion.jpg",
     downloads: 376,
     featured: false,
     aiAnalysis: {
@@ -24146,7 +24178,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Claves para un Liderazgo Personal Exitoso. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    aiSummary: "Tratado y guía ejecutiva sobre Administracion de la Produccion. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -24178,30 +24210,30 @@ const BOOKS = [
     }
   },
   {
-    id: 2035,
-    title: "Como Planificar Tu Exito",
-    author: "David Valois",
+    id: 1966,
+    title: "Los 88 Peldaños del Éxito",
+    author: "Anxo Pérez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2035_como-planificar-tu-exito-david-valois.pdf",
-    pages: 47,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1966_los-88-peldanos-del-exito-anxo-perez.pdf",
+    pages: 199,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como planificar tu exito por David Valois. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-planificar-tu-exito-david-valois.jpg",
-    downloads: 677,
+    description: "88 fórmulas aceleradoras del éxito personal y empresarial por el creador de 8Belts. Una guía vibrante para maximizar el potencial de cualquier proyecto.",
+    cover: "covers/c-emprendedores-los-88-peldanos-del-exito-anxo-perez.jpg",
+    downloads: 690,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Desarrollo Personal & Emprendimiento",
+    vibe: "Motivador & Enérgico",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Aceleración del Aprendizaje",
+        "Disciplina Diaria",
+        "Eliminación del Freno Mental",
+        "Ejecución Veloz"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    targetAudience: "Jóvenes emprendedores, creadores y profesionales que buscan alto rendimiento.",
+    aiSummary: "Consejos concentrados y lecciones prácticas de mentalidad para eliminar la procrastinación y convertir aspiraciones en logros tangibles."
     },
     collection: "Colección Emprendedores"
   },
@@ -24235,18 +24267,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1758,
-    title: "Breve historia de la música",
-    author: "Ediciones Nowtilus",
+    id: 1817,
+    title: "Breve historia del Africa subsahariana",
+    author: "Eric Garcia Moral",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1758_bh-m-sica.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1817_bh-del-africa-subsahariana.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 197,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la música.",
-    cover: "covers/bh-m-sica.jpg",
+    pages: 811,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del Africa subsahariana.",
+    cover: "covers/bh-del-africa-subsahariana.jpg",
     downloads: 336,
     featured: false,
     aiAnalysis: {
@@ -24258,7 +24290,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la música, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del Africa subsahariana, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -24290,18 +24322,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1019,
-    title: "Conéctate con el Dinero",
-    author: "Jurgen Klaric",
+    id: 1054,
+    title: "Robert",
+    author: "Kiyosaki Retirate Joven y Rico",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1019_Con_ctate_con_el_dinero_-_Jurgen_Klaric.pdf",
-    year: 2024,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1054_Robert-Kiyosaki-Retirate-Joven-y-Rico.pdf",
+    year: 2019,
     language: "Español",
-    pages: 227,
+    pages: 402,
     description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-con-ctate-con-el-dinero-jurgen-klaric.png",
+    cover: "covers/c-robert-kiyosaki-retirate-joven-y-rico.png",
     downloads: 143,
     featured: false,
     aiAnalysis: {
@@ -24318,18 +24350,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2039,
-    title: "Como Te Vendes Te Contratan",
-    author: "Jorge Munianin",
+    id: 2035,
+    title: "Como Planificar Tu Exito",
+    author: "David Valois",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2039_como-te-vendes-te-contratan-jorge-munianin.pdf",
-    pages: 217,
-    year: 2010,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2035_como-planificar-tu-exito-david-valois.pdf",
+    pages: 47,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como te vendes te contratan por Jorge Munianin. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-te-vendes-te-contratan-jorge-munianin.jpg",
-    downloads: 673,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como planificar tu exito por David Valois. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-planificar-tu-exito-david-valois.jpg",
+    downloads: 677,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -24430,18 +24462,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1054,
-    title: "Robert",
-    author: "Kiyosaki Retirate Joven y Rico",
+    id: 1019,
+    title: "Conéctate con el Dinero",
+    author: "Jurgen Klaric",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1054_Robert-Kiyosaki-Retirate-Joven-y-Rico.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1019_Con_ctate_con_el_dinero_-_Jurgen_Klaric.pdf",
+    year: 2024,
     language: "Español",
-    pages: 402,
+    pages: 227,
     description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-robert-kiyosaki-retirate-joven-y-rico.png",
+    cover: "covers/c-con-ctate-con-el-dinero-jurgen-klaric.png",
     downloads: 143,
     featured: false,
     aiAnalysis: {
@@ -24458,18 +24490,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2230,
-    title: "Leyes",
-    author: "4Ta Ley",
+    id: 2039,
+    title: "Como Te Vendes Te Contratan",
+    author: "Jorge Munianin",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2230_leyes-4ta-ley.pdf",
-    pages: 310,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2039_como-te-vendes-te-contratan-jorge-munianin.pdf",
+    pages: 217,
+    year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 4Ta Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-4ta-ley.jpg",
-    downloads: 672,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como te vendes te contratan por Jorge Munianin. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-te-vendes-te-contratan-jorge-munianin.jpg",
+    downloads: 673,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -24515,18 +24547,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1817,
-    title: "Breve historia del Africa subsahariana",
-    author: "Eric Garcia Moral",
+    id: 1758,
+    title: "Breve historia de la música",
+    author: "Ediciones Nowtilus",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1817_bh-del-africa-subsahariana.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1758_bh-m-sica.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 811,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del Africa subsahariana.",
-    cover: "covers/bh-del-africa-subsahariana.jpg",
+    pages: 197,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la música.",
+    cover: "covers/bh-m-sica.jpg",
     downloads: 336,
     featured: false,
     aiAnalysis: {
@@ -24538,7 +24570,147 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del Africa subsahariana, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la música, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 2468,
+    title: "Fundamentos de Comercio Electrónico",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2430_fundamentos-de-comercio-electr-nico.pdf",
+    pages: 222,
+    year: 2016,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Fundamentos de Comercio Electrónico. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2430-fundamentos-de-comercio-electr-nico.jpg",
+    downloads: 373,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Fundamentos de Comercio Electrónico. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 1053,
+    title: "Queremos Que Seas Rico",
+    author: "Selección Bibliotyan",
+    category: "Finanzas & Inversión",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1053_queremos_que_seas_rico.pdf",
+    year: 2018,
+    language: "Español",
+    pages: 389,
+    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-queremos-que-seas-rico.png",
+    downloads: 136,
+    featured: false,
+    aiAnalysis: {
+    genre: "Finanzas & Inversión",
+    vibe: "Financiero & Analítico",
+    keyConcepts: [
+        "Inteligencia Financiera",
+        "Generación de Activos",
+        "Gestión del Riesgo",
+        "Libertad Económica"
+      ],
+    targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
+    aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 2230,
+    title: "Leyes",
+    author: "4Ta Ley",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2230_leyes-4ta-ley.pdf",
+    pages: 310,
+    year: 2007,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 4Ta Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-4ta-ley.jpg",
+    downloads: 672,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1273,
+    title: "La Ciencia del Exito en Twitter",
+    author: "Selección Bibliotyan",
+    category: "Marketing & Ventas",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1273_La_ciencia_del_exito_en_Twitter.pdf",
+    year: 2018,
+    language: "Español",
+    pages: 169,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-la-ciencia-del-exito-en-twitter.png",
+    downloads: 206,
+    featured: false,
+    aiAnalysis: {
+    genre: "Marketing & Ventas",
+    vibe: "Persuasivo & Comercial",
+    keyConcepts: [
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
+      ],
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1838,
+    title: "Breve historia del mundo",
+    author: "Luis Enrique Inigo Fernandez",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1838_bh-del-mundo.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 161,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del mundo.",
+    cover: "covers/bh-del-mundo.jpg",
+    downloads: 330,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Riguroso & Esclarecedor",
+    keyConcepts: [
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
+      ],
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del mundo, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -24571,19 +24743,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1053,
-    title: "Queremos Que Seas Rico",
+    id: 1017,
+    title: "Como Crear Riqueza Invirtiendo en Bienes Raíces",
     author: "Selección Bibliotyan",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1053_queremos_que_seas_rico.pdf",
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1017_Como_crear_riqueza_invirtiendo_en_bienes_ra_ces_.pdf",
+    year: 2022,
     language: "Español",
-    pages: 389,
+    pages: 201,
     description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-queremos-que-seas-rico.png",
-    downloads: 136,
+    cover: "covers/c-como-crear-riqueza-invirtiendo-en-bienes-ra-ces.png",
+    downloads: 129,
     featured: false,
     aiAnalysis: {
     genre: "Finanzas & Inversión",
@@ -24639,146 +24811,6 @@ const BOOKS = [
     pages: 309,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-linchpin-are-you-indispensable-seth-godin.png",
-    downloads: 206,
-    featured: false,
-    aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
-    keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
-      ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1838,
-    title: "Breve historia del mundo",
-    author: "Luis Enrique Inigo Fernandez",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1838_bh-del-mundo.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 161,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del mundo.",
-    cover: "covers/bh-del-mundo.jpg",
-    downloads: 330,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
-    keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
-      ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del mundo, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 2468,
-    title: "Fundamentos de Comercio Electrónico",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2430_fundamentos-de-comercio-electr-nico.pdf",
-    pages: 222,
-    year: 2016,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Fundamentos de Comercio Electrónico. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2430-fundamentos-de-comercio-electr-nico.jpg",
-    downloads: 373,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Fundamentos de Comercio Electrónico. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 1017,
-    title: "Como Crear Riqueza Invirtiendo en Bienes Raíces",
-    author: "Selección Bibliotyan",
-    category: "Finanzas & Inversión",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1017_Como_crear_riqueza_invirtiendo_en_bienes_ra_ces_.pdf",
-    year: 2022,
-    language: "Español",
-    pages: 201,
-    description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-como-crear-riqueza-invirtiendo-en-bienes-ra-ces.png",
-    downloads: 129,
-    featured: false,
-    aiAnalysis: {
-    genre: "Finanzas & Inversión",
-    vibe: "Financiero & Analítico",
-    keyConcepts: [
-        "Inteligencia Financiera",
-        "Generación de Activos",
-        "Gestión del Riesgo",
-        "Libertad Económica"
-      ],
-    targetAudience: "Inversores, ahorradores y personas orientadas a edificar patrimonio seguro.",
-    aiSummary: "Una obra imprescindible en Finanzas & Inversión que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1978,
-    title: "Esquivar la Mediocridad",
-    author: "Xavier Marcet",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1978_esquivar-la-mediocridad-xavier-marcet.pdf",
-    pages: 160,
-    year: 2018,
-    language: "Español",
-    description: "Notas sobre liderazgo inteligente, innovación humanista y organizaciones que aspiran a la excelencia auténtica en la era digital.",
-    cover: "covers/c-emprendedores-esquivar-la-mediocridad-xavier-marcet.jpg",
-    downloads: 670,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo Humanista & Innovación",
-    vibe: "Reflexivo & Elegante",
-    keyConcepts: [
-        "Cultura de Excelencia",
-        "Liderazgo con Propósito",
-        "Innovación con Sentido",
-        "Gestión del Cambio"
-      ],
-    targetAudience: "Líderes ejecutivos, fundadores, consejeros de administración y profesionales inconformistas.",
-    aiSummary: "Xavier Marcet reflexiona sobre cómo huir de la inercia burocrática y edificar organizaciones éticas, ágiles y con valor social real."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1273,
-    title: "La Ciencia del Exito en Twitter",
-    author: "Selección Bibliotyan",
-    category: "Marketing & Ventas",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1273_La_ciencia_del_exito_en_Twitter.pdf",
-    year: 2018,
-    language: "Español",
-    pages: 169,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-la-ciencia-del-exito-en-twitter.png",
     downloads: 206,
     featured: false,
     aiAnalysis: {
@@ -24879,30 +24911,30 @@ const BOOKS = [
     }
   },
   {
-    id: 2112,
-    title: "El Libro Blanco Del Trading",
-    author: "Javier Pena",
+    id: 1978,
+    title: "Esquivar la Mediocridad",
+    author: "Xavier Marcet",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2112_el-libro-blanco-del-trading-javier-pena.pdf",
-    pages: 81,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1978_esquivar-la-mediocridad-xavier-marcet.pdf",
+    pages: 160,
     year: 2018,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro blanco del trading por Javier Pena. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-libro-blanco-del-trading-javier-pena.jpg",
+    description: "Notas sobre liderazgo inteligente, innovación humanista y organizaciones que aspiran a la excelencia auténtica en la era digital.",
+    cover: "covers/c-emprendedores-esquivar-la-mediocridad-xavier-marcet.jpg",
     downloads: 670,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Liderazgo Humanista & Innovación",
+    vibe: "Reflexivo & Elegante",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Cultura de Excelencia",
+        "Liderazgo con Propósito",
+        "Innovación con Sentido",
+        "Gestión del Cambio"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    targetAudience: "Líderes ejecutivos, fundadores, consejeros de administración y profesionales inconformistas.",
+    aiSummary: "Xavier Marcet reflexiona sobre cómo huir de la inercia burocrática y edificar organizaciones éticas, ágiles y con valor social real."
     },
     collection: "Colección Emprendedores"
   },
@@ -24991,18 +25023,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1016,
-    title: "Cambia tu Vida Antes del Desayuno",
-    author: "Robert Kiyosaki",
+    id: 1051,
+    title: "Padre Rico Padre Pobre para Jovenes",
+    author: "Selección Bibliotyan",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1016_CAMBIA_TU_VIDA_ANTES_DEL_DESAYUNO_-_ROBERT_KIYOSAKI.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1051_Padre_rico_padre_pobre_para_jovenes.pdf",
+    year: 2016,
     language: "Español",
-    pages: 188,
+    pages: 363,
     description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-cambia-tu-vida-antes-del-desayuno-robert-kiyosaki.png",
+    cover: "covers/c-padre-rico-padre-pobre-para-jovenes.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
@@ -25132,18 +25164,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1051,
-    title: "Padre Rico Padre Pobre para Jovenes",
-    author: "Selección Bibliotyan",
+    id: 1016,
+    title: "Cambia tu Vida Antes del Desayuno",
+    author: "Robert Kiyosaki",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1051_Padre_rico_padre_pobre_para_jovenes.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1016_CAMBIA_TU_VIDA_ANTES_DEL_DESAYUNO_-_ROBERT_KIYOSAKI.pdf",
+    year: 2021,
     language: "Español",
-    pages: 363,
+    pages: 188,
     description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-padre-rico-padre-pobre-para-jovenes.png",
+    cover: "covers/c-cambia-tu-vida-antes-del-desayuno-robert-kiyosaki.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
@@ -25160,18 +25192,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2030,
-    title: "Como Crear Mapas Mentales",
-    author: "Tony Buzan",
+    id: 2112,
+    title: "El Libro Blanco Del Trading",
+    author: "Javier Pena",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2030_como-crear-mapas-mentales-tony-buzan.pdf",
-    pages: 105,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2112_el-libro-blanco-del-trading-javier-pena.pdf",
+    pages: 81,
+    year: 2018,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como crear mapas mentales por Tony Buzan. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-crear-mapas-mentales-tony-buzan.jpg",
-    downloads: 669,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro blanco del trading por Javier Pena. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-libro-blanco-del-trading-javier-pena.jpg",
+    downloads: 670,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -25272,18 +25304,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1015,
-    title: "Antes de Renunciar a tu Empleo (robert Kiyosaki)",
-    author: "Selección Bibliotyan",
+    id: 1050,
+    title: "Padre Rico Padre Pobre",
+    author: "Robert Kiyosaki",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1015_Antes_de_renunciar_a_tu_empleo_Robert_Kiyosaki_.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1050_Padre_Rico_Padre_Pobre_de_Robert_Kiyosaki.pdf",
+    year: 2015,
     language: "Español",
-    pages: 175,
+    pages: 350,
     description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-antes-de-renunciar-a-tu-empleo-robert-kiyosaki.png",
+    cover: "covers/c-padre-rico-padre-pobre-de-robert-kiyosaki.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
@@ -25300,17 +25332,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2127,
-    title: "El Optimista Impaciente",
-    author: "Bill Gates",
+    id: 2030,
+    title: "Como Crear Mapas Mentales",
+    author: "Tony Buzan",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2127_el-optimista-impaciente-bill-gates.pdf",
-    pages: 45,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2030_como-crear-mapas-mentales-tony-buzan.pdf",
+    pages: 105,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el optimista impaciente por Bill Gates. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-optimista-impaciente-bill-gates.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como crear mapas mentales por Tony Buzan. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-crear-mapas-mentales-tony-buzan.jpg",
     downloads: 669,
     featured: false,
     aiAnalysis: {
@@ -25411,18 +25443,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1050,
-    title: "Padre Rico Padre Pobre",
-    author: "Robert Kiyosaki",
+    id: 1015,
+    title: "Antes de Renunciar a tu Empleo (robert Kiyosaki)",
+    author: "Selección Bibliotyan",
     category: "Finanzas & Inversión",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1050_Padre_Rico_Padre_Pobre_de_Robert_Kiyosaki.pdf",
-    year: 2015,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1015_Antes_de_renunciar_a_tu_empleo_Robert_Kiyosaki_.pdf",
+    year: 2020,
     language: "Español",
-    pages: 350,
+    pages: 175,
     description: "Un texto formativo de gran valor práctico centrado en finanzas & inversión. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-padre-rico-padre-pobre-de-robert-kiyosaki.png",
+    cover: "covers/c-antes-de-renunciar-a-tu-empleo-robert-kiyosaki.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
@@ -25439,239 +25471,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2008,
-    title: "Autoliberacion Interior",
-    author: "Anthony De Mello",
+    id: 2127,
+    title: "El Optimista Impaciente",
+    author: "Bill Gates",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2008_autoliberacion-interior-anthony-de-mello.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2127_el-optimista-impaciente-bill-gates.pdf",
     pages: 45,
-    year: 2018,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autoliberacion interior por Anthony De Mello. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-autoliberacion-interior-anthony-de-mello.jpg",
-    downloads: 667,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1128,
-    title: "La Ventaja del Ganador (robert K)",
-    author: "Selección Bibliotyan",
-    category: "Marketing & Ventas",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1128_La_ventaja_del_ganador_Robert_K_.pdf",
-    year: 2023,
-    language: "Español",
-    pages: 244,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-la-ventaja-del-ganador-robert-k.png",
-    downloads: 171,
-    featured: false,
-    aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
-    keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
-      ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1726,
-    title: "Breve historia de Julio Cesar",
-    author: "Miguel Angel Novilla Lopez",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1726_bh-julio-cesar.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 183,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Julio Cesar.",
-    cover: "covers/bh-julio-cesar.jpg",
-    downloads: 318,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Marcial & Erudito",
-    keyConcepts: [
-        "Antigua Roma",
-        "Estrategia Imperial",
-        "Poder y Senado"
-      ],
-    targetAudience: "Aficionados al mundo clasico, historiadores y estrategas.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Julio Cesar, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 508,
-    title: "El Arte de Empezar",
-    author: "Guy Kawasaki",
-    category: "Liderazgo & Estrategia",
-    collection: "Bestsellers",
-    format: "pdf",
-    year: 2004,
-    language: "Español",
-    pages: 260,
-    description: "La guía definitiva para emprendedores del legendario evangelista de Apple. Kawasaki explica con precisión quirúrgica cómo transformar una idea en un proyecto viable: crear sentido, posicionar la marca, reclutar talento y lanzar productos al mercado con agilidad implacable.",
-    cover: "covers/el-arte-de-empezar.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b508_el-arte-de-empezar-guy-kawasaki.pdf",
-    downloads: 360,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Lanzamiento",
-    vibe: "Ágil & Pragmático",
-    keyConcepts: [
-        "Crear Sentido",
-        "Pitch Efectivo",
-        "Evangelización de Marca",
-        "Ejecución Rápida"
-      ],
-    targetAudience: "Fundadores, creadores de startups y profesionales con ganas de poner ideas en acción.",
-    aiSummary: "Manual de combate empresarial para convertir cualquier chispa creativa en un negocio de alto impacto."
-    }
-  },
-  {
-    id: 2095,
-    title: "El Diseñador Industrial Emprendedor",
-    author: "Ana Maria Reyes Fabela",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2095_el-disenador-industrial-emprendedor-ana-maria-reye.pdf",
-    pages: 91,
-    year: 2018,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el diseñador industrial emprendedor por Ana Maria Reyes Fabela. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-disenador-industrial-emprendedor-ana-maria-reyes-fabela.jpg",
-    downloads: 666,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1233,
-    title: "El Secreto de las 7 Semillas",
-    author: "David Fleishman",
-    category: "Marketing & Ventas",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1233_El_secreto_de_las_7_semillas_-_David_Fleishman.pdf",
-    year: 2018,
-    language: "Español",
-    pages: 209,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-secreto-de-las-7-semillas-david-fleishman.png",
-    downloads: 171,
-    featured: false,
-    aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
-    keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
-      ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1740,
-    title: "Breve Historia de la Filosofia Occidental",
-    author: "Vicente Caballero de la Torre",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1740_bh-filosofia-occidental.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 158,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de la Filosofia Occidental.",
-    cover: "covers/bh-filosofia-occidental.jpg",
-    downloads: 318,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Filosofico & Epico",
-    keyConcepts: [
-        "Mundo Helenistico",
-        "Tactica Militar",
-        "Cultura Clasica"
-      ],
-    targetAudience: "Lectores interesados en el origen de la civilizacion occidental.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de la Filosofia Occidental, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 1460,
-    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo III)",
-    author: "Edward Gibbon",
-    category: "Liderazgo & Estrategia",
-    collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1460_historia_de_la_decadencia_y_ca_da_del_imperio_romano_iii.pdf",
-    year: 1788,
-    language: "Español",
-    pages: 546,
-    description: "Obra esencial de Edward Gibbon centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-historia_de_la_decadencia_y_ca_da_d-56.png",
-    downloads: 360,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Monumental & Épico",
-    keyConcepts: [
-        "Pensamiento Estratégico",
-        "Antifragilidad",
-        "Dominio del Poder"
-      ],
-    targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-    aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo III) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
-    }
-  },
-  {
-    id: 2292,
-    title: "Oratoria",
-    author: "Sebastian Babarro",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2292_oratoria-sebastian-babarro.pdf",
-    pages: 45,
-    year: 2015,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre oratoria por Sebastian Babarro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-oratoria-sebastian-babarro.jpg",
-    downloads: 666,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el optimista impaciente por Bill Gates. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-optimista-impaciente-bill-gates.jpg",
+    downloads: 669,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -25743,6 +25554,227 @@ const BOOKS = [
     }
   },
   {
+    id: 1460,
+    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo III)",
+    author: "Edward Gibbon",
+    category: "Liderazgo & Estrategia",
+    collection: "La Gran Biblioteca Estoica",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1460_historia_de_la_decadencia_y_ca_da_del_imperio_romano_iii.pdf",
+    year: 1788,
+    language: "Español",
+    pages: 546,
+    description: "Obra esencial de Edward Gibbon centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-historia_de_la_decadencia_y_ca_da_d-56.png",
+    downloads: 360,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Monumental & Épico",
+    keyConcepts: [
+        "Pensamiento Estratégico",
+        "Antifragilidad",
+        "Dominio del Poder"
+      ],
+    targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
+    aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo III) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+    }
+  },
+  {
+    id: 2008,
+    title: "Autoliberacion Interior",
+    author: "Anthony De Mello",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2008_autoliberacion-interior-anthony-de-mello.pdf",
+    pages: 45,
+    year: 2018,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autoliberacion interior por Anthony De Mello. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-autoliberacion-interior-anthony-de-mello.jpg",
+    downloads: 667,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1233,
+    title: "El Secreto de las 7 Semillas",
+    author: "David Fleishman",
+    category: "Marketing & Ventas",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1233_El_secreto_de_las_7_semillas_-_David_Fleishman.pdf",
+    year: 2018,
+    language: "Español",
+    pages: 209,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-secreto-de-las-7-semillas-david-fleishman.png",
+    downloads: 171,
+    featured: false,
+    aiAnalysis: {
+    genre: "Marketing & Ventas",
+    vibe: "Persuasivo & Comercial",
+    keyConcepts: [
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
+      ],
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1740,
+    title: "Breve Historia de la Filosofia Occidental",
+    author: "Vicente Caballero de la Torre",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1740_bh-filosofia-occidental.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 158,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de la Filosofia Occidental.",
+    cover: "covers/bh-filosofia-occidental.jpg",
+    downloads: 318,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Filosofico & Epico",
+    keyConcepts: [
+        "Mundo Helenistico",
+        "Tactica Militar",
+        "Cultura Clasica"
+      ],
+    targetAudience: "Lectores interesados en el origen de la civilizacion occidental.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de la Filosofia Occidental, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 508,
+    title: "El Arte de Empezar",
+    author: "Guy Kawasaki",
+    category: "Liderazgo & Estrategia",
+    collection: "Bestsellers",
+    format: "pdf",
+    year: 2004,
+    language: "Español",
+    pages: 260,
+    description: "La guía definitiva para emprendedores del legendario evangelista de Apple. Kawasaki explica con precisión quirúrgica cómo transformar una idea en un proyecto viable: crear sentido, posicionar la marca, reclutar talento y lanzar productos al mercado con agilidad implacable.",
+    cover: "covers/el-arte-de-empezar.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b508_el-arte-de-empezar-guy-kawasaki.pdf",
+    downloads: 360,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Lanzamiento",
+    vibe: "Ágil & Pragmático",
+    keyConcepts: [
+        "Crear Sentido",
+        "Pitch Efectivo",
+        "Evangelización de Marca",
+        "Ejecución Rápida"
+      ],
+    targetAudience: "Fundadores, creadores de startups y profesionales con ganas de poner ideas en acción.",
+    aiSummary: "Manual de combate empresarial para convertir cualquier chispa creativa en un negocio de alto impacto."
+    }
+  },
+  {
+    id: 2095,
+    title: "El Diseñador Industrial Emprendedor",
+    author: "Ana Maria Reyes Fabela",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2095_el-disenador-industrial-emprendedor-ana-maria-reye.pdf",
+    pages: 91,
+    year: 2018,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el diseñador industrial emprendedor por Ana Maria Reyes Fabela. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-disenador-industrial-emprendedor-ana-maria-reyes-fabela.jpg",
+    downloads: 666,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1128,
+    title: "La Ventaja del Ganador (robert K)",
+    author: "Selección Bibliotyan",
+    category: "Marketing & Ventas",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1128_La_ventaja_del_ganador_Robert_K_.pdf",
+    year: 2023,
+    language: "Español",
+    pages: 244,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-la-ventaja-del-ganador-robert-k.png",
+    downloads: 171,
+    featured: false,
+    aiAnalysis: {
+    genre: "Marketing & Ventas",
+    vibe: "Persuasivo & Comercial",
+    keyConcepts: [
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
+      ],
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1726,
+    title: "Breve historia de Julio Cesar",
+    author: "Miguel Angel Novilla Lopez",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1726_bh-julio-cesar.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 183,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Julio Cesar.",
+    cover: "covers/bh-julio-cesar.jpg",
+    downloads: 318,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Marcial & Erudito",
+    keyConcepts: [
+        "Antigua Roma",
+        "Estrategia Imperial",
+        "Poder y Senado"
+      ],
+    targetAudience: "Aficionados al mundo clasico, historiadores y estrategas.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Julio Cesar, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
     id: 2403,
     title: "El Cuadro de Mando Integral",
     author: "50minutos.es",
@@ -25772,18 +25804,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2120,
-    title: "El Manual Del Emprendedor",
-    author: "Steve Blank _ Bob Dorf",
+    id: 2292,
+    title: "Oratoria",
+    author: "Sebastian Babarro",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2120_el-manual-del-emprendedor-steve-blank-bob-dorf.pdf",
-    pages: 570,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2292_oratoria-sebastian-babarro.pdf",
+    pages: 45,
+    year: 2015,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el manual del emprendedor por Steve Blank _ Bob Dorf. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-manual-del-emprendedor-steve-blank-bob-dorf.jpg",
-    downloads: 665,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre oratoria por Sebastian Babarro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-oratoria-sebastian-babarro.jpg",
+    downloads: 666,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -25855,46 +25887,47 @@ const BOOKS = [
     }
   },
   {
-    id: 1084,
-    title: "La Estrategia del Oceano Azul",
-    author: "W. Chan Kim & Renee Mauborgne",
+    id: 2433,
+    title: "Administración de Riesgos E.r.m. y Auditoría Interna",
+    author: "Rodrigo Estupiñán Gaitán",
     category: "Liderazgo & Estrategia",
-    collection: "General",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1084_LA_ESTRATEGIA_DEL_OCEANO_AZUL_-_W._CHAN_KIM_RENEE_MAUBORGNE.pdf",
-    year: 2019,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2395_administraci-n-o-gestion-de-riesgos-e-r-m-y-l.pdf",
+    pages: 379,
+    year: 2021,
     language: "Español",
-    pages: 232,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-la-estrategia-del-oceano-azul-w-chan-kim-renee-maubor.png",
+    description: "Manual y tratado de referencia sobre Administración de Riesgos E.r.m. y Auditoría Interna. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2395-administraci-n-o-gestion-de-riesgos-e-r-m-y-l.jpg",
     downloads: 353,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
         "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
+        "Casos Prácticos"
       ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Administración de Riesgos E.r.m. y Auditoría Interna. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
-    id: 2224,
-    title: "Leyes",
-    author: "11Va Ley",
+    id: 2120,
+    title: "El Manual Del Emprendedor",
+    author: "Steve Blank _ Bob Dorf",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2224_leyes-11va-ley.pdf",
-    pages: 530,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2120_el-manual-del-emprendedor-steve-blank-bob-dorf.pdf",
+    pages: 570,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 11Va Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-11va-ley.jpg",
-    downloads: 661,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el manual del emprendedor por Steve Blank _ Bob Dorf. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-manual-del-emprendedor-steve-blank-bob-dorf.jpg",
+    downloads: 665,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -25966,59 +25999,58 @@ const BOOKS = [
     }
   },
   {
-    id: 2433,
-    title: "Administración de Riesgos E.r.m. y Auditoría Interna",
-    author: "Rodrigo Estupiñán Gaitán",
+    id: 1084,
+    title: "La Estrategia del Oceano Azul",
+    author: "W. Chan Kim & Renee Mauborgne",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2395_administraci-n-o-gestion-de-riesgos-e-r-m-y-l.pdf",
-    pages: 379,
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1084_LA_ESTRATEGIA_DEL_OCEANO_AZUL_-_W._CHAN_KIM_RENEE_MAUBORGNE.pdf",
+    year: 2019,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Administración de Riesgos E.r.m. y Auditoría Interna. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2395-administraci-n-o-gestion-de-riesgos-e-r-m-y-l.jpg",
+    pages: 232,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-la-estrategia-del-oceano-azul-w-chan-kim-renee-maubor.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    vibe: "Estratégico & Visión",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
         "Toma de Decisiones",
-        "Casos Prácticos"
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Administración de Riesgos E.r.m. y Auditoría Interna. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1973,
-    title: "Nunca Tires la Toalla",
-    author: "Donald J. Trump",
+    id: 2224,
+    title: "Leyes",
+    author: "11Va Ley",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1973_nunca-tires-la-toalla-donald-trump.pdf",
-    pages: 146,
-    year: 2008,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2224_leyes-11va-ley.pdf",
+    pages: 530,
+    year: 2015,
     language: "Español",
-    description: "Cómo convertir los peores reveses y crisis financieras en triunfos resonantes. Lecciones de negociación y resistencia ante la adversidad.",
-    cover: "covers/c-emprendedores-nunca-tires-la-toalla-donald-trump.jpg",
-    downloads: 660,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 11Va Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-11va-ley.jpg",
+    downloads: 661,
     featured: false,
     aiAnalysis: {
-    genre: "Resiliencia & Negocios",
-    vibe: "Combativo & Tenaz",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gestión de Crisis",
-        "Perseverancia Feroz",
-        "Reestructuración de Deuda",
-        "Mentalidad de Ganador"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Empresarios que atraviesan dificultades financieras y líderes en entornos hostiles.",
-    aiSummary: "Enseñanzas prácticas sobre cómo afrontar situaciones críticas, mantener la cabeza fría y reconstruir negocios tras caídas severas."
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
   },
@@ -26107,46 +26139,46 @@ const BOOKS = [
     }
   },
   {
-    id: 2043,
-    title: "Consejos Para Emprender",
-    author: "Fernando Jauregui _ Lourdes Carmona",
+    id: 1973,
+    title: "Nunca Tires la Toalla",
+    author: "Donald J. Trump",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2043_consejos-para-emprender-fernando-jauregui-lourdes.pdf",
-    pages: 264,
-    year: 2005,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1973_nunca-tires-la-toalla-donald-trump.pdf",
+    pages: 146,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre consejos para emprender por Fernando Jauregui _ Lourdes Carmona. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-consejos-para-emprender-fernando-jauregui-lourdes-carmona.jpg",
-    downloads: 657,
+    description: "Cómo convertir los peores reveses y crisis financieras en triunfos resonantes. Lecciones de negociación y resistencia ante la adversidad.",
+    cover: "covers/c-emprendedores-nunca-tires-la-toalla-donald-trump.jpg",
+    downloads: 660,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Resiliencia & Negocios",
+    vibe: "Combativo & Tenaz",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Gestión de Crisis",
+        "Perseverancia Feroz",
+        "Reestructuración de Deuda",
+        "Mentalidad de Ganador"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    targetAudience: "Empresarios que atraviesan dificultades financieras y líderes en entornos hostiles.",
+    aiSummary: "Enseñanzas prácticas sobre cómo afrontar situaciones críticas, mantener la cabeza fría y reconstruir negocios tras caídas severas."
     },
     collection: "Colección Emprendedores"
   },
   {
-    id: 1124,
-    title: "Informe Facebook Rebeldes",
-    author: "Selección Bibliotyan",
+    id: 1159,
+    title: "Ventas",
+    author: "Zig Ziglar Poderoso Conocimientopdf",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1124_informe_facebook_rebeldes.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1159_ventas-zig-ziglar-poderoso-conocimientopdf.pdf",
+    year: 2024,
     language: "Español",
-    pages: 192,
+    pages: 367,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-informe-facebook-rebeldes.png",
+    cover: "covers/c-ventas-zig-ziglar-poderoso-conocimientopdf.png",
     downloads: 143,
     featured: false,
     aiAnalysis: {
@@ -26217,17 +26249,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2141,
-    title: "El Secreto Del Exito",
-    author: "Donal Trump _ Bill Zanker",
+    id: 2043,
+    title: "Consejos Para Emprender",
+    author: "Fernando Jauregui _ Lourdes Carmona",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2141_el-secreto-del-exito-donal-trump-bill-zanker.pdf",
-    pages: 130,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2043_consejos-para-emprender-fernando-jauregui-lourdes.pdf",
+    pages: 264,
+    year: 2005,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el secreto del exito por Donal Trump _ Bill Zanker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-secreto-del-exito-donal-trump-bill-zanker.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre consejos para emprender por Fernando Jauregui _ Lourdes Carmona. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-consejos-para-emprender-fernando-jauregui-lourdes-carmona.jpg",
     downloads: 657,
     featured: false,
     aiAnalysis: {
@@ -26245,18 +26277,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1159,
-    title: "Ventas",
-    author: "Zig Ziglar Poderoso Conocimientopdf",
+    id: 1124,
+    title: "Informe Facebook Rebeldes",
+    author: "Selección Bibliotyan",
     category: "Marketing & Ventas",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1159_ventas-zig-ziglar-poderoso-conocimientopdf.pdf",
-    year: 2024,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1124_informe_facebook_rebeldes.pdf",
+    year: 2019,
     language: "Español",
-    pages: 367,
+    pages: 192,
     description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-ventas-zig-ziglar-poderoso-conocimientopdf.png",
+    cover: "covers/c-informe-facebook-rebeldes.png",
     downloads: 143,
     featured: false,
     aiAnalysis: {
@@ -26300,46 +26332,47 @@ const BOOKS = [
     }
   },
   {
-    id: 1083,
-    title: "La Estrategia del Delfín. éxito para Negociaciones Difíciles",
-    author: "Selección Bibliotyan",
+    id: 2574,
+    title: "Manejo de los Recursos Humanos",
+    author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    collection: "General",
+    subtopic: "Liderazgo y Gestión Organizacional",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1083_La_estrategia_del_delf_n._xito_para_negociaciones_dif_ciles.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2536_manejo-de-los-recursos-humanos.pdf",
+    pages: 46,
     year: 2018,
     language: "Español",
-    pages: 219,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-la-estrategia-del-delf-n-xito-para-negociaciones-dif.png",
+    description: "Manual y tratado de referencia sobre Manejo de los Recursos Humanos. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2536-manejo-de-los-recursos-humanos.jpg",
     downloads: 346,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
         "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
+        "Casos Prácticos"
       ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Manejo de los Recursos Humanos. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
     }
   },
   {
-    id: 2277,
-    title: "Mlm Manifiesto",
-    author: "Randy Gage",
+    id: 2141,
+    title: "El Secreto Del Exito",
+    author: "Donal Trump _ Bill Zanker",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2277_mlm-manifiesto-randy-gage.pdf",
-    pages: 45,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2141_el-secreto-del-exito-donal-trump-bill-zanker.pdf",
+    pages: 130,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mlm manifiesto por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-mlm-manifiesto-randy-gage.jpg",
-    downloads: 656,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el secreto del exito por Donal Trump _ Bill Zanker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-secreto-del-exito-donal-trump-bill-zanker.jpg",
+    downloads: 657,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -26411,47 +26444,46 @@ const BOOKS = [
     }
   },
   {
-    id: 2574,
-    title: "Manejo de los Recursos Humanos",
-    author: "Especialistas en Administración",
+    id: 1083,
+    title: "La Estrategia del Delfín. éxito para Negociaciones Difíciles",
+    author: "Selección Bibliotyan",
     category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
-    collection: "Libros de Administración",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2536_manejo-de-los-recursos-humanos.pdf",
-    pages: 46,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1083_La_estrategia_del_delf_n._xito_para_negociaciones_dif_ciles.pdf",
     year: 2018,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Manejo de los Recursos Humanos. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2536-manejo-de-los-recursos-humanos.jpg",
+    pages: 219,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-la-estrategia-del-delf-n-xito-para-negociaciones-dif.png",
     downloads: 346,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    vibe: "Estratégico & Visión",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
         "Toma de Decisiones",
-        "Casos Prácticos"
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Manejo de los Recursos Humanos. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 2017,
-    title: "Coaching - Herramientas Para El Cambio",
-    author: "Robert Dilts",
+    id: 2277,
+    title: "Mlm Manifiesto",
+    author: "Randy Gage",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2017_coaching-herramientas-para-el-cambio-robert-dilts.pdf",
-    pages: 2222,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2277_mlm-manifiesto-randy-gage.pdf",
+    pages: 45,
     year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching - herramientas para el cambio por Robert Dilts. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-coaching-herramientas-para-el-cambio-robert-dilts.jpg",
-    downloads: 654,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mlm manifiesto por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-mlm-manifiesto-randy-gage.jpg",
+    downloads: 656,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -26523,19 +26555,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2398,
-    title: "El Análisis PESTEL",
+    id: 2413,
+    title: "Invertir sin Perder de Vista la Inflación",
     author: "50minutos.es",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2360_el-an-lisis-pestel-amazon.pdf",
-    pages: 34,
-    year: 2018,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2375_invertir-sin-perder-de-vista-la-inflaci-n-ama.pdf",
+    pages: 35,
+    year: 2017,
     language: "Español",
-    description: "Manual y tratado de referencia sobre El Análisis PESTEL. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2360-el-an-lisis-pestel-amazon.jpg",
+    description: "Manual y tratado de referencia sobre Invertir sin Perder de Vista la Inflación. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2375-invertir-sin-perder-de-vista-la-inflaci-n-ama.jpg",
     downloads: 345,
     featured: false,
     aiAnalysis: {
@@ -26548,22 +26580,22 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El Análisis PESTEL. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Invertir sin Perder de Vista la Inflación. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
-    id: 2241,
-    title: "Lo Tengo Que Hacer - Haz De Tu Historia Un Exito",
-    author: "Conchita Vargas Lugo",
+    id: 2017,
+    title: "Coaching - Herramientas Para El Cambio",
+    author: "Robert Dilts",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2241_lo-tengo-que-hacer-haz-de-tu-historia-un-exito-con.pdf",
-    pages: 1498,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2017_coaching-herramientas-para-el-cambio-robert-dilts.pdf",
+    pages: 2222,
+    year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre lo tengo que hacer - haz de tu historia un exito por Conchita Vargas Lugo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-lo-tengo-que-hacer-haz-de-tu-historia-un-exito-conchita-varg.jpg",
-    downloads: 651,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching - herramientas para el cambio por Robert Dilts. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-coaching-herramientas-para-el-cambio-robert-dilts.jpg",
+    downloads: 654,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -26635,19 +26667,19 @@ const BOOKS = [
     }
   },
   {
-    id: 2413,
-    title: "Invertir sin Perder de Vista la Inflación",
+    id: 2398,
+    title: "El Análisis PESTEL",
     author: "50minutos.es",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2375_invertir-sin-perder-de-vista-la-inflaci-n-ama.pdf",
-    pages: 35,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2360_el-an-lisis-pestel-amazon.pdf",
+    pages: 34,
+    year: 2018,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Invertir sin Perder de Vista la Inflación. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2375-invertir-sin-perder-de-vista-la-inflaci-n-ama.jpg",
+    description: "Manual y tratado de referencia sobre El Análisis PESTEL. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2360-el-an-lisis-pestel-amazon.jpg",
     downloads: 345,
     featured: false,
     aiAnalysis: {
@@ -26660,8 +26692,119 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Invertir sin Perder de Vista la Inflación. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre El Análisis PESTEL. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
+  },
+  {
+    id: 2241,
+    title: "Lo Tengo Que Hacer - Haz De Tu Historia Un Exito",
+    author: "Conchita Vargas Lugo",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2241_lo-tengo-que-hacer-haz-de-tu-historia-un-exito-con.pdf",
+    pages: 1498,
+    year: 2022,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre lo tengo que hacer - haz de tu historia un exito por Conchita Vargas Lugo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-lo-tengo-que-hacer-haz-de-tu-historia-un-exito-conchita-varg.jpg",
+    downloads: 651,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1155,
+    title: "Vendedores Perros de Robert K.",
+    author: "Selección Bibliotyan",
+    category: "Marketing & Ventas",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1155_Vendedores_perros_de_Robert_K.pdf",
+    year: 2020,
+    language: "Español",
+    pages: 315,
+    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-vendedores-perros-de-robert-k.png",
+    downloads: 115,
+    featured: false,
+    aiAnalysis: {
+    genre: "Marketing & Ventas",
+    vibe: "Persuasivo & Comercial",
+    keyConcepts: [
+        "Psicología del Consumidor",
+        "Estrategia Comercial",
+        "Posicionamiento",
+        "Cierre de Ventas"
+      ],
+    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
+    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1764,
+    title: "Breve historia de la Revolución Rusa",
+    author: "Inigo Bolinaga",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1764_bh-revoluci-n-rusa.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 136,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Revolución Rusa.",
+    cover: "covers/bh-revoluci-n-rusa.jpg",
+    downloads: 298,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Riguroso & Esclarecedor",
+    keyConcepts: [
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
+      ],
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Revolución Rusa, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 2073,
+    title: "El Arte De Dirigir Empresas",
+    author: "Damian Frontera",
+    category: "Liderazgo & Estrategia",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2073_el-arte-de-dirigir-empresas-damian-frontera.pdf",
+    pages: 120,
+    year: 2014,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de dirigir empresas por Damian Frontera. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-dirigir-empresas-damian-frontera.jpg",
+    downloads: 343,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2192,
@@ -26720,19 +26863,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1764,
-    title: "Breve historia de la Revolución Rusa",
-    author: "Inigo Bolinaga",
+    id: 1762,
+    title: "Breve historia de la Revolución industrial",
+    author: "Ediciones Nowtilus",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1764_bh-revoluci-n-rusa.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1762_bh-revoluci-n-industrial.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 136,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Revolución Rusa.",
-    cover: "covers/bh-revoluci-n-rusa.jpg",
-    downloads: 298,
+    pages: 167,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Revolución industrial.",
+    cover: "covers/bh-revoluci-n-industrial.jpg",
+    downloads: 297,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
@@ -26743,7 +26886,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Revolución Rusa, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Revolución industrial, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -26786,117 +26929,6 @@ const BOOKS = [
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el mito del emprendedor por Michael E. Gerber. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
     cover: "covers/c-emprendedores-el-mito-del-emprendedor-michael-e-gerber.jpg",
     downloads: 644,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1155,
-    title: "Vendedores Perros de Robert K.",
-    author: "Selección Bibliotyan",
-    category: "Marketing & Ventas",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1155_Vendedores_perros_de_Robert_K.pdf",
-    year: 2020,
-    language: "Español",
-    pages: 315,
-    description: "Un texto formativo de gran valor práctico centrado en marketing & ventas. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-vendedores-perros-de-robert-k.png",
-    downloads: 115,
-    featured: false,
-    aiAnalysis: {
-    genre: "Marketing & Ventas",
-    vibe: "Persuasivo & Comercial",
-    keyConcepts: [
-        "Psicología del Consumidor",
-        "Estrategia Comercial",
-        "Posicionamiento",
-        "Cierre de Ventas"
-      ],
-    targetAudience: "Comerciales, mercadólogos y profesionales de venta y captación.",
-    aiSummary: "Una obra imprescindible en Marketing & Ventas que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1762,
-    title: "Breve historia de la Revolución industrial",
-    author: "Ediciones Nowtilus",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1762_bh-revoluci-n-industrial.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 167,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la Revolución industrial.",
-    cover: "covers/bh-revoluci-n-industrial.jpg",
-    downloads: 297,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
-    keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
-      ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la Revolución industrial, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 2073,
-    title: "El Arte De Dirigir Empresas",
-    author: "Damian Frontera",
-    category: "Liderazgo & Estrategia",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2073_el-arte-de-dirigir-empresas-damian-frontera.pdf",
-    pages: 120,
-    year: 2014,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de dirigir empresas por Damian Frontera. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-dirigir-empresas-damian-frontera.jpg",
-    downloads: 343,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 2019,
-    title: "Coaching Con Pnl",
-    author: "Joseph Oconnor",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2019_coaching-con-pnl-joseph-oconnor.pdf",
-    pages: 61,
-    year: 2014,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching con pnl por Joseph Oconnor. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-coaching-con-pnl-joseph-oconnor.jpg",
-    downloads: 643,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -26966,6 +26998,89 @@ const BOOKS = [
     aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
+  },
+  {
+    id: 2019,
+    title: "Coaching Con Pnl",
+    author: "Joseph Oconnor",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2019_coaching-con-pnl-joseph-oconnor.pdf",
+    pages: 61,
+    year: 2014,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre coaching con pnl por Joseph Oconnor. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-coaching-con-pnl-joseph-oconnor.jpg",
+    downloads: 643,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1754,
+    title: "Breve historia de la medicina",
+    author: "Ediciones Nowtilus",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1754_bh-medicina.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 157,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la medicina.",
+    cover: "covers/bh-medicina.jpg",
+    downloads: 293,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Riguroso & Esclarecedor",
+    keyConcepts: [
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
+      ],
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la medicina, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 1222,
+    title: "El Ejecutivo Eficaz",
+    author: "Selección Bibliotyan",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1222_El_ejecutivo_eficaz.pdf",
+    year: 2017,
+    language: "Español",
+    pages: 346,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-ejecutivo-eficaz.png",
+    downloads: 339,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    }
   },
   {
     id: 2259,
@@ -27079,113 +27194,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1754,
-    title: "Breve historia de la medicina",
-    author: "Ediciones Nowtilus",
+    id: 1778,
+    title: "Breve historia de las guerras carlistas",
+    author: "Josep Carles Clemente",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1754_bh-medicina.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1778_bh-guerras-carlistas.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 157,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la medicina.",
-    cover: "covers/bh-medicina.jpg",
-    downloads: 293,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
-    keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
-      ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la medicina, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 1222,
-    title: "El Ejecutivo Eficaz",
-    author: "Selección Bibliotyan",
-    category: "Liderazgo & Estrategia",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1222_El_ejecutivo_eficaz.pdf",
-    year: 2017,
-    language: "Español",
-    pages: 346,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-ejecutivo-eficaz.png",
-    downloads: 339,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
-    keyConcepts: [
-        "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
-      ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1972,
-    title: "Los Millonarios No Nacen, Se Hacen",
-    author: "Juan Antonio Guerrero Cañongo",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1972_los-millonarios-no-nacen-se-hacen-juan-antonio-guerrero.pdf",
-    pages: 160,
-    year: 2013,
-    language: "Español",
-    description: "Cómo reprogramar los patrones mentales de escasez y activar estrategias financieras para multiplicar ingresos y crear patrimonio autónomo.",
-    cover: "covers/c-emprendedores-los-millonarios-no-nacen-se-hacen-juan-antonio-guerrero.jpg",
-    downloads: 640,
-    featured: false,
-    aiAnalysis: {
-    genre: "Educación Financiera",
-    vibe: "Práctico & Transformador",
-    keyConcepts: [
-        "Reprogramación Mental",
-        "Flujos de Ingreso Múltiples",
-        "Gestión Patrimonial",
-        "Disciplina de Ahorro"
-      ],
-    targetAudience: "Personas que desean superar límites financieros y aprender a generar capital.",
-    aiSummary: "Estrategias de neuroeconomía y hábitos diarios para que cualquier individuo pase de una mentalidad salariada a la de creador de activos."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1724,
-    title: "Breve Historia de Isabel la Catolica",
-    author: "Sandra Ferrer Valero",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1724_bh-isabel-la-catolica.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 143,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de Isabel la Catolica.",
-    cover: "covers/bh-isabel-la-catolica.jpg",
+    pages: 251,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de las guerras carlistas.",
+    cover: "covers/bh-guerras-carlistas.jpg",
     downloads: 291,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
+    vibe: "Belico & Riguroso",
     keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
+        "Historia Militar",
+        "Tacticas de Batalla",
+        "Geopolitica"
       ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de Isabel la Catolica, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Entusiastas del analisis militar y los grandes conflictos belicos.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de las guerras carlistas, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -27218,30 +27250,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1976,
-    title: "Los Ocho Dominios del Emprendedor",
-    author: "Alejandro Motta",
+    id: 1972,
+    title: "Los Millonarios No Nacen, Se Hacen",
+    author: "Juan Antonio Guerrero Cañongo",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1976_los-ocho-dominios-del-emprendedor-alejandro-motta.pdf",
-    pages: 224,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1972_los-millonarios-no-nacen-se-hacen-juan-antonio-guerrero.pdf",
+    pages: 160,
+    year: 2013,
     language: "Español",
-    description: "Mapa de competencias integrales para quien funda un negocio: visión, estrategia, ejecución, cultura, ventas, finanzas, resiliencia y escalabilidad.",
-    cover: "covers/c-emprendedores-los-ocho-dominios-del-emprendedor-alejandro-motta.jpg",
+    description: "Cómo reprogramar los patrones mentales de escasez y activar estrategias financieras para multiplicar ingresos y crear patrimonio autónomo.",
+    cover: "covers/c-emprendedores-los-millonarios-no-nacen-se-hacen-juan-antonio-guerrero.jpg",
     downloads: 640,
     featured: false,
     aiAnalysis: {
-    genre: "Gestión Empresarial & Startups",
-    vibe: "Estructurado & Holístico",
+    genre: "Educación Financiera",
+    vibe: "Práctico & Transformador",
     keyConcepts: [
-        "Competencias del Fundador",
-        "Escalabilidad",
-        "Gestión del Talento",
-        "Visión de Mercado"
+        "Reprogramación Mental",
+        "Flujos de Ingreso Múltiples",
+        "Gestión Patrimonial",
+        "Disciplina de Ahorro"
       ],
-    targetAudience: "Fundadores en crecimiento, directores de incubadoras y estudiantes de MBA.",
-    aiSummary: "Las ocho áreas críticas que diferencian a un negocio amateur de una organización sólida capaz de perdurar en el mercado."
+    targetAudience: "Personas que desean superar límites financieros y aprender a generar capital.",
+    aiSummary: "Estrategias de neuroeconomía y hábitos diarios para que cualquier individuo pase de una mentalidad salariada a la de creador de activos."
     },
     collection: "Colección Emprendedores"
   },
@@ -27302,6 +27334,90 @@ const BOOKS = [
     }
   },
   {
+    id: 1976,
+    title: "Los Ocho Dominios del Emprendedor",
+    author: "Alejandro Motta",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1976_los-ocho-dominios-del-emprendedor-alejandro-motta.pdf",
+    pages: 224,
+    year: 2015,
+    language: "Español",
+    description: "Mapa de competencias integrales para quien funda un negocio: visión, estrategia, ejecución, cultura, ventas, finanzas, resiliencia y escalabilidad.",
+    cover: "covers/c-emprendedores-los-ocho-dominios-del-emprendedor-alejandro-motta.jpg",
+    downloads: 640,
+    featured: false,
+    aiAnalysis: {
+    genre: "Gestión Empresarial & Startups",
+    vibe: "Estructurado & Holístico",
+    keyConcepts: [
+        "Competencias del Fundador",
+        "Escalabilidad",
+        "Gestión del Talento",
+        "Visión de Mercado"
+      ],
+    targetAudience: "Fundadores en crecimiento, directores de incubadoras y estudiantes de MBA.",
+    aiSummary: "Las ocho áreas críticas que diferencian a un negocio amateur de una organización sólida capaz de perdurar en el mercado."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1724,
+    title: "Breve Historia de Isabel la Catolica",
+    author: "Sandra Ferrer Valero",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1724_bh-isabel-la-catolica.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 143,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de Isabel la Catolica.",
+    cover: "covers/bh-isabel-la-catolica.jpg",
+    downloads: 291,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Riguroso & Esclarecedor",
+    keyConcepts: [
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
+      ],
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de Isabel la Catolica, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 2483,
+    title: "Desarrollo de Proyectos de E-Learning Corporativos",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2445_desarrollo-de-proyectos-de-e-learning-corpora.pdf",
+    pages: 58,
+    year: 2015,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Desarrollo de Proyectos de E-Learning Corporativos. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2445-desarrollo-de-proyectos-de-e-learning-corpora.jpg",
+    downloads: 335,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Desarrollo de Proyectos de E-Learning Corporativos. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
     id: 2184,
     title: "Introduccion A Las Finanzas",
     author: "Maria De La Luz Bravo Santillan",
@@ -27330,30 +27446,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1778,
-    title: "Breve historia de las guerras carlistas",
-    author: "Josep Carles Clemente",
+    id: 1828,
+    title: "Breve historia del gótico",
+    author: "Carlos Javier Taranilla",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1778_bh-guerras-carlistas.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1828_bh-del-g-tico.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 251,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de las guerras carlistas.",
-    cover: "covers/bh-guerras-carlistas.jpg",
-    downloads: 291,
+    pages: 287,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del gótico.",
+    cover: "covers/bh-del-g-tico.jpg",
+    downloads: 290,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Belico & Riguroso",
+    vibe: "Riguroso & Esclarecedor",
     keyConcepts: [
-        "Historia Militar",
-        "Tacticas de Batalla",
-        "Geopolitica"
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
       ],
-    targetAudience: "Entusiastas del analisis militar y los grandes conflictos belicos.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de las guerras carlistas, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del gótico, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -27398,90 +27514,6 @@ const BOOKS = [
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre historias de grandes exitos por Alan Farnham. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
     cover: "covers/c-emprendedores-historias-de-grandes-exitos-alan-farnham.jpg",
     downloads: 635,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1731,
-    title: "Breve historia de la brujería",
-    author: "Jesús Callejo",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1731_bh-brujer-a.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 168,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la brujería.",
-    cover: "covers/bh-brujer-a.jpg",
-    downloads: 290,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
-    keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
-      ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la brujería, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 2483,
-    title: "Desarrollo de Proyectos de E-Learning Corporativos",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2445_desarrollo-de-proyectos-de-e-learning-corpora.pdf",
-    pages: 58,
-    year: 2015,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Desarrollo de Proyectos de E-Learning Corporativos. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2445-desarrollo-de-proyectos-de-e-learning-corpora.jpg",
-    downloads: 335,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Desarrollo de Proyectos de E-Learning Corporativos. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 2110,
-    title: "El Librito Azul",
-    author: "Conny Mendez",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2110_el-librito-azul-conny-mendez-1.pdf",
-    pages: 45,
-    year: 2021,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el librito azul por Conny Mendez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-librito-azul-conny-mendez-1.jpg",
-    downloads: 634,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -27554,17 +27586,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2338,
-    title: "Tengo Una Experiencia Extracorporal En 30 Dias",
-    author: "Keith Harary",
+    id: 2110,
+    title: "El Librito Azul",
+    author: "Conny Mendez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2338_tengo-una-experiencia-extracorporal-en-30-dias-kei.pdf",
-    pages: 67,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2110_el-librito-azul-conny-mendez-1.pdf",
+    pages: 45,
+    year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tengo una experiencia extracorporal en 30 dias por Keith Harary. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-tengo-una-experiencia-extracorporal-en-30-dias-keith-harary.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el librito azul por Conny Mendez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-librito-azul-conny-mendez-1.jpg",
     downloads: 634,
     featured: false,
     aiAnalysis: {
@@ -27582,18 +27614,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1828,
-    title: "Breve historia del gótico",
-    author: "Carlos Javier Taranilla",
+    id: 1731,
+    title: "Breve historia de la brujería",
+    author: "Jesús Callejo",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1828_bh-del-g-tico.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1731_bh-brujer-a.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 287,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del gótico.",
-    cover: "covers/bh-del-g-tico.jpg",
+    pages: 168,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de la brujería.",
+    cover: "covers/bh-brujer-a.jpg",
     downloads: 290,
     featured: false,
     aiAnalysis: {
@@ -27605,7 +27637,7 @@ const BOOKS = [
         "Investigacion Documental"
       ],
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del gótico, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de la brujería, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -27637,18 +27669,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2097,
-    title: "El Efecto Compuesto",
-    author: "Darren Hardy",
+    id: 2338,
+    title: "Tengo Una Experiencia Extracorporal En 30 Dias",
+    author: "Keith Harary",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2097_el-efecto-compuesto-darren-hardy.pdf",
-    pages: 77,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2338_tengo-una-experiencia-extracorporal-en-30-dias-kei.pdf",
+    pages: 67,
     year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el efecto compuesto por Darren Hardy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-efecto-compuesto-darren-hardy.jpg",
-    downloads: 632,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tengo una experiencia extracorporal en 30 dias por Keith Harary. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-tengo-una-experiencia-extracorporal-en-30-dias-keith-harary.jpg",
+    downloads: 634,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -27689,6 +27721,90 @@ const BOOKS = [
       ],
     targetAudience: "Estudiantes y apasionados de las raices y devenir hispanico.",
     aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Espana II. El camino hacia la modernidad, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 2523,
+    title: "El Ecosistema Empresarial",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2485_el-ecosistema-empresarial.pdf",
+    pages: 41,
+    year: 2015,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre El Ecosistema Empresarial. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2485-el-ecosistema-empresarial.jpg",
+    downloads: 330,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre El Ecosistema Empresarial. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 2097,
+    title: "El Efecto Compuesto",
+    author: "Darren Hardy",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2097_el-efecto-compuesto-darren-hardy.pdf",
+    pages: 77,
+    year: 2013,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el efecto compuesto por Darren Hardy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-efecto-compuesto-darren-hardy.jpg",
+    downloads: 632,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1773,
+    title: "Breve Historia de las Batallas Navales en la Edad Media",
+    author: "Victor San Juan",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1773_bh-batallas-navales-en-la-edad-media.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 146,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de las Batallas Navales en la Edad Media.",
+    cover: "covers/bh-batallas-navales-en-la-edad-media.jpg",
+    downloads: 288,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Belico & Riguroso",
+    keyConcepts: [
+        "Historia Militar",
+        "Tacticas de Batalla",
+        "Geopolitica"
+      ],
+    targetAudience: "Entusiastas del analisis militar y los grandes conflictos belicos.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de las Batallas Navales en la Edad Media, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
@@ -27748,60 +27864,59 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1773,
-    title: "Breve Historia de las Batallas Navales en la Edad Media",
-    author: "Victor San Juan",
+    id: 1841,
+    title: "Breve historia del Siglo de Oro",
+    author: "Ediciones Nowtilus",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1773_bh-batallas-navales-en-la-edad-media.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1841_bh-del-siglo-de-oro.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 146,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve Historia de las Batallas Navales en la Edad Media.",
-    cover: "covers/bh-batallas-navales-en-la-edad-media.jpg",
-    downloads: 288,
+    pages: 183,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del Siglo de Oro.",
+    cover: "covers/bh-del-siglo-de-oro.jpg",
+    downloads: 287,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Belico & Riguroso",
+    vibe: "Riguroso & Esclarecedor",
     keyConcepts: [
-        "Historia Militar",
-        "Tacticas de Batalla",
-        "Geopolitica"
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
       ],
-    targetAudience: "Entusiastas del analisis militar y los grandes conflictos belicos.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de las Batallas Navales en la Edad Media, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del Siglo de Oro, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
-    id: 2523,
-    title: "El Ecosistema Empresarial",
-    author: "Especialistas en Administración",
+    id: 2077,
+    title: "El Arte De La Negociacion",
+    author: "Donald Trump _ Tony Schwartz",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2485_el-ecosistema-empresarial.pdf",
-    pages: 41,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2077_el-arte-de-la-negociacion-donald-trump-tony-schwar.pdf",
+    pages: 172,
+    year: 2014,
     language: "Español",
-    description: "Manual y tratado de referencia sobre El Ecosistema Empresarial. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2485-el-ecosistema-empresarial.jpg",
-    downloads: 330,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la negociacion por Donald Trump _ Tony Schwartz. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-la-negociacion-donald-trump-tony-schwartz.jpg",
+    downloads: 328,
     featured: false,
     aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El Ecosistema Empresarial. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2200,
@@ -27859,32 +27974,31 @@ const BOOKS = [
     }
   },
   {
-    id: 2077,
-    title: "El Arte De La Negociacion",
-    author: "Donald Trump _ Tony Schwartz",
+    id: 1458,
+    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo I)",
+    author: "Edward Gibbon",
     category: "Liderazgo & Estrategia",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2077_el-arte-de-la-negociacion-donald-trump-tony-schwar.pdf",
-    pages: 172,
-    year: 2014,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1458_historia_de_la_decadencia_y_ca_da_del_imperio_romano_i.pdf",
+    year: 1776,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la negociacion por Donald Trump _ Tony Schwartz. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-la-negociacion-donald-trump-tony-schwartz.jpg",
-    downloads: 328,
+    pages: 335,
+    description: "Obra esencial de Edward Gibbon centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-historia_de_la_decadencia_y_ca_da_d-54.png",
+    downloads: 326,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Liderazgo & Estrategia",
+    vibe: "Monumental & Épico",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Visión a Largo Plazo",
+        "Antifragilidad",
+        "Toma de Decisiones"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
+    aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+    }
   },
   {
     id: 2289,
@@ -27915,57 +28029,59 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1841,
-    title: "Breve historia del Siglo de Oro",
-    author: "Ediciones Nowtilus",
+    id: 1810,
+    title: "Breve historia de Roma",
+    author: "Miguel Angel Novillo Lopez",
     category: "BREVE HISTORIA",
     collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1841_bh-del-siglo-de-oro.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1810_bh-roma.pdf",
     year: 2017,
     language: "Espanol",
-    pages: 183,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del Siglo de Oro.",
-    cover: "covers/bh-del-siglo-de-oro.jpg",
-    downloads: 287,
+    pages: 229,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Roma.",
+    cover: "covers/bh-roma.jpg",
+    downloads: 286,
     featured: false,
     aiAnalysis: {
     genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
+    vibe: "Marcial & Erudito",
     keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
+        "Antigua Roma",
+        "Estrategia Imperial",
+        "Poder y Senado"
       ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del Siglo de Oro, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    targetAudience: "Aficionados al mundo clasico, historiadores y estrategas.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Roma, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
   },
   {
-    id: 1458,
-    title: "Historia de la Decadencia y Caída del Imperio Romano (Tomo I)",
-    author: "Edward Gibbon",
+    id: 2518,
+    title: "Cómo Alcanzar Tus Sueños",
+    author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    collection: "La Gran Biblioteca Estoica",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1458_historia_de_la_decadencia_y_ca_da_del_imperio_romano_i.pdf",
-    year: 1776,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2480_c-mo-alcanzar-tus-sue-os.pdf",
+    pages: 65,
+    year: 2018,
     language: "Español",
-    pages: 335,
-    description: "Obra esencial de Edward Gibbon centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-historia_de_la_decadencia_y_ca_da_d-54.png",
-    downloads: 326,
+    description: "Manual y tratado de referencia sobre Cómo Alcanzar Tus Sueños. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2480-c-mo-alcanzar-tus-sue-os.jpg",
+    downloads: 325,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Monumental & Épico",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Visión a Largo Plazo",
-        "Antifragilidad",
-        "Toma de Decisiones"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-    aiSummary: "Análisis editorial: Historia de la Decadencia y Caída del Imperio Romano (Tomo I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Cómo Alcanzar Tus Sueños. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -28049,90 +28165,6 @@ const BOOKS = [
       ],
     targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
     aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 2006,
-    title: "Autoboicot Cuando El Toxico Es Uno Mismo",
-    author: "Bernardo Stamateas",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2006_autoboicot-cuando-el-toxico-es-uno-mismo-bernardo.pdf",
-    pages: 63,
-    year: 2007,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autoboicot cuando el toxico es uno mismo por Bernardo Stamateas. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-autoboicot-cuando-el-toxico-es-uno-mismo-bernardo-stamateas.jpg",
-    downloads: 614,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1810,
-    title: "Breve historia de Roma",
-    author: "Miguel Angel Novillo Lopez",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1810_bh-roma.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 229,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia de Roma.",
-    cover: "covers/bh-roma.jpg",
-    downloads: 286,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Marcial & Erudito",
-    keyConcepts: [
-        "Antigua Roma",
-        "Estrategia Imperial",
-        "Poder y Senado"
-      ],
-    targetAudience: "Aficionados al mundo clasico, historiadores y estrategas.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia de Roma, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
-    id: 2518,
-    title: "Cómo Alcanzar Tus Sueños",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2480_c-mo-alcanzar-tus-sue-os.pdf",
-    pages: 65,
-    year: 2018,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Cómo Alcanzar Tus Sueños. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2480-c-mo-alcanzar-tus-sue-os.jpg",
-    downloads: 325,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Cómo Alcanzar Tus Sueños. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -28220,18 +28252,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2082,
-    title: "El Arte De Negociar Y Persuadir - 2Da Edicion",
-    author: "Allan Pease",
+    id: 2006,
+    title: "Autoboicot Cuando El Toxico Es Uno Mismo",
+    author: "Bernardo Stamateas",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2082_el-arte-de-negociar-y-persuadir-2da-edicion-allan.pdf",
-    pages: 248,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2006_autoboicot-cuando-el-toxico-es-uno-mismo-bernardo.pdf",
+    pages: 63,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de negociar y persuadir - 2da edicion por Allan Pease. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-negociar-y-persuadir-2da-edicion-allan-pease.jpg",
-    downloads: 611,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autoboicot cuando el toxico es uno mismo por Bernardo Stamateas. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-autoboicot-cuando-el-toxico-es-uno-mismo-bernardo-stamateas.jpg",
+    downloads: 614,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -28303,6 +28335,90 @@ const BOOKS = [
     }
   },
   {
+    id: 2082,
+    title: "El Arte De Negociar Y Persuadir - 2Da Edicion",
+    author: "Allan Pease",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2082_el-arte-de-negociar-y-persuadir-2da-edicion-allan.pdf",
+    pages: 248,
+    year: 2014,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de negociar y persuadir - 2da edicion por Allan Pease. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-negociar-y-persuadir-2da-edicion-allan-pease.jpg",
+    downloads: 611,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1827,
+    title: "Breve historia del feudalismo",
+    author: "Ediciones Nowtilus",
+    category: "BREVE HISTORIA",
+    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1827_bh-del-feudalismo.pdf",
+    year: 2017,
+    language: "Espanol",
+    pages: 191,
+    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del feudalismo.",
+    cover: "covers/bh-del-feudalismo.jpg",
+    downloads: 282,
+    featured: false,
+    aiAnalysis: {
+    genre: "BREVE HISTORIA",
+    vibe: "Riguroso & Esclarecedor",
+    keyConcepts: [
+        "Cronica Historica",
+        "Evolucion Social",
+        "Investigacion Documental"
+      ],
+    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
+    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del feudalismo, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
+    }
+  },
+  {
+    id: 2582,
+    title: "Servicio al Cliente",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2544_servicio-al-cliente.pdf",
+    pages: 26,
+    year: 2018,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Servicio al Cliente. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2544-servicio-al-cliente.jpg",
+    downloads: 316,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Servicio al Cliente. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
     id: 2234,
     title: "Leyes",
     author: "8Va Ley",
@@ -28358,90 +28474,6 @@ const BOOKS = [
     }
   },
   {
-    id: 2582,
-    title: "Servicio al Cliente",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2544_servicio-al-cliente.pdf",
-    pages: 26,
-    year: 2018,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Servicio al Cliente. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2544-servicio-al-cliente.jpg",
-    downloads: 316,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Servicio al Cliente. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 2121,
-    title: "El Mayor Secreto",
-    author: "David Icke",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2121_el-mayor-secreto-david-icke.pdf",
-    pages: 437,
-    year: 2005,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el mayor secreto por David Icke. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-mayor-secreto-david-icke.jpg",
-    downloads: 597,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1827,
-    title: "Breve historia del feudalismo",
-    author: "Ediciones Nowtilus",
-    category: "BREVE HISTORIA",
-    collection: "Coleccion Breve Historia -- Ediciones Nowtilus",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v4/b1827_bh-del-feudalismo.pdf",
-    year: 2017,
-    language: "Espanol",
-    pages: 191,
-    description: "Obra fundamental de la Coleccion Breve Historia de Ediciones Nowtilus. Una investigacion rigurosa, amena y ricamente documentada sobre Breve historia del feudalismo.",
-    cover: "covers/bh-del-feudalismo.jpg",
-    downloads: 282,
-    featured: false,
-    aiAnalysis: {
-    genre: "BREVE HISTORIA",
-    vibe: "Riguroso & Esclarecedor",
-    keyConcepts: [
-        "Cronica Historica",
-        "Evolucion Social",
-        "Investigacion Documental"
-      ],
-    targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
-    aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve historia del feudalismo, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
-    }
-  },
-  {
     id: 1495,
     title: "El Príncipe",
     author: "Nicolás Maquiavelo",
@@ -28469,18 +28501,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2031,
-    title: "Como Dirigir Personas A Traves De Conversaciones",
-    author: "Alvaro Gonzales",
+    id: 2121,
+    title: "El Mayor Secreto",
+    author: "David Icke",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2031_como-dirigir-personas-a-traves-de-conversaciones-a.pdf",
-    pages: 45,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2121_el-mayor-secreto-david-icke.pdf",
+    pages: 437,
+    year: 2005,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como dirigir personas a traves de conversaciones por Alvaro Gonzales. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-dirigir-personas-a-traves-de-conversaciones-alvaro-gonz.jpg",
-    downloads: 596,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el mayor secreto por David Icke. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-mayor-secreto-david-icke.jpg",
+    downloads: 597,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -28522,6 +28554,63 @@ const BOOKS = [
     targetAudience: "Lectores que buscan sintesis historica rigurosa, amena y documentada.",
     aiSummary: "Analisis historico Nowtilus: Sintesis exhaustiva y accesible sobre Breve Historia de la Ciencia Ficcion, combinando rigor historiografico y agilidad divulgativa imprescindible para comprender este periodo crucial."
     }
+  },
+  {
+    id: 2405,
+    title: "El Mapa del Flujo de Valor",
+    author: "50minutos.es",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2367_el-mapa-del-flujo-de-valor-amazon.pdf",
+    pages: 41,
+    year: 2017,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre El Mapa del Flujo de Valor. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2367-el-mapa-del-flujo-de-valor-amazon.jpg",
+    downloads: 311,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre El Mapa del Flujo de Valor. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 2031,
+    title: "Como Dirigir Personas A Traves De Conversaciones",
+    author: "Alvaro Gonzales",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2031_como-dirigir-personas-a-traves-de-conversaciones-a.pdf",
+    pages: 45,
+    year: 2009,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como dirigir personas a traves de conversaciones por Alvaro Gonzales. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-dirigir-personas-a-traves-de-conversaciones-alvaro-gonz.jpg",
+    downloads: 596,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 1078,
@@ -28580,32 +28669,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2405,
-    title: "El Mapa del Flujo de Valor",
-    author: "50minutos.es",
+    id: 405,
+    title: "El líder que no Tenía Cargo",
+    author: "Robin Sharma",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
+    collection: "Liderazgo",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2367_el-mapa-del-flujo-de-valor-amazon.pdf",
-    pages: 41,
-    year: 2017,
+    year: 2013,
     language: "Español",
-    description: "Manual y tratado de referencia sobre El Mapa del Flujo de Valor. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2367-el-mapa-del-flujo-de-valor-amazon.jpg",
-    downloads: 311,
+    pages: 240,
+    description: "A través de una fábula inspiradora, Robin Sharma (autor de El Monje que Vendió su Ferrari) enseña que el verdadero liderazgo no depende de títulos nobiliarios ni nombramientos oficiales, sino de la actitud interna de excelencia y servicio en cualquier puesto.",
+    cover: "covers/lider-sin-cargo.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b405_el-lider-que-no-tenia-cargo-robin-sharma.pdf",
+    downloads: 310,
     featured: false,
     aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    genre: "Liderazgo de Servicio",
+    vibe: "Motivador & Cálido",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
+        "Liderazgo Interior",
+        "Excelencia sin Excusas",
+        "Influencia sin Autoridad",
+        "maestría Diaria"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El Mapa del Flujo de Valor. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    targetAudience: "Empleados, mandos intermedios y profesionales que desean inspirar a su entorno sin esperar permisos.",
+    aiSummary: "Filosofía para liderar desde cualquier posición aportando valor incondicional a la organización."
     }
   },
   {
@@ -28637,31 +28725,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 405,
-    title: "El líder que no Tenía Cargo",
-    author: "Robin Sharma",
+    id: 2569,
+    title: "Administracion de Personal",
+    author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    collection: "Liderazgo",
+    subtopic: "Liderazgo y Gestión Organizacional",
+    collection: "Libros de Administración",
     format: "pdf",
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2531_administracion-de-personal.pdf",
+    pages: 182,
+    year: 2021,
     language: "Español",
-    pages: 240,
-    description: "A través de una fábula inspiradora, Robin Sharma (autor de El Monje que Vendió su Ferrari) enseña que el verdadero liderazgo no depende de títulos nobiliarios ni nombramientos oficiales, sino de la actitud interna de excelencia y servicio en cualquier puesto.",
-    cover: "covers/lider-sin-cargo.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b405_el-lider-que-no-tenia-cargo-robin-sharma.pdf",
-    downloads: 310,
+    description: "Manual y tratado de referencia sobre Administracion de Personal. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2531-administracion-de-personal.jpg",
+    downloads: 309,
     featured: false,
     aiAnalysis: {
-    genre: "Liderazgo de Servicio",
-    vibe: "Motivador & Cálido",
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
-        "Liderazgo Interior",
-        "Excelencia sin Excusas",
-        "Influencia sin Autoridad",
-        "maestría Diaria"
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
       ],
-    targetAudience: "Empleados, mandos intermedios y profesionales que desean inspirar a su entorno sin esperar permisos.",
-    aiSummary: "Filosofía para liderar desde cualquier posición aportando valor incondicional a la organización."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Administracion de Personal. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
     }
   },
   {
@@ -28750,63 +28839,6 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2569,
-    title: "Administracion de Personal",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2531_administracion-de-personal.pdf",
-    pages: 182,
-    year: 2021,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Administracion de Personal. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2531-administracion-de-personal.jpg",
-    downloads: 309,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Administracion de Personal. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
-    }
-  },
-  {
-    id: 2122,
-    title: "El Millonario Instantaneo",
-    author: "Mark Fisher",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2122_el-millonario-instantaneo-mark-fisher.pdf",
-    pages: 45,
-    year: 2008,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el millonario instantaneo por Mark Fisher. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-millonario-instantaneo-mark-fisher.jpg",
-    downloads: 573,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
     id: 2404,
     title: "El Diagrama de Ishikawa",
     author: "50minutos.es",
@@ -28836,18 +28868,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2233,
-    title: "Leyes",
-    author: "7Ma Ley",
+    id: 2122,
+    title: "El Millonario Instantaneo",
+    author: "Mark Fisher",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2233_leyes-7ma-ley.pdf",
-    pages: 279,
-    year: 2011,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2122_el-millonario-instantaneo-mark-fisher.pdf",
+    pages: 45,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 7Ma Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-7ma-ley.jpg",
-    downloads: 572,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el millonario instantaneo por Mark Fisher. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-millonario-instantaneo-mark-fisher.jpg",
+    downloads: 573,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -28892,18 +28924,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2117,
-    title: "El Libro Negro Del Emprendedor",
-    author: "Fernando Trias De Bes",
+    id: 2233,
+    title: "Leyes",
+    author: "7Ma Ley",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2117_el-libro-negro-del-emprendedor-fernando-trias-de-b.pdf",
-    pages: 191,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2233_leyes-7ma-ley.pdf",
+    pages: 279,
+    year: 2011,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro negro del emprendedor por Fernando Trias De Bes. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-libro-negro-del-emprendedor-fernando-trias-de-bes-76-pagi.jpg",
-    downloads: 566,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 7Ma Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-7ma-ley.jpg",
+    downloads: 572,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -28949,17 +28981,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2349,
-    title: "Usted Puede Sanar Su Vida",
-    author: "Louise L. Hay",
+    id: 2117,
+    title: "El Libro Negro Del Emprendedor",
+    author: "Fernando Trias De Bes",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2349_usted-puede-sanar-su-vida-louise-l-hay-92-paginas.pdf",
-    pages: 45,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2117_el-libro-negro-del-emprendedor-fernando-trias-de-b.pdf",
+    pages: 191,
+    year: 2017,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre usted puede sanar su vida por Louise L. Hay. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-usted-puede-sanar-su-vida-louise-l-hay-92-paginas.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro negro del emprendedor por Fernando Trias De Bes. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-libro-negro-del-emprendedor-fernando-trias-de-bes-76-pagi.jpg",
     downloads: 566,
     featured: false,
     aiAnalysis: {
@@ -29006,18 +29038,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2165,
-    title: "Gente Toxica",
-    author: "Bernardo Stamateas",
+    id: 2349,
+    title: "Usted Puede Sanar Su Vida",
+    author: "Louise L. Hay",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2165_gente-toxica-bernardo-stamateas-227-paginas.pdf",
-    pages: 50,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2349_usted-puede-sanar-su-vida-louise-l-hay-92-paginas.pdf",
+    pages: 45,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre gente toxica por Bernardo Stamateas. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-gente-toxica-bernardo-stamateas-227-paginas.jpg",
-    downloads: 559,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre usted puede sanar su vida por Louise L. Hay. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-usted-puede-sanar-su-vida-louise-l-hay-92-paginas.jpg",
+    downloads: 566,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -29060,6 +29092,62 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre Webinar Atencion de Clientes 140919155317 Phpapp02. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 2165,
+    title: "Gente Toxica",
+    author: "Bernardo Stamateas",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2165_gente-toxica-bernardo-stamateas-227-paginas.pdf",
+    pages: 50,
+    year: 2007,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre gente toxica por Bernardo Stamateas. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-gente-toxica-bernardo-stamateas-227-paginas.jpg",
+    downloads: 559,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1286,
+    title: "Mision Emprender",
+    author: "Sergio Fernandez & Raimon Samso",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1286_Mision_Emprender_-_Sergio_Fernandez_Raimon_Samso.pdf",
+    year: 2021,
+    language: "Español",
+    pages: 338,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-mision-emprender-sergio-fernandez-raimon-samso.png",
+    downloads: 297,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -29147,31 +29235,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1286,
-    title: "Mision Emprender",
-    author: "Sergio Fernandez & Raimon Samso",
+    id: 2414,
+    title: "La Cadena de Valor de Michael Porter",
+    author: "50minutos.es",
     category: "Liderazgo & Estrategia",
-    collection: "General",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1286_Mision_Emprender_-_Sergio_Fernandez_Raimon_Samso.pdf",
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2376_la-cadena-de-valor-de-michael-porter-amazon.pdf",
+    pages: 28,
+    year: 2018,
     language: "Español",
-    pages: 338,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-mision-emprender-sergio-fernandez-raimon-samso.png",
-    downloads: 297,
+    description: "Manual y tratado de referencia sobre La Cadena de Valor de Michael Porter. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2376-la-cadena-de-valor-de-michael-porter-amazon.jpg",
+    downloads: 295,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
         "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
+        "Casos Prácticos"
       ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre La Cadena de Valor de Michael Porter. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -29187,6 +29276,61 @@ const BOOKS = [
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre economia 19ed con aplicaciones por Paul A. Samuelson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
     cover: "covers/c-emprendedores-economia-19ed-con-aplicaciones-paul-a-samuelson.jpg",
     downloads: 553,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1475,
+    title: "Antifrágil: Las cosas que se benefician del desorden",
+    author: "Nassim Nicholas Taleb",
+    category: "Liderazgo & Estrategia",
+    collection: "La Gran Biblioteca Estoica",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1475_Las_cosas_que_se_benefician_del_desorden.pdf",
+    year: 2012,
+    language: "Español",
+    pages: 628,
+    description: "Obra esencial de Nassim Nicholas Taleb centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-las_cosas_que_se_benefician_del_des-74.png",
+    downloads: 295,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Robusto & Visionario",
+    keyConcepts: [
+        "Pensamiento Estratégico",
+        "Antifragilidad",
+        "Dominio del Poder"
+      ],
+    targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
+    aiSummary: "Análisis editorial: Antifrágil: Las cosas que se benefician del desorden aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
+    }
+  },
+  {
+    id: 2345,
+    title: "Tu Peor Coche Que Tu Vecino",
+    author: "Luis Pita",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2345_tu-peor-coche-que-tu-vecino-luis-pita.pdf",
+    pages: 218,
+    year: 2008,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tu peor coche que tu vecino por Luis Pita. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-tu-peor-coche-que-tu-vecino-luis-pita.jpg",
+    downloads: 552,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -29231,61 +29375,6 @@ const BOOKS = [
     }
   },
   {
-    id: 2345,
-    title: "Tu Peor Coche Que Tu Vecino",
-    author: "Luis Pita",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2345_tu-peor-coche-que-tu-vecino-luis-pita.pdf",
-    pages: 218,
-    year: 2008,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tu peor coche que tu vecino por Luis Pita. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-tu-peor-coche-que-tu-vecino-luis-pita.jpg",
-    downloads: 552,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1475,
-    title: "Antifrágil: Las cosas que se benefician del desorden",
-    author: "Nassim Nicholas Taleb",
-    category: "Liderazgo & Estrategia",
-    collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1475_Las_cosas_que_se_benefician_del_desorden.pdf",
-    year: 2012,
-    language: "Español",
-    pages: 628,
-    description: "Obra esencial de Nassim Nicholas Taleb centrada en liderazgo & estrategia. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-las_cosas_que_se_benefician_del_des-74.png",
-    downloads: 295,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Robusto & Visionario",
-    keyConcepts: [
-        "Pensamiento Estratégico",
-        "Antifragilidad",
-        "Dominio del Poder"
-      ],
-    targetAudience: "Líderes, estrategas, emprendedores y pensadores orientados a la toma de decisiones complejas.",
-    aiSummary: "Análisis editorial: Antifrágil: Las cosas que se benefician del desorden aporta herramientas rigurosas y prácticas para el desarrollo integral en Liderazgo & Estrategia."
-    }
-  },
-  {
     id: 2047,
     title: "Cree Mas En Ti Con Pnl",
     author: "David Molden",
@@ -29314,20 +29403,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2414,
-    title: "La Cadena de Valor de Michael Porter",
-    author: "50minutos.es",
+    id: 2526,
+    title: "¡préndele Fuego A Lo Convencional!",
+    author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2376_la-cadena-de-valor-de-michael-porter-amazon.pdf",
-    pages: 28,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2488_pr-ndele-fuego-a-lo-convencional.pdf",
+    pages: 89,
     year: 2018,
     language: "Español",
-    description: "Manual y tratado de referencia sobre La Cadena de Valor de Michael Porter. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2376-la-cadena-de-valor-de-michael-porter-amazon.jpg",
-    downloads: 295,
+    description: "Manual y tratado de referencia sobre ¡préndele Fuego A Lo Convencional!. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2488-pr-ndele-fuego-a-lo-convencional.jpg",
+    downloads: 294,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -29339,7 +29428,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre La Cadena de Valor de Michael Porter. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre ¡préndele Fuego A Lo Convencional!. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -29412,63 +29501,6 @@ const BOOKS = [
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 13Va Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
     cover: "covers/c-emprendedores-leyes-13va-ley.jpg",
     downloads: 539,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 2526,
-    title: "¡préndele Fuego A Lo Convencional!",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2488_pr-ndele-fuego-a-lo-convencional.pdf",
-    pages: 89,
-    year: 2018,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre ¡préndele Fuego A Lo Convencional!. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2488-pr-ndele-fuego-a-lo-convencional.jpg",
-    downloads: 294,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre ¡préndele Fuego A Lo Convencional!. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 2054,
-    title: "Desarrolle A Su Gente Al Estilo Toyota",
-    author: "Jeffrey K. Liker",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2054_desarrolle-a-su-gente-al-estilo-toyota-jeffrey-k-l.pdf",
-    pages: 74,
-    year: 2009,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolle a su gente al estilo toyota por Jeffrey K. Liker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-desarrolle-a-su-gente-al-estilo-toyota-jeffrey-k-liker.jpg",
-    downloads: 533,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -29571,18 +29603,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2074,
-    title: "El Arte De Especular",
-    author: "Jose Luis Cava",
+    id: 2054,
+    title: "Desarrolle A Su Gente Al Estilo Toyota",
+    author: "Jeffrey K. Liker",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2074_el-arte-de-especular-jose-luis-cava.pdf",
-    pages: 3025,
-    year: 2006,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2054_desarrolle-a-su-gente-al-estilo-toyota-jeffrey-k-l.pdf",
+    pages: 74,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de especular por Jose Luis Cava. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-especular-jose-luis-cava.jpg",
-    downloads: 530,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolle a su gente al estilo toyota por Jeffrey K. Liker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-desarrolle-a-su-gente-al-estilo-toyota-jeffrey-k-liker.jpg",
+    downloads: 533,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -29628,18 +29660,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2050,
-    title: "De Cero A Emprensario",
-    author: "Titto Galvez",
+    id: 2074,
+    title: "El Arte De Especular",
+    author: "Jose Luis Cava",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2050_de-cero-a-emprensario-titto-galvez.pdf",
-    pages: 87,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2074_el-arte-de-especular-jose-luis-cava.pdf",
+    pages: 3025,
+    year: 2006,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre de cero a emprensario por Titto Galvez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-de-cero-a-emprensario-titto-galvez.jpg",
-    downloads: 529,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de especular por Jose Luis Cava. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-especular-jose-luis-cava.jpg",
+    downloads: 530,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -29685,18 +29717,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2158,
-    title: "Finanzas Para Principiantes",
-    author: "S. Simanovsky",
+    id: 2050,
+    title: "De Cero A Emprensario",
+    author: "Titto Galvez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2158_finanzas-para-principiantes-s-simanovsky.pdf",
-    pages: 230,
-    year: 2005,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2050_de-cero-a-emprensario-titto-galvez.pdf",
+    pages: 87,
+    year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre finanzas para principiantes por S. Simanovsky. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-finanzas-para-principiantes-s-simanovsky.jpg",
-    downloads: 528,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre de cero a emprensario por Titto Galvez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-de-cero-a-emprensario-titto-galvez.jpg",
+    downloads: 529,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -29739,6 +29771,62 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre Mi Primera Investigacion de Mercado. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 2158,
+    title: "Finanzas Para Principiantes",
+    author: "S. Simanovsky",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2158_finanzas-para-principiantes-s-simanovsky.pdf",
+    pages: 230,
+    year: 2005,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre finanzas para principiantes por S. Simanovsky. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-finanzas-para-principiantes-s-simanovsky.jpg",
+    downloads: 528,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1214,
+    title: "Ebook el Mito del Emprendedor",
+    author: "Selección Bibliotyan",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1214_Ebook_El_Mito_del_Emprendedor.pdf",
+    year: 2019,
+    language: "Español",
+    pages: 242,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-ebook-el-mito-del-emprendedor.png",
+    downloads: 283,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -29826,62 +29914,6 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1214,
-    title: "Ebook el Mito del Emprendedor",
-    author: "Selección Bibliotyan",
-    category: "Liderazgo & Estrategia",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1214_Ebook_El_Mito_del_Emprendedor.pdf",
-    year: 2019,
-    language: "Español",
-    pages: 242,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-ebook-el-mito-del-emprendedor.png",
-    downloads: 283,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
-    keyConcepts: [
-        "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
-      ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 2285,
-    title: "Negociar Para Ganar",
-    author: "Alejandro Pagliari",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2285_negociar-para-ganar-alejandro-pagliari.pdf",
-    pages: 45,
-    year: 2019,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre negociar para ganar por Alejandro Pagliari. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-negociar-para-ganar-alejandro-pagliari.jpg",
-    downloads: 520,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
     id: 2430,
     title: "Administración del Producto (4ª Edición)",
     author: "Donald R. Lehmann & Russell S. Winer",
@@ -29911,18 +29943,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1999,
-    title: "Analisis Tecnico Y Velas Japonesas",
-    author: "Gregorio Hernandez Jimenez",
+    id: 2285,
+    title: "Negociar Para Ganar",
+    author: "Alejandro Pagliari",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1999_analisis-tecnico-y-velas-japonesas-gregorio-hernan.pdf",
-    pages: 313,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2285_negociar-para-ganar-alejandro-pagliari.pdf",
+    pages: 45,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre analisis tecnico y velas japonesas por Gregorio Hernandez Jimenez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-analisis-tecnico-y-velas-japonesas-gregorio-hernandez-jimene.jpg",
-    downloads: 516,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre negociar para ganar por Alejandro Pagliari. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-negociar-para-ganar-alejandro-pagliari.jpg",
+    downloads: 520,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -29968,18 +30000,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2114,
-    title: "El Libro De Oro",
-    author: "Dale Carnegie",
+    id: 1999,
+    title: "Analisis Tecnico Y Velas Japonesas",
+    author: "Gregorio Hernandez Jimenez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2114_el-libro-de-oro-dale-carnegie-1.pdf",
-    pages: 45,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1999_analisis-tecnico-y-velas-japonesas-gregorio-hernan.pdf",
+    pages: 313,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro de oro por Dale Carnegie. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-libro-de-oro-dale-carnegie-1.jpg",
-    downloads: 513,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre analisis tecnico y velas japonesas por Gregorio Hernandez Jimenez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-analisis-tecnico-y-velas-japonesas-gregorio-hernandez-jimene.jpg",
+    downloads: 516,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -30025,18 +30057,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2036,
-    title: "Como Prospectar",
-    author: "Alex Reynoso",
+    id: 2114,
+    title: "El Libro De Oro",
+    author: "Dale Carnegie",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2036_como-prospectar-alex-reynoso.pdf",
-    pages: 2303,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2114_el-libro-de-oro-dale-carnegie-1.pdf",
+    pages: 45,
+    year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como prospectar por Alex Reynoso. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-prospectar-alex-reynoso.jpg",
-    downloads: 508,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro de oro por Dale Carnegie. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-libro-de-oro-dale-carnegie-1.jpg",
+    downloads: 513,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -30082,18 +30114,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2258,
-    title: "Manual De Tecnicas De Pnl",
-    author: "Estrategias Pnl",
+    id: 2036,
+    title: "Como Prospectar",
+    author: "Alex Reynoso",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2258_manual-de-tecnicas-de-pnl-estrategias-pnl.pdf",
-    pages: 83,
-    year: 2008,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2036_como-prospectar-alex-reynoso.pdf",
+    pages: 2303,
+    year: 2015,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre manual de tecnicas de pnl por Estrategias Pnl. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-manual-de-tecnicas-de-pnl-estrategias-pnl.jpg",
-    downloads: 497,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como prospectar por Alex Reynoso. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-prospectar-alex-reynoso.jpg",
+    downloads: 508,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -30139,18 +30171,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2194,
-    title: "La Economia Long Tail",
-    author: "Chris Anderson",
+    id: 2258,
+    title: "Manual De Tecnicas De Pnl",
+    author: "Estrategias Pnl",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2194_la-economia-long-tail-chris-anderson.pdf",
-    pages: 112,
-    year: 2012,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2258_manual-de-tecnicas-de-pnl-estrategias-pnl.pdf",
+    pages: 83,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la economia long tail por Chris Anderson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-economia-long-tail-chris-anderson.jpg",
-    downloads: 486,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre manual de tecnicas de pnl por Estrategias Pnl. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-manual-de-tecnicas-de-pnl-estrategias-pnl.jpg",
+    downloads: 497,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -30193,6 +30225,63 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre Gestión de Operaciones y Logística. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    }
+  },
+  {
+    id: 2194,
+    title: "La Economia Long Tail",
+    author: "Chris Anderson",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2194_la-economia-long-tail-chris-anderson.pdf",
+    pages: 112,
+    year: 2012,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la economia long tail por Chris Anderson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-economia-long-tail-chris-anderson.jpg",
+    downloads: 486,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 2530,
+    title: "Claves para Ser un Profesional Competitivo",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2492_claves-para-ser-un-profesional-competitivo.pdf",
+    pages: 54,
+    year: 2022,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Claves para Ser un Profesional Competitivo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2492-claves-para-ser-un-profesional-competitivo.jpg",
+    downloads: 272,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Claves para Ser un Profesional Competitivo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -30281,20 +30370,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2530,
-    title: "Claves para Ser un Profesional Competitivo",
+    id: 2478,
+    title: "Cómo Comunicarse de Manera Eficaz",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2492_claves-para-ser-un-profesional-competitivo.pdf",
-    pages: 54,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2440_c-mo-comunicarse-de-manera-eficaz.pdf",
+    pages: 47,
+    year: 2018,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Claves para Ser un Profesional Competitivo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2492-claves-para-ser-un-profesional-competitivo.jpg",
-    downloads: 272,
+    description: "Manual y tratado de referencia sobre Cómo Comunicarse de Manera Eficaz. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2440-c-mo-comunicarse-de-manera-eficaz.jpg",
+    downloads: 270,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -30306,7 +30395,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Claves para Ser un Profesional Competitivo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Cómo Comunicarse de Manera Eficaz. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -30395,20 +30484,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2478,
-    title: "Cómo Comunicarse de Manera Eficaz",
+    id: 2529,
+    title: "7 Tácticas para Crear Equipos de Alto Rendimiento",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2440_c-mo-comunicarse-de-manera-eficaz.pdf",
-    pages: 47,
-    year: 2018,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2491_7-t-cticas-para-crear-equipos-de-alto-rendimi.pdf",
+    pages: 54,
+    year: 2021,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Cómo Comunicarse de Manera Eficaz. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2440-c-mo-comunicarse-de-manera-eficaz.jpg",
-    downloads: 270,
+    description: "Manual y tratado de referencia sobre 7 Tácticas para Crear Equipos de Alto Rendimiento. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2491-7-t-cticas-para-crear-equipos-de-alto-rendimi.jpg",
+    downloads: 269,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -30420,7 +30509,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Cómo Comunicarse de Manera Eficaz. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre 7 Tácticas para Crear Equipos de Alto Rendimiento. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -30509,63 +30598,6 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2529,
-    title: "7 Tácticas para Crear Equipos de Alto Rendimiento",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2491_7-t-cticas-para-crear-equipos-de-alto-rendimi.pdf",
-    pages: 54,
-    year: 2021,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre 7 Tácticas para Crear Equipos de Alto Rendimiento. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2491-7-t-cticas-para-crear-equipos-de-alto-rendimi.jpg",
-    downloads: 269,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre 7 Tácticas para Crear Equipos de Alto Rendimiento. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 2271,
-    title: "Mejore Sus Finanzas Con El Feng Shui",
-    author: "Tavata",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2271_mejore-sus-finanzas-con-el-feng-shui-tavata.pdf",
-    pages: 135,
-    year: 2021,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mejore sus finanzas con el feng shui por Tavata. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-mejore-sus-finanzas-con-el-feng-shui-tavata.jpg",
-    downloads: 477,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
     id: 2473,
     title: "Buena Comunicación = Relaciones Satisfactorias",
     author: "Especialistas en Administración",
@@ -30595,18 +30627,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2075,
-    title: "El Arte De Innovar Y Emprender",
-    author: "Christopher Meyer",
+    id: 2271,
+    title: "Mejore Sus Finanzas Con El Feng Shui",
+    author: "Tavata",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2075_el-arte-de-innovar-y-emprender-christopher-meyer.pdf",
-    pages: 207,
-    year: 2015,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2271_mejore-sus-finanzas-con-el-feng-shui-tavata.pdf",
+    pages: 135,
+    year: 2021,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de innovar y emprender por Christopher Meyer. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-innovar-y-emprender-christopher-meyer.jpg",
-    downloads: 474,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mejore sus finanzas con el feng shui por Tavata. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-mejore-sus-finanzas-con-el-feng-shui-tavata.jpg",
+    downloads: 477,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -30652,18 +30684,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2196,
-    title: "La Epilepsia Al Alcance De Todos",
-    author: "Lilia Nuñez Orozco",
+    id: 2075,
+    title: "El Arte De Innovar Y Emprender",
+    author: "Christopher Meyer",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2196_la-epilepsia-al-alcance-de-todos-lilia-nunez-orozc.pdf",
-    pages: 161,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2075_el-arte-de-innovar-y-emprender-christopher-meyer.pdf",
+    pages: 207,
+    year: 2015,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la epilepsia al alcance de todos por Lilia Nuñez Orozco. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-epilepsia-al-alcance-de-todos-lilia-nunez-orozco.jpg",
-    downloads: 470,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de innovar y emprender por Christopher Meyer. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-innovar-y-emprender-christopher-meyer.jpg",
+    downloads: 474,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -30706,6 +30738,63 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre Liderazgo Invencible. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    }
+  },
+  {
+    id: 2196,
+    title: "La Epilepsia Al Alcance De Todos",
+    author: "Lilia Nuñez Orozco",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2196_la-epilepsia-al-alcance-de-todos-lilia-nunez-orozc.pdf",
+    pages: 161,
+    year: 2022,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la epilepsia al alcance de todos por Lilia Nuñez Orozco. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-epilepsia-al-alcance-de-todos-lilia-nunez-orozco.jpg",
+    downloads: 470,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 2575,
+    title: "50 Formas de Enamorar A los Empleados Ebook",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2537_50-formas-de-enamorar-a-los-empleados-ebook.pdf",
+    pages: 16,
+    year: 2019,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre 50 Formas de Enamorar A los Empleados Ebook. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2537-50-formas-de-enamorar-a-los-empleados-ebook.jpg",
+    downloads: 262,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre 50 Formas de Enamorar A los Empleados Ebook. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -30793,63 +30882,6 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2575,
-    title: "50 Formas de Enamorar A los Empleados Ebook",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2537_50-formas-de-enamorar-a-los-empleados-ebook.pdf",
-    pages: 16,
-    year: 2019,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre 50 Formas de Enamorar A los Empleados Ebook. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2537-50-formas-de-enamorar-a-los-empleados-ebook.jpg",
-    downloads: 262,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre 50 Formas de Enamorar A los Empleados Ebook. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 2203,
-    title: "La Logica Oculta De La Vida",
-    author: "Tim Harford",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2203_la-logica-oculta-de-la-vida-tim-harford.pdf",
-    pages: 131,
-    year: 2017,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la logica oculta de la vida por Tim Harford. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-logica-oculta-de-la-vida-tim-harford.jpg",
-    downloads: 444,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
     id: 2431,
     title: "Administración Estratégica y Política de Negocios (10ª Edición)",
     author: "Thomas L. Wheelen & J. David Hunger",
@@ -30879,18 +30911,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2284,
-    title: "Negociar Es Facil Si Sabe Como",
-    author: "Alejandro Hernandez",
+    id: 2203,
+    title: "La Logica Oculta De La Vida",
+    author: "Tim Harford",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2284_negociar-es-facil-si-sabe-como-alejandro-hernandez.pdf",
-    pages: 71,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2203_la-logica-oculta-de-la-vida-tim-harford.pdf",
+    pages: 131,
+    year: 2017,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre negociar es facil si sabe como por Alejandro Hernandez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-negociar-es-facil-si-sabe-como-alejandro-hernandez-246-pagin.jpg",
-    downloads: 442,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la logica oculta de la vida por Tim Harford. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-logica-oculta-de-la-vida-tim-harford.jpg",
+    downloads: 444,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -30936,18 +30968,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2140,
-    title: "El Secreto",
-    author: "Rhonda Byrne",
+    id: 2284,
+    title: "Negociar Es Facil Si Sabe Como",
+    author: "Alejandro Hernandez",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2140_el-secreto-rhonda-byrne-198-paginas.pdf",
-    pages: 414,
-    year: 2011,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2284_negociar-es-facil-si-sabe-como-alejandro-hernandez.pdf",
+    pages: 71,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el secreto por Rhonda Byrne. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-secreto-rhonda-byrne-198-paginas.jpg",
-    downloads: 441,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre negociar es facil si sabe como por Alejandro Hernandez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-negociar-es-facil-si-sabe-como-alejandro-hernandez-246-pagin.jpg",
+    downloads: 442,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -30990,6 +31022,63 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre Creando la Experiencia Total del Cliente. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 2140,
+    title: "El Secreto",
+    author: "Rhonda Byrne",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2140_el-secreto-rhonda-byrne-198-paginas.pdf",
+    pages: 414,
+    year: 2011,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el secreto por Rhonda Byrne. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-secreto-rhonda-byrne-198-paginas.jpg",
+    downloads: 441,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 2517,
+    title: "Cómo Alcanzar Objetivos A Través de Otros",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2479_c-mo-alcanzar-objetivos-a-trav-s-de-otros.pdf",
+    pages: 52,
+    year: 2017,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Cómo Alcanzar Objetivos A Través de Otros. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2479-c-mo-alcanzar-objetivos-a-trav-s-de-otros.jpg",
+    downloads: 255,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Cómo Alcanzar Objetivos A Través de Otros. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -31077,20 +31166,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2517,
-    title: "Cómo Alcanzar Objetivos A Través de Otros",
+    id: 2466,
+    title: "El Gran Libro de los Negocios Online Completo",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2479_c-mo-alcanzar-objetivos-a-trav-s-de-otros.pdf",
-    pages: 52,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2428_el-gran-libro-de-los-negocios-online-completo.pdf",
+    pages: 1033,
+    year: 2022,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Cómo Alcanzar Objetivos A Través de Otros. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2479-c-mo-alcanzar-objetivos-a-trav-s-de-otros.jpg",
-    downloads: 255,
+    description: "Manual y tratado de referencia sobre El Gran Libro de los Negocios Online Completo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2428-el-gran-libro-de-los-negocios-online-completo.jpg",
+    downloads: 251,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -31102,7 +31191,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Cómo Alcanzar Objetivos A Través de Otros. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre El Gran Libro de los Negocios Online Completo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -31134,20 +31223,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2466,
-    title: "El Gran Libro de los Negocios Online Completo",
+    id: 2527,
+    title: "¿cómo Medir la Efectividad de la Gestión de RRHH",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2428_el-gran-libro-de-los-negocios-online-completo.pdf",
-    pages: 1033,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2489_c-mo-medir-la-efectividad-de-la-gesti-n-de-rr.pdf",
+    pages: 83,
+    year: 2019,
     language: "Español",
-    description: "Manual y tratado de referencia sobre El Gran Libro de los Negocios Online Completo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2428-el-gran-libro-de-los-negocios-online-completo.jpg",
-    downloads: 251,
+    description: "Manual y tratado de referencia sobre ¿cómo Medir la Efectividad de la Gestión de RRHH. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2489-c-mo-medir-la-efectividad-de-la-gesti-n-de-rr.jpg",
+    downloads: 249,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -31159,7 +31248,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El Gran Libro de los Negocios Online Completo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre ¿cómo Medir la Efectividad de la Gestión de RRHH. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -31220,63 +31309,6 @@ const BOOKS = [
     }
   },
   {
-    id: 2212,
-    title: "La Vaca",
-    author: "Camilo Cruz",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2212_la-vaca-camilo-cruz-35-paginas.pdf",
-    pages: 45,
-    year: 2016,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la vaca por Camilo Cruz. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-camilo-cruz-35-paginas.jpg",
-    downloads: 435,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 2527,
-    title: "¿cómo Medir la Efectividad de la Gestión de RRHH",
-    author: "Especialistas en Administración",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2489_c-mo-medir-la-efectividad-de-la-gesti-n-de-rr.pdf",
-    pages: 83,
-    year: 2019,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre ¿cómo Medir la Efectividad de la Gestión de RRHH. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2489-c-mo-medir-la-efectividad-de-la-gesti-n-de-rr.jpg",
-    downloads: 249,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre ¿cómo Medir la Efectividad de la Gestión de RRHH. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
     id: 2342,
     title: "Traguese Ese Sapo",
     author: "21 Estrategias Para Tomar Descisiones",
@@ -31334,18 +31366,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2222,
-    title: "Las Fuerzas Ocultas",
-    author: "William W. Atkinson",
+    id: 2212,
+    title: "La Vaca",
+    author: "Camilo Cruz",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2222_las-fuerzas-ocultas-william-w-atkinson.pdf",
-    pages: 47,
-    year: 2006,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2212_la-vaca-camilo-cruz-35-paginas.pdf",
+    pages: 45,
+    year: 2016,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las fuerzas ocultas por William W. Atkinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-las-fuerzas-ocultas-william-w-atkinson.jpg",
-    downloads: 433,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la vaca por Camilo Cruz. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-vaca-camilo-cruz-35-paginas.jpg",
+    downloads: 435,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -31362,46 +31394,47 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1068,
-    title: "Captio",
-    author: "Consejos Para Evento de Empresa",
+    id: 2565,
+    title: "Cómo Se Hace una Tesis",
+    author: "Umberto Eco",
     category: "Liderazgo & Estrategia",
-    collection: "General",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1068_CAPTIO-Consejos-para-Evento-de-Empresa.pdf",
-    year: 2023,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2527_comohacertesis-eco.pdf",
+    pages: 253,
+    year: 2017,
     language: "Español",
-    pages: 304,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-captio-consejos-para-evento-de-empresa.png",
+    description: "Manual y tratado de referencia sobre Cómo Se Hace una Tesis. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2527-comohacertesis-eco.jpg",
     downloads: 241,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
         "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
+        "Casos Prácticos"
       ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Cómo Se Hace una Tesis. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
-    id: 2187,
-    title: "La Araña Y La Estrella De Mar",
-    author: "Ori Brafman _ Rod A. Beckstrom",
+    id: 2222,
+    title: "Las Fuerzas Ocultas",
+    author: "William W. Atkinson",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2187_la-arana-y-la-estrella-de-mar-ori-brafman-rod-a-be.pdf",
-    pages: 1439,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2222_las-fuerzas-ocultas-william-w-atkinson.pdf",
+    pages: 47,
+    year: 2006,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la araña y la estrella de mar por Ori Brafman _ Rod A. Beckstrom. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-arana-y-la-estrella-de-mar-ori-brafman-rod-a-beckstrom.jpg",
-    downloads: 426,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las fuerzas ocultas por William W. Atkinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-las-fuerzas-ocultas-william-w-atkinson.jpg",
+    downloads: 433,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -31446,17 +31479,17 @@ const BOOKS = [
     }
   },
   {
-    id: 2210,
-    title: "La Respuesta Esta En Las Preguntas",
-    author: "Allan Pease",
+    id: 2187,
+    title: "La Araña Y La Estrella De Mar",
+    author: "Ori Brafman _ Rod A. Beckstrom",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2210_la-respuesta-esta-en-las-preguntas-allan-pease.pdf",
-    pages: 2604,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2187_la-arana-y-la-estrella-de-mar-ori-brafman-rod-a-be.pdf",
+    pages: 1439,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la respuesta esta en las preguntas por Allan Pease. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-respuesta-esta-en-las-preguntas-allan-pease.jpg",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la araña y la estrella de mar por Ori Brafman _ Rod A. Beckstrom. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-arana-y-la-estrella-de-mar-ori-brafman-rod-a-beckstrom.jpg",
     downloads: 426,
     featured: false,
     aiAnalysis: {
@@ -31474,32 +31507,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2565,
-    title: "Cómo Se Hace una Tesis",
-    author: "Umberto Eco",
+    id: 1068,
+    title: "Captio",
+    author: "Consejos Para Evento de Empresa",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2527_comohacertesis-eco.pdf",
-    pages: 253,
-    year: 2017,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1068_CAPTIO-Consejos-para-Evento-de-Empresa.pdf",
+    year: 2023,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Cómo Se Hace una Tesis. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2527-comohacertesis-eco.jpg",
+    pages: 304,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-captio-consejos-para-evento-de-empresa.png",
     downloads: 241,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
+    vibe: "Estratégico & Visión",
     keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
         "Toma de Decisiones",
-        "Casos Prácticos"
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
       ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Cómo Se Hace una Tesis. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -31560,18 +31592,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2092,
-    title: "El Coaching",
-    author: "Francois Caby",
+    id: 2210,
+    title: "La Respuesta Esta En Las Preguntas",
+    author: "Allan Pease",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2092_el-coaching-francois-caby.pdf",
-    pages: 65,
-    year: 2007,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2210_la-respuesta-esta-en-las-preguntas-allan-pease.pdf",
+    pages: 2604,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el coaching por Francois Caby. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-coaching-francois-caby.jpg",
-    downloads: 424,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la respuesta esta en las preguntas por Allan Pease. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-respuesta-esta-en-las-preguntas-allan-pease.jpg",
+    downloads: 426,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -31614,6 +31646,63 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre El Modelo de Greiner. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 2092,
+    title: "El Coaching",
+    author: "Francois Caby",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2092_el-coaching-francois-caby.pdf",
+    pages: 65,
+    year: 2007,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el coaching por Francois Caby. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-coaching-francois-caby.jpg",
+    downloads: 424,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 2493,
+    title: "Planificar, Escribir, Corregir",
+    author: "Especialistas en Administración",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2455_planificar-escribir-corregir.pdf",
+    pages: 49,
+    year: 2017,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre Planificar, Escribir, Corregir. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2455-planificar-escribir-corregir.jpg",
+    downloads: 234,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Planificar, Escribir, Corregir. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -31701,20 +31790,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2493,
-    title: "Planificar, Escribir, Corregir",
-    author: "Especialistas en Administración",
+    id: 2538,
+    title: "Investigación de Mercados: Conceptos Esenciales",
+    author: "Naresh K. Malhotra",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2455_planificar-escribir-corregir.pdf",
-    pages: 49,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2500_investigacion-de-mercados-naresh-malhotra.pdf",
+    pages: 919,
+    year: 2022,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Planificar, Escribir, Corregir. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2455-planificar-escribir-corregir.jpg",
-    downloads: 234,
+    description: "Manual y tratado de referencia sobre Investigación de Mercados: Conceptos Esenciales. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2500-investigacion-de-mercados-naresh-malhotra.jpg",
+    downloads: 230,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -31726,7 +31815,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Planificar, Escribir, Corregir. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Investigación de Mercados: Conceptos Esenciales. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -31758,20 +31847,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2538,
-    title: "Investigación de Mercados: Conceptos Esenciales",
-    author: "Naresh K. Malhotra",
+    id: 2465,
+    title: "Quiero Ser Coach Preparando el Trabajo",
+    author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
+    subtopic: "Liderazgo y Gestión Organizacional",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2500_investigacion-de-mercados-naresh-malhotra.pdf",
-    pages: 919,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2427_quiero-ser-coach-preparando-el-trabajo.pdf",
+    pages: 69,
+    year: 2021,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Investigación de Mercados: Conceptos Esenciales. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2500-investigacion-de-mercados-naresh-malhotra.jpg",
-    downloads: 230,
+    description: "Manual y tratado de referencia sobre Quiero Ser Coach Preparando el Trabajo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2427-quiero-ser-coach-preparando-el-trabajo.jpg",
+    downloads: 229,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -31783,7 +31872,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Investigación de Mercados: Conceptos Esenciales. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Quiero Ser Coach Preparando el Trabajo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
     }
   },
   {
@@ -31872,20 +31961,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2465,
-    title: "Quiero Ser Coach Preparando el Trabajo",
+    id: 2536,
+    title: "Emprende Despierto",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
+    subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2427_quiero-ser-coach-preparando-el-trabajo.pdf",
-    pages: 69,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2498_emprende-despierto.pdf",
+    pages: 77,
+    year: 2020,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Quiero Ser Coach Preparando el Trabajo. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2427-quiero-ser-coach-preparando-el-trabajo.jpg",
-    downloads: 229,
+    description: "Manual y tratado de referencia sobre Emprende Despierto. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2498-emprende-despierto.jpg",
+    downloads: 228,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -31897,7 +31986,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Quiero Ser Coach Preparando el Trabajo. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    aiSummary: "Tratado y guía ejecutiva sobre Emprende Despierto. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -31913,63 +32002,6 @@ const BOOKS = [
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las cuatro vidas de steve jobs por Daniel Ichbiah. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
     cover: "covers/c-emprendedores-las-cuatro-vidas-de-steve-jobs-daniel-ichbiah.jpg",
     downloads: 399,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 2402,
-    title: "El Concepto de la Estrategia del Océano Azul",
-    author: "50minutos.es",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2364_el-concepto-de-la-estrategia-del-oc-ano-azul.pdf",
-    pages: 30,
-    year: 2022,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre El Concepto de la Estrategia del Océano Azul. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2364-el-concepto-de-la-estrategia-del-oc-ano-azul.jpg",
-    downloads: 228,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El Concepto de la Estrategia del Océano Azul. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 2315,
-    title: "Quiero Ser Coach - Preparando El Trabajo",
-    author: "Jose Ignacio",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2315_quiero-ser-coach-preparando-el-trabajo-jose-ignaci.pdf",
-    pages: 415,
-    year: 2009,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - preparando el trabajo por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-quiero-ser-coach-preparando-el-trabajo-jose-ignacio.jpg",
-    downloads: 398,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -32015,6 +32047,63 @@ const BOOKS = [
     }
   },
   {
+    id: 2315,
+    title: "Quiero Ser Coach - Preparando El Trabajo",
+    author: "Jose Ignacio",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2315_quiero-ser-coach-preparando-el-trabajo-jose-ignaci.pdf",
+    pages: 415,
+    year: 2009,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - preparando el trabajo por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-quiero-ser-coach-preparando-el-trabajo-jose-ignacio.jpg",
+    downloads: 398,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 2402,
+    title: "El Concepto de la Estrategia del Océano Azul",
+    author: "50minutos.es",
+    category: "Liderazgo & Estrategia",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2364_el-concepto-de-la-estrategia-del-oc-ano-azul.pdf",
+    pages: 30,
+    year: 2022,
+    language: "Español",
+    description: "Manual y tratado de referencia sobre El Concepto de la Estrategia del Océano Azul. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2364-el-concepto-de-la-estrategia-del-oc-ano-azul.jpg",
+    downloads: 228,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Práctico & Empresarial",
+    keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
+        "Toma de Decisiones",
+        "Casos Prácticos"
+      ],
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre El Concepto de la Estrategia del Océano Azul. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
     id: 2326,
     title: "Sexcode - El Manual Practico De Los Maestros De La Seduccion",
     author: "Mario Luna",
@@ -32043,20 +32132,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2536,
-    title: "Emprende Despierto",
+    id: 2476,
+    title: "Conferencias Telefónicas Efectivas",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
     subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2498_emprende-despierto.pdf",
-    pages: 77,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2438_conferencias-telef-nicas-efectivas.pdf",
+    pages: 37,
+    year: 2016,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Emprende Despierto. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2498-emprende-despierto.jpg",
-    downloads: 228,
+    description: "Manual y tratado de referencia sobre Conferencias Telefónicas Efectivas. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2438-conferencias-telef-nicas-efectivas.jpg",
+    downloads: 227,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -32068,7 +32157,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Emprende Despierto. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Conferencias Telefónicas Efectivas. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -32156,20 +32245,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2476,
-    title: "Conferencias Telefónicas Efectivas",
+    id: 2553,
+    title: "Libro Blanco de la Logística para Comercio Electrónico",
     author: "Especialistas en Administración",
     category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
+    subtopic: "Liderazgo y Gestión Organizacional",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2438_conferencias-telef-nicas-efectivas.pdf",
-    pages: 37,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2515_libro-blanco-de-la-log-stica-para-comercio-el.pdf",
+    pages: 167,
+    year: 2021,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Conferencias Telefónicas Efectivas. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2438-conferencias-telef-nicas-efectivas.jpg",
-    downloads: 227,
+    description: "Manual y tratado de referencia sobre Libro Blanco de la Logística para Comercio Electrónico. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2515-libro-blanco-de-la-log-stica-para-comercio-el.jpg",
+    downloads: 225,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -32181,7 +32270,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Conferencias Telefónicas Efectivas. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    aiSummary: "Tratado y guía ejecutiva sobre Libro Blanco de la Logística para Comercio Electrónico. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
     }
   },
   {
@@ -32213,20 +32302,20 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2553,
-    title: "Libro Blanco de la Logística para Comercio Electrónico",
-    author: "Especialistas en Administración",
+    id: 2567,
+    title: "Gonzalez Reyna Susana",
+    author: "Manual de Investigacion Documental",
     category: "Liderazgo & Estrategia",
-    subtopic: "Liderazgo y Gestión Organizacional",
+    subtopic: "Administración General",
     collection: "Libros de Administración",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2515_libro-blanco-de-la-log-stica-para-comercio-el.pdf",
-    pages: 167,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2529_gonzalez-reyna-susana-manual-de-investigacion.pdf",
+    pages: 203,
+    year: 2019,
     language: "Español",
-    description: "Manual y tratado de referencia sobre Libro Blanco de la Logística para Comercio Electrónico. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2515-libro-blanco-de-la-log-stica-para-comercio-el.jpg",
-    downloads: 225,
+    description: "Manual y tratado de referencia sobre Gonzalez Reyna Susana. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2529-gonzalez-reyna-susana-manual-de-investigacion.jpg",
+    downloads: 224,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -32238,7 +32327,7 @@ const BOOKS = [
         "Casos Prácticos"
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Libro Blanco de la Logística para Comercio Electrónico. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    aiSummary: "Tratado y guía ejecutiva sobre Gonzalez Reyna Susana. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -32327,63 +32416,6 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2567,
-    title: "Gonzalez Reyna Susana",
-    author: "Manual de Investigacion Documental",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2529_gonzalez-reyna-susana-manual-de-investigacion.pdf",
-    pages: 203,
-    year: 2019,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Gonzalez Reyna Susana. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2529-gonzalez-reyna-susana-manual-de-investigacion.jpg",
-    downloads: 224,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Gonzalez Reyna Susana. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 2225,
-    title: "Leyes",
-    author: "12Va Ley",
-    category: "Crecimiento Personal",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2225_leyes-12va-ley.pdf",
-    pages: 423,
-    year: 2007,
-    language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 12Va Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-leyes-12va-ley.jpg",
-    downloads: 370,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
     id: 2441,
     title: "Introduccion A la Admin Hernadez 5e",
     author: "Especialistas en Administración",
@@ -32413,18 +32445,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2139,
-    title: "El Rinoceronte",
-    author: "Scott Alexander",
+    id: 2225,
+    title: "Leyes",
+    author: "12Va Ley",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2139_el-rinoceronte-scott-alexander-63-paginas.pdf",
-    pages: 45,
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2225_leyes-12va-ley.pdf",
+    pages: 423,
+    year: 2007,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el rinoceronte por Scott Alexander. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-rinoceronte-scott-alexander-63-paginas.jpg",
-    downloads: 367,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre leyes por 12Va Ley. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-leyes-12va-ley.jpg",
+    downloads: 370,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -32467,6 +32499,62 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre La Empresa Populista. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
+    }
+  },
+  {
+    id: 2139,
+    title: "El Rinoceronte",
+    author: "Scott Alexander",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2139_el-rinoceronte-scott-alexander-63-paginas.pdf",
+    pages: 45,
+    year: 2017,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el rinoceronte por Scott Alexander. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-rinoceronte-scott-alexander-63-paginas.jpg",
+    downloads: 367,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1100,
+    title: "Universidad Disney. cómo la Estrategia Empresarial",
+    author: "Disney Forma A Los Empleados más Leales",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1100_Universidad_Disney._C_mo_la_estrategia_empresarial_de_Disney_forma_a_los_empleados_m_s_leales.pdf",
+    year: 2015,
+    language: "Español",
+    pages: 160,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-universidad-disney-c-mo-la-estrategia-empresarial-de.png",
+    downloads: 220,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -32554,31 +32642,32 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1100,
-    title: "Universidad Disney. cómo la Estrategia Empresarial",
-    author: "Disney Forma A Los Empleados más Leales",
+    id: 2467,
+    title: "Elementos Basicos de Comercio E",
+    author: "Kaba Ibrahim",
     category: "Liderazgo & Estrategia",
-    collection: "General",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1100_Universidad_Disney._C_mo_la_estrategia_empresarial_de_Disney_forma_a_los_empleados_m_s_leales.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2429_elementos-basicos-de-comercio-e-kaba-ibrahim.pdf",
+    pages: 175,
     year: 2015,
     language: "Español",
-    pages: 160,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-universidad-disney-c-mo-la-estrategia-empresarial-de.png",
-    downloads: 220,
+    description: "Manual y tratado de referencia sobre Elementos Basicos de Comercio E. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2429-elementos-basicos-de-comercio-e-kaba-ibrahim.jpg",
+    downloads: 219,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
         "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
+        "Casos Prácticos"
       ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre Elementos Basicos de Comercio E. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -32610,63 +32699,6 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2467,
-    title: "Elementos Basicos de Comercio E",
-    author: "Kaba Ibrahim",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2429_elementos-basicos-de-comercio-e-kaba-ibrahim.pdf",
-    pages: 175,
-    year: 2015,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre Elementos Basicos de Comercio E. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2429-elementos-basicos-de-comercio-e-kaba-ibrahim.jpg",
-    downloads: 219,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre Elementos Basicos de Comercio E. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 1189,
-    title: "Amar o Depender",
-    author: "Selección Bibliotyan",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1189_Amar_o_depender.pdf",
-    year: 2024,
-    language: "Español",
-    pages: 197,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-amar-o-depender.png",
-    downloads: 353,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
     id: 2528,
     title: "Libro 13 Estadistica para Administracion y Economia",
     author: "Especialistas en Administración",
@@ -32696,18 +32728,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1224,
-    title: "El Lenguaje del Cuerpo por Pease",
-    author: "Allan",
+    id: 1294,
+    title: "Que las Matematicas Te Acompañen",
+    author: "Clara Grima Ruiz",
     category: "Crecimiento Personal",
     collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1224_El_lenguaje_del_Cuerpo_por_Pease-Allan.pdf",
+    format: "dual",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1294_Que_las_matematicas_te_acompa_en_-_Clara_Grima_Ruiz.epub",
+    epub: "pdfs/epubs/Que las matematicas te acompañen - Clara Grima Ruiz.epub",
     year: 2019,
     language: "Español",
-    pages: 372,
+    pages: 162,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-lenguaje-del-cuerpo-por-pease-allan.png",
+    cover: "covers/c-que-las-matematicas-te-acompa-en-clara-grima-ruiz.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
@@ -32753,75 +32786,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1259,
-    title: "Ingresos Pasivos",
-    author: "Santiago Rt",
+    id: 1189,
+    title: "Amar o Depender",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1259_Ingresos_Pasivos_-_Santiago_RT.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1189_Amar_o_depender.pdf",
     year: 2024,
     language: "Español",
-    pages: 267,
+    pages: 197,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-ingresos-pasivos-santiago-rt.png",
-    downloads: 353,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1064,
-    title: "Leyes de los Grandes Empresarios",
-    author: "Mauricio Chaves",
-    category: "Liderazgo & Estrategia",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1064_12_LEYES_DE_LOS_GRANDES_EMPRESARIOS_-_MAURICIO_CHAVES.pdf",
-    year: 2019,
-    language: "Español",
-    pages: 252,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-12-leyes-de-los-grandes-empresarios-mauricio-chaves.png",
-    downloads: 213,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
-    keyConcepts: [
-        "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
-      ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1294,
-    title: "Que las Matematicas Te Acompañen",
-    author: "Clara Grima Ruiz",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "dual",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1294_Que_las_matematicas_te_acompa_en_-_Clara_Grima_Ruiz.epub",
-    epub: "pdfs/epubs/Que las matematicas te acompañen - Clara Grima Ruiz.epub",
-    year: 2019,
-    language: "Español",
-    pages: 162,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-que-las-matematicas-te-acompa-en-clara-grima-ruiz.png",
+    cover: "covers/c-amar-o-depender.png",
     downloads: 353,
     featured: false,
     aiAnalysis: {
@@ -32866,6 +32842,118 @@ const BOOKS = [
     }
   },
   {
+    id: 1224,
+    title: "El Lenguaje del Cuerpo por Pease",
+    author: "Allan",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1224_El_lenguaje_del_Cuerpo_por_Pease-Allan.pdf",
+    year: 2019,
+    language: "Español",
+    pages: 372,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-lenguaje-del-cuerpo-por-pease-allan.png",
+    downloads: 353,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1064,
+    title: "Leyes de los Grandes Empresarios",
+    author: "Mauricio Chaves",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1064_12_LEYES_DE_LOS_GRANDES_EMPRESARIOS_-_MAURICIO_CHAVES.pdf",
+    year: 2019,
+    language: "Español",
+    pages: 252,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-12-leyes-de-los-grandes-empresarios-mauricio-chaves.png",
+    downloads: 213,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1259,
+    title: "Ingresos Pasivos",
+    author: "Santiago Rt",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1259_Ingresos_Pasivos_-_Santiago_RT.pdf",
+    year: 2024,
+    language: "Español",
+    pages: 267,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-ingresos-pasivos-santiago-rt.png",
+    downloads: 353,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1238,
+    title: "Eln del Emprendedor",
+    author: "Selección Bibliotyan",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1238_ELN_del_emprendedor.pdf",
+    year: 2023,
+    language: "Español",
+    pages: 274,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-eln-del-emprendedor.png",
+    downloads: 206,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
     id: 2276,
     title: "Mike Dillard Entrevista A Robert Kiyosaki",
     author: "Editorial Emprendedora",
@@ -32892,6 +32980,62 @@ const BOOKS = [
     aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
+  },
+  {
+    id: 1098,
+    title: "Rompe la Barrera del No. 9 Principios para Negociar Como Si Te Fuera la Vida en Ello",
+    author: "Selección Bibliotyan",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1098_Rompe_la_barrera_del_no._9_principios_para_negociar_como_si_te_fuera_la_vida_en_ello.pdf",
+    year: 2023,
+    language: "Español",
+    pages: 414,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-rompe-la-barrera-del-no-9-principios-para-negociar-co.png",
+    downloads: 206,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1258,
+    title: "Incrementa tu Iq Financiero (robert K)",
+    author: "Selección Bibliotyan",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1258_Incrementa_tu_IQ_financiero_Robert_K_.pdf",
+    year: 2023,
+    language: "Español",
+    pages: 254,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-incrementa-tu-iq-financiero-robert-k.png",
+    downloads: 346,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
   },
   {
     id: 1063,
@@ -32951,87 +33095,32 @@ const BOOKS = [
     }
   },
   {
-    id: 1098,
-    title: "Rompe la Barrera del No. 9 Principios para Negociar Como Si Te Fuera la Vida en Ello",
-    author: "Selección Bibliotyan",
+    id: 2397,
+    title: "El Análisis DAFO",
+    author: "50minutos.es",
     category: "Liderazgo & Estrategia",
-    collection: "General",
+    subtopic: "Administración General",
+    collection: "Libros de Administración",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1098_Rompe_la_barrera_del_no._9_principios_para_negociar_como_si_te_fuera_la_vida_en_ello.pdf",
-    year: 2023,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2359_el-an-lisis-dafo-amazon.pdf",
+    pages: 28,
+    year: 2017,
     language: "Español",
-    pages: 414,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-rompe-la-barrera-del-no-9-principios-para-negociar-co.png",
-    downloads: 206,
+    description: "Manual y tratado de referencia sobre El Análisis DAFO. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
+    cover: "covers/c-admin-2359-el-an-lisis-dafo-amazon.jpg",
+    downloads: 202,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
+    vibe: "Práctico & Empresarial",
     keyConcepts: [
+        "Gestión Estratégica",
+        "Optimización",
         "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
+        "Casos Prácticos"
       ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1258,
-    title: "Incrementa tu Iq Financiero (robert K)",
-    author: "Selección Bibliotyan",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1258_Incrementa_tu_IQ_financiero_Robert_K_.pdf",
-    year: 2023,
-    language: "Español",
-    pages: 254,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-incrementa-tu-iq-financiero-robert-k.png",
-    downloads: 346,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1238,
-    title: "Eln del Emprendedor",
-    author: "Selección Bibliotyan",
-    category: "Liderazgo & Estrategia",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1238_ELN_del_emprendedor.pdf",
-    year: 2023,
-    language: "Español",
-    pages: 274,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-eln-del-emprendedor.png",
-    downloads: 206,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
-    keyConcepts: [
-        "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
-      ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
+    aiSummary: "Tratado y guía ejecutiva sobre El Análisis DAFO. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
     }
   },
   {
@@ -33063,64 +33152,6 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2397,
-    title: "El Análisis DAFO",
-    author: "50minutos.es",
-    category: "Liderazgo & Estrategia",
-    subtopic: "Administración General",
-    collection: "Libros de Administración",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2359_el-an-lisis-dafo-amazon.pdf",
-    pages: 28,
-    year: 2017,
-    language: "Español",
-    description: "Manual y tratado de referencia sobre El Análisis DAFO. Aporta metodologías probadas, casos prácticos, frameworks analíticos y herramientas ejecutivas para el dominio de la gestión empresarial moderna.",
-    cover: "covers/c-admin-2359-el-an-lisis-dafo-amazon.jpg",
-    downloads: 202,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Práctico & Empresarial",
-    keyConcepts: [
-        "Gestión Estratégica",
-        "Optimización",
-        "Toma de Decisiones",
-        "Casos Prácticos"
-      ],
-    targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
-    aiSummary: "Tratado y guía ejecutiva sobre El Análisis DAFO. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Administración General."
-    }
-  },
-  {
-    id: 1187,
-    title: "Adaptate",
-    author: "Tim Harford",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "dual",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1187_Adaptate_-_Tim_Harford.pdf",
-    epub: "pdfs/epubs/Adaptate - Tim Harford.epub",
-    year: 2022,
-    language: "Español",
-    pages: 171,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-adaptate-tim-harford.png",
-    downloads: 339,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
     id: 2516,
     title: "Coaching y PNL",
     author: "Especialistas en Administración",
@@ -33150,32 +33181,32 @@ const BOOKS = [
     }
   },
   {
-    id: 1257,
-    title: "Ikigai Esencial",
-    author: "Ken Mogi",
+    id: 2334,
+    title: "Superar El Fracaso Y Obtener El Exito",
+    author: "Napoleon Hill",
     category: "Crecimiento Personal",
-    collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1257_Ikigai_esencial_-_Ken_Mogi.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2334_superar-el-fracaso-y-obtener-el-exito-napoleon-hil.pdf",
+    pages: 45,
     year: 2022,
     language: "Español",
-    pages: 241,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-ikigai-esencial-ken-mogi.png",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre superar el fracaso y obtener el exito por Napoleon Hill. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-superar-el-fracaso-y-obtener-el-exito-napoleon-hill.jpg",
     downloads: 339,
     featured: false,
     aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2578,
@@ -33207,18 +33238,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1292,
-    title: "Paulo",
-    author: "Coelho El Alquimista",
+    id: 1187,
+    title: "Adaptate",
+    author: "Tim Harford",
     category: "Crecimiento Personal",
     collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1292_Paulo-Coelho-El-alquimista.pdf",
-    year: 2017,
+    format: "dual",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1187_Adaptate_-_Tim_Harford.pdf",
+    epub: "pdfs/epubs/Adaptate - Tim Harford.epub",
+    year: 2022,
     language: "Español",
-    pages: 416,
+    pages: 171,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-paulo-coelho-el-alquimista.png",
+    cover: "covers/c-adaptate-tim-harford.png",
     downloads: 339,
     featured: false,
     aiAnalysis: {
@@ -33320,32 +33352,32 @@ const BOOKS = [
     }
   },
   {
-    id: 2334,
-    title: "Superar El Fracaso Y Obtener El Exito",
-    author: "Napoleon Hill",
+    id: 1257,
+    title: "Ikigai Esencial",
+    author: "Ken Mogi",
     category: "Crecimiento Personal",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2334_superar-el-fracaso-y-obtener-el-exito-napoleon-hil.pdf",
-    pages: 45,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1257_Ikigai_esencial_-_Ken_Mogi.pdf",
     year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre superar el fracaso y obtener el exito por Napoleon Hill. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-superar-el-fracaso-y-obtener-el-exito-napoleon-hill.jpg",
+    pages: 241,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-ikigai-esencial-ken-mogi.png",
     downloads: 339,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
   },
   {
     id: 1096,
@@ -33376,32 +33408,32 @@ const BOOKS = [
     }
   },
   {
-    id: 2313,
-    title: "Quiero Ser Coach - Decidiendo Mi Camino",
-    author: "Jose Ignacio",
+    id: 1292,
+    title: "Paulo",
+    author: "Coelho El Alquimista",
     category: "Crecimiento Personal",
+    collection: "General",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2313_quiero-ser-coach-decidiendo-mi-camino-jose-ignacio.pdf",
-    pages: 213,
-    year: 2012,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1292_Paulo-Coelho-El-alquimista.pdf",
+    year: 2017,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - decidiendo mi camino por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-quiero-ser-coach-decidiendo-mi-camino-jose-ignacio.jpg",
-    downloads: 336,
+    pages: 416,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-paulo-coelho-el-alquimista.png",
+    downloads: 339,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
   },
   {
     id: 2438,
@@ -33433,18 +33465,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2275,
-    title: "Mi Primer Millon",
-    author: "Charles Albert Poissant",
+    id: 2313,
+    title: "Quiero Ser Coach - Decidiendo Mi Camino",
+    author: "Jose Ignacio",
     category: "Crecimiento Personal",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2275_mi-primer-millon-charles-albert-poissant.pdf",
-    pages: 104,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2313_quiero-ser-coach-decidiendo-mi-camino-jose-ignacio.pdf",
+    pages: 213,
+    year: 2012,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mi primer millon por Charles Albert Poissant. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-mi-primer-millon-charles-albert-poissant.jpg",
-    downloads: 335,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - decidiendo mi camino por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-quiero-ser-coach-decidiendo-mi-camino-jose-ignacio.jpg",
+    downloads: 336,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -33487,6 +33519,62 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre Gestión de Personal para el Jefe Inmediato. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    }
+  },
+  {
+    id: 2275,
+    title: "Mi Primer Millon",
+    author: "Charles Albert Poissant",
+    category: "Crecimiento Personal",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2275_mi-primer-millon-charles-albert-poissant.pdf",
+    pages: 104,
+    year: 2009,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mi primer millon por Charles Albert Poissant. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-mi-primer-millon-charles-albert-poissant.jpg",
+    downloads: 335,
+    featured: false,
+    aiAnalysis: {
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
+    keyConcepts: [
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
+      ],
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
+  },
+  {
+    id: 1095,
+    title: "Motivación 360° cómo Implementarla en la Vida y en la Empresa",
+    author: "Selección Bibliotyan",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1095_Motivaci_n_360_C_mo_implementarla_en_la_vida_y_en_la_empresa.pdf",
+    year: 2020,
+    language: "Español",
+    pages: 375,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-motivaci-n-360-c-mo-implementarla-en-la-vida-y-en-la.png",
+    downloads: 185,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -33546,74 +33634,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1186,
-    title: "7pasos2",
-    author: "Selección Bibliotyan",
+    id: 1291,
+    title: "Pasos Hacia la Cumbre del Exito",
+    author: "Ziglar Zig",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1186_7pasos2.pdf",
-    year: 2021,
-    language: "Español",
-    pages: 158,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-7pasos2.png",
-    downloads: 332,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1095,
-    title: "Motivación 360° cómo Implementarla en la Vida y en la Empresa",
-    author: "Selección Bibliotyan",
-    category: "Liderazgo & Estrategia",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1095_Motivaci_n_360_C_mo_implementarla_en_la_vida_y_en_la_empresa.pdf",
-    year: 2020,
-    language: "Español",
-    pages: 375,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-motivaci-n-360-c-mo-implementarla-en-la-vida-y-en-la.png",
-    downloads: 185,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
-    keyConcepts: [
-        "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
-      ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1221,
-    title: "El Efecto Compuesto",
-    author: "Darren Hardy",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1221_EL_EFECTO_COMPUESTO_-_DARREN_HARDY.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1291_Pasos_Hacia_La_Cumbre_Del_Exito_-_Ziglar_Zig.pdf",
     year: 2016,
     language: "Español",
-    pages: 333,
+    pages: 403,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-efecto-compuesto-darren-hardy.png",
+    cover: "covers/c-pasos-hacia-la-cumbre-del-exito-ziglar-zig.png",
     downloads: 332,
     featured: false,
     aiAnalysis: {
@@ -33659,18 +33691,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1256,
-    title: "Homo",
-    author: "Deus",
+    id: 1186,
+    title: "7pasos2",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1256_Homo-Deus.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1186_7pasos2.pdf",
     year: 2021,
     language: "Español",
-    pages: 228,
+    pages: 158,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-homo-deus.png",
+    cover: "covers/c-7pasos2.png",
     downloads: 332,
     featured: false,
     aiAnalysis: {
@@ -33716,18 +33748,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1291,
-    title: "Pasos Hacia la Cumbre del Exito",
-    author: "Ziglar Zig",
+    id: 1221,
+    title: "El Efecto Compuesto",
+    author: "Darren Hardy",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1291_Pasos_Hacia_La_Cumbre_Del_Exito_-_Ziglar_Zig.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1221_EL_EFECTO_COMPUESTO_-_DARREN_HARDY.pdf",
     year: 2016,
     language: "Español",
-    pages: 403,
+    pages: 333,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-pasos-hacia-la-cumbre-del-exito-ziglar-zig.png",
+    cover: "covers/c-el-efecto-compuesto-darren-hardy.png",
     downloads: 332,
     featured: false,
     aiAnalysis: {
@@ -33772,18 +33804,74 @@ const BOOKS = [
     }
   },
   {
-    id: 1185,
-    title: "Hábitos para Combatir la Infoxicación del Community Manager",
-    author: "Emos Formación Copia",
+    id: 1256,
+    title: "Homo",
+    author: "Deus",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1185_7_H_bitos_para_combatir_la_Infoxicaci_n_del_Community_Manager_by_Emos_Formaci_n_copia.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1256_Homo-Deus.pdf",
+    year: 2021,
     language: "Español",
-    pages: 145,
+    pages: 228,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-7-h-bitos-para-combatir-la-infoxicaci-n-del-community.png",
+    cover: "covers/c-homo-deus.png",
+    downloads: 332,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1093,
+    title: "Mba en 10 Días. Guía Paso a Paso con las enseñanzas",
+    author: "Las Mejores Escuelas de Negocios del Mundo",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1093_MBA_en_10_d_as._Gu_a_paso_a_paso_con_las_ense_anzas_de_las_mejores_escuelas_de_negocios_del_mundo.pdf",
+    year: 2018,
+    language: "Español",
+    pages: 349,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-mba-en-10-d-as-gu-a-paso-a-paso-con-las-ense-anzas-de.png",
+    downloads: 171,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1290,
+    title: "Paleo Dieta para Deportistas. Guía para una Alimentación Evolutiva",
+    author: "Selección Bibliotyan",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1290_Paleo_dieta_para_deportistas._Gu_a_para_una_alimentaci_n_evolutiva.pdf",
+    year: 2015,
+    language: "Español",
+    pages: 390,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-paleo-dieta-para-deportistas-gu-a-para-una-alimentaci.png",
     downloads: 325,
     featured: false,
     aiAnalysis: {
@@ -33812,62 +33900,6 @@ const BOOKS = [
     pages: 174,
     description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-039-las-cuatro-vidas-de-steve-jobs-daniel-ichbiah.png",
-    downloads: 171,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
-    keyConcepts: [
-        "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
-      ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1220,
-    title: "El Desafío Starbucks",
-    author: "Howard Schultz",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1220_El_Desaf_o_Starbucks_-_Howard_Schultz.pdf",
-    year: 2015,
-    language: "Español",
-    pages: 320,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-desaf-o-starbucks-howard-schultz.png",
-    downloads: 325,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1093,
-    title: "Mba en 10 Días. Guía Paso a Paso con las enseñanzas",
-    author: "Las Mejores Escuelas de Negocios del Mundo",
-    category: "Liderazgo & Estrategia",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1093_MBA_en_10_d_as._Gu_a_paso_a_paso_con_las_ense_anzas_de_las_mejores_escuelas_de_negocios_del_mundo.pdf",
-    year: 2018,
-    language: "Español",
-    pages: 349,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-mba-en-10-d-as-gu-a-paso-a-paso-con-las-ense-anzas-de.png",
     downloads: 171,
     featured: false,
     aiAnalysis: {
@@ -33940,18 +33972,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1290,
-    title: "Paleo Dieta para Deportistas. Guía para una Alimentación Evolutiva",
-    author: "Selección Bibliotyan",
+    id: 1220,
+    title: "El Desafío Starbucks",
+    author: "Howard Schultz",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1290_Paleo_dieta_para_deportistas._Gu_a_para_una_alimentaci_n_evolutiva.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1220_El_Desaf_o_Starbucks_-_Howard_Schultz.pdf",
     year: 2015,
     language: "Español",
-    pages: 390,
+    pages: 320,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-paleo-dieta-para-deportistas-gu-a-para-una-alimentaci.png",
+    cover: "covers/c-el-desaf-o-starbucks-howard-schultz.png",
     downloads: 325,
     featured: false,
     aiAnalysis: {
@@ -33996,6 +34028,62 @@ const BOOKS = [
     }
   },
   {
+    id: 1185,
+    title: "Hábitos para Combatir la Infoxicación del Community Manager",
+    author: "Emos Formación Copia",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1185_7_H_bitos_para_combatir_la_Infoxicaci_n_del_Community_Manager_by_Emos_Formaci_n_copia.pdf",
+    year: 2020,
+    language: "Español",
+    pages: 145,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-7-h-bitos-para-combatir-la-infoxicaci-n-del-community.png",
+    downloads: 325,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1227,
+    title: "El Manual del Emprendedor",
+    author: "Steve Blank Bob Dorf",
+    category: "Liderazgo & Estrategia",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1227_EL_MANUAL_DEL_EMPRENDEDOR_-_STEVE_BLANK_BOB_DORF.pdf",
+    year: 2022,
+    language: "Español",
+    pages: 411,
+    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-manual-del-emprendedor-steve-blank-bob-dorf.png",
+    downloads: 129,
+    featured: false,
+    aiAnalysis: {
+    genre: "Liderazgo & Estrategia",
+    vibe: "Estratégico & Visión",
+    keyConcepts: [
+        "Toma de Decisiones",
+        "Liderazgo de Equipos",
+        "Ventaja Competitiva",
+        "innovación"
+      ],
+    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
+    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
     id: 2244,
     title: "Los 25 Secretos De La Sexualidad",
     author: "Leonardo Ferrari",
@@ -34024,19 +34112,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1227,
-    title: "El Manual del Emprendedor",
-    author: "Steve Blank Bob Dorf",
+    id: 1086,
+    title: "La Regla",
+    author: "Oro de Los Negocios. Aprende la Clave Para El éxito",
     category: "Liderazgo & Estrategia",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1227_EL_MANUAL_DEL_EMPRENDEDOR_-_STEVE_BLANK_BOB_DORF.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1086_La_regla_de_oro_de_los_negocios._Aprende_la_clave_para_el_xito.pdf",
+    year: 2021,
     language: "Español",
-    pages: 411,
+    pages: 258,
     description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-manual-del-emprendedor-steve-blank-bob-dorf.png",
-    downloads: 129,
+    cover: "covers/c-la-regla-de-oro-de-los-negocios-aprende-la-clave-para.png",
+    downloads: 122,
     featured: false,
     aiAnalysis: {
     genre: "Liderazgo & Estrategia",
@@ -34080,62 +34168,6 @@ const BOOKS = [
     }
   },
   {
-    id: 1086,
-    title: "La Regla",
-    author: "Oro de Los Negocios. Aprende la Clave Para El éxito",
-    category: "Liderazgo & Estrategia",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1086_La_regla_de_oro_de_los_negocios._Aprende_la_clave_para_el_xito.pdf",
-    year: 2021,
-    language: "Español",
-    pages: 258,
-    description: "Un texto formativo de gran valor práctico centrado en liderazgo & estrategia. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-la-regla-de-oro-de-los-negocios-aprende-la-clave-para.png",
-    downloads: 122,
-    featured: false,
-    aiAnalysis: {
-    genre: "Liderazgo & Estrategia",
-    vibe: "Estratégico & Visión",
-    keyConcepts: [
-        "Toma de Decisiones",
-        "Liderazgo de Equipos",
-        "Ventaja Competitiva",
-        "innovación"
-      ],
-    targetAudience: "líderes, directivos y fundadores que gestionan proyectos ambiciosos.",
-    aiSummary: "Una obra imprescindible en Liderazgo & Estrategia que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1184,
-    title: "5claves",
-    author: "Selección Bibliotyan",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1184_5claves.pdf",
-    year: 2019,
-    language: "Español",
-    pages: 412,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-5claves.png",
-    downloads: 318,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
     id: 1085,
     title: "La Gerencia de Empresas",
     author: "Selección Bibliotyan",
@@ -34164,18 +34196,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1219,
-    title: "El Arte del engaño",
-    author: "Daniel Tubau",
+    id: 1184,
+    title: "5claves",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1219_El_arte_del_enga_o_-_Daniel_Tubau.pdf",
-    year: 2024,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1184_5claves.pdf",
+    year: 2019,
     language: "Español",
-    pages: 307,
+    pages: 412,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-arte-del-enga-o-daniel-tubau.png",
+    cover: "covers/c-5claves.png",
     downloads: 318,
     featured: false,
     aiAnalysis: {
@@ -34220,6 +34252,34 @@ const BOOKS = [
     }
   },
   {
+    id: 1219,
+    title: "El Arte del engaño",
+    author: "Daniel Tubau",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1219_El_arte_del_enga_o_-_Daniel_Tubau.pdf",
+    year: 2024,
+    language: "Español",
+    pages: 307,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-arte-del-enga-o-daniel-tubau.png",
+    downloads: 318,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
     id: 605,
     title: "¿Qué Harías si no Tuvieras Miedo?",
     author: "Borja Vilaseca",
@@ -34245,6 +34305,62 @@ const BOOKS = [
       ],
     targetAudience: "Personas inconformes con su empleo tradicional que anhelan alinear su vocación con sus ingresos.",
     aiSummary: "Invitación radical a superar condicionamientos heredados y diseñar una vida alineada con tu verdad."
+    }
+  },
+  {
+    id: 1288,
+    title: "No Hay Excusas. Entrénate con Francesc Gascó y Cambia tu Cuerpo",
+    author: "Selección Bibliotyan",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1288_No_hay_excusas._Entr_nate_con_Francesc_Gasc_y_cambia_tu_cuerpo.pdf",
+    year: 2023,
+    language: "Español",
+    pages: 364,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-no-hay-excusas-entr-nate-con-francesc-gasc-y-cambia-t.png",
+    downloads: 311,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1253,
+    title: "Habilidades Directivas para un Nuevo Man",
+    author: "Selección Bibliotyan",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1253_Habilidades_directivas_para_un_nuevo_man.pdf",
+    year: 2018,
+    language: "Español",
+    pages: 189,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-habilidades-directivas-para-un-nuevo-man.png",
+    downloads: 311,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -34304,62 +34420,6 @@ const BOOKS = [
     }
   },
   {
-    id: 1253,
-    title: "Habilidades Directivas para un Nuevo Man",
-    author: "Selección Bibliotyan",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1253_Habilidades_directivas_para_un_nuevo_man.pdf",
-    year: 2018,
-    language: "Español",
-    pages: 189,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-habilidades-directivas-para-un-nuevo-man.png",
-    downloads: 311,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1288,
-    title: "No Hay Excusas. Entrénate con Francesc Gascó y Cambia tu Cuerpo",
-    author: "Selección Bibliotyan",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1288_No_hay_excusas._Entr_nate_con_Francesc_Gasc_y_cambia_tu_cuerpo.pdf",
-    year: 2023,
-    language: "Español",
-    pages: 364,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-no-hay-excusas-entr-nate-con-francesc-gasc-y-cambia-t.png",
-    downloads: 311,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
     id: 604,
     title: "Sálvese Quien Pueda: El futuro del trabajo en la era de la automatización",
     author: "Andrés Oppenheimer",
@@ -34385,6 +34445,34 @@ const BOOKS = [
       ],
     targetAudience: "Trabajadores, docentes y jóvenes que necesitan planificar su futuro profesional con visión.",
     aiSummary: "Radiografía de las profesiones amenazadas por la IA y las habilidades humanas que serán insustituibles."
+    }
+  },
+  {
+    id: 1252,
+    title: "Guía para Invertir en Oro y Plata (robert)",
+    author: "Selección Bibliotyan",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1252_Gu_a_para_invertir_en_Oro_y_Plata_Robert_.pdf",
+    year: 2017,
+    language: "Español",
+    pages: 176,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-gu-a-para-invertir-en-oro-y-plata-robert.png",
+    downloads: 304,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -34428,34 +34516,6 @@ const BOOKS = [
     pages: 281,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-el-ahorrador-inteligente-emilio-ontiveros.png",
-    downloads: 304,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1252,
-    title: "Guía para Invertir en Oro y Plata (robert)",
-    author: "Selección Bibliotyan",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1252_Gu_a_para_invertir_en_Oro_y_Plata_Robert_.pdf",
-    year: 2017,
-    language: "Español",
-    pages: 176,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-gu-a-para-invertir-en-oro-y-plata-robert.png",
     downloads: 304,
     featured: false,
     aiAnalysis: {
@@ -34528,6 +34588,34 @@ const BOOKS = [
     }
   },
   {
+    id: 1284,
+    title: "Metas",
+    author: "De Brian Tracy",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1284_Metas-De-Brian-Tracy.pdf",
+    year: 2019,
+    language: "Español",
+    pages: 312,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-metas-de-brian-tracy.png",
+    downloads: 283,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
     id: 1179,
     title: "10errores",
     author: "Selección Bibliotyan",
@@ -34556,19 +34644,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1284,
-    title: "Metas",
-    author: "De Brian Tracy",
+    id: 1283,
+    title: "Mercedes",
+    author: "Benz Driven To Delight Joseph A. Michelli",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1284_Metas-De-Brian-Tracy.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1283_MERCEDES-BENZ_DRIVEN_TO_DELIGHT_-_Joseph_A._Michelli.pdf",
+    year: 2018,
     language: "Español",
-    pages: 312,
+    pages: 299,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-metas-de-brian-tracy.png",
-    downloads: 283,
+    cover: "covers/c-mercedes-benz-driven-to-delight-joseph-a-michelli.png",
+    downloads: 276,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -34640,19 +34728,47 @@ const BOOKS = [
     }
   },
   {
-    id: 1283,
-    title: "Mercedes",
-    author: "Benz Driven To Delight Joseph A. Michelli",
+    id: 1282,
+    title: "Mensaje a un Amigo",
+    author: "Anthony Robbins",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1283_MERCEDES-BENZ_DRIVEN_TO_DELIGHT_-_Joseph_A._Michelli.pdf",
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1282_MENSAJE_A_UN_AMIGO_-_ANTHONY_ROBBINS.pdf",
+    year: 2017,
     language: "Español",
-    pages: 299,
+    pages: 286,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-mercedes-benz-driven-to-delight-joseph-a-michelli.png",
-    downloads: 276,
+    cover: "covers/c-mensaje-a-un-amigo-anthony-robbins.png",
+    downloads: 269,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1247,
+    title: "Grandes",
+    author: "Secretos de Zig Ziglar",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1247_grandes-secretos-de-zig-ziglar.pdf",
+    year: 2022,
+    language: "Español",
+    pages: 391,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-grandes-secretos-de-zig-ziglar.png",
+    downloads: 269,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -34725,62 +34841,6 @@ const BOOKS = [
     }
   },
   {
-    id: 1247,
-    title: "Grandes",
-    author: "Secretos de Zig Ziglar",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1247_grandes-secretos-de-zig-ziglar.pdf",
-    year: 2022,
-    language: "Español",
-    pages: 391,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-grandes-secretos-de-zig-ziglar.png",
-    downloads: 269,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1282,
-    title: "Mensaje a un Amigo",
-    author: "Anthony Robbins",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1282_MENSAJE_A_UN_AMIGO_-_ANTHONY_ROBBINS.pdf",
-    year: 2017,
-    language: "Español",
-    pages: 286,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-mensaje-a-un-amigo-anthony-robbins.png",
-    downloads: 269,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
     id: 1176,
     title: "Stephen Hawking la teoría del Todo el",
     author: "Selección Bibliotyan",
@@ -34793,6 +34853,34 @@ const BOOKS = [
     pages: 308,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-stephen-hawking-la-teor-a-del-todo-el.png",
+    downloads: 262,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1281,
+    title: "Mba Personal",
+    author: "Josh Kaufman",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1281_MBA_personal_-_Josh_Kaufman.pdf",
+    year: 2016,
+    language: "Español",
+    pages: 273,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-mba-personal-josh-kaufman.png",
     downloads: 262,
     featured: false,
     aiAnalysis: {
@@ -34837,19 +34925,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1281,
-    title: "Mba Personal",
-    author: "Josh Kaufman",
+    id: 1280,
+    title: "Mas Allá del Ctr",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1281_MBA_personal_-_Josh_Kaufman.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1280_mas_all_del_CTR.pdf",
+    year: 2015,
     language: "Español",
-    pages: 273,
+    pages: 260,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-mba-personal-josh-kaufman.png",
-    downloads: 262,
+    cover: "covers/c-mas-all-del-ctr.png",
+    downloads: 255,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -34949,19 +35037,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1280,
-    title: "Mas Allá del Ctr",
-    author: "Selección Bibliotyan",
+    id: 1244,
+    title: "Fidelizar Sin Límites cómo Ganarse la Devoción",
+    author: "Los Clientes",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1280_mas_all_del_CTR.pdf",
-    year: 2015,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1244_Fidelizar_sin_l_mites_C_mo_ganarse_la_devoci_n_de_los_clientes.pdf",
+    year: 2019,
     language: "Español",
-    pages: 260,
+    pages: 352,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-mas-all-del-ctr.png",
-    downloads: 255,
+    cover: "covers/c-fidelizar-sin-l-mites-c-mo-ganarse-la-devoci-n-de-los.png",
+    downloads: 248,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -35006,19 +35094,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1244,
-    title: "Fidelizar Sin Límites cómo Ganarse la Devoción",
-    author: "Los Clientes",
+    id: 1278,
+    title: "Manual Propiedades Css3",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1244_Fidelizar_sin_l_mites_C_mo_ganarse_la_devoci_n_de_los_clientes.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1278_Manual_Propiedades_CSS3.pdf",
+    year: 2023,
     language: "Español",
-    pages: 352,
+    pages: 234,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-fidelizar-sin-l-mites-c-mo-ganarse-la-devoci-n-de-los.png",
-    downloads: 248,
+    cover: "covers/c-manual-propiedades-css3.png",
+    downloads: 241,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -35062,19 +35150,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1278,
-    title: "Manual Propiedades Css3",
+    id: 1277,
+    title: "Magiapensargrande",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1278_Manual_Propiedades_CSS3.pdf",
-    year: 2023,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1277_magiapensargrande.pdf",
+    year: 2022,
     language: "Español",
-    pages: 234,
+    pages: 221,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-manual-propiedades-css3.png",
-    downloads: 241,
+    cover: "covers/c-magiapensargrande.png",
+    downloads: 234,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -35146,19 +35234,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1277,
-    title: "Magiapensargrande",
+    id: 1276,
+    title: "Los Secretos del Lettering Copia",
     author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1277_magiapensargrande.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1276_Los_Secretos_del_Lettering_copia.pdf",
+    year: 2021,
     language: "Español",
-    pages: 221,
+    pages: 208,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-magiapensargrande.png",
-    downloads: 234,
+    cover: "covers/c-los-secretos-del-lettering-copia.png",
+    downloads: 227,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -35214,34 +35302,6 @@ const BOOKS = [
     pages: 418,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-decir-no-no-basta-contra-las-nuevas-pol-ticas-del-sho.png",
-    downloads: 227,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1276,
-    title: "Los Secretos del Lettering Copia",
-    author: "Selección Bibliotyan",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1276_Los_Secretos_del_Lettering_copia.pdf",
-    year: 2021,
-    language: "Español",
-    pages: 208,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-los-secretos-del-lettering-copia.png",
     downloads: 227,
     featured: false,
     aiAnalysis: {
@@ -35342,18 +35402,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1239,
-    title: "El líder 80 20 Diez Formas para Convertirte en un Gran líder",
-    author: "Selección Bibliotyan",
+    id: 1309,
+    title: "¿Qué",
+    author: "Te Detiene",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1239_El_l_der_80_20_Diez_formas_para_convertirte_en_un_gran_l_der.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1309_que-te-detiene.pdf",
     year: 2024,
     language: "Español",
-    pages: 287,
+    pages: 357,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-l-der-80-20-diez-formas-para-convertirte-en-un-gra.png",
+    cover: "covers/c-que-te-detiene.png",
     downloads: 213,
     featured: false,
     aiAnalysis: {
@@ -35370,18 +35430,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1309,
-    title: "¿Qué",
-    author: "Te Detiene",
+    id: 1239,
+    title: "El líder 80 20 Diez Formas para Convertirte en un Gran líder",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1309_que-te-detiene.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1239_El_l_der_80_20_Diez_formas_para_convertirte_en_un_gran_l_der.pdf",
     year: 2024,
     language: "Español",
-    pages: 357,
+    pages: 287,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-que-te-detiene.png",
+    cover: "covers/c-el-l-der-80-20-diez-formas-para-convertirte-en-un-gra.png",
     downloads: 213,
     featured: false,
     aiAnalysis: {
@@ -35539,18 +35599,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1165,
-    title: "El Club de las 5",
-    author: "La Mañana. Controla Tus Mañanas, Impulsa Tu Vida",
+    id: 1200,
+    title: "Como Ganar Amigos E Influenciar en las Personas",
+    author: "Dale Carnegie",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1165_El_club_de_las_5_de_la_ma_ana._Controla_tus_ma_anas_impulsa_tu_vida.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1200_Como_Ganar_Amigos_e_Influenciar_en_las_Personas_-_Dale_Carnegie.pdf",
+    year: 2015,
     language: "Español",
-    pages: 165,
+    pages: 340,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-club-de-las-5-de-la-ma-ana-controla-tus-ma-anas-im.png",
+    cover: "covers/c-como-ganar-amigos-e-influenciar-en-las-personas-dale.png",
     downloads: 185,
     featured: false,
     aiAnalysis: {
@@ -35567,18 +35627,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1200,
-    title: "Como Ganar Amigos E Influenciar en las Personas",
-    author: "Dale Carnegie",
+    id: 1165,
+    title: "El Club de las 5",
+    author: "La Mañana. Controla Tus Mañanas, Impulsa Tu Vida",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1200_Como_Ganar_Amigos_e_Influenciar_en_las_Personas_-_Dale_Carnegie.pdf",
-    year: 2015,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1165_El_club_de_las_5_de_la_ma_ana._Controla_tus_ma_anas_impulsa_tu_vida.pdf",
+    year: 2020,
     language: "Español",
-    pages: 340,
+    pages: 165,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-como-ganar-amigos-e-influenciar-en-las-personas-dale.png",
+    cover: "covers/c-el-club-de-las-5-de-la-ma-ana-controla-tus-ma-anas-im.png",
     downloads: 185,
     featured: false,
     aiAnalysis: {
@@ -35623,18 +35683,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1199,
-    title: "Como Analizar a las Personas",
-    author: "Robert Leary",
+    id: 1234,
+    title: "El Sutil Arte Que Todo Te Importe una Mierda",
+    author: "Mark Manson",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1199_Como_analizar_a_las_personas_-_Robert_Leary.pdf",
-    year: 2024,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1234_El_sutil_arte_que_todo_te_importe_una_mierda_-_Mark_Manson.pdf",
+    year: 2019,
     language: "Español",
-    pages: 327,
+    pages: 222,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-como-analizar-a-las-personas-robert-leary.png",
+    cover: "covers/c-el-sutil-arte-que-todo-te-importe-una-mierda-mark-man.png",
     downloads: 178,
     featured: false,
     aiAnalysis: {
@@ -35651,18 +35711,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1234,
-    title: "El Sutil Arte Que Todo Te Importe una Mierda",
-    author: "Mark Manson",
+    id: 1199,
+    title: "Como Analizar a las Personas",
+    author: "Robert Leary",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1234_El_sutil_arte_que_todo_te_importe_una_mierda_-_Mark_Manson.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1199_Como_analizar_a_las_personas_-_Robert_Leary.pdf",
+    year: 2024,
     language: "Español",
-    pages: 222,
+    pages: 327,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-sutil-arte-que-todo-te-importe-una-mierda-mark-man.png",
+    cover: "covers/c-como-analizar-a-las-personas-robert-leary.png",
     downloads: 178,
     featured: false,
     aiAnalysis: {
@@ -35707,18 +35767,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1198,
-    title: "Community",
-    author: "Manager",
+    id: 1303,
+    title: "Sí Grande en un Mercado pequeño Raimon Samsó Freelibros Org",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1198_community-manager.pdf",
-    year: 2023,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1303_S_grande_en_un_mercado_peque_o_Raimon_Sans_FREELIBROS_ORG.pdf",
+    year: 2018,
     language: "Español",
-    pages: 314,
+    pages: 279,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-community-manager.png",
+    cover: "covers/c-s-grande-en-un-mercado-peque-o-raimon-sans-freelibros.png",
     downloads: 171,
     featured: false,
     aiAnalysis: {
@@ -35735,18 +35795,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1303,
-    title: "Sí Grande en un Mercado pequeño Raimon Samsó Freelibros Org",
-    author: "Selección Bibliotyan",
+    id: 1198,
+    title: "Community",
+    author: "Manager",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1303_S_grande_en_un_mercado_peque_o_Raimon_Sans_FREELIBROS_ORG.pdf",
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1198_community-manager.pdf",
+    year: 2023,
     language: "Español",
-    pages: 279,
+    pages: 314,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-s-grande-en-un-mercado-peque-o-raimon-sans-freelibros.png",
+    cover: "covers/c-community-manager.png",
     downloads: 171,
     featured: false,
     aiAnalysis: {
@@ -35776,34 +35836,6 @@ const BOOKS = [
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-social-media-plan.png",
     downloads: 164,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
-    id: 1196,
-    title: "Cisne",
-    author: "Negro Talebpdf",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1196_cisne-negro-talebpdf.pdf",
-    year: 2021,
-    language: "Español",
-    pages: 288,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-cisne-negro-talebpdf.png",
-    downloads: 157,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -35860,6 +35892,62 @@ const BOOKS = [
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
     cover: "covers/c-secretos-del-lenguaje-corporal-jorge-kaham.png",
     downloads: 157,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1196,
+    title: "Cisne",
+    author: "Negro Talebpdf",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1196_cisne-negro-talebpdf.pdf",
+    year: 2021,
+    language: "Español",
+    pages: 288,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-cisne-negro-talebpdf.png",
+    downloads: 157,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
+    id: 1300,
+    title: "Se Mas Eficaz 52 Claves para M",
+    author: "David Allen",
+    category: "Crecimiento Personal",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1300_Se_mas_eficaz_52_claves_para_m_-_David_Allen.pdf",
+    year: 2015,
+    language: "Español",
+    pages: 240,
+    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-se-mas-eficaz-52-claves-para-m-david-allen.png",
+    downloads: 150,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -35959,34 +36047,6 @@ const BOOKS = [
     }
   },
   {
-    id: 1300,
-    title: "Se Mas Eficaz 52 Claves para M",
-    author: "David Allen",
-    category: "Crecimiento Personal",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1300_Se_mas_eficaz_52_claves_para_m_-_David_Allen.pdf",
-    year: 2015,
-    language: "Español",
-    pages: 240,
-    description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-se-mas-eficaz-52-claves-para-m-david-allen.png",
-    downloads: 150,
-    featured: false,
-    aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
-    keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
-      ],
-    targetAudience: "Lectores comprometidos con su superación y bienestar personal.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
-    }
-  },
-  {
     id: 1194,
     title: "Brainfluence",
     author: "Selección Bibliotyan",
@@ -36043,18 +36103,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1193,
-    title: "Blockchain Arroyo Guardeño, David Diaz Vico, Jesus Hernandez Encinas",
-    author: "Selección Bibliotyan",
+    id: 1263,
+    title: "La Administración en una época",
+    author: "Grandes Cambios",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1193_Blockchain_Arroyo_Guarde_o_David_Diaz_Vico_Jesus_Hernandez_Encinas.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1263_La_administraci_n_en_una_poca_de_grandes_cambios.pdf",
     year: 2018,
     language: "Español",
-    pages: 249,
+    pages: 319,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-blockchain-arroyo-guarde-o-david-diaz-vico-jesus-hern.png",
+    cover: "covers/c-la-administraci-n-en-una-poca-de-grandes-cambios.png",
     downloads: 136,
     featured: false,
     aiAnalysis: {
@@ -36071,18 +36131,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1263,
-    title: "La Administración en una época",
-    author: "Grandes Cambios",
+    id: 1193,
+    title: "Blockchain Arroyo Guardeño, David Diaz Vico, Jesus Hernandez Encinas",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1263_La_administraci_n_en_una_poca_de_grandes_cambios.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1193_Blockchain_Arroyo_Guarde_o_David_Diaz_Vico_Jesus_Hernandez_Encinas.pdf",
     year: 2018,
     language: "Español",
-    pages: 319,
+    pages: 249,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-la-administraci-n-en-una-poca-de-grandes-cambios.png",
+    cover: "covers/c-blockchain-arroyo-guarde-o-david-diaz-vico-jesus-hern.png",
     downloads: 136,
     featured: false,
     aiAnalysis: {
@@ -36127,18 +36187,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1262,
-    title: "Kas 29112",
-    author: "1522 4 30 (1)",
+    id: 1297,
+    title: "Reputacion",
+    author: "Online",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1262_kas_29112-1522-4-30_1_.pdf",
-    year: 2017,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1297_reputacion-online.pdf",
+    year: 2022,
     language: "Español",
-    pages: 306,
+    pages: 201,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-kas-29112-1522-4-30-1.png",
+    cover: "covers/c-reputacion-online.png",
     downloads: 129,
     featured: false,
     aiAnalysis: {
@@ -36155,18 +36215,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1297,
-    title: "Reputacion",
-    author: "Online",
+    id: 1262,
+    title: "Kas 29112",
+    author: "1522 4 30 (1)",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1297_reputacion-online.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1262_kas_29112-1522-4-30_1_.pdf",
+    year: 2017,
     language: "Español",
-    pages: 201,
+    pages: 306,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-reputacion-online.png",
+    cover: "covers/c-kas-29112-1522-4-30-1.png",
     downloads: 129,
     featured: false,
     aiAnalysis: {
@@ -36211,18 +36271,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1226,
-    title: "El Libro Negro de la Persuasion",
-    author: "Alejandro Llantada",
+    id: 1296,
+    title: "Reinicia",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1226_EL_LIBRO_NEGRO_DE_LA_PERSUASION_-_ALEJANDRO_LLANTADA.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1296_Reinicia.pdf",
     year: 2021,
     language: "Español",
-    pages: 398,
+    pages: 188,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-libro-negro-de-la-persuasion-alejandro-llantada.png",
+    cover: "covers/c-reinicia.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
@@ -36239,18 +36299,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1296,
-    title: "Reinicia",
-    author: "Selección Bibliotyan",
+    id: 1226,
+    title: "El Libro Negro de la Persuasion",
+    author: "Alejandro Llantada",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1296_Reinicia.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1226_EL_LIBRO_NEGRO_DE_LA_PERSUASION_-_ALEJANDRO_LLANTADA.pdf",
     year: 2021,
     language: "Español",
-    pages: 188,
+    pages: 398,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-reinicia.png",
+    cover: "covers/c-el-libro-negro-de-la-persuasion-alejandro-llantada.png",
     downloads: 122,
     featured: false,
     aiAnalysis: {
@@ -36295,18 +36355,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1260,
-    title: "Joe Navarro",
-    author: "What Every Body Is Saying",
+    id: 1295,
+    title: "Quien Se Ha Llevado Mi Queso",
+    author: "Selección Bibliotyan",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1260_Joe_Navarro-What_Every_BODY_is_Saying.pdf",
-    year: 2015,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1295_Quien_se_ha_llevado_mi_queso.pdf",
+    year: 2020,
     language: "Español",
-    pages: 280,
+    pages: 175,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-joe-navarro-what-every-body-is-saying.png",
+    cover: "covers/c-quien-se-ha-llevado-mi-queso.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
@@ -36323,18 +36383,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1295,
-    title: "Quien Se Ha Llevado Mi Queso",
-    author: "Selección Bibliotyan",
+    id: 1260,
+    title: "Joe Navarro",
+    author: "What Every Body Is Saying",
     category: "Crecimiento Personal",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1295_Quien_se_ha_llevado_mi_queso.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1260_Joe_Navarro-What_Every_BODY_is_Saying.pdf",
+    year: 2015,
     language: "Español",
-    pages: 175,
+    pages: 280,
     description: "Un texto formativo de gran valor práctico centrado en crecimiento personal. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-quien-se-ha-llevado-mi-queso.png",
+    cover: "covers/c-joe-navarro-what-every-body-is-saying.png",
     downloads: 115,
     featured: false,
     aiAnalysis: {
