@@ -16069,7 +16069,7 @@ const BOOKS = [
     year: 2011,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 100 negocios brillantes sin inversion por Ideas De Negocios. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-100-negocios-brillantes-sin-inversion-ideas-de-negocios.jpg",
     downloads: 440,
     featured: false,
     aiAnalysis: {
@@ -16091,7 +16091,7 @@ const BOOKS = [
     year: 2016,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 12 leyes de los grandes empresarios por Mauricio Chaves. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-12-leyes-de-los-grandes-empresarios-mauricio-chaves.jpg",
     downloads: 342,
     featured: false,
     aiAnalysis: {
@@ -16113,7 +16113,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 12 pasos para cosechar una vida financieramente responsable por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-12-pasos-para-cosechar-una-vida-financieramente-responsable.jpg",
     downloads: 574,
     featured: false,
     aiAnalysis: {
@@ -16135,7 +16135,7 @@ const BOOKS = [
     year: 2011,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 13 maneras para crear mentes abiertas hablandole a la mente por Tom Big Al Schreirter. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-13-maneras-para-crear-mentes-abiertas-hablandole-a-la-mente.jpg",
     downloads: 712,
     featured: false,
     aiAnalysis: {
@@ -16179,7 +16179,7 @@ const BOOKS = [
     year: 2019,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 23 habitos inteligentes para tus finanzas personales por El Contador. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-23-habitos-inteligentes-para-tus-finanzas-personales-el-cont.jpg",
     downloads: 608,
     featured: false,
     aiAnalysis: {
@@ -16201,7 +16201,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 28 lideres de negocios que cambiaron al mundo por Rhymer Rigby. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-28-lideres-de-negocios-que-cambiaron-al-mundo-rhymer-rigby.jpg",
     downloads: 464,
     featured: false,
     aiAnalysis: {
@@ -16223,7 +16223,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 5 estrategias para aumentar su riqueza por Richa _ Dad. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-5-estrategias-para-aumentar-su-riqueza-richa-dad-7-paginas.jpg",
     downloads: 529,
     featured: false,
     aiAnalysis: {
@@ -16333,7 +16333,7 @@ const BOOKS = [
     year: 2008,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre analisis tecnico de los mercados financieros por Jhon J. Murphy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-analisis-tecnico-de-los-mercados-financieros-jhon-j-murphy.jpg",
     downloads: 478,
     featured: false,
     aiAnalysis: {
@@ -16355,7 +16355,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre analisis tecnico y velas japonesas por Gregorio Hernandez Jimenez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-analisis-tecnico-y-velas-japonesas-gregorio-hernandez-jimene.jpg",
     downloads: 516,
     featured: false,
     aiAnalysis: {
@@ -16421,7 +16421,7 @@ const BOOKS = [
     year: 2021,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre aprendiendo de los mejores - tu desarrollo personal es tu destino por Francisco Alcaide Hernandez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-aprendiendo-de-los-mejores-tu-desarrollo-personal-es-tu-dest.jpg",
     downloads: 728,
     featured: false,
     aiAnalysis: {
@@ -16509,7 +16509,7 @@ const BOOKS = [
     year: 2007,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autoboicot cuando el toxico es uno mismo por Bernardo Stamateas. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-autoboicot-cuando-el-toxico-es-uno-mismo-bernardo-stamateas.jpg",
     downloads: 614,
     featured: false,
     aiAnalysis: {
@@ -16531,7 +16531,7 @@ const BOOKS = [
     year: 2006,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autodisciplina en diez dias por Theodore Bryant. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-autodisciplina-en-diez-dias-theodore-bryant-111-paginas.jpg",
     downloads: 659,
     featured: false,
     aiAnalysis: {
@@ -16597,7 +16597,7 @@ const BOOKS = [
     year: 2021,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre burlar al diablo - secreto desde la cripta por Napoleon Hill. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-burlar-al-diablo-secreto-desde-la-cripta-napoleon-hill.jpg",
     downloads: 366,
     featured: true,
     aiAnalysis: {
@@ -17015,7 +17015,7 @@ const BOOKS = [
     year: 2016,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como construir una maquina de dinero multinivel por Randy Gage. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-como-construir-una-maquina-de-dinero-multinivel-randy-gage.jpg",
     downloads: 788,
     featured: false,
     aiAnalysis: {
@@ -17059,7 +17059,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como dirigir personas a traves de conversaciones por Alvaro Gonzales. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-como-dirigir-personas-a-traves-de-conversaciones-alvaro-gonz.jpg",
     downloads: 596,
     featured: false,
     aiAnalysis: {
@@ -17081,7 +17081,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como estudiar y aprender mas y mejor en menos tiempo por Richard Fenker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-como-estudiar-y-aprender-mas-y-mejor-en-menos-tiempo-richard.jpg",
     downloads: 457,
     featured: false,
     aiAnalysis: {
@@ -17103,7 +17103,7 @@ const BOOKS = [
     year: 2010,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como multiplicar las ventas a traves del boca a boca por Pablo Balseiro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-como-multiplicar-las-ventas-a-traves-del-boca-a-boca-pablo-b.jpg",
     downloads: 688,
     featured: false,
     aiAnalysis: {
@@ -17213,7 +17213,7 @@ const BOOKS = [
     year: 2008,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como resolver para siempre todos sus problemas de dinero por Victor Boc. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-como-resolver-para-siempre-todos-sus-problemas-de-dinero-vic.jpg",
     downloads: 609,
     featured: false,
     aiAnalysis: {
@@ -17279,7 +17279,7 @@ const BOOKS = [
     year: 2013,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como vencer todos tus miedos por David Valois. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-como-vencer-todos-tus-miedos-david-valois-439-paginas.jpg",
     downloads: 478,
     featured: false,
     aiAnalysis: {
@@ -17301,7 +17301,7 @@ const BOOKS = [
     year: 2012,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre comunicacion . liderazgo . motivacion y tecnicas de negocion por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-comunicacion-liderazgo-motivacion-y-tecnicas-de-negocion.jpg",
     downloads: 711,
     featured: false,
     aiAnalysis: {
@@ -17323,7 +17323,7 @@ const BOOKS = [
     year: 2005,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre consejos para emprender por Fernando Jauregui _ Lourdes Carmona. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-consejos-para-emprender-fernando-jauregui-lourdes-carmona.jpg",
     downloads: 657,
     featured: false,
     aiAnalysis: {
@@ -17367,7 +17367,7 @@ const BOOKS = [
     year: 2008,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre creatividad y neurociencia cognitiva por Alfonso Perote. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-creatividad-y-neurociencia-cognitiva-alfonso-perote.jpg",
     downloads: 459,
     featured: false,
     aiAnalysis: {
@@ -17521,7 +17521,7 @@ const BOOKS = [
     year: 2021,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre del 1 al 20 - claves para entender el nuevo marketing por Eva Sanagustin. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-del-1-al-20-claves-para-entender-el-nuevo-marketing-eva-sana.jpg",
     downloads: 491,
     featured: false,
     aiAnalysis: {
@@ -17543,7 +17543,7 @@ const BOOKS = [
     year: 2012,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolla una mente prodigiosa por Ramon Campayo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-desarrolla-una-mente-prodigiosa-ramon-campayo-183-paginas.jpg",
     downloads: 471,
     featured: false,
     aiAnalysis: {
@@ -17565,7 +17565,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolle a su gente al estilo toyota por Jeffrey K. Liker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-desarrolle-a-su-gente-al-estilo-toyota-jeffrey-k-liker.jpg",
     downloads: 533,
     featured: false,
     aiAnalysis: {
@@ -17587,7 +17587,7 @@ const BOOKS = [
     year: 2010,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolle los lideres que estan alrededor de usted por John C. Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-desarrolle-los-lideres-que-estan-alrededor-de-usted-john-c-m.jpg",
     downloads: 641,
     featured: true,
     aiAnalysis: {
@@ -17741,7 +17741,7 @@ const BOOKS = [
     year: 2021,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre diez formas para convertirte en un gran lider por Richard Koch. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-diez-formas-para-convertirte-en-un-gran-lider-richard-koch.jpg",
     downloads: 713,
     featured: false,
     aiAnalysis: {
@@ -17917,7 +17917,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el abc para crear un equipo de negocios exitoso por Blair Singer. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-abc-para-crear-un-equipo-de-negocios-exitoso-blair-singer.jpg",
     downloads: 479,
     featured: true,
     aiAnalysis: {
@@ -18049,7 +18049,7 @@ const BOOKS = [
     year: 2021,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la ejecucion en los negocios por Larry Bossidy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-arte-de-la-ejecucion-en-los-negocios-larry-bossidy.jpg",
     downloads: 637,
     featured: false,
     aiAnalysis: {
@@ -18071,7 +18071,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de la negociacion por Donald Trump _ Tony Schwartz. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-arte-de-la-negociacion-donald-trump-tony-schwartz.jpg",
     downloads: 328,
     featured: false,
     aiAnalysis: {
@@ -18181,7 +18181,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de negociar y persuadir - 2da edicion por Allan Pease. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-arte-de-negociar-y-persuadir-2da-edicion-allan-pease.jpg",
     downloads: 611,
     featured: false,
     aiAnalysis: {
@@ -18269,7 +18269,7 @@ const BOOKS = [
     year: 2008,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte y la ciencia de obtener lo que deseas pnl por Dr. Harry Alder. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-arte-y-la-ciencia-de-obtener-lo-que-deseas-pnl-dr-harry-a.jpg",
     downloads: 814,
     featured: false,
     aiAnalysis: {
@@ -18313,7 +18313,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el cerebro sitiente por Ariel. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-cerebro-sitiente-ariel.jpg",
     downloads: 786,
     featured: false,
     aiAnalysis: {
@@ -18335,7 +18335,7 @@ const BOOKS = [
     year: 2018,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el cerebro y la inteligencia emocional por Daniel Goleman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-cerebro-y-la-inteligencia-emocional-daniel-goleman.jpg",
     downloads: 546,
     featured: false,
     aiAnalysis: {
@@ -18467,7 +18467,7 @@ const BOOKS = [
     year: 2018,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el diseñador industrial emprendedor por Ana Maria Reyes Fabela. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-disenador-industrial-emprendedor-ana-maria-reyes-fabela.jpg",
     downloads: 666,
     featured: false,
     aiAnalysis: {
@@ -18621,7 +18621,7 @@ const BOOKS = [
     year: 2020,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el hombre ma$ rico de babilonia por George S. Clason. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-hombre-ma-rico-de-babilonia-george-s-clason-53-paginas.jpg",
     downloads: 385,
     featured: false,
     aiAnalysis: {
@@ -18643,7 +18643,7 @@ const BOOKS = [
     year: 2020,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el hombre mas rico de babilonia por George S. Clason. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-hombre-mas-rico-de-babilonia-george-s-clason-79-paginas-1.jpg",
     downloads: 640,
     featured: false,
     aiAnalysis: {
@@ -18687,7 +18687,7 @@ const BOOKS = [
     year: 2013,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el increible poder de las emociones por Esther _ Jerry Hicks. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-increible-poder-de-las-emociones-esther-jerry-hicks.jpg",
     downloads: 722,
     featured: false,
     aiAnalysis: {
@@ -18863,7 +18863,7 @@ const BOOKS = [
     year: 2008,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro de las reglas mentales por Carlos Logatt Grabner. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-libro-de-las-reglas-mentales-carlos-logatt-grabner.jpg",
     downloads: 780,
     featured: false,
     aiAnalysis: {
@@ -18951,7 +18951,7 @@ const BOOKS = [
     year: 2017,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el libro negro del emprendedor por Fernando Trias De Bes. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-libro-negro-del-emprendedor-fernando-trias-de-bes-76-pagi.jpg",
     downloads: 566,
     featured: false,
     aiAnalysis: {
@@ -18973,7 +18973,7 @@ const BOOKS = [
     year: 2005,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el liderazgo al estilo ola 4 - construyendo redes por Richard Poe. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-liderazgo-al-estilo-ola-4-construyendo-redes-richard-poe.jpg",
     downloads: 549,
     featured: false,
     aiAnalysis: {
@@ -19149,7 +19149,7 @@ const BOOKS = [
     year: 2008,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el octavo habito de la efectividad a la grandeza por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-octavo-habito-de-la-efectividad-a-la-grandeza-stephen-r-c.jpg",
     downloads: 396,
     featured: false,
     aiAnalysis: {
@@ -19193,7 +19193,7 @@ const BOOKS = [
     year: 2007,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el pequeño libro para pensar en grande por Richard Newton. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-pequeno-libro-para-pensar-en-grande-richard-newton.jpg",
     downloads: 771,
     featured: false,
     aiAnalysis: {
@@ -19215,7 +19215,7 @@ const BOOKS = [
     year: 2010,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el perfil humano y profesional de los emprendedores digitales por Jesus A. Lacoste. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-perfil-humano-y-profesional-de-los-emprendedores-digitale.jpg",
     downloads: 670,
     featured: false,
     aiAnalysis: {
@@ -19303,7 +19303,7 @@ const BOOKS = [
     year: 2005,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el poder del pensamiento positivo con pnl por Ana Luz Velazco Flores. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-poder-del-pensamiento-positivo-con-pnl-ana-luz-velazco-fl.jpg",
     downloads: 838,
     featured: false,
     aiAnalysis: {
@@ -19325,7 +19325,7 @@ const BOOKS = [
     year: 2020,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el poder esta dentro de ti por Louise L. Hay. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-poder-esta-dentro-de-ti-louise-l-hay-108-paginas.jpg",
     downloads: 596,
     featured: false,
     aiAnalysis: {
@@ -19501,7 +19501,7 @@ const BOOKS = [
     year: 2011,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el secreto del exito en el trabajo y en la vida por Donald Trump _ Bill Zanker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-secreto-del-exito-en-el-trabajo-y-en-la-vida-donald-trump.jpg",
     downloads: 735,
     featured: false,
     aiAnalysis: {
@@ -19523,7 +19523,7 @@ const BOOKS = [
     year: 2012,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el software del cerebro - introduccion a la pnl por Morella Velazco. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-el-software-del-cerebro-introduccion-a-la-pnl-morella-velazc.jpg",
     downloads: 378,
     featured: false,
     aiAnalysis: {
@@ -19655,7 +19655,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre en deuda - una historia alternativa de la economia por David Graeber. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-en-deuda-una-historia-alternativa-de-la-economia-david-graeb.jpg",
     downloads: 503,
     featured: false,
     aiAnalysis: {
@@ -19677,7 +19677,7 @@ const BOOKS = [
     year: 2012,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre errores de grandes emprensarios - 21 relatos por Bob Sellers. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-errores-de-grandes-emprensarios-21-relatos-bob-sellers.jpg",
     downloads: 790,
     featured: false,
     aiAnalysis: {
@@ -19699,7 +19699,7 @@ const BOOKS = [
     year: 2013,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre escuela de bolsa - manual de trading por Francisca Serrano. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-escuela-de-bolsa-manual-de-trading-francisca-serrano.jpg",
     downloads: 745,
     featured: false,
     aiAnalysis: {
@@ -19765,7 +19765,7 @@ const BOOKS = [
     year: 2007,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre estrategia de marketing por O. C. Ferrel _ Michael D. Hartline. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-estrategia-de-marketing-o-c-ferrel-michael-d-hartline.jpg",
     downloads: 378,
     featured: false,
     aiAnalysis: {
@@ -19787,7 +19787,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre estrategia y mente - el codigo del gran juego por Carlos Martin Perez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-estrategia-y-mente-el-codigo-del-gran-juego-carlos-martin-pe.jpg",
     downloads: 554,
     featured: false,
     aiAnalysis: {
@@ -19919,7 +19919,7 @@ const BOOKS = [
     year: 2007,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre focus - desarrollar la atencion para alcanzar la excelencia por Daniel Goleman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-focus-desarrollar-la-atencion-para-alcanzar-la-excelencia-da.jpg",
     downloads: 611,
     featured: false,
     aiAnalysis: {
@@ -19963,7 +19963,7 @@ const BOOKS = [
     year: 2015,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre fuera de serie - porque unas personas tienen exito y otras no por Malcolm Gladwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-fuera-de-serie-porque-unas-personas-tienen-exito-y-otras-no.jpg",
     downloads: 835,
     featured: false,
     aiAnalysis: {
@@ -19985,7 +19985,7 @@ const BOOKS = [
     year: 2011,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ganar dinero sin dinero en bienes raices por Mario Esquivel. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-ganar-dinero-sin-dinero-en-bienes-raices-mario-esquivel.jpg",
     downloads: 681,
     featured: false,
     aiAnalysis: {
@@ -20029,7 +20029,7 @@ const BOOKS = [
     year: 2017,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre gestion practica de proyectos con scrum por Antonio Martel. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-gestion-practica-de-proyectos-con-scrum-antonio-martel.jpg",
     downloads: 878,
     featured: false,
     aiAnalysis: {
@@ -20051,7 +20051,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre gratis - el futuro de un precio radical por Chris Anderson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-gratis-el-futuro-de-un-precio-radical-chris-anderson.jpg",
     downloads: 755,
     featured: false,
     aiAnalysis: {
@@ -20183,7 +20183,7 @@ const BOOKS = [
     year: 2011,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre hermano rico hermana rica por Robert Kiyosaki Y Emi Kiyosaki. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-hermano-rico-hermana-rica-robert-kiyosaki-y-emi-kiyosaki.jpg",
     downloads: 616,
     featured: false,
     aiAnalysis: {
@@ -20271,7 +20271,7 @@ const BOOKS = [
     year: 2020,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ideas simples que te haran millonario por Juan Antonio Guerrero. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-ideas-simples-que-te-haran-millonario-juan-antonio-guerrero.jpg",
     downloads: 706,
     featured: false,
     aiAnalysis: {
@@ -20293,7 +20293,7 @@ const BOOKS = [
     year: 2012,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre influencia - factores determinantes para que una presona diga si por Robert B. Cialdini. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-influencia-factores-determinantes-para-que-una-presona-diga.jpg",
     downloads: 348,
     featured: false,
     aiAnalysis: {
@@ -20359,7 +20359,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual en la practica por David Fischman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-inteligencia-espiritual-en-la-practica-david-fischman.jpg",
     downloads: 835,
     featured: false,
     aiAnalysis: {
@@ -20381,7 +20381,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual para lideres por Ricardo Perret. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-inteligencia-espiritual-para-lideres-ricardo-perret.jpg",
     downloads: 637,
     featured: false,
     aiAnalysis: {
@@ -20403,7 +20403,7 @@ const BOOKS = [
     year: 2015,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia financiera - informe confidencial por Andres Lopes. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-inteligencia-financiera-informe-confidencial-andres-lopes.jpg",
     downloads: 616,
     featured: false,
     aiAnalysis: {
@@ -20425,7 +20425,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre introduccion a las finanzas por Maria De La Luz Bravo Santillan. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-introduccion-a-las-finanzas-maria-de-la-luz-bravo-santillan.jpg",
     downloads: 637,
     featured: false,
     aiAnalysis: {
@@ -20491,7 +20491,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la araña y la estrella de mar por Ori Brafman _ Rod A. Beckstrom. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-arana-y-la-estrella-de-mar-ori-brafman-rod-a-beckstrom.jpg",
     downloads: 426,
     featured: false,
     aiAnalysis: {
@@ -20667,7 +20667,7 @@ const BOOKS = [
     year: 2011,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la enciclopedia de inteligencia financiera por Resumen. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-enciclopedia-de-inteligencia-financiera-resumen-28-pagina.jpg",
     downloads: 715,
     featured: false,
     aiAnalysis: {
@@ -20689,7 +20689,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la epilepsia al alcance de todos por Lilia Nuñez Orozco. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-epilepsia-al-alcance-de-todos-lilia-nunez-orozco.jpg",
     downloads: 470,
     featured: false,
     aiAnalysis: {
@@ -20711,7 +20711,7 @@ const BOOKS = [
     year: 2019,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la estrategia del oceano azul por W. Chan Kim _ Renee Mauborgne. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-estrategia-del-oceano-azul-w-chan-kim-renee-mauborgne.jpg",
     downloads: 885,
     featured: false,
     aiAnalysis: {
@@ -20733,7 +20733,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la exprension de las emociones en el hombre y en los animales darwin charles por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-exprension-de-las-emociones-en-el-hombre-y-en-los-animale.jpg",
     downloads: 465,
     featured: false,
     aiAnalysis: {
@@ -20799,7 +20799,7 @@ const BOOKS = [
     year: 2013,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la guia del emprendedor por Hernan Herrera _ Daniel Brown. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-guia-del-emprendedor-hernan-herrera-daniel-brown.jpg",
     downloads: 342,
     featured: false,
     aiAnalysis: {
@@ -20821,7 +20821,7 @@ const BOOKS = [
     year: 2016,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la ley de la atraccion en el mundo del pensamiento por William Walker Atkinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-ley-de-la-atraccion-en-el-mundo-del-pensamiento-william-w.jpg",
     downloads: 597,
     featured: false,
     aiAnalysis: {
@@ -20931,7 +20931,7 @@ const BOOKS = [
     year: 2015,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la mercadotecnia o marketing sostenible por Francisco Javier Cervigon. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-mercadotecnia-o-marketing-sostenible-francisco-javier-cer.jpg",
     downloads: 669,
     featured: false,
     aiAnalysis: {
@@ -20975,7 +20975,7 @@ const BOOKS = [
     year: 2019,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la presentacion de 45 segundos que cambiara su vida por Don Failla. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-presentacion-de-45-segundos-que-cambiara-su-vida-don-fail.jpg",
     downloads: 722,
     featured: false,
     aiAnalysis: {
@@ -21063,7 +21063,7 @@ const BOOKS = [
     year: 2010,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la vibracion del pensamiento por William Walker Atkinson. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-la-vibracion-del-pensamiento-william-walker-atkinson.jpg",
     downloads: 835,
     featured: false,
     aiAnalysis: {
@@ -21107,7 +21107,7 @@ const BOOKS = [
     year: 2013,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las 21 leyes absolutamente inquebrantables del dinero por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-las-21-leyes-absolutamente-inquebrantables-del-dinero.jpg",
     downloads: 673,
     featured: false,
     aiAnalysis: {
@@ -21129,7 +21129,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las 21 leyes irrefutables del liderazgo por John C. Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-las-21-leyes-irrefutables-del-liderazgo-john-c-maxwell-73-pa.jpg",
     downloads: 442,
     featured: false,
     aiAnalysis: {
@@ -21151,7 +21151,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las cinco piezas del rompecabezas de la vida por Jin Rohn. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-las-cinco-piezas-del-rompecabezas-de-la-vida-jin-rohn.jpg",
     downloads: 693,
     featured: false,
     aiAnalysis: {
@@ -21173,7 +21173,7 @@ const BOOKS = [
     year: 2021,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre las claves de mi exito como emprendedor por Alvaro Mendoza. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-las-claves-de-mi-exito-como-emprendedor-alvaro-mendoza.jpg",
     downloads: 873,
     featured: false,
     aiAnalysis: {
@@ -21569,7 +21569,7 @@ const BOOKS = [
     year: 2019,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre liberando el poder interior - resumen por Jose Pedro Garcia. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-liberando-el-poder-interior-resumen-jose-pedro-garcia.jpg",
     downloads: 386,
     featured: false,
     aiAnalysis: {
@@ -21591,7 +21591,7 @@ const BOOKS = [
     year: 2012,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre libro blanco de marketing de resultados en ecommerce por Coleccion Ob. Ecommerce. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-libro-blanco-de-marketing-de-resultados-en-ecommerce-colecci.jpg",
     downloads: 504,
     featured: false,
     aiAnalysis: {
@@ -21613,7 +21613,7 @@ const BOOKS = [
     year: 2007,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre libro maestro de educacion financiera por Un Sistema Para Vivir Mejor. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-libro-maestro-de-educacion-financiera-un-sistema-para-vivir.jpg",
     downloads: 389,
     featured: false,
     aiAnalysis: {
@@ -21657,7 +21657,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre lo mejor de padre rico por Robert Kiyosaki _ Sharon Lechter. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-lo-mejor-de-padre-rico-robert-kiyosaki-sharon-lechter.jpg",
     downloads: 834,
     featured: false,
     aiAnalysis: {
@@ -21679,7 +21679,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre lo tengo que hacer - haz de tu historia un exito por Conchita Vargas Lugo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-lo-tengo-que-hacer-haz-de-tu-historia-un-exito-conchita-varg.jpg",
     downloads: 651,
     featured: false,
     aiAnalysis: {
@@ -21745,7 +21745,7 @@ const BOOKS = [
     year: 2006,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los 25 secretos de la sexualidad por Leonardo Ferrari. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-los-25-secretos-de-la-sexualidad-leonardo-ferrari-129-pagina.jpg",
     downloads: 322,
     featured: false,
     aiAnalysis: {
@@ -21767,7 +21767,7 @@ const BOOKS = [
     year: 2020,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los 7 habitos de la gente altamente efectiva por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-los-7-habitos-de-la-gente-altamente-efectiva-stephen-r-covey.jpg",
     downloads: 565,
     featured: false,
     aiAnalysis: {
@@ -21877,7 +21877,7 @@ const BOOKS = [
     year: 2016,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los millonarios no nacen se hacen por Juan Antonio Gerrero. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-los-millonarios-no-nacen-se-hacen-juan-antonio-gerrero.jpg",
     downloads: 831,
     featured: true,
     aiAnalysis: {
@@ -21921,7 +21921,7 @@ const BOOKS = [
     year: 2012,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los secretos de la mente millonaria por T. Harv Eker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-los-secretos-de-la-mente-millonaria-t-harv-eker-125-paginas.jpg",
     downloads: 417,
     featured: false,
     aiAnalysis: {
@@ -21943,7 +21943,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los siete habitos para dirigir tu vida por Jose M. Acosta. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-los-siete-habitos-para-dirigir-tu-vida-jose-m-acosta.jpg",
     downloads: 496,
     featured: false,
     aiAnalysis: {
@@ -21965,7 +21965,7 @@ const BOOKS = [
     year: 2008,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los siete secretos de la innovacion segun steve jobs por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-los-siete-secretos-de-la-innovacion-segun-steve-jobs.jpg",
     downloads: 391,
     featured: false,
     aiAnalysis: {
@@ -22009,7 +22009,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre manual de educacion financiera por Fundacion Laboral Wwb. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-manual-de-educacion-financiera-fundacion-laboral-wwb.jpg",
     downloads: 333,
     featured: false,
     aiAnalysis: {
@@ -22031,7 +22031,7 @@ const BOOKS = [
     year: 2007,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre manual de marketing y comunicaciones cultural por Atalaya. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-manual-de-marketing-y-comunicaciones-cultural-atalaya.jpg",
     downloads: 806,
     featured: false,
     aiAnalysis: {
@@ -22075,7 +22075,7 @@ const BOOKS = [
     year: 2018,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre manual practico del emprendedor por Jose Antonio Almoguera. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-manual-practico-del-emprendedor-jose-antonio-almoguera.jpg",
     downloads: 643,
     featured: false,
     aiAnalysis: {
@@ -22163,7 +22163,7 @@ const BOOKS = [
     year: 2007,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre marketing finanzas y gestion del deporte por Jaime Dil La Fuente. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-marketing-finanzas-y-gestion-del-deporte-jaime-dil-la-fuente.jpg",
     downloads: 740,
     featured: false,
     aiAnalysis: {
@@ -22185,7 +22185,7 @@ const BOOKS = [
     year: 2011,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre marketing multinivel y marketing directo de red - 2da edicion por Allen Carmichael. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-marketing-multinivel-y-marketing-directo-de-red-2da-edicion.jpg",
     downloads: 776,
     featured: false,
     aiAnalysis: {
@@ -22229,7 +22229,7 @@ const BOOKS = [
     year: 2011,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre marketing para pymes por Ministerio De Educacion España. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-marketing-para-pymes-ministerio-de-educacion-espana.jpg",
     downloads: 859,
     featured: false,
     aiAnalysis: {
@@ -22251,7 +22251,7 @@ const BOOKS = [
     year: 2015,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre marketing y negocios electronicos por William Camilo Sanchez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-marketing-y-negocios-electronicos-william-camilo-sanchez.jpg",
     downloads: 665,
     featured: false,
     aiAnalysis: {
@@ -22537,7 +22537,7 @@ const BOOKS = [
     year: 2005,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre mueve tus ahorros y ganate un sueldo por Francisca Serrano. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-mueve-tus-ahorros-y-ganate-un-sueldo-francisca-serrano.jpg",
     downloads: 598,
     featured: true,
     aiAnalysis: {
@@ -22603,7 +22603,7 @@ const BOOKS = [
     year: 2010,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre negociacion efectiva para ejecutivos del area comercial por Camara De Comercio De Barranquilla. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-negociacion-efectiva-para-ejecutivos-del-area-comercial-cama.jpg",
     downloads: 425,
     featured: false,
     aiAnalysis: {
@@ -22625,7 +22625,7 @@ const BOOKS = [
     year: 2013,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre negociar es facil si sabe como por Alejandro Hernandez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-negociar-es-facil-si-sabe-como-alejandro-hernandez-246-pagin.jpg",
     downloads: 442,
     featured: false,
     aiAnalysis: {
@@ -22757,7 +22757,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ola 4 - el network marketing en el siglo xxi por Richard Poe. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-ola-4-el-network-marketing-en-el-siglo-xxi-richard-poe.jpg",
     downloads: 557,
     featured: false,
     aiAnalysis: {
@@ -22911,7 +22911,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pideme lo que quieras ahora y siempre por Megan Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-pideme-lo-que-quieras-ahora-y-siempre-megan-maxwell-282-pagi.jpg",
     downloads: 558,
     featured: false,
     aiAnalysis: {
@@ -22933,7 +22933,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pideme lo que quieras o dejame por Megan Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-pideme-lo-que-quieras-o-dejame-megan-maxwell-1135-paginas.jpg",
     downloads: 464,
     featured: false,
     aiAnalysis: {
@@ -22955,7 +22955,7 @@ const BOOKS = [
     year: 2012,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pideme lo que quieras o dejame por Megan Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-pideme-lo-que-quieras-o-dejame-megan-maxwell-195-paginas.jpg",
     downloads: 527,
     featured: false,
     aiAnalysis: {
@@ -22977,7 +22977,7 @@ const BOOKS = [
     year: 2019,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pideme lo que quieras y yo te lo dare por Megan Maxwell. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-pideme-lo-que-quieras-y-yo-te-lo-dare-megan-maxwell.jpg",
     downloads: 740,
     featured: false,
     aiAnalysis: {
@@ -22999,7 +22999,7 @@ const BOOKS = [
     year: 2015,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre pnl identificacion y cambio de creencias por Robert Dilts. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-pnl-identificacion-y-cambio-de-creencias-robert-dilts.jpg",
     downloads: 641,
     featured: false,
     aiAnalysis: {
@@ -23043,7 +23043,7 @@ const BOOKS = [
     year: 2016,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre porque los hombres quieren sexo y las mujeres necesitan amor por Allan _ Barbara Pease. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-porque-los-hombres-quieren-sexo-y-las-mujeres-necesitan-amor.jpg",
     downloads: 711,
     featured: false,
     aiAnalysis: {
@@ -23065,7 +23065,7 @@ const BOOKS = [
     year: 2020,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre principios de la administracion financiera por Lawrence J. Gitman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-principios-de-la-administracion-financiera-lawrence-j-gitman.jpg",
     downloads: 350,
     featured: false,
     aiAnalysis: {
@@ -23219,7 +23219,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - ahondando en la materia por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-quiero-ser-coach-ahondando-en-la-materia-jose-ignacio.jpg",
     downloads: 822,
     featured: false,
     aiAnalysis: {
@@ -23241,7 +23241,7 @@ const BOOKS = [
     year: 2010,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - comenzando a estudiar por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-quiero-ser-coach-comenzando-a-estudiar-jose-ignacio.jpg",
     downloads: 761,
     featured: false,
     aiAnalysis: {
@@ -23285,7 +23285,7 @@ const BOOKS = [
     year: 2021,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - descrubiendo mi vocacion por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-quiero-ser-coach-descrubiendo-mi-vocacion-jose-ignacio.jpg",
     downloads: 744,
     featured: false,
     aiAnalysis: {
@@ -23307,7 +23307,7 @@ const BOOKS = [
     year: 2009,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre quiero ser coach - preparando el trabajo por Jose Ignacio. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-quiero-ser-coach-preparando-el-trabajo-jose-ignacio.jpg",
     downloads: 398,
     featured: false,
     aiAnalysis: {
@@ -23417,7 +23417,7 @@ const BOOKS = [
     year: 2007,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre se lo que piensas - secretos para leer la mente por Thorten Havener. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-se-lo-que-piensas-secretos-para-leer-la-mente-thorten-havene.jpg",
     downloads: 835,
     featured: false,
     aiAnalysis: {
@@ -23527,7 +23527,7 @@ const BOOKS = [
     year: 2014,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre ser paz _ el corazon de la comprension por Thich Nhat Hanh. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-ser-paz-el-corazon-de-la-comprension-thich-nhat-hanh.jpg",
     downloads: 689,
     featured: true,
     aiAnalysis: {
@@ -23549,7 +23549,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre sexcode - el manual practico de los maestros de la seduccion por Mario Luna. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-sexcode-el-manual-practico-de-los-maestros-de-la-seduccion-m.jpg",
     downloads: 394,
     featured: false,
     aiAnalysis: {
@@ -23593,7 +23593,7 @@ const BOOKS = [
     year: 2016,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre si puedes - 40 pildoras estimulantes por Alejandro Suarez Sanchez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-si-puedes-40-pildoras-estimulantes-alejandro-suarez-sanchez.jpg",
     downloads: 812,
     featured: false,
     aiAnalysis: {
@@ -23615,7 +23615,7 @@ const BOOKS = [
     year: 2017,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre siente estrategias para alcanzar riqueza y felicidad por Jim Rohn. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-siente-estrategias-para-alcanzar-riqueza-y-felicidad-jim-roh.jpg",
     downloads: 874,
     featured: false,
     aiAnalysis: {
@@ -23637,7 +23637,7 @@ const BOOKS = [
     year: 2015,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre sistema de 7 pasos para ser un lider que trasciende por Victor Capetillo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-sistema-de-7-pasos-para-ser-un-lider-que-trasciende-victor-c.jpg",
     downloads: 407,
     featured: false,
     aiAnalysis: {
@@ -23703,7 +23703,7 @@ const BOOKS = [
     year: 2013,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre su primer año en el network marketing por Mark Yarnell _ Rene Reid. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-su-primer-ano-en-el-network-marketing-mark-yarnell-rene-reid.jpg",
     downloads: 578,
     featured: false,
     aiAnalysis: {
@@ -23725,7 +23725,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre superar el fracaso y obtener el exito por Napoleon Hill. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-superar-el-fracaso-y-obtener-el-exito-napoleon-hill.jpg",
     downloads: 339,
     featured: false,
     aiAnalysis: {
@@ -23769,7 +23769,7 @@ const BOOKS = [
     year: 2019,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tecnicas de negociacion y resolucion de conflictos por Barbara A. Budjac. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-tecnicas-de-negociacion-y-resolucion-de-conflictos-barbara-a.jpg",
     downloads: 557,
     featured: false,
     aiAnalysis: {
@@ -23813,7 +23813,7 @@ const BOOKS = [
     year: 2013,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tengo una experiencia extracorporal en 30 dias por Keith Harary. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-tengo-una-experiencia-extracorporal-en-30-dias-keith-harary.jpg",
     downloads: 634,
     featured: false,
     aiAnalysis: {
@@ -23835,7 +23835,7 @@ const BOOKS = [
     year: 2010,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre teorias del desarrollo cognitivo por Francisco Gutierrez Martinez. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-teorias-del-desarrollo-cognitivo-francisco-gutierrez-martine.jpg",
     downloads: 829,
     featured: false,
     aiAnalysis: {
@@ -23857,7 +23857,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre the millonaire next door por Thomas Stanley _ William Danko. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-the-millonaire-next-door-thomas-stanley-william-danko.jpg",
     downloads: 627,
     featured: true,
     aiAnalysis: {
@@ -23901,7 +23901,7 @@ const BOOKS = [
     year: 2010,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre traguese ese sapo por 21 Estrategias Para Tomar Descisiones. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-traguese-ese-sapo-21-estrategias-para-tomar-descisiones.jpg",
     downloads: 435,
     featured: false,
     aiAnalysis: {
@@ -23923,7 +23923,7 @@ const BOOKS = [
     year: 2022,
     language: "Espa\u00f1ol",
     description: "Obra esencial de la ColecciÃ³n Emprendedores sobre tres poderes para la superacion personal por Dr. Fernando Daniel Peiro. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-vaca-purpura-seth-godin.jpg",
+    cover: "covers/c-emprendedores-tres-poderes-para-la-superacion-personal-dr-fernando-daniel.jpg",
     downloads: 888,
     featured: false,
     aiAnalysis: {
