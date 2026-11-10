@@ -3094,3 +3094,33 @@ body {
 .btn-collection-explore.btn-teologia:hover {
   background: linear-gradient(135deg, #3b82f6, #2563eb);
 }
+
+/* --- Coleccion Libros de Administracion (Executive Cyan / Sky Blue) --- */
+.hero-featured-pill.pill-administracion:hover {
+  border-color: rgba(14, 165, 233, 0.5);
+  box-shadow: 0 4px 16px rgba(14, 165, 233, 0.16);
+}
+.hero-featured-pill .pill-badge.badge-administracion {
+  background: rgba(14, 165, 233, 0.15);
+  color: #38bdf8;
+  border: 1px solid rgba(14, 165, 233, 0.3);
+}
+.collection-card-item.card-administracion::before {
+  background: linear-gradient(90deg, transparent, #0ea5e9, transparent);
+}
+.collection-card-item.card-administracion:hover {
+  border-color: rgba(14, 165, 233, 0.45);
+  box-shadow: 0 10px 32px rgba(14, 165, 233, 0.16);
+}
+.collection-top-badge.badge-administracion {
+  background: rgba(14, 165, 233, 0.15);
+  color: #38bdf8;
+  border: 1px solid rgba(14, 165, 233, 0.35);
+}
+.btn-collection-explore.btn-administracion {
+  background: linear-gradient(135deg, #0284c7, #0369a1);
+  color: #ffffff;
+}
+.btn-collection-explore.btn-administracion:hover {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7);
+}

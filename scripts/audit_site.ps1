@@ -61,9 +61,9 @@ if ($tgOk -and $igOk -and $fbOk) {
 
 # 4. Elementos Requeridos de Colecciones
 $requiredIds = @(
-    'cardColDummies', 'cardColHistoria', 'cardColHarvard', 'cardColEmprendedores', 'cardColTeologia',
-    'colCountDummies', 'colCountHistoria', 'colCountHarvard', 'colCountEmprendedores', 'colCountTeologia',
-    'heroDummiesCount', 'heroHistoriaCount', 'heroHarvardCount', 'heroEmprendedoresCount', 'heroTeologiaCount',
+    'cardColDummies', 'cardColHistoria', 'cardColHarvard', 'cardColEmprendedores', 'cardColTeologia', 'cardColAdmin',
+    'colCountDummies', 'colCountHistoria', 'colCountHarvard', 'colCountEmprendedores', 'colCountTeologia', 'colCountAdmin',
+    'heroDummiesCount', 'heroHistoriaCount', 'heroHarvardCount', 'heroEmprendedoresCount', 'heroTeologiaCount', 'heroAdminCount',
     'booksGrid', 'editorialShelf', 'filterBar', 'specialCollectionsGrid', 'collectionsDots'
 )
 $missingIds = @()

@@ -197,6 +197,11 @@
             <span class="pill-count" id="heroTeologiaCount">38 Libros</span>
             <span class="pill-action"><i data-lucide="arrow-right"></i></span>
           </a>
+          <a href="?coleccion=administracion" class="hero-featured-pill pill-administracion" id="heroAdminLink" onclick="event.preventDefault(); selectCategory('Libros de Administración', true, true);" title="Colección Libros de Administración">
+            <span class="pill-badge badge-administracion"><i data-lucide="briefcase"></i> Administración</span>
+            <span class="pill-count" id="heroAdminCount">197 Libros</span>
+            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
+          </a>
         </div>
       </div>
     </section>
@@ -427,6 +432,37 @@
               </button>
             </div>
           </div>
+
+          <!-- TARJETA 6: COLECCION LIBROS DE ADMINISTRACION -->
+          <div class="collection-card-item card-administracion" id="cardColAdmin" onclick="selectCategory('Libros de Administración', true, true);">
+            <div class="collection-card-top">
+              <span class="collection-top-badge badge-administracion">
+                <i data-lucide="briefcase"></i> Manuales de Gestión
+              </span>
+              <span class="collection-count-pill" id="colCountAdmin">197 Libros en PDF</span>
+            </div>
+            <div class="collection-card-content">
+              <h3 class="collection-item-title">Colección Libros de Administración</h3>
+              <p class="collection-item-desc">
+                Tratados completos de dirección empresarial, comportamiento organizacional, finanzas corporativas, recursos humanos y marketing estratégico.
+              </p>
+              <div class="collection-tags-row">
+                <span class="collection-tag-chip">Gestión</span>
+                <span class="collection-tag-chip">Estrategia</span>
+                <span class="collection-tag-chip">Liderazgo</span>
+                <span class="collection-tag-chip">Finanzas</span>
+                <span class="collection-tag-chip">Operaciones</span>
+              </div>
+            </div>
+            <div class="collection-card-actions">
+              <a href="?coleccion=administracion" class="btn-collection-explore btn-administracion" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('Libros de Administración', true, true);">
+                <i data-lucide="book-open"></i> Explorar Colección
+              </a>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('Libros de Administración');" title="Copiar enlace directo">
+                <i data-lucide="link"></i>
+              </button>
+            </div>
+          </div>
         </div>
 
         <!-- Paginador de puntos para swipe movil -->
@@ -436,6 +472,7 @@
           <button type="button" class="c-dot" onclick="scrollCollectionCard(2)" aria-label="Coleccion Harvard Libros"></button>
           <button type="button" class="c-dot" onclick="scrollCollectionCard(3)" aria-label="Coleccion Emprendedores"></button>
           <button type="button" class="c-dot" onclick="scrollCollectionCard(4)" aria-label="Coleccion Teologica Contemporanea"></button>
+          <button type="button" class="c-dot" onclick="scrollCollectionCard(5)" aria-label="Coleccion Libros de Administracion"></button>
         </div>
       </div>
     </section>

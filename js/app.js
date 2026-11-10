@@ -198,6 +198,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (categoryName === 'LIBROS EMPRENDEDORES' || categoryName === 'EMPRENDEDORES') {
       return `${base}?coleccion=emprendedores`;
     }
+    if (categoryName === 'Libros de Administración' || categoryName === 'ADMINISTRACION' || categoryName === 'administracion') {
+      return `${base}?coleccion=administracion`;
+    }
     return `${base}?coleccion=${slugify(categoryName)}`;
   }
 
@@ -296,6 +299,10 @@ document.addEventListener('DOMContentLoaded', () => {
         params.delete('cat');
       } else if (categoryName === 'LIBROS EMPRENDEDORES') {
         params.set('coleccion', 'emprendedores');
+        params.delete('categoria');
+        params.delete('cat');
+      } else if (categoryName === 'Libros de Administración' || categoryName === 'ADMINISTRACION') {
+        params.set('coleccion', 'administracion');
         params.delete('categoria');
         params.delete('cat');
       } else {
@@ -461,6 +468,8 @@ document.addEventListener('DOMContentLoaded', () => {
         targetCat = 'LIBROS EMPRENDEDORES';
       } else if (cleanSlug === 'teologia' || cleanSlug === 'teologica' || cleanSlug === 'ctc' || cleanSlug.includes('teolog')) {
         targetCat = 'TEOLOGÍA CONTEMPORÁNEA';
+      } else if (cleanSlug === 'administracion' || cleanSlug === 'libros-de-administracion' || cleanSlug.includes('administra')) {
+        targetCat = 'Libros de Administración';
       } else {
         targetCat = CONFIG.categories.find(c => slugify(c) === cleanSlug || slugify(c).includes(cleanSlug) || cleanSlug.includes(slugify(c)));
       }
@@ -468,6 +477,8 @@ document.addEventListener('DOMContentLoaded', () => {
       targetCat = 'HARVARD LIBROS';
     } else if (hash.includes('dummies')) {
       targetCat = 'PARA DUMMIES';
+    } else if (hash.includes('administra')) {
+      targetCat = 'Libros de Administración';
     }
 
     if (targetCat) {
@@ -480,8 +491,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
         showToast('Colección Para Dummies', `Explorando las ${dCount} guías prácticas en PDF`);
       } else if (targetCat === 'LIBROS EMPRENDEDORES') {
-        const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 24;
+        const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length : 394;
         showToast('Colección Emprendedores', `Explorando los ${eCount} libros de negocios y startups en PDF`);
+      } else if (targetCat === 'Libros de Administración') {
+        const aCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length : 197;
+        showToast('Colección Administración Activa', `Explorando los ${aCount} manuales y tratados de gestión empresarial`);
       } else {
         showToast('Colección Seleccionada', `Mostrando títulos de "${targetCat}"`);
       }
@@ -636,6 +650,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'BREVE HISTORIA',
       'PARA DUMMIES',
       'LIBROS EMPRENDEDORES',
+      'Libros de Administración',
       'TEOLOGÍA CONTEMPORÁNEA',
       'National Geographic',
       'E-Books (EPUB)',
@@ -668,6 +683,7 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (cat === 'BREVE HISTORIA') iconHtml = '<i data-lucide="landmark"></i>';
       else if (cat === 'PARA DUMMIES') iconHtml = '<i data-lucide="lightbulb"></i>';
       else if (cat === 'LIBROS EMPRENDEDORES') iconHtml = '<i data-lucide="trending-up"></i>';
+      else if (cat === 'Libros de Administración') iconHtml = '<i data-lucide="briefcase"></i>';
       else if (cat === 'TEOLOGÍA CONTEMPORÁNEA') iconHtml = '<i data-lucide="scroll"></i>';
 
       btn.innerHTML = `${iconHtml} <span>${cat}</span>`;
@@ -725,6 +741,8 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesCategory = (book.collection && book.collection.includes('Harvard')) || book.category === 'HARVARD LIBROS';
       } else if (state.currentFilter === 'TEOLOGÍA CONTEMPORÁNEA' || state.currentFilter === 'Colección Teológica Contemporánea') {
         matchesCategory = (book.collection && book.collection.includes('Teolog')) || book.category === 'TEOLOGÍA CONTEMPORÁNEA';
+      } else if (state.currentFilter === 'Libros de Administración' || state.currentFilter === 'Colección Libros de Administración' || state.currentFilter === 'LIBROS DE ADMINISTRACIÓN' || state.currentFilter === 'ADMINISTRACION') {
+        matchesCategory = (book.collection && book.collection.includes('Administra')) || book.category === 'Libros de Administración';
       } else {
         matchesCategory = book.category === state.currentFilter;
       }
@@ -1627,6 +1645,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const eCount = BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length;
     if (elEmprendedores) elEmprendedores.textContent = `${eCount} Libros en PDF`;
     if (heroE) heroE.textContent = `${eCount} Libros`;
+
+    const elAdmin = document.getElementById('colCountAdmin');
+    const heroAdmin = document.getElementById('heroAdminCount');
+    const aCount = BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length;
+    if (elAdmin) elAdmin.textContent = `${aCount} Libros en PDF`;
+    if (heroAdmin) heroAdmin.textContent = `${aCount} Libros`;
 
     const elDummies = document.getElementById('colCountDummies');
     const elHistoria = document.getElementById('colCountHistoria');
