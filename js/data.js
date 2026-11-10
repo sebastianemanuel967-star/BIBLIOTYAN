@@ -634,7 +634,7 @@ const BOOKS = [
     }
   },
   {
-    id: 407,
+    id: 408,
     title: "Sprint: El método para resolver problemas y testar ideas en 5 días",
     author: "Jake Knapp",
     category: "Liderazgo & Estrategia",
@@ -645,7 +645,7 @@ const BOOKS = [
     pages: 290,
     description: "Creado en Google Ventures y probado en más de cien startups (como Uber, Slack y Blue Bottle), el proceso Design Sprint comprime meses de deliberación en una sola semana de prototipado rápido y validación directa con usuarios reales.",
     cover: "covers/sprint-jake-knapp.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b407_el-arte-de-cerrar-la-venta-brian-tracy.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b407_sprint-resolver-problemas-jake-knapp.pdf",
     downloads: 295,
     featured: false,
     aiAnalysis: {

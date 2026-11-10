@@ -2183,6 +2183,12 @@ body {
   box-shadow: 0 4px 14px rgba(220, 39, 67, 0.25);
 }
 
+.btn-qr-link.btn-facebook {
+  background: linear-gradient(135deg, #1877F2 0%, #0d5bb5 100%);
+  border: 1px solid rgba(24, 119, 242, 0.4);
+  box-shadow: 0 4px 14px rgba(24, 119, 242, 0.25);
+}
+
 .btn-qr-link:hover {
   transform: translateY(-2px);
   filter: brightness(1.1);
