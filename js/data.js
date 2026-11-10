@@ -24176,6 +24176,28 @@ const BOOKS = [
       aiSummary: "Lecciones y marcos estrat\u00e9gicos de alto valor pr\u00e1ctico para convertir ideas en proyectos consolidados y rentables."
     }
   },
+  {
+    id: 2355,
+    title: "Do\u00f1a Huevotes",
+    author: "Anamar Orihuela",
+    category: "Autoayuda & Mente",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2355_dona-huevotes-anamar-orihuela.pdf",
+    pages: 165,
+    year: 2021,
+    language: "Espa\u00f1ol",
+    description: "Aprende a liberarte de la carga de ser la que carga, resuelve, ayuda, sostiene y jam\u00e1s tiene derecho a necesitar. La reconocida psicoterapeuta Anamar Orihuela aborda la herida de la desvalorizaci\u00f3n y el s\u00edndrome de la mujer autosuficiente, brindando herramientas pr\u00e1cticas para soltar el control, sanar la autoexigencia y reconectar con la vulnerabilidad y la paz interior.",
+    cover: "covers/c-dona-huevotes-anamar-orihuela.jpg",
+    downloads: 742,
+    featured: true,
+    aiAnalysis: {
+      genre: "Psicoterapia & Crecimiento Personal",
+      vibe: "Sanador & Revelador",
+      keyConcepts: ["Heridas de la Infancia", "Autosuficiencia Defensiva", "L\u00edmites Saludables", "Vulnerabilidad y Autocuidado"],
+      targetAudience: "Mujeres y personas que cargan con el peso de resolver la vida de los dem\u00e1s a costa de su propio bienestar emocional y f\u00edsico.",
+      aiSummary: "Anamar Orihuela desglosa la figura de 'Do\u00f1a Huevotes': esa coraza de fortaleza extrema que oculta miedo al rechazo y necesidad de aprobaci\u00f3n. A trav\u00e9s de ejercicios reflexivos y comprensi\u00f3n compasiva, ense\u00f1a a soltar el sobreesfuerzo y permitirse ser sostenida."
+    }
+  },
 ];
 
 const INITIAL_REQUESTS = [
