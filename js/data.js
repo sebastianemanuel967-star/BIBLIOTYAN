@@ -246,33 +246,33 @@ const BOOKS = [
     }
   },
   {
-    id: 2592,
-    title: "El Método Bullet Journal",
-    author: "Ryder Carroll",
+    id: 2596,
+    title: "El Plan Fénix: Resurge de las cenizas con las 12 cualidades de las personas exitosas",
+    author: "Brian Tracy",
     category: "Productividad & Hábitos",
-    subtopic: "Productividad Personal y Organización",
+    subtopic: "Superación Personal y Alto Rendimiento",
     collection: "Bestsellers",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2592_el-metodo-bullet-journal.pdf",
-    pages: 333,
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2596_el-plan-fenix-brian-tracy.pdf",
+    pages: 162,
+    year: 2017,
     language: "Español",
-    description: "Examina tu pasado, ordena tu presente, diseña tu futuro. El célebre método creado por Ryder Carroll para despejar la mente, organizar tareas diarias, gestionar metas a largo plazo y enfocar la energía en lo verdaderamente significativo.",
-    cover: "covers/c-2592-el-metodo-bullet-journal.png",
-    downloads: 864,
+    description: "El prestigioso experto en éxito Brian Tracy desvela un plan de acción para reinventarse tras las caídas y momentos de crisis. A través de 12 principios fundamentales, enseña a reconstruir la confianza, fijar metas de alto impacto, reprogramar la mente y alcanzar la cúspide personal y profesional.",
+    cover: "covers/c-2596-el-plan-fenix-brian-tracy.png",
+    downloads: 890,
     featured: true,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estructurado & Transformador",
+    vibe: "Inspirador & Pragmático",
     keyConcepts: [
-        "Mindfulness Práctico",
-        "Registro Rápido (Rapid Logging)",
-        "Migración de Tareas",
-        "Enfoque Intencional",
-        "Claridad Mental"
+        "Resiliencia",
+        "Reinvención Personal",
+        "Fijación de Metas",
+        "Autoestima de Acero",
+        "Excelencia y Enfoque"
       ],
-    targetAudience: "Profesionales, creativos y personas que buscan liberarse de la sobrecarga digital y organizar su vida con intención.",
-    aiSummary: "Ryder Carroll presenta una filosofía de organización personal que combina la toma de notas analógica con la atención plena para transformar listas de pendientes en un mapa de vida intencional."
+    targetAudience: "Profesionales, emprendedores y cualquier persona en proceso de recuperación, transición de carrera o reinvención.",
+    aiSummary: "Brian Tracy entrega una hoja de ruta práctica para renacer de situaciones difíciles, aplicando 12 rasgos comprobados que distinguen a las personalidades altamente realizadoras."
     }
   },
   {
@@ -689,31 +689,33 @@ const BOOKS = [
     }
   },
   {
-    id: 201,
-    title: "Los 7 Hábitos de la Gente Altamente Efectiva",
-    author: "Stephen R. Covey",
+    id: 2592,
+    title: "El Método Bullet Journal",
+    author: "Ryder Carroll",
     category: "Productividad & Hábitos",
+    subtopic: "Productividad Personal y Organización",
     collection: "Bestsellers",
     format: "pdf",
-    year: 2015,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2592_el-metodo-bullet-journal.pdf",
+    pages: 333,
+    year: 2018,
     language: "Español",
-    pages: 380,
-    description: "Considerado uno de los libros de gestión y desarrollo personal más influyentes del siglo. Covey presenta un enfoque holístico e integrado para resolver problemas personales y profesionales basado en principios imperecederos como la proactividad, el beneficio mutuo y la renovación continua.",
-    cover: "covers/los-7-habitos.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b201_los-7-habitos-stephen-covey.pdf",
-    downloads: 512,
+    description: "Examina tu pasado, ordena tu presente, diseña tu futuro. El célebre método creado por Ryder Carroll para despejar la mente, organizar tareas diarias, gestionar metas a largo plazo y enfocar la energía en lo verdaderamente significativo.",
+    cover: "covers/c-2592-el-metodo-bullet-journal.png",
+    downloads: 864,
     featured: true,
     aiAnalysis: {
-    genre: "Desarrollo del Liderazgo & Efectividad",
-    vibe: "Clásico & Trascendental",
+    genre: "Productividad & Hábitos",
+    vibe: "Estructurado & Transformador",
     keyConcepts: [
-        "Proactividad",
-        "Primero lo Primero",
-        "Ganar-Ganar",
-        "Sinergia"
+        "Mindfulness Práctico",
+        "Registro Rápido (Rapid Logging)",
+        "Migración de Tareas",
+        "Enfoque Intencional",
+        "Claridad Mental"
       ],
-    targetAudience: "Profesionales, directivos y personas orientadas a la excelencia ética y productiva.",
-    aiSummary: "Marco de trabajo integral para la transformación personal y la efectividad interpersonal sostenible."
+    targetAudience: "Profesionales, creativos y personas que buscan liberarse de la sobrecarga digital y organizar su vida con intención.",
+    aiSummary: "Ryder Carroll presenta una filosofía de organización personal que combina la toma de notas analógica con la atención plena para transformar listas de pendientes en un mapa de vida intencional."
     }
   },
   {
@@ -1135,31 +1137,31 @@ const BOOKS = [
     }
   },
   {
-    id: 202,
-    title: "Tráguese ese Sapo: 21 maneras de dejar de procrastinar",
-    author: "Brian Tracy",
+    id: 201,
+    title: "Los 7 Hábitos de la Gente Altamente Efectiva",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     collection: "Bestsellers",
     format: "pdf",
-    year: 2018,
+    year: 2015,
     language: "Español",
-    pages: 140,
-    description: "Una guía contundente y pragmática para erradicar la postergación. Tracy enseña a identificar las tareas más críticas, aplicar la regla del 80/20 y afrontar la tarea más difícil al comenzar el día para multiplicar los resultados en menor tiempo.",
-    cover: "covers/traguese-ese-sapo.png",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b202_traguese-ese-sapo-brian-tracy.pdf",
-    downloads: 440,
+    pages: 380,
+    description: "Considerado uno de los libros de gestión y desarrollo personal más influyentes del siglo. Covey presenta un enfoque holístico e integrado para resolver problemas personales y profesionales basado en principios imperecederos como la proactividad, el beneficio mutuo y la renovación continua.",
+    cover: "covers/los-7-habitos.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b201_los-7-habitos-stephen-covey.pdf",
+    downloads: 512,
     featured: true,
     aiAnalysis: {
-    genre: "Gestión del Tiempo & Enfoque",
-    vibe: "Práctico & Contundente",
+    genre: "Desarrollo del Liderazgo & Efectividad",
+    vibe: "Clásico & Trascendental",
     keyConcepts: [
-        "Priorización ABCDE",
-        "Erradicación de Procrastinación",
-        "Regla 80/20",
-        "Foco Unidireccional"
+        "Proactividad",
+        "Primero lo Primero",
+        "Ganar-Ganar",
+        "Sinergia"
       ],
-    targetAudience: "Lectores abrumados por el exceso de trabajo que buscan simplificar y ejecutar con rapidez.",
-    aiSummary: "Pautas directas para vencer la pereza mental y ejecutar las tareas de mayor impacto cada día."
+    targetAudience: "Profesionales, directivos y personas orientadas a la excelencia ética y productiva.",
+    aiSummary: "Marco de trabajo integral para la transformación personal y la efectividad interpersonal sostenible."
     }
   },
   {
@@ -1577,32 +1579,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 203,
-    title: "Focus: Desarrollar la atención para alcanzar la excelencia",
-    author: "Daniel Goleman",
+    id: 202,
+    title: "Tráguese ese Sapo: 21 maneras de dejar de procrastinar",
+    author: "Brian Tracy",
     category: "Productividad & Hábitos",
     collection: "Bestsellers",
-    format: "dual",
-    year: 2014,
+    format: "pdf",
+    year: 2018,
     language: "Español",
-    pages: 320,
-    description: "El psicólogo y autor de Inteligencia Emocional analiza la atención como el activo mental más preciado y escaso del mundo hiperconectado. Explora los tres tipos de foco (interno, hacia los demás y externo) y cómo cultivarlos para la toma de decisiones certeras.",
-    cover: "covers/focus-goleman.jpg",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b203_focus-daniel-goleman.pdf",
-    epub: "pdfs/epubs/focus-daniel-goleman.epub",
-    downloads: 395,
+    pages: 140,
+    description: "Una guía contundente y pragmática para erradicar la postergación. Tracy enseña a identificar las tareas más críticas, aplicar la regla del 80/20 y afrontar la tarea más difícil al comenzar el día para multiplicar los resultados en menor tiempo.",
+    cover: "covers/traguese-ese-sapo.png",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b202_traguese-ese-sapo-brian-tracy.pdf",
+    downloads: 440,
     featured: true,
     aiAnalysis: {
-    genre: "Psicología Cognitiva & Atención",
-    vibe: "Analítico & Esclarecedor",
+    genre: "Gestión del Tiempo & Enfoque",
+    vibe: "Práctico & Contundente",
     keyConcepts: [
-        "Atención Focalizada",
-        "Foco Interno y Externo",
-        "Sobrecarga de estímulos",
-        "Autocontrol"
+        "Priorización ABCDE",
+        "Erradicación de Procrastinación",
+        "Regla 80/20",
+        "Foco Unidireccional"
       ],
-    targetAudience: "Estudiantes, creadores y líderes que sufren la dispersión de la era de los smartphones.",
-    aiSummary: "Investigación sobre por qué la capacidad de atención profunda determina el éxito en la vida moderna."
+    targetAudience: "Lectores abrumados por el exceso de trabajo que buscan simplificar y ejecutar con rapidez.",
+    aiSummary: "Pautas directas para vencer la pereza mental y ejecutar las tareas de mayor impacto cada día."
     }
   },
   {
@@ -2021,58 +2022,63 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2072,
-    title: "El Arte De Cerrar La Venta",
-    author: "Brian Tracy",
+    id: 203,
+    title: "Focus: Desarrollar la atención para alcanzar la excelencia",
+    author: "Daniel Goleman",
     category: "Productividad & Hábitos",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2072_el-arte-de-cerrar-la-venta-brian-tracy-212-paginas.pdf",
-    pages: 58,
-    year: 2020,
+    collection: "Bestsellers",
+    format: "dual",
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de cerrar la venta por Brian Tracy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-arte-de-cerrar-la-venta-brian-tracy-212-paginas.jpg",
-    downloads: 844,
-    featured: false,
-    aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
-    keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
-      ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
-  },
-  {
-    id: 1449,
-    title: "The Measure of My Days",
-    author: "Florida Scott-Maxwell",
-    category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1449_FLORIDA_SCOTT-MAXWELL_The_Measure_of_My_Days_1968_.pdf",
-    year: 1968,
-    language: "Español",
-    pages: 82,
-    description: "Obra esencial de Florida Scott-Maxwell centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-florida_scott_maxwell_the_measure_o-46.png",
-    downloads: 493,
+    pages: 320,
+    description: "El psicólogo y autor de Inteligencia Emocional analiza la atención como el activo mental más preciado y escaso del mundo hiperconectado. Explora los tres tipos de foco (interno, hacia los demás y externo) y cómo cultivarlos para la toma de decisiones certeras.",
+    cover: "covers/focus-goleman.jpg",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b203_focus-daniel-goleman.pdf",
+    epub: "pdfs/epubs/focus-daniel-goleman.epub",
+    downloads: 395,
     featured: true,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Lyrical & Wise",
+    genre: "Psicología Cognitiva & Atención",
+    vibe: "Analítico & Esclarecedor",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Virtud como Bien Supremo",
-        "Memento Mori"
+        "Atención Focalizada",
+        "Foco Interno y Externo",
+        "Sobrecarga de estímulos",
+        "Autocontrol"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: The Measure of My Days aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    targetAudience: "Estudiantes, creadores y líderes que sufren la dispersión de la era de los smartphones.",
+    aiSummary: "Investigación sobre por qué la capacidad de atención profunda determina el éxito en la vida moderna."
+    }
+  },
+  {
+    id: 2595,
+    title: "Estoicismo Samurai: Una guía para la paz interior y la disciplina",
+    author: "Samuraizenin",
+    category: "Espiritualidad & sabiduría",
+    subtopic: "Filosofía Práctica y Código del Guerrero",
+    collection: "Bestsellers",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2595_estoicismo-samurai-samuraizenin.pdf",
+    pages: 52,
+    year: 2023,
+    language: "Español",
+    description: "El Camino de la Virtud. Una fusión magistral entre el estoicismo grecorromano (Séneca, Epicteto, Marco Aurelio) y el código de honor Bushido de los guerreros samuráis. Principios inquebrantables de autocontrol, serenidad ante la adversidad, sobriedad mental y disciplina diaria.",
+    cover: "covers/c-2595-estoicismo-samurai-samuraizenin.png",
+    downloads: 785,
+    featured: true,
+    aiAnalysis: {
+    genre: "Filosofía Práctica & Estoicismo",
+    vibe: "Marcial & Trascendental",
+    keyConcepts: [
+        "Bushido",
+        "Dicotomía del Control",
+        "Disciplina Samurái",
+        "Ataraxia",
+        "Amor Fati",
+        "Paz Interior"
+      ],
+    targetAudience: "Lectores en busca de fortaleza mental, templanza estoica y dominio personal ante los desafíos modernos.",
+    aiSummary: "Samuraizenin sintetiza las enseñanzas de los grandes filósofos estoicos con la ética del Bushido para construir una armadura psicológica basada en la virtud y la disciplina."
     }
   },
   {
@@ -2464,18 +2470,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2068,
-    title: "El 8Vo Habito",
-    author: "Stephen R. Covey",
+    id: 2072,
+    title: "El Arte De Cerrar La Venta",
+    author: "Brian Tracy",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2068_el-8vo-habito-stephen-r-covey.pdf",
-    pages: 395,
-    year: 2013,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2072_el-arte-de-cerrar-la-venta-brian-tracy-212-paginas.pdf",
+    pages: 58,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el 8vo habito por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-8vo-habito-stephen-r-covey.jpg",
-    downloads: 818,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el arte de cerrar la venta por Brian Tracy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-arte-de-cerrar-la-venta-brian-tracy-212-paginas.jpg",
+    downloads: 844,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -2492,30 +2498,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1428,
-    title: "El Arte de la Buena Vida: La sabiduría estoica para la felicidad",
-    author: "William B. Irvine",
+    id: 1449,
+    title: "The Measure of My Days",
+    author: "Florida Scott-Maxwell",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1428_El_arte_de_la_buena_vida_El_-_William_B._Irvine.pdf",
-    year: 2009,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1449_FLORIDA_SCOTT-MAXWELL_The_Measure_of_My_Days_1968_.pdf",
+    year: 1968,
     language: "Español",
-    pages: 614,
-    description: "Obra esencial de William B. Irvine centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-el_arte_de_la_buena_vida__el___will-28.png",
-    downloads: 456,
+    pages: 82,
+    description: "Obra esencial de Florida Scott-Maxwell centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-florida_scott_maxwell_the_measure_o-46.png",
+    downloads: 493,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Sabio & Luminoso",
+    vibe: "Lyrical & Wise",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Ciudadela Interior",
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: El Arte de la Buena Vida: La sabiduría estoica para la felicidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: The Measure of My Days aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -2878,18 +2884,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2007,
-    title: "Autodisciplina En Diez Dias",
-    author: "Theodore Bryant",
+    id: 2068,
+    title: "El 8Vo Habito",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2007_autodisciplina-en-diez-dias-theodore-bryant-111-pa.pdf",
-    pages: 109,
-    year: 2006,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2068_el-8vo-habito-stephen-r-covey.pdf",
+    pages: 395,
+    year: 2013,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autodisciplina en diez dias por Theodore Bryant. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-autodisciplina-en-diez-dias-theodore-bryant-111-paginas.jpg",
-    downloads: 659,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el 8vo habito por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-8vo-habito-stephen-r-covey.jpg",
+    downloads: 818,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -2906,30 +2912,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1484,
-    title: "Manual de Estoicismo sabiduría estoica para el lector actual",
-    author: "Selección Bibliotyan",
+    id: 1428,
+    title: "El Arte de la Buena Vida: La sabiduría estoica para la felicidad",
+    author: "William B. Irvine",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1484_Manual_de_Estoicismo_Sabidur_a_estoica_para_el_lector_actual.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1428_El_arte_de_la_buena_vida_El_-_William_B._Irvine.pdf",
+    year: 2009,
     language: "Español",
-    pages: 108,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-manual_de_estoicismo_sabidur_a_esto-82.png",
-    downloads: 448,
+    pages: 614,
+    description: "Obra esencial de William B. Irvine centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-el_arte_de_la_buena_vida__el___will-28.png",
+    downloads: 456,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Sabio & Luminoso",
     keyConcepts: [
         "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Amor Fati",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Manual de Estoicismo sabiduría estoica para el lector actual aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: El Arte de la Buena Vida: La sabiduría estoica para la felicidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -3265,18 +3271,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2016,
-    title: "Cinco Habitos Que Ayudan A Desarrollar Tu Mente",
-    author: "Editorial Emprendedora",
+    id: 2007,
+    title: "Autodisciplina En Diez Dias",
+    author: "Theodore Bryant",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2016_cinco-habitos-que-ayudan-a-desarrollar-tu-mente.pdf",
-    pages: 45,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2007_autodisciplina-en-diez-dias-theodore-bryant-111-pa.pdf",
+    pages: 109,
+    year: 2006,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre cinco habitos que ayudan a desarrollar tu mente por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-cinco-habitos-que-ayudan-a-desarrollar-tu-mente.jpg",
-    downloads: 634,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre autodisciplina en diez dias por Theodore Bryant. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-autodisciplina-en-diez-dias-theodore-bryant-111-paginas.jpg",
+    downloads: 659,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -3293,30 +3299,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1407,
-    title: "Apología de Sócrates por Platón VERSIÓN 2",
+    id: 1484,
+    title: "Manual de Estoicismo sabiduría estoica para el lector actual",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1407_Apolog_a_de_S_crates_por_Plat_n_VERSI_N_2.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1484_Manual_de_Estoicismo_Sabidur_a_estoica_para_el_lector_actual.pdf",
     year: 2020,
     language: "Español",
-    pages: 30,
+    pages: 108,
     description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-apolog_a_de_s_crates_por_plat_n_ver-7.png",
-    downloads: 419,
+    cover: "covers/c-est-manual_de_estoicismo_sabidur_a_esto-82.png",
+    downloads: 448,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
     vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Virtud como Bien Supremo",
-        "Memento Mori"
+        "Dicotomía del Control",
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Apología de Sócrates por Platón VERSIÓN 2 aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Manual de Estoicismo sabiduría estoica para el lector actual aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -3652,18 +3658,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2056,
-    title: "Desarrolle Tu Disciplina Personal",
-    author: "Steve Pavlina",
+    id: 2016,
+    title: "Cinco Habitos Que Ayudan A Desarrollar Tu Mente",
+    author: "Editorial Emprendedora",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2056_desarrolle-tu-disciplina-personal-steve-pavlina.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2016_cinco-habitos-que-ayudan-a-desarrollar-tu-mente.pdf",
     pages: 45,
     year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolle tu disciplina personal por Steve Pavlina. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-desarrolle-tu-disciplina-personal-steve-pavlina.jpg",
-    downloads: 609,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre cinco habitos que ayudan a desarrollar tu mente por Editorial Emprendedora. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-cinco-habitos-que-ayudan-a-desarrollar-tu-mente.jpg",
+    downloads: 634,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -3680,30 +3686,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1442,
-    title: "Hercólubus o Planeta Rojo",
-    author: "V.M. Rabolú",
+    id: 1407,
+    title: "Apología de Sócrates por Platón VERSIÓN 2",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1442_ES-Hercolubus_o_Planeta_Rojo.pdf",
-    year: 1998,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1407_Apolog_a_de_S_crates_por_Plat_n_VERSI_N_2.pdf",
+    year: 2020,
     language: "Español",
-    pages: 45,
-    description: "Obra esencial de V.M. Rabolú centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-es_hercolubus_o_planeta_rojo-41.png",
-    downloads: 374,
+    pages: 30,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-apolog_a_de_s_crates_por_plat_n_ver-7.png",
+    downloads: 419,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Místico & Enigmático",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Ciudadela Interior",
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Hercólubus o Planeta Rojo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Apología de Sócrates por Platón VERSIÓN 2 aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -4038,18 +4044,18 @@ const BOOKS = [
     }
   },
   {
-    id: 1991,
-    title: "23 Habitos Inteligentes Para Tus Finanzas Personales",
-    author: "El Contador",
+    id: 2056,
+    title: "Desarrolle Tu Disciplina Personal",
+    author: "Steve Pavlina",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1991_23-habitos-inteligentes-para-tus-finanzas-personal.pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2056_desarrolle-tu-disciplina-personal-steve-pavlina.pdf",
     pages: 45,
-    year: 2019,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 23 habitos inteligentes para tus finanzas personales por El Contador. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-23-habitos-inteligentes-para-tus-finanzas-personales-el-cont.jpg",
-    downloads: 608,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre desarrolle tu disciplina personal por Steve Pavlina. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-desarrolle-tu-disciplina-personal-steve-pavlina.jpg",
+    downloads: 609,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4066,30 +4072,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1421,
-    title: "DEMÓCRITO ÉTICA",
-    author: "Selección Bibliotyan",
+    id: 1442,
+    title: "Hercólubus o Planeta Rojo",
+    author: "V.M. Rabolú",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1421_DEM_CRITO_TICA.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1442_ES-Hercolubus_o_Planeta_Rojo.pdf",
+    year: 1998,
     language: "Español",
-    pages: 12,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-dem_crito__tica-21.png",
-    downloads: 337,
+    pages: 45,
+    description: "Obra esencial de V.M. Rabolú centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-es_hercolubus_o_planeta_rojo-41.png",
+    downloads: 374,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Místico & Enigmático",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Dicotomía del Control",
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: DEMÓCRITO ÉTICA aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Hercólubus o Planeta Rojo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -4425,18 +4431,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2087,
-    title: "El Camino Hacia La Riqueza",
-    author: "Brian Tracy",
+    id: 1991,
+    title: "23 Habitos Inteligentes Para Tus Finanzas Personales",
+    author: "El Contador",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2087_el-camino-hacia-la-riqueza-brian-tracy.pdf",
-    pages: 363,
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b1991_23-habitos-inteligentes-para-tus-finanzas-personal.pdf",
+    pages: 45,
+    year: 2019,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el camino hacia la riqueza por Brian Tracy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-camino-hacia-la-riqueza-brian-tracy.jpg",
-    downloads: 573,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre 23 habitos inteligentes para tus finanzas personales por El Contador. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-23-habitos-inteligentes-para-tus-finanzas-personales-el-cont.jpg",
+    downloads: 608,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4453,30 +4459,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1477,
-    title: "Lecciones de Estoicismo",
-    author: "John Sellars",
+    id: 1421,
+    title: "DEMÓCRITO ÉTICA",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1477_Lecciones_de_estoicismo_de_John_Sellars.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1421_DEM_CRITO_TICA.pdf",
+    year: 2020,
     language: "Español",
-    pages: 63,
-    description: "Obra esencial de John Sellars centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-lecciones_de_estoicismo_de_john_sel-76.png",
-    downloads: 329,
+    pages: 12,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-dem_crito__tica-21.png",
+    downloads: 337,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Sintético & Elegante",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Ciudadela Interior",
-        "Dicotomía del Control",
-        "Memento Mori"
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Lecciones de Estoicismo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: DEMÓCRITO ÉTICA aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -4812,18 +4818,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2245,
-    title: "Los 7 Habitos De La Gente Altamente Efectiva",
-    author: "Stephen R. Covey",
+    id: 2087,
+    title: "El Camino Hacia La Riqueza",
+    author: "Brian Tracy",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2245_los-7-habitos-de-la-gente-altamente-efectiva-steph.pdf",
-    pages: 149,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2087_el-camino-hacia-la-riqueza-brian-tracy.pdf",
+    pages: 363,
     year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los 7 habitos de la gente altamente efectiva por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-los-7-habitos-de-la-gente-altamente-efectiva-stephen-r-covey.jpg",
-    downloads: 565,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el camino hacia la riqueza por Brian Tracy. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-camino-hacia-la-riqueza-brian-tracy.jpg",
+    downloads: 573,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -4840,30 +4846,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1456,
-    title: "HADOT. LA Filosofía COMO FORMA DE VIDA",
-    author: "Selección Bibliotyan",
+    id: 1477,
+    title: "Lecciones de Estoicismo",
+    author: "John Sellars",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1456_HADOT._LA_FILOSOF_A_COMO_FORMA_DE_VIDA.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1477_Lecciones_de_estoicismo_de_John_Sellars.pdf",
+    year: 2019,
     language: "Español",
-    pages: 269,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-hadot__la_filosof_a_como_forma_de_v-52.png",
-    downloads: 292,
+    pages: 63,
+    description: "Obra esencial de John Sellars centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-lecciones_de_estoicismo_de_john_sel-76.png",
+    downloads: 329,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Sintético & Elegante",
     keyConcepts: [
-        "Dicotomía del Control",
         "Ciudadela Interior",
-        "Ataraxia"
+        "Dicotomía del Control",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: HADOT. LA Filosofía COMO FORMA DE VIDA aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Lecciones de Estoicismo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -5199,18 +5205,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2253,
-    title: "Los Siete Habitos Para Dirigir Tu Vida",
-    author: "Jose M. Acosta",
+    id: 2245,
+    title: "Los 7 Habitos De La Gente Altamente Efectiva",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2253_los-siete-habitos-para-dirigir-tu-vida-jose-m-acos.pdf",
-    pages: 45,
-    year: 2009,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2245_los-7-habitos-de-la-gente-altamente-efectiva-steph.pdf",
+    pages: 149,
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los siete habitos para dirigir tu vida por Jose M. Acosta. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-los-siete-habitos-para-dirigir-tu-vida-jose-m-acosta.jpg",
-    downloads: 496,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los 7 habitos de la gente altamente efectiva por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-los-7-habitos-de-la-gente-altamente-efectiva-stephen-r-covey.jpg",
+    downloads: 565,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -5227,30 +5233,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1512,
-    title: "Tabla de Cebes y Disertaciones Estoicas",
-    author: "Musonio Rufo & Epicteto",
+    id: 1456,
+    title: "HADOT. LA Filosofía COMO FORMA DE VIDA",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1512_TABLA_DE_CEBES_DISERTACIONES_DE_MUSONIO_RUFO_Y_DE_EPICTETO.pdf",
-    year: 90,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1456_HADOT._LA_FILOSOF_A_COMO_FORMA_DE_VIDA.pdf",
+    year: 2020,
     language: "Español",
-    pages: 150,
-    description: "Obra esencial de Musonio Rufo & Epicteto centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-tabla_de_cebes__disertaciones_de_mu-111.png",
-    downloads: 284,
+    pages: 269,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-hadot__la_filosof_a_como_forma_de_v-52.png",
+    downloads: 292,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Alegórico & Moral",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Amor Fati",
+        "Ciudadela Interior",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Tabla de Cebes y Disertaciones Estoicas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: HADOT. LA Filosofía COMO FORMA DE VIDA aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -5559,18 +5565,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2032,
-    title: "Como Estudiar Y Aprender Mas Y Mejor En Menos Tiempo",
-    author: "Richard Fenker",
+    id: 2253,
+    title: "Los Siete Habitos Para Dirigir Tu Vida",
+    author: "Jose M. Acosta",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2032_como-estudiar-y-aprender-mas-y-mejor-en-menos-tiem.pdf",
-    pages: 77,
-    year: 2014,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2253_los-siete-habitos-para-dirigir-tu-vida-jose-m-acos.pdf",
+    pages: 45,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como estudiar y aprender mas y mejor en menos tiempo por Richard Fenker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-estudiar-y-aprender-mas-y-mejor-en-menos-tiempo-richard.jpg",
-    downloads: 457,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre los siete habitos para dirigir tu vida por Jose M. Acosta. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-los-siete-habitos-para-dirigir-tu-vida-jose-m-acosta.jpg",
+    downloads: 496,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -5587,30 +5593,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1414,
-    title: "cómo curar un corazón roto - Gaby Pérez Islas",
-    author: "Selección Bibliotyan",
+    id: 1512,
+    title: "Tabla de Cebes y Disertaciones Estoicas",
+    author: "Musonio Rufo & Epicteto",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1414_C_mo_curar_un_coraz_n_roto_-_Gaby_P_rez_Islas.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1512_TABLA_DE_CEBES_DISERTACIONES_DE_MUSONIO_RUFO_Y_DE_EPICTETO.pdf",
+    year: 90,
     language: "Español",
-    pages: 130,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-c_mo_curar_un_coraz_n_roto___gaby_p-14.png",
-    downloads: 218,
+    pages: 150,
+    description: "Obra esencial de Musonio Rufo & Epicteto centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-tabla_de_cebes__disertaciones_de_mu-111.png",
+    downloads: 284,
     featured: true,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Alegórico & Moral",
     keyConcepts: [
         "Dicotomía del Control",
-        "Ciudadela Interior",
+        "Amor Fati",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: cómo curar un corazón roto - Gaby Pérez Islas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Tabla de Cebes y Disertaciones Estoicas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -5920,18 +5926,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2028,
-    title: "Como Construir La Autodisciplina",
-    author: "Martin Meadows",
+    id: 2032,
+    title: "Como Estudiar Y Aprender Mas Y Mejor En Menos Tiempo",
+    author: "Richard Fenker",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2028_como-construir-la-autodisciplina-martin-meadows.pdf",
-    pages: 208,
-    year: 2022,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2032_como-estudiar-y-aprender-mas-y-mejor-en-menos-tiem.pdf",
+    pages: 77,
+    year: 2014,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como construir la autodisciplina por Martin Meadows. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-como-construir-la-autodisciplina-martin-meadows.jpg",
-    downloads: 452,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como estudiar y aprender mas y mejor en menos tiempo por Richard Fenker. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-estudiar-y-aprender-mas-y-mejor-en-menos-tiempo-richard.jpg",
+    downloads: 457,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -5948,32 +5954,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2181,
-    title: "Inteligencia Espiritual En La Practica",
-    author: "David Fischman",
+    id: 1414,
+    title: "cómo curar un corazón roto - Gaby Pérez Islas",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2181_inteligencia-espiritual-en-la-practica-david-fisch.pdf",
-    pages: 151,
-    year: 2009,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1414_C_mo_curar_un_coraz_n_roto_-_Gaby_P_rez_Islas.pdf",
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual en la practica por David Fischman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-inteligencia-espiritual-en-la-practica-david-fischman.jpg",
-    downloads: 835,
-    featured: false,
+    pages: 130,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-c_mo_curar_un_coraz_n_roto___gaby_p-14.png",
+    downloads: 218,
+    featured: true,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Dicotomía del Control",
+        "Ciudadela Interior",
+        "Ataraxia"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: cómo curar un corazón roto - Gaby Pérez Islas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    }
   },
   {
     id: 2029,
@@ -6281,18 +6286,18 @@ const BOOKS = [
     }
   },
   {
-    id: 2168,
-    title: "Guia De Habitos Inteligentes",
-    author: "I. C. Robledo",
+    id: 2028,
+    title: "Como Construir La Autodisciplina",
+    author: "Martin Meadows",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2168_guia-de-habitos-inteligentes-i-c-robledo.pdf",
-    pages: 45,
-    year: 2021,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2028_como-construir-la-autodisciplina-martin-meadows.pdf",
+    pages: 208,
+    year: 2022,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre guia de habitos inteligentes por I. C. Robledo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-guia-de-habitos-inteligentes-i-c-robledo.jpg",
-    downloads: 439,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre como construir la autodisciplina por Martin Meadows. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-como-construir-la-autodisciplina-martin-meadows.jpg",
+    downloads: 452,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -6309,18 +6314,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2101,
-    title: "El Hombre En Busca De Sentido",
-    author: "Viktor Frankl",
+    id: 2181,
+    title: "Inteligencia Espiritual En La Practica",
+    author: "David Fischman",
     category: "Espiritualidad & sabiduría",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2101_el-hombre-en-busca-de-sentido-viktor-frankl.pdf",
-    pages: 46,
-    year: 2010,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2181_inteligencia-espiritual-en-la-practica-david-fisch.pdf",
+    pages: 151,
+    year: 2009,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el hombre en busca de sentido por Viktor Frankl. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-hombre-en-busca-de-sentido-viktor-frankl.jpg",
-    downloads: 669,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual en la practica por David Fischman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-inteligencia-espiritual-en-la-practica-david-fischman.jpg",
+    downloads: 835,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -6641,47 +6646,46 @@ const BOOKS = [
     }
   },
   {
-    id: 204,
-    title: "Organízate con Eficacia (GTD)",
-    author: "David Allen",
+    id: 2168,
+    title: "Guia De Habitos Inteligentes",
+    author: "I. C. Robledo",
     category: "Productividad & Hábitos",
-    collection: "Bestsellers",
-    format: "dual",
-    year: 2016,
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2168_guia-de-habitos-inteligentes-i-c-robledo.pdf",
+    pages: 45,
+    year: 2021,
     language: "Español",
-    pages: 360,
-    description: "El método de productividad personal más aclamado internacionalmente (Getting Things Done). Allen demuestra que la mente debe usarse para tener ideas, no para retenerlas, enseñando a vaciar la mente mediante un sistema fiable de bandejas de entrada, listas de acciones y revisiones periódicas.",
-    cover: "covers/organizate-con-eficacia.jpg",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b204_organizate-con-eficacia-david-allen.pdf",
-    epub: "pdfs/epubs/organizate-con-eficacia-david-allen.epub",
-    downloads: 410,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre guia de habitos inteligentes por I. C. Robledo. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-guia-de-habitos-inteligentes-i-c-robledo.jpg",
+    downloads: 439,
     featured: false,
     aiAnalysis: {
-    genre: "Metodología GTD & Organización",
-    vibe: "Estructurado & Eficiente",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Vaciar la Mente",
-        "Procesamiento de Acciones",
-        "Contextos",
-        "Revisión Semanal"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Profesionales y creativos con múltiples proyectos que necesitan orden mental sin estrés.",
-    aiSummary: "Sistema completo para capturar compromisos, estructurar tareas y trabajar con tranquilidad mental."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
-    id: 2211,
-    title: "La Sabiduria De Los Psicopatas",
-    author: "Kevin Dutton",
+    id: 2101,
+    title: "El Hombre En Busca De Sentido",
+    author: "Viktor Frankl",
     category: "Espiritualidad & sabiduría",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2211_la-sabiduria-de-los-psicopatas-kevin-dutton.pdf",
-    pages: 121,
-    year: 2011,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2101_el-hombre-en-busca-de-sentido-viktor-frankl.pdf",
+    pages: 46,
+    year: 2010,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la sabiduria de los psicopatas por Kevin Dutton. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-sabiduria-de-los-psicopatas-kevin-dutton.jpg",
-    downloads: 638,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el hombre en busca de sentido por Viktor Frankl. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-hombre-en-busca-de-sentido-viktor-frankl.jpg",
+    downloads: 669,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -7004,18 +7008,47 @@ const BOOKS = [
     }
   },
   {
-    id: 2126,
-    title: "El Octavo Habito De La Efectividad A La Grandeza",
-    author: "Stephen R. Covey",
+    id: 204,
+    title: "Organízate con Eficacia (GTD)",
+    author: "David Allen",
     category: "Productividad & Hábitos",
-    format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2126_el-octavo-habito-de-la-efectividad-a-la-grandeza-s.pdf",
-    pages: 209,
-    year: 2008,
+    collection: "Bestsellers",
+    format: "dual",
+    year: 2016,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el octavo habito de la efectividad a la grandeza por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-el-octavo-habito-de-la-efectividad-a-la-grandeza-stephen-r-c.jpg",
-    downloads: 396,
+    pages: 360,
+    description: "El método de productividad personal más aclamado internacionalmente (Getting Things Done). Allen demuestra que la mente debe usarse para tener ideas, no para retenerlas, enseñando a vaciar la mente mediante un sistema fiable de bandejas de entrada, listas de acciones y revisiones periódicas.",
+    cover: "covers/organizate-con-eficacia.jpg",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b204_organizate-con-eficacia-david-allen.pdf",
+    epub: "pdfs/epubs/organizate-con-eficacia-david-allen.epub",
+    downloads: 410,
+    featured: false,
+    aiAnalysis: {
+    genre: "Metodología GTD & Organización",
+    vibe: "Estructurado & Eficiente",
+    keyConcepts: [
+        "Vaciar la Mente",
+        "Procesamiento de Acciones",
+        "Contextos",
+        "Revisión Semanal"
+      ],
+    targetAudience: "Profesionales y creativos con múltiples proyectos que necesitan orden mental sin estrés.",
+    aiSummary: "Sistema completo para capturar compromisos, estructurar tareas y trabajar con tranquilidad mental."
+    }
+  },
+  {
+    id: 2211,
+    title: "La Sabiduria De Los Psicopatas",
+    author: "Kevin Dutton",
+    category: "Espiritualidad & sabiduría",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2211_la-sabiduria-de-los-psicopatas-kevin-dutton.pdf",
+    pages: 121,
+    year: 2011,
+    language: "Español",
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la sabiduria de los psicopatas por Kevin Dutton. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-sabiduria-de-los-psicopatas-kevin-dutton.jpg",
+    downloads: 638,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -7030,33 +7063,6 @@ const BOOKS = [
     aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
     },
     collection: "Colección Emprendedores"
-  },
-  {
-    id: 1487,
-    title: "Matar a Sócrates . Gregorio Luri",
-    author: "Selección Bibliotyan",
-    category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1487_Matar_a_S_crates_._Gregorio_Luri.pdf",
-    year: 2020,
-    language: "Español",
-    pages: 249,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-matar_a_s_crates___gregorio_luri-85.png",
-    downloads: 499,
-    featured: false,
-    aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
-    keyConcepts: [
-        "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
-      ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Matar a Sócrates . Gregorio Luri aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
-    }
   },
   {
     id: 2151,
@@ -7364,18 +7370,18 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 2199,
-    title: "La Guia De Habitos Exitosos",
-    author: "J. Santiago",
+    id: 2126,
+    title: "El Octavo Habito De La Efectividad A La Grandeza",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2199_la-guia-de-habitos-exitosos-j-santiago.pdf",
-    pages: 45,
-    year: 2016,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2126_el-octavo-habito-de-la-efectividad-a-la-grandeza-s.pdf",
+    pages: 209,
+    year: 2008,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la guia de habitos exitosos por J. Santiago. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-la-guia-de-habitos-exitosos-j-santiago.jpg",
-    downloads: 350,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre el octavo habito de la efectividad a la grandeza por Stephen R. Covey. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-el-octavo-habito-de-la-efectividad-a-la-grandeza-stephen-r-c.jpg",
+    downloads: 396,
     featured: false,
     aiAnalysis: {
     genre: "Emprendimiento & Negocios",
@@ -7392,30 +7398,33 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1468,
-    title: "La Educación del Estoico",
-    author: "Fernando Pessoa (Barón de Teive)",
+    id: 2594,
+    title: "Quiromancia: El destino y la suerte en la palma de la mano",
+    author: "Francis King",
     category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
+    subtopic: "Sabiduría Ancestral y Simbolismo",
+    collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1468_La_educacion_del_estoico_-_Fernando_Pessoa.pdf.pdf",
-    year: 1928,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2594_quiromancia-francis-king.pdf",
+    pages: 91,
+    year: 1980,
     language: "Español",
-    pages: 292,
-    description: "Obra esencial de Fernando Pessoa (Barón de Teive) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-la_educacion_del_estoico___fernando-65.png",
-    downloads: 496,
+    description: "Tratado clásico e ilustrado sobre el arte tradicional de la lectura de manos. Francis King examina la morfología de la palma, los montes planetarios y las líneas mayores y menores para descifrar rasgos del temperamento, talentos ocultos y tendencias vitales.",
+    cover: "covers/c-2594-quiromancia-francis-king.png",
+    downloads: 612,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Melancólico & Lúcido",
+    vibe: "Místico & Simbólico",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Ciudadela Interior",
-        "Ataraxia"
+        "Lectura de Manos",
+        "Montes Planetarios",
+        "Línea de la Vida",
+        "Línea del Corazón",
+        "Temperamento y Carácter"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: La Educación del Estoico aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    targetAudience: "Lectores interesados en el esoterismo tradicional, la simbología corporal y el autoconocimiento intuitivo.",
+    aiSummary: "Guía clásica y rigurosa sobre quiromancia occidental, con ilustraciones detalladas que enseñan a interpretar las marcas, líneas y relieves de la mano humana."
     }
   },
   {
@@ -7723,58 +7732,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1012,
-    title: "Ponte en Forma Sin Perder el Tiempo",
-    author: "Selección Bibliotyan",
+    id: 2199,
+    title: "La Guia De Habitos Exitosos",
+    author: "J. Santiago",
     category: "Productividad & Hábitos",
-    collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1012_Ponte_en_forma_sin_perder_el_tiempo.pdf",
-    year: 2017,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2199_la-guia-de-habitos-exitosos-j-santiago.pdf",
+    pages: 45,
+    year: 2016,
     language: "Español",
-    pages: 416,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-ponte-en-forma-sin-perder-el-tiempo.png",
-    downloads: 339,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre la guia de habitos exitosos por J. Santiago. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-la-guia-de-habitos-exitosos-j-santiago.jpg",
+    downloads: 350,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
-    id: 1486,
-    title: "más Platón y menos Prozac",
+    id: 1487,
+    title: "Matar a Sócrates . Gregorio Luri",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "pdfs/La Gran Biblioteca Estoica/más Platón y menos Prozac.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1487_Matar_a_S_crates_._Gregorio_Luri.pdf",
     year: 2020,
     language: "Español",
-    pages: 299,
+    pages: 249,
     description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-m_s_plat_n_y_menos_prozac-84.png",
-    downloads: 482,
+    cover: "covers/c-est-matar_a_s_crates___gregorio_luri-85.png",
+    downloads: 499,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
     vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Dicotomía del Control",
         "Ciudadela Interior",
-        "Ataraxia"
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: más Platón y menos Prozac aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Matar a Sócrates . Gregorio Luri aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8027,19 +8036,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1011,
-    title: "Los 7 Habitos de la Gente Altamente Efectiva",
-    author: "Stephen R. Covey",
+    id: 1012,
+    title: "Ponte en Forma Sin Perder el Tiempo",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1011_LOS_7_HABITOS_DE_LA_GENTE_ALTAMENTE_EFECTIVA_-_STEPHEN_R._COVEY.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1012_Ponte_en_forma_sin_perder_el_tiempo.pdf",
+    year: 2017,
     language: "Español",
-    pages: 403,
+    pages: 416,
     description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-los-7-habitos-de-la-gente-altamente-efectiva-stephen.png",
-    downloads: 332,
+    cover: "covers/c-ponte-en-forma-sin-perder-el-tiempo.png",
+    downloads: 339,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -8055,30 +8064,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1429,
-    title: "El Arte de Vivir como un Estoico",
-    author: "David Fideler",
+    id: 1468,
+    title: "La Educación del Estoico",
+    author: "Fernando Pessoa (Barón de Teive)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1429_El_arte_de_vivir_como_un_estoico.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1468_La_educacion_del_estoico_-_Fernando_Pessoa.pdf.pdf",
+    year: 1928,
     language: "Español",
-    pages: 27,
-    description: "Obra esencial de David Fideler centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-el_arte_de_vivir_como_un_estoico-29.png",
-    downloads: 473,
+    pages: 292,
+    description: "Obra esencial de Fernando Pessoa (Barón de Teive) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-la_educacion_del_estoico___fernando-65.png",
+    downloads: 496,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Humanista & Profundo",
+    vibe: "Melancólico & Lúcido",
     keyConcepts: [
-        "Ciudadela Interior",
         "Dicotomía del Control",
-        "Memento Mori"
+        "Ciudadela Interior",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: El Arte de Vivir como un Estoico aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: La Educación del Estoico aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8332,20 +8341,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1010,
-    title: "El Poder del Desorden",
-    author: "Tim Harford",
+    id: 1011,
+    title: "Los 7 Habitos de la Gente Altamente Efectiva",
+    author: "Stephen R. Covey",
     category: "Productividad & Hábitos",
     collection: "General",
-    format: "dual",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1010_El_poder_del_desorden_-_Tim_Harford.pdf",
-    epub: "pdfs/epubs/el-poder-del-desorden-tim-harford.epub",
-    year: 2015,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1011_LOS_7_HABITOS_DE_LA_GENTE_ALTAMENTE_EFECTIVA_-_STEPHEN_R._COVEY.pdf",
+    year: 2016,
     language: "Español",
-    pages: 390,
+    pages: 403,
     description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-el-poder-del-desorden-tim-harford.png",
-    downloads: 325,
+    cover: "covers/c-los-7-habitos-de-la-gente-altamente-efectiva-stephen.png",
+    downloads: 332,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -8361,30 +8369,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1410,
-    title: "Los Filósofos Estoicos: Ontología, lógica y Ética",
-    author: "Marcelo D. Boeri & Ricardo Salles",
+    id: 1486,
+    title: "más Platón y menos Prozac",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1410_Boeri_Salles._Los_fil_sofos_estoicos-ontolog_a_l_gica_y_tica.pdf",
-    year: 2014,
+    pdf: "pdfs/La Gran Biblioteca Estoica/más Platón y menos Prozac.pdf",
+    year: 2020,
     language: "Español",
-    pages: 446,
-    description: "Obra esencial de Marcelo D. Boeri & Ricardo Salles centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-boeri___salles__los_fil_sofos_estoi-10.png",
-    downloads: 470,
+    pages: 299,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-m_s_plat_n_y_menos_prozac-84.png",
+    downloads: 482,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Académico & Riguroso",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Amor Fati",
+        "Ciudadela Interior",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Los Filósofos Estoicos: Ontología, lógica y Ética aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: más Platón y menos Prozac aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8637,58 +8645,59 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1327,
-    title: "Redes Neuronales Guia Sencilla",
-    author: "Selección Bibliotyan",
+    id: 1010,
+    title: "El Poder del Desorden",
+    author: "Tim Harford",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/REDES_NEURONALES__Guia_Sencilla.epub",
-    year: 2024,
+    collection: "General",
+    format: "dual",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1010_El_poder_del_desorden_-_Tim_Harford.pdf",
+    epub: "pdfs/epubs/el-poder-del-desorden-tim-harford.epub",
+    year: 2015,
     language: "Español",
-    pages: 257,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-redes-neuronales-guia-sencilla.jpeg",
-    downloads: 323,
+    pages: 390,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-el-poder-del-desorden-tim-harford.png",
+    downloads: 325,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1485,
-    title: "Manual de Epicteto (Edición Ilustrada)",
-    author: "Epicteto",
+    id: 1429,
+    title: "El Arte de Vivir como un Estoico",
+    author: "David Fideler",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "pdfs/La Gran Biblioteca Estoica/manual-de-epicteto-ilustrado.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1429_El_arte_de_vivir_como_un_estoico.pdf",
+    year: 2022,
     language: "Español",
-    pages: 243,
-    description: "Obra esencial de Epicteto centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-manual_de_epicteto_ilustrado-83.png",
-    downloads: 465,
+    pages: 27,
+    description: "Obra esencial de David Fideler centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-el_arte_de_vivir_como_un_estoico-29.png",
+    downloads: 473,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Visual & Sabio",
+    vibe: "Humanista & Profundo",
     keyConcepts: [
         "Ciudadela Interior",
-        "Virtud como Bien Supremo",
+        "Dicotomía del Control",
         "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Manual de Epicteto (Edición Ilustrada) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: El Arte de Vivir como un Estoico aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -8914,58 +8923,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1009,
-    title: "Eficacia Ejecutiva",
+    id: 1327,
+    title: "Redes Neuronales Guia Sencilla",
     author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1009_Eficacia_ejecutiva.pdf",
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/REDES_NEURONALES__Guia_Sencilla.epub",
     year: 2024,
     language: "Español",
-    pages: 377,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-eficacia-ejecutiva.png",
-    downloads: 318,
+    pages: 257,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-redes-neuronales-guia-sencilla.jpeg",
+    downloads: 323,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
-    id: 1447,
-    title: "Estoicismo Cotidiano (Edición Digital)",
-    author: "Ryan Holiday & Stephen Hanselman",
+    id: 1410,
+    title: "Los Filósofos Estoicos: Ontología, lógica y Ética",
+    author: "Marcelo D. Boeri & Ricardo Salles",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1447_Estoicismo_cotidiano_Ryan_Holiday.epub",
-    year: 2016,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1410_Boeri_Salles._Los_fil_sofos_estoicos-ontolog_a_l_gica_y_tica.pdf",
+    year: 2014,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Ryan Holiday & Stephen Hanselman centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-estoicismo_cotidiano_ryan_holiday-125.jpg",
-    downloads: 459,
+    pages: 446,
+    description: "Obra esencial de Marcelo D. Boeri & Ricardo Salles centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-boeri___salles__los_fil_sofos_estoi-10.png",
+    downloads: 470,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Diario & Reflexivo",
+    vibe: "Académico & Riguroso",
     keyConcepts: [
-        "Ciudadela Interior",
         "Dicotomía del Control",
-        "Memento Mori"
+        "Amor Fati",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Estoicismo Cotidiano (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Los Filósofos Estoicos: Ontología, lógica y Ética aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9191,58 +9200,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1326,
-    title: "Productividad Personal Aprende",
-    author: "Jose Miguel Bolivar",
+    id: 1009,
+    title: "Eficacia Ejecutiva",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Productividad Personal_ Aprende - Jose Miguel Bolivar.epub",
-    year: 2023,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1009_Eficacia_ejecutiva.pdf",
+    year: 2024,
     language: "Español",
-    pages: 246,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-productividad-personal-aprende-jose-miguel-bolivar.jpg",
-    downloads: 314,
+    pages: 377,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-eficacia-ejecutiva.png",
+    downloads: 318,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1503,
-    title: "Psicología Oscura: Secretos de persuasión y manipulación Psicológica",
-    author: "S. L. Moore",
+    id: 1485,
+    title: "Manual de Epicteto (Edición Ilustrada)",
+    author: "Epicteto",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1503_psicologia-oscura-s-l-moore.pdf",
-    year: 2020,
+    pdf: "pdfs/La Gran Biblioteca Estoica/manual-de-epicteto-ilustrado.pdf",
+    year: 2019,
     language: "Español",
-    pages: 58,
-    description: "Obra esencial de S. L. Moore centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-psicologia_oscura_s_l_moore-102.png",
-    downloads: 451,
+    pages: 243,
+    description: "Obra esencial de Epicteto centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-manual_de_epicteto_ilustrado-83.png",
+    downloads: 465,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Analítico & Cautelar",
+    vibe: "Visual & Sabio",
     keyConcepts: [
         "Ciudadela Interior",
         "Virtud como Bien Supremo",
         "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Psicología Oscura: Secretos de persuasión y manipulación Psicológica aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Manual de Epicteto (Edición Ilustrada) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9468,58 +9477,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1008,
-    title: "Desarrollo Organizacional. Principios y Aplicaciones",
-    author: "Selección Bibliotyan",
+    id: 1326,
+    title: "Productividad Personal Aprende",
+    author: "Jose Miguel Bolivar",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1008_Desarrollo_organizacional._Principios_y_aplicaciones.pdf",
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Productividad Personal_ Aprende - Jose Miguel Bolivar.epub",
     year: 2023,
     language: "Español",
-    pages: 364,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-desarrollo-organizacional-principios-y-aplicaciones.png",
-    downloads: 311,
+    pages: 246,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-productividad-personal-aprende-jose-miguel-bolivar.jpg",
+    downloads: 314,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
-    id: 1465,
-    title: "Invicto Logra más, Sufre Menos de Marcos Vázquez",
-    author: "Selección Bibliotyan",
+    id: 1447,
+    title: "Estoicismo Cotidiano (Edición Digital)",
+    author: "Ryan Holiday & Stephen Hanselman",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1465_Invicto_Logra_M_s_Sufre_Menos_de_Marcos_V_zquez.pdf",
-    year: 2020,
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1447_Estoicismo_cotidiano_Ryan_Holiday.epub",
+    year: 2016,
     language: "Español",
-    pages: 255,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-invicto_logra_m_s__sufre_menos_de_m-61.png",
-    downloads: 445,
+    pages: 240,
+    description: "Obra esencial de Ryan Holiday & Stephen Hanselman centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-estoicismo_cotidiano_ryan_holiday-125.jpg",
+    downloads: 459,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Diario & Reflexivo",
     keyConcepts: [
         "Ciudadela Interior",
         "Dicotomía del Control",
         "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Invicto Logra más, Sufre Menos de Marcos Vázquez aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Estoicismo Cotidiano (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -9745,58 +9754,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1325,
-    title: "Productividad Personal en una S",
-    author: "Jeronimo Sanchez",
+    id: 1008,
+    title: "Desarrollo Organizacional. Principios y Aplicaciones",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Productividad personal en una s - Jeronimo Sanchez.epub",
-    year: 2022,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1008_Desarrollo_organizacional._Principios_y_aplicaciones.pdf",
+    year: 2023,
     language: "Español",
-    pages: 235,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-productividad-personal-en-una-s-jeronimo-sanchez.jpg",
-    downloads: 305,
+    pages: 364,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-desarrollo-organizacional-principios-y-aplicaciones.png",
+    downloads: 311,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1446,
-    title: "Estoicismo sin Rodeos",
-    author: "Ollie Snider",
+    id: 1503,
+    title: "Psicología Oscura: Secretos de persuasión y manipulación Psicológica",
+    author: "S. L. Moore",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1446_Estoicismo_sin_rodeos_-_Ollie_Snider.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1503_psicologia-oscura-s-l-moore.pdf",
+    year: 2020,
     language: "Español",
-    pages: 312,
-    description: "Obra esencial de Ollie Snider centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-estoicismo_sin_rodeos___ollie_snide-44.png",
-    downloads: 442,
+    pages: 58,
+    description: "Obra esencial de S. L. Moore centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-psicologia_oscura_s_l_moore-102.png",
+    downloads: 451,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Directo & Realista",
+    vibe: "Analítico & Cautelar",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Ciudadela Interior",
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Estoicismo sin Rodeos aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Psicología Oscura: Secretos de persuasión y manipulación Psicológica aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -10022,58 +10031,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1006,
-    title: "Covey R. Stephen",
-    author: "El 8.º Habito",
+    id: 1325,
+    title: "Productividad Personal en una S",
+    author: "Jeronimo Sanchez",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1006_Covey_R._Stephen_-_EL_8_HABITO.pdf",
-    year: 2021,
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Productividad personal en una s - Jeronimo Sanchez.epub",
+    year: 2022,
     language: "Español",
-    pages: 338,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-covey-r-stephen-el-8-habito.png",
-    downloads: 297,
+    pages: 235,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-productividad-personal-en-una-s-jeronimo-sanchez.jpg",
+    downloads: 305,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
-    id: 1408,
-    title: "Aprender a Pensar",
-    author: "Lucio Anneo Séneca",
+    id: 1465,
+    title: "Invicto Logra más, Sufre Menos de Marcos Vázquez",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1408_Aprender_a_pensar_-Seneca.pdf",
-    year: 65,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1465_Invicto_Logra_M_s_Sufre_Menos_de_Marcos_V_zquez.pdf",
+    year: 2020,
     language: "Español",
-    pages: 142,
-    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-aprender_a_pensar__seneca-8.png",
-    downloads: 436,
+    pages: 255,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-invicto_logra_m_s__sufre_menos_de_m-61.png",
+    downloads: 445,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Estoico & Formativo",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Dicotomía del Control",
         "Ciudadela Interior",
-        "Ataraxia"
+        "Dicotomía del Control",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Aprender a Pensar aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Invicto Logra más, Sufre Menos de Marcos Vázquez aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -10299,58 +10308,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1324,
-    title: "Principios",
-    author: "Ray Dalio",
+    id: 1006,
+    title: "Covey R. Stephen",
+    author: "El 8.º Habito",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Principios - Ray Dalio.epub",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1006_Covey_R._Stephen_-_EL_8_HABITO.pdf",
     year: 2021,
     language: "Español",
-    pages: 224,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-principios-ray-dalio.jpeg",
-    downloads: 296,
+    pages: 338,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-covey-r-stephen-el-8-habito.png",
+    downloads: 297,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1502,
-    title: "Piensa como un Emperador Romano: La Filosofía estoica de Marco Aurelio",
-    author: "Donald Robertson",
+    id: 1446,
+    title: "Estoicismo sin Rodeos",
+    author: "Ollie Snider",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1502_Piensa_como_un_emperador_romano._Robertson.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1446_Estoicismo_sin_rodeos_-_Ollie_Snider.pdf",
+    year: 2022,
     language: "Español",
-    pages: 235,
-    description: "Obra esencial de Donald Robertson centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-piensa_como_un_emperador_romano__ro-100.png",
-    downloads: 434,
+    pages: 312,
+    description: "Obra esencial de Ollie Snider centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-estoicismo_sin_rodeos___ollie_snide-44.png",
+    downloads: 442,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Terapia Cognitiva & Estoicismo",
+    vibe: "Directo & Realista",
     keyConcepts: [
         "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Amor Fati",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Piensa como un Emperador Romano: La Filosofía estoica de Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Estoicismo sin Rodeos aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -10576,58 +10585,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1005,
-    title: "Comportamiento Organizacional (ivancevich Et Al.)",
-    author: "Selección Bibliotyan",
+    id: 1324,
+    title: "Principios",
+    author: "Ray Dalio",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1005_Comportamiento_organizacional_Ivancevich_et_al._.pdf",
-    year: 2020,
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Principios - Ray Dalio.epub",
+    year: 2021,
     language: "Español",
-    pages: 325,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-comportamiento-organizacional-ivancevich-et-al.png",
-    downloads: 290,
+    pages: 224,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-principios-ray-dalio.jpeg",
+    downloads: 296,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
-    id: 1464,
-    title: "Introducción a la sabiduría Autor Juan Luís Vives",
-    author: "Selección Bibliotyan",
+    id: 1408,
+    title: "Aprender a Pensar",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1464_Introducci_n_a_la_Sabidur_a_Autor_Juan_Lu_s_Vives.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1408_Aprender_a_pensar_-Seneca.pdf",
+    year: 65,
     language: "Español",
-    pages: 48,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-introducci_n_a_la_sabidur_a_autor_j-60.png",
-    downloads: 428,
+    pages: 142,
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-aprender_a_pensar__seneca-8.png",
+    downloads: 436,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Estoico & Formativo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Amor Fati",
+        "Ciudadela Interior",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Introducción a la sabiduría Autor Juan Luís Vives aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Aprender a Pensar aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -10854,58 +10863,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 206,
-    title: "Ultraproductividad: Trabajar menos, producir más, vivir mejor",
-    author: "Isra García",
+    id: 1005,
+    title: "Comportamiento Organizacional (ivancevich Et Al.)",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "Productividad",
-    format: "epub",
-    year: 2018,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1005_Comportamiento_organizacional_Ivancevich_et_al._.pdf",
+    year: 2020,
     language: "Español",
-    pages: 240,
-    description: "Un compendio de técnicas de alto rendimiento, biohacking, microhábitos y disciplina implacable aplicadas por el consultor e inconformista Isra García para maximizar la energía física y mental en cada jornada.",
-    cover: "covers/ultraproductividad.jpg",
-    epub: "pdfs/epubs/ultraproductividad-isra-garcia.epub",
+    pages: 325,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-comportamiento-organizacional-ivancevich-et-al.png",
     downloads: 290,
     featured: false,
     aiAnalysis: {
-    genre: "Alto Rendimiento & Hábitos",
-    vibe: "Intenso & Disruptivo",
+    genre: "Productividad & Hábitos",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Microhábitos",
-        "Alto Rendimiento",
-        "Optimización de energía",
-        "Autodisciplina"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Emprendedores y personas orientadas a la superación extrema de límites cotidianos.",
-    aiSummary: "Metodología no convencional para multiplicar el impacto personal mediante la disciplina consciente."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1445,
-    title: "Estoicismo para Principiantes (Edición Digital EPUB)",
-    author: "José Villa",
+    id: 1502,
+    title: "Piensa como un Emperador Romano: La Filosofía estoica de Marco Aurelio",
+    author: "Donald Robertson",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1445_Estoicismo_para_Principiantes._-_Villa_Jose.epub",
-    year: 2021,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1502_Piensa_como_un_emperador_romano._Robertson.pdf",
+    year: 2019,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de José Villa centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-estoicismo_para_principiantes____vi-124.jpg",
-    downloads: 425,
+    pages: 235,
+    description: "Obra esencial de Donald Robertson centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-piensa_como_un_emperador_romano__ro-100.png",
+    downloads: 434,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Iniciación & Claridad",
+    vibe: "Terapia Cognitiva & Estoicismo",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Dicotomía del Control",
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Estoicismo para Principiantes: Guía práctica para una vida resiliente aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Piensa como un Emperador Romano: La Filosofía estoica de Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -11132,58 +11141,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1323,
-    title: "Organizate con Eficacia",
-    author: "Allen David",
+    id: 206,
+    title: "Ultraproductividad: Trabajar menos, producir más, vivir mejor",
+    author: "Isra García",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
+    collection: "Productividad",
     format: "epub",
-    epub: "pdfs/epubs/Organizate Con Eficacia - Allen David.epub",
-    year: 2020,
+    year: 2018,
     language: "Español",
-    pages: 213,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-organizate-con-eficacia-allen-david.jpeg",
-    downloads: 287,
+    pages: 240,
+    description: "Un compendio de técnicas de alto rendimiento, biohacking, microhábitos y disciplina implacable aplicadas por el consultor e inconformista Isra García para maximizar la energía física y mental en cada jornada.",
+    cover: "covers/ultraproductividad.jpg",
+    epub: "pdfs/epubs/ultraproductividad-isra-garcia.epub",
+    downloads: 290,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    genre: "Alto Rendimiento & Hábitos",
+    vibe: "Intenso & Disruptivo",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Microhábitos",
+        "Alto Rendimiento",
+        "Optimización de energía",
+        "Autodisciplina"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Emprendedores y personas orientadas a la superación extrema de límites cotidianos.",
+    aiSummary: "Metodología no convencional para multiplicar el impacto personal mediante la disciplina consciente."
     }
   },
   {
-    id: 1426,
-    title: "Ecos Estoicos: Mantras para forjar una mentalidad inquebrantable",
-    author: "Pedro Vivar Núñez",
+    id: 1464,
+    title: "Introducción a la sabiduría Autor Juan Luís Vives",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1426_Ecos_estoicos._Los_mantras_que_han_acompa_ado_a_las_mentes_estoicas_durante_toda_la_historia_by_Pedro_Vivar_N_ez_z-lib.org_.pdf",
-    year: 2023,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1464_Introducci_n_a_la_Sabidur_a_Autor_Juan_Lu_s_Vives.pdf",
+    year: 2020,
     language: "Español",
-    pages: 334,
-    description: "Obra esencial de Pedro Vivar Núñez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-ecos_estoicos__los_mantras_que_han_-26.png",
-    downloads: 422,
+    pages: 48,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-introducci_n_a_la_sabidur_a_autor_j-60.png",
+    downloads: 428,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Motivador & Resiliente",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Ciudadela Interior",
+        "Amor Fati",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Ecos Estoicos: Mantras para forjar una mentalidad inquebrantable aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Introducción a la sabiduría Autor Juan Luís Vives aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -11411,58 +11420,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1004,
-    title: "Como",
-    author: "Gestionar Las Redes Sociales Rdstatio Gosocial",
+    id: 1323,
+    title: "Organizate con Eficacia",
+    author: "Allen David",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1004_como-gestionar-las-redes-sociales-RDStatio-GoSocial.pdf",
-    year: 2019,
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Organizate Con Eficacia - Allen David.epub",
+    year: 2020,
     language: "Español",
-    pages: 312,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-como-gestionar-las-redes-sociales-rdstatio-gosocial.png",
-    downloads: 283,
+    pages: 213,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-organizate-con-eficacia-allen-david.jpeg",
+    downloads: 287,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
-    id: 1482,
-    title: "Los Estoicos: Epicteto, Séneca, Marco Aurelio",
-    author: "Selección Clásica",
+    id: 1445,
+    title: "Estoicismo para Principiantes (Edición Digital EPUB)",
+    author: "José Villa",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1482_Los_estoicos_libro.pdf",
-    year: 2015,
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1445_Estoicismo_para_Principiantes._-_Villa_Jose.epub",
+    year: 2021,
     language: "Español",
-    pages: 184,
-    description: "Obra esencial de Selección Clásica centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-los_estoicos_libro-80.png",
-    downloads: 414,
+    pages: 240,
+    description: "Obra esencial de José Villa centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-estoicismo_para_principiantes____vi-124.jpg",
+    downloads: 425,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Antología Esencial",
+    vibe: "Iniciación & Claridad",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Ciudadela Interior",
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Los Estoicos: Epicteto, Séneca, Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Estoicismo para Principiantes: Guía práctica para una vida resiliente aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -11689,19 +11698,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1003,
-    title: "Big Data Analisis",
-    author: "Grandes Volumenes de Datos En Organizaciones",
+    id: 1004,
+    title: "Como",
+    author: "Gestionar Las Redes Sociales Rdstatio Gosocial",
     category: "Productividad & Hábitos",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1003_Big_Data_analisis_de_grandes_volumenes_de_datos_en_organizaciones.pdf",
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1004_como-gestionar-las-redes-sociales-RDStatio-GoSocial.pdf",
+    year: 2019,
     language: "Español",
-    pages: 299,
+    pages: 312,
     description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-big-data-analisis-de-grandes-volumenes-de-datos-en-or.png",
-    downloads: 276,
+    cover: "covers/c-como-gestionar-las-redes-sociales-rdstatio-gosocial.png",
+    downloads: 283,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -11717,30 +11726,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1444,
-    title: "Estoicismo para Principiantes: Guía práctica para una vida resiliente",
-    author: "José Villa",
+    id: 1426,
+    title: "Ecos Estoicos: Mantras para forjar una mentalidad inquebrantable",
+    author: "Pedro Vivar Núñez",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1444_Estoicismo_para_Principiantes_Gu_a_Pr_ctica_-_Jose_Villa.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1426_Ecos_estoicos._Los_mantras_que_han_acompa_ado_a_las_mentes_estoicas_durante_toda_la_historia_by_Pedro_Vivar_N_ez_z-lib.org_.pdf",
+    year: 2023,
     language: "Español",
-    pages: 83,
-    description: "Obra esencial de José Villa centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-estoicismo_para_principiantes_gu_a_-43.png",
-    downloads: 408,
+    pages: 334,
+    description: "Obra esencial de Pedro Vivar Núñez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-ecos_estoicos__los_mantras_que_han_-26.png",
+    downloads: 422,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Iniciación & Claridad",
+    vibe: "Motivador & Resiliente",
     keyConcepts: [
         "Dicotomía del Control",
         "Ciudadela Interior",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Estoicismo para Principiantes (Edición Digital EPUB) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Ecos Estoicos: Mantras para forjar una mentalidad inquebrantable aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -11967,60 +11976,59 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 205,
-    title: "Productividad Personal: Aprende a liberarte del estrés con GTD",
-    author: "José Miguel Bolívar",
+    id: 1003,
+    title: "Big Data Analisis",
+    author: "Grandes Volumenes de Datos En Organizaciones",
     category: "Productividad & Hábitos",
-    collection: "Productividad",
-    format: "epub",
-    year: 2017,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1003_Big_Data_analisis_de_grandes_volumenes_de_datos_en_organizaciones.pdf",
+    year: 2018,
     language: "Español",
-    pages: 280,
-    description: "Una obra de referencia en habla hispana que adapta la metodología de efectividad personal a la realidad del trabajo del conocimiento actual. Desmenuza cada fase del flujo de trabajo productivo sin tecnicismos innecesarios.",
-    cover: "covers/productividad-personal.jpg",
-    epub: "pdfs/epubs/productividad-personal-jose-bolivar.epub",
-    downloads: 270,
+    pages: 299,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-big-data-analisis-de-grandes-volumenes-de-datos-en-or.png",
+    downloads: 276,
     featured: false,
     aiAnalysis: {
-    genre: "Efectividad Personal",
-    vibe: "Claro & Metódico",
+    genre: "Productividad & Hábitos",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Trabajo del Conocimiento",
-        "Reducción del Estrés",
-        "Hábitos Productivos",
-        "Enfoque"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Trabajadores del conocimiento y emprendedores que buscan un método paso a paso en Español.",
-    aiSummary: "Guía práctica para tomar el control de tus tareas diarias y eliminar la sensación de desborde."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 2180,
-    title: "Inteligencia Espiritual",
-    author: "Danah Zohar _ Ian Marshall",
+    id: 1482,
+    title: "Los Estoicos: Epicteto, Séneca, Marco Aurelio",
+    author: "Selección Clásica",
     category: "Espiritualidad & sabiduría",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2180_inteligencia-espiritual-danah-zohar-ian-marshall.pdf",
-    pages: 776,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1482_Los_estoicos_libro.pdf",
     year: 2015,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual por Danah Zohar _ Ian Marshall. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-inteligencia-espiritual-danah-zohar-ian-marshall.jpg",
-    downloads: 407,
+    pages: 184,
+    description: "Obra esencial de Selección Clásica centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-los_estoicos_libro-80.png",
+    downloads: 414,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Antología Esencial",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Dicotomía del Control",
+        "Amor Fati",
+        "Ataraxia"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: Los Estoicos: Epicteto, Séneca, Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    }
   },
   {
     id: 1993,
@@ -12246,58 +12254,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1001,
-    title: "Habitos Inteligentes para tus Finanzas Personales el Contador",
-    author: "Selección Bibliotyan",
+    id: 205,
+    title: "Productividad Personal: Aprende a liberarte del estrés con GTD",
+    author: "José Miguel Bolívar",
     category: "Productividad & Hábitos",
-    collection: "General",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1001_23_HABITOS_INTELIGENTES_PARA_TUS_FINANZAS_PERSONALES_EL_CONTADOR.pdf",
-    year: 2016,
+    collection: "Productividad",
+    format: "epub",
+    year: 2017,
     language: "Español",
-    pages: 273,
-    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
-    cover: "covers/c-23-habitos-inteligentes-para-tus-finanzas-personales.png",
-    downloads: 262,
+    pages: 280,
+    description: "Una obra de referencia en habla hispana que adapta la metodología de efectividad personal a la realidad del trabajo del conocimiento actual. Desmenuza cada fase del flujo de trabajo productivo sin tecnicismos innecesarios.",
+    cover: "covers/productividad-personal.jpg",
+    epub: "pdfs/epubs/productividad-personal-jose-bolivar.epub",
+    downloads: 270,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    genre: "Efectividad Personal",
+    vibe: "Claro & Metódico",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Trabajo del Conocimiento",
+        "Reducción del Estrés",
+        "Hábitos Productivos",
+        "Enfoque"
       ],
-    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Trabajadores del conocimiento y emprendedores que buscan un método paso a paso en Español.",
+    aiSummary: "Guía práctica para tomar el control de tus tareas diarias y eliminar la sensación de desborde."
     }
   },
   {
-    id: 1425,
-    title: "Dispenza, Joe - Deja-de-Ser-Tú",
-    author: "Selección Bibliotyan",
+    id: 1444,
+    title: "Estoicismo para Principiantes: Guía práctica para una vida resiliente",
+    author: "José Villa",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1425_Dispenza_Joe_-_Deja-de-Ser-T_.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1444_Estoicismo_para_Principiantes_Gu_a_Pr_ctica_-_Jose_Villa.pdf",
+    year: 2021,
     language: "Español",
-    pages: 352,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-dispenza__joe___deja_de_ser_t_-25.png",
-    downloads: 405,
+    pages: 83,
+    description: "Obra esencial de José Villa centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-estoicismo_para_principiantes_gu_a_-43.png",
+    downloads: 408,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Iniciación & Claridad",
     keyConcepts: [
+        "Dicotomía del Control",
         "Ciudadela Interior",
-        "Virtud como Bien Supremo",
-        "Memento Mori"
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Dispenza, Joe - Deja-de-Ser-Tú aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Estoicismo para Principiantes (Edición Digital EPUB) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -12524,59 +12532,60 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1318,
-    title: "Focus",
-    author: "Daniel Goleman",
+    id: 1001,
+    title: "Habitos Inteligentes para tus Finanzas Personales el Contador",
+    author: "Selección Bibliotyan",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
-    format: "epub",
-    epub: "pdfs/epubs/Focus - Daniel Goleman.epub",
-    year: 2023,
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1001_23_HABITOS_INTELIGENTES_PARA_TUS_FINANZAS_PERSONALES_EL_CONTADOR.pdf",
+    year: 2016,
     language: "Español",
-    pages: 378,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/c-focus-daniel-goleman.png",
-    downloads: 242,
+    pages: 273,
+    description: "Un texto formativo de gran valor práctico centrado en productividad & hábitos. Analiza las dinámicas clave para comprender y aplicar sus lecciones con claridad en el día a día.",
+    cover: "covers/c-23-habitos-inteligentes-para-tus-finanzas-personales.png",
+    downloads: 262,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Profesionales y creadores que buscan maximizar su rendimiento diario.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
-    id: 1406,
-    title: "An Introduction to Stoicism",
-    author: "Donald Robertson",
+    id: 2180,
+    title: "Inteligencia Espiritual",
+    author: "Danah Zohar _ Ian Marshall",
     category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1406_An_Introduction_to_Stoicism.pdf",
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2180_inteligencia-espiritual-danah-zohar-ian-marshall.pdf",
+    pages: 776,
+    year: 2015,
     language: "Español",
-    pages: 54,
-    description: "Obra esencial de Donald Robertson centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-an_introduction_to_stoicism-6.png",
-    downloads: 402,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual por Danah Zohar _ Ian Marshall. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-inteligencia-espiritual-danah-zohar-ian-marshall.jpg",
+    downloads: 407,
     featured: false,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Analytical & Philosophical",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: An Introduction to Stoicism aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2106,
@@ -12802,58 +12811,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 207,
-    title: "Productividad personal en una semana",
-    author: "Jerónimo Sánchez",
+    id: 1318,
+    title: "Focus",
+    author: "Daniel Goleman",
     category: "Productividad & Hábitos",
-    collection: "Productividad",
+    collection: "E-Books",
     format: "epub",
-    year: 2019,
+    epub: "pdfs/epubs/Focus - Daniel Goleman.epub",
+    year: 2023,
     language: "Español",
-    pages: 180,
-    description: "Un curso acelerado de siete días diseñado para reordenar tu espacio de trabajo físico y digital, definir prioridades y establecer rutinas sostenibles de enfoque continuo.",
-    cover: "covers/productividad-personal-semana.jpg",
-    epub: "pdfs/epubs/productividad-personal-en-una-semana.epub",
-    downloads: 215,
+    pages: 378,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/c-focus-daniel-goleman.png",
+    downloads: 242,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad Express",
-    vibe: "Sencillo & Ágil",
+    genre: "Productividad & Hábitos",
+    vibe: "Digital & Enriquecedor",
     keyConcepts: [
-        "Rutinas de Enfoque",
-        "Organización Digital",
-        "Siete Días",
-        "Prioridades Claras"
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
       ],
-    targetAudience: "Personas que desean un cambio rápido y estructurado en su organización semanal.",
-    aiSummary: "Plan intensivo de 7 días para recuperar el tiempo perdido y estructurar tu agenda con orden."
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
     }
   },
   {
-    id: 1500,
-    title: "Coraje Bajo Fuego: Lecciones de Epicteto en el campamento de prisioneros",
-    author: "James Bond Stockdale",
+    id: 1425,
+    title: "Dispenza, Joe - Deja-de-Ser-Tú",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1500_pdf-coraje-bajo-fuego_compress.pdf",
-    year: 1993,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1425_Dispenza_Joe_-_Deja-de-Ser-T_.pdf",
+    year: 2020,
     language: "Español",
-    pages: 38,
-    description: "Obra esencial de James Bond Stockdale centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-pdf_coraje_bajo_fuego_compress-98.png",
-    downloads: 400,
+    pages: 352,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-dispenza__joe___deja_de_ser_t_-25.png",
+    downloads: 405,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Testimonio Heroico",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Ciudadela Interior",
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Coraje Bajo Fuego: Lecciones de Epicteto en el campamento de prisioneros aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Dispenza, Joe - Deja-de-Ser-Tú aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -13052,60 +13061,59 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1311,
-    title: "Bharat Anand",
-    author: "The Content Trap",
+    id: 207,
+    title: "Productividad personal en una semana",
+    author: "Jerónimo Sánchez",
     category: "Productividad & Hábitos",
-    collection: "E-Books",
+    collection: "Productividad",
     format: "epub",
-    epub: "pdfs/epubs/Bharat_Anand - The_Content_Trap.epub",
-    year: 2024,
+    year: 2019,
     language: "Español",
-    pages: 301,
-    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-bharat-anand-the-content-trap.jpg",
-    downloads: 179,
+    pages: 180,
+    description: "Un curso acelerado de siete días diseñado para reordenar tu espacio de trabajo físico y digital, definir prioridades y establecer rutinas sostenibles de enfoque continuo.",
+    cover: "covers/productividad-personal-semana.jpg",
+    epub: "pdfs/epubs/productividad-personal-en-una-semana.epub",
+    downloads: 215,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Digital & Enriquecedor",
+    genre: "Productividad Express",
+    vibe: "Sencillo & Ágil",
     keyConcepts: [
-        "Lectura Digital",
-        "EPUB",
-        "Conocimiento",
-        "Efectividad"
+        "Rutinas de Enfoque",
+        "Organización Digital",
+        "Siete Días",
+        "Prioridades Claras"
       ],
-    targetAudience: "Lectores digitales y usuarios de e-readers.",
-    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    targetAudience: "Personas que desean un cambio rápido y estructurado en su organización semanal.",
+    aiSummary: "Plan intensivo de 7 días para recuperar el tiempo perdido y estructurar tu agenda con orden."
     }
   },
   {
-    id: 2179,
-    title: "Inteligencia Espiritual",
-    author: "Dan Millman",
+    id: 1406,
+    title: "An Introduction to Stoicism",
+    author: "Donald Robertson",
     category: "Espiritualidad & sabiduría",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2179_inteligencia-espiritual-dan-millman-43-paginas.pdf",
-    pages: 45,
-    year: 2018,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1406_An_Introduction_to_Stoicism.pdf",
+    year: 2020,
     language: "Español",
-    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual por Dan Millman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
-    cover: "covers/c-emprendedores-inteligencia-espiritual-dan-millman-43-paginas.jpg",
-    downloads: 397,
+    pages: 54,
+    description: "Obra esencial de Donald Robertson centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-an_introduction_to_stoicism-6.png",
+    downloads: 402,
     featured: false,
     aiAnalysis: {
-    genre: "Emprendimiento & Negocios",
-    vibe: "Práctico & Accesible",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Analytical & Philosophical",
     keyConcepts: [
-        "Modelos de Negocio",
-        "Finanzas y Rentabilidad",
-        "Estrategia de Crecimiento",
-        "Ejecución Eficaz"
+        "Dicotomía del Control",
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
-    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
-    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
-    },
-    collection: "Colección Emprendedores"
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: An Introduction to Stoicism aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    }
   },
   {
     id: 2061,
@@ -13274,19 +13282,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1310,
-    title: "Asi Se Manipula al Consumidor",
-    author: "Martin Lindstrom (1)",
+    id: 1311,
+    title: "Bharat Anand",
+    author: "The Content Trap",
     category: "Productividad & Hábitos",
     collection: "E-Books",
     format: "epub",
-    epub: "pdfs/epubs/Asi se manipula al consumidor - Martin Lindstrom (1).epub",
-    year: 2023,
+    epub: "pdfs/epubs/Bharat_Anand - The_Content_Trap.epub",
+    year: 2024,
     language: "Español",
-    pages: 290,
+    pages: 301,
     description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/asi-se-manipula-consumidor.png",
-    downloads: 170,
+    cover: "covers/epub-bharat-anand-the-content-trap.jpg",
+    downloads: 179,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -13302,30 +13310,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1481,
-    title: "Los Estoicos Antiguos (Edición Digital)",
-    author: "Ángel J. Cappelletti",
+    id: 1500,
+    title: "Coraje Bajo Fuego: Lecciones de Epicteto en el campamento de prisioneros",
+    author: "James Bond Stockdale",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1481_Los_estoicos_antiguos.epub",
-    year: 1996,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1500_pdf-coraje-bajo-fuego_compress.pdf",
+    year: 1993,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Ángel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-los_estoicos_antiguos-127.jpg",
-    downloads: 397,
+    pages: 38,
+    description: "Obra esencial de James Bond Stockdale centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-pdf_coraje_bajo_fuego_compress-98.png",
+    downloads: 400,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Filosofía del Pórtico",
+    vibe: "Testimonio Heroico",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Dicotomía del Control",
+        "Amor Fati",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Los Estoicos Antiguos (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Coraje Bajo Fuego: Lecciones de Epicteto en el campamento de prisioneros aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -13496,19 +13504,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1333,
-    title: "Ultraproductividad",
-    author: "Isra Garcia Rodriguez",
+    id: 1310,
+    title: "Asi Se Manipula al Consumidor",
+    author: "Martin Lindstrom (1)",
     category: "Productividad & Hábitos",
     collection: "E-Books",
     format: "epub",
-    epub: "pdfs/epubs/Ultraproductividad - Isra Garcia Rodriguez.epub",
-    year: 2022,
+    epub: "pdfs/epubs/Asi se manipula al consumidor - Martin Lindstrom (1).epub",
+    year: 2023,
     language: "Español",
-    pages: 323,
+    pages: 290,
     description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-ultraproductividad-isra-garcia-rodriguez.jpeg",
-    downloads: 167,
+    cover: "covers/asi-se-manipula-consumidor.png",
+    downloads: 170,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -13524,31 +13532,32 @@ const BOOKS = [
     }
   },
   {
-    id: 1462,
-    title: "Holiday Ryan - El Obstáculo Es El Camino",
-    author: "Selección Bibliotyan",
+    id: 2179,
+    title: "Inteligencia Espiritual",
+    author: "Dan Millman",
     category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1462_Holiday_Ryan_-_El_Obst_culo_Es_El_Camino.pdf",
-    year: 2020,
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2179_inteligencia-espiritual-dan-millman-43-paginas.pdf",
+    pages: 45,
+    year: 2018,
     language: "Español",
-    pages: 180,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-holiday_ryan___el_obst_culo_es_el_c-58.png",
-    downloads: 394,
+    description: "Obra esencial de la ColecciÃ³n Emprendedores sobre inteligencia espiritual por Dan Millman. Ideas clave, modelos prÃ¡cticos y estrategias para pensar, crear y construir.",
+    cover: "covers/c-emprendedores-inteligencia-espiritual-dan-millman-43-paginas.jpg",
+    downloads: 397,
     featured: false,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    genre: "Emprendimiento & Negocios",
+    vibe: "Práctico & Accesible",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Ciudadela Interior",
-        "Ataraxia"
+        "Modelos de Negocio",
+        "Finanzas y Rentabilidad",
+        "Estrategia de Crecimiento",
+        "Ejecución Eficaz"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Holiday Ryan - El Obstáculo Es El Camino aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
-    }
+    targetAudience: "Emprendedores, autónomos, líderes y profesionales que buscan crear y escalar proyectos.",
+    aiSummary: "Lecciones y marcos estratégicos de alto valor práctico para convertir ideas en proyectos consolidados y rentables."
+    },
+    collection: "Colección Emprendedores"
   },
   {
     id: 2443,
@@ -13719,19 +13728,19 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1332,
-    title: "Steve Jobs. Lecciones de Liderazgo",
-    author: "Walter Isaacson",
+    id: 1333,
+    title: "Ultraproductividad",
+    author: "Isra Garcia Rodriguez",
     category: "Productividad & Hábitos",
     collection: "E-Books",
     format: "epub",
-    epub: "pdfs/epubs/Steve Jobs. Lecciones de liderazgo - Walter Isaacson.epub",
-    year: 2021,
+    epub: "pdfs/epubs/Ultraproductividad - Isra Garcia Rodriguez.epub",
+    year: 2022,
     language: "Español",
-    pages: 312,
+    pages: 323,
     description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
-    cover: "covers/epub-steve-jobs-lecciones-de-liderazgo-walter-isaacson.jpeg",
-    downloads: 158,
+    cover: "covers/epub-ultraproductividad-isra-garcia-rodriguez.jpeg",
+    downloads: 167,
     featured: false,
     aiAnalysis: {
     genre: "Productividad & Hábitos",
@@ -13747,30 +13756,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1443,
-    title: "Estoicismo Cotidiano: 366 reflexiones sobre la sabiduría, la perseverancia y el arte de vivir",
-    author: "Ryan Holiday & Stephen Hanselman",
+    id: 1481,
+    title: "Los Estoicos Antiguos (Edición Digital)",
+    author: "Ángel J. Cappelletti",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1443_Estoicismo_cotidiano_-_Ryan_Holiday_y_Stephen_Hanselman.pdf",
-    year: 2016,
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1481_Los_estoicos_antiguos.epub",
+    year: 1996,
     language: "Español",
-    pages: 440,
-    description: "Obra esencial de Ryan Holiday & Stephen Hanselman centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-estoicismo_cotidiano___ryan_holiday-42.png",
-    downloads: 391,
+    pages: 240,
+    description: "Obra esencial de Ángel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-los_estoicos_antiguos-127.jpg",
+    downloads: 397,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Inspirador & Diario",
+    vibe: "Filosofía del Pórtico",
     keyConcepts: [
         "Ciudadela Interior",
-        "Virtud como Bien Supremo",
-        "Memento Mori"
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Estoicismo Cotidiano: 366 reflexiones sobre la sabiduría, la perseverancia y el arte de vivir aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Los Estoicos Antiguos (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -13941,30 +13950,58 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1424,
-    title: "Disertaciones por Arriano",
-    author: "Epicteto",
+    id: 1332,
+    title: "Steve Jobs. Lecciones de Liderazgo",
+    author: "Walter Isaacson",
+    category: "Productividad & Hábitos",
+    collection: "E-Books",
+    format: "epub",
+    epub: "pdfs/epubs/Steve Jobs. Lecciones de liderazgo - Walter Isaacson.epub",
+    year: 2021,
+    language: "Español",
+    pages: 312,
+    description: "Libro digital completo en formato EPUB, preparado para dispositivos Kindle, e-readers, tabletas y teléfonos.",
+    cover: "covers/epub-steve-jobs-lecciones-de-liderazgo-walter-isaacson.jpeg",
+    downloads: 158,
+    featured: false,
+    aiAnalysis: {
+    genre: "Productividad & Hábitos",
+    vibe: "Digital & Enriquecedor",
+    keyConcepts: [
+        "Lectura Digital",
+        "EPUB",
+        "Conocimiento",
+        "Efectividad"
+      ],
+    targetAudience: "Lectores digitales y usuarios de e-readers.",
+    aiSummary: "Edición electrónica completa optimizada para e-readers."
+    }
+  },
+  {
+    id: 1462,
+    title: "Holiday Ryan - El Obstáculo Es El Camino",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1424_DISERTACIONES_POR_ARRIANO.pdf",
-    year: 108,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1462_Holiday_Ryan_-_El_Obst_culo_Es_El_Camino.pdf",
+    year: 2020,
     language: "Español",
-    pages: 229,
-    description: "Obra esencial de Epicteto centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-disertaciones_por_arriano-24.png",
-    downloads: 388,
+    pages: 180,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-holiday_ryan___el_obst_culo_es_el_c-58.png",
+    downloads: 394,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Socrático & Directo",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Ciudadela Interior",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Disertaciones por Arriano aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Holiday Ryan - El Obstáculo Es El Camino aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -14134,30 +14171,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1518,
-    title: "Vidas de los Estoicos: El arte de vivir de Zenón a Marco Aurelio",
+    id: 1443,
+    title: "Estoicismo Cotidiano: 366 reflexiones sobre la sabiduría, la perseverancia y el arte de vivir",
     author: "Ryan Holiday & Stephen Hanselman",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1518_Vida_de_los_estoicos_Ryan_Holiday_Stephe.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1443_Estoicismo_cotidiano_-_Ryan_Holiday_y_Stephen_Hanselman.pdf",
+    year: 2016,
     language: "Español",
-    pages: 298,
+    pages: 440,
     description: "Obra esencial de Ryan Holiday & Stephen Hanselman centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-vida_de_los_estoicos_ryan_holiday_s-117.png",
-    downloads: 386,
+    cover: "covers/c-est-estoicismo_cotidiano___ryan_holiday-42.png",
+    downloads: 391,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Biográfico & Magistral",
+    vibe: "Inspirador & Diario",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Ciudadela Interior",
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Vidas de los Estoicos: El arte de vivir de Zenón a Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Estoicismo Cotidiano: 366 reflexiones sobre la sabiduría, la perseverancia y el arte de vivir aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -14331,30 +14368,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1405,
-    title: "Amor Zero: cómo sobrevivir a los amores con psicópatas",
-    author: "Dr. Iñaki Piñuel",
+    id: 1424,
+    title: "Disertaciones por Arriano",
+    author: "Epicteto",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1405_amor-zero_o_aqui-pi_uel.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1424_DISERTACIONES_POR_ARRIANO.pdf",
+    year: 108,
     language: "Español",
-    pages: 271,
-    description: "Obra esencial de Dr. Iñaki Piñuel centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-amor_zero_o_aqui_pi_uel-5.png",
-    downloads: 385,
+    pages: 229,
+    description: "Obra esencial de Epicteto centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-disertaciones_por_arriano-24.png",
+    downloads: 388,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Sanador & Esclarecedor",
+    vibe: "Socrático & Directo",
     keyConcepts: [
-        "Ciudadela Interior",
         "Dicotomía del Control",
-        "Memento Mori"
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Amor Zero: cómo sobrevivir a los amores con psicópatas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Disertaciones por Arriano aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -14525,30 +14562,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1480,
-    title: "Los Estoicos Antiguos: Zenón, Cleantes, Crisipo",
-    author: "Ángel J. Cappelletti",
+    id: 1518,
+    title: "Vidas de los Estoicos: El arte de vivir de Zenón a Marco Aurelio",
+    author: "Ryan Holiday & Stephen Hanselman",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1480_Los_estoicos_antiguos_-_AA_VV.pdf",
-    year: 1996,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1518_Vida_de_los_estoicos_Ryan_Holiday_Stephe.pdf",
+    year: 2020,
     language: "Español",
-    pages: 880,
-    description: "Obra esencial de Ángel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-los_estoicos_antiguos___aa_vv-79.png",
-    downloads: 380,
+    pages: 298,
+    description: "Obra esencial de Ryan Holiday & Stephen Hanselman centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-vida_de_los_estoicos_ryan_holiday_s-117.png",
+    downloads: 386,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Pioneros del Pórtico",
+    vibe: "Biográfico & Magistral",
     keyConcepts: [
         "Dicotomía del Control",
-        "Ciudadela Interior",
+        "Amor Fati",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Los Estoicos Antiguos: Zenón, Cleantes, Crisipo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Vidas de los Estoicos: El arte de vivir de Zenón a Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -14721,30 +14758,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1423,
-    title: "Diálogos IV. República (Platón)",
-    author: "Selección Bibliotyan",
+    id: 1405,
+    title: "Amor Zero: cómo sobrevivir a los amores con psicópatas",
+    author: "Dr. Iñaki Piñuel",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1423_Di_logos_IV._Rep_blica_Plat_n_.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1405_amor-zero_o_aqui-pi_uel.pdf",
+    year: 2016,
     language: "Español",
-    pages: 399,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-di_logos_iv__rep_blica__plat_n_-23.png",
-    downloads: 371,
+    pages: 271,
+    description: "Obra esencial de Dr. Iñaki Piñuel centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-amor_zero_o_aqui_pi_uel-5.png",
+    downloads: 385,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Sanador & Esclarecedor",
     keyConcepts: [
         "Ciudadela Interior",
         "Dicotomía del Control",
         "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Diálogos IV. República (Platón) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Amor Zero: cómo sobrevivir a los amores con psicópatas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -14916,30 +14953,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1404,
-    title: "alegría - Alex Rovira y Francesc Miralles",
-    author: "Selección Bibliotyan",
+    id: 1480,
+    title: "Los Estoicos Antiguos: Zenón, Cleantes, Crisipo",
+    author: "Ángel J. Cappelletti",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1404_Alegr_a_-_Alex_Rovira_y_Francesc_Miralles.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1480_Los_estoicos_antiguos_-_AA_VV.pdf",
+    year: 1996,
     language: "Español",
-    pages: 224,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-alegr_a___alex_rovira_y_francesc_mi-4.png",
-    downloads: 368,
+    pages: 880,
+    description: "Obra esencial de Ángel J. Cappelletti centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-los_estoicos_antiguos___aa_vv-79.png",
+    downloads: 380,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Pioneros del Pórtico",
     keyConcepts: [
         "Dicotomía del Control",
-        "Amor Fati",
+        "Ciudadela Interior",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: alegría - Alex Rovira y Francesc Miralles aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Los Estoicos Antiguos: Zenón, Cleantes, Crisipo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -15112,30 +15149,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1441,
-    title: "Escuela de Estoicismo Moderno",
-    author: "Isra García",
+    id: 1423,
+    title: "Diálogos IV. República (Platón)",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1441_Escuela-de-Estoicismo-Moderno-by-Isra-Garc_a-Garc_a-Isra-z-lib.org_1_.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1423_Di_logos_IV._Rep_blica_Plat_n_.pdf",
+    year: 2020,
     language: "Español",
-    pages: 257,
-    description: "Obra esencial de Isra García centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-escuela_de_estoicismo_moderno_by_is-40.png",
-    downloads: 357,
+    pages: 399,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-di_logos_iv__rep_blica__plat_n_-23.png",
+    downloads: 371,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Acción & Fortaleza",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Ciudadela Interior",
         "Dicotomía del Control",
         "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Escuela de Estoicismo Moderno aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Diálogos IV. República (Platón) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -15306,30 +15343,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1516,
-    title: "Tratado sobre la sabiduría Autor Pedro Estudillo",
+    id: 1404,
+    title: "alegría - Alex Rovira y Francesc Miralles",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1516_Tratado_sobre_la_Sabidur_a_Autor_Pedro_Estudillo.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1404_Alegr_a_-_Alex_Rovira_y_Francesc_Miralles.pdf",
     year: 2020,
     language: "Español",
-    pages: 366,
+    pages: 224,
     description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-tratado_sobre_la_sabidur_a_autor_pe-114.png",
-    downloads: 352,
+    cover: "covers/c-est-alegr_a___alex_rovira_y_francesc_mi-4.png",
+    downloads: 368,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
     vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Ciudadela Interior",
+        "Amor Fati",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Tratado sobre la sabiduría Autor Pedro Estudillo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: alegría - Alex Rovira y Francesc Miralles aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -15501,30 +15538,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1478,
-    title: "Lives of the Stoics: The Art of Living from Zeno to Marcus Aurelius",
-    author: "Ryan Holiday & Stephen Hanselman",
+    id: 1441,
+    title: "Escuela de Estoicismo Moderno",
+    author: "Isra García",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1478_Lives_of_Stoics_by_Ryan_Holiday.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1441_Escuela-de-Estoicismo-Moderno-by-Isra-Garc_a-Garc_a-Isra-z-lib.org_1_.pdf",
+    year: 2021,
     language: "Español",
-    pages: 312,
-    description: "Obra esencial de Ryan Holiday & Stephen Hanselman centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-lives_of_stoics_by_ryan_holiday-77.png",
-    downloads: 346,
+    pages: 257,
+    description: "Obra esencial de Isra García centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-escuela_de_estoicismo_moderno_by_is-40.png",
+    downloads: 357,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Biographical & Inspiring",
+    vibe: "Acción & Fortaleza",
     keyConcepts: [
+        "Ciudadela Interior",
         "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Lives of the Stoics: The Art of Living from Zeno to Marcus Aurelius aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Escuela de Estoicismo Moderno aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -15697,31 +15734,30 @@ const BOOKS = [
     }
   },
   {
-    id: 403,
-    title: "El Ego es el Enemigo",
-    author: "Ryan Holiday",
+    id: 1516,
+    title: "Tratado sobre la sabiduría Autor Pedro Estudillo",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
-    collection: "Filosofía Aplicada",
-    format: "epub",
-    year: 2017,
+    collection: "La Gran Biblioteca Estoica",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1516_Tratado_sobre_la_Sabidur_a_Autor_Pedro_Estudillo.pdf",
+    year: 2020,
     language: "Español",
-    pages: 250,
-    description: "Inspirado en la Filosofía estoica de Marco Aurelio y Séneca, Holiday expone cómo el ego es el mayor obstáculo en el camino hacia el éxito, el peor enemigo durante el triunfo y la causa más común del fracaso estrepitoso.",
-    cover: "covers/ego-es-el-enemigo.jpg",
-    epub: "pdfs/epubs/el-ego-es-el-enemigo-ryan-holiday.epub",
-    downloads: 345,
+    pages: 366,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-tratado_sobre_la_sabidur_a_autor_pe-114.png",
+    downloads: 352,
     featured: false,
     aiAnalysis: {
-    genre: "Estoicismo & Autocontrol",
-    vibe: "Sobrio & Esclarecedor",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Humildad Táctica",
-        "Aprendizaje Continuo",
-        "Silencio vs Alarde",
-        "Resiliencia"
+        "Dicotomía del Control",
+        "Ciudadela Interior",
+        "Ataraxia"
       ],
-    targetAudience: "Líderes, creadores y personas que buscan autodominio estoico y humildad.",
-    aiSummary: "Lecciones Históricas sobre cómo domar el ego para construir una trayectoria sólida y duradera."
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: Tratado sobre la sabiduría Autor Pedro Estudillo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -15893,30 +15929,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1440,
-    title: "Epístolas Morales a Lucilio (Volumen I)",
-    author: "Lucio Anneo Séneca",
+    id: 1478,
+    title: "Lives of the Stoics: The Art of Living from Zeno to Marcus Aurelius",
+    author: "Ryan Holiday & Stephen Hanselman",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1440_Epistolas_morales_a_Lucilio_I.epub",
-    year: 65,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1478_Lives_of_Stoics_by_Ryan_Holiday.pdf",
+    year: 2020,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-epistolas_morales_a_lucilio_i-123.jpg",
-    downloads: 340,
+    pages: 312,
+    description: "Obra esencial de Ryan Holiday & Stephen Hanselman centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-lives_of_stoics_by_ryan_holiday-77.png",
+    downloads: 346,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "sabiduría de Vida",
+    vibe: "Biographical & Inspiring",
     keyConcepts: [
         "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Epístolas Morales a Lucilio (Volumen I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Lives of the Stoics: The Art of Living from Zeno to Marcus Aurelius aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -16087,30 +16123,31 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1439,
-    title: "Manual de Vida: La vía de la serenidad",
-    author: "Sharon Lebell (Adaptación de Epicteto)",
+    id: 403,
+    title: "El Ego es el Enemigo",
+    author: "Ryan Holiday",
     category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1439_epicteto_manualdevida_sharon-lebell.pdf",
-    year: 1995,
+    collection: "Filosofía Aplicada",
+    format: "epub",
+    year: 2017,
     language: "Español",
-    pages: 57,
-    description: "Obra esencial de Sharon Lebell (Adaptación de Epicteto) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-epicteto_manualdevida_sharon_lebell-39.png",
-    downloads: 323,
+    pages: 250,
+    description: "Inspirado en la Filosofía estoica de Marco Aurelio y Séneca, Holiday expone cómo el ego es el mayor obstáculo en el camino hacia el éxito, el peor enemigo durante el triunfo y la causa más común del fracaso estrepitoso.",
+    cover: "covers/ego-es-el-enemigo.jpg",
+    epub: "pdfs/epubs/el-ego-es-el-enemigo-ryan-holiday.epub",
+    downloads: 345,
     featured: false,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Cálido & Práctico",
+    genre: "Estoicismo & Autocontrol",
+    vibe: "Sobrio & Esclarecedor",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Humildad Táctica",
+        "Aprendizaje Continuo",
+        "Silencio vs Alarde",
+        "Resiliencia"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Manual de Vida: La vía de la serenidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    targetAudience: "Líderes, creadores y personas que buscan autodominio estoico y humildad.",
+    aiSummary: "Lecciones Históricas sobre cómo domar el ego para construir una trayectoria sólida y duradera."
     }
   },
   {
@@ -16280,30 +16317,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1420,
-    title: "De la Ira",
+    id: 1440,
+    title: "Epístolas Morales a Lucilio (Volumen I)",
     author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1420_De_la_ira-Seneca.pdf",
-    year: 52,
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1440_Epistolas_morales_a_Lucilio_I.epub",
+    year: 65,
     language: "Español",
-    pages: 87,
+    pages: 240,
     description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-de_la_ira_seneca-20.png",
-    downloads: 320,
+    cover: "covers/c-est-epistolas_morales_a_lucilio_i-123.jpg",
+    downloads: 340,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Serenidad & Templanza",
+    vibe: "sabiduría de Vida",
     keyConcepts: [
         "Dicotomía del Control",
-        "Ciudadela Interior",
+        "Amor Fati",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: De la Ira aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Epístolas Morales a Lucilio (Volumen I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -16473,30 +16510,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1514,
-    title: "Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo II)",
-    author: "Marcelo D. Boeri & Ricardo Salles",
+    id: 1439,
+    title: "Manual de Vida: La vía de la serenidad",
+    author: "Sharon Lebell (Adaptación de Epicteto)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1514_Testimonios_y_Fragmentos_II_319-606_.epub",
-    year: 2014,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1439_epicteto_manualdevida_sharon-lebell.pdf",
+    year: 1995,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Marcelo D. Boeri & Ricardo Salles centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-testimonios_y_fragmentos_ii__319_60-131.jpg",
-    downloads: 318,
+    pages: 57,
+    description: "Obra esencial de Sharon Lebell (Adaptación de Epicteto) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-epicteto_manualdevida_sharon_lebell-39.png",
+    downloads: 323,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Fuentes Clásicas",
+    vibe: "Cálido & Práctico",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Ciudadela Interior",
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Manual de Vida: La vía de la serenidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -16669,30 +16706,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1457,
-    title: "Manual para la Vida Feliz: Comentarios al Enquiridión",
-    author: "Pierre Hadot (sobre Epicteto)",
+    id: 1420,
+    title: "De la Ira",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1457_HADOT-EPICTETO._MANUAL_PARA_LA_VIDA_FELIZ.pdf",
-    year: 2003,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1420_De_la_ira-Seneca.pdf",
+    year: 52,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Pierre Hadot (sobre Epicteto) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-hadot_epicteto__manual_para_la_vida-53.png",
-    downloads: 309,
+    pages: 87,
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-de_la_ira_seneca-20.png",
+    downloads: 320,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Guía Estoica",
+    vibe: "Serenidad & Templanza",
     keyConcepts: [
+        "Dicotomía del Control",
         "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Manual para la Vida Feliz: Comentarios al Enquiridión aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: De la Ira aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -16863,30 +16900,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1438,
-    title: "Enquiridión (Manual de Vida)",
-    author: "Epicteto",
+    id: 1514,
+    title: "Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo II)",
+    author: "Marcelo D. Boeri & Ricardo Salles",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1438_Epicteto_-_Enquiridion.pdf",
-    year: 125,
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1514_Testimonios_y_Fragmentos_II_319-606_.epub",
+    year: 2014,
     language: "Español",
-    pages: 112,
-    description: "Obra esencial de Epicteto centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-epicteto___enquiridion-38.png",
-    downloads: 306,
+    pages: 240,
+    description: "Obra esencial de Marcelo D. Boeri & Ricardo Salles centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-testimonios_y_fragmentos_ii__319_60-131.jpg",
+    downloads: 318,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Pilar Estoico",
+    vibe: "Fuentes Clásicas",
     keyConcepts: [
         "Dicotomía del Control",
-        "Ciudadela Interior",
-        "Ataraxia"
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Enquiridión (Manual de Vida) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo I) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -17058,31 +17095,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1007,
-    title: "Cómo meditar y ser al mismo tiempo un buen amigo de tu mente",
-    author: "Pema Chödrön",
+    id: 1457,
+    title: "Manual para la Vida Feliz: Comentarios al Enquiridión",
+    author: "Pierre Hadot (sobre Epicteto)",
     category: "Espiritualidad & sabiduría",
-    collection: "General",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1007_C_mo_meditar_y_ser_al_mismo_tiempo_un_buen_amigo_de_tu_mente.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1457_HADOT-EPICTETO._MANUAL_PARA_LA_VIDA_FELIZ.pdf",
+    year: 2003,
     language: "Español",
-    pages: 351,
-    description: "La maestra budista tibetana enseña a abrazar el caos mental con gentileza, paciencia y autocompasión incondicional.",
-    cover: "covers/c-c-mo-meditar-y-ser-al-mismo-tiempo-un-buen-amigo-de-t.png",
-    downloads: 304,
+    pages: 240,
+    description: "Obra esencial de Pierre Hadot (sobre Epicteto) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-hadot_epicteto__manual_para_la_vida-53.png",
+    downloads: 309,
     featured: false,
     aiAnalysis: {
-    genre: "Productividad & Hábitos",
-    vibe: "Estratégico & Metódico",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Guía Estoica",
     keyConcepts: [
-        "Enfoque Continuo",
-        "Gestión del Tiempo",
-        "Hábitos Sostenibles",
-        "Eficacia Diaria"
+        "Ciudadela Interior",
+        "Ataraxia",
+        "Amor Fati"
       ],
-    targetAudience: "Practicantes de meditación, buscadores de paz interior y compasión hacia uno mismo.",
-    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: Manual para la Vida Feliz: Comentarios al Enquiridión aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -17255,30 +17291,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1513,
-    title: "Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo I)",
-    author: "Marcelo D. Boeri & Ricardo Salles",
+    id: 1438,
+    title: "Enquiridión (Manual de Vida)",
+    author: "Epicteto",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1513_Testimonios_y_Fragmentos_I_1-318_.epub",
-    year: 2014,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1438_Epicteto_-_Enquiridion.pdf",
+    year: 125,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Marcelo D. Boeri & Ricardo Salles centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-testimonios_y_fragmentos_i__1_318_-130.jpg",
-    downloads: 301,
+    pages: 112,
+    description: "Obra esencial de Epicteto centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-epicteto___enquiridion-38.png",
+    downloads: 306,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Fuentes Clásicas",
+    vibe: "Pilar Estoico",
     keyConcepts: [
-        "Ciudadela Interior",
         "Dicotomía del Control",
-        "Memento Mori"
+        "Ciudadela Interior",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo II) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Enquiridión (Manual de Vida) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -17449,30 +17485,31 @@ const BOOKS = [
     }
   },
   {
-    id: 1494,
-    title: "Mi Cuaderno Estoico: 52 semanas para cultivar la serenidad",
-    author: "Massimo Pigliucci & Gregory Lopez",
+    id: 1007,
+    title: "Cómo meditar y ser al mismo tiempo un buen amigo de tu mente",
+    author: "Pema Chödrön",
     category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1494_Micuadernoestoico.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1007_C_mo_meditar_y_ser_al_mismo_tiempo_un_buen_amigo_de_tu_mente.pdf",
+    year: 2022,
     language: "Español",
-    pages: 352,
-    description: "Obra esencial de Massimo Pigliucci & Gregory Lopez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-micuadernoestoico-92.png",
-    downloads: 298,
+    pages: 351,
+    description: "La maestra budista tibetana enseña a abrazar el caos mental con gentileza, paciencia y autocompasión incondicional.",
+    cover: "covers/c-c-mo-meditar-y-ser-al-mismo-tiempo-un-buen-amigo-de-t.png",
+    downloads: 304,
     featured: false,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Práctico & Semanal",
+    genre: "Productividad & Hábitos",
+    vibe: "Estratégico & Metódico",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Enfoque Continuo",
+        "Gestión del Tiempo",
+        "Hábitos Sostenibles",
+        "Eficacia Diaria"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Mi Cuaderno Estoico: 52 semanas para cultivar la serenidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    targetAudience: "Practicantes de meditación, buscadores de paz interior y compasión hacia uno mismo.",
+    aiSummary: "Una obra imprescindible en Productividad & Hábitos que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -17644,30 +17681,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1418,
-    title: "Conocernos ¿qué nos quiere decir el cuerpo con la enfermedad",
-    author: "Selección Bibliotyan",
+    id: 1513,
+    title: "Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo I)",
+    author: "Marcelo D. Boeri & Ricardo Salles",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1418_Conocernos_qu_nos_quiere_decir_el_cuerpo_con_la_enfermedad.pdf",
-    year: 2020,
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1513_Testimonios_y_Fragmentos_I_1-318_.epub",
+    year: 2014,
     language: "Español",
-    pages: 99,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-conocernos__qu__nos_quiere_decir_el-18.png",
-    downloads: 286,
+    pages: 240,
+    description: "Obra esencial de Marcelo D. Boeri & Ricardo Salles centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-testimonios_y_fragmentos_i__1_318_-130.jpg",
+    downloads: 301,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Fuentes Clásicas",
     keyConcepts: [
+        "Ciudadela Interior",
         "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Conocernos ¿qué nos quiere decir el cuerpo con la enfermedad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Los Filósofos Estoicos: Testimonios y Fragmentos (Tomo II) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -17838,30 +17875,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1474,
-    title: "La sabiduría de los estoicos Autor Mises",
-    author: "Selección Bibliotyan",
+    id: 1494,
+    title: "Mi Cuaderno Estoico: 52 semanas para cultivar la serenidad",
+    author: "Massimo Pigliucci & Gregory Lopez",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1474_La_sabidur_a_de_los_estoicos_Autor_Mises.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1494_Micuadernoestoico.pdf",
+    year: 2019,
     language: "Español",
-    pages: 129,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-la_sabidur_a_de_los_estoicos_autor_-71.png",
-    downloads: 278,
+    pages: 352,
+    description: "Obra esencial de Massimo Pigliucci & Gregory Lopez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-micuadernoestoico-92.png",
+    downloads: 298,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Práctico & Semanal",
     keyConcepts: [
         "Dicotomía del Control",
-        "Ciudadela Interior",
+        "Amor Fati",
         "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: La sabiduría de los estoicos Autor Mises aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Mi Cuaderno Estoico: 52 semanas para cultivar la serenidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -18034,30 +18071,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1455,
-    title: "La Ciudadela Interior: Introducción a las Meditaciones de Marco Aurelio",
-    author: "Pierre Hadot",
+    id: 1418,
+    title: "Conocernos ¿qué nos quiere decir el cuerpo con la enfermedad",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1455_HADOT._LA_CIUDADELA_INTERIOR._INTRODUCCI_N_A_LAS_MEDITACIONES_DE_MARCO_AURELIO.pdf",
-    year: 1992,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1418_Conocernos_qu_nos_quiere_decir_el_cuerpo_con_la_enfermedad.pdf",
+    year: 2020,
     language: "Español",
-    pages: 513,
-    description: "Obra esencial de Pierre Hadot centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-hadot__la_ciudadela_interior__intro-51.png",
-    downloads: 275,
+    pages: 99,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-conocernos__qu__nos_quiere_decir_el-18.png",
+    downloads: 286,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Académico",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Virtud como Bien Supremo",
-        "Memento Mori"
+        "Dicotomía del Control",
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: La Ciudadela Interior: Introducción a las Meditaciones de Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Conocernos ¿qué nos quiere decir el cuerpo con la enfermedad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -18229,30 +18266,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1417,
-    title: "Confía en mí, estoy mintiendo",
+    id: 1474,
+    title: "La sabiduría de los estoicos Autor Mises",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1417_Conf_a_en_m_estoy_mintiendo.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1474_La_sabidur_a_de_los_estoicos_Autor_Mises.pdf",
     year: 2020,
     language: "Español",
-    pages: 280,
+    pages: 129,
     description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-conf_a_en_m___estoy_mintiendo-17.png",
-    downloads: 269,
+    cover: "covers/c-est-la_sabidur_a_de_los_estoicos_autor_-71.png",
+    downloads: 278,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
     vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Ciudadela Interior",
         "Dicotomía del Control",
-        "Memento Mori"
+        "Ciudadela Interior",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Confía en mí, estoy mintiendo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: La sabiduría de los estoicos Autor Mises aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -18423,30 +18460,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1492,
-    title: "Menos miedos más riquezas",
-    author: "Selección Bibliotyan",
+    id: 1455,
+    title: "La Ciudadela Interior: Introducción a las Meditaciones de Marco Aurelio",
+    author: "Pierre Hadot",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1492_Menos_miedos_m_s_riquezas.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1455_HADOT._LA_CIUDADELA_INTERIOR._INTRODUCCI_N_A_LAS_MEDITACIONES_DE_MARCO_AURELIO.pdf",
+    year: 1992,
     language: "Español",
-    pages: 114,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-menos_miedos_m_s_riquezas-90.png",
-    downloads: 264,
+    pages: 513,
+    description: "Obra esencial de Pierre Hadot centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-hadot__la_ciudadela_interior__intro-51.png",
+    downloads: 275,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Profundo & Académico",
     keyConcepts: [
-        "Dicotomía del Control",
         "Ciudadela Interior",
-        "Ataraxia"
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Menos miedos más riquezas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: La Ciudadela Interior: Introducción a las Meditaciones de Marco Aurelio aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -18616,30 +18653,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1473,
-    title: "La Quietud es la Clave",
-    author: "Ryan Holiday",
+    id: 1417,
+    title: "Confía en mí, estoy mintiendo",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1473_LA_QUIETUD_ES_LA_CLAVE_Holiday.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1417_Conf_a_en_m_estoy_mintiendo.pdf",
+    year: 2020,
     language: "Español",
-    pages: 207,
-    description: "Obra esencial de Ryan Holiday centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-la_quietud_es_la_clave_holiday-70.png",
-    downloads: 261,
+    pages: 280,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-conf_a_en_m___estoy_mintiendo-17.png",
+    downloads: 269,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Paz Mental & Claridad",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Ciudadela Interior",
-        "Virtud como Bien Supremo",
+        "Dicotomía del Control",
         "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: La Quietud es la Clave aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Confía en mí, estoy mintiendo aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -18810,30 +18847,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1454,
-    title: "HADOT. ¿QUÉ ES LA Filosofía ANTIGUA?",
+    id: 1492,
+    title: "Menos miedos más riquezas",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1454_HADOT._QU_ES_LA_FILOSOF_A_ANTIGUA_.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1492_Menos_miedos_m_s_riquezas.pdf",
     year: 2020,
     language: "Español",
-    pages: 170,
+    pages: 114,
     description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-hadot___qu__es_la_filosof_a_antigua-50.png",
-    downloads: 258,
+    cover: "covers/c-est-menos_miedos_m_s_riquezas-90.png",
+    downloads: 264,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
     vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Ciudadela Interior",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: HADOT. ¿QUÉ ES LA Filosofía ANTIGUA? aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Menos miedos más riquezas aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -19006,30 +19043,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1416,
-    title: "cómo ser un estoico by Massimo Pigliucci",
-    author: "Selección Bibliotyan",
+    id: 1473,
+    title: "La Quietud es la Clave",
+    author: "Ryan Holiday",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1416_C_mo_ser_un_estoico_by_Massimo_Pigliucci.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1473_LA_QUIETUD_ES_LA_CLAVE_Holiday.pdf",
+    year: 2019,
     language: "Español",
-    pages: 358,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-c_mo_ser_un_estoico_by_massimo_pigl-16.png",
-    downloads: 252,
+    pages: 207,
+    description: "Obra esencial de Ryan Holiday centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-la_quietud_es_la_clave_holiday-70.png",
+    downloads: 261,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Paz Mental & Claridad",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Ciudadela Interior",
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: cómo ser un estoico by Massimo Pigliucci aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: La Quietud es la Clave aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -19201,30 +19238,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1510,
-    title: "Sobre la Brevedad de la Vida",
-    author: "Lucio Anneo Séneca",
+    id: 1454,
+    title: "HADOT. ¿QUÉ ES LA Filosofía ANTIGUA?",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1510_Sobre_la_brevedad_de_la_vida_-_Seneca.pdf",
-    year: 49,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1454_HADOT._QU_ES_LA_FILOSOF_A_ANTIGUA_.pdf",
+    year: 2020,
     language: "Español",
-    pages: 80,
-    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-sobre_la_brevedad_de_la_vida___sene-109.png",
-    downloads: 250,
+    pages: 170,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-hadot___qu__es_la_filosof_a_antigua-50.png",
+    downloads: 258,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Urgente & Luminoso",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Ciudadela Interior",
-        "Ataraxia"
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Sobre la Brevedad de la Vida aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: HADOT. ¿QUÉ ES LA Filosofía ANTIGUA? aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -19396,30 +19433,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1472,
-    title: "La Llamada del Coraje: La valentía en tiempos de incertidumbre",
-    author: "Ryan Holiday",
+    id: 1416,
+    title: "cómo ser un estoico by Massimo Pigliucci",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1472_la_llamada_del_corajepdf.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1416_C_mo_ser_un_estoico_by_Massimo_Pigliucci.pdf",
+    year: 2020,
     language: "Español",
-    pages: 321,
-    description: "Obra esencial de Ryan Holiday centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-la_llamada_del_corajepdf-69.png",
-    downloads: 244,
+    pages: 358,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-c_mo_ser_un_estoico_by_massimo_pigl-16.png",
+    downloads: 252,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "valentía & Firmeza",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Amor Fati",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: La Llamada del Coraje: La valentía en tiempos de incertidumbre aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: cómo ser un estoico by Massimo Pigliucci aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -19562,30 +19599,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1415,
-    title: "cómo dejar de preocuparte. Ser estoico en tiempos caóticos (Brigid Delaney) ",
-    author: "Selección Bibliotyan",
+    id: 1510,
+    title: "Sobre la Brevedad de la Vida",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1415_C_mo_dejar_de_preocuparte._Ser_estoico_en_tiempos_ca_ticos_Brigid_Delaney_.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1510_Sobre_la_brevedad_de_la_vida_-_Seneca.pdf",
+    year: 49,
     language: "Español",
-    pages: 224,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-c_mo_dejar_de_preocuparte__ser_esto-15.png",
-    downloads: 235,
+    pages: 80,
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-sobre_la_brevedad_de_la_vida___sene-109.png",
+    downloads: 250,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Urgente & Luminoso",
     keyConcepts: [
+        "Dicotomía del Control",
         "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: cómo dejar de preocuparte. Ser estoico en tiempos caóticos (Brigid Delaney)  aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Sobre la Brevedad de la Vida aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -19731,30 +19768,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1509,
-    title: "Siempre en Pie: cómo el estoicismo te ayuda a superar cualquier adversidad",
-    author: "Pepe García (El Charco Estoico)",
+    id: 1472,
+    title: "La Llamada del Coraje: La valentía en tiempos de incertidumbre",
+    author: "Ryan Holiday",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1509_Siempre_en_pie_--_Pepe_Garc_a_--.pdf",
-    year: 2022,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1472_la_llamada_del_corajepdf.pdf",
+    year: 2021,
     language: "Español",
-    pages: 189,
-    description: "Obra esencial de Pepe García (El Charco Estoico) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-siempre_en_pie____pepe_garc_a___-108.png",
-    downloads: 233,
+    pages: 321,
+    description: "Obra esencial de Ryan Holiday centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-la_llamada_del_corajepdf-69.png",
+    downloads: 244,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Cercano & Forjador",
+    vibe: "valentía & Firmeza",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Virtud como Bien Supremo",
-        "Memento Mori"
+        "Dicotomía del Control",
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Siempre en Pie: cómo el estoicismo te ayuda a superar cualquier adversidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: La Llamada del Coraje: La valentía en tiempos de incertidumbre aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -19899,30 +19936,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1490,
-    title: "Meditaciones de Marco Aurelio (Novela Gráfica Manga)",
-    author: "Marco Aurelio (Adaptación Manga)",
+    id: 1415,
+    title: "cómo dejar de preocuparte. Ser estoico en tiempos caóticos (Brigid Delaney) ",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1490_Meditaciones._El_manga_corregido_.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1415_C_mo_dejar_de_preocuparte._Ser_estoico_en_tiempos_ca_ticos_Brigid_Delaney_.pdf",
+    year: 2020,
     language: "Español",
-    pages: 195,
-    description: "Obra esencial de Marco Aurelio (Adaptación Manga) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-meditaciones__el_manga__corregido_-87.png",
-    downloads: 230,
+    pages: 224,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-c_mo_dejar_de_preocuparte__ser_esto-15.png",
+    downloads: 235,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Visual & Dinámico",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Ciudadela Interior",
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Meditaciones de Marco Aurelio (Novela Gráfica Manga) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: cómo dejar de preocuparte. Ser estoico en tiempos caóticos (Brigid Delaney)  aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -20065,30 +20102,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1471,
-    title: "La Lágrima de Jantipa",
-    author: "Manel García Sánchez",
+    id: 1509,
+    title: "Siempre en Pie: cómo el estoicismo te ayuda a superar cualquier adversidad",
+    author: "Pepe García (El Charco Estoico)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1471_La_lagrima_de_Jantipa_Spanish_-_Garcia_Sanchez_Manel.pdf",
-    year: 2017,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1509_Siempre_en_pie_--_Pepe_Garc_a_--.pdf",
+    year: 2022,
     language: "Español",
-    pages: 135,
-    description: "Obra esencial de Manel García Sánchez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-la_lagrima_de_jantipa__spanish___ga-68.png",
-    downloads: 227,
+    pages: 189,
+    description: "Obra esencial de Pepe García (El Charco Estoico) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-siempre_en_pie____pepe_garc_a___-108.png",
+    downloads: 233,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Histórico & Filosófico",
+    vibe: "Cercano & Forjador",
     keyConcepts: [
         "Ciudadela Interior",
-        "Dicotomía del Control",
+        "Virtud como Bien Supremo",
         "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: La Lágrima de Jantipa aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Siempre en Pie: cómo el estoicismo te ayuda a superar cualquier adversidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -20233,30 +20270,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1452,
-    title: "Escuela de Estoicismo Moderno (Edición Digital)",
-    author: "Isra García",
+    id: 1490,
+    title: "Meditaciones de Marco Aurelio (Novela Gráfica Manga)",
+    author: "Marco Aurelio (Adaptación Manga)",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1452_Garcia_Isra_-_Escuela_De_Estoicismo_Moderno_0_.epub",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1490_Meditaciones._El_manga_corregido_.pdf",
     year: 2021,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Isra García centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-garcia_isra___escuela_de_estoicismo-126.jpg",
-    downloads: 224,
+    pages: 195,
+    description: "Obra esencial de Marco Aurelio (Adaptación Manga) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-meditaciones__el_manga__corregido_-87.png",
+    downloads: 230,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Acción & Fortaleza",
+    vibe: "Visual & Dinámico",
     keyConcepts: [
         "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Escuela de Estoicismo Moderno (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Meditaciones de Marco Aurelio (Novela Gráfica Manga) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -20401,30 +20438,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1433,
-    title: "El Vehículo de las Transformaciones - Jacobo Grinberg",
-    author: "Selección Bibliotyan",
+    id: 1471,
+    title: "La Lágrima de Jantipa",
+    author: "Manel García Sánchez",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1433_El_Veh_culo_de_las_Transformaciones_-_Jacobo_Grinberg.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1471_La_lagrima_de_Jantipa_Spanish_-_Garcia_Sanchez_Manel.pdf",
+    year: 2017,
     language: "Español",
-    pages: 51,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-el_veh_culo_de_las_transformaciones-34.png",
-    downloads: 221,
+    pages: 135,
+    description: "Obra esencial de Manel García Sánchez centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-la_lagrima_de_jantipa__spanish___ga-68.png",
+    downloads: 227,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Histórico & Filosófico",
     keyConcepts: [
         "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Dicotomía del Control",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: El Vehículo de las Transformaciones - Jacobo Grinberg aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: La Lágrima de Jantipa aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -20569,30 +20606,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1508,
-    title: "Ser Justo en un Mundo Injusto: La justicia como virtud estoica",
-    author: "Ryan Holiday",
+    id: 1452,
+    title: "Escuela de Estoicismo Moderno (Edición Digital)",
+    author: "Isra García",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1508_Ser_justo_en_un_mundo_injusto_-_Ryan_Holiday.pdf",
-    year: 2023,
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1452_Garcia_Isra_-_Escuela_De_Estoicismo_Moderno_0_.epub",
+    year: 2021,
     language: "Español",
-    pages: 328,
-    description: "Obra esencial de Ryan Holiday centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-ser_justo_en_un_mundo_injusto___rya-107.png",
-    downloads: 216,
+    pages: 240,
+    description: "Obra esencial de Isra García centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-garcia_isra___escuela_de_estoicismo-126.jpg",
+    downloads: 224,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Ética & Rectitud",
+    vibe: "Acción & Fortaleza",
     keyConcepts: [
         "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Amor Fati",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Ser Justo en un Mundo Injusto: La justicia como virtud estoica aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Escuela de Estoicismo Moderno (Edición Digital) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -20737,30 +20774,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1489,
-    title: "Meditaciones (Edición Gredos)",
-    author: "Marco Aurelio",
+    id: 1433,
+    title: "El Vehículo de las Transformaciones - Jacobo Grinberg",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "epub",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1489_Meditaciones_Gredos_.epub",
-    year: 180,
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1433_El_Veh_culo_de_las_Transformaciones_-_Jacobo_Grinberg.pdf",
+    year: 2020,
     language: "Español",
-    pages: 240,
-    description: "Obra esencial de Marco Aurelio centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-meditaciones__gredos_-128.jpg",
-    downloads: 213,
+    pages: 51,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-el_veh_culo_de_las_transformaciones-34.png",
+    downloads: 221,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Clásico Imperial",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Ciudadela Interior",
-        "Dicotomía del Control",
-        "Memento Mori"
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Meditaciones (Edición Gredos) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: El Vehículo de las Transformaciones - Jacobo Grinberg aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -20904,31 +20941,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1169,
-    title: "La Meditación Paso a Paso",
-    author: "S.S. Dalai Lama",
+    id: 1508,
+    title: "Ser Justo en un Mundo Injusto: La justicia como virtud estoica",
+    author: "Ryan Holiday",
     category: "Espiritualidad & sabiduría",
-    collection: "General",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1169_La_meditaci_n_paso_a_paso.pdf",
-    year: 2024,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1508_Ser_justo_en_un_mundo_injusto_-_Ryan_Holiday.pdf",
+    year: 2023,
     language: "Español",
-    pages: 217,
-    description: "Instrucciones directas del XIV Dalai Lama para aquietar la mente, desarrollar la serenidad de shamatha y la visión profunda de vipassana.",
-    cover: "covers/c-la-meditaci-n-paso-a-paso.png",
-    downloads: 213,
+    pages: 328,
+    description: "Obra esencial de Ryan Holiday centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-ser_justo_en_un_mundo_injusto___rya-107.png",
+    downloads: 216,
     featured: false,
     aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Ética & Rectitud",
     keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
+        "Dicotomía del Control",
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
-    targetAudience: "Personas dedicadas a la práctica contemplativa y la serenidad de espíritu.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: Ser Justo en un Mundo Injusto: La justicia como virtud estoica aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -21072,30 +21108,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1451,
-    title: "Fluir (Flow): Una Psicología de la felicidad",
-    author: "Mihaly Csikszentmihalyi",
+    id: 1489,
+    title: "Meditaciones (Edición Gredos)",
+    author: "Marco Aurelio",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
-    format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1451_FLUIR_una_psicologia_de_la_felicidad.pdf",
-    year: 1990,
+    format: "epub",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1489_Meditaciones_Gredos_.epub",
+    year: 180,
     language: "Español",
-    pages: 298,
-    description: "Obra esencial de Mihaly Csikszentmihalyi centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-fluir_una_psicologia_de_la_felicida-48.png",
-    downloads: 207,
+    pages: 240,
+    description: "Obra esencial de Marco Aurelio centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-meditaciones__gredos_-128.jpg",
+    downloads: 213,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Científico & Motivador",
+    vibe: "Clásico Imperial",
     keyConcepts: [
         "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Dicotomía del Control",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Fluir (Flow): Una Psicología de la felicidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Meditaciones (Edición Gredos) aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -21239,30 +21275,31 @@ const BOOKS = [
     }
   },
   {
-    id: 1432,
-    title: "El Ser Uno I: Los Arcanos de Thoth",
-    author: "Franca Rosa Cannicioni",
+    id: 1169,
+    title: "La Meditación Paso a Paso",
+    author: "S.S. Dalai Lama",
     category: "Espiritualidad & sabiduría",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1432_EL_SER_UNO_I.pdf",
-    year: 2002,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1169_La_meditaci_n_paso_a_paso.pdf",
+    year: 2024,
     language: "Español",
-    pages: 342,
-    description: "Obra esencial de Franca Rosa Cannicioni centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-el_ser_uno_i-33.png",
-    downloads: 204,
+    pages: 217,
+    description: "Instrucciones directas del XIV Dalai Lama para aquietar la mente, desarrollar la serenidad de shamatha y la visión profunda de vipassana.",
+    cover: "covers/c-la-meditaci-n-paso-a-paso.png",
+    downloads: 213,
     featured: false,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Esotérico & Metafísico",
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Ciudadela Interior",
-        "Ataraxia"
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: El Ser Uno I: Los Arcanos de Thoth aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    targetAudience: "Personas dedicadas a la práctica contemplativa y la serenidad de espíritu.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
@@ -21406,30 +21443,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1413,
-    title: "cómo Controlar Lo Incontrolable - Ben Aldridge",
-    author: "Selección Bibliotyan",
+    id: 1451,
+    title: "Fluir (Flow): Una Psicología de la felicidad",
+    author: "Mihaly Csikszentmihalyi",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1413_C_mo_Controlar_Lo_Incontrolable_-_Ben_Aldridge.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1451_FLUIR_una_psicologia_de_la_felicidad.pdf",
+    year: 1990,
     language: "Español",
-    pages: 260,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-c_mo_controlar_lo_incontrolable___b-13.png",
-    downloads: 201,
+    pages: 298,
+    description: "Obra esencial de Mihaly Csikszentmihalyi centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-fluir_una_psicologia_de_la_felicida-48.png",
+    downloads: 207,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "Científico & Motivador",
     keyConcepts: [
         "Ciudadela Interior",
-        "Virtud como Bien Supremo",
-        "Memento Mori"
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: cómo Controlar Lo Incontrolable - Ben Aldridge aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Fluir (Flow): Una Psicología de la felicidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -21574,30 +21611,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1507,
-    title: "Diálogos Completos: Consolaciones, De la Providencia, De la Tranquilidad",
-    author: "Lucio Anneo Séneca",
+    id: 1432,
+    title: "El Ser Uno I: Los Arcanos de Thoth",
+    author: "Franca Rosa Cannicioni",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1507_seneca-dialogos.pdf",
-    year: 60,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1432_EL_SER_UNO_I.pdf",
+    year: 2002,
     language: "Español",
-    pages: 411,
-    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-seneca_dialogos-106.png",
-    downloads: 199,
+    pages: 342,
+    description: "Obra esencial de Franca Rosa Cannicioni centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-el_ser_uno_i-33.png",
+    downloads: 204,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "sabiduría de Vida",
+    vibe: "Esotérico & Metafísico",
     keyConcepts: [
-        "Ciudadela Interior",
         "Dicotomía del Control",
-        "Memento Mori"
+        "Ciudadela Interior",
+        "Ataraxia"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Diálogos Completos: Consolaciones, De la Providencia, De la Tranquilidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: El Ser Uno I: Los Arcanos de Thoth aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -21740,30 +21777,30 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
-    id: 1469,
-    title: "La ética en Demócrito por Fondo  Editorial  Universidad Nacional Mayor de San Marcos",
+    id: 1413,
+    title: "cómo Controlar Lo Incontrolable - Ben Aldridge",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1469_La_tica_en_Dem_crito_por_Fondo_Editorial_Universidad_Nacional_Mayor_de_San_Marcos.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1413_C_mo_Controlar_Lo_Incontrolable_-_Ben_Aldridge.pdf",
     year: 2020,
     language: "Español",
-    pages: 138,
+    pages: 260,
     description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-la__tica_en_dem_crito_por_fondo__ed-66.png",
-    downloads: 193,
+    cover: "covers/c-est-c_mo_controlar_lo_incontrolable___b-13.png",
+    downloads: 201,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
     vibe: "Profundo & Reflexivo",
     keyConcepts: [
         "Ciudadela Interior",
-        "Ataraxia",
-        "Amor Fati"
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: La ética en Demócrito por Fondo  Editorial  Universidad Nacional Mayor de San Marcos aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: cómo Controlar Lo Incontrolable - Ben Aldridge aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -21909,30 +21946,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1431,
-    title: "El pequeño libro del estoicismo - Jonas-Salzgeber.pdf  versión 1.pdf  versión 1.pdf  versión 1",
-    author: "Selección Bibliotyan",
+    id: 1507,
+    title: "Diálogos Completos: Consolaciones, De la Providencia, De la Tranquilidad",
+    author: "Lucio Anneo Séneca",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1431_El_peque_o_libro_del_estoicismo_-_Jonas-Salzgeber.pdf_versi_n_1.pdf_versi_n_1.pdf_versi_n_1.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1507_seneca-dialogos.pdf",
+    year: 60,
     language: "Español",
-    pages: 232,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-el_peque_o_libro_del_estoicismo___j-32.png",
-    downloads: 187,
+    pages: 411,
+    description: "Obra esencial de Lucio Anneo Séneca centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-seneca_dialogos-106.png",
+    downloads: 199,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    vibe: "sabiduría de Vida",
     keyConcepts: [
         "Ciudadela Interior",
-        "Virtud como Bien Supremo",
+        "Dicotomía del Control",
         "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: El pequeño libro del estoicismo - Jonas-Salzgeber.pdf  versión 1.pdf  versión 1.pdf  versión 1 aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: Diálogos Completos: Consolaciones, De la Providencia, De la Tranquilidad aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -22076,30 +22113,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1412,
-    title: "CARTAS DE SÉNECA A LUCILIO",
+    id: 1469,
+    title: "La ética en Demócrito por Fondo  Editorial  Universidad Nacional Mayor de San Marcos",
     author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1412_CARTAS_DE_S_NECA_A_LUCILIO.PDF",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1469_La_tica_en_Dem_crito_por_Fondo_Editorial_Universidad_Nacional_Mayor_de_San_Marcos.pdf",
     year: 2020,
     language: "Español",
-    pages: 614,
+    pages: 138,
     description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-cartas_de_s_neca_a_lucilio-12.png",
-    downloads: 184,
+    cover: "covers/c-est-la__tica_en_dem_crito_por_fondo__ed-66.png",
+    downloads: 193,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
     vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Memento Mori",
-        "Virtud como Bien Supremo"
+        "Ciudadela Interior",
+        "Ataraxia",
+        "Amor Fati"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: CARTAS DE SÉNECA A LUCILIO aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: La ética en Demócrito por Fondo  Editorial  Universidad Nacional Mayor de San Marcos aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -22244,30 +22281,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1506,
-    title: "La Caverna",
-    author: "José Saramago (Premio Nobel)",
+    id: 1431,
+    title: "El pequeño libro del estoicismo - Jonas-Salzgeber.pdf  versión 1.pdf  versión 1.pdf  versión 1",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1506_Saramago_Jose_-_La_caverna.pdf",
-    year: 2000,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1431_El_peque_o_libro_del_estoicismo_-_Jonas-Salzgeber.pdf_versi_n_1.pdf_versi_n_1.pdf_versi_n_1.pdf",
+    year: 2020,
     language: "Español",
-    pages: 251,
-    description: "Obra esencial de José Saramago (Premio Nobel) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
-    cover: "covers/c-est-saramago__jose___la_caverna-105.png",
-    downloads: 182,
+    pages: 232,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-el_peque_o_libro_del_estoicismo___j-32.png",
+    downloads: 187,
     featured: false,
     aiAnalysis: {
     genre: "Espiritualidad & sabiduría",
-    vibe: "crítica Humana & Profunda",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Dicotomía del Control",
-        "Amor Fati",
-        "Ataraxia"
+        "Ciudadela Interior",
+        "Virtud como Bien Supremo",
+        "Memento Mori"
       ],
     targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: La Caverna aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    aiSummary: "Análisis editorial: El pequeño libro del estoicismo - Jonas-Salzgeber.pdf  versión 1.pdf  versión 1.pdf  versión 1 aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -22411,31 +22448,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1232,
-    title: "El Poder del Ahora",
-    author: "Eckhart Tolle",
+    id: 1412,
+    title: "CARTAS DE SÉNECA A LUCILIO",
+    author: "Selección Bibliotyan",
     category: "Espiritualidad & sabiduría",
-    collection: "General",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1232_El_poder_del_ahora._Un_camino_hacia_la_realizaci_n_espiritual.pdf",
-    year: 2017,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1412_CARTAS_DE_S_NECA_A_LUCILIO.PDF",
+    year: 2020,
     language: "Español",
-    pages: 196,
-    description: "Un viaje espiritual transformador hacia el desapego del ego y el descubrimiento de la paz incondicional en el instante presente.",
-    cover: "covers/c-el-poder-del-ahora-un-camino-hacia-la-realizaci-n-esp.png",
-    downloads: 164,
+    pages: 614,
+    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-cartas_de_s_neca_a_lucilio-12.png",
+    downloads: 184,
     featured: false,
     aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "Profundo & Reflexivo",
     keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
+        "Dicotomía del Control",
+        "Memento Mori",
+        "Virtud como Bien Supremo"
       ],
-    targetAudience: "Buscadores espirituales y personas que desean liberarse de la ansiedad y la sobrepensadera.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: CARTAS DE SÉNECA A LUCILIO aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -22579,31 +22615,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1161,
-    title: "Sopa de Pollo para el Alma",
-    author: "Jack Canfield y Mark Victor Hansen",
+    id: 1506,
+    title: "La Caverna",
+    author: "José Saramago (Premio Nobel)",
     category: "Espiritualidad & sabiduría",
-    collection: "General",
+    collection: "La Gran Biblioteca Estoica",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1161_17-Sopa_de_Pollo_para_el_Alma.pdf",
-    year: 2016,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1506_Saramago_Jose_-_La_caverna.pdf",
+    year: 2000,
     language: "Español",
-    pages: 393,
-    description: "Historias reconfortantes que abren el corazón y reavivan el espíritu, recordando la fuerza del perdón, la ternura y la gratitud cotidiana.",
-    cover: "covers/c-17-sopa-de-pollo-para-el-alma.png",
-    downloads: 157,
+    pages: 251,
+    description: "Obra esencial de José Saramago (Premio Nobel) centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    cover: "covers/c-est-saramago__jose___la_caverna-105.png",
+    downloads: 182,
     featured: false,
     aiAnalysis: {
-    genre: "Crecimiento Personal",
-    vibe: "Transformador & Consciente",
+    genre: "Espiritualidad & sabiduría",
+    vibe: "crítica Humana & Profunda",
     keyConcepts: [
-        "Mentalidad Positiva",
-        "Autoconocimiento",
-        "Resiliencia Emocional",
-        "Claridad de Propósito"
+        "Dicotomía del Control",
+        "Amor Fati",
+        "Ataraxia"
       ],
-    targetAudience: "Lectores en busca de calor humano, consuelo emocional e inspiración de vida.",
-    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
+    aiSummary: "Análisis editorial: La Caverna aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
     }
   },
   {
@@ -22747,19 +22782,19 @@ const BOOKS = [
     }
   },
   {
-    id: 1229,
-    title: "El Monje Que Vendió su Ferrari",
-    author: "Robin Sharma",
+    id: 1232,
+    title: "El Poder del Ahora",
+    author: "Eckhart Tolle",
     category: "Espiritualidad & sabiduría",
     collection: "General",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1229_El_Monje_Que_Vendio_Su_Ferrari.pdf",
-    year: 2024,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1232_El_poder_del_ahora._Un_camino_hacia_la_realizaci_n_espiritual.pdf",
+    year: 2017,
     language: "Español",
-    pages: 157,
-    description: "La célebre fábula espiritual sobre los siete principios imperecederos de los sabios de Sivana para una vida de propósito y armonía interior.",
-    cover: "covers/c-el-monje-que-vendio-su-ferrari.png",
-    downloads: 143,
+    pages: 196,
+    description: "Un viaje espiritual transformador hacia el desapego del ego y el descubrimiento de la paz incondicional en el instante presente.",
+    cover: "covers/c-el-poder-del-ahora-un-camino-hacia-la-realizaci-n-esp.png",
+    downloads: 164,
     featured: false,
     aiAnalysis: {
     genre: "Crecimiento Personal",
@@ -22770,7 +22805,7 @@ const BOOKS = [
         "Resiliencia Emocional",
         "Claridad de Propósito"
       ],
-    targetAudience: "Profesionales en búsqueda de renovación interior y sabiduría perenne.",
+    targetAudience: "Buscadores espirituales y personas que desean liberarse de la ansiedad y la sobrepensadera.",
     aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
@@ -22916,6 +22951,34 @@ const BOOKS = [
     collection: "Colección Emprendedores"
   },
   {
+    id: 1161,
+    title: "Sopa de Pollo para el Alma",
+    author: "Jack Canfield y Mark Victor Hansen",
+    category: "Espiritualidad & sabiduría",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1161_17-Sopa_de_Pollo_para_el_Alma.pdf",
+    year: 2016,
+    language: "Español",
+    pages: 393,
+    description: "Historias reconfortantes que abren el corazón y reavivan el espíritu, recordando la fuerza del perdón, la ternura y la gratitud cotidiana.",
+    cover: "covers/c-17-sopa-de-pollo-para-el-alma.png",
+    downloads: 157,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Lectores en busca de calor humano, consuelo emocional e inspiración de vida.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
+    }
+  },
+  {
     id: 1025,
     title: "El Abc para Crear un Equipo",
     author: "Negocios Exitoso (robert Kiyosaki)",
@@ -23054,6 +23117,34 @@ const BOOKS = [
       ],
     targetAudience: "Emprendedores, administradores, directivos y estudiantes de negocios.",
     aiSummary: "Tratado y guía ejecutiva sobre Entrenando A Tu Líder. Aborda fundamentos teóricos, metodologías probadas y herramientas prácticas para la toma de decisiones ágiles en Liderazgo y Gestión Organizacional."
+    }
+  },
+  {
+    id: 1229,
+    title: "El Monje Que Vendió su Ferrari",
+    author: "Robin Sharma",
+    category: "Espiritualidad & sabiduría",
+    collection: "General",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1229_El_Monje_Que_Vendio_Su_Ferrari.pdf",
+    year: 2024,
+    language: "Español",
+    pages: 157,
+    description: "La célebre fábula espiritual sobre los siete principios imperecederos de los sabios de Sivana para una vida de propósito y armonía interior.",
+    cover: "covers/c-el-monje-que-vendio-su-ferrari.png",
+    downloads: 143,
+    featured: false,
+    aiAnalysis: {
+    genre: "Crecimiento Personal",
+    vibe: "Transformador & Consciente",
+    keyConcepts: [
+        "Mentalidad Positiva",
+        "Autoconocimiento",
+        "Resiliencia Emocional",
+        "Claridad de Propósito"
+      ],
+    targetAudience: "Profesionales en búsqueda de renovación interior y sabiduría perenne.",
+    aiSummary: "Una obra imprescindible en Crecimiento Personal que proporciona claves de impacto para el crecimiento continuo."
     }
   },
   {
