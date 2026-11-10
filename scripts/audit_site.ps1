@@ -89,10 +89,10 @@ foreach ($m in $idMatches) {
 }
 
 $totalBooks = $idMatches.Count
-if ($totalBooks -eq 1099 -and $dupCount -eq 0) {
-    Write-Host "[OK] Base de datos de libros: 1.099 libros registrados con 0 IDs duplicados." -ForegroundColor Green
+if ($totalBooks -eq 1296 -and $dupCount -eq 0) {
+    Write-Host "[OK] Base de datos de libros: 1.296 libros registrados con 0 IDs duplicados." -ForegroundColor Green
 } else {
-    Write-Host "[FALLO] Base de datos: Total=$totalBooks (Esperado: 1099), Duplicados=$dupCount" -ForegroundColor Red
+    Write-Host "[FALLO] Base de datos: Total=$totalBooks (Esperado: 1296), Duplicados=$dupCount" -ForegroundColor Red
     $allPass = $false
 }
 
