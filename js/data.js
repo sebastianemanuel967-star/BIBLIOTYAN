@@ -441,30 +441,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1605,
-    title: "Cómo Tratar con Gente Difícil: Gestión de conflictos y relaciones complejas",
+    id: 2610,
+    title: "Finanzas Básicas: Descubre las palabras clave, entiende los fundamentos, interpreta los balances",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Guías Maestras",
+    subtopic: "Alfabetización Financiera para No Financieros",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1605_hbr_como_tratar_con_gente_dificil.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2610_hbr_finanzas_basicas.pdf",
+    pages: 144,
     year: 2018,
     language: "Español",
-    pages: 160,
-    description: "Técnicas comprobadas por negociadores de Harvard para neutralizar actitudes hostiles, mantener la calma bajo presión y construir acuerdos constructivos.",
-    cover: "covers/hbr-como-tratar-con-gente-dificil-v2.jpg",
-    downloads: 567,
+    description: "El manual definitivo de Harvard para comprender los números de una empresa sin ser contador. Domina el estado de resultados, el balance general, el flujo de caja, el EBITDA y el ROI para tomar decisiones comerciales fundamentadas.",
+    cover: "covers/c-2610-hbr-finanzas-basicas.png",
+    downloads: 880,
     featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Táctico & Diplomático",
+    vibe: "Riguroso & Accesible",
     keyConcepts: [
-        "Resolución de Conflictos",
-        "Conversaciones Difíciles",
-        "Comunicación Asertiva"
+        "Balance General",
+        "Estado de Pérdidas y Ganancias",
+        "Flujo de Efectivo",
+        "EBITDA y Rentabilidad",
+        "Toma de Decisiones Financieras"
       ],
-    targetAudience: "Managers, negociadores y colaboradores que necesitan gestionar desacuerdos sin deteriorar la cultura laboral.",
-    aiSummary: "Análisis editorial: Cómo Tratar con Gente Difícil ofrece un protocolo paso a paso para desescalar tensiones y negociar con personalidades complejas."
+    targetAudience: "Gerentes no financieros, emprendedores, consultores y profesionales que necesitan leer la salud financiera de una empresa.",
+    aiSummary: "Una guía esencial y desmitificadora de Harvard para dominar el lenguaje del dinero empresarial e interpretar balances con solvencia ejecutiva."
     }
   },
   {
@@ -886,30 +889,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1601,
-    title: "Autoconciencia: Conócete a ti mismo y lidera con autenticidad",
+    id: 2611,
+    title: "Management Tips: Los mejores consejos inspirados por las mentes más brillantes",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    subtopic: "Píldoras Ejecutivas de Liderazgo y Gestión",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1601_hbr_autoconciencia.pdf",
-    year: 2019,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2611_hbr_management_tips.pdf",
+    pages: 191,
+    year: 2018,
     language: "Español",
-    pages: 98,
-    description: "Guía fundamental de Harvard Business Review para desarrollar una autoconciencia profunda: cómo nos vemos a nosotros mismos, cómo nos perciben los demás y cómo usar esta claridad para liderar con eficacia.",
-    cover: "covers/hbr-autoconciencia-v2.jpg",
-    downloads: 512,
+    description: "Compendio de consejos prácticos, directos y aplicables de Harvard Business Review sobre liderazgo, productividad, toma de decisiones, innovación y manejo de personal. Cada consejo ofrece una acción inmediata para mejorar tu práctica gerencial.",
+    cover: "covers/c-2611-hbr-management-tips.png",
+    downloads: 860,
     featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Introspectivo & Estratégico",
+    vibe: "Inspirador & Conciso",
     keyConcepts: [
-        "Autoconocimiento",
-        "Inteligencia Emocional",
-        "Liderazgo Consciente"
+        "Micro-Hábitos de Gestión",
+        "Liderazgo Cotidiano",
+        "Toma de Decisiones Rápida",
+        "Motivación de Colaboradores",
+        "Maestría Ejecutiva"
       ],
-    targetAudience: "Líderes, directores y profesionales que buscan comprender sus emociones y fortalecer su toma de decisiones.",
-    aiSummary: "Análisis editorial: Autoconciencia aporta investigaciones empíricas de Harvard para calibrar la autopercepción y proyectar un liderazgo genuino."
+    targetAudience: "Directores, mandos medios y profesionales ocupados que buscan ideas de alto impacto listas para implementar.",
+    aiSummary: "Colección curada por HBR con las ideas más perspicaces de sus principales autores, diseñada para leer en momentos libres y aplicar en el trabajo real."
     }
   },
   {
@@ -1329,30 +1335,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1610,
-    title: "Influencia y Persuasión: El arte de convencer sin manipular",
+    id: 2606,
+    title: "Cómo Mantener una Conversación Difícil",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    subtopic: "Negociación, Manejo de Conflictos y Asertividad",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1610_hbr_influencia_y_persuasion.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2606_hbr_como_mantener_una_conversacion_dificil.pdf",
+    pages: 82,
     year: 2019,
     language: "Español",
-    pages: 100,
-    description: "Cómo comunicar proyectos e ideas con impacto magnético utilizando los principios de persuasión ética investigados por la Escuela de Negocios de Harvard.",
-    cover: "covers/hbr-influencia-y-persuasion-v2.jpg",
-    downloads: 504,
+    description: "Técnicas probadas de la Escuela de Negocios de Harvard para abordar temas incómodos, entregar retroalimentación crítica sin dañar la relación y desescalar situaciones tensas con profesionalismo y empatía.",
+    cover: "covers/c-2606-hbr-como-mantener-una-conversacion-dificil.png",
+    downloads: 850,
     featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Estratégico & Contundente",
+    vibe: "Diplomático & Valiente",
     keyConcepts: [
-        "Storytelling Ejecutivo",
-        "Negociación Persuasiva",
-        "Credibilidad"
+        "Feedback Constructivo",
+        "Desescalada Emocional",
+        "Escucha Activa",
+        "Gestión del Conflicto",
+        "Conversaciones Cruciales"
       ],
-    targetAudience: "Comerciales, líderes de proyectos y consultores que necesitan alinear voluntades en torno a una idea.",
-    aiSummary: "Análisis editorial: Influencia y Persuasión enseña a articular argumentos convincentes y movilizar a otros con autoridad moral y elocuencia."
+    targetAudience: "Líderes de equipo, profesionales de recursos humanos y directivos que afrontan diálogos de alta tensión.",
+    aiSummary: "Marco de trabajo de Harvard para superar el miedo a las conversaciones difíciles, enfocándose en los hechos, las emociones subyacentes y las soluciones compartidas."
     }
   },
   {
@@ -1772,30 +1781,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1608,
-    title: "Energía y Motivación: Mantener el impulso y evitar el agotamiento",
+    id: 2604,
+    title: "Cómo Gestionar tu Tiempo",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    subtopic: "Eficiencia Personal y Foco Estratégico",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1608_hbr_energia_y_motivacion.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2604_hbr_como_gestionar_tu_tiempo.pdf",
+    pages: 67,
+    year: 2019,
     language: "Español",
-    pages: 176,
-    description: "Un enfoque científico sobre cómo gestionar no el tiempo, sino la energía personal para sostener un rendimiento de élite sin comprometer la salud física y mental.",
-    cover: "covers/hbr-energia-y-motivacion-v2.jpg",
-    downloads: 495,
+    description: "Técnicas de gestión del tiempo basadas en las mejores prácticas de Harvard. Aprende a priorizar lo urgente frente a lo importante, blindar bloques de concentración profunda y decir no a compromisos que desvían tus metas prioritarias.",
+    cover: "covers/c-2604-hbr-como-gestionar-tu-tiempo.png",
+    downloads: 830,
     featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Dinámico & Vital",
+    vibe: "Foco & Eficiencia",
     keyConcepts: [
-        "Gestión de Energía",
-        "Prevención del Burnout",
-        "Motivación Intrínseca"
+        "Matriz de Priorización",
+        "Time Blocking",
+        "Eliminación de Distracciones",
+        "Límites Profesionales",
+        "Gestión de la Energía"
       ],
-    targetAudience: "Profesionales sometidos a ritmos exigentes que buscan optimizar su vitalidad mental y física.",
-    aiSummary: "Análisis editorial: Energía y Motivación aporta marcos de trabajo para recargar la capacidad física, mental y espiritual en entornos de alta exigencia."
+    targetAudience: "Ejecutivos y especialistas que buscan recuperar el control de su jornada y multiplicar su impacto.",
+    aiSummary: "Un enfoque riguroso de 20 minutos para organizar el flujo de trabajo diario, proteger la concentración y maximizar el rendimiento individual."
     }
   },
   {
@@ -2219,30 +2231,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1602,
-    title: "Buenos Hábitos: Rutinas diarias para la máxima efectividad",
+    id: 2612,
+    title: "Management Tips 2: Nuevas claves de liderazgo y gestión de Harvard",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    subtopic: "Estrategias Contemporáneas de Gestión y Transformación",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1602_hbr_buenos_habitos.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2612_hbr_management_tips_2.pdf",
+    pages: 142,
     year: 2020,
     language: "Español",
-    pages: 158,
-    description: "Expertos de Harvard explican la ciencia detrás de cómo romper malos hábitos de trabajo, automatizar conductas positivas y mantener la energía a lo largo de la jornada.",
-    cover: "covers/hbr-buenos-habitos-v2.jpg",
-    downloads: 489,
+    description: "Segunda entrega del compendio de Harvard con nuevas reflexiones, tácticas de gestión y herramientas para prosperar en entornos corporativos dinámicos, acelerar el crecimiento profesional y liderar con propósito.",
+    cover: "covers/c-2612-hbr-management-tips-2.png",
+    downloads: 820,
     featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Práctico & Transformador",
+    vibe: "Estratégico & Moderno",
     keyConcepts: [
-        "Arquitectura de Hábitos",
-        "Productividad Diaria",
-        "Enfoque Sostenible"
+        "Resiliencia Organizacional",
+        "Liderazgo con Propósito",
+        "Agilidad Empresarial",
+        "Desarrollo de Equipos",
+        "Excelencia Directiva"
       ],
-    targetAudience: "Profesionales que buscan erradicar el desgaste laboral y construir rutinas de alto rendimiento.",
-    aiSummary: "Análisis editorial: Buenos Hábitos sintetiza técnicas científicas para moldear la conducta laboral diaria y prevenir el agotamiento."
+    targetAudience: "Líderes consolidados y emergentes que desean mantenerse a la vanguardia de la teoría y práctica gerencial de Harvard.",
+    aiSummary: "Continuación de la serie de HBR con recomendaciones prácticas para enfrentar la volatilidad, cultivar talento y elevar los estándares de liderazgo."
     }
   },
   {
@@ -2666,30 +2681,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1606,
-    title: "El Auténtico Liderazgo: Guiar con propósito, valores e integridad",
+    id: 2608,
+    title: "Cómo Ser Más Productivo",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    subtopic: "Alto Rendimiento Laboral y Eficiencia de Flujo",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1606_hbr_el_autentico_liderazgo.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2608_hbr_como_ser_mas_productivo.pdf",
+    pages: 84,
     year: 2019,
     language: "Español",
-    pages: 118,
-    description: "Los mejores autores de Harvard analizan qué distingue a los líderes verdaderamente respetados: autenticidad, empatía, coherencia ética y visión a largo plazo.",
-    cover: "covers/hbr-el-autentico-liderazgo-v2.jpg",
-    downloads: 441,
+    description: "Investigaciones aplicadas de Harvard para optimizar tus rutinas diarias, erradicar la sobrecarga de correos electrónicos y reuniones, y concentrarte en el trabajo de mayor valor agregado sin desgastar tu bienestar.",
+    cover: "covers/c-2608-hbr-como-ser-mas-productivo.png",
+    downloads: 790,
     featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Profundo & Magistral",
+    vibe: "Pragmático & Enfocado",
     keyConcepts: [
-        "Liderazgo Basado en Valores",
-        "Vulnerabilidad Estratégica",
-        "Cultura Organizacional"
+        "Trabajo Profundo",
+        "Gestión del Email",
+        "Optimización de Flujos",
+        "Foco en Tareas Clave",
+        "Equilibrio Laboral"
       ],
-    targetAudience: "Fundadores, mentores y directivos comprometidos con dejar un legado positivo en sus equipos.",
-    aiSummary: "Análisis editorial: El Auténtico Liderazgo redefine el poder como un acto de servicio, coherencia ética y valentía moral."
+    targetAudience: "Trabajadores del conocimiento y líderes que desean multiplicar su producción diaria manteniendo la lucidez mental.",
+    aiSummary: "Estrategias de 20 minutos para superar la procrastinación, ordenar prioridades y producir resultados sobresalientes en menor tiempo."
     }
   },
   {
@@ -3081,30 +3099,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1603,
-    title: "Confianza: Superar el síndrome del impostor y proyectar seguridad",
+    id: 2600,
+    title: "Cómo Crear un Plan de Negocio",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    subtopic: "Estrategia Empresarial y Modelado de Negocios",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1603_hbr_confianza.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2600_hbr_como_crear_un_plan_de_negocio.pdf",
+    pages: 100,
+    year: 2018,
     language: "Español",
-    pages: 153,
-    description: "Estrategias basadas en investigaciones de HBR para fortalecer la autoconfianza genuina, gestionar la vulnerabilidad y construir credibilidad duradera en cualquier equipo.",
-    cover: "covers/hbr-confianza-v2.jpg",
-    downloads: 432,
+    description: "Manual indispensable de Harvard Business Review para estructurar una propuesta de negocio viable, persuasiva y sólida. Abarca el análisis de mercado, la propuesta de valor, las proyecciones financieras y el pitch ejecutivo para inversores.",
+    cover: "covers/c-2600-hbr-como-crear-un-plan-de-negocio.png",
+    downloads: 780,
     featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Empoderador & Riguroso",
+    vibe: "Estratégico & Emprendedor",
     keyConcepts: [
-        "Seguridad Profesional",
-        "Síndrome del Impostor",
-        "Resiliencia Emocional"
+        "Propuesta de Valor",
+        "Análisis de Mercado",
+        "Viabilidad Financiera",
+        "Ventaja Competitiva",
+        "Estrategia de Crecimiento"
       ],
-    targetAudience: "Emprendedores y ejecutivos que desean superar dudas paralizantes y comunicarse con autoridad creíble.",
-    aiSummary: "Análisis editorial: Confianza ofrece claves probadas para desactivar el autosabotaje y liderar con aplomo ante auditorios exigentes."
+    targetAudience: "Emprendedores, intraemprendedores y directores de nuevos proyectos comerciales.",
+    aiSummary: "Guía paso a paso para traducir una visión de negocio en un documento convincente respaldado por métricas, análisis de competencia y proyección económica."
     }
   },
   {
@@ -3468,30 +3489,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1612,
-    title: "Saber Escuchar: El arte de la escucha activa y la presencia",
+    id: 2601,
+    title: "Cómo Delegar: Asigna responsabilidades, fortalece a tu equipo",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    subtopic: "Empoderamiento y Gestión del Rendimiento",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1612_hbr_saber_escuchar.pdf",
-    year: 2021,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2601_hbr_como_delegar.pdf",
+    pages: 69,
+    year: 2019,
     language: "Español",
-    pages: 92,
-    description: "Descubre por qué saber escuchar con atención plena es la competencia de liderazgo más escasa y valiosa en un entorno saturado de ruido y distracciones.",
-    cover: "covers/hbr-saber-escuchar-v2.jpg",
-    downloads: 427,
+    description: "El arte de delegar con eficacia según los expertos de Harvard. Aprende a identificar tareas delegables, elegir a la persona indicada, establecer límites de autoridad y realizar seguimiento sin caer en la microgestión.",
+    cover: "covers/c-2601-hbr-como-delegar.png",
+    downloads: 720,
     featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Calmo & Relevante",
+    vibe: "Liderazgo & Empoderamiento",
     keyConcepts: [
-        "Escucha Activa",
-        "Presencia Ejecutiva",
-        "Comunicación No Verbal"
+        "Delegación Efectiva",
+        "Autonomía Responsable",
+        "Seguimiento sin Microgestión",
+        "Desarrollo del Talento",
+        "Gestión del Riesgo"
       ],
-    targetAudience: "Directivos, mediadores y profesionales que desean mejorar radicalmente su comunicación interpersonal.",
-    aiSummary: "Análisis editorial: Saber Escuchar revela cómo el silencio atento y la presencia consciente transforman las relaciones de trabajo y la confianza mutua."
+    targetAudience: "Líderes de equipo, gerentes y coordinadores sobrecargados de tareas operativas.",
+    aiSummary: "Harvard Business Review enseña cómo liberar tu agenda directiva empoderando a tus colaboradores con tareas de impacto y expectativas claras."
     }
   },
   {
@@ -3854,30 +3878,33 @@ const BOOKS = [
     }
   },
   {
-    id: 1611,
-    title: "Propósito, Sentido y Pasión: Encontrar la chispa vocacional",
+    id: 2598,
+    title: "Cómo Gestionar la Relación con tu Superior",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    subtopic: "Gestión de Relaciones y Liderazgo Ascendente",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1611_hbr_proposito_sentido_y_pasion.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2598_hbr_como_gestionar_la_relacion_con_tu_superior.pdf",
+    pages: 71,
+    year: 2019,
     language: "Español",
-    pages: 112,
-    description: "Artículos esenciales sobre cómo alinear lo que haces a diario con lo que verdaderamente te importa, redefiniendo el éxito a través del propósito profesional.",
-    cover: "covers/hbr-proposito-sentido-y-pasion-v2.jpg",
-    downloads: 462,
-    featured: false,
+    description: "Guía rápida y estratégica de Harvard Business Review para construir una relación sólida, productiva y de confianza con tu superior. Enseña a alinear prioridades, comunicarse asertivamente, presentar soluciones en lugar de problemas y gestionar desacuerdos con tacto profesional.",
+    cover: "covers/c-2598-hbr-como-gestionar-la-relacion-con-tu-superior.png",
+    downloads: 645,
+    featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Inspirador & Profundo",
+    vibe: "Estratégico & Diplomático",
     keyConcepts: [
-        "Misión Personal",
-        "Vocación Profesional",
-        "Significado Vital"
+        "Liderazgo Ascendente",
+        "Alineación de Expectativas",
+        "Comunicación con Superiores",
+        "Generación de Confianza",
+        "Resolución de Desacuerdos"
       ],
-    targetAudience: "Profesionales en transición de carrera o en búsqueda de sentido profundo en su trayectoria.",
-    aiSummary: "Análisis editorial: Propósito, Sentido y Pasión guía hacia la conexión entre los valores personales y los retos profesionales más ambiciosos."
+    targetAudience: "Profesionales, mandos intermedios y directores que buscan mejorar la colaboración y fluidez con sus líderes.",
+    aiSummary: "Harvard Business Review sintetiza los principios clave para desarrollar una relación de trabajo de alto valor con tu jefe, anticipando necesidades y construyendo una alianza estratégica."
     }
   },
   {
@@ -4240,30 +4267,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1607,
-    title: "Empatía: Conectar profundamente para colaborar y liderar",
+    id: 1605,
+    title: "Cómo Tratar con Gente Difícil: Gestión de conflictos y relaciones complejas",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
-    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    collection: "Harvard Business Review — Guías Maestras",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1607_hbr_empatia.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1605_hbr_como_tratar_con_gente_dificil.pdf",
     year: 2018,
     language: "Español",
-    pages: 214,
-    description: "Por qué la empatía no es una debilidad, sino la habilidad técnica más codiciada en la era digital para coordinar talentos diversos y crear lealtad.",
-    cover: "covers/hbr-empatia-v2.jpg",
-    downloads: 418,
-    featured: false,
+    pages: 160,
+    description: "Técnicas comprobadas por negociadores de Harvard para neutralizar actitudes hostiles, mantener la calma bajo presión y construir acuerdos constructivos.",
+    cover: "covers/hbr-como-tratar-con-gente-dificil-v2.jpg",
+    downloads: 567,
+    featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Humano & Revelador",
+    vibe: "Táctico & Diplomático",
     keyConcepts: [
-        "Escucha Empática",
-        "Inteligencia Social",
-        "Cohesión de Equipo"
+        "Resolución de Conflictos",
+        "Conversaciones Difíciles",
+        "Comunicación Asertiva"
       ],
-    targetAudience: "Líderes de producto, gestores de talento humano y directores de proyectos.",
-    aiSummary: "Análisis editorial: Empatía expone cómo la sintonía emocional entre colegas detona la productividad y multiplica la lealtad en las empresas."
+    targetAudience: "Managers, negociadores y colaboradores que necesitan gestionar desacuerdos sin deteriorar la cultura laboral.",
+    aiSummary: "Análisis editorial: Cómo Tratar con Gente Difícil ofrece un protocolo paso a paso para desescalar tensiones y negociar con personalidades complejas."
     }
   },
   {
@@ -4627,30 +4654,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1609,
-    title: "Felicidad: Bienestar emocional y satisfacción en el trabajo",
+    id: 1601,
+    title: "Autoconciencia: Conócete a ti mismo y lidera con autenticidad",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
     collection: "Harvard Business Review — Serie Inteligencia Emocional",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1609_hbr_felicidad.pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1601_hbr_autoconciencia.pdf",
     year: 2019,
     language: "Español",
-    pages: 143,
-    description: "Estudios de psicología positiva aplicados a las organizaciones: cómo la felicidad real eleva la creatividad, disminuye el estrés y multiplica el éxito profesional.",
-    cover: "covers/hbr-felicidad-v2.jpg",
-    downloads: 388,
-    featured: false,
+    pages: 98,
+    description: "Guía fundamental de Harvard Business Review para desarrollar una autoconciencia profunda: cómo nos vemos a nosotros mismos, cómo nos perciben los demás y cómo usar esta claridad para liderar con eficacia.",
+    cover: "covers/hbr-autoconciencia-v2.jpg",
+    downloads: 512,
+    featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Luminoso & Basado en Evidencia",
+    vibe: "Introspectivo & Estratégico",
     keyConcepts: [
-        "Psicología Positiva",
-        "Satisfacción Laboral",
-        "Resiliencia Colectiva"
+        "Autoconocimiento",
+        "Inteligencia Emocional",
+        "Liderazgo Consciente"
       ],
-    targetAudience: "Toda persona interesada en encontrar plenitud y balance entre su carrera profesional y su vida personal.",
-    aiSummary: "Análisis editorial: Felicidad fundamenta científicamente cómo los ambientes de trabajo positivos superan ampliamente a las culturas basadas en la presión."
+    targetAudience: "Líderes, directores y profesionales que buscan comprender sus emociones y fortalecer su toma de decisiones.",
+    aiSummary: "Análisis editorial: Autoconciencia aporta investigaciones empíricas de Harvard para calibrar la autopercepción y proyectar un liderazgo genuino."
     }
   },
   {
@@ -5014,30 +5041,30 @@ const BOOKS = [
     }
   },
   {
-    id: 1604,
-    title: "Curiosidad: El motor de la innovación y el aprendizaje continuo",
+    id: 1610,
+    title: "Influencia y Persuasión: El arte de convencer sin manipular",
     author: "Harvard Business Review",
     category: "HARVARD LIBROS",
     collection: "Harvard Business Review — Serie Inteligencia Emocional",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1604_hbr_curiosidad.pdf",
-    year: 2020,
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1610_hbr_influencia_y_persuasion.pdf",
+    year: 2019,
     language: "Español",
-    pages: 107,
-    description: "Cómo fomentar la indagación abierta y la exploración sin prejuicios dentro de las organizaciones para descubrir soluciones disruptivas y adaptarse al cambio.",
-    cover: "covers/hbr-curiosidad-v2.jpg",
-    downloads: 375,
-    featured: false,
+    pages: 100,
+    description: "Cómo comunicar proyectos e ideas con impacto magnético utilizando los principios de persuasión ética investigados por la Escuela de Negocios de Harvard.",
+    cover: "covers/hbr-influencia-y-persuasion-v2.jpg",
+    downloads: 504,
+    featured: true,
     aiAnalysis: {
     genre: "HARVARD LIBROS",
-    vibe: "Inspirador & Analítico",
+    vibe: "Estratégico & Contundente",
     keyConcepts: [
-        "Mentalidad de Crecimiento",
-        "Pensamiento Lateral",
-        "Innovación Ágil"
+        "Storytelling Ejecutivo",
+        "Negociación Persuasiva",
+        "Credibilidad"
       ],
-    targetAudience: "Creadores, diseñadores y directivos enfocados en la resolución creativa de problemas complejos.",
-    aiSummary: "Análisis editorial: Curiosidad demuestra cómo las organizaciones más innovadoras premian las preguntas desafiantes por encima de las respuestas fáciles."
+    targetAudience: "Comerciales, líderes de proyectos y consultores que necesitan alinear voluntades en torno a una idea.",
+    aiSummary: "Análisis editorial: Influencia y Persuasión enseña a articular argumentos convincentes y movilizar a otros con autoridad moral y elocuencia."
     }
   },
   {
@@ -5401,6 +5428,33 @@ const BOOKS = [
     }
   },
   {
+    id: 1608,
+    title: "Energía y Motivación: Mantener el impulso y evitar el agotamiento",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1608_hbr_energia_y_motivacion.pdf",
+    year: 2020,
+    language: "Español",
+    pages: 176,
+    description: "Un enfoque científico sobre cómo gestionar no el tiempo, sino la energía personal para sostener un rendimiento de élite sin comprometer la salud física y mental.",
+    cover: "covers/hbr-energia-y-motivacion-v2.jpg",
+    downloads: 495,
+    featured: true,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Dinámico & Vital",
+    keyConcepts: [
+        "Gestión de Energía",
+        "Prevención del Burnout",
+        "Motivación Intrínseca"
+      ],
+    targetAudience: "Profesionales sometidos a ritmos exigentes que buscan optimizar su vitalidad mental y física.",
+    aiSummary: "Análisis editorial: Energía y Motivación aporta marcos de trabajo para recargar la capacidad física, mental y espiritual en entornos de alta exigencia."
+    }
+  },
+  {
     id: 1517,
     title: "Una Vida en Resiliencia: El arte de vivir en peligro",
     author: "Boris Cyrulnik",
@@ -5758,6 +5812,33 @@ const BOOKS = [
       ],
     targetAudience: "Estudiantes, curiosos y profesionales interesados en Mac OS X Leopard para Dummies.",
     aiSummary: "Guía completa del sistema operativo para Mac: Finder, Time Machine, Safari, Mail, personalización de preferencias y consejos para exprimir tu ordenador Apple."
+    }
+  },
+  {
+    id: 1602,
+    title: "Buenos Hábitos: Rutinas diarias para la máxima efectividad",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1602_hbr_buenos_habitos.pdf",
+    year: 2020,
+    language: "Español",
+    pages: 158,
+    description: "Expertos de Harvard explican la ciencia detrás de cómo romper malos hábitos de trabajo, automatizar conductas positivas y mantener la energía a lo largo de la jornada.",
+    cover: "covers/hbr-buenos-habitos-v2.jpg",
+    downloads: 489,
+    featured: true,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Práctico & Transformador",
+    keyConcepts: [
+        "Arquitectura de Hábitos",
+        "Productividad Diaria",
+        "Enfoque Sostenible"
+      ],
+    targetAudience: "Profesionales que buscan erradicar el desgaste laboral y construir rutinas de alto rendimiento.",
+    aiSummary: "Análisis editorial: Buenos Hábitos sintetiza técnicas científicas para moldear la conducta laboral diaria y prevenir el agotamiento."
     }
   },
   {
@@ -6122,6 +6203,33 @@ const BOOKS = [
     }
   },
   {
+    id: 1606,
+    title: "El Auténtico Liderazgo: Guiar con propósito, valores e integridad",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1606_hbr_el_autentico_liderazgo.pdf",
+    year: 2019,
+    language: "Español",
+    pages: 118,
+    description: "Los mejores autores de Harvard analizan qué distingue a los líderes verdaderamente respetados: autenticidad, empatía, coherencia ética y visión a largo plazo.",
+    cover: "covers/hbr-el-autentico-liderazgo-v2.jpg",
+    downloads: 441,
+    featured: true,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Profundo & Magistral",
+    keyConcepts: [
+        "Liderazgo Basado en Valores",
+        "Vulnerabilidad Estratégica",
+        "Cultura Organizacional"
+      ],
+    targetAudience: "Fundadores, mentores y directivos comprometidos con dejar un legado positivo en sus equipos.",
+    aiSummary: "Análisis editorial: El Auténtico Liderazgo redefine el poder como un acto de servicio, coherencia ética y valentía moral."
+    }
+  },
+  {
     id: 1422,
     title: "Desarrolla tu Disciplina Personal",
     author: "Steve Pavlina",
@@ -6482,6 +6590,33 @@ const BOOKS = [
     }
   },
   {
+    id: 1603,
+    title: "Confianza: Superar el síndrome del impostor y proyectar seguridad",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1603_hbr_confianza.pdf",
+    year: 2021,
+    language: "Español",
+    pages: 153,
+    description: "Estrategias basadas en investigaciones de HBR para fortalecer la autoconfianza genuina, gestionar la vulnerabilidad y construir credibilidad duradera en cualquier equipo.",
+    cover: "covers/hbr-confianza-v2.jpg",
+    downloads: 432,
+    featured: true,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Empoderador & Riguroso",
+    keyConcepts: [
+        "Seguridad Profesional",
+        "Síndrome del Impostor",
+        "Resiliencia Emocional"
+      ],
+    targetAudience: "Emprendedores y ejecutivos que desean superar dudas paralizantes y comunicarse con autoridad creíble.",
+    aiSummary: "Análisis editorial: Confianza ofrece claves probadas para desactivar el autosabotaje y liderar con aplomo ante auditorios exigentes."
+    }
+  },
+  {
     id: 1497,
     title: "No Me Puedes Lastimar (Edición Digital)",
     author: "David Goggins",
@@ -6839,6 +6974,33 @@ const BOOKS = [
       ],
     targetAudience: "Estudiantes, curiosos y profesionales interesados en Biología para Dummies.",
     aiSummary: "Explora los secretos de la vida: estructura celular, ADN y genética, fotosíntesis, reproducción, evolución y ecología explicados de manera clara, rigurosa y amena."
+    }
+  },
+  {
+    id: 1612,
+    title: "Saber Escuchar: El arte de la escucha activa y la presencia",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1612_hbr_saber_escuchar.pdf",
+    year: 2021,
+    language: "Español",
+    pages: 92,
+    description: "Descubre por qué saber escuchar con atención plena es la competencia de liderazgo más escasa y valiosa en un entorno saturado de ruido y distracciones.",
+    cover: "covers/hbr-saber-escuchar-v2.jpg",
+    downloads: 427,
+    featured: true,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Calmo & Relevante",
+    keyConcepts: [
+        "Escucha Activa",
+        "Presencia Ejecutiva",
+        "Comunicación No Verbal"
+      ],
+    targetAudience: "Directivos, mediadores y profesionales que desean mejorar radicalmente su comunicación interpersonal.",
+    aiSummary: "Análisis editorial: Saber Escuchar revela cómo el silencio atento y la presencia consciente transforman las relaciones de trabajo y la confianza mutua."
     }
   },
   {
@@ -7205,6 +7367,36 @@ const BOOKS = [
     }
   },
   {
+    id: 2607,
+    title: "Cómo Realizar Presentaciones",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    subtopic: "Comunicación Ejecutiva y Oratoria Corporativa",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2607_hbr_como_realizar_presentaciones.pdf",
+    pages: 89,
+    year: 2018,
+    language: "Español",
+    description: "Guía directiva para preparar ponencias y presentaciones que cautiven a la audiencia. Aprende a diseñar diapositivas con impacto visual, estructurar un mensaje inolvidable y responder preguntas complejas con serenidad y dominio de escena.",
+    cover: "covers/c-2607-hbr-como-realizar-presentaciones.png",
+    downloads: 710,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Persuasivo & Visual",
+    keyConcepts: [
+        "Storytelling Corporativo",
+        "Diseño de Diapositivas Claras",
+        "Presencia Escénica",
+        "Manejo de Preguntas Difíciles",
+        "Persuasión de Audiencias"
+      ],
+    targetAudience: "Profesionales y ejecutivos que presentan informes, propuestas o lanzamientos ante audiencias exigentes.",
+    aiSummary: "Claves de Harvard para transformar datos complejos en presentaciones convincentes que inspiren acción y respaldo directivo."
+    }
+  },
+  {
     id: 1496,
     title: "No Me Puedes Lastimar (Can't Hurt Me)",
     author: "David Goggins",
@@ -7563,6 +7755,36 @@ const BOOKS = [
       ],
     targetAudience: "Principiantes de todas las edades que desean iniciarse en el piano de manera entretenida y progresiva.",
     aiSummary: "Método práctico para tocar piano: lectura de partituras, digitación, escalas y acordes básicos."
+    }
+  },
+  {
+    id: 2603,
+    title: "Cómo Dirigir Reuniones de Trabajo",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    subtopic: "Productividad Organizacional y Conducción de Sesiones",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2603_hbr_como_dirigir_reuniones_de_trabajo.pdf",
+    pages: 104,
+    year: 2018,
+    language: "Español",
+    description: "Herramientas de facilitación de Harvard para erradicar las reuniones improductivas. Cómo definir objetivos nítidos, controlar el tiempo, dinamizar la participación de todos los miembros y asegurar acuerdos con responsables precisos.",
+    cover: "covers/c-2603-hbr-como-dirigir-reuniones-de-trabajo.png",
+    downloads: 670,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Táctico & Productivo",
+    keyConcepts: [
+        "Diseño de Agendas",
+        "Facilitación de Grupos",
+        "Toma de Decisiones Colectiva",
+        "Gestión del Tiempo",
+        "Compromisos y Seguimiento"
+      ],
+    targetAudience: "Cualquier profesional encargado de liderar juntas de trabajo y comités decisorios.",
+    aiSummary: "Guía práctica para transformar sesiones agotadoras en espacios ágiles de debate productivo y decisiones operativas concretas."
     }
   },
   {
@@ -7928,6 +8150,36 @@ const BOOKS = [
     }
   },
   {
+    id: 2609,
+    title: "Equipos Innovadores",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    subtopic: "Creatividad Empresarial y Dinámicas de Innovación",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2609_hbr_equipos_innovadores.pdf",
+    pages: 85,
+    year: 2019,
+    language: "Español",
+    description: "Cómo crear las condiciones para que surjan ideas disruptivas dentro de un equipo de trabajo. Fomenta la seguridad psicológica, el debate constructivo, la experimentación rápida y el aprendizaje continuo a partir de los errores.",
+    cover: "covers/c-2609-hbr-equipos-innovadores.png",
+    downloads: 630,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Creativo & Vanguardista",
+    keyConcepts: [
+        "Seguridad Psicológica",
+        "Lluvia de Ideas Efectiva",
+        "Prototipado Rápido",
+        "Cultura de Innovación",
+        "Diversidad de Perspectivas"
+      ],
+    targetAudience: "Líderes de producto, diseñadores de estrategia y directivos que buscan renovar el catálogo o modelo de su empresa.",
+    aiSummary: "Harvard Business Review presenta las mejores prácticas para romper silos, incentivar el pensamiento divergente y transformar ideas en innovaciones comerciales."
+    }
+  },
+  {
     id: 1436,
     title: "Elige No Tener Miedo: cómo aprender a vivir después de un gran dolor",
     author: "Gaby Pérez Islas",
@@ -8229,6 +8481,36 @@ const BOOKS = [
       ],
     targetAudience: "Estudiantes, curiosos y profesionales interesados en Francés para Dummies.",
     aiSummary: "Método comunicativo ágil para aprender francés desde cero: vocabulario cotidiano, expresiones de viaje, pronunciación guiada y nociones gramaticales sin estrés."
+    }
+  },
+  {
+    id: 2602,
+    title: "Cómo Dirigir Equipos Virtuales",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    subtopic: "Liderazgo Remoto y Cultura Digital",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2602_hbr_como_dirigir_equipos_virtuales.pdf",
+    pages: 96,
+    year: 2021,
+    language: "Español",
+    description: "Metodologías de liderazgo para coordinar, inspirar y evaluar a colaboradores distribuidos geográficamente. Fomenta el compromiso, evita el aislamiento y sostiene una cultura de alto desempeño a través de pantallas.",
+    cover: "covers/c-2602-hbr-como-dirigir-equipos-virtuales.png",
+    downloads: 610,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Estratégico & Moderno",
+    keyConcepts: [
+        "Liderazgo a Distancia",
+        "Cultura Organizacional Remota",
+        "Medición por Resultados",
+        "Prevención del Aislamiento",
+        "Cohesión de Equipo"
+      ],
+    targetAudience: "Líderes, directores y jefes de proyectos que comandan equipos híbridos o 100% remotos.",
+    aiSummary: "Principios comprobados para mantener a un equipo remoto motivado, alineado con los objetivos estratégicos y conectado emocionalmente con la organización."
     }
   },
   {
@@ -8537,6 +8819,36 @@ const BOOKS = [
     }
   },
   {
+    id: 2599,
+    title: "Cómo Colaborar Virtualmente",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    subtopic: "Trabajo Remoto y Cooperación Digital",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2599_hbr_como_colaborar_virtualmente.pdf",
+    pages: 92,
+    year: 2021,
+    language: "Español",
+    description: "Estrategias de vanguardia de Harvard para superar las barreras de la distancia física, mantener la cohesión en proyectos descentralizados y maximizar la sincronización entre equipos remotos e híbridos.",
+    cover: "covers/c-2599-hbr-como-colaborar-virtualmente.png",
+    downloads: 590,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Táctico & Colaborativo",
+    keyConcepts: [
+        "Comunicación Asíncrona",
+        "Herramientas Digitales",
+        "Confianza Remota",
+        "Gestión de Expectativas",
+        "Productividad en Red"
+      ],
+    targetAudience: "Miembros de organizaciones distribuidas, nómadas digitales y gestores de proyectos a distancia.",
+    aiSummary: "Consejos prácticos para trabajar en equipo sin fricciones en entornos digitales, optimizando el uso de canales y manteniendo la cercanía profesional."
+    }
+  },
+  {
     id: 1488,
     title: "meditación: Lograr paz interior y bienestar",
     author: "Dr. Brian Weiss",
@@ -8842,6 +9154,36 @@ const BOOKS = [
     }
   },
   {
+    id: 2605,
+    title: "Cómo Liderar Reuniones Virtuales",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    subtopic: "Facilitación Online y Compromiso Digital",
+    collection: "Harvard Business Review — Serie Management en 20 Minutos",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2605_hbr_como_liderar_reuniones_virtuales.pdf",
+    pages: 96,
+    year: 2021,
+    language: "Español",
+    description: "Domina la dinámica de las videoconferencias profesionales. Descubre cómo mantener encendida la atención, gestionar la fatiga digital (Zoom fatigue), estructurar sesiones interactivas y cerrar con acuerdos claros en plataformas digitales.",
+    cover: "covers/c-2605-hbr-como-liderar-reuniones-virtuales.png",
+    downloads: 540,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Digital & Dinámico",
+    keyConcepts: [
+        "Interacción en Videollamadas",
+        "Combate a la Fatiga Digital",
+        "Protocolos de Reunión Online",
+        "Herramientas de Colaboración Visual",
+        "Conclusión de Acuerdos"
+      ],
+    targetAudience: "Coordinadores, gerentes y ponentes que dirigen sesiones periódicas a través de videollamada.",
+    aiSummary: "Consejos clave de Harvard para lograr que cada minuto de reunión virtual cuente, maximizando la participación activa y reduciendo la pérdida de tiempo."
+    }
+  },
+  {
     id: 2367,
     title: "Teología del Nuevo Testamento",
     author: "George Eldon Ladd",
@@ -9116,6 +9458,33 @@ const BOOKS = [
       ],
     targetAudience: "Estudiantes, curiosos y profesionales interesados en Kama-sutra para Dummies.",
     aiSummary: "El gran clásico oriental del erotismo y la sensualidad adaptado a la pareja moderna. Técnicas de intimidad, posturas, complicidad y comunicación afectiva."
+    }
+  },
+  {
+    id: 1611,
+    title: "Propósito, Sentido y Pasión: Encontrar la chispa vocacional",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1611_hbr_proposito_sentido_y_pasion.pdf",
+    year: 2020,
+    language: "Español",
+    pages: 112,
+    description: "Artículos esenciales sobre cómo alinear lo que haces a diario con lo que verdaderamente te importa, redefiniendo el éxito a través del propósito profesional.",
+    cover: "covers/hbr-proposito-sentido-y-pasion-v2.jpg",
+    downloads: 462,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Inspirador & Profundo",
+    keyConcepts: [
+        "Misión Personal",
+        "Vocación Profesional",
+        "Significado Vital"
+      ],
+    targetAudience: "Profesionales en transición de carrera o en búsqueda de sentido profundo en su trayectoria.",
+    aiSummary: "Análisis editorial: Propósito, Sentido y Pasión guía hacia la conexión entre los valores personales y los retos profesionales más ambiciosos."
     }
   },
   {
@@ -9396,6 +9765,33 @@ const BOOKS = [
     }
   },
   {
+    id: 1607,
+    title: "Empatía: Conectar profundamente para colaborar y liderar",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1607_hbr_empatia.pdf",
+    year: 2018,
+    language: "Español",
+    pages: 214,
+    description: "Por qué la empatía no es una debilidad, sino la habilidad técnica más codiciada en la era digital para coordinar talentos diversos y crear lealtad.",
+    cover: "covers/hbr-empatia-v2.jpg",
+    downloads: 418,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Humano & Revelador",
+    keyConcepts: [
+        "Escucha Empática",
+        "Inteligencia Social",
+        "Cohesión de Equipo"
+      ],
+    targetAudience: "Líderes de producto, gestores de talento humano y directores de proyectos.",
+    aiSummary: "Análisis editorial: Empatía expone cómo la sintonía emocional entre colegas detona la productividad y multiplica la lealtad en las empresas."
+    }
+  },
+  {
     id: 2360,
     title: "Renueva tu corazón: Sé como Cristo",
     author: "Dallas Willard",
@@ -9673,6 +10069,33 @@ const BOOKS = [
     }
   },
   {
+    id: 1609,
+    title: "Felicidad: Bienestar emocional y satisfacción en el trabajo",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1609_hbr_felicidad.pdf",
+    year: 2019,
+    language: "Español",
+    pages: 143,
+    description: "Estudios de psicología positiva aplicados a las organizaciones: cómo la felicidad real eleva la creatividad, disminuye el estrés y multiplica el éxito profesional.",
+    cover: "covers/hbr-felicidad-v2.jpg",
+    downloads: 388,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Luminoso & Basado en Evidencia",
+    keyConcepts: [
+        "Psicología Positiva",
+        "Satisfacción Laboral",
+        "Resiliencia Colectiva"
+      ],
+    targetAudience: "Toda persona interesada en encontrar plenitud y balance entre su carrera profesional y su vida personal.",
+    aiSummary: "Análisis editorial: Felicidad fundamenta científicamente cómo los ambientes de trabajo positivos superan ampliamente a las culturas basadas en la presión."
+    }
+  },
+  {
     id: 2388,
     title: "Jesús es el Cristo: Estudios sobre la teología de Juan",
     author: "Leon Morris",
@@ -9947,6 +10370,33 @@ const BOOKS = [
       ],
     targetAudience: "Usuarios de computadoras que desean dominar las funciones esenciales y avanzadas de Windows 10.",
     aiSummary: "Guía completa de Windows 10: organización, seguridad, personalización y trucos de productividad."
+    }
+  },
+  {
+    id: 1604,
+    title: "Curiosidad: El motor de la innovación y el aprendizaje continuo",
+    author: "Harvard Business Review",
+    category: "HARVARD LIBROS",
+    collection: "Harvard Business Review — Serie Inteligencia Emocional",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v3/b1604_hbr_curiosidad.pdf",
+    year: 2020,
+    language: "Español",
+    pages: 107,
+    description: "Cómo fomentar la indagación abierta y la exploración sin prejuicios dentro de las organizaciones para descubrir soluciones disruptivas y adaptarse al cambio.",
+    cover: "covers/hbr-curiosidad-v2.jpg",
+    downloads: 375,
+    featured: false,
+    aiAnalysis: {
+    genre: "HARVARD LIBROS",
+    vibe: "Inspirador & Analítico",
+    keyConcepts: [
+        "Mentalidad de Crecimiento",
+        "Pensamiento Lateral",
+        "Innovación Ágil"
+      ],
+    targetAudience: "Creadores, diseñadores y directivos enfocados en la resolución creativa de problemas complejos.",
+    aiSummary: "Análisis editorial: Curiosidad demuestra cómo las organizaciones más innovadoras premian las preguntas desafiantes por encima de las respuestas fáciles."
     }
   },
   {
