@@ -24198,6 +24198,28 @@ const BOOKS = [
       aiSummary: "Anamar Orihuela desglosa la figura de 'Do\u00f1a Huevotes': esa coraza de fortaleza extrema que oculta miedo al rechazo y necesidad de aprobaci\u00f3n. A trav\u00e9s de ejercicios reflexivos y comprensi\u00f3n compasiva, ense\u00f1a a soltar el sobreesfuerzo y permitirse ser sostenida."
     }
   },
+  {
+    id: 2356,
+    title: "Sabidur\u00eda Financiera",
+    author: "Raimon Sams\u00f3",
+    category: "Finanzas & Inversi\u00f3n",
+    format: "pdf",
+    pdfUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v5/b2356_sabiduria-financiera-raimon-samso.pdf",
+    pages: 133,
+    year: 2017,
+    language: "Espa\u00f1ol",
+    description: "El dinero se hace en la mente. Raimon Sams\u00f3 sintetiza los principios de la mentalidad pr\u00f3spera y la inteligencia financiera consciente. Descubre c\u00f3mo transformar patrones de pensamiento sobre la escasez, reprogramar tu mente para generar valor ilimitado y construir libertad econ\u00f3mica con prop\u00f3sito y coherencia \u00e9tica.",
+    cover: "covers/c-sabiduria-financiera-raimon-samso.jpg",
+    downloads: 815,
+    featured: true,
+    aiAnalysis: {
+      genre: "Educaci\u00f3n Financiera & Mentalidad",
+      vibe: "Pr\u00e1ctico & Transformador",
+      keyConcepts: ["Mentalidad de Prosperidad", "Inteligencia Financiera Consciente", "Creaci\u00f3n de Valor", "Libertad Financiera"],
+      targetAudience: "Emprendedores, profesionales y personas interesadas en desbloquear su relaci\u00f3n con el dinero, superar creencias limitantes de escasez y alcanzar la verdadera independencia econ\u00f3mica.",
+      aiSummary: "Sams\u00f3 demuestra que la riqueza material es el resultado visible de un estado mental previo. Ofrece pautas concretas para alinear valores, talentos y modelos de negocio \u00e9ticos que generen prosperidad duradera sin sacrificar la paz mental."
+    }
+  },
 ];
 
 const INITIAL_REQUESTS = [
