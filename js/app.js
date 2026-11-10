@@ -192,7 +192,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (categoryName === 'PARA DUMMIES') {
       return `${base}?coleccion=dummies`;
     }
-    if (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') { return ${base}?coleccion=teologia; }
+    if (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') {
+      return `${base}?coleccion=teologia`;
+    }
     if (categoryName === 'LIBROS EMPRENDEDORES' || categoryName === 'EMPRENDEDORES') {
       return `${base}?coleccion=emprendedores`;
     }
@@ -239,6 +241,14 @@ document.addEventListener('DOMContentLoaded', () => {
         `\u2022 El Tao de Warren Buffett\n` +
         `\u2022 Y decenas de t\u00edtulos m\u00e1s...\n\n` +
         `\uD83D\uDC49 *Enlace directo a la colecci\u00f3n:*\n${url}`;
+    } else if (cat === 'TEOLOGÍA CONTEMPORÁNEA' || cat === 'TEOLOGIA' || cat === 'CTC') {
+      const tCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA').length : 38;
+      msg = `📖 *Colección TEOLÓGICA CONTEMPORÁNEA en BIBLIOTYAN*\n` +
+        `Accede y descarga gratis ${tCount} obras de referencia de Editorial CLIE en PDF:\n\n` +
+        `• Teología Sistemática y Exégesis Bíblica\n` +
+        `• Comentarios y Hermenéutica Avanzada\n` +
+        `• Cristología e Historia de las Doctrinas\n\n` +
+        `👉 *Enlace directo a la colección:*\n${url}`;
     } else if (cat === 'PARA DUMMIES') {
       const dummiesCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
       msg = `💡 *Colección PARA DUMMIES en BIBLIOTYAN*\n` +
@@ -280,8 +290,11 @@ document.addEventListener('DOMContentLoaded', () => {
         params.set('coleccion', 'dummies');
         params.delete('categoria');
         params.delete('cat');
-      } else if (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') { return ${base}?coleccion=teologia; }
-    if (categoryName === 'LIBROS EMPRENDEDORES') {
+      } else if (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') {
+        params.set('coleccion', 'teologia');
+        params.delete('categoria');
+        params.delete('cat');
+      } else if (categoryName === 'LIBROS EMPRENDEDORES') {
         params.set('coleccion', 'emprendedores');
         params.delete('categoria');
         params.delete('cat');
@@ -446,6 +459,8 @@ document.addEventListener('DOMContentLoaded', () => {
         targetCat = 'PARA DUMMIES';
       } else if (cleanSlug === 'emprendedores' || cleanSlug === 'libros-emprendedores' || cleanSlug.includes('emprendedor')) {
         targetCat = 'LIBROS EMPRENDEDORES';
+      } else if (cleanSlug === 'teologia' || cleanSlug === 'teologica' || cleanSlug === 'ctc' || cleanSlug.includes('teolog')) {
+        targetCat = 'TEOLOGÍA CONTEMPORÁNEA';
       } else {
         targetCat = CONFIG.categories.find(c => slugify(c) === cleanSlug || slugify(c).includes(cleanSlug) || cleanSlug.includes(slugify(c)));
       }
@@ -621,6 +636,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'BREVE HISTORIA',
       'PARA DUMMIES',
       'LIBROS EMPRENDEDORES',
+      'TEOLOGÍA CONTEMPORÁNEA',
       'National Geographic',
       'E-Books (EPUB)',
       'Espiritualidad & sabiduría',
@@ -651,6 +667,8 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (cat === 'HARVARD LIBROS') iconHtml = '<i data-lucide="building-2"></i>';
       else if (cat === 'BREVE HISTORIA') iconHtml = '<i data-lucide="landmark"></i>';
       else if (cat === 'PARA DUMMIES') iconHtml = '<i data-lucide="lightbulb"></i>';
+      else if (cat === 'LIBROS EMPRENDEDORES') iconHtml = '<i data-lucide="trending-up"></i>';
+      else if (cat === 'TEOLOGÍA CONTEMPORÁNEA') iconHtml = '<i data-lucide="scroll"></i>';
 
       btn.innerHTML = `${iconHtml} <span>${cat}</span>`;
       btn.addEventListener('click', () => {
@@ -1572,16 +1590,17 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return;
     const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES').length;
     const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA').length;
-    const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;    const elTeologia = document.getElementById('colCountTeologia');
+    const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;
+
+    const elTeologia = document.getElementById('colCountTeologia');
     const heroT = document.getElementById('heroTeologiaCount');
     const tCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA').length : 38;
     if (elTeologia) elTeologia.textContent = `${tCount} Libros en PDF`;
     if (heroT) heroT.textContent = `${tCount} Libros`;
 
-
     const elEmprendedores = document.getElementById('colCountEmprendedores');
     const heroE = document.getElementById('heroEmprendedoresCount');
-    const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 24;
+    const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 394;
     if (elEmprendedores) elEmprendedores.textContent = `${eCount} Libros en PDF`;
     if (heroE) heroE.textContent = `${eCount} Libros`;
 

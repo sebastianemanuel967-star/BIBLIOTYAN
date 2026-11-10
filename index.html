@@ -387,6 +387,15 @@
                 <span class="collection-tag-chip">Finanzas</span>
               </div>
             </div>
+            <div class="collection-card-actions">
+              <a href="?coleccion=emprendedores" class="btn-collection-explore btn-emprendedores" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('LIBROS EMPRENDEDORES', true, true);">
+                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
+              </a>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('LIBROS EMPRENDEDORES');" title="Copiar enlace directo">
+                <i data-lucide="link"></i>
+              </button>
+            </div>
+          </div>
 
           <!-- TARJETA 5: COLECCION TEOLOGICA CONTEMPORANEA -->
           <div class="collection-card-item card-teologia" id="cardColTeologia" onclick="selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);">
@@ -413,20 +422,6 @@
                 <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
               </a>
               <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('TEOLOGÍA CONTEMPORÁNEA');" title="Copiar enlace directo">
-                <i data-lucide="link"></i>
-              </button>
-            </div>
-          </div>
-            <div class="collection-card-actions">
-              <a href="?coleccion=emprendedores" class="btn-collection-explore btn-emprendedores" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('LIBROS EMPRENDEDORES', true, true);">
-                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
-              </a>
-          <a href="?coleccion=teologia" class="hero-featured-pill pill-teologia" id="heroTeologiaLink" onclick="event.preventDefault(); selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);" title="Colección Teológica Contemporánea">
-            <span class="pill-badge badge-teologia"><i data-lucide="scroll"></i> Teología CLIE</span>
-            <span class="pill-count" id="heroTeologiaCount">38 Libros</span>
-            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
-          </a>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('LIBROS EMPRENDEDORES');" title="Copiar enlace directo">
                 <i data-lucide="link"></i>
               </button>
             </div>
