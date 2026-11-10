@@ -192,6 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (categoryName === 'PARA DUMMIES') {
       return `${base}?coleccion=dummies`;
     }
+    if (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') { return ${base}?coleccion=teologia; }
     if (categoryName === 'LIBROS EMPRENDEDORES' || categoryName === 'EMPRENDEDORES') {
       return `${base}?coleccion=emprendedores`;
     }
@@ -279,7 +280,8 @@ document.addEventListener('DOMContentLoaded', () => {
         params.set('coleccion', 'dummies');
         params.delete('categoria');
         params.delete('cat');
-      } else if (categoryName === 'LIBROS EMPRENDEDORES') {
+      } else if (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') { return ${base}?coleccion=teologia; }
+    if (categoryName === 'LIBROS EMPRENDEDORES') {
         params.set('coleccion', 'emprendedores');
         params.delete('categoria');
         params.delete('cat');
@@ -1570,7 +1572,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return;
     const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES').length;
     const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA').length;
-    const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;
+    const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS').length;    const elTeologia = document.getElementById('colCountTeologia');
+    const heroT = document.getElementById('heroTeologiaCount');
+    const tCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA').length : 38;
+    if (elTeologia) elTeologia.textContent = `${tCount} Libros en PDF`;
+    if (heroT) heroT.textContent = `${tCount} Libros`;
+
 
     const elEmprendedores = document.getElementById('colCountEmprendedores');
     const heroE = document.getElementById('heroEmprendedoresCount');

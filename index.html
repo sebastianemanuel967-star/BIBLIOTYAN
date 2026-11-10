@@ -191,6 +191,11 @@
             <span class="pill-count" id="heroEmprendedoresCount">394 Libros</span>
             <span class="pill-action"><i data-lucide="arrow-right"></i></span>
           </a>
+          <a href="?coleccion=teologia" class="hero-featured-pill pill-teologia" id="heroTeologiaLink" onclick="event.preventDefault(); selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);" title="Colección Teológica Contemporánea">
+            <span class="pill-badge badge-teologia"><i data-lucide="scroll"></i> Teología CLIE</span>
+            <span class="pill-count" id="heroTeologiaCount">38 Libros</span>
+            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
+          </a>
         </div>
       </div>
     </section>
@@ -382,10 +387,45 @@
                 <span class="collection-tag-chip">Finanzas</span>
               </div>
             </div>
+
+          <!-- TARJETA 5: COLECCION TEOLOGICA CONTEMPORANEA -->
+          <div class="collection-card-item card-teologia" id="cardColTeologia" onclick="selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);">
+            <div class="collection-card-top">
+              <span class="collection-top-badge badge-teologia">
+                <i data-lucide="scroll"></i> Editorial CLIE
+              </span>
+              <span class="collection-count-pill" id="colCountTeologia">38 Libros en PDF</span>
+            </div>
+            <div class="collection-card-content">
+              <h3 class="collection-item-title">Colecci&oacute;n Teol&oacute;gica Contempor&aacute;nea</h3>
+              <p class="collection-item-desc">
+                Serie acad&eacute;mica de referencia: ex&eacute;gesis b&iacute;blica, teolog&iacute;a sistem&aacute;tica, cristolog&iacute;a y comentarios profundos de prestigiosos eruditos.
+              </p>
+              <div class="collection-tags-row">
+                <span class="collection-tag-chip">Ex&eacute;gesis</span>
+                <span class="collection-tag-chip">Doctrina</span>
+                <span class="collection-tag-chip">Hermen&eacute;utica</span>
+                <span class="collection-tag-chip">Nuevo Testamento</span>
+              </div>
+            </div>
+            <div class="collection-card-actions">
+              <a href="?coleccion=teologia" class="btn-collection-explore btn-teologia" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);">
+                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
+              </a>
+              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('TEOLOGÍA CONTEMPORÁNEA');" title="Copiar enlace directo">
+                <i data-lucide="link"></i>
+              </button>
+            </div>
+          </div>
             <div class="collection-card-actions">
               <a href="?coleccion=emprendedores" class="btn-collection-explore btn-emprendedores" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('LIBROS EMPRENDEDORES', true, true);">
                 <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
               </a>
+          <a href="?coleccion=teologia" class="hero-featured-pill pill-teologia" id="heroTeologiaLink" onclick="event.preventDefault(); selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);" title="Colección Teológica Contemporánea">
+            <span class="pill-badge badge-teologia"><i data-lucide="scroll"></i> Teología CLIE</span>
+            <span class="pill-count" id="heroTeologiaCount">38 Libros</span>
+            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
+          </a>
               <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('LIBROS EMPRENDEDORES');" title="Copiar enlace directo">
                 <i data-lucide="link"></i>
               </button>
@@ -399,6 +439,7 @@
           <button type="button" class="c-dot" onclick="scrollCollectionCard(1)" aria-label="Coleccion Breve Historia"></button>
           <button type="button" class="c-dot" onclick="scrollCollectionCard(2)" aria-label="Coleccion Harvard Libros"></button>
           <button type="button" class="c-dot" onclick="scrollCollectionCard(3)" aria-label="Coleccion Emprendedores"></button>
+          <button type="button" class="c-dot" onclick="scrollCollectionCard(4)" aria-label="Coleccion Teologica Contemporanea"></button>
         </div>
       </div>
     </section>

@@ -3052,3 +3052,33 @@ body {
   color: #ffffff;
   transform: translateY(-1px);
 }
+
+/* --- Coleccion Teologica Contemporanea (Sapphire / Royal Blue) --- */
+.hero-featured-pill.pill-teologia:hover {
+  border-color: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.16);
+}
+.hero-featured-pill .pill-badge.badge-teologia {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+.collection-card-item.card-teologia::before {
+  background: linear-gradient(90deg, transparent, #3b82f6, transparent);
+}
+.collection-card-item.card-teologia:hover {
+  border-color: rgba(59, 130, 246, 0.45);
+  box-shadow: 0 10px 32px rgba(59, 130, 246, 0.16);
+}
+.collection-top-badge.badge-teologia {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+}
+.btn-collection-explore.btn-teologia {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+}
+.btn-collection-explore.btn-teologia:hover {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
