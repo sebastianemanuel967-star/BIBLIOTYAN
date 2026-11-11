@@ -929,11 +929,15 @@ document.addEventListener('DOMContentLoaded', () => {
             <p style="max-width: 460px; margin: 0 auto 1.2rem; line-height: 1.5; color: var(--text-secondary);">
               ${queryNotice} Si buscas un título que aún no figura en el archivo, puedes pedirlo directo al equipo.
             </p>
-            <button type="button" class="btn-hero-explore" onclick="openRequestSheet(state.searchQuery)">
+            <button type="button" class="btn-hero-explore" id="emptyRequestBtn">
               Solicitar este libro
             </button>
           </div>
         `;
+        const emptyReqBtn = document.getElementById('emptyRequestBtn');
+        if (emptyReqBtn) {
+          emptyReqBtn.addEventListener('click', () => openRequestSheet(state.searchQuery));
+        }
       }
       refreshIcons();
       return;
