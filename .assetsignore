@@ -1,0 +1,13 @@
+.git
+.git/**
+.gitignore
+.assetsignore
+wrangler.jsonc
+wrangler.toml
+vercel.json
+README.md
+curated_backup.js
+scripts
+scripts/**
+temp_*
+*.ps1
