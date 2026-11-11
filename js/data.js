@@ -312,7 +312,7 @@ const BOOKS = [
     category: "Finanzas & Inversión",
     subtopic: "Libertad Financiera, Inversión Indexada, Riesgo y Psicología de la Riqueza",
     format: "pdf",
-    pdf: "pdfs/b2617_imbatible-tony-robbins.pdf",
+    pdf: "pdfs/b2617_imbatible-tony-robbins.pdf?v=4.7",
     pages: 264,
     year: 2019,
     language: "Español",
