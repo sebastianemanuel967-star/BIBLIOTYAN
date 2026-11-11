@@ -90,11 +90,13 @@ foreach ($m in $idMatches) {
 
 $totalBooks = $idMatches.Count
 $customIgMatches = [regex]::Matches($data, 'customInstagram:\s*"([^"]+)"')
+$customFbMatches = [regex]::Matches($data, 'customFacebook:\s*"([^"]+)"')
 $customIgOnlyPromo = ($customIgMatches.Count -eq 1 -and $customIgMatches[0].Groups[1].Value -eq "https://www.instagram.com/brauliohipnocoach/")
-if ($totalBooks -eq 1318 -and $dupCount -eq 0 -and $customIgOnlyPromo) {
-    Write-Host "[OK] Base de datos de libros: 1.318 libros registrados con 0 IDs duplicados y promo Instagram exclusivo (1 libro)." -ForegroundColor Green
+$customFbOnlyPromo = ($customFbMatches.Count -eq 1 -and $customFbMatches[0].Groups[1].Value -eq "https://www.facebook.com/reel/3331699850354721")
+if ($totalBooks -eq 1318 -and $dupCount -eq 0 -and $customIgOnlyPromo -and $customFbOnlyPromo) {
+    Write-Host "[OK] Base de datos de libros: 1.318 libros registrados con 0 IDs duplicados y promo IG/FB exclusivo (1 libro)." -ForegroundColor Green
 } else {
-    Write-Host "[FALLO] Base de datos: Total=$totalBooks (Esperado: 1318), Duplicados=$dupCount, CustomIG=$($customIgMatches.Count)" -ForegroundColor Red
+    Write-Host "[FALLO] Base de datos: Total=$totalBooks (Esperado: 1318), Duplicados=$dupCount, CustomIG=$($customIgMatches.Count), CustomFB=$($customFbMatches.Count)" -ForegroundColor Red
     $allPass = $false
 }
 

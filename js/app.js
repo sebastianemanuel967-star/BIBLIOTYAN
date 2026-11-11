@@ -1176,6 +1176,20 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     };
 
+    // Solo el libro promocional autorizado (ID 2613) sustituye redes del autor
+    const promoOverrides = (state.currentBook && state.currentBook.id === 2613) ? {
+      instagram: {
+        url: state.currentBook.customInstagram,
+        label: 'Instagram @brauliohipnocoach',
+        subtitle: 'Autor de Hacia Adentro · Promo especial'
+      },
+      facebook: {
+        url: state.currentBook.customFacebook,
+        label: 'Facebook del Autor · Braulio Ramírez',
+        subtitle: 'Video promocional · Hacia Adentro'
+      }
+    } : {};
+
     Object.entries(CONFIG.socialMedia).forEach(([key, social]) => {
       if (!social.active) return;
       const meta = socialMeta[key] || {
@@ -1185,16 +1199,11 @@ document.addEventListener('DOMContentLoaded', () => {
         iconBg: 'linear-gradient(135deg, #B66AFF 0%, #8e3ee8 100%)'
       };
 
-      // Solo el libro promocional autorizado (ID 2613) sustituye el Instagram oficial por el del autor
-      const isPromoAuthorIg = key === 'instagram' &&
-        state.currentBook &&
-        state.currentBook.id === 2613 &&
-        typeof state.currentBook.customInstagram === 'string' &&
-        state.currentBook.customInstagram.trim().length > 0;
-
-      const socialUrl = isPromoAuthorIg ? state.currentBook.customInstagram.trim() : social.url;
-      const socialLabel = isPromoAuthorIg ? 'Instagram @brauliohipnocoach' : social.label;
-      const socialSub = isPromoAuthorIg ? 'Autor de Hacia Adentro · Promo especial' : meta.subtitle;
+      const override = promoOverrides[key];
+      const hasOverride = !!(override && typeof override.url === 'string' && override.url.trim());
+      const socialUrl = hasOverride ? override.url.trim() : social.url;
+      const socialLabel = hasOverride ? override.label : social.label;
+      const socialSub = hasOverride ? override.subtitle : meta.subtitle;
 
       const a = document.createElement('a');
       a.href = socialUrl;

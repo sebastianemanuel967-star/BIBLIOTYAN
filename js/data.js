@@ -203,6 +203,7 @@ const BOOKS = [
     year: 2026,
     language: "Español",
     customInstagram: "https://www.instagram.com/brauliohipnocoach/",
+    customFacebook: "https://www.facebook.com/reel/3331699850354721",
     description: "Guía práctica de sanación intrapersonal y transformación emocional estructurada en tres procesos fundamentales —Sanación del Niño Interior, Mi Amigo el Miedo y Sanando Mi Autoestima— junto con el diario de empoderamiento 'Tu Mes Hacia Adentro' (30 días). Braulio G. Ramírez Martínez combina Programación Neurolingüística (PNL), Ontología del Lenguaje, actos psicosimbólicos, hipnoterapia guiada y fe espiritual para ayudarte a soltar cargas heredadas, establecer límites sanos con asertividad y reconstruir tu identidad desde tu interior.",
     cover: "covers/c-2613-hacia-adentro-braulio-ramirez.jpg",
     downloads: 950,
