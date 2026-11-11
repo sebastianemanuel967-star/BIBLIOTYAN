@@ -222,6 +222,90 @@ const BOOKS = [
     }
   },
   {
+    id: 2614,
+    title: "El placebo eres tú: Descubre el poder de tu mente",
+    author: "Dr. Joe Dispenza",
+    category: "Neurociencia & Mente",
+    subtopic: "Neuroplasticidad, Epigenética y Meditación Cuántica",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2614_el-placebo-eres-tu-joe-dispenza.pdf",
+    pages: 410,
+    year: 2014,
+    language: "Español",
+    description: "El Dr. Joe Dispenza explora casos documentados de sanación y remisión a través de la ciencia del efecto placebo, la neurociencia, la epigenética y la psiconeuroinmunología. Muestra cómo los pensamientos y estados emocionales moldean el cerebro y el cuerpo, ofreciendo guías prácticas de meditación para transformar creencias limitantes desde adentro.",
+    cover: "covers/c-2614-el-placebo-eres-tu-joe-dispenza.jpg",
+    downloads: 610,
+    featured: true,
+    aiAnalysis: {
+      genre: "Neurociencia, Epigenética & Transformación Mental",
+      vibe: "Científico, Revelador & Expansivo",
+      keyConcepts: [
+        "Efecto Placebo y Epigenética",
+        "Neuroplasticidad Consciente",
+        "Coherencia Cerebro-Corazón",
+        "Meditación Guiada para Reprogramar Creencias"
+      ],
+      targetAudience: "Lectores interesados en neurociencia aplicada, la conexión mente-cuerpo, epigenética y prácticas meditativas para cambiar hábitos y estados internos.",
+      aiSummary: "Obra central de Joe Dispenza (Ediciones Urano, 410 pp.) que une estudios científicos de neuroimagen, casos clínicos y protocolos de meditación para explicar cómo la mente puede convertirse en su propio catalizador de cambio."
+    }
+  },
+  {
+    id: 2615,
+    title: "Si lo crees, lo creas: Elimina tus dudas, cambia tus creencias y suelta el pasado para alcanzar todo tu potencial",
+    author: "Brian Tracy & Christina Stein",
+    category: "Crecimiento Personal",
+    subtopic: "Mentalidad, Autoeficacia y Reprogramación de Creencias",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2615_si-lo-crees-lo-creas-brian-tracy.pdf",
+    pages: 165,
+    year: 2017,
+    language: "Español",
+    description: "Brian Tracy y la psicoterapeuta Christina Stein combinan coaching de alto rendimiento y psicoterapia práctica para ayudarte a identificar creencias autolimitantes, soltar resentimientos del pasado y sustituir el diálogo interno negativo por hábitos mentales orientados al logro y la plenitud.",
+    cover: "covers/c-2615-si-lo-crees-lo-creas-brian-tracy.jpg",
+    downloads: 520,
+    featured: true,
+    aiAnalysis: {
+      genre: "Psicología Práctica & Desarrollo Personal",
+      vibe: "Claro, Accionable & Motivador",
+      keyConcepts: [
+        "Superación de Creencias Limitantes",
+        "Liberación del Pasado y Culpa",
+        "Autoconcepto y Confianza",
+        "Plan de Acción Personal"
+      ],
+      targetAudience: "Emprendedores, profesionales y lectores que desean derribar bloqueos mentales, dudas recurrentes y miedos que frenan su crecimiento.",
+      aiSummary: "Manual directo (Aguilar, 165 pp.) con ejercicios paso a paso para reprogramar el autoconcepto, construir disciplina emocional y alinear pensamiento y acción."
+    }
+  },
+  {
+    id: 2616,
+    title: "Ley de Atracción: La ciencia de atraer más de lo que quieres y menos de lo que no",
+    author: "Michael J. Losier",
+    category: "Autoayuda & Mente",
+    subtopic: "Enfoque Mental, Claridad de Metas y Vibración Deliberada",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2616_ley-de-atraccion-michael-losier.pdf",
+    pages: 140,
+    year: 2007,
+    language: "Español",
+    description: "Guía práctica en formato taller de 3 pasos para pasar de enfocarte en lo que no deseas a formular con precisión lo que sí quieres atraer en tus relaciones, finanzas y propósito diario, utilizando hojas de trabajo, listas de contraste y cambio deliberado de lenguaje.",
+    cover: "covers/c-2616-ley-de-atraccion-michael-losier.jpg",
+    downloads: 495,
+    featured: false,
+    aiAnalysis: {
+      genre: "Autoayuda Práctica & Enfoque Mental",
+      vibe: "Práctico, Estructurado & Accesible",
+      keyConcepts: [
+        "Fórmula de 3 Pasos de Atracción Deliberada",
+        "Hojas de Contraste y Claridad",
+        "Cambio de Lenguaje Cotidiano",
+        "Atención y Respuesta Emocional"
+      ],
+      targetAudience: "Lectores que buscan una guía sencilla y estructurada en ejercicios para enfocar su atención diaria y redefinir objetivos personales.",
+      aiSummary: "Michael J. Losier condensa su método de 3 pasos en 140 páginas con plantillas prácticas de escritura para detectar pensamientos de carencia y redirigir el enfoque cotidiano."
+    }
+  },
+  {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
     author: "Daniel Kahneman",
@@ -13573,29 +13657,29 @@ const BOOKS = [
   },
   {
     id: 1425,
-    title: "Dispenza, Joe - Deja-de-Ser-Tú",
-    author: "Selección Bibliotyan",
-    category: "Espiritualidad & sabiduría",
+    title: "Deja de Ser Tú: La mente crea la realidad",
+    author: "Dr. Joe Dispenza",
+    category: "Neurociencia & Mente",
     collection: "La Gran Biblioteca Estoica",
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1425_Dispenza_Joe_-_Deja-de-Ser-T_.pdf",
-    year: 2020,
+    year: 2012,
     language: "Español",
     pages: 352,
-    description: "Obra esencial de Selección Bibliotyan centrada en espiritualidad & sabiduría. Un texto de valor imperecedero que profundiza en las claves fundamentales para la reflexión, la serenidad y la maestría vital.",
+    description: "El neurocientífico e investigador Dr. Joe Dispenza une física cuántica, neurociencia, biología molecular y genética para demostrar que no estamos condenados por nuestros genes ni hábitos pasados, ofreciendo un programa práctico de 4 semanas para reprogramar la mente subconsciente.",
     cover: "covers/c-est-dispenza__joe___deja_de_ser_t_-25.png",
     downloads: 405,
     featured: false,
     aiAnalysis: {
-    genre: "Espiritualidad & sabiduría",
-    vibe: "Profundo & Reflexivo",
+    genre: "Neurociencia & Mente",
+    vibe: "Profundo & Transformador",
     keyConcepts: [
-        "Ciudadela Interior",
-        "Virtud como Bien Supremo",
-        "Memento Mori"
+        "Neuroplasticidad y Desaprendizaje",
+        "Mente Analítica vs. Subconsciente",
+        "Meditación y Coherencia Cuántica"
       ],
-    targetAudience: "Buscadores de serenidad, practicantes de filosofía estoica y mentes en búsqueda de equilibrio interior.",
-    aiSummary: "Análisis editorial: Dispenza, Joe - Deja-de-Ser-Tú aporta herramientas rigurosas y prácticas para el desarrollo integral en Espiritualidad & sabiduría."
+    targetAudience: "Lectores interesados en neurociencia aplicada, reprogramación de hábitos emocionales y evolución personal consciente.",
+    aiSummary: "Análisis editorial: Deja de Ser Tú aporta herramientas rigurosas y prácticas en Neurociencia & Mente para romper la inercia de la personalidad repetitiva."
     }
   },
   {
