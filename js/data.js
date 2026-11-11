@@ -192,6 +192,35 @@ const AIClassifier = {
 
 const BOOKS = [
   {
+    id: 2613,
+    title: "Hacia Adentro: Sanación y Liberación Intrapersonal",
+    author: "Braulio G. Ramírez Martínez",
+    category: "Crecimiento Personal",
+    subtopic: "Sanación Interior, Hipnoterapia, PNL y Autoestima",
+    format: "pdf",
+    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v6/b2613_hacia-adentro-braulio-ramirez.pdf",
+    pages: 187,
+    year: 2026,
+    language: "Español",
+    customInstagram: "https://www.instagram.com/brauliohipnocoach/",
+    description: "Guía práctica de sanación intrapersonal y transformación emocional estructurada en tres procesos fundamentales —Sanación del Niño Interior, Mi Amigo el Miedo y Sanando Mi Autoestima— junto con el diario de empoderamiento 'Tu Mes Hacia Adentro' (30 días). Braulio G. Ramírez Martínez combina Programación Neurolingüística (PNL), Ontología del Lenguaje, actos psicosimbólicos, hipnoterapia guiada y fe espiritual para ayudarte a soltar cargas heredadas, establecer límites sanos con asertividad y reconstruir tu identidad desde tu interior.",
+    cover: "covers/c-2613-hacia-adentro-braulio-ramirez.jpg",
+    downloads: 950,
+    featured: true,
+    aiAnalysis: {
+      genre: "Sanación Intrapersonal, PNL & Espiritualidad Práctica",
+      vibe: "Introspectivo, Terapéutico & Transformador",
+      keyConcepts: [
+        "Sanación del Niño Interior",
+        "Gestión Consciente del Miedo",
+        "Autoestima Sana y Límites Asertivos",
+        "PNL, Hipnoterapia y Diario de 30 Días"
+      ],
+      targetAudience: "Personas que cargan heridas emocionales de infancia, parálisis por miedo o culpabilidad al poner límites, así como lectores que desean un acompañamiento práctico de 30 días integrando PNL, Ontología del Lenguaje, hipnosis guiada y espiritualidad.",
+      aiSummary: "Un manual vivencial e interactivo (ISBN 979-890383715-1, 1.ª ed. 2026) nacido del proceso personal del autor —incluyendo su testimonio de sanación física y emocional tras una lesión lumbar L5—. Incluye preguntas de introspección, rituales simbólicos ('Morir para Renacer', 'El Inventario de las Voces Ajenas'), herramientas prácticas como 'El Semáforo de Mi Energía' y 'El Escudo de Seda', acceso a audios de meditación guiada e hipnosis, y un diario de 30 días."
+    }
+  },
+  {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
     author: "Daniel Kahneman",

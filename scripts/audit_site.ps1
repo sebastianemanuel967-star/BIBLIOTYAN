@@ -89,10 +89,12 @@ foreach ($m in $idMatches) {
 }
 
 $totalBooks = $idMatches.Count
-if ($totalBooks -eq 1317 -and $dupCount -eq 0) {
-    Write-Host "[OK] Base de datos de libros: 1.317 libros registrados con 0 IDs duplicados." -ForegroundColor Green
+$customIgMatches = [regex]::Matches($data, 'customInstagram:\s*"([^"]+)"')
+$customIgOnlyPromo = ($customIgMatches.Count -eq 1 -and $customIgMatches[0].Groups[1].Value -eq "https://www.instagram.com/brauliohipnocoach/")
+if ($totalBooks -eq 1318 -and $dupCount -eq 0 -and $customIgOnlyPromo) {
+    Write-Host "[OK] Base de datos de libros: 1.318 libros registrados con 0 IDs duplicados y promo Instagram exclusivo (1 libro)." -ForegroundColor Green
 } else {
-    Write-Host "[FALLO] Base de datos: Total=$totalBooks (Esperado: 1317), Duplicados=$dupCount" -ForegroundColor Red
+    Write-Host "[FALLO] Base de datos: Total=$totalBooks (Esperado: 1318), Duplicados=$dupCount, CustomIG=$($customIgMatches.Count)" -ForegroundColor Red
     $allPass = $false
 }
 

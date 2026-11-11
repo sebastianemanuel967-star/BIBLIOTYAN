@@ -573,6 +573,7 @@ document.addEventListener('DOMContentLoaded', () => {
     normalizeBookUrls();
     setupSearchBar();
     renderFilterButtons();
+    renderMostReadShelf();
     renderEditorialShelf();
     // renderDailyRecommendation();
     renderBooks();
@@ -608,15 +609,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // SELECCIÓN EDITORIAL (HORIZONTAL SHELF)
+  // LO MÁS LEÍDO & SELECCIÓN EDITORIAL (HORIZONTAL SHELVES)
   // ========================================================
+  const MOST_READ_IDS = [2613, 1453, 1519, 1960, 1232, 2089, 1491, 2136, 2240, 1830];
   const EDITORIAL_SELECTION_IDS = [1960, 1087, 1467, 1453, 1519, 1491, 1476, 1411, 603];
 
-  function renderEditorialShelf() {
-    const shelf = document.getElementById('editorialShelf');
+  function renderShelfBooks(shelfId, bookIds) {
+    const shelf = document.getElementById(shelfId);
     if (!shelf) return;
 
-    const curated = EDITORIAL_SELECTION_IDS.map(id => BOOKS.find(b => b.id === id)).filter(Boolean);
+    const curated = bookIds.map(id => BOOKS.find(b => b.id === id)).filter(Boolean);
     if (curated.length === 0) {
       curated.push(...BOOKS.slice(0, 6));
     }
@@ -644,7 +646,15 @@ document.addEventListener('DOMContentLoaded', () => {
       card.addEventListener('click', () => openPreviewModal(book));
       shelf.appendChild(card);
     });
+  }
 
+  function renderMostReadShelf() {
+    renderShelfBooks('mostReadShelf', MOST_READ_IDS);
+    refreshIcons();
+  }
+
+  function renderEditorialShelf() {
+    renderShelfBooks('editorialShelf', EDITORIAL_SELECTION_IDS);
     refreshIcons();
   }
 
@@ -1175,8 +1185,19 @@ document.addEventListener('DOMContentLoaded', () => {
         iconBg: 'linear-gradient(135deg, #B66AFF 0%, #8e3ee8 100%)'
       };
 
+      // Solo el libro promocional autorizado (ID 2613) sustituye el Instagram oficial por el del autor
+      const isPromoAuthorIg = key === 'instagram' &&
+        state.currentBook &&
+        state.currentBook.id === 2613 &&
+        typeof state.currentBook.customInstagram === 'string' &&
+        state.currentBook.customInstagram.trim().length > 0;
+
+      const socialUrl = isPromoAuthorIg ? state.currentBook.customInstagram.trim() : social.url;
+      const socialLabel = isPromoAuthorIg ? 'Instagram @brauliohipnocoach' : social.label;
+      const socialSub = isPromoAuthorIg ? 'Autor de Hacia Adentro · Promo especial' : meta.subtitle;
+
       const a = document.createElement('a');
-      a.href = social.url;
+      a.href = socialUrl;
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
       a.className = `social-follow-card ${key}`;
@@ -1185,8 +1206,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <i class="${social.icon}"></i>
         </div>
         <div class="social-card-info">
-          <span class="social-card-title">${social.label}</span>
-          <span class="social-card-sub">${meta.subtitle}</span>
+          <span class="social-card-title">${socialLabel}</span>
+          <span class="social-card-sub">${socialSub}</span>
         </div>
         <div class="social-card-action">
           <span class="social-card-pill" style="border-color: ${meta.badgeColor}55; color: ${meta.badgeColor};">
