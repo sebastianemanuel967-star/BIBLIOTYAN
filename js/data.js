@@ -306,6 +306,34 @@ const BOOKS = [
     }
   },
   {
+    id: 2617,
+    title: "Imbatible: La fórmula para alcanzar la libertad financiera",
+    author: "Tony Robbins & Peter Mallouk",
+    category: "Finanzas & Inversión",
+    subtopic: "Libertad Financiera, Inversión Indexada, Riesgo y Psicología de la Riqueza",
+    format: "pdf",
+    pdf: "pdfs/b2617_imbatible-tony-robbins.pdf",
+    pages: 264,
+    year: 2019,
+    language: "Español",
+    description: "Guía paso a paso para gestionar tu dinero y proteger tu patrimonio ante cualquier ciclo de mercado. Tony Robbins, junto con el asesor fiduciario Peter Mallouk (y prólogo de Anxo Pérez), desarma comisiones ocultas de fondos tradicionales, explica los siete hechos liberadores de la bolsa, presenta la guía del imbatible para invertir en mercados alcistas y bajistas, y aborda la psicología de la verdadera riqueza.",
+    cover: "covers/c-2617-imbatible-tony-robbins.jpg",
+    downloads: 540,
+    featured: true,
+    aiAnalysis: {
+      genre: "Finanzas Personales, Inversión & Mentalidad de Riqueza",
+      vibe: "Estratégico, Práctico & Protector del Patrimonio",
+      keyConcepts: [
+        "Los 7 Hechos Liberadores y Ciclos del Mercado",
+        "Cómo Detectar Comisiones Ocultas y Conflictos de Interés",
+        "Fiduciarios vs. Brókers y Los 4 Dogmas de Inversión",
+        "Psicología de la Riqueza y Protección Sucesoria"
+      ],
+      targetAudience: "Ahorradores, emprendedores e inversores que buscan proteger sus finanzas frente a la volatilidad, evitar comisiones abusivas y construir libertad financiera a largo plazo.",
+      aiSummary: "Estructurado en tres partes y apéndice práctico (Ediciones Deusto, 264 pp.): El manual de la riqueza, La guía del imbatible para navegar ciclos bajistas y La psicología para silenciar al enemigo interior, además de cuatro listas de verificación sobre poderes, sucesiones, seguros y legado."
+    }
+  },
+  {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
     author: "Daniel Kahneman",
