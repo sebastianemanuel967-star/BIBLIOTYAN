@@ -1,6 +1,13 @@
 {
   "version": 2,
   "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://bibliotyan.pages.dev/$1",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/sitemap.xml",
