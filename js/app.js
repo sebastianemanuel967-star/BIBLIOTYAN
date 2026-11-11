@@ -224,14 +224,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const url = getCollectionShareUrl(cat);
     let msg = '';
     if (cat === 'HARVARD LIBROS') {
+      const hbrCount = getHarvardBookCount();
       msg = `🏛️ *Colección HARVARD LIBROS en BIBLIOTYAN*\n` +
-        `Accede y descarga gratis los 12 títulos de la Serie Inteligencia Emocional de Harvard Business Review Press en PDF:\n\n` +
-        `• Autoconciencia\n` +
-        `• Buenos Hábitos\n` +
-        `• Energía y Motivación\n` +
-        `• Saber Escuchar\n` +
-        `• Empatía\n` +
-        `• Y 7 títulos más...\n\n` +
+        `Accede y descarga gratis los ${hbrCount} títulos de Harvard Business Review Press en PDF:\n\n` +
+        `• Serie Inteligencia Emocional\n` +
+        `• Serie Management en 20 Minutos\n` +
+        `• Autoconciencia, Empatía, Productividad y Liderazgo\n\n` +
         `👉 *Enlace directo a la colección:*\n${url}`;
     } else if (cat === 'LIBROS EMPRENDEDORES' || cat === 'EMPRENDEDORES') {
       const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 24;
@@ -484,7 +482,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (targetCat) {
       selectCategory(targetCat, true, false);
       if (targetCat === 'HARVARD LIBROS') {
-        showToast('Colección Harvard Activa', 'Explorando los 12 títulos de Harvard Business Review');
+        const hbrCount = getHarvardBookCount();
+        showToast('Colección Harvard Activa', `Explorando los ${hbrCount} títulos de Harvard Business Review`);
       } else if (targetCat === 'BREVE HISTORIA') {
         showToast('Colección Breve Historia', 'Explorando los 142 títulos de Ediciones Nowtilus');
       } else if (targetCat === 'PARA DUMMIES') {
@@ -534,7 +533,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchParam = params.get('q') || params.get('buscar') || params.get('search');
     if (searchParam && searchParam.trim()) {
       const qVal = searchParam.trim();
-      state.searchQuery = qVal;
+      state.searchQuery = qVal.toLowerCase();
       const searchInput = document.getElementById('searchInput');
       if (searchInput) searchInput.value = qVal;
       const heroSearchInput = document.getElementById('heroSearchInput');
@@ -547,10 +546,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  /**
+   * Calcula el total actual de títulos en la colección HARVARD LIBROS.
+   */
+  function getHarvardBookCount() {
+    if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return 27;
+    return BOOKS.filter(b => b.category === 'HARVARD LIBROS' || (b.collection && b.collection.includes('Harvard'))).length;
+  }
+
+  /**
+   * Unifica el campo de enlace PDF para entradas antiguas (`pdf`) y nuevas (`pdfUrl`).
+   */
+  function normalizeBookUrls() {
+    if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return;
+    BOOKS.forEach(book => {
+      if (!book.pdf && book.pdfUrl) {
+        book.pdf = book.pdfUrl;
+      }
+    });
+  }
+
   // ========================================================
   // INICIALIZACIÓN
   // ========================================================
   function init() {
+    normalizeBookUrls();
     setupSearchBar();
     renderFilterButtons();
     renderEditorialShelf();
@@ -748,13 +768,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // 2. Filtrado de búsqueda en tiempo real
-      const q = state.searchQuery;
+      const q = (state.searchQuery || '').toLowerCase();
       const matchesSearch = !q ||
-        book.title.toLowerCase().includes(q) ||
-        book.author.toLowerCase().includes(q) ||
-        book.category.toLowerCase().includes(q) ||
+        (book.title && book.title.toLowerCase().includes(q)) ||
+        (book.author && book.author.toLowerCase().includes(q)) ||
+        (book.category && book.category.toLowerCase().includes(q)) ||
         (book.collection && book.collection.toLowerCase().includes(q)) ||
-        book.description.toLowerCase().includes(q) ||
+        (book.description && book.description.toLowerCase().includes(q)) ||
         (book.aiAnalysis && book.aiAnalysis.keyConcepts && book.aiAnalysis.keyConcepts.some(k => k.toLowerCase().includes(q)));
 
       return matchesCategory && matchesSearch;
