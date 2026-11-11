@@ -59,12 +59,11 @@ if ($tgOk -and $igOk -and $fbOk) {
     $allPass = $false
 }
 
-# 4. Elementos Requeridos de Colecciones
+# 4. Elementos Requeridos de Colecciones y Catalogo
 $requiredIds = @(
     'cardColDummies', 'cardColHistoria', 'cardColHarvard', 'cardColEmprendedores', 'cardColTeologia', 'cardColAdmin',
     'colCountDummies', 'colCountHistoria', 'colCountHarvard', 'colCountEmprendedores', 'colCountTeologia', 'colCountAdmin',
-    'heroDummiesCount', 'heroHistoriaCount', 'heroHarvardCount', 'heroEmprendedoresCount', 'heroTeologiaCount', 'heroAdminCount',
-    'booksGrid', 'editorialShelf', 'filterBar', 'specialCollectionsGrid', 'collectionsDots'
+    'knowledgeGrid', 'booksGrid', 'catalogPagination', 'editorialShelf', 'mostReadShelf', 'filterBar', 'specialCollectionsGrid', 'requestSheetModal'
 )
 $missingIds = @()
 foreach ($id in $requiredIds) {
@@ -73,7 +72,7 @@ foreach ($id in $requiredIds) {
     }
 }
 if ($missingIds.Count -eq 0) {
-    Write-Host "[OK] Contenedores de Colecciones: Los 20 IDs críticos de UI existen en index.html." -ForegroundColor Green
+    Write-Host "[OK] Contenedores de UI: Los $($requiredIds.Count) IDs críticos existen en index.html." -ForegroundColor Green
 } else {
     Write-Host "[FALLO] Faltan IDs en UI: $($missingIds -join ', ')" -ForegroundColor Red
     $allPass = $false

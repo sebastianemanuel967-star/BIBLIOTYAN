@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>BIBLIOTYAN &mdash; The Personal Knowledge Archive | Biblioteca Digital Gratuita</title>
+  <title>BIBLIOTYAN &mdash; Tu Biblioteca Digital Abierta | Biblioteca Digital Gratuita</title>
   
   <!-- SEO Primario & Motores de B&uacute;squeda (Google, Bing) -->
   <meta name="description" content="BIBLIOTYAN es una biblioteca digital y archivo editorial de conocimiento libre con colecciones de Filosof&iacute;a, Psicolog&iacute;a, Negocios, Econom&iacute;a, Breve Historia y Harvard Libros en PDF.">
@@ -16,16 +16,16 @@
   <!-- Open Graph / Facebook / WhatsApp / Telegram -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BIBLIOTYAN">
-  <meta property="og:title" content="BIBLIOTYAN &mdash; The Personal Knowledge Archive">
+  <meta property="og:title" content="BIBLIOTYAN &mdash; Tu Biblioteca Digital Abierta">
   <meta property="og:description" content="Biblioteca digital y archivo editorial de libros selectos en PDF y EPUB. Filosof&iacute;a, Psicolog&iacute;a, Negocios, Harvard y Breve Historia. Acceso 100% libre.">
   <meta property="og:url" content="https://bibliotyan.pages.dev/">
   <meta property="og:image" content="https://bibliotyan.pages.dev/images/hero-mountains.jpg">
-  <meta property="og:image:alt" content="BIBLIOTYAN — The Personal Knowledge Archive">
+  <meta property="og:image:alt" content="BIBLIOTYAN — Tu Biblioteca Digital Abierta">
   <meta property="og:locale" content="es_ES">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="BIBLIOTYAN &mdash; The Personal Knowledge Archive">
+  <meta name="twitter:title" content="BIBLIOTYAN &mdash; Tu Biblioteca Digital Abierta">
   <meta name="twitter:description" content="Biblioteca digital de libros curados en PDF y EPUB. Acceso libre a las grandes ideas del pensamiento universal.">
   <meta name="twitter:image" content="https://bibliotyan.pages.dev/images/hero-mountains.jpg">
 
@@ -53,7 +53,7 @@
         "@id": "https://bibliotyan.pages.dev/#website",
         "url": "https://bibliotyan.pages.dev/",
         "name": "BIBLIOTYAN",
-        "alternateName": ["Bibliotyan", "BIBLIOTYAN - Biblioteca Digital", "The Personal Knowledge Archive"],
+        "alternateName": ["Bibliotyan", "BIBLIOTYAN - Biblioteca Digital", "Tu Biblioteca Digital Abierta"],
         "description": "Una biblioteca digital de libros, ideas y herramientas para pensar, crear y construir. Acceso 100% libre a colecciones selectas de Filosofía, Psicología, Negocios, Economía, Historia y Ciencia.",
         "inLanguage": "es-ES",
         "potentialAction": {
@@ -104,7 +104,7 @@
   </script>
 
   <!-- Estilos Premium Luxury Obsidian Violet -->
-  <link rel="stylesheet" href="css/styles.css?v=4.0">
+  <link rel="stylesheet" href="css/styles.css?v=4.6">
 </head>
 <body>
 
@@ -119,14 +119,11 @@
       <nav class="desktop-nav-links">
         <a href="#catalog" class="desktop-nav-link"><i data-lucide="book-open"></i> Cat&aacute;logo</a>
         <a href="#colecciones" class="desktop-nav-link"><i data-lucide="layers"></i> Colecciones</a>
-        <a href="#pedidos" class="desktop-nav-link badge-pill"><i data-lucide="clock"></i> Solicitar Libro (10h)</a>
+        <a href="#requestSheetModal" class="desktop-nav-link badge-pill" onclick="event.preventDefault(); openRequestSheet();"><i data-lucide="send"></i> Solicitar Libro</a>
         <a href="#beneficios" class="desktop-nav-link"><i data-lucide="sparkles"></i> Beneficios</a>
       </nav>
 
       <div class="header-actions">
-        <button type="button" class="header-icon-btn" id="headerSearchBtn" title="Buscar libros" onclick="focusSearch()" aria-label="Buscar libros">
-          <i data-lucide="search"></i>
-        </button>
         <button type="button" class="header-icon-btn" id="headerNotifBtn" title="Notificaciones" onclick="openNotifications()" aria-label="Notificaciones">
           <i data-lucide="bell"></i>
           <span class="notif-dot"></span>
@@ -144,7 +141,7 @@
         <div class="hero-editorial-card">
           <div class="hero-bg-overlay"></div>
           <div class="hero-content-wrapper">
-            <span class="hero-kicker">THE PERSONAL KNOWLEDGE ARCHIVE</span>
+            <span class="hero-kicker">TU BIBLIOTECA DIGITAL ABIERTA</span>
             <h1 class="hero-editorial-title">El conocimiento<br>es capital.</h1>
             <p class="hero-editorial-desc">
               Una biblioteca digital de libros, ideas y herramientas para pensar, crear y construir.
@@ -154,54 +151,11 @@
               <a href="#catalog" class="btn-hero-explore">
                 <i data-lucide="book-open"></i> Explorar biblioteca
               </a>
-              <a href="#beneficios" class="btn-hero-how">
-                <i data-lucide="compass"></i> C&oacute;mo funciona
+              <a href="#beneficios" class="hero-how-link">
+                C&oacute;mo funciona <i data-lucide="arrow-right"></i>
               </a>
             </div>
-
-            <div class="hero-slider-dots">
-              <span class="dot active"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
           </div>
-        </div>
-
-        <!-- Acceso Directo Colecciones Especiales (Dummies, Breve Historia, Harvard) -->
-        <div class="hero-featured-pill-row">
-          <span class="hero-collections-label">
-            <i data-lucide="sparkles"></i> Colecciones:
-          </span>
-          <a href="?coleccion=dummies" class="hero-featured-pill pill-dummies" id="heroDummiesLink" onclick="event.preventDefault(); selectCategory('PARA DUMMIES', true, true);" title="Colecci&oacute;n Para Dummies">
-            <span class="pill-badge badge-dummies"><i data-lucide="lightbulb"></i> Para Dummies</span>
-            <span class="pill-count" id="heroDummiesCount">70 Libros</span>
-            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
-          </a>
-          <a href="?coleccion=breve-historia" class="hero-featured-pill pill-historia" id="heroHistoriaLink" onclick="event.preventDefault(); selectCategory('BREVE HISTORIA', true, true);" title="Colecci&oacute;n Breve Historia">
-            <span class="pill-badge badge-historia"><i data-lucide="landmark"></i> Breve Historia</span>
-            <span class="pill-count" id="heroHistoriaCount">142 Libros</span>
-            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
-          </a>
-          <a href="?coleccion=harvard-libros" class="hero-featured-pill pill-harvard" id="heroHarvardLink" onclick="event.preventDefault(); selectCategory('HARVARD LIBROS', true, true);" title="Colecci&oacute;n Harvard Libros">
-            <span class="pill-badge badge-harvard"><i data-lucide="building-2"></i> Harvard Libros</span>
-            <span class="pill-count" id="heroHarvardCount">27 Libros</span>
-            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
-          </a>
-          <a href="?coleccion=emprendedores" class="hero-featured-pill pill-emprendedores" id="heroEmprendedoresLink" onclick="event.preventDefault(); selectCategory('LIBROS EMPRENDEDORES', true, true);" title="Colecci&oacute;n Emprendedores">
-            <span class="pill-badge badge-emprendedores"><i data-lucide="trending-up"></i> Emprendedores</span>
-            <span class="pill-count" id="heroEmprendedoresCount">394 Libros</span>
-            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
-          </a>
-          <a href="?coleccion=teologia" class="hero-featured-pill pill-teologia" id="heroTeologiaLink" onclick="event.preventDefault(); selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);" title="Colección Teológica Contemporánea">
-            <span class="pill-badge badge-teologia"><i data-lucide="scroll"></i> Teología CLIE</span>
-            <span class="pill-count" id="heroTeologiaCount">38 Libros</span>
-            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
-          </a>
-          <a href="?coleccion=administracion" class="hero-featured-pill pill-administracion" id="heroAdminLink" onclick="event.preventDefault(); selectCategory('Libros de Administración', true, true);" title="Colección Libros de Administración">
-            <span class="pill-badge badge-administracion"><i data-lucide="briefcase"></i> Administración</span>
-            <span class="pill-count" id="heroAdminCount">197 Libros</span>
-            <span class="pill-action"><i data-lucide="arrow-right"></i></span>
-          </a>
         </div>
       </div>
     </section>
@@ -235,7 +189,7 @@
           </a>
         </div>
 
-        <div class="knowledge-grid">
+        <div class="knowledge-grid" id="knowledgeGrid">
           <button type="button" class="knowledge-card" onclick="selectKnowledgeCategory('Filosofía')" title="Explorar Filosof&iacute;a">
             <i data-lucide="landmark" class="knowledge-card-icon"></i>
             <span class="knowledge-card-label">Filosof&iacute;a</span>
@@ -269,211 +223,44 @@
       </div>
     </section>
 
-    <!-- ==================== APARTADO DE COLECCIONES DESTACADAS ==================== -->
-    <section class="special-collections-section" id="colecciones">
+    <!-- ==================== COLECCIONES & SELECCION EDITORIAL (FUSIONADO COMPACTO) ==================== -->
+    <section class="special-collections-section editorial-selection-section" id="colecciones">
       <div class="container">
         <div class="section-title-row">
-          <div>
-            <span class="section-kicker">ARCHIVOS & SERIES MONOGR&Aacute;FICAS</span>
-            <h2 class="section-title">Colecciones Destacadas</h2>
-          </div>
-          <a href="#catalog" class="section-view-all" onclick="selectCategory('Todos', true, true)">
-            Ver cat&aacute;logo completo <i data-lucide="arrow-right"></i>
+          <h2 class="section-title">Colecciones y Selecci&oacute;n</h2>
+          <a href="#catalog" class="section-view-all" onclick="selectSpecialFilter('Recomendados')">
+            Ver todos <i data-lucide="arrow-right"></i>
           </a>
         </div>
 
-        <div class="special-collections-grid" id="specialCollectionsGrid">
-          <!-- TARJETA 1: COLECCION PARA DUMMIES -->
-          <div class="collection-card-item card-dummies" id="cardColDummies" onclick="selectCategory('PARA DUMMIES', true, true);">
-            <div class="collection-card-top">
-              <span class="collection-top-badge badge-dummies">
-                <i data-lucide="lightbulb"></i> Serie Pr&aacute;ctica
-              </span>
-              <span class="collection-count-pill" id="colCountDummies">70 Libros</span>
-            </div>
-            <div class="collection-card-content">
-              <h3 class="collection-item-title">Colecci&oacute;n Para Dummies</h3>
-              <p class="collection-item-desc">
-                Gu&iacute;as paso a paso para dominar finanzas, inversi&oacute;n, idiomas, ciencias y tecnolog&iacute;a sin complicaciones.
-              </p>
-              <div class="collection-tags-row">
-                <span class="collection-tag-chip">Finanzas</span>
-                <span class="collection-tag-chip">Inversi&oacute;n</span>
-                <span class="collection-tag-chip">Idiomas</span>
-                <span class="collection-tag-chip">Tecnolog&iacute;a</span>
-              </div>
-            </div>
-            <div class="collection-card-actions">
-              <a href="?coleccion=dummies" class="btn-collection-explore btn-dummies" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('PARA DUMMIES', true, true);">
-                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
-              </a>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('PARA DUMMIES');" title="Copiar enlace directo">
-                <i data-lucide="link"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- TARJETA 2: COLECCION BREVE HISTORIA -->
-          <div class="collection-card-item card-historia" id="cardColHistoria" onclick="selectCategory('BREVE HISTORIA', true, true);">
-            <div class="collection-card-top">
-              <span class="collection-top-badge badge-historia">
-                <i data-lucide="landmark"></i> Ediciones Nowtilus
-              </span>
-              <span class="collection-count-pill" id="colCountHistoria">142 Libros</span>
-            </div>
-            <div class="collection-card-content">
-              <h3 class="collection-item-title">Colecci&oacute;n Breve Historia</h3>
-              <p class="collection-item-desc">
-                Monograf&iacute;as rigurosas y amenas sobre civilizaciones cl&aacute;sicas, imperios, mitolog&iacute;a y grandes guerras.
-              </p>
-              <div class="collection-tags-row">
-                <span class="collection-tag-chip">Roma y Grecia</span>
-                <span class="collection-tag-chip">Guerras</span>
-                <span class="collection-tag-chip">Mitolog&iacute;a</span>
-                <span class="collection-tag-chip">Imperios</span>
-              </div>
-            </div>
-            <div class="collection-card-actions">
-              <a href="?coleccion=breve-historia" class="btn-collection-explore btn-historia" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('BREVE HISTORIA', true, true);">
-                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
-              </a>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('BREVE HISTORIA');" title="Copiar enlace directo">
-                <i data-lucide="link"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- TARJETA 3: COLECCION HARVARD LIBROS -->
-          <div class="collection-card-item card-harvard" id="cardColHarvard" onclick="selectCategory('HARVARD LIBROS', true, true);">
-            <div class="collection-card-top">
-              <span class="collection-top-badge badge-harvard">
-                <i data-lucide="building-2"></i> Harvard Review
-              </span>
-              <span class="collection-count-pill" id="colCountHarvard">27 Libros</span>
-            </div>
-            <div class="collection-card-content">
-              <h3 class="collection-item-title">Colecci&oacute;n Harvard Libros</h3>
-              <p class="collection-item-desc">
-                Series oficiales HBR: Inteligencia Emocional y Management en 20 Minutos. Liderazgo, resiliencia ejecutiva, productividad y estrategia.
-              </p>
-              <div class="collection-tags-row">
-                <span class="collection-tag-chip">Inteligencia Emocional</span>
-                <span class="collection-tag-chip">Liderazgo</span>
-                <span class="collection-tag-chip">Resiliencia</span>
-              </div>
-            </div>
-            <div class="collection-card-actions">
-              <a href="?coleccion=harvard-libros" class="btn-collection-explore btn-harvard" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('HARVARD LIBROS', true, true);">
-                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
-              </a>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('HARVARD LIBROS');" title="Copiar enlace directo">
-                <i data-lucide="link"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- TARJETA 4: COLECCION EMPRENDEDORES -->
-          <div class="collection-card-item card-emprendedores" id="cardColEmprendedores" onclick="selectCategory('LIBROS EMPRENDEDORES', true, true);">
-            <div class="collection-card-top">
-              <span class="collection-top-badge badge-emprendedores">
-                <i data-lucide="trending-up"></i> Negocios & Startups
-              </span>
-              <span class="collection-count-pill" id="colCountEmprendedores">394 Libros en PDF</span>
-            </div>
-            <div class="collection-card-content">
-              <h3 class="collection-item-title">Colecci&oacute;n Emprendedores</h3>
-              <p class="collection-item-desc">
-                Obras maestras de estrategia empresarial, modelos de negocio, ventas, marketing viral, finanzas y mentalidad de &eacute;xito.
-              </p>
-              <div class="collection-tags-row">
-                <span class="collection-tag-chip">Startups</span>
-                <span class="collection-tag-chip">Estrategia</span>
-                <span class="collection-tag-chip">Marketing</span>
-                <span class="collection-tag-chip">Ventas</span>
-                <span class="collection-tag-chip">Finanzas</span>
-              </div>
-            </div>
-            <div class="collection-card-actions">
-              <a href="?coleccion=emprendedores" class="btn-collection-explore btn-emprendedores" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('LIBROS EMPRENDEDORES', true, true);">
-                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
-              </a>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('LIBROS EMPRENDEDORES');" title="Copiar enlace directo">
-                <i data-lucide="link"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- TARJETA 5: COLECCION TEOLOGICA CONTEMPORANEA -->
-          <div class="collection-card-item card-teologia" id="cardColTeologia" onclick="selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);">
-            <div class="collection-card-top">
-              <span class="collection-top-badge badge-teologia">
-                <i data-lucide="scroll"></i> Editorial CLIE
-              </span>
-              <span class="collection-count-pill" id="colCountTeologia">38 Libros en PDF</span>
-            </div>
-            <div class="collection-card-content">
-              <h3 class="collection-item-title">Colecci&oacute;n Teol&oacute;gica Contempor&aacute;nea</h3>
-              <p class="collection-item-desc">
-                Serie acad&eacute;mica de referencia: ex&eacute;gesis b&iacute;blica, teolog&iacute;a sistem&aacute;tica, cristolog&iacute;a y comentarios profundos de prestigiosos eruditos.
-              </p>
-              <div class="collection-tags-row">
-                <span class="collection-tag-chip">Ex&eacute;gesis</span>
-                <span class="collection-tag-chip">Doctrina</span>
-                <span class="collection-tag-chip">Hermen&eacute;utica</span>
-                <span class="collection-tag-chip">Nuevo Testamento</span>
-              </div>
-            </div>
-            <div class="collection-card-actions">
-              <a href="?coleccion=teologia" class="btn-collection-explore btn-teologia" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true);">
-                <i data-lucide="book-open"></i> Explorar Colecci&oacute;n
-              </a>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('TEOLOGÍA CONTEMPORÁNEA');" title="Copiar enlace directo">
-                <i data-lucide="link"></i>
-              </button>
-            </div>
-          </div>
-
-          <!-- TARJETA 6: COLECCION LIBROS DE ADMINISTRACION -->
-          <div class="collection-card-item card-administracion" id="cardColAdmin" onclick="selectCategory('Libros de Administración', true, true);">
-            <div class="collection-card-top">
-              <span class="collection-top-badge badge-administracion">
-                <i data-lucide="briefcase"></i> Manuales de Gestión
-              </span>
-              <span class="collection-count-pill" id="colCountAdmin">197 Libros en PDF</span>
-            </div>
-            <div class="collection-card-content">
-              <h3 class="collection-item-title">Colección Libros de Administración</h3>
-              <p class="collection-item-desc">
-                Tratados completos de dirección empresarial, comportamiento organizacional, finanzas corporativas, recursos humanos y marketing estratégico.
-              </p>
-              <div class="collection-tags-row">
-                <span class="collection-tag-chip">Gestión</span>
-                <span class="collection-tag-chip">Estrategia</span>
-                <span class="collection-tag-chip">Liderazgo</span>
-                <span class="collection-tag-chip">Finanzas</span>
-                <span class="collection-tag-chip">Operaciones</span>
-              </div>
-            </div>
-            <div class="collection-card-actions">
-              <a href="?coleccion=administracion" class="btn-collection-explore btn-administracion" onclick="event.stopPropagation(); event.preventDefault(); selectCategory('Libros de Administración', true, true);">
-                <i data-lucide="book-open"></i> Explorar Colección
-              </a>
-              <button type="button" class="btn-collection-share" onclick="event.stopPropagation(); copyCollectionLink('Libros de Administración');" title="Copiar enlace directo">
-                <i data-lucide="link"></i>
-              </button>
-            </div>
-          </div>
+        <div class="collections-compact-strip" id="specialCollectionsGrid" aria-label="Colecciones destacadas">
+          <button type="button" class="collection-chip-compact chip-dummies" id="cardColDummies" onclick="selectCategory('PARA DUMMIES', true, true)">
+            <span class="chip-name">Para Dummies</span>
+            <span class="chip-count" id="colCountDummies">70</span>
+          </button>
+          <button type="button" class="collection-chip-compact chip-historia" id="cardColHistoria" onclick="selectCategory('BREVE HISTORIA', true, true)">
+            <span class="chip-name">Breve Historia</span>
+            <span class="chip-count" id="colCountHistoria">142</span>
+          </button>
+          <button type="button" class="collection-chip-compact chip-harvard" id="cardColHarvard" onclick="selectCategory('HARVARD LIBROS', true, true)">
+            <span class="chip-name">Harvard Libros</span>
+            <span class="chip-count" id="colCountHarvard">27</span>
+          </button>
+          <button type="button" class="collection-chip-compact chip-emprendedores" id="cardColEmprendedores" onclick="selectCategory('LIBROS EMPRENDEDORES', true, true)">
+            <span class="chip-name">Emprendedores</span>
+            <span class="chip-count" id="colCountEmprendedores">394</span>
+          </button>
+          <button type="button" class="collection-chip-compact chip-teologia" id="cardColTeologia" onclick="selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true)">
+            <span class="chip-name">Teolog&iacute;a</span>
+            <span class="chip-count" id="colCountTeologia">38</span>
+          </button>
+          <button type="button" class="collection-chip-compact chip-administracion" id="cardColAdmin" onclick="selectCategory('Libros de Administración', true, true)">
+            <span class="chip-name">Administraci&oacute;n</span>
+            <span class="chip-count" id="colCountAdmin">197</span>
+          </button>
         </div>
 
-        <!-- Paginador de puntos para swipe movil -->
-        <div class="collections-carousel-dots" id="collectionsDots">
-          <button type="button" class="c-dot active" onclick="scrollCollectionCard(0)" aria-label="Coleccion Para Dummies"></button>
-          <button type="button" class="c-dot" onclick="scrollCollectionCard(1)" aria-label="Coleccion Breve Historia"></button>
-          <button type="button" class="c-dot" onclick="scrollCollectionCard(2)" aria-label="Coleccion Harvard Libros"></button>
-          <button type="button" class="c-dot" onclick="scrollCollectionCard(3)" aria-label="Coleccion Emprendedores"></button>
-          <button type="button" class="c-dot" onclick="scrollCollectionCard(4)" aria-label="Coleccion Teologica Contemporanea"></button>
-          <button type="button" class="c-dot" onclick="scrollCollectionCard(5)" aria-label="Coleccion Libros de Administracion"></button>
-        </div>
+        <div class="editorial-shelf" id="editorialShelf"></div>
       </div>
     </section>
 
@@ -488,20 +275,6 @@
         </div>
 
         <div class="editorial-shelf" id="mostReadShelf"></div>
-      </div>
-    </section>
-
-    <!-- ==================== SELECCION EDITORIAL ==================== -->
-    <section class="editorial-selection-section">
-      <div class="container">
-        <div class="section-title-row">
-          <h2 class="section-title">Selecci&oacute;n editorial</h2>
-          <a href="#catalog" class="section-view-all" onclick="selectSpecialFilter('Recomendados')">
-            Ver todos <i data-lucide="arrow-right"></i>
-          </a>
-        </div>
-
-        <div class="editorial-shelf" id="editorialShelf"></div>
       </div>
     </section>
 
@@ -532,67 +305,9 @@
 
         <!-- Grid de Libros (2 Columnas Mobile · Adaptable Desktop) -->
         <div class="books-grid" id="booksGrid"></div>
-      </div>
-    </section>
 
-    <!-- ==================== SOLICITUD DE LIBROS (10 HORAS) ==================== -->
-    <section class="requests-section" id="pedidos">
-      <div class="requests-container">
-        <div class="section-header">
-          <h2>Servicio de Solicitud de Libros</h2>
-          <p>&iquest;Buscas un libro que a&uacute;n no est&aacute; en el cat&aacute;logo? Lo buscamos, optimizamos en PDF y lo entregamos en <strong>m&aacute;ximo 10 horas</strong>.</p>
-          <div class="accent-line"></div>
-        </div>
-
-        <div class="requests-grid">
-          <!-- Formulario -->
-          <div class="request-card">
-            <div class="request-card-header">
-              <span class="timer-pill">
-                <i class="fa-solid fa-bolt"></i> Compromiso 10 Horas
-              </span>
-              <h3>Nueva Solicitud</h3>
-              <p>Indica el t&iacute;tulo del ejemplar. Te daremos un c&oacute;digo QR y ticket para unirte a nuestro canal de entrega.</p>
-            </div>
-
-            <form id="bookRequestForm" class="request-form">
-              <div class="form-field">
-                <label for="reqTitle">T&iacute;tulo del libro solicitado *</label>
-                <input type="text" id="reqTitle" required placeholder="Ej: H&aacute;bitos At&oacute;micos, El Poder del Ahora...">
-              </div>
-
-              <div class="form-field">
-                <label for="reqAuthor">Autor (opcional)</label>
-                <input type="text" id="reqAuthor" placeholder="Ej: James Clear">
-              </div>
-
-              <div class="form-field">
-                <label for="reqContact">Tu usuario de Instagram o Telegram *</label>
-                <input type="text" id="reqContact" required placeholder="Ej: @tu_usuario">
-              </div>
-
-              <div class="form-field">
-                <label for="reqNotes">Nota o idioma preferido (opcional)</label>
-                <textarea id="reqNotes" rows="2" placeholder="Ej: Edici&oacute;n completa en espa&ntilde;ol..."></textarea>
-              </div>
-
-              <button type="submit" class="btn-request-submit">
-                <i class="fa-solid fa-paper-plane"></i>
-                Registrar Pedido (Entrega en 10h)
-              </button>
-            </form>
-          </div>
-
-          <!-- Panel de seguimiento -->
-          <div class="request-tracker">
-            <div class="tracker-header">
-              <h3><i class="fa-solid fa-list-check"></i> Solicitudes en Proceso</h3>
-              <span class="tracker-count" id="activeRequestsCounter">Cargando...</span>
-            </div>
-
-            <div class="request-items-list" id="requestItemsList"></div>
-          </div>
-        </div>
+        <!-- Paginacion progresiva (24 libros por carga) -->
+        <div class="catalog-pagination" id="catalogPagination"></div>
       </div>
     </section>
 
@@ -624,7 +339,7 @@
   <footer class="footer">
     <div class="footer-social"></div>
     <p class="footer-text">
-      <strong>BIBLIOTYAN</strong> &mdash; The Personal Knowledge Archive. Repositorio digital de acceso abierto. Comprometidos con la difusi&oacute;n de la lectura y el crecimiento personal.
+      <strong>BIBLIOTYAN</strong> &mdash; Tu Biblioteca Digital Abierta. Repositorio digital de acceso abierto. Comprometidos con la difusi&oacute;n de la lectura y el crecimiento personal.
       <br>
       <span id="secretAdminTrigger" class="secret-admin-trigger" title="BIBLIOTYAN">
         &copy; <span class="footer-year"></span> BIBLIOTYAN &middot; Creado por Tyan Mena &middot; Todos los derechos reservados.
@@ -755,47 +470,37 @@
     </div>
   </div>
 
-  <!-- ==================== MODAL QR DE SOLICITUD (10 HORAS) ==================== -->
-  <div class="modal-overlay qr-modal" id="qrModal">
-    <div class="modal-content">
+  <!-- ==================== BOTTOM SHEET: SOLICITAR LIBRO ==================== -->
+  <div class="modal-overlay request-sheet-modal" id="requestSheetModal">
+    <div class="modal-content request-sheet-content">
       <div class="modal-drag-handle"></div>
-      <button class="modal-close" onclick="closeQrModal()" title="Cerrar" aria-label="Cerrar ventana">
+      <button class="modal-close" onclick="closeRequestSheet()" title="Cerrar" aria-label="Cerrar ventana">
         <i class="fa-solid fa-xmark"></i>
       </button>
-      
-      <div>
-        <span class="timer-pill" style="margin-bottom: 0.6rem;">
-          <i class="fa-solid fa-bolt"></i> Solicitud Registrada
-        </span>
-        <h2 id="qrTicketId" style="font-size: 1.5rem; margin-top: 0.4rem;">Ticket #REQ-0000</h2>
-        <p id="qrBookTitle" style="color: var(--purple-light); font-weight: 500; font-size: 1.05rem; margin-top: 0.2rem;"></p>
+
+      <div class="request-sheet-header">
+        <span class="social-pill">COMUNIDAD BIBLIOTYAN</span>
+        <h2>Solicitar un libro</h2>
+        <p>&iquest;No encuentras el t&iacute;tulo que buscas? Escr&iacute;benos directamente por Telegram o env&iacute;a la sugerencia por WhatsApp y lo sumamos al archivo.</p>
       </div>
 
-      <p class="qr-instructions" style="margin-top: 1rem;">
-        Tu libro se entregar&aacute; en un plazo m&aacute;ximo de <strong>10 horas</strong>.
-        Escanea el c&oacute;digo QR o pulsa el enlace a continuaci&oacute;n para unirte a nuestro canal oficial y recibir la notificaci&oacute;n apenas est&eacute; listo para descarga:
-      </p>
-
-      <!-- Contenedor del Codigo QR -->
-      <div class="qr-code-frame">
-        <img id="qrCodeImage" src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Ft.me%2Fbibliotyan&bgcolor=ffffff&color=09060f&margin=1" alt="C&oacute;digo QR Enlace BIBLIOTYAN">
+      <div class="request-sheet-field">
+        <label for="requestBookInput">T&iacute;tulo o autor (opcional)</label>
+        <input type="text" id="requestBookInput" class="request-sheet-input" placeholder="Ej: H&aacute;bitos At&oacute;micos &mdash; James Clear">
       </div>
 
-      <div class="qr-links-row">
-        <a href="https://t.me/bibliotyan" target="_blank" rel="noopener noreferrer" class="btn-qr-link btn-telegram">
-          <i class="fa-brands fa-telegram"></i> Unirme al Canal de Telegram
+      <div class="request-sheet-actions">
+        <a id="requestTelegramBtn" href="https://t.me/bibliotyan" target="_blank" rel="noopener noreferrer" class="btn-request-primary">
+          <i class="fa-brands fa-telegram"></i> Solicitar en Telegram
         </a>
-        <a href="https://www.instagram.com/tyanmena/" target="_blank" rel="noopener noreferrer" class="btn-qr-link btn-instagram">
-          <i class="fa-brands fa-instagram"></i> Seguir en Instagram (@tyanmena)
-        </a>
-        <a href="https://www.facebook.com/reel/1426164676340634?locale=es_LA" target="_blank" rel="noopener noreferrer" class="btn-qr-link btn-facebook">
-          <i class="fa-brands fa-facebook-f"></i> Seguir en Facebook
+        <a id="requestWhatsappBtn" href="https://api.whatsapp.com/send?text=Hola%20BIBLIOTYAN%2C%20me%20gustar%C3%ADa%20solicitar%20un%20libro%3A%20" target="_blank" rel="noopener noreferrer" class="btn-request-secondary">
+          <i class="fa-brands fa-whatsapp"></i> Alternativa por WhatsApp
         </a>
       </div>
 
-      <button class="btn-skip-download" style="margin-top: 1.2rem; width: 100%;" onclick="closeQrModal()">
-        Entendido, volver a la biblioteca
-      </button>
+      <a href="https://www.instagram.com/tyanmena/" target="_blank" rel="noopener noreferrer" class="request-sheet-alt-link">
+        <i class="fa-brands fa-instagram"></i> Tambi&eacute;n en Instagram (@tyanmena)
+      </a>
     </div>
   </div>
 
@@ -859,8 +564,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=4.5"></script>
-  <script src="js/app.js?v=4.5"></script>
+  <script src="js/data.js?v=4.6"></script>
+  <script src="js/app.js?v=4.6"></script>
 
 </body>
 </html>

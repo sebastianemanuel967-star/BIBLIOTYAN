@@ -6,10 +6,13 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   // ── Estado Global ──
+  const PAGE_SIZE = 24;
+
   const state = {
     currentFilter: 'Todos',
     searchQuery: '',
     sortBy: 'curated',
+    visibleCount: PAGE_SIZE,
     currentBook: null,
     currentPdfPage: 1,
     totalPdfPages: 0,
@@ -18,6 +21,39 @@ document.addEventListener('DOMContentLoaded', () => {
     favorites: [],
     selectedFormat: 'pdf',
     dailyBook: null
+  };
+
+  const KNOWLEDGE_MATCHERS = {
+    'Filosofía': {
+      categories: ['Espiritualidad & sabiduría', 'TEOLOGÍA CONTEMPORÁNEA'],
+      collections: ['Estoica', 'Teolog'],
+      keywords: ['filosof', 'estoic', 'sabidur', 'ética', 'etica', 'pensamiento', 'aristóteles', 'aristoteles', 'platón', 'platon', 'séneca', 'seneca', 'marco aurelio', 'epicteto', 'nietzsche', 'kant', 'sócrates', 'socrates', 'spinoza']
+    },
+    'Psicología': {
+      categories: ['Psicología & Conducta', 'Autoayuda & Mente', 'Neurociencia & Mente', 'Crecimiento Personal', 'Productividad & Hábitos'],
+      collections: [],
+      keywords: ['psicolog', 'mente', 'cerebro', 'emocion', 'conducta', 'neuro', 'ansiedad', 'cognitiv', 'hábito', 'habito', 'trauma', 'ego', 'conciencia', 'hipno']
+    },
+    'Negocios': {
+      categories: ['Liderazgo & Estrategia', 'Marketing & Ventas', 'HARVARD LIBROS', 'LIBROS EMPRENDEDORES', 'Libros de Administración'],
+      collections: ['Emprendedor', 'Administra', 'Harvard'],
+      keywords: ['negocio', 'empresa', 'marketing', 'venta', 'liderazgo', 'startup', 'estrategia', 'gerencia', 'marca', 'management', 'cliente', 'productividad']
+    },
+    'Economía': {
+      categories: ['Finanzas & Inversión'],
+      collections: [],
+      keywords: ['econom', 'finanz', 'dinero', 'invers', 'riqueza', 'capital', 'bolsa', 'mercado', 'macroeconom', 'microeconom', 'bitcoin', 'cripto', 'activo', 'presupuesto', 'impuesto']
+    },
+    'Historia': {
+      categories: ['BREVE HISTORIA'],
+      collections: ['Breve Historia', 'National Geographic'],
+      keywords: ['historia', 'guerra', 'imperio', 'roma', 'grecia', 'egipto', 'edad media', 'revoluci', 'antigu', 'siglo', 'civilizaci', 'batalla', 'mitolog', 'renacimiento']
+    },
+    'Ciencia': {
+      categories: ['Tecnología & Futuro', 'Salud & Longevidad', 'Neurociencia & Mente'],
+      collections: ['National Geographic'],
+      keywords: ['ciencia', 'física', 'fisica', 'químic', 'quimic', 'biolog', 'matemát', 'matemat', 'astrono', 'universo', 'cosmos', 'cuántic', 'cuantic', 'genética', 'genetica', 'evoluci', 'inteligencia artificial', 'algoritmo', 'datos', 'programaci', 'tecnolog', 'neurociencia', 'medicina', 'cerebro', 'cuerpo', 'salud', 'ecolog', 'fisiolog', 'epigen']
+    }
   };
 
   // Cargar favoritos desde almacenamiento local
@@ -121,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!book) return;
     const shareUrl = getBookShareUrl(book);
     const shareTitle = `${book.title} — BIBLIOTYAN`;
-    const shareText = `Lee y descarga "${book.title}" de ${book.author} en BIBLIOTYAN — The Personal Knowledge Archive:`;
+    const shareText = `Lee y descarga "${book.title}" de ${book.author} en BIBLIOTYAN — Tu Biblioteca Digital Abierta:`;
 
     if (navigator.share && window.isSecureContext) {
       try {
@@ -324,13 +360,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
       const pageTitle = categoryName && categoryName !== 'Todos'
         ? `${categoryName} — BIBLIOTYAN`
-        : 'BIBLIOTYAN — The Personal Knowledge Archive';
+        : 'BIBLIOTYAN — Tu Biblioteca Digital Abierta';
       window.history.replaceState({ filter: categoryName }, pageTitle, newUrl);
     } catch (e) {}
   }
 
   function selectCategory(categoryName, shouldScroll = false, updateUrl = true) {
     state.currentFilter = categoryName;
+    state.visibleCount = PAGE_SIZE;
 
     // Actualizar botones de filtro
     document.querySelectorAll('.filter-pill').forEach(btn => {
@@ -342,6 +379,13 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         btn.classList.remove('active');
       }
+    });
+
+    // Sincronizar tarjetas de Explora por conocimiento
+    document.querySelectorAll('.knowledge-card').forEach(card => {
+      const labelEl = card.querySelector('.knowledge-card-label');
+      const label = labelEl ? labelEl.textContent.trim() : '';
+      card.classList.toggle('active', label === categoryName);
     });
 
     renderBooks();
@@ -362,42 +406,28 @@ document.addEventListener('DOMContentLoaded', () => {
   // EXPLORA POR CONOCIMIENTO & FILTROS ESPECIALES
   // ========================================================
   window.selectKnowledgeCategory = function(name) {
-    const catalogEl = document.getElementById('catalog');
-    if (catalogEl) {
-      catalogEl.scrollIntoView({ behavior: 'smooth' });
-    }
-
     if (name === 'Todos') {
-      selectCategory('Todos', false, true);
+      selectCategory('Todos', true, true);
       return;
     }
 
-    const n = name.toLowerCase();
-    let match = null;
+    const canonical = Object.keys(KNOWLEDGE_MATCHERS).find(
+      k => k.toLowerCase() === String(name || '').trim().toLowerCase()
+    );
 
-    if (n.includes('filosof')) {
-      match = CONFIG.categories.find(c => c.toLowerCase().includes('espiritualidad') || c.toLowerCase().includes('filosof'));
-    } else if (n.includes('psicol')) {
-      match = CONFIG.categories.find(c => c.toLowerCase().includes('psicolog') || c.toLowerCase().includes('mente'));
-    } else if (n.includes('negocio')) {
-      match = CONFIG.categories.find(c => c.toLowerCase().includes('liderazgo') || c.toLowerCase().includes('marketing'));
-    } else if (n.includes('econom') || n.includes('finanz')) {
-      match = CONFIG.categories.find(c => c.toLowerCase().includes('finanzas'));
-    } else if (n.includes('histor')) {
-      match = CONFIG.categories.find(c => c.toLowerCase().includes('breve historia') || c.toLowerCase().includes('historia'));
-    } else if (n.includes('cienc')) {
-      match = CONFIG.categories.find(c => c.toLowerCase().includes('tecnolog') || c.toLowerCase().includes('salud'));
+    if (canonical) {
+      selectCategory(canonical, true, true);
+      return;
     }
 
-    if (match) {
-      selectCategory(match, false, true);
-    } else {
-      state.currentFilter = 'Todos';
-      state.searchQuery = n;
-      const searchInput = document.getElementById('searchInput');
-      if (searchInput) searchInput.value = name;
-      renderBooks();
-    }
+    state.currentFilter = 'Todos';
+    state.visibleCount = PAGE_SIZE;
+    state.searchQuery = String(name || '').toLowerCase().trim();
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) searchInput.value = name;
+    renderBooks();
+    const catalogEl = document.getElementById('catalog');
+    if (catalogEl) catalogEl.scrollIntoView({ behavior: 'smooth' });
   };
 
   window.selectSpecialFilter = function(filterName) {
@@ -422,6 +452,7 @@ document.addEventListener('DOMContentLoaded', () => {
       input.value = '';
       state.searchQuery = '';
     }
+    state.visibleCount = PAGE_SIZE;
     if (clearBtn) clearBtn.style.display = 'none';
     renderBooks();
   };
@@ -443,10 +474,10 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (tab === 'buscar') {
       focusSearch();
     } else if (tab === 'solicitar') {
-      const req = document.getElementById('pedidos');
-      if (req) req.scrollIntoView({ behavior: 'smooth' });
+      openRequestSheet();
     } else if (tab === 'biblioteca') {
       state.currentFilter = 'Mi biblioteca';
+      state.visibleCount = PAGE_SIZE;
       const cat = document.getElementById('catalog');
       if (cat) cat.scrollIntoView({ behavior: 'smooth' });
       renderBooks();
@@ -545,10 +576,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (searchParam && searchParam.trim()) {
       const qVal = searchParam.trim();
       state.searchQuery = qVal.toLowerCase();
+      state.visibleCount = PAGE_SIZE;
       const searchInput = document.getElementById('searchInput');
       if (searchInput) searchInput.value = qVal;
-      const heroSearchInput = document.getElementById('heroSearchInput');
-      if (heroSearchInput) heroSearchInput.value = qVal;
       renderBooks();
       const catalog = document.getElementById('catalog');
       if (catalog) {
@@ -592,7 +622,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderWhyReadSection();
     renderDailyQuote();
     renderFooter();
-    initRequestsSystem();
+    initRequestSheet();
     setupSecretAdminAccess();
     setupMobileBottomNav();
     updateStats();
@@ -603,19 +633,25 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // BÚSQUEDA EN TIEMPO REAL
+  // BÚSQUEDA EN TIEMPO REAL (DEBOUNCE 150 MS)
   // ========================================================
   function setupSearchBar() {
     const input = document.getElementById('searchInput');
     const clearBtn = document.getElementById('searchClearBtn');
     if (!input) return;
 
+    let searchTimer = null;
     input.addEventListener('input', (e) => {
-      state.searchQuery = e.target.value.toLowerCase().trim();
+      const nextQuery = e.target.value.toLowerCase().trim();
       if (clearBtn) {
-        clearBtn.style.display = state.searchQuery ? 'inline-flex' : 'none';
+        clearBtn.style.display = nextQuery ? 'inline-flex' : 'none';
       }
-      renderBooks();
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        state.searchQuery = nextQuery;
+        state.visibleCount = PAGE_SIZE;
+        renderBooks();
+      }, 150);
     });
   }
 
@@ -727,7 +763,7 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (cat === 'Libros de Administración') iconHtml = '<i data-lucide="briefcase"></i>';
       else if (cat === 'TEOLOGÍA CONTEMPORÁNEA') iconHtml = '<i data-lucide="scroll"></i>';
 
-      btn.innerHTML = `${iconHtml} <span>${cat}</span>`;
+      btn.innerHTML = `${iconHtml} <span>${escapeHTML(cat)}</span>`;
       btn.addEventListener('click', () => {
         selectCategory(cat, false, true);
       });
@@ -744,26 +780,38 @@ document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('collectionBannerContainer');
     if (container) container.innerHTML = '';
   }
+  function matchesKnowledgeArea(book, areaName) {
+    const matcher = KNOWLEDGE_MATCHERS[areaName];
+    if (!matcher) return false;
+    if (matcher.categories.includes(book.category)) return true;
+    if (book.collection && matcher.collections.some(c => book.collection.includes(c))) return true;
+    const haystack = `${book.title || ''} ${book.author || ''} ${book.category || ''} ${book.collection || ''} ${book.description || ''}`.toLowerCase();
+    return matcher.keywords.some(kw => haystack.includes(kw));
+  }
+
   // ========================================================
-  // RENDERIZADO DEL CATÁLOGO (GRID 2 COLUMNAS EN MÓVIL)
+  // RENDERIZADO DEL CATÁLOGO (24 EN 24 + GRID 2 COLUMNAS)
   // ========================================================
   function renderBooks() {
     const grid = document.getElementById('booksGrid');
     const countEl = document.getElementById('resultsCount');
+    const paginationEl = document.getElementById('catalogPagination');
     if (!grid) return;
 
     renderCollectionBanner();
 
     let filtered = BOOKS.filter(book => {
-      // 1. Filtrado especial o de categoría
+      // 1. Filtrado especial, por area de conocimiento o de categoria
       let matchesCategory = false;
 
       if (state.currentFilter === 'Todos') {
         matchesCategory = true;
+      } else if (KNOWLEDGE_MATCHERS[state.currentFilter]) {
+        matchesCategory = matchesKnowledgeArea(book, state.currentFilter);
       } else if (state.currentFilter === 'Más leídos') {
-        matchesCategory = true; // Se ordenará por descargas
+        matchesCategory = true;
       } else if (state.currentFilter === 'Nuevos') {
-        matchesCategory = true; // Se ordenará por ID reciente
+        matchesCategory = true;
       } else if (state.currentFilter === 'Recomendados') {
         matchesCategory = EDITORIAL_SELECTION_IDS.includes(book.id) || (book.downloads >= 400);
       } else if (state.currentFilter === 'Mi biblioteca') {
@@ -849,20 +897,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (countEl) {
-      const filterLabel = state.currentFilter === 'Todos' ? 'el archivo general' : state.currentFilter;
-      countEl.textContent = `${filtered.length} título${filtered.length !== 1 ? 's' : ''} en ${filterLabel}`;
+      const filterLabel = state.currentFilter === 'Todos' ? 'Catálogo' : state.currentFilter;
+      countEl.textContent = `${filterLabel} · ${filtered.length} ${filtered.length === 1 ? 'libro' : 'libros'}`;
     }
 
     grid.innerHTML = '';
+    if (paginationEl) paginationEl.innerHTML = '';
 
     if (filtered.length === 0) {
       if (state.currentFilter === 'Mi biblioteca') {
         grid.innerHTML = `
-          <div style="grid-column: 1/-1; text-align: center; padding: 4rem 1rem; color: var(--text-muted)">
-            <i data-lucide="bookmark" style="width: 48px; height: 48px; color: var(--purple-primary); margin: 0 auto 1.2rem; display: block;"></i>
-            <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.35rem">Tu biblioteca está vacía</h3>
-            <p style="max-width: 460px; margin: 0 auto 1.5rem; line-height: 1.55; color: var(--text-secondary);">
-              Aún no has guardado ningún libro. Explora el catálogo y pulsa el icono de marcador en tus títulos favoritos para verlos aquí reunidos.
+          <div style="grid-column: 1/-1; text-align: center; padding: 3rem 1rem; color: var(--text-muted)">
+            <i data-lucide="bookmark" style="width: 44px; height: 44px; color: var(--purple-primary); margin: 0 auto 1rem; display: block;"></i>
+            <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.2rem">Tu biblioteca está vacía</h3>
+            <p style="max-width: 440px; margin: 0 auto 1.25rem; line-height: 1.5; color: var(--text-secondary);">
+              Aún no has guardado ningún libro. Pulsa el icono de marcador en tus títulos favoritos para verlos aquí reunidos.
             </p>
             <button type="button" class="btn-hero-explore" onclick="selectCategory('Todos', false, true)">
               Explorar Catálogo Completo
@@ -870,14 +919,19 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         `;
       } else {
+        const queryNotice = state.searchQuery
+          ? `No encontramos resultados para "<strong>${escapeHTML(state.searchQuery)}</strong>".`
+          : 'No encontramos libros con este filtro.';
         grid.innerHTML = `
-          <div style="grid-column: 1/-1; text-align: center; padding: 4.5rem 1rem; color: var(--text-muted)">
-            <i data-lucide="book-open" style="width: 48px; height: 48px; color: var(--purple-primary); margin: 0 auto 1.2rem; display: block;"></i>
-            <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.35rem">No se encontraron libros</h3>
-            <p style="max-width: 480px; margin: 0 auto; line-height: 1.55; color: var(--text-secondary);">
-              Si el título que buscas no figura en nuestro archivo, puedes pedirlo en la sección de
-              <a href="#pedidos" style="color: var(--purple-light); font-weight: 500; text-decoration: underline;">Solicitudes Express</a> y lo entregaremos en máximo 10 horas.
+          <div style="grid-column: 1/-1; text-align: center; padding: 3rem 1rem; color: var(--text-muted)">
+            <i data-lucide="book-open" style="width: 44px; height: 44px; color: var(--purple-primary); margin: 0 auto 1rem; display: block;"></i>
+            <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.2rem">No se encontraron libros</h3>
+            <p style="max-width: 460px; margin: 0 auto 1.2rem; line-height: 1.5; color: var(--text-secondary);">
+              ${queryNotice} Si buscas un título que aún no figura en el archivo, puedes pedirlo directo al equipo.
             </p>
+            <button type="button" class="btn-hero-explore" onclick="openRequestSheet(state.searchQuery)">
+              Solicitar este libro
+            </button>
           </div>
         `;
       }
@@ -885,7 +939,9 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    filtered.forEach((book) => {
+    const visibleBooks = filtered.slice(0, state.visibleCount);
+
+    visibleBooks.forEach((book) => {
       const card = document.createElement('div');
       card.className = 'book-card';
 
@@ -932,11 +988,31 @@ document.addEventListener('DOMContentLoaded', () => {
       grid.appendChild(card);
     });
 
+    if (paginationEl && filtered.length > state.visibleCount) {
+      const remaining = filtered.length - state.visibleCount;
+      const nextBatch = Math.min(PAGE_SIZE, remaining);
+      paginationEl.innerHTML = `
+        <button type="button" class="btn-load-more" onclick="loadMoreBooks()">
+          Mostrar ${nextBatch} m&aacute;s (${remaining} restantes)
+        </button>
+      `;
+    }
+
     refreshIcons();
   }
 
+  function loadMoreBooks() {
+    state.visibleCount += PAGE_SIZE;
+    renderBooks();
+  }
+
   const sortSelect = document.getElementById('sortSelect');
-  if (sortSelect) sortSelect.addEventListener('change', () => renderBooks());
+  if (sortSelect) {
+    sortSelect.addEventListener('change', () => {
+      state.visibleCount = PAGE_SIZE;
+      renderBooks();
+    });
+  }
 
   // ========================================================
   // MODAL VISTA PREVIA Y DIAGNÓSTICO IA
@@ -1337,196 +1413,54 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // MODAL QR DE SOLICITUD (10 HORAS)
+  // BOTTOM SHEET: SOLICITAR LIBRO (TELEGRAM + WHATSAPP)
   // ========================================================
-  function openQrModal(ticketId, bookTitle) {
-    const modal = document.getElementById('qrModal');
-    if (!modal) return;
+  function updateRequestSheetLinks(rawTitle) {
+    const cleanTitle = String(rawTitle || '').trim();
+    const tgBtn = document.getElementById('requestTelegramBtn');
+    const waBtn = document.getElementById('requestWhatsappBtn');
 
-    const titleEl = document.getElementById('qrTicketId');
-    const bookEl = document.getElementById('qrBookTitle');
-    const qrImg = document.getElementById('qrCodeImage');
-
-    if (titleEl) titleEl.textContent = `Ticket #${ticketId}`;
-    if (bookEl) bookEl.textContent = `«${bookTitle}»`;
-
-    const encodedUrl = encodeURIComponent(CONFIG.communityInviteUrl || "https://t.me/bibliotyan");
-    if (qrImg) {
-      qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodedUrl}&bgcolor=ffffff&color=09060f&margin=1`;
+    if (tgBtn) {
+      tgBtn.href = CONFIG.communityInviteUrl || 'https://t.me/bibliotyan';
     }
 
+    if (waBtn) {
+      const msg = cleanTitle
+        ? `Hola BIBLIOTYAN, me gustaría solicitar el libro: ${cleanTitle}`
+        : 'Hola BIBLIOTYAN, me gustaría solicitar un libro para el catálogo.';
+      waBtn.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
+    }
+  }
+
+  function initRequestSheet() {
+    const input = document.getElementById('requestBookInput');
+    if (input) {
+      input.addEventListener('input', (e) => {
+        updateRequestSheetLinks(e.target.value);
+      });
+    }
+    updateRequestSheetLinks('');
+  }
+
+  function openRequestSheet(prefillTitle = '') {
+    const modal = document.getElementById('requestSheetModal');
+    if (!modal) return;
+    const input = document.getElementById('requestBookInput');
+    if (input) {
+      input.value = String(prefillTitle || '').trim();
+      updateRequestSheetLinks(input.value);
+    } else {
+      updateRequestSheetLinks('');
+    }
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
 
-  function closeQrModal() {
-    const modal = document.getElementById('qrModal');
+  function closeRequestSheet() {
+    const modal = document.getElementById('requestSheetModal');
     if (modal) modal.classList.remove('active');
     document.body.style.overflow = '';
   }
-
-  // ========================================================
-  // SISTEMA DE PETICIONES (ENTREGA EN 10 HORAS)
-  // ========================================================
-  function initRequestsSystem() {
-    const saved = localStorage.getItem('bibliotyan_requests');
-    if (saved) {
-      try {
-        state.requests = JSON.parse(saved);
-      } catch (e) {
-        state.requests = INITIAL_REQUESTS;
-      }
-    } else {
-      state.requests = INITIAL_REQUESTS;
-      localStorage.setItem('bibliotyan_requests', JSON.stringify(state.requests));
-    }
-
-    renderRequestsList();
-    setInterval(updateTimers, 1000);
-
-    const form = document.getElementById('bookRequestForm');
-    if (form) {
-      form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        submitNewRequest();
-      });
-    }
-  }
-
-  function submitNewRequest() {
-    const titleInput = document.getElementById('reqTitle');
-    const authorInput = document.getElementById('reqAuthor');
-    const contactInput = document.getElementById('reqContact');
-    const noteInput = document.getElementById('reqNotes');
-
-    const title = titleInput.value.trim();
-    const author = authorInput.value.trim() || 'Autor no especificado';
-    const contact = contactInput.value.trim() || 'Anónimo';
-
-    if (!title) return;
-
-    const now = Date.now();
-    const readyAt = now + (CONFIG.deliveryHours * 3600 * 1000);
-    const ticketId = 'REQ-' + Math.floor(1000 + Math.random() * 9000);
-
-    const newRequest = {
-      id: ticketId,
-      bookTitle: title,
-      author: author,
-      requester: contact,
-      contact: contact,
-      requestedAt: now,
-      readyAt: readyAt,
-      status: "processing",
-      downloadUrl: null
-    };
-
-    state.requests.unshift(newRequest);
-    localStorage.setItem('bibliotyan_requests', JSON.stringify(state.requests));
-
-    titleInput.value = '';
-    authorInput.value = '';
-    contactInput.value = '';
-    if (noteInput) noteInput.value = '';
-
-    renderRequestsList();
-    openQrModal(ticketId, title);
-    showToast('Solicitud Registrada', `Ticket #${ticketId}. Entrega estimada en 10 horas.`);
-  }
-
-  function renderRequestsList() {
-    const container = document.getElementById('requestItemsList');
-    const counterEl = document.getElementById('activeRequestsCounter');
-    if (!container) return;
-
-    if (counterEl) {
-      counterEl.textContent = `${state.requests.length} pedidos activos`;
-    }
-
-    container.innerHTML = '';
-
-    state.requests.forEach(req => {
-      const now = Date.now();
-      const isReady = req.status === 'ready' || now >= req.readyAt;
-
-      const item = document.createElement('div');
-      item.className = `request-item ${isReady ? 'ready' : ''}`;
-      item.id = `req-${req.id}`;
-
-      item.innerHTML = `
-        <div class="request-item-top">
-          <span class="request-ticket-id">#${escapeHTML(req.id)}</span>
-          <span class="request-status-badge ${isReady ? 'ready' : 'processing'}">
-            ${isReady
-              ? '<i class="fa-solid fa-circle-check"></i> Disponible para descarga'
-              : '<i class="fa-solid fa-clock"></i> En preparación (10h)'}
-          </span>
-        </div>
-        <h4 class="request-book-title">${escapeHTML(req.bookTitle)}</h4>
-        <p class="request-book-author"><i class="fa-solid fa-pen-nib"></i> ${escapeHTML(req.author)} · Solicitado por: <strong>${escapeHTML(req.requester)}</strong></p>
-
-        <div class="countdown-box">
-          <div class="countdown-labels">
-            <span>${isReady ? 'Entrega completada' : 'Tiempo restante:'}</span>
-            <span class="countdown-timer-value" data-ready="${Number(req.readyAt) || 0}">
-              ${formatTimeRemaining(req.readyAt)}
-            </span>
-          </div>
-          <div class="progress-bar-bg">
-            <div class="progress-bar-fill" style="width: ${calculateProgress(req.requestedAt, req.readyAt)}%"></div>
-          </div>
-        </div>
-
-        ${isReady ? `
-          <button class="btn-download-delivered" data-title="${escapeHTML(req.bookTitle)}">
-            <i class="fa-solid fa-download"></i> Descargar Ejemplar Solicitado
-          </button>
-        ` : ''}
-      `;
-
-      const deliveredBtn = item.querySelector('.btn-download-delivered');
-      if (deliveredBtn) {
-        deliveredBtn.addEventListener('click', () => window.deliveredDownload(deliveredBtn.dataset.title));
-      }
-
-      container.appendChild(item);
-    });
-  }
-
-  function formatTimeRemaining(readyAt) {
-    const now = Date.now();
-    const diff = readyAt - now;
-
-    if (diff <= 0) return "00h 00m 00s (Disponible)";
-
-    const hours = Math.floor(diff / (1000 * 60 * 60));
-    const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const secs = Math.floor((diff % (1000 * 60)) / 1000);
-
-    return `${String(hours).padStart(2, '0')}h ${String(mins).padStart(2, '0')}m ${String(secs).padStart(2, '0')}s`;
-  }
-
-  function calculateProgress(requestedAt, readyAt) {
-    const now = Date.now();
-    const total = readyAt - requestedAt;
-    const elapsed = now - requestedAt;
-    const pct = Math.min(100, Math.max(0, (elapsed / total) * 100));
-    return pct.toFixed(1);
-  }
-
-  function updateTimers() {
-    const timerEls = document.querySelectorAll('.countdown-timer-value');
-    timerEls.forEach(el => {
-      const readyAt = parseInt(el.getAttribute('data-ready'), 10);
-      if (readyAt) {
-        el.textContent = formatTimeRemaining(readyAt);
-      }
-    });
-  }
-
-  window.deliveredDownload = function(title) {
-    showToast('Libro Entregado', `Abriendo ejemplar de "${title}" en BIBLIOTYAN.`);
-  };
 
   // ========================================================
   // ACCESO ADMIN OCULTO (Ctrl + Shift + A o Triple Click)
@@ -1660,8 +1594,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navItems = bottomNav.querySelectorAll('.dock-item');
 
     const sections = [
-      { id: 'catalogo', el: document.getElementById('catalog') },
-      { id: 'solicitar', el: document.getElementById('pedidos') }
+      { id: 'catalogo', el: document.getElementById('catalog') }
     ];
 
     function updateActiveTab() {
@@ -1707,38 +1640,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES' || (b.collection && b.collection.includes('Dummies'))).length;
     const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA' || (b.collection && b.collection.includes('Breve Historia'))).length;
     const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS' || (b.collection && b.collection.includes('Harvard'))).length;
+    const tCount = BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA' || (b.collection && b.collection.includes('Teolog'))).length;
+    const eCount = BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length;
+    const aCount = BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length;
 
     const elTeologia = document.getElementById('colCountTeologia');
-    const heroT = document.getElementById('heroTeologiaCount');
-    const tCount = BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA' || (b.collection && b.collection.includes('Teolog'))).length;
-    if (elTeologia) elTeologia.textContent = `${tCount} Libros en PDF`;
-    if (heroT) heroT.textContent = `${tCount} Libros`;
-
     const elEmprendedores = document.getElementById('colCountEmprendedores');
-    const heroE = document.getElementById('heroEmprendedoresCount');
-    const eCount = BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length;
-    if (elEmprendedores) elEmprendedores.textContent = `${eCount} Libros en PDF`;
-    if (heroE) heroE.textContent = `${eCount} Libros`;
-
     const elAdmin = document.getElementById('colCountAdmin');
-    const heroAdmin = document.getElementById('heroAdminCount');
-    const aCount = BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length;
-    if (elAdmin) elAdmin.textContent = `${aCount} Libros en PDF`;
-    if (heroAdmin) heroAdmin.textContent = `${aCount} Libros`;
-
     const elDummies = document.getElementById('colCountDummies');
     const elHistoria = document.getElementById('colCountHistoria');
     const elHarvard = document.getElementById('colCountHarvard');
-    if (elDummies) elDummies.textContent = `${dCount} Libros en PDF`;
-    if (elHistoria) elHistoria.textContent = `${hCount} Libros en PDF`;
-    if (elHarvard) elHarvard.textContent = `${hbrCount} Libros en PDF`;
 
-    const heroD = document.getElementById('heroDummiesCount');
-    const heroH = document.getElementById('heroHistoriaCount');
-    const heroHbr = document.getElementById('heroHarvardCount');
-    if (heroD) heroD.textContent = `${dCount} Libros`;
-    if (heroH) heroH.textContent = `${hCount} Libros`;
-    if (heroHbr) heroHbr.textContent = `${hbrCount} Libros`;
+    if (elTeologia) elTeologia.textContent = tCount;
+    if (elEmprendedores) elEmprendedores.textContent = eCount;
+    if (elAdmin) elAdmin.textContent = aCount;
+    if (elDummies) elDummies.textContent = dCount;
+    if (elHistoria) elHistoria.textContent = hCount;
+    if (elHarvard) elHarvard.textContent = hbrCount;
   }
 
   function setupCollectionsCarousel() {
@@ -1788,8 +1706,9 @@ document.addEventListener('DOMContentLoaded', () => {
   window.downloadFromReader = downloadFromReader;
   window.openSocialModal = openSocialModal;
   window.closeSocialModal = closeSocialModal;
-  window.openQrModal = openQrModal;
-  window.closeQrModal = closeQrModal;
+  window.openRequestSheet = openRequestSheet;
+  window.closeRequestSheet = closeRequestSheet;
+  window.loadMoreBooks = loadMoreBooks;
   window.downloadCurrentBook = downloadCurrentBook;
   window.shareCurrentBook = shareCurrentBook;
   window.shareBookDirect = shareBookDirect;
