@@ -35,10 +35,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // Escapa texto para insertarlo de forma segura dentro de innerHTML / atributos
+  function escapeHTML(value) {
+    return String(value ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
   // Fallback visual sobrio para portadas
   window.handleCoverError = function(img, title) {
     img.onerror = null;
-    const initial = (title || 'B').charAt(0).toUpperCase();
+    const bookTitle = title || img.dataset.title || '';
+    const initial = encodeURIComponent(escapeHTML((bookTitle || 'B').charAt(0).toUpperCase()));
     img.src = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='420' viewBox='0 0 300 420'><rect width='100%' height='100%' fill='%23171020'/><rect x='10' y='10' width='280' height='400' fill='none' stroke='%23B66AFF' stroke-width='2' stroke-opacity='0.4'/><circle cx='150' cy='180' r='45' fill='%2321172C' stroke='%23B66AFF' stroke-width='2'/><text x='150' y='192' font-family='sans-serif' font-size='32' fill='%23B66AFF' font-weight='bold' text-anchor='middle'>" + initial + "</text><text x='150' y='260' font-family='sans-serif' font-size='14' fill='%23F2EEF5' text-anchor='middle'>BIBLIOTYAN</text><text x='150' y='285' font-family='sans-serif' font-size='11' fill='%23B66AFF' text-anchor='middle'>Edici%C3%B3n Digital</text></svg>";
   };
 
@@ -630,13 +641,13 @@ document.addEventListener('DOMContentLoaded', () => {
       card.className = 'editorial-mini-card';
       card.innerHTML = `
         <div class="editorial-cover-wrap">
-          <img src="${book.cover}" alt="${book.title}" loading="lazy" onerror="handleCoverError(this, '${(book.title || '').replace(/'/g, "\\'")}')">
+          <img src="${escapeHTML(book.cover)}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" loading="lazy" onerror="handleCoverError(this)">
         </div>
         <div class="editorial-mini-info">
-          <h4 class="editorial-mini-title">${book.title}</h4>
-          <p class="editorial-mini-author">${book.author}</p>
+          <h4 class="editorial-mini-title">${escapeHTML(book.title)}</h4>
+          <p class="editorial-mini-author">${escapeHTML(book.author)}</p>
           <div class="editorial-mini-footer">
-            <span class="editorial-mini-badge">${book.category}</span>
+            <span class="editorial-mini-badge">${escapeHTML(book.category)}</span>
             <button type="button" class="btn-mini-fav ${isFav ? 'active' : ''}" data-id="${book.id}" onclick="event.stopPropagation(); toggleFavorite(${book.id}, event)" title="${isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}" aria-label="Favorito">
               <i data-lucide="bookmark"></i>
             </button>
@@ -895,19 +906,27 @@ document.addEventListener('DOMContentLoaded', () => {
           <span class="card-floating-badge">
             <i data-lucide="${formatIcon}"></i> ${formatText}
           </span>
-          <img src="${book.cover}" alt="${book.title}" loading="lazy" onerror="handleCoverError(this, '${(book.title || '').replace(/'/g, "\\'")}')">
+          <img src="${escapeHTML(book.cover)}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" loading="lazy" onerror="handleCoverError(this)">
         </div>
         <div class="card-details">
-          <h3 class="card-title" title="${book.title}">${book.title}</h3>
-          <p class="card-author">${book.author}</p>
+          <h3 class="card-title" title="${escapeHTML(book.title)}">${escapeHTML(book.title)}</h3>
+          <p class="card-author">${escapeHTML(book.author)}</p>
           <div class="card-meta-row">
-            <span class="card-category-pill" onclick="event.stopPropagation(); selectCategory('${book.category}', true, true);" title="Filtrar colección ${book.category}">${book.category}</span>
+            <span class="card-category-pill" title="Filtrar colección ${escapeHTML(book.category)}">${escapeHTML(book.category)}</span>
             <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" data-id="${book.id}" onclick="event.stopPropagation(); toggleFavorite(${book.id}, event)" title="${isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}" aria-label="Guardar en favoritos">
               <i data-lucide="bookmark"></i>
             </button>
           </div>
         </div>
       `;
+
+      const catPill = card.querySelector('.card-category-pill');
+      if (catPill) {
+        catPill.addEventListener('click', (e) => {
+          e.stopPropagation();
+          selectCategory(book.category, true, true);
+        });
+      }
 
       card.addEventListener('click', () => openPreviewModal(book));
       grid.appendChild(card);
@@ -938,7 +957,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const analysis = book.aiAnalysis || AIClassifier.analyze(book);
 
     document.getElementById('previewCover').innerHTML = `
-      <img src="${book.cover}" alt="${book.title}" onerror="handleCoverError(this, '${(book.title || '').replace(/'/g, "\\'")}')">
+      <img src="${escapeHTML(book.cover)}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" onerror="handleCoverError(this)">
     `;
 
     const catEl = document.getElementById('previewCategory');
@@ -1014,7 +1033,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const aiTargetEl = document.getElementById('previewAiTarget');
     if (aiTagsEl) {
       const concepts = analysis.keyConcepts || ["Lectura", "Conocimiento", "Desarrollo"];
-      aiTagsEl.innerHTML = concepts.map(c => `<span class="ai-tag-item"># ${c}</span>`).join('');
+      aiTagsEl.innerHTML = concepts.map(c => `<span class="ai-tag-item"># ${escapeHTML(c)}</span>`).join('');
     }
     if (aiTargetEl) {
       aiTargetEl.textContent = analysis.targetAudience || 'Lectores que valoran el pensamiento crítico y el desarrollo cognitivo.';
@@ -1436,20 +1455,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
       item.innerHTML = `
         <div class="request-item-top">
-          <span class="request-ticket-id">#${req.id}</span>
+          <span class="request-ticket-id">#${escapeHTML(req.id)}</span>
           <span class="request-status-badge ${isReady ? 'ready' : 'processing'}">
             ${isReady
               ? '<i class="fa-solid fa-circle-check"></i> Disponible para descarga'
               : '<i class="fa-solid fa-clock"></i> En preparación (10h)'}
           </span>
         </div>
-        <h4 class="request-book-title">${req.bookTitle}</h4>
-        <p class="request-book-author"><i class="fa-solid fa-pen-nib"></i> ${req.author} · Solicitado por: <strong>${req.requester}</strong></p>
+        <h4 class="request-book-title">${escapeHTML(req.bookTitle)}</h4>
+        <p class="request-book-author"><i class="fa-solid fa-pen-nib"></i> ${escapeHTML(req.author)} · Solicitado por: <strong>${escapeHTML(req.requester)}</strong></p>
 
         <div class="countdown-box">
           <div class="countdown-labels">
             <span>${isReady ? 'Entrega completada' : 'Tiempo restante:'}</span>
-            <span class="countdown-timer-value" data-ready="${req.readyAt}">
+            <span class="countdown-timer-value" data-ready="${Number(req.readyAt) || 0}">
               ${formatTimeRemaining(req.readyAt)}
             </span>
           </div>
@@ -1459,11 +1478,16 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
 
         ${isReady ? `
-          <button class="btn-download-delivered" onclick="deliveredDownload('${req.bookTitle}')">
+          <button class="btn-download-delivered" data-title="${escapeHTML(req.bookTitle)}">
             <i class="fa-solid fa-download"></i> Descargar Ejemplar Solicitado
           </button>
         ` : ''}
       `;
+
+      const deliveredBtn = item.querySelector('.btn-download-delivered');
+      if (deliveredBtn) {
+        deliveredBtn.addEventListener('click', () => window.deliveredDownload(deliveredBtn.dataset.title));
+      }
 
       container.appendChild(item);
     });

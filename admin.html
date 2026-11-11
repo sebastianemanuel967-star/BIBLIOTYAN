@@ -432,28 +432,34 @@
       const analysis = AIClassifier.analyze({ title, description: desc, author, category });
       const id = Date.now();
 
-      let pathsCode = `    format: "${format}",\n`;
-      if (pdf) pathsCode += `    pdf: "${pdf}",\n`;
-      if (epub) pathsCode += `    epub: "${epub}",\n`;
+      // JSON.stringify escapa comillas, barras invertidas y saltos de línea de forma segura
+      const q = (v) => JSON.stringify(String(v ?? ''));
+
+      let pathsCode = `    format: ${q(format)},\n`;
+      if (pdf) pathsCode += `    pdf: ${q(pdf)},\n`;
+      if (epub) pathsCode += `    epub: ${q(epub)},\n`;
+
+      const cleanDesc = desc.replace(/\s+/g, ' ');
+      const summary = cleanDesc.length > 140 ? cleanDesc.substring(0, 140).trimEnd() + '...' : cleanDesc;
 
       const code = `  {
     id: ${id},
-    title: "${title.replace(/"/g, '\\"')}",
-    author: "${author.replace(/"/g, '\\"')}",
-    category: "${category}",
+    title: ${q(title)},
+    author: ${q(author)},
+    category: ${q(category)},
 ${pathsCode}    year: ${year},
     language: "Español",
     pages: ${pages},
-    description: "${desc.replace(/"/g, '\\"').replace(/\n/g, ' ')}",
-    cover: "${cover}",
+    description: ${q(cleanDesc)},
+    cover: ${q(cover)},
     downloads: 0,
     featured: ${featured},
     aiAnalysis: {
-      genre: "${category}",
-      vibe: "${analysis.vibe}",
+      genre: ${q(category)},
+      vibe: ${q(analysis.vibe)},
       keyConcepts: ${JSON.stringify(analysis.keyConcepts)},
-      targetAudience: "${analysis.targetAudience}",
-      aiSummary: "${desc.substring(0, 140)}..."
+      targetAudience: ${q(analysis.targetAudience)},
+      aiSummary: ${q(summary)}
     }
   },`;
 
