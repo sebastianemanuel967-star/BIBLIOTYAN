@@ -334,6 +334,34 @@ const BOOKS = [
     }
   },
   {
+    id: 2618,
+    title: "Habla menos, actúa más: 7 pasos para conquistar tus metas",
+    author: "Brian Tracy",
+    category: "Productividad & Hábitos",
+    subtopic: "Orientación a la Acción, Enfoque, Hábitos y Conquista de Metas",
+    format: "pdf",
+    pdf: "pdfs/b2618_habla-menos-actua-mas-brian-tracy.pdf?v=4.8",
+    pages: 77,
+    year: 2017,
+    language: "Español",
+    description: "Brian Tracy presenta un método probado de siete pasos para erradicar las excusas, vencer el miedo al fracaso y activar una orientación radical hacia la acción inmediata. A través de técnicas como el 'Método de las 10 metas', la técnica del queso suizo y la reprogramación subconsciente con la frase '¡Soy responsable!', este libro condensa las claves para pasar de los deseos a la ejecución imparable.",
+    cover: "covers/c-2618-habla-menos-actua-mas-brian-tracy.jpg",
+    downloads: 510,
+    featured: true,
+    aiAnalysis: {
+      genre: "Productividad Personal, Hábitos de Éxito & Autoeficacia",
+      vibe: "Directo, Práctico, Energizante & Orientado a Resultados",
+      keyConcepts: [
+        "Eliminación de la Excusitis y Miedo al Fracaso",
+        "Aceptación del 100% de la Responsabilidad Personal",
+        "El Método de las 10 Metas y la Gran Meta Audaz (GMA)",
+        "Técnicas de Acción: Salami, Queso Suizo y Single-Handling"
+      ],
+      targetAudience: "Profesionales, emprendedores, estudiantes y cualquier persona que luche contra la procrastinación y desee transformar intenciones y planes en hábitos diarios de ejecución rápida.",
+      aiSummary: "Guía concisa de 7 capítulos y conclusión (Editorial Aguilar / Penguin Random House, 77 pp., traducción de Just Shut Up and Do It!) centrada en desarrollar una reputación de velocidad y confiabilidad, con ejercicios diarios para desaprender hábitos negativos y crear impulso imparable."
+    }
+  },
+  {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
     author: "Daniel Kahneman",
