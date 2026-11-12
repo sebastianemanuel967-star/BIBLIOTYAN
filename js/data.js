@@ -447,6 +447,528 @@ const BOOKS = [
       aiSummary: "Edición integral de Editorial Océano dividida en doce meses temáticos. Consolida 25 años de investigación en microlecciones de alto impacto para forjar criterio y madurez emocional."
     }
   },
+{
+    id: 2622,
+    title: "Los Chamanes de México Vol. 2: Misticismo Indígena",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Chamanismo Mexicano, Estados Modificados de Consciencia y Misticismo",
+    format: "pdf",
+    pdf: "pdfs/b2622_los-chamanes-de-mexico-vol-2-misticismo-indigena.pdf?v=5.2",
+    pages: 205,
+    year: 1987,
+    language: "Español",
+    description: "Segundo volumen de la magna investigación antropológica y psicofisiológica de Jacobo Grinberg. Documenta las prácticas, rituales, cantos y técnicas de acceso a realidades sutiles de los linajes chamánicos autóctonos de México.",
+    cover: "covers/c-2622-los-chamanes-de-mexico-vol-2-misticismo-indigena.jpg",
+    downloads: 412,
+    featured: true,
+    aiAnalysis: {
+      genre: "Neuroantropología, Chamanismo & Consciencia",
+      vibe: "Etnográfico, Revelador & Profundo",
+      keyConcepts: [
+        "Misticismo Indígena Autóctono",
+        "Percepción Extracorporal",
+        "Estructura del Espacio Chamánico",
+        "Campo Neuronal y Tradición Oral"
+      ],
+      targetAudience: "Investigadores de la consciencia, antropólogos y buscadores del saber chamánico ancestral mexicano.",
+      aiSummary: "Investigación directa de campo donde Grinberg analiza la interacción entre el campo neuronal y los linajes chamánicos tradicionales."
+    }
+  },
+  {
+    id: 2623,
+    title: "Los Chamanes de México Vol. 3: Pachita",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Cirugía Psíquica, Bárbara Guerrero 'Pachita', Materialización y Teoría Sintérgica",
+    format: "pdf",
+    pdf: "pdfs/b2623_los-chamanes-de-mexico-vol-3-pachita.pdf?v=5.2",
+    pages: 140,
+    year: 1987,
+    language: "Español",
+    description: "La obra más célebre y trascendental de Jacobo Grinberg. Testimonio y análisis científico riguroso de las intervenciones quirúrgicas sin anestesia ni instrumental convencional realizadas por Bárbara Guerrero (Pachita), base empírica de la Teoría Sintérgica.",
+    cover: "covers/c-2623-los-chamanes-de-mexico-vol-3-pachita.jpg",
+    downloads: 680,
+    featured: true,
+    aiAnalysis: {
+      genre: "Psicofisiología Cuántica & Chamanismo Quirúrgico",
+      vibe: "Fascinante, Revolucionario & Enigmático",
+      keyConcepts: [
+        "Cirugía Psíquica y Materialización",
+        "La Lattice y Modificación de la Materia",
+        "El Hermano Cuauhtémoc y Trance Mediúmnico",
+        "Comprobación Empírica Sintérgica"
+      ],
+      targetAudience: "Médicos de vanguardia, físicos, neurocientíficos y lectores interesados en los límites de la materia y la mente.",
+      aiSummary: "El documento clave del legado de Grinberg sobre los fenómenos de materialización celular y operaciones a corazón abierto de Pachita."
+    }
+  },
+  {
+    id: 2624,
+    title: "Los Chamanes de México Vol. 4: La Cosmovisión de los Chamanes",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Cosmología Autóctona, El Tiempo Sagrado y Geometría de la Percepción",
+    format: "pdf",
+    pdf: "pdfs/b2624_los-chamanes-de-mexico-vol-4-la-cosmovision-de-los-chamanes.pdf?v=5.2",
+    pages: 317,
+    year: 1988,
+    language: "Español",
+    description: "Cuarto tomo de la serie chamánica. Explora los mapas ontológicos y cosmológicos con los que los hombres de conocimiento interpretan la realidad, la muerte, el ensueño y la interacción de fuerzas no visibles.",
+    cover: "covers/c-2624-los-chamanes-de-mexico-vol-4-la-cosmovision-de-los-chamanes.jpg",
+    downloads: 360,
+    featured: true,
+    aiAnalysis: {
+      genre: "Cosmovisión Indígena & Psicofisiología",
+      vibe: "Filosófico, Místico & Estructurado",
+      keyConcepts: [
+        "Geometría de la Percepción",
+        "Tiempo Lineal vs Tiempo Sagrado",
+        "Navegación del Ensueño",
+        "Fuerzas Matrices de la Naturaleza"
+      ],
+      targetAudience: "Estudiosos de las cosmovisiones mesoamericanas y la física de la conciencia cuántica.",
+      aiSummary: "Un análisis comparativo entre los modelos cosmológicos indígenas y las formulaciones teóricas de la física contemporánea."
+    }
+  },
+  {
+    id: 2625,
+    title: "Los Chamanes de México Vol. 7: El Doble",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "El Nagual, Desdoblamiento del Campo Neuronal y Bilocación",
+    format: "pdf",
+    pdf: "pdfs/b2625_los-chamanes-de-mexico-vol-7-el-doble.pdf?v=5.2",
+    pages: 120,
+    year: 1990,
+    language: "Español",
+    description: "Séptimo y culminante volumen de la saga de Los Chamanes de México. Analiza el fenómeno del 'doble' o cuerpo de ensueño (el nagual), la proyección de la consciencia y la experiencia de desdoblamiento de la identidad perceptiva.",
+    cover: "covers/c-2625-los-chamanes-de-mexico-vol-7-el-doble.jpg",
+    downloads: 395,
+    featured: true,
+    aiAnalysis: {
+      genre: "Ensueño Chamánico & Física de la Mente",
+      vibe: "Místico, Riguroso & Trascendente",
+      keyConcepts: [
+        "El Cuerpo de Ensueño (Nagual)",
+        "Bilocación y Coherencia Neuronal",
+        "Interpenetrabilidad de la Lattice",
+        "Disolución del Observador Aislado"
+      ],
+      targetAudience: "Practicantes de ensueño lúcido, neurobiólogos y buscadores del despertar de la conciencia.",
+      aiSummary: "Tratado fundamental sobre las bases psicofisiológicas del desdoblamiento perceptivo y la tradición del nagualismo."
+    }
+  },
+  {
+    id: 2626,
+    title: "La Creación de la Experiencia: La Teoría Sintérgica",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Teoría Sintérgica, Campo Neuronal, Hologramas Cerebrales y Percepción",
+    format: "pdf",
+    pdf: "pdfs/b2626_la-creacion-de-la-experiencia.pdf?v=5.2",
+    pages: 146,
+    year: 1990,
+    language: "Español",
+    description: "El manifiesto conceptual fundamental donde Grinberg formaliza cómo el cerebro humano decodifica la matriz espacial pre-espacial (Lattice) para construir la experiencia tridimensional de la realidad cotidiana.",
+    cover: "covers/c-2626-la-creacion-de-la-experiencia.jpg",
+    downloads: 510,
+    featured: true,
+    aiAnalysis: {
+      genre: "Neurofísica & Filosofía de la Percepción",
+      vibe: "Matemático, Elegante & Revolucionario",
+      keyConcepts: [
+        "La Lattice Cuántica",
+        "Campo Neuronal Distorsivo",
+        "Patrón Holográfico de Interferencia",
+        "El Factor de Sintergia"
+      ],
+      targetAudience: "Físicos teóricos, neurocientíficos, ingenieros en cognición y filósofos de la mente.",
+      aiSummary: "Texto esencial que fundamenta por qué la realidad física que percibimos es un constructo perceptual generado en la interfase cerebro-espacio."
+    }
+  },
+  {
+    id: 2627,
+    title: "La Construcción de la Realidad",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Psicofisiología de la Percepción, Epistemología y Experiencia Sensible",
+    format: "pdf",
+    pdf: "pdfs/b2627_la-construccion-de-la-realidad.pdf?v=5.2",
+    pages: 106,
+    year: 1975,
+    language: "Español",
+    description: "Una de las primeras obras maestras de Grinberg, editada por Trillas. Sienta las bases de cómo los órganos sensoriales transforman la energía física del entorno en constructos psicológicos internos dotados de significado.",
+    cover: "covers/c-2627-la-construccion-de-la-realidad.jpg",
+    downloads: 330,
+    featured: true,
+    aiAnalysis: {
+      genre: "Psicofisiología & Epistemología Cognitiva",
+      vibe: "Fundacional, Didáctico & Preciso",
+      keyConcepts: [
+        "Transducción Sensorial",
+        "Modelos de la Realidad Interna",
+        "Condicionamiento Perceptivo",
+        "Filtros de la Conciencia"
+      ],
+      targetAudience: "Estudiantes de psicología experimental, neurociencias y teoría del conocimiento.",
+      aiSummary: "Obra temprana indispensable para comprender la evolución del pensamiento científico de Jacobo Grinberg."
+    }
+  },
+  {
+    id: 2628,
+    title: "El Cerebro Consciente: Psicofisiología de la conciencia 2",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Teoría Psicofisiológica del Campo Unificado y Dinámica Cerebral",
+    format: "pdf",
+    pdf: "pdfs/b2628_el-cerebro-consciente.pdf?v=5.2",
+    pages: 84,
+    year: 1979,
+    language: "Español",
+    description: "Segundo volumen de la trilogía de Trillas 'Psicofisiología de la conciencia'. Bosqueja la teoría unificada de cómo la suma de potenciales dendríticos da origen al campo neuronal que interactúa con la estructura del espacio.",
+    cover: "covers/c-2628-el-cerebro-consciente.jpg",
+    downloads: 375,
+    featured: true,
+    aiAnalysis: {
+      genre: "Neurofisiología Teórica & Conciencia",
+      vibe: "Académico, Visionario & Riguroso",
+      keyConcepts: [
+        "Campo Neuronal Unificado",
+        "Potenciales Dendríticos Sincrónicos",
+        "Cerebro Holográfico",
+        "Emergencia de la Conciencia"
+      ],
+      targetAudience: "Neurólogos, investigadores biomédicos y académicos de las ciencias de la salud mental.",
+      aiSummary: "Monografía técnica que formula el salto cuántico entre el procesamiento electrofisiológico y la experiencia subjetiva consciente."
+    }
+  },
+  {
+    id: 2629,
+    title: "La Conquista del Templo: Meditación y Desarrollo de la Consciencia",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Kabbalah, Meditación Mística, Alquimia Interior y Neuroespiritualidad",
+    format: "pdf",
+    pdf: "pdfs/b2629_la-conquista-del-templo.pdf?v=5.2",
+    pages: 368,
+    year: 1990,
+    language: "Español",
+    description: "Un viaje profundo a través del Templo interior del ser humano. Integra las raíces místicas de la Cábala hebrea con la neurofisiología cuántica, guiando al lector por las etapas de purificación y expansión de la consciencia.",
+    cover: "covers/c-2629-la-conquista-del-templo.jpg",
+    downloads: 420,
+    featured: true,
+    aiAnalysis: {
+      genre: "Neuroespiritualidad, Cábala & Mística Experimental",
+      vibe: "Espiritual, Elevado, Introspectivo & Erudito",
+      keyConcepts: [
+        "El Árbol de la Vida y Redes Neuronales",
+        "Meditación Kabbalística",
+        "Alquimia Interior y Purificación",
+        "Niveles de Consciencia Nefesh a Yejidá"
+      ],
+      targetAudience: "Estudiosos de la cábala, practicantes espirituales y lectores interesados en la mística de las religiones comparadas.",
+      aiSummary: "Tratado enciclopédico de introspección espiritual que demuestra la correspondencia entre los centros sefiróticos y la anatomía neurofisiológica."
+    }
+  },
+  {
+    id: 2630,
+    title: "Meditación Autoalusiva: Teoría y Práctica",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Técnica de Meditación Autoalusiva, Testigo Interior y Silencio Neuronal",
+    format: "pdf",
+    pdf: "pdfs/b2630_meditacion-autoalusiva-teoria-y-practica.pdf?v=5.2",
+    pages: 56,
+    year: 1987,
+    language: "Español",
+    description: "El manual práctico de la técnica de meditación creada por Jacobo Grinberg. Explica cómo alcanzar el estado de autoalusión donde el observador se observa a sí mismo, unificando pensamientos, emociones y sensaciones en un presente total.",
+    cover: "covers/c-2630-meditacion-autoalusiva-teoria-y-practica.jpg",
+    downloads: 490,
+    featured: true,
+    aiAnalysis: {
+      genre: "Meditación Práctica, Mindfulness & Neurofisiología",
+      vibe: "Práctico, Sereno, Contundente & Transformador",
+      keyConcepts: [
+        "La Autoalusión Perceptual",
+        "El Observador Puro (El Testigo)",
+        "Integración Sensorial Simultánea",
+        "Trascendencia del Ego Neuronal"
+      ],
+      targetAudience: "Meditadores, psicólogos clínicos, buscadores de la paz interior y practicantes de atención plena.",
+      aiSummary: "Instrucciones metodológicas claras para practicar la técnica meditativa original desarrollada por Grinberg en el INPEC de la UNAM."
+    }
+  },
+  {
+    id: 2631,
+    title: "El Espacio y la Conciencia: Psicofisiología de la conciencia 3",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Interacción Cerebro-Espacio, Física Cuántica y Realidad Holográfica",
+    format: "pdf",
+    pdf: "pdfs/b2631_el-espacio-y-la-conciencia.pdf?v=5.2",
+    pages: 242,
+    year: 1981,
+    language: "Español",
+    description: "Cierre de la trilogía de Trillas. Investiga cómo la actividad cerebral altera localmente la estructura de la lattice espacial y cómo la expansión de la conciencia permite vivenciar el universo como una unidad indivisible.",
+    cover: "covers/c-2631-el-espacio-y-la-conciencia.jpg",
+    downloads: 360,
+    featured: true,
+    aiAnalysis: {
+      genre: "Física Cuántica & Psicofisiología",
+      vibe: "Cósmico, Conceptual & Riguroso",
+      keyConcepts: [
+        "Inseparabilidad Espacio-Conciencia",
+        "Geometría del Vacío Cuántico",
+        "Efecto Observador en la Materia",
+        "Unidad Sintérgica Fundamental"
+      ],
+      targetAudience: "Físicos, astrofísicos y filósofos interesados en la unión indisoluble de espacio, tiempo y mente.",
+      aiSummary: "Una de las formulaciones más audaces de Grinberg sobre el rol activo del cerebro en la configuración del entramado espacial."
+    }
+  },
+  {
+    id: 2632,
+    title: "Los Fundamentos de la Experiencia: Psicofisiología de la conciencia 1",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Bases Neurobiológicas de la Consciencia y Comunicación Sensorial",
+    format: "pdf",
+    pdf: "pdfs/b2632_los-fundamentos-de-la-experiencia.pdf?v=5.2",
+    pages: 87,
+    year: 1978,
+    language: "Español",
+    description: "Primer volumen de la célebre serie de Trillas. Establece los cimientos neurofisiológicos que permiten comprender cómo las señales electroquímicas son codificadas para dar lugar a la experiencia viva y consciente.",
+    cover: "covers/c-2632-los-fundamentos-de-la-experiencia.jpg",
+    downloads: 340,
+    featured: true,
+    aiAnalysis: {
+      genre: "Neurobiología Básica & Percepción",
+      vibe: "Didáctico, Claro & Preciso",
+      keyConcepts: [
+        "Vías Aferentes y Eferentes",
+        "Sistemas de Codificación Cerebral",
+        "Umbrales Perceptuales",
+        "Integración Cortical"
+      ],
+      targetAudience: "Estudiantes universitarios, docentes de biología y neurociencia, y autodidactas.",
+      aiSummary: "Punto de partida indispensable de la trilogía psicofisiológica de Grinberg."
+    }
+  },
+  {
+    id: 2633,
+    title: "La Luz Angelmática",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Iluminación, Mística, Fotones Mentales y Estados Trascendentes",
+    format: "pdf",
+    pdf: "pdfs/b2633_la-luz-angelmatica.pdf?v=5.2",
+    pages: 175,
+    year: 1983,
+    language: "Español",
+    description: "Obra lírica y científica donde Grinberg reflexiona sobre la naturaleza de la luz primordial (angelmática), la visión interna de la iluminación y la fusión del alma con la matriz luminosa de la creación.",
+    cover: "covers/c-2633-la-luz-angelmatica.jpg",
+    downloads: 380,
+    featured: true,
+    aiAnalysis: {
+      genre: "Mística Poética, Neurociencia & Espiritualidad",
+      vibe: "Luminoso, Poético, Íntimo & Profundo",
+      keyConcepts: [
+        "La Luz Angelmática",
+        "Fusión con la Lattice Primordial",
+        "Claridad Perceptual Total",
+        "Transcendencia del Sufrimiento"
+      ],
+      targetAudience: "Lectores sensibles a la belleza de la prosa mística y la unión entre poesía y física teórica.",
+      aiSummary: "Un libro conmovedor y luminoso que revela la faceta más humana, sensible e intuitiva del doctor Grinberg."
+    }
+  },
+  {
+    id: 2634,
+    title: "La Fuerza Vital del Cielo Anterior",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Taoísmo, Chi Kung, Energía Primordial y Vitalidad Cósmica",
+    format: "pdf",
+    pdf: "pdfs/b2634_la-fuerza-vital-del-cielo-anterior.pdf?v=5.2",
+    pages: 102,
+    year: 1991,
+    language: "Español",
+    description: "Estudio comparativo entre los principios taoístas de la energía primordial (el Cielo Anterior) y los descubrimientos modernos sobre coherencia fisiológica, rejuvenecimiento y alineación energética.",
+    cover: "covers/c-2634-la-fuerza-vital-del-cielo-anterior.jpg",
+    downloads: 365,
+    featured: true,
+    aiAnalysis: {
+      genre: "Medicina Energética, Taoísmo & Longevidad",
+      vibe: "Vital, Práctico & Restaurador",
+      keyConcepts: [
+        "Energía del Cielo Anterior",
+        "Canales Energéticos y Sistema Nervioso",
+        "Reserva Vital y Longevidad",
+        "Meditación Circulatoria Microcósmica"
+      ],
+      targetAudience: "Practicantes de artes marciales internas, acupuntura, yoga y medicina holística.",
+      aiSummary: "Puente magistral entre la sabiduría ancestral de Oriente y la neurofisiología occidental de la vitalidad."
+    }
+  },
+  {
+    id: 2635,
+    title: "Cantos de Ignorancia Iluminada",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Aforismos, Poesía de la Conciencia y Estados de No-Saber",
+    format: "pdf",
+    pdf: "pdfs/b2635_cantos-de-ignorancia-iluminada.pdf?v=5.2",
+    pages: 127,
+    year: 1989,
+    language: "Español",
+    description: "Una colección de cantos, poemas y aforismos nacidos del silencio de la meditación. La ignorancia iluminada es el reconocimiento socrático y budista de que sólo vaciando el ego intelectual se experimenta la totalidad viva.",
+    cover: "covers/c-2635-cantos-de-ignorancia-iluminada.jpg",
+    downloads: 355,
+    featured: true,
+    aiAnalysis: {
+      genre: "Filosofía Zen, Poesía Filosófica & Conciencia",
+      vibe: "Zen, Libre, Despojado & Revelador",
+      keyConcepts: [
+        "La Ignorancia Iluminada",
+        "Vaciado Mental y Presencia",
+        "Poesía como Instrumento de Revelación",
+        "El Silencio como Lenguaje Superior"
+      ],
+      targetAudience: "Amantes de la literatura contemplativa, el budismo zen y la mística oriental.",
+      aiSummary: "Grinberg se desnuda de tecnicismos científicos para cantar en prosa poética a la belleza de lo incomprensible."
+    }
+  },
+  {
+    id: 2636,
+    title: "El Prototipo",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Novela Iniciática, Evolución de la Especie y El Hombre del Futuro",
+    format: "pdf",
+    pdf: "pdfs/b2636_el-prototipo.pdf?v=5.2",
+    pages: 81,
+    year: 1989,
+    language: "Español",
+    description: "Novela de ciencia ficción e iniciación espiritual. Narra el surgimiento de un nuevo ser humano dotado de capacidades telepáticas, visión holística y unidad sintérgica, anunciando el salto evolutivo de la humanidad.",
+    cover: "covers/c-2636-el-prototipo.jpg",
+    downloads: 390,
+    featured: true,
+    aiAnalysis: {
+      genre: "Ficción Visionaria, Novela Iniciática & Evolución Humana",
+      vibe: "Inquietante, Profético & Ágil",
+      keyConcepts: [
+        "El Salto Evolutivo de la Especie",
+        "Telepatía y Coherencia Intercerebral",
+        "El Hombre Sintérgico del Futuro",
+        "Desafíos Éticos del Superpotencial"
+      ],
+      targetAudience: "Lectores de literatura distópica, ciencia ficción inteligente y novelas espirituales.",
+      aiSummary: "La narrativa de ficción a través de la cual Grinberg plasmó sus teorías más avanzadas en una trama cautivadora."
+    }
+  },
+  {
+    id: 2637,
+    title: "Los Cristales de la Galaxia",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Cosmogonía Galáctica, Conciencia Estelar y Memorias Cósmicas",
+    format: "pdf",
+    pdf: "pdfs/b2637_los-cristales-de-la-galaxia.pdf?v=5.2",
+    pages: 201,
+    year: 2019,
+    language: "Español",
+    description: "Obra visionaria que conecta las redes neuronales biológicas con las estructuras cristalinas del cosmos. Una travesía por los arquetipos estelares, la memoria akáshica y el destino cósmico del pensamiento.",
+    cover: "covers/c-2637-los-cristales-de-la-galaxia.jpg",
+    downloads: 370,
+    featured: true,
+    aiAnalysis: {
+      genre: "Cosmogonía Mística & Filosofía Galáctica",
+      vibe: "Cósmico, Expansivo, Geométrico & Mágico",
+      keyConcepts: [
+        "Estructuras Cristalinas del Espacio",
+        "Redes Neuronales Galácticas",
+        "Memoria Arquetípica Universal",
+        "El Despertar Estelar del Pensamiento"
+      ],
+      targetAudience: "Exploradores de la conciencia cósmica, cosmólogos teóricos y amantes de la metafísica.",
+      aiSummary: "Reflexiones multidisciplinarias sobre la interconexión indisoluble entre el cerebro humano y la arquitectura del universo."
+    }
+  },
+  {
+    id: 2638,
+    title: "Samyama: La Meditación Patanjali",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Yoga Sutras de Patanjali, Dharana, Dhyana y Samadhi",
+    format: "pdf",
+    pdf: "pdfs/b2638_samyama.pdf?v=5.2",
+    pages: 115,
+    year: 1992,
+    language: "Español",
+    description: "Análisis neurocientífico del proceso supremo del Yoga clásico según los Yoga Sutras de Patanjali. Desglosa cómo la concentración (Dharana), meditación sostenida (Dhyana) y absorción total (Samadhi) activan los Siddhis o capacidades supranormales.",
+    cover: "covers/c-2638-samyama.jpg",
+    downloads: 405,
+    featured: true,
+    aiAnalysis: {
+      genre: "Raja Yoga, Neurofisiología de la Meditación & Patanjali",
+      vibe: "Técnico, Sabio, Clásico & Lúcido",
+      keyConcepts: [
+        "La Tríada del Samyama",
+        "Neurofisiología del Samadhi",
+        "Los Siddhis o Potenciales Latentes",
+        "Unión Indivisible del Sujeto y el Objeto"
+      ],
+      targetAudience: "Practicantes de yoga tradicional, instructores, meditadores avanzados y neurocientíficos cognitivos.",
+      aiSummary: "La reinterpretación más rigurosa y científica de los textos clásicos del yoga sánscrito realizada en habla hispana."
+    }
+  },
+  {
+    id: 2639,
+    title: "El Vehículo de las Transformaciones",
+    author: "Dr. Jacobo Grinberg",
+    category: "Neurociencia & Mente",
+    collection: "Colección Jacobo Grinberg",
+    subtopic: "Budismo Tibetano, Dzogchen, Mahamudra y Psicofisiología",
+    format: "pdf",
+    pdf: "pdfs/b2639_el-vehiculo-de-las-transformaciones.pdf?v=5.2",
+    pages: 51,
+    year: 1993,
+    language: "Español",
+    description: "Una indagación exhaustiva sobre las doctrinas tibetanas del Vajrayana y el Dzogchen. Grinberg examina las técnicas tántricas de transformación del sufrimiento y la transmutación de la energía emocional en lucidez pura.",
+    cover: "covers/c-2639-el-vehiculo-de-las-transformaciones.jpg",
+    downloads: 385,
+    featured: true,
+    aiAnalysis: {
+      genre: "Budismo Tibetano & Transmutación Emocional",
+      vibe: "Alquímico, Trascendente, Directo & Agudo",
+      keyConcepts: [
+        "El Vehículo de las Transformaciones (Vajrayana)",
+        "Transmutación de Emociones Densas",
+        "Visión Clara (Vipashyana)",
+        "La Naturaleza Búdica de la Lattice"
+      ],
+      targetAudience: "Practicantes del budismo tibetano, meditadores y estudiosos de la psicología budista.",
+      aiSummary: "Síntesis magistral que traduce las enseñanzas tántricas del Himalaya a los marcos modernos del campo neuronal sintérgico."
+    }
+  },
   {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
@@ -758,7 +1280,7 @@ const BOOKS = [
     title: "Retorno a la Luz",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "Colección Jacobo Grinberg",
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1505_Retorno_a_la_luz_-_Jacobo_Grinberg.pdf",
     year: 1989,
@@ -2998,7 +3520,7 @@ const BOOKS = [
     title: "Los Chamanes de México: Psicología autóctona mexicana (Vol. 1)",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "Colección Jacobo Grinberg",
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1521_Vol_1_Los_Chamanes_de_Mexico_Psicologia_Autoctona_Mexicana_Scan.pdf",
     year: 1987,
@@ -3416,7 +3938,7 @@ const BOOKS = [
     title: "Visión Extraocular: El despertar del potencial latente",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "Colección Jacobo Grinberg",
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1520_Vision-Extra-Ocular-Jacobo-Grinberg.pdf",
     year: 1993,
@@ -4195,7 +4717,7 @@ const BOOKS = [
     title: "El Sabor de la iluminación",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "Colección Jacobo Grinberg",
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1402_1994-El_Sabor_de_la_Iluminacion.pdf",
     year: 1994,
@@ -4581,7 +5103,7 @@ const BOOKS = [
     title: "La teoría Sintérgica",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "Colección Jacobo Grinberg",
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1310_1991-La_Teoria_Sintergica.pdf",
     year: 1991,
@@ -6517,7 +7039,7 @@ const BOOKS = [
     title: "El Yo como Idea",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "Colección Jacobo Grinberg",
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1434_El_yo_como_idea_-_Jacobo_Grinberg.pdf",
     year: 1994,
@@ -8075,7 +8597,7 @@ const BOOKS = [
     title: "Fluir en el Sin Yo",
     author: "Dr. Jacobo Grinberg",
     category: "Neurociencia & Mente",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "Colección Jacobo Grinberg",
     format: "pdf",
     pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1450_Fluir_en_El_sin_yo_-_Jacobo_Grinberg.pdf",
     year: 1991,
@@ -37263,4 +37785,6 @@ const INITIAL_REQUESTS = [
     downloadUrl: "#"
   }
 ];
+
+
 

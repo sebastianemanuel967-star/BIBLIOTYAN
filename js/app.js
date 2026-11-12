@@ -330,6 +330,10 @@ document.addEventListener('DOMContentLoaded', () => {
         params.set('coleccion', 'robert-greene');
         params.delete('categoria');
         params.delete('cat');
+      } else if (categoryName === 'Jacobo Grinberg' || categoryName === 'Colección Jacobo Grinberg') {
+        params.set('coleccion', 'jacobo-grinberg');
+        params.delete('categoria');
+        params.delete('cat');
       } else if (categoryName === 'HARVARD LIBROS') {
         params.set('coleccion', 'harvard-libros');
         params.delete('categoria');
@@ -395,6 +399,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Sincronizar chips de colecciones especiales
     document.querySelectorAll('.collection-chip-compact').forEach(btn => {
       const isMatch = (btn.id === 'cardColGreene' && (categoryName === 'Robert Greene' || categoryName === 'Colección Robert Greene')) ||
+                      (btn.id === 'cardColGrinberg' && (categoryName === 'Jacobo Grinberg' || categoryName === 'Colección Jacobo Grinberg')) ||
                       (btn.id === 'cardColDummies' && (categoryName === 'PARA DUMMIES' || categoryName === 'Colección Para Dummies')) ||
                       (btn.id === 'cardColHistoria' && (categoryName === 'BREVE HISTORIA' || categoryName === 'Colección Breve Historia')) ||
                       (btn.id === 'cardColHarvard' && (categoryName === 'HARVARD LIBROS' || categoryName === 'Colección Harvard Libros')) ||
@@ -516,6 +521,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const cleanSlug = slugify(colParam);
       if (cleanSlug === 'robert-greene' || cleanSlug === 'greene' || cleanSlug.includes('greene')) {
         targetCat = 'Robert Greene';
+      } else if (cleanSlug === 'jacobo-grinberg' || cleanSlug === 'grinberg' || cleanSlug.includes('grinberg')) {
+        targetCat = 'Jacobo Grinberg';
       } else if (cleanSlug === 'harvard' || cleanSlug === 'harvard-libros' || cleanSlug.includes('harvard')) {
         targetCat = 'HARVARD LIBROS';
       } else if (cleanSlug === 'breve-historia' || cleanSlug === 'historia' || cleanSlug.includes('breve-historia')) {
@@ -543,6 +550,8 @@ document.addEventListener('DOMContentLoaded', () => {
       selectCategory(targetCat, true, false);
       if (targetCat === 'Robert Greene') {
         showToast('Colección Robert Greene', 'Explorando las obras sobre poder, estrategia y maestría');
+      } else if (targetCat === 'Jacobo Grinberg') {
+        showToast('Colección Jacobo Grinberg', 'Explorando la Teoría Sintérgica, Neuroalgoritmos y Chamanismo');
       } else if (targetCat === 'HARVARD LIBROS') {
         const hbrCount = getHarvardBookCount();
         showToast('Colección Harvard Activa', `Explorando los ${hbrCount} títulos de Harvard Business Review`);
@@ -842,6 +851,8 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesCategory = (book.format === 'epub' || book.format === 'dual' || !!book.epub);
       } else if (state.currentFilter === 'Robert Greene' || state.currentFilter === 'Colección Robert Greene' || state.currentFilter === 'ROBERT GREENE') {
         matchesCategory = (book.author && book.author.toLowerCase().includes('robert greene')) || (book.collection && book.collection.includes('Robert Greene'));
+      } else if (state.currentFilter === 'Jacobo Grinberg' || state.currentFilter === 'Colección Jacobo Grinberg' || state.currentFilter === 'JACOBO GRINBERG') {
+        matchesCategory = (book.author && book.author.toLowerCase().includes('grinberg')) || (book.collection && book.collection.includes('Grinberg'));
       } else if (state.currentFilter === 'LIBROS EMPRENDEDORES' || state.currentFilter === 'Colección Emprendedores') {
         matchesCategory = (book.collection && book.collection.includes('Emprendedor')) || book.category === 'LIBROS EMPRENDEDORES';
       } else if (state.currentFilter === 'PARA DUMMIES' || state.currentFilter === 'Colección Para Dummies') {
@@ -1664,6 +1675,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateCollectionShowcaseBadges() {
     if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return;
     const rgCount = BOOKS.filter(b => (b.author && b.author.toLowerCase().includes('robert greene')) || (b.collection && b.collection.includes('Robert Greene'))).length;
+    const jgCount = BOOKS.filter(b => (b.author && b.author.toLowerCase().includes('grinberg')) || (b.collection && b.collection.includes('Grinberg'))).length;
     const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES' || (b.collection && b.collection.includes('Dummies'))).length;
     const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA' || (b.collection && b.collection.includes('Breve Historia'))).length;
     const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS' || (b.collection && b.collection.includes('Harvard'))).length;
@@ -1672,6 +1684,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const aCount = BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length;
 
     const elGreene = document.getElementById('colCountGreene');
+    const elGrinberg = document.getElementById('colCountGrinberg');
     const elTeologia = document.getElementById('colCountTeologia');
     const elEmprendedores = document.getElementById('colCountEmprendedores');
     const elAdmin = document.getElementById('colCountAdmin');
@@ -1680,6 +1693,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const elHarvard = document.getElementById('colCountHarvard');
 
     if (elGreene) elGreene.textContent = rgCount;
+    if (elGrinberg) elGrinberg.textContent = jgCount;
 
     if (elTeologia) elTeologia.textContent = tCount;
     if (elEmprendedores) elEmprendedores.textContent = eCount;
