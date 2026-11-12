@@ -362,6 +362,34 @@ const BOOKS = [
     }
   },
   {
+    id: 2619,
+    title: "Conecta con la motivación: La ciencia de hacer realidad tus sueños",
+    author: "Brian Tracy & Dan Strutzel",
+    category: "Crecimiento Personal",
+    subtopic: "La Ciencia de la Motivación, Autoconcepto, Resiliencia y Rituales Diarios",
+    format: "pdf",
+    pdf: "pdfs/b2619_conecta-con-la-motivacion-brian-tracy.pdf?v=4.9",
+    pages: 218,
+    year: 2022,
+    language: "Español",
+    description: "Brian Tracy y Dan Strutzel exploran a fondo la ciencia detrás de la motivación duradera, desmitificando la idea de que es una emoción pasajera o fruto de la suerte. A través de 10 capítulos dinámicos, enseñan cómo reconfigurar el autoconcepto, superar el miedo al rechazo, activar la ley del impulso y construir rituales diarios (la hora dorada, la regla de las 72 horas y el enfoque en las 'Tres grandes') para transformar aspiraciones en destinos alcanzables.",
+    cover: "covers/c-2619-conecta-con-la-motivacion-brian-tracy.jpg",
+    downloads: 525,
+    featured: true,
+    aiAnalysis: {
+      genre: "Desarrollo Personal, Psicología del Logro & Motivación Intrínseca",
+      vibe: "Profundo, Revelador, Práctico & Conversacional",
+      keyConcepts: [
+        "La Ciencia de la Motivación y el Autoconcepto",
+        "El Poder de las Creencias y la Eliminación del Autoboicot",
+        "La Regla de las 72 Horas y el Principio de Reversibilidad",
+        "Resiliencia ante Crisis y las 'Tres Grandes' Tareas"
+      ],
+      targetAudience: "Lectores que desean comprender los fundamentos psicológicos de la motivación intrínseca, eliminar bloqueos emocionales y diseñar rituales diarios de alta productividad y serenidad.",
+      aiSummary: "Transcripción y desarrollo de las extensas conversaciones entre Brian Tracy y Dan Strutzel (Aguilar / Penguin Random House, 218 pp., traducción de The Science of Motivation). Abarca desde la psicología positiva y la teoría de los 4 cuadrantes hasta el liderazgo de servicio y la anticipación de crisis con la norma del 3%."
+    }
+  },
+  {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
     author: "Daniel Kahneman",
