@@ -1,4 +1,4 @@
-// --------------------------------------------------------
+﻿// --------------------------------------------------------
 //  BIBLIOTYAN — Configuración, Datos y Módulo de Inteligencia
 //  Catálogo General de Libros en PDF y EPUB
 // --------------------------------------------------------
@@ -387,6 +387,64 @@ const BOOKS = [
       ],
       targetAudience: "Lectores que desean comprender los fundamentos psicológicos de la motivación intrínseca, eliminar bloqueos emocionales y diseñar rituales diarios de alta productividad y serenidad.",
       aiSummary: "Transcripción y desarrollo de las extensas conversaciones entre Brian Tracy y Dan Strutzel (Aguilar / Penguin Random House, 218 pp., traducción de The Science of Motivation). Abarca desde la psicología positiva y la teoría de los 4 cuadrantes hasta el liderazgo de servicio y la anticipación de crisis con la norma del 3%."
+    }
+  },
+  {
+    id: 2620,
+    title: "Las 33 Estrategias de la Guerra",
+    author: "Robert Greene",
+    category: "Liderazgo & Estrategia",
+    collection: "Colección Robert Greene",
+    subtopic: "Estrategia Militar, Guerra Psicológica, Táctica y Negociación",
+    format: "pdf",
+    pdf: "pdfs/b2620_las-33-estrategias-de-la-guerra-robert-greene.pdf?v=5.1",
+    pages: 500,
+    year: 2006,
+    language: "Español",
+    description: "Obra maestra de estrategia militar y psicológica aplicada a la vida moderna. Robert Greene sintetiza lecciones tácticas de Alejandro Magno, Sun Tzu, Clausewitz y Napoleón para dominar los conflictos cotidianos, derrotar la resistencia sutil y liderar con aplomo ante adversidades complejas.",
+    cover: "covers/c-2620-las-33-estrategias-de-la-guerra-robert-greene.jpg",
+    downloads: 480,
+    featured: true,
+    aiAnalysis: {
+      genre: "Estrategia Militar, Negociación & Liderazgo Estratégico",
+      vibe: "Táctico, Preciso, Riguroso & Esclarecedor",
+      keyConcepts: [
+        "Guerra Psicológica y Percepción",
+        "Estrategias Defensivas y Ofensivas",
+        "Control Emocional en el Conflicto",
+        "Maniobras de Alianzas y Desequilibrio"
+      ],
+      targetAudience: "Líderes, directores, negociadores y emprendedores que enfrentan competencia agresiva y buscan ventaja estratégica sin desgastes inútiles.",
+      aiSummary: "Tratado exhaustivo de 33 lecciones estructuradas en cinco partes (guerra autodirigida, organizativa, defensiva, ofensiva y sucia/no convencional). Traduce preceptos marciales históricos a directrices operativas contemporáneas."
+    }
+  },
+  {
+    id: 2621,
+    title: "Las Leyes para Todos los Días",
+    author: "Robert Greene",
+    category: "Liderazgo & Estrategia",
+    collection: "Colección Robert Greene",
+    subtopic: "366 Meditaciones sobre Poder, Seducción, Maestría, Estrategia y Naturaleza Humana",
+    format: "pdf",
+    pdf: "pdfs/b2621_las-leyes-para-todos-los-dias-robert-greene.pdf?v=5.1",
+    pages: 381,
+    year: 2021,
+    language: "Español",
+    description: "Un compendio estructurado de 366 meditaciones diarias (una por cada día del año, incluido el año bisiesto) extraídas de toda la obra de Robert Greene. Un entrenamiento diario de agudeza mental para afinar el juicio, blindar la mente y conquistar el autodominio.",
+    cover: "covers/c-2621-las-leyes-para-todos-los-dias-robert-greene.jpg",
+    downloads: 450,
+    featured: true,
+    aiAnalysis: {
+      genre: "Filosofía Práctica, Desarrollo Personal & Autodominio",
+      vibe: "Diario, Lúcido, Disciplinado & Formativo",
+      keyConcepts: [
+        "Hábito Diario de Reflexión Estratégica",
+        "Maestría y Búsqueda de la Vocación",
+        "Comprensión de la Naturaleza Humana",
+        "Autodisciplina y Paciencia Radical"
+      ],
+      targetAudience: "Lectores devotos de Robert Greene que buscan internalizar sus enseñanzas mediante un ritual diario de lectura y aplicación práctica constante.",
+      aiSummary: "Edición integral de Editorial Océano dividida en doce meses temáticos. Consolida 25 años de investigación en microlecciones de alto impacto para forjar criterio y madurez emocional."
     }
   },
   {
@@ -867,9 +925,9 @@ const BOOKS = [
     title: "Las Leyes de la Naturaleza Humana",
     author: "Robert Greene",
     category: "Liderazgo & Estrategia",
-    collection: "La Gran Biblioteca Estoica",
+    collection: "Colección Robert Greene",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v2/b1476_las-leyes-de-la-naturaleza-humana-robert-greene.pdf",
+    pdf: "pdfs/b1476_las-leyes-de-la-naturaleza-humana-robert-greene.pdf?v=5.1",
     year: 2018,
     language: "Español",
     pages: 759,
@@ -1317,9 +1375,9 @@ const BOOKS = [
     title: "Las 48 Leyes del Poder",
     author: "Robert Greene",
     category: "Liderazgo & Estrategia",
-    collection: "General",
+    collection: "Colección Robert Greene",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1087_Las_48_leyes_del_poder_-_Robert_Greene.pdf",
+    pdf: "pdfs/b1087_las-48-leyes-del-poder-robert-greene.pdf?v=5.1",
     year: 2022,
     language: "Español",
     pages: 271,
@@ -5021,14 +5079,14 @@ const BOOKS = [
     title: "El Arte de la Seducción",
     author: "Robert Greene",
     category: "Liderazgo & Estrategia",
-    collection: "Estrategia",
+    collection: "Colección Robert Greene",
     format: "dual",
     year: 2014,
     language: "Español",
     pages: 510,
     description: "Greene desvela los perfiles Psicológicos del seductor y las dinámicas maestras del poder emocional y la influencia interpersonal. A través de figuras Históricas como Cleopatra, Casanova o Napoleón, analiza cómo cautivar voluntades y dirigir la fascinación de los demás.",
     cover: "covers/arte-seduccion-hd.jpg",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b401_el-arte-de-la-seduccion-robert-greene.pdf",
+    pdf: "pdfs/b402_el-arte-de-la-seduccion-robert-greene.pdf?v=5.1",
     epub: "pdfs/epubs/el-arte-de-la-seduccion-robert-greene.epub",
     downloads: 380,
     featured: true,
@@ -34714,12 +34772,12 @@ const BOOKS = [
   },
   {
     id: 1092,
-    title: "maestría",
+    title: "Maestría",
     author: "Robert Greene",
     category: "Liderazgo & Estrategia",
-    collection: "General",
+    collection: "Colección Robert Greene",
     format: "pdf",
-    pdf: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/libros-v1/b1092_Maestr_a_-_Robert_Greene.pdf",
+    pdf: "pdfs/b1092_maestria-robert-greene.pdf?v=5.1",
     year: 2017,
     language: "Español",
     pages: 336,
@@ -37205,3 +37263,4 @@ const INITIAL_REQUESTS = [
     downloadUrl: "#"
   }
 ];
+

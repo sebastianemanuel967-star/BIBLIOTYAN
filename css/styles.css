@@ -628,6 +628,17 @@ body {
   transform: translateY(-1px);
 }
 
+.collection-chip-compact.active {
+  background: var(--purple-primary);
+  border-color: var(--purple-primary);
+  color: #ffffff;
+}
+
+.collection-chip-compact.active .chip-count {
+  background: rgba(255, 255, 255, 0.24);
+  color: #ffffff;
+}
+
 .collection-chip-compact .chip-count {
   font-size: 0.68rem;
   font-weight: 600;

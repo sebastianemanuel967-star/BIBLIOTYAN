@@ -326,6 +326,10 @@ document.addEventListener('DOMContentLoaded', () => {
         params.delete('coleccion');
         params.delete('categoria');
         params.delete('cat');
+      } else if (categoryName === 'Robert Greene' || categoryName === 'Colección Robert Greene') {
+        params.set('coleccion', 'robert-greene');
+        params.delete('categoria');
+        params.delete('cat');
       } else if (categoryName === 'HARVARD LIBROS') {
         params.set('coleccion', 'harvard-libros');
         params.delete('categoria');
@@ -386,6 +390,18 @@ document.addEventListener('DOMContentLoaded', () => {
       const labelEl = card.querySelector('.knowledge-card-label');
       const label = labelEl ? labelEl.textContent.trim() : '';
       card.classList.toggle('active', label === categoryName);
+    });
+
+    // Sincronizar chips de colecciones especiales
+    document.querySelectorAll('.collection-chip-compact').forEach(btn => {
+      const isMatch = (btn.id === 'cardColGreene' && (categoryName === 'Robert Greene' || categoryName === 'Colección Robert Greene')) ||
+                      (btn.id === 'cardColDummies' && (categoryName === 'PARA DUMMIES' || categoryName === 'Colección Para Dummies')) ||
+                      (btn.id === 'cardColHistoria' && (categoryName === 'BREVE HISTORIA' || categoryName === 'Colección Breve Historia')) ||
+                      (btn.id === 'cardColHarvard' && (categoryName === 'HARVARD LIBROS' || categoryName === 'Colección Harvard Libros')) ||
+                      (btn.id === 'cardColEmprendedores' && (categoryName === 'LIBROS EMPRENDEDORES' || categoryName === 'Colección Emprendedores')) ||
+                      (btn.id === 'cardColTeologia' && (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'Colección Teológica Contemporánea')) ||
+                      (btn.id === 'cardColAdmin' && (categoryName === 'Libros de Administración' || categoryName === 'Colección Libros de Administración'));
+      btn.classList.toggle('active', isMatch);
     });
 
     renderBooks();
@@ -498,7 +514,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let targetCat = null;
     if (colParam) {
       const cleanSlug = slugify(colParam);
-      if (cleanSlug === 'harvard' || cleanSlug === 'harvard-libros' || cleanSlug.includes('harvard')) {
+      if (cleanSlug === 'robert-greene' || cleanSlug === 'greene' || cleanSlug.includes('greene')) {
+        targetCat = 'Robert Greene';
+      } else if (cleanSlug === 'harvard' || cleanSlug === 'harvard-libros' || cleanSlug.includes('harvard')) {
         targetCat = 'HARVARD LIBROS';
       } else if (cleanSlug === 'breve-historia' || cleanSlug === 'historia' || cleanSlug.includes('breve-historia')) {
         targetCat = 'BREVE HISTORIA';
@@ -523,7 +541,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (targetCat) {
       selectCategory(targetCat, true, false);
-      if (targetCat === 'HARVARD LIBROS') {
+      if (targetCat === 'Robert Greene') {
+        showToast('Colección Robert Greene', 'Explorando las obras sobre poder, estrategia y maestría');
+      } else if (targetCat === 'HARVARD LIBROS') {
         const hbrCount = getHarvardBookCount();
         showToast('Colección Harvard Activa', `Explorando los ${hbrCount} títulos de Harvard Business Review`);
       } else if (targetCat === 'BREVE HISTORIA') {
@@ -820,6 +840,8 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesCategory = (book.collection === 'National Geographic' || book.category === 'National Geographic');
       } else if (state.currentFilter === 'E-Books (EPUB)') {
         matchesCategory = (book.format === 'epub' || book.format === 'dual' || !!book.epub);
+      } else if (state.currentFilter === 'Robert Greene' || state.currentFilter === 'Colección Robert Greene' || state.currentFilter === 'ROBERT GREENE') {
+        matchesCategory = (book.author && book.author.toLowerCase().includes('robert greene')) || (book.collection && book.collection.includes('Robert Greene'));
       } else if (state.currentFilter === 'LIBROS EMPRENDEDORES' || state.currentFilter === 'Colección Emprendedores') {
         matchesCategory = (book.collection && book.collection.includes('Emprendedor')) || book.category === 'LIBROS EMPRENDEDORES';
       } else if (state.currentFilter === 'PARA DUMMIES' || state.currentFilter === 'Colección Para Dummies') {
@@ -1641,6 +1663,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateCollectionShowcaseBadges() {
     if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return;
+    const rgCount = BOOKS.filter(b => (b.author && b.author.toLowerCase().includes('robert greene')) || (b.collection && b.collection.includes('Robert Greene'))).length;
     const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES' || (b.collection && b.collection.includes('Dummies'))).length;
     const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA' || (b.collection && b.collection.includes('Breve Historia'))).length;
     const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS' || (b.collection && b.collection.includes('Harvard'))).length;
@@ -1648,12 +1671,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const eCount = BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length;
     const aCount = BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length;
 
+    const elGreene = document.getElementById('colCountGreene');
     const elTeologia = document.getElementById('colCountTeologia');
     const elEmprendedores = document.getElementById('colCountEmprendedores');
     const elAdmin = document.getElementById('colCountAdmin');
     const elDummies = document.getElementById('colCountDummies');
     const elHistoria = document.getElementById('colCountHistoria');
     const elHarvard = document.getElementById('colCountHarvard');
+
+    if (elGreene) elGreene.textContent = rgCount;
 
     if (elTeologia) elTeologia.textContent = tCount;
     if (elEmprendedores) elEmprendedores.textContent = eCount;
