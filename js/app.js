@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     selectedFormat: 'pdf',
     dailyBook: null
   };
+  window.state = state;
 
   const KNOWLEDGE_MATCHERS = {
     'Filosofía': {
@@ -1181,10 +1182,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (book.format === 'audio') {
         dlContainer.innerHTML = `
           <div class="modal-direct-actions">
-            <button class="btn-direct-read btn-direct-audio" onclick="openAudioPlayer(state.currentBook)">
+            <button class="btn-direct-read btn-direct-audio" onclick="openAudioPlayer()">
               <i class="fa-solid fa-headphones"></i> Escuchar Audiolibro
             </button>
-            <button class="btn-direct-download" onclick="downloadCurrentAudioTrackDirect(state.currentBook)">
+            <button class="btn-direct-download" onclick="downloadCurrentAudioTrackDirect()">
               <i class="fa-solid fa-download"></i> Descargar Audio
             </button>
           </div>
