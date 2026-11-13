@@ -970,6 +970,36 @@ const BOOKS = [
     }
   },
   {
+    id: 2640,
+    title: "Pasos de gigante: La información que necesitas para triunfar en la vida y en los negocios, explicada de manera sencilla",
+    author: "Brian Tracy & Margarita Pasos",
+    category: "Crecimiento Personal",
+    subtopic: "Autorresponsabilidad, Claridad, Autoconfianza, Automotivación, Autoconcepto y Resiliencia",
+    format: "pdf",
+    pdf: "pdfs/b2640_pasos-de-gigante-brian-tracy-margarita-pasos.pdf?v=5.3",
+    pages: 177,
+    year: 2023,
+    language: "Español",
+    description: "Brian Tracy y Margarita Pasos unen su sabiduría y experiencia práctica en una guía directa y transformadora para conquistar el éxito personal y financiero. A través de 7 pilares fundamentales —autorresponsabilidad radical, claridad de metas, autoconfianza inquebrantable, automotivación diaria, autoconcepto positivo, autorregulación emocional y la habilidad de darle la vuelta a cualquier adversidad—, los autores entregan herramientas paso a paso para vencer las excusas, reprogramar el diálogo interno y alcanzar resultados extraordinarios en la vida y en los negocios.",
+    cover: "covers/c-2640-pasos-de-gigante-brian-tracy-margarita-pasos.jpg",
+    downloads: 580,
+    featured: true,
+    aiAnalysis: {
+      genre: "Desarrollo Personal, Psicología del Éxito & Negocios",
+      vibe: "Empoderador, Práctico, Directo & Motivador",
+      keyConcepts: [
+        "Autorresponsabilidad Radical: Eliminar las Excusas y Tomar el Control",
+        "Claridad Total: Definición de Metas y Enfoque Láser",
+        "Autoconfianza y Ley del Espejo en las Relaciones",
+        "Automotivación y Gestión del Diálogo Interno",
+        "Autoconcepto y Autosugestión Positiva",
+        "Autorregulación y Resiliencia ante la Incertidumbre"
+      ],
+      targetAudience: "Emprendedores, profesionales, líderes y toda persona que busque dar un salto cuántico en su mentalidad, productividad y finanzas personales.",
+      aiSummary: "Una colaboración magistral entre Brian Tracy y Margarita Pasos (Grupo Nelson / HarperCollins Christian Publishing, 177 pp., 2023). El libro condensa décadas de metodologías de alto rendimiento en 7 capítulos accesibles y altamente aplicables para dominar la mente, superar el miedo al fracaso y construir negocios prósperos con pasos firmes."
+    }
+  },
+  {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
     author: "Daniel Kahneman",
