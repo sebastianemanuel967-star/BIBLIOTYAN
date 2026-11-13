@@ -1964,10 +1964,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function openAudioPlayer(book) {
-    const target = book || state.currentBook;
+    const target = book || currentAudioBook || state.currentBook;
     if (!target) return;
+    const isNewBook = !currentAudioBook || currentAudioBook.id !== target.id;
     currentAudioBook = target;
-    currentTrackIndex = 0;
+    window.currentAudioBook = currentAudioBook;
+    if (isNewBook) {
+      currentTrackIndex = 0;
+    }
 
     initAudioPlayer();
 
@@ -1996,12 +2000,17 @@ document.addEventListener('DOMContentLoaded', () => {
           opt.textContent = tr.title || `Pista ${idx + 1}`;
           trackSelect.appendChild(opt);
         });
+        trackSelect.value = currentTrackIndex;
       } else {
         if (trackWrapper) trackWrapper.style.display = 'none';
       }
     }
 
-    loadTrack(0, true);
+    if (isNewBook) {
+      loadTrack(0, true);
+    } else {
+      updateSpotifyBottomBar();
+    }
 
     if (modal) {
       modal.classList.add('active');
