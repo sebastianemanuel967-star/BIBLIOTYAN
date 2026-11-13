@@ -536,6 +536,93 @@
     </div>
   </div>
 
+  <!-- ==================== REPRODUCTOR DE AUDIOLIBROS ==================== -->
+  <div class="modal-overlay audio-player-modal" id="audioPlayerModal">
+    <div class="audio-player-card">
+      <div class="audio-player-header">
+        <div class="audio-header-info">
+          <i class="fa-solid fa-headphones" style="color: var(--purple-light); margin-right: 0.5rem;"></i>
+          <span class="audio-badge-live">AUDIOLIBRO</span>
+        </div>
+        <button class="audio-close-btn" onclick="closeAudioPlayer()" title="Cerrar reproductor" aria-label="Cerrar reproductor">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="audio-player-body">
+        <div class="audio-player-cover-box">
+          <img id="audioPlayerCover" src="" alt="Portada Audiolibro" onerror="handleCoverError(this)">
+          <div class="audio-pulse-indicator" id="audioPulseIndicator">
+            <span class="pulse-bar bar-1"></span>
+            <span class="pulse-bar bar-2"></span>
+            <span class="pulse-bar bar-3"></span>
+            <span class="pulse-bar bar-4"></span>
+          </div>
+        </div>
+
+        <div class="audio-track-details">
+          <h3 id="audioPlayerTitle" class="audio-player-title"></h3>
+          <p id="audioPlayerAuthor" class="audio-player-author"></p>
+          <p id="audioCurrentTrackName" class="audio-current-track-name">Pista 1</p>
+        </div>
+
+        <!-- Selector de Capítulos / Playlist -->
+        <div class="audio-playlist-wrapper" id="audioPlaylistWrapper">
+          <label for="audioTrackSelect" class="audio-playlist-label">
+            <i class="fa-solid fa-list-ol"></i> Seleccionar Cap&iacute;tulo:
+          </label>
+          <select id="audioTrackSelect" class="audio-track-select" onchange="onAudioTrackSelected(this.value)">
+          </select>
+        </div>
+
+        <!-- Barra de Progreso y Tiempo -->
+        <div class="audio-progress-container">
+          <span id="audioCurrentTime" class="audio-time">0:00</span>
+          <div class="audio-slider-wrapper">
+            <input type="range" id="audioProgressBar" class="audio-seek-slider" min="0" max="100" value="0" step="0.1" oninput="onAudioSeek(this.value)">
+          </div>
+          <span id="audioDuration" class="audio-time">0:00</span>
+        </div>
+
+        <!-- Controles Principales -->
+        <div class="audio-controls-row">
+          <button type="button" class="audio-ctrl-btn audio-btn-skip" onclick="audioSkip(-15)" title="Retroceder 15s" aria-label="Retroceder 15 segundos">
+            <i class="fa-solid fa-rotate-left"></i>
+            <span class="skip-label">-15s</span>
+          </button>
+          <button type="button" class="audio-ctrl-btn audio-btn-prev" id="audioPrevBtn" onclick="audioPrevTrack()" title="Pista anterior" aria-label="Pista anterior">
+            <i class="fa-solid fa-backward-step"></i>
+          </button>
+          <button type="button" class="audio-ctrl-btn audio-btn-play" id="audioPlayPauseBtn" onclick="toggleAudioPlay()" title="Reproducir / Pausa" aria-label="Reproducir o pausar">
+            <i class="fa-solid fa-play" id="audioPlayIcon"></i>
+          </button>
+          <button type="button" class="audio-ctrl-btn audio-btn-next" id="audioNextBtn" onclick="audioNextTrack()" title="Pista siguiente" aria-label="Pista siguiente">
+            <i class="fa-solid fa-forward-step"></i>
+          </button>
+          <button type="button" class="audio-ctrl-btn audio-btn-skip" onclick="audioSkip(15)" title="Adelantar 15s" aria-label="Adelantar 15 segundos">
+            <i class="fa-solid fa-rotate-right"></i>
+            <span class="skip-label">+15s</span>
+          </button>
+        </div>
+
+        <!-- Controles Secundarios: Velocidad y Descarga -->
+        <div class="audio-extra-controls">
+          <div class="audio-speed-selector">
+            <span class="audio-speed-label"><i class="fa-solid fa-gauge-high"></i> Velocidad:</span>
+            <button type="button" class="speed-btn active" onclick="setAudioSpeed(1, this)">1x</button>
+            <button type="button" class="speed-btn" onclick="setAudioSpeed(1.25, this)">1.25x</button>
+            <button type="button" class="speed-btn" onclick="setAudioSpeed(1.5, this)">1.5x</button>
+            <button type="button" class="speed-btn" onclick="setAudioSpeed(2, this)">2x</button>
+          </div>
+          <button type="button" class="btn-download-audio-track" onclick="downloadCurrentAudioTrack()" title="Descargar este audio">
+            <i class="fa-solid fa-download"></i> Descargar Audio
+          </button>
+        </div>
+      </div>
+      <audio id="nativeAudioElement" preload="metadata"></audio>
+    </div>
+  </div>
+
   <!-- ==================== NOTIFICACION TOAST ==================== -->
   <div class="toast" id="toast">
     <i data-lucide="bell" style="color: var(--purple-primary);"></i>
@@ -572,8 +659,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=5.5"></script>
-  <script src="js/app.js?v=5.5"></script>
+  <script src="js/data.js?v=5.6"></script>
+  <script src="js/app.js?v=5.6"></script>
 
 </body>
 </html>

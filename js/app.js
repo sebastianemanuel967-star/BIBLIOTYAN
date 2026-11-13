@@ -658,6 +658,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCollectionShowcaseBadges();
     setupCollectionsCarousel();
     handleInitialUrl();
+    initAudioPlayer();
     refreshIcons();
   }
 
@@ -760,6 +761,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'TEOLOGÍA CONTEMPORÁNEA',
       'National Geographic',
       'E-Books (EPUB)',
+      'Audiolibros',
       'Espiritualidad & sabiduría',
       'Autoayuda & Mente',
       'Neurociencia & Mente',
@@ -791,6 +793,8 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (cat === 'LIBROS EMPRENDEDORES') iconHtml = '<i data-lucide="trending-up"></i>';
       else if (cat === 'Libros de Administración') iconHtml = '<i data-lucide="briefcase"></i>';
       else if (cat === 'TEOLOGÍA CONTEMPORÁNEA') iconHtml = '<i data-lucide="scroll"></i>';
+      else if (cat === 'Audiolibros') iconHtml = '<i data-lucide="headphones"></i>';
+      else if (cat === 'E-Books (EPUB)') iconHtml = '<i data-lucide="book-open"></i>';
 
       btn.innerHTML = `${iconHtml} <span>${escapeHTML(cat)}</span>`;
       btn.addEventListener('click', () => {
@@ -849,6 +853,8 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesCategory = (book.collection === 'National Geographic' || book.category === 'National Geographic');
       } else if (state.currentFilter === 'E-Books (EPUB)') {
         matchesCategory = (book.format === 'epub' || book.format === 'dual' || !!book.epub);
+      } else if (state.currentFilter === 'Audiolibros' || state.currentFilter === 'Colección Audiolibros') {
+        matchesCategory = (book.format === 'audio' || !!book.audioUrl || !!book.tracks || (book.collection && book.collection.includes('Audiolibro')));
       } else if (state.currentFilter === 'Robert Greene' || state.currentFilter === 'Colección Robert Greene' || state.currentFilter === 'ROBERT GREENE') {
         matchesCategory = (book.author && book.author.toLowerCase().includes('robert greene')) || (book.collection && book.collection.includes('Robert Greene'));
       } else if (state.currentFilter === 'Jacobo Grinberg' || state.currentFilter === 'Colección Jacobo Grinberg' || state.currentFilter === 'JACOBO GRINBERG') {
@@ -986,7 +992,10 @@ document.addEventListener('DOMContentLoaded', () => {
       let formatIcon = 'file-text';
       let formatText = 'PDF';
 
-      if (book.format === 'dual' || (book.pdf && book.epub)) {
+      if (book.format === 'audio') {
+        formatIcon = 'headphones';
+        formatText = 'AUDIO';
+      } else if (book.format === 'dual' || (book.pdf && book.epub)) {
         formatIcon = 'layers';
         formatText = 'PDF + EPUB';
       } else if (book.format === 'epub' || (!book.pdf && book.epub)) {
@@ -1122,7 +1131,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Badge de formato en el modal
     const formatBadgeEl = document.getElementById('previewFormatBadge');
     if (formatBadgeEl) {
-      if (book.format === 'dual' || (book.pdf && book.epub)) {
+      if (book.format === 'audio') {
+        formatBadgeEl.className = 'format-badge audio-badge';
+        formatBadgeEl.innerHTML = '<i class="fa-solid fa-headphones"></i> AUDIOLIBRO';
+        formatBadgeEl.style.display = 'inline-flex';
+      } else if (book.format === 'dual' || (book.pdf && book.epub)) {
         formatBadgeEl.className = 'format-badge dual-badge';
         formatBadgeEl.innerHTML = '<i class="fa-solid fa-layer-group"></i> PDF + EPUB';
         formatBadgeEl.style.display = 'inline-flex';
@@ -1165,7 +1178,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // Acciones Directas: Leer Online & Descargar
     const dlContainer = document.getElementById('previewDownloadContainer');
     if (dlContainer) {
-      if (book.format === 'dual' || (book.pdf && book.epub)) {
+      if (book.format === 'audio') {
+        dlContainer.innerHTML = `
+          <div class="modal-direct-actions">
+            <button class="btn-direct-read btn-direct-audio" onclick="openAudioPlayer(state.currentBook)">
+              <i class="fa-solid fa-headphones"></i> Escuchar Audiolibro
+            </button>
+            <button class="btn-direct-download" onclick="downloadCurrentAudioTrackDirect(state.currentBook)">
+              <i class="fa-solid fa-download"></i> Descargar Audio
+            </button>
+          </div>
+        `;
+      } else if (book.format === 'dual' || (book.pdf && book.epub)) {
         dlContainer.innerHTML = `
           <div class="modal-direct-actions">
             <button class="btn-direct-read" onclick="openFullscreenReader()">
@@ -1725,6 +1749,283 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
+  // ========================================================
+  // REPRODUCTOR DE AUDIOLIBROS INTERACTIVO
+  // ========================================================
+  let currentAudioBook = null;
+  let currentTrackIndex = 0;
+  let audioPlayerInitialized = false;
+
+  function initAudioPlayer() {
+    if (audioPlayerInitialized) return;
+    const audio = document.getElementById('nativeAudioElement');
+    if (!audio) return;
+
+    audioPlayerInitialized = true;
+
+    audio.addEventListener('timeupdate', () => {
+      const curTime = audio.currentTime || 0;
+      const duration = audio.duration || 0;
+      const curTimeEl = document.getElementById('audioCurrentTime');
+      const durTimeEl = document.getElementById('audioDuration');
+      const progressBar = document.getElementById('audioProgressBar');
+
+      if (curTimeEl) curTimeEl.textContent = formatAudioTime(curTime);
+      if (durTimeEl && !isNaN(duration) && duration > 0) durTimeEl.textContent = formatAudioTime(duration);
+      if (progressBar && duration > 0) {
+        progressBar.value = (curTime / duration) * 100;
+      }
+    });
+
+    audio.addEventListener('play', () => {
+      const icon = document.getElementById('audioPlayIcon');
+      if (icon) {
+        icon.className = 'fa-solid fa-pause';
+      }
+      const indicator = document.getElementById('audioPulseIndicator');
+      if (indicator) indicator.classList.add('playing');
+    });
+
+    audio.addEventListener('pause', () => {
+      const icon = document.getElementById('audioPlayIcon');
+      if (icon) {
+        icon.className = 'fa-solid fa-play';
+      }
+      const indicator = document.getElementById('audioPulseIndicator');
+      if (indicator) indicator.classList.remove('playing');
+    });
+
+    audio.addEventListener('ended', () => {
+      if (currentAudioBook && currentAudioBook.tracks && currentTrackIndex < currentAudioBook.tracks.length - 1) {
+        audioNextTrack();
+      } else {
+        const icon = document.getElementById('audioPlayIcon');
+        if (icon) icon.className = 'fa-solid fa-play';
+        const indicator = document.getElementById('audioPulseIndicator');
+        if (indicator) indicator.classList.remove('playing');
+      }
+    });
+
+    audio.addEventListener('error', (e) => {
+      console.warn('Audio playback error', e);
+    });
+  }
+
+  function formatAudioTime(seconds) {
+    if (isNaN(seconds) || seconds < 0) return '0:00';
+    const hrs = Math.floor(seconds / 3600);
+    const mins = Math.floor((seconds % 3600) / 60);
+    const secs = Math.floor(seconds % 60);
+    if (hrs > 0) {
+      return `${hrs}:${mins < 10 ? '0' : ''}${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    }
+    return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+  }
+
+  function openAudioPlayer(book) {
+    const target = book || state.currentBook;
+    if (!target) return;
+    currentAudioBook = target;
+    currentTrackIndex = 0;
+
+    initAudioPlayer();
+
+    const modal = document.getElementById('audioPlayerModal');
+    const cover = document.getElementById('audioPlayerCover');
+    const title = document.getElementById('audioPlayerTitle');
+    const author = document.getElementById('audioPlayerAuthor');
+    const trackSelect = document.getElementById('audioTrackSelect');
+    const trackWrapper = document.getElementById('audioPlaylistWrapper');
+
+    if (cover) cover.src = target.cover || '';
+    if (title) title.textContent = target.title || 'Audiolibro';
+    if (author) author.textContent = target.author || '';
+
+    // Llenar selector de capítulos
+    if (trackSelect) {
+      trackSelect.innerHTML = '';
+      if (target.tracks && target.tracks.length > 0) {
+        if (trackWrapper) trackWrapper.style.display = 'block';
+        target.tracks.forEach((tr, idx) => {
+          const opt = document.createElement('option');
+          opt.value = idx;
+          opt.textContent = tr.title || `Pista ${idx + 1}`;
+          trackSelect.appendChild(opt);
+        });
+      } else {
+        if (trackWrapper) trackWrapper.style.display = 'none';
+      }
+    }
+
+    loadTrack(0, true);
+
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  function loadTrack(index, autoplay = false) {
+    if (!currentAudioBook) return;
+    const audio = document.getElementById('nativeAudioElement');
+    if (!audio) return;
+
+    let trackUrl = '';
+    let trackName = 'Pista 1';
+
+    if (currentAudioBook.tracks && currentAudioBook.tracks.length > 0) {
+      currentTrackIndex = Math.max(0, Math.min(index, currentAudioBook.tracks.length - 1));
+      const tr = currentAudioBook.tracks[currentTrackIndex];
+      trackUrl = tr.url;
+      trackName = tr.title || `Pista ${currentTrackIndex + 1}`;
+
+      const trackSelect = document.getElementById('audioTrackSelect');
+      if (trackSelect) trackSelect.value = currentTrackIndex;
+
+      const prevBtn = document.getElementById('audioPrevBtn');
+      const nextBtn = document.getElementById('audioNextBtn');
+      if (prevBtn) prevBtn.disabled = currentTrackIndex === 0;
+      if (nextBtn) nextBtn.disabled = currentTrackIndex === currentAudioBook.tracks.length - 1;
+    } else {
+      currentTrackIndex = 0;
+      trackUrl = currentAudioBook.audioUrl || '';
+      trackName = currentAudioBook.title || 'Audiolibro Completo';
+      const prevBtn = document.getElementById('audioPrevBtn');
+      const nextBtn = document.getElementById('audioNextBtn');
+      if (prevBtn) prevBtn.disabled = true;
+      if (nextBtn) nextBtn.disabled = true;
+    }
+
+    const curTrackNameEl = document.getElementById('audioCurrentTrackName');
+    if (curTrackNameEl) curTrackNameEl.textContent = trackName;
+
+    audio.src = trackUrl;
+    audio.load();
+
+    const progressBar = document.getElementById('audioProgressBar');
+    if (progressBar) progressBar.value = 0;
+    const curTimeEl = document.getElementById('audioCurrentTime');
+    if (curTimeEl) curTimeEl.textContent = '0:00';
+    const durTimeEl = document.getElementById('audioDuration');
+    if (durTimeEl) durTimeEl.textContent = '0:00';
+
+    if (autoplay) {
+      audio.play().catch(e => {
+        console.log('Autoplay status:', e);
+      });
+    }
+  }
+
+  function closeAudioPlayer() {
+    const audio = document.getElementById('nativeAudioElement');
+    if (audio) {
+      audio.pause();
+    }
+    const modal = document.getElementById('audioPlayerModal');
+    if (modal) modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function toggleAudioPlay() {
+    const audio = document.getElementById('nativeAudioElement');
+    if (!audio) return;
+    if (audio.paused) {
+      audio.play().catch(e => console.warn(e));
+    } else {
+      audio.pause();
+    }
+  }
+
+  function audioSkip(seconds) {
+    const audio = document.getElementById('nativeAudioElement');
+    if (!audio) return;
+    const targetTime = (audio.currentTime || 0) + seconds;
+    audio.currentTime = Math.max(0, Math.min(audio.duration || 0, targetTime));
+  }
+
+  function audioPrevTrack() {
+    if (!currentAudioBook || !currentAudioBook.tracks) return;
+    if (currentTrackIndex > 0) {
+      loadTrack(currentTrackIndex - 1, true);
+    }
+  }
+
+  function audioNextTrack() {
+    if (!currentAudioBook || !currentAudioBook.tracks) return;
+    if (currentTrackIndex < currentAudioBook.tracks.length - 1) {
+      loadTrack(currentTrackIndex + 1, true);
+    }
+  }
+
+  function onAudioTrackSelected(indexVal) {
+    const idx = parseInt(indexVal, 10);
+    if (!isNaN(idx)) {
+      loadTrack(idx, true);
+    }
+  }
+
+  function onAudioSeek(val) {
+    const audio = document.getElementById('nativeAudioElement');
+    if (!audio || !audio.duration) return;
+    const targetSec = (parseFloat(val) / 100) * audio.duration;
+    audio.currentTime = targetSec;
+  }
+
+  function setAudioSpeed(rate, btn) {
+    const audio = document.getElementById('nativeAudioElement');
+    if (audio) audio.playbackRate = parseFloat(rate);
+    const speedBtns = document.querySelectorAll('.audio-speed-selector .speed-btn');
+    speedBtns.forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+  }
+
+  function downloadCurrentAudioTrack() {
+    if (!currentAudioBook) return;
+    let url = '';
+    let filename = '';
+    if (currentAudioBook.tracks && currentAudioBook.tracks[currentTrackIndex]) {
+      url = currentAudioBook.tracks[currentTrackIndex].url;
+      filename = `${currentAudioBook.title} - ${currentAudioBook.tracks[currentTrackIndex].title}.m4a`;
+    } else {
+      url = currentAudioBook.audioUrl;
+      filename = `${currentAudioBook.title}.m4a`;
+    }
+    if (url) {
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      a.target = '_blank';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      showToast('Iniciando descarga del audiolibro...', 'success');
+    }
+  }
+
+  function downloadCurrentAudioTrackDirect(book) {
+    const target = book || state.currentBook || currentAudioBook;
+    if (!target) return;
+    let url = '';
+    let filename = '';
+    if (target.tracks && target.tracks[0]) {
+      url = target.tracks[0].url;
+      filename = `${target.title} - ${target.tracks[0].title}.m4a`;
+    } else {
+      url = target.audioUrl;
+      filename = `${target.title}.m4a`;
+    }
+    if (url) {
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      a.target = '_blank';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      showToast('Iniciando descarga del audiolibro...', 'success');
+    }
+  }
+
   // Cierre de modales
   document.querySelectorAll('.modal-overlay').forEach(modal => {
     modal.addEventListener('click', (e) => {
@@ -1767,6 +2068,17 @@ document.addEventListener('DOMContentLoaded', () => {
     closePreviewModal();
     selectCategory('HARVARD LIBROS', true, true);
   };
+  window.openAudioPlayer = openAudioPlayer;
+  window.closeAudioPlayer = closeAudioPlayer;
+  window.toggleAudioPlay = toggleAudioPlay;
+  window.audioSkip = audioSkip;
+  window.audioPrevTrack = audioPrevTrack;
+  window.audioNextTrack = audioNextTrack;
+  window.onAudioTrackSelected = onAudioTrackSelected;
+  window.onAudioSeek = onAudioSeek;
+  window.setAudioSpeed = setAudioSpeed;
+  window.downloadCurrentAudioTrack = downloadCurrentAudioTrack;
+  window.downloadCurrentAudioTrackDirect = downloadCurrentAudioTrackDirect;
 
   window.addEventListener('popstate', (e) => {
     if (e.state && e.state.bookId) {

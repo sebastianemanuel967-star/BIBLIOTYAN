@@ -65,6 +65,8 @@ const CONFIG = {
     "LIBROS EMPRENDEDORES": "#10b981",
     "National Geographic": "#eab308",
     "E-Books (EPUB)": "#10b981",
+    "Audiolibros": "#ec4899",
+    "Colección Audiolibros": "#a855f7",
     "Espiritualidad & sabiduría": "#d97706",
     "Autoayuda & Mente": "#a855f7",
     "Neurociencia & Mente": "#8b5cf6",
@@ -1090,6 +1092,453 @@ const BOOKS = [
       aiSummary: "Tratado fundamental de la tradición hermética (1908, 115 pp.). Condensa de manera lúcida los axiomas transmitidos 'de labios a oídos' a través de los siglos, dotando al lector de una brújula filosófica y práctica para comprender los planos físico, mental y espiritual y elevar su conciencia sobre el destino ordinario."
     }
   },
+
+  // ========================================================
+  // COLECCIÓN AUDIOLIBROS DE FINANZAS, LIDERAZGO & ÉXITO
+  // ========================================================
+  {
+    id: 2644,
+    title: "Padre Rico, Padre Pobre (Audiolibro Íntegro)",
+    author: "Robert T. Kiyosaki",
+    category: "Finanzas & Inversión",
+    collection: "Colección Audiolibros",
+    subtopic: "Educación Financiera, Flujo de Efectivo e Inversión",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/padre-rico-6hrs-01_-_Introducci_n.m4a",
+    tracks: [
+        { title: "01. Introducción", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/padre-rico-6hrs-01_-_Introducci_n.m4a" },
+        { title: "02. Capítulo 5 - Los ricos inventan el dinero", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/padre-rico-6hrs-06_-_Capitulo_5.m4a" },
+        { title: "03. Capítulo 7 - Cómo vencer los obstáculos", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/padre-rico-6hrs-08_-_Capitulo_7.m4a" },
+        { title: "04. Capítulo 8 - Comenzando", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/padre-rico-6hrs-09_-_Capitulo_8.m4a" },
+        { title: "05. Capítulo 9 - ¿Todavía quiere más?", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/padre-rico-6hrs-10_-_Capitulo_9.m4a" },
+        { title: "06. Reflexiones Finales", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/padre-rico-6hrs-11_-_Reflexiones_finales.m4a" }
+    ],
+    pages: 180,
+    year: 2017,
+    language: "Español",
+    description: "El audiolibro fundamental de finanzas personales que ha transformado la mentalidad económica de millones de personas en todo el mundo. Robert T. Kiyosaki narra el contraste entre las filosofías de sus dos padres: su padre biológico (altamente educado pero financieramente dependiente) y su padre rico (mentor empresarial que construyó un imperio). Aprende por qué los ricos no trabajan por dinero sino que hacen que el dinero trabaje para ellos, los secretos de los activos y pasivos, y la ruta hacia la independencia económica real.",
+    cover: "covers/c-padre-rico-padre-pobre-de-robert-kiyosaki.png",
+    downloads: 2450,
+    featured: true,
+    aiAnalysis: {
+      genre: "Finanzas Personales, Educación Económica & Mentalidad",
+      vibe: "Transformador, Motivador, Revelador & Práctico",
+      keyConcepts: [
+        "Diferencia Vital entre Activos (ponen dinero) y Pasivos (sacan dinero)",
+        "Escape de la 'Carrera de la Rata' y Creación de Fuentes Pasivas",
+        "Educación Financiera como la Mayor Riqueza frente a los Títulos",
+        "Manejo del Riesgo y Emociones ante el Dinero y las Inversiones"
+      ],
+      targetAudience: "Toda persona decidida a tomar el control absoluto de sus finanzas personales, emprender o salir del ciclo de la dependencia salarial.",
+      aiSummary: "Edición extendida en audiolibro de alta calidad con capítulos estructurados. Cubre las enseñanzas esenciales de Robert Kiyosaki para reprogramar el chip financiero y aprender a generar activos sostenibles."
+    }
+  },
+  {
+    id: 2645,
+    title: "El Cuadrante del Flujo de Dinero (Audiolibro)",
+    author: "Robert T. Kiyosaki",
+    category: "Finanzas & Inversión",
+    collection: "Colección Audiolibros",
+    subtopic: "Los 4 Cuadrantes: Empleado, Autoempleado, Dueño e Inversionista",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-02_El_cuadrante_del_flujo_de_dinero.m4a",
+    tracks: [
+        { title: "Capítulo 02. El cuadrante del flujo de dinero", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-02_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 03. Por qué la gente busca la seguridad en vez de la libertad", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-03_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 07. Los 7 pasos hacia la libertad financiera", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-07_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 08. Paso 1: Es momento de atender su propio negocio", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-08_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 09. Paso 2: Asuma el control de su flujo de efectivo", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-09_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 10. Paso 3: Conozca la diferencia entre riesgo y riesgoso", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-10_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 13. Paso 6: Convierta la desilusión en su fortaleza", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-13_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 14. Paso 7: El poder de la fe", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-14_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 15. En resumen", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-15_El_cuadrante_del_flujo_de_dinero.m4a" },
+        { title: "Capítulo 17. Epílogo: El viaje hacia la riqueza", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/cuadrante-flujo-17_El_cuadrante_del_flujo_de_dinero.m4a" }
+    ],
+    pages: 250,
+    year: 2018,
+    language: "Español",
+    description: "La esperada continuación de 'Padre Rico, Padre Pobre'. Kiyosaki desglosa el modelo de los cuatro cuadrantes: E (Empleado), A (Autoempleado), D (Dueño de negocio con sistema) e I (Inversionista). Explica por qué el 95% de la población se encuentra en el lado izquierdo buscando seguridad, mientras que la verdadera riqueza y libertad fiscal y de tiempo se encuentran en el lado derecho. Una guía sonora imprescindible para navegar la transición hacia el cuadrante D e I.",
+    cover: "covers/c-el-juego-del-dinero-por-robert-t-kiyosaki.png",
+    downloads: 1890,
+    featured: true,
+    aiAnalysis: {
+      genre: "Estrategia Financiera, Modelos de Negocio & Libertad Económica",
+      vibe: "Estratégico, Analítico, Claro & Altamente Esclarecedor",
+      keyConcepts: [
+        "Los Cuatro Cuadrantes del Dinero: E, A, D, I",
+        "Por qué la Seguridad en el Empleo es una Ilusión y la Libertad es Real",
+        "Sistemas de Negocio Escalables vs. Trabajar para el Propio Negocio",
+        "Los 7 Pasos Sistemáticos para Alcanzar la Autonomía Financiera"
+      ],
+      targetAudience: "Empleados y profesionales independientes que quieren dar el salto a dueños de negocios e inversionistas profesionales.",
+      aiSummary: "Audiolibro completo estructurado en capítulos temáticos. Provee la hoja de ruta precisa para transformar el tiempo en activos y cruzar al cuadrante de los generadores de riqueza."
+    }
+  },
+  {
+    id: 2646,
+    title: "Guía para Invertir: En qué invierten los ricos (Audiolibro)",
+    author: "Robert T. Kiyosaki",
+    category: "Finanzas & Inversión",
+    collection: "Colección Audiolibros",
+    subtopic: "Las Reglas de Oro de los Inversionistas Profesionales",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-01-_Introduccion.__Qu__aprender__usted_al_leer_este_libro.mp3",
+    tracks: [
+        { title: "01- Introduccion.  Qu  aprender  usted al leer este libro", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-01-_Introduccion.__Qu__aprender__usted_al_leer_este_libro.mp3" },
+        { title: "02- Cap tulo 1.  En qu  debo invertir", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-02-_Cap_tulo_1.__En_qu__debo_invertir.mp3" },
+        { title: "04- Cap tulo 3. Lecci n  1 La elecci n", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-04-_Cap_tulo_3._Lecci_n__1_La_elecci_n.mp3" },
+        { title: "05- Cap tulo 4. Lecci n  2  Qu  clase de mundo ve usted", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-05-_Cap_tulo_4._Lecci_n__2__Qu__clase_de_mundo_ve_usted.mp3" },
+        { title: "06- Cap tulo 5. Lecci n  3  Por qu  es desconcertante invertir", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-06-_Cap_tulo_5._Lecci_n__3__Por_qu__es_desconcertante_invertir.mp3" },
+        { title: "07- Cap tulo 6. ecci n  4 La inversi n es un plan  no un producto o un proceso", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-07-_Cap_tulo_6._ecci_n__4_La_inversi_n_es_un_plan__no_un_producto_o_un_proceso.mp3" },
+        { title: "09- Cap tulo 8. Lecci n  6 Volverse rico es un proceso autom tico si tiene un buen plan y lo sigue", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-09-_Cap_tulo_8._Lecci_n__6_Volverse_rico_es_un_proceso_autom_tico_si_tiene_un_buen_plan_y_lo_sigue.mp3" },
+        { title: "10- Cap tulo 9. Lecci n  7  C mo puede encontrar el plan correcto para usted", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-10-_Cap_tulo_9._Lecci_n__7__C_mo_puede_encontrar_el_plan_correcto_para_usted.mp3" },
+        { title: "11- Cap tulo 10. Lecci n  8 Decida ahora qu  quiere ser cuando crezca 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-11-_Cap_tulo_10._Lecci_n__8_Decida_ahora_qu__quiere_ser_cuando_crezca_2.mp3" },
+        { title: "13- Cap tulo 12. Lecci n  10 Por qu  invertir no es riesgoso", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-13-_Cap_tulo_12._Lecci_n__10_Por_qu__invertir_no_es_riesgoso.mp3" },
+        { title: "14- Cap tulo 13. Lecci n  11  De qu  lado de la mesa quiere sent ", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-14-_Cap_tulo_13._Lecci_n__11__De_qu__lado_de_la_mesa_quiere_sent_.mp3" },
+        { title: "15- Cap tulo 14. Lecci n  12 Las reglas b sicas de la inversi n", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-15-_Cap_tulo_14._Lecci_n__12_Las_reglas_b_sicas_de_la_inversi_n.mp3" },
+        { title: "16- Cap tulo 15. Lecci n  13 Disminuya el riesgo por medio de la educaci n financiera", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-16-_Cap_tulo_15._Lecci_n__13_Disminuya_el_riesgo_por_medio_de_la_educaci_n_financiera.mp3" },
+        { title: "19- Cap tulo 18. Lecci n  16  Cu l es el precio de volverse rico", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-19-_Cap_tulo_18._Lecci_n__16__Cu_l_es_el_precio_de_volverse_rico.mp3" },
+        { title: "20- Cap tulo 19. El acertijo 90-10", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-20-_Cap_tulo_19._El_acertijo_90-10.mp3" },
+        { title: "21- Cap tulo 20. Resolver el acertijo", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-21-_Cap_tulo_20._Resolver_el_acertijo.mp3" },
+        { title: "22- Cap tulo 21. Las categor as de inversionistas de mi padre rico", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-22-_Cap_tulo_21._Las_categor_as_de_inversionistas_de_mi_padre_rico.mp3" },
+        { title: "23- Cap tulo 22. El inversionista acreditado 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-23-_Cap_tulo_22._El_inversionista_acreditado_2.mp3" },
+        { title: "24- Cap tulo 23. El inversionista calificado 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-24-_Cap_tulo_23._El_inversionista_calificado_2.mp3" },
+        { title: "26- Cap tulo 25. El inversionista interno 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-26-_Cap_tulo_25._El_inversionista_interno_2.mp3" },
+        { title: "27- Cap tulo 26. El inversionista consumado 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-27-_Cap_tulo_26._El_inversionista_consumado_2.mp3" },
+        { title: "29- Cap tulo 28. Conserve su empleo y aun as  convi rtase en rico 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-29-_Cap_tulo_28._Conserve_su_empleo_y_aun_as__convi_rtase_en_rico_2.mp3" },
+        { title: "30- Cap tulo 29. El esp ritu empresarial 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-30-_Cap_tulo_29._El_esp_ritu_empresarial_2.mp3" },
+        { title: "33- Cap tulo 32. La administraci n del flujo de efectivo 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-33-_Cap_tulo_32._La_administraci_n_del_flujo_de_efectivo_2.mp3" },
+        { title: "34- Cap tulo 33. La administraci n de las comunicaciones 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-34-_Cap_tulo_33._La_administraci_n_de_las_comunicaciones_2.mp3" },
+        { title: "37- Cap tulo 36. La administraci n del producto", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-37-_Cap_tulo_36._La_administraci_n_del_producto.mp3" },
+        { title: "40- Cap tulo 39. El inversionista consumado 2", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-40-_Cap_tulo_39._El_inversionista_consumado_2.mp3" },
+        { title: "41- Cap tulo 40.  Es usted el pr ximo multimillonario", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/guia-invertir-41-_Cap_tulo_40.__Es_usted_el_pr_ximo_multimillonario.mp3" }
+    ],
+    pages: 380,
+    year: 2017,
+    language: "Español",
+    description: "Guía magistral de inversión que desvela las reglas secretas que diferencian a los inversionistas promedio de los grandes multimillonarios. Kiyosaki analiza las distintas categorías de inversionistas (acreditados, calificados, internos y consumados), la regla del 90/10, la administración del flujo de efectivo, la estructura legal y de comunicaciones de una empresa, y cómo reducir el riesgo a cero a través de la educación financiera práctica.",
+    cover: "covers/c-guia-para-hacerse-rico-robert-kiyosaki.png",
+    downloads: 1670,
+    featured: true,
+    aiAnalysis: {
+      genre: "Inversiones Avanzadas, Creación de Riqueza & Estrategia",
+      vibe: "Técnico-Accesible, Riguroso, Visionario & Formativo",
+      keyConcepts: [
+        "El Acertijo 90-10: El 10% de los Inversionistas Gana el 90% del Dinero",
+        "Categorías de Inversionistas: Acreditado, Calificado, Interno y Consumado",
+        "El Triángulo B-I: Misión, Equipo, Liderazgo, Producto y Finanzas",
+        "Cómo Reducir el Riesgo de una Inversión Mediante el Conocimiento Profundo"
+      ],
+      targetAudience: "Inversionistas novatos y experimentados, fundadores y personas con excedentes de capital que deseen multiplicar su patrimonio.",
+      aiSummary: "Colección exhaustiva de 28 lecciones en audio. Un curso intensivo en escucha continua sobre la psicología y las técnicas de los mayores creadores de riqueza del planeta."
+    }
+  },
+  {
+    id: 2647,
+    title: "Por Qué los Ricos se Vuelven Más Ricos (Audiolibro)",
+    author: "Robert T. Kiyosaki & Tom Wheelwright",
+    category: "Finanzas & Inversión",
+    collection: "Colección Audiolibros",
+    subtopic: "La Verdadera Educación Financiera y las Reglas del Juego Moderno",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-03__Qu__es_realmente_la_educaci_n_financiera_03.m4a",
+    tracks: [
+        { title: "03  Qu  es realmente la educaci n financiera 03", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-03__Qu__es_realmente_la_educaci_n_financiera_03.m4a" },
+        { title: "04  Qu  es realmente la educaci n financiera 04", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-04__Qu__es_realmente_la_educaci_n_financiera_04.m4a" },
+        { title: "05  Qu  es realmente la educaci n financiera 05", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-05__Qu__es_realmente_la_educaci_n_financiera_05.m4a" },
+        { title: "06  Qu  es realmente la educaci n financiera 06", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-06__Qu__es_realmente_la_educaci_n_financiera_06.m4a" },
+        { title: "12  Qu  es realmente la educaci n financiera 12", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-12__Qu__es_realmente_la_educaci_n_financiera_12.m4a" },
+        { title: "20  Qu  es realmente la educaci n financiera 20", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-20__Qu__es_realmente_la_educaci_n_financiera_20.m4a" },
+        { title: "22  Qu  es realmente la educaci n financiera 22", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-22__Qu__es_realmente_la_educaci_n_financiera_22.m4a" },
+        { title: "23  Qu  es realmente la educaci n financiera 23", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-23__Qu__es_realmente_la_educaci_n_financiera_23.m4a" },
+        { title: "25  Qu  es realmente la educaci n financiera 25", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-25__Qu__es_realmente_la_educaci_n_financiera_25.m4a" },
+        { title: "26  Qu  es realmente la educaci n financiera 26", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ricos-mas-ricos-26__Qu__es_realmente_la_educaci_n_financiera_26.m4a" }
+    ],
+    pages: 290,
+    year: 2019,
+    language: "Español",
+    description: "A 20 años de 'Padre Rico, Padre Pobre', Kiyosaki profundiza en los mecanismos que la élite económica utiliza para proteger y expandir su patrimonio legalmente mediante los impuestos, la deuda buena y los activos productivos. Aprende qué es verdaderamente la educación financiera en el siglo XXI, por qué ahorrar dinero en efectivo pierde valor con la inflación y cómo usar las reglas del sistema a tu favor.",
+    cover: "covers/c-emprendedores-que-es-la-educacion-financiera-robert-kiyosaki.jpg",
+    downloads: 1520,
+    featured: true,
+    aiAnalysis: {
+      genre: "Finanzas Modernas, Impuestos, Deuda & Estrategia Económica",
+      vibe: "Audaz, Práctico, Desafiante & Contemporáneo",
+      keyConcepts: [
+        "Por qué los Ahorradores son Perdedores en un Mundo Inflacionario",
+        "Uso de la Deuda Buena para Apalancar Adquisición de Activos",
+        "Leyes Tributarias como Incentivos Gubernamentales para Emprendedores",
+        "Educación Financiera Continua como Blindaje Económico"
+      ],
+      targetAudience: "Profesionales, inversionistas inmobiliarios y empresarios que buscan optimizar su carga fiscal y multiplicar su liquidez.",
+      aiSummary: "Audiolibro en 10 capítulos esenciales que expone las dinámicas de la economía actual y cómo los ricos aprovechan las leyes y la inflación para generar más riqueza."
+    }
+  },
+  {
+    id: 2648,
+    title: "El Negocio del Siglo 21 (Audiolibro)",
+    author: "Robert T. Kiyosaki",
+    category: "Finanzas & Inversión",
+    collection: "Colección Audiolibros",
+    subtopic: "Redes de Mercadeo y Modelos de Negocio Colaborativos",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/negocio-siglo-21-cd5.mp3",
+    pages: 160,
+    year: 2016,
+    language: "Español",
+    description: "Robert Kiyosaki analiza por qué el modelo de redes y mercadeo en red representa una de las vías más democráticas y accesibles para que cualquier individuo, sin importar su procedencia o capital inicial, desarrolle habilidades de liderazgo, ventas, oratoria y construcción de activos pasivos con un sistema escalable y probado.",
+    cover: "covers/c-el-negocio-del-siglo-21-robert-kiyosaki.png",
+    downloads: 1410,
+    featured: true,
+    aiAnalysis: {
+      genre: "Emprendimiento, Ventas & Redes de Negocio",
+      vibe: "Directo, Alentador & Altamente Formativo",
+      keyConcepts: [
+        "Los 8 Activos Escondidos del Modelo de Redes",
+        "Desarrollo de Habilidades de Liderazgo y Mentalidad de Éxito",
+        "El Efecto Red de Metcalfe Aplicado a la Prosperidad Personal",
+        "De la Dependencia Salarial al Liderazgo de Equipos Internacionales"
+      ],
+      targetAudience: "Distribuidores, líderes de equipo, nuevos emprendedores y personas buscando un vehículo accesible para emprender.",
+      aiSummary: "Audiolibro indispensable que desmitifica los modelos de apalancamiento social y enseña a crear redes de distribución con mentalidad corporativa."
+    }
+  },
+  {
+    id: 2649,
+    title: "Cómo Ganarse a la Gente (Audiolibro Íntegro)",
+    author: "John C. Maxwell",
+    category: "Liderazgo & Estrategia",
+    collection: "Colección Audiolibros",
+    subtopic: "Principios de Conexión, Carisma y Relaciones Humanas",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/como-ganarse-a-la-gente-maxwell.mp3",
+    pages: 260,
+    year: 2015,
+    language: "Español",
+    description: "Una obra maestra de las relaciones humanas por el mayor experto mundial en liderazgo, John C. Maxwell. El audiolibro enseña cómo construir conexiones genuinas, ganarse la confianza instantánea de colegas, clientes y familiares, resolver conflictos con empatía y convertirse en una persona magnética cuya presencia inspire y eleve a quienes la rodean.",
+    cover: "covers/c-emprendedores-el-abc-de-las-relaciones-john-c-maxwell.jpg",
+    downloads: 2180,
+    featured: true,
+    aiAnalysis: {
+      genre: "Liderazgo, Inteligencia Interpersonal & Psicología Social",
+      vibe: "Cálido, Profundo, Inspirador & Práctico",
+      keyConcepts: [
+        "El Principio del Lente: Quién Eres Determina Cómo Ves a los Demás",
+        "El Principio del Espejo: La Primera Persona a Examinar es Uno Mismo",
+        "El Principio del Carisma: El Interés Genuino en el Prójimo",
+        "Construcción de Puentes Emocionales en Negocios y Equipos"
+      ],
+      targetAudience: "Líderes de equipo, directores, vendedores, oradores y cualquier persona que busque mejorar drásticamente sus vínculos humanos.",
+      aiSummary: "Audiolibro completo de larga duración (216 MB) con narración profesional de alta fidelidad. Un tratado definitivo sobre la empatía y la influencia constructiva."
+    }
+  },
+  {
+    id: 2650,
+    title: "Diez Acciones para Crecer en Liderazgo (Audiolibro)",
+    author: "John C. Maxwell",
+    category: "Liderazgo & Estrategia",
+    collection: "Colección Audiolibros",
+    subtopic: "Hábitos y Disciplinas Diarias del Líder Excepcional",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/diez-acciones-liderazgo-maxwell.mp3",
+    pages: 140,
+    year: 2018,
+    language: "Español",
+    description: "John C. Maxwell condensa diez acciones concretas y no negociables que todo individuo con aspiraciones directivas debe aplicar a diario. Desde la priorización del tiempo hasta la mentoría de nuevos líderes, esta conferencia en audio entrega claves directas para multiplicar el impacto personal y profesional.",
+    cover: "covers/c-abc-del-liderazgo-jhon-maxwellpdf.png",
+    downloads: 1380,
+    featured: true,
+    aiAnalysis: {
+      genre: "Desarrollo Directivo & Hábitos Ejecutivos",
+      vibe: "Dinámico, Concentrado, Enérgico & Aplicable",
+      keyConcepts: [
+        "Priorización Radical con la Regla del 80/20",
+        "Desarrollo Intencional del Carácter y la Credibilidad",
+        "El Arte de Preguntar en vez de Mandar",
+        "Invertir en Personas Clave para Multiplicar Resultados"
+      ],
+      targetAudience: "Supervisores, gerentes, directores y emprendedores con equipos a su cargo.",
+      aiSummary: "Sesión magistral en audio de John C. Maxwell con 10 pilares prácticos para acelerar el desarrollo del liderazgo y elevar el techo del potencial de cualquier organización."
+    }
+  },
+  {
+    id: 2651,
+    title: "La Ley de la Navegación (Audiolibro)",
+    author: "John C. Maxwell",
+    category: "Liderazgo & Estrategia",
+    collection: "Colección Audiolibros",
+    subtopic: "Las 21 Leyes Irrefutables: Trazar el Rumbo y Liderar con Visión",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/04-la-ley-de-la-navegacion.mp3",
+    pages: 45,
+    year: 2016,
+    language: "Español",
+    description: "Extracto en audio fundamental de 'Las 21 Leyes Irrefutables del Liderazgo'. Maxwell expone con fascinantes anécdotas históricas por qué cualquiera puede gobernar un barco en aguas calmas, pero se requiere un líder excepcional para trazar la ruta de navegación, anticipar tempestades y llevar a toda la tripulación a puerto seguro.",
+    cover: "covers/c-emprendedores-las-21-leyes-irrefutables-del-liderazgo-john-c-maxwell-73-pa.jpg",
+    downloads: 1220,
+    featured: true,
+    aiAnalysis: {
+      genre: "Estrategia de Liderazgo & Visión Ejecutiva",
+      vibe: "Inspirador, Enfocado, Didáctico & Memorable",
+      keyConcepts: [
+        "Anticipación de Obstáculos antes de Zarpar",
+        "La Fórmula P-L-A-N-N-E-D de Maxwell para la Planificación Estratégica",
+        "Cómo Transmitir Seguridad y Dirección a un Equipo en Momentos de Crisis"
+      ],
+      targetAudience: "Guías, capitanes de proyecto y profesionales que deben tomar decisiones de alto impacto.",
+      aiSummary: "Lección en audio concentrada de la Ley 4 del liderazgo de Maxwell. Imprescindible para afinar la visión estratégica y el trazado de planes exitosos."
+    }
+  },
+  {
+    id: 2652,
+    title: "La Vaca: Cómo deshacerse de las excusas (Audiolibro)",
+    author: "Dr. Camilo Cruz",
+    category: "Crecimiento Personal",
+    collection: "Colección Audiolibros",
+    subtopic: "Superación del Conformismo y Destrucción de Excusas Limitantes",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/la-vaca-camilo-cruz.mp3",
+    pages: 130,
+    year: 2015,
+    language: "Español",
+    description: "Una de las parábolas más celebradas de la literatura de desarrollo personal en América Latina. El Dr. Camilo Cruz relata la historia del maestro sabio que sacrifica la vaca de una familia campesina sumida en la pobreza para enseñarles que aquello que creían su único sustento era en realidad la cadena que los mantenía en la mediocridad. Descubre cuáles son tus propias 'vacas' (justificaciones, miedos, falsas creencias) y cómo liberarte de ellas para alcanzar tu verdadero potencial.",
+    cover: "covers/c-emprendedores-la-vaca-camilo-cruz-35-paginas.jpg",
+    downloads: 2790,
+    featured: true,
+    aiAnalysis: {
+      genre: "Motivación, Mentalidad de Éxito & Parábolas de Vida",
+      vibe: "Fascinante, Impactante, Transformador & Inolvidable",
+      keyConcepts: [
+        "Identificación de las Vacas: Excusas, Justificaciones y Miedos",
+        "El Peligro de la 'Zona de Confort' y el Conformismo Tóxico",
+        "El Sacrificio de la Vaca: Decisión Radical de Crecer y Progresar",
+        "Cinco Pasos Concretos para Eliminar Hábitos Mediocres"
+      ],
+      targetAudience: "Cualquier persona que sienta que se encuentra atrapada en la rutina o que posterga sus mayores sueños por miedo o comodidad.",
+      aiSummary: "Audiolibro completo narrado con pasión por el Dr. Camilo Cruz (58 MB). Una historia inolvidable que sacude la conciencia e impulsa a la acción valiente e inmediata."
+    }
+  },
+  {
+    id: 2653,
+    title: "La Actitud Mental Positiva (Audiolibro)",
+    author: "Napoleon Hill & W. Clement Stone",
+    category: "Crecimiento Personal",
+    collection: "Colección Audiolibros",
+    subtopic: "Un Sistema a Prueba de Fallos para Conquistar Metas",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/actitud-mental-positiva-parte1.mp3",
+    pages: 280,
+    year: 2014,
+    language: "Español",
+    description: "La célebre colaboración entre Napoleon Hill (autor de 'Piense y hágase rico') y el magnate W. Clement Stone. En este audiolibro se exponen los principios científicos y psicológicos de la Actitud Mental Positiva (AMP) frente a la Actitud Mental Negativa (AMN). Aprende a canalizar el poder del entusiasmo, la autosugestión, la claridad de objetivos y la transmutación de la adversidad en un trampolín hacia el triunfo personal y económico.",
+    cover: "covers/c-hill-napoleon-piense-y-hagase-rico.png",
+    downloads: 2310,
+    featured: true,
+    aiAnalysis: {
+      genre: "Psicología del Éxito, Autosugestión & Motivación",
+      vibe: "Poderoso, Clásico, Enérgico & Sistemático",
+      keyConcepts: [
+        "El Talismán Mental: La Cara Positiva (AMP) vs. la Cara Negativa (AMN)",
+        "Los 17 Principios del Éxito Comprobado",
+        "Cómo Transmutar la Derrota Temporal en una Semilla de Éxito Mayor",
+        "El Control del Diálogo Interno y el Poder de la Autodisciplina"
+      ],
+      targetAudience: "Emprendedores, estudiantes y profesionales que deseen cultivar una mentalidad blindada ante cualquier obstáculo.",
+      aiSummary: "Audiolibro de referencia universal (51 MB) que enseña cómo la disposición mental interna configura inexorablemente las circunstancias externas de la vida."
+    }
+  },
+  {
+    id: 2654,
+    title: "Águila o Gallina (Audiolibro)",
+    author: "Dr. Camilo Cruz",
+    category: "Crecimiento Personal",
+    collection: "Colección Audiolibros",
+    subtopic: "Elige Volar Alto en vez de Rascar la Tierra del Promedio",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/aguila-o-gallina.mp3",
+    pages: 110,
+    year: 2016,
+    language: "Español",
+    description: "A través de la célebre alegoría del aguilucho criado en un corral de gallinas que cree ser incapaz de volar, el Dr. Camilo Cruz desafía al oyente a romper con la programación heredada y descubrir las alas de su verdadero potencial. Una reflexión en audio directa y vibrante para elevar los estándares personales y atreverse a soñar en grande.",
+    cover: "covers/c-emprendedores-recopilacion-90-articulos-camilo-cruz.jpg",
+    downloads: 1640,
+    featured: true,
+    aiAnalysis: {
+      genre: "Superación Personal, Identidad & Autoestima",
+      vibe: "Conmovedor, Desafiante, Directo & Despertador",
+      keyConcepts: [
+        "El Poder del Condicionamiento Ambiental en la Autoimagen",
+        "Reconocer las Propias Alas: Talento, Pasión y Propósito",
+        "Separarse de la Manada del Corro y Desplegar el Vuelo Alto",
+        "La Valentía de Dejar la Comodidad del Corral"
+      ],
+      targetAudience: "Personas en búsqueda de redescubrir su vocación y romper límites autoimpuestos por el entorno.",
+      aiSummary: "Audiolibro integral del Dr. Camilo Cruz (28 MB) que confronta nuestras creencias sobre lo que somos capaces de lograr cuando dejamos de conformarnos con el suelo."
+    }
+  },
+  {
+    id: 2655,
+    title: "¿Cómo Funciona el Dinero? (Audiolibro)",
+    author: "Educación Financiera",
+    category: "Finanzas & Inversión",
+    collection: "Colección Audiolibros",
+    subtopic: "Las Reglas Reales del Sistema Monetario y la Creación de Capital",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/como-funciona-el-dinero.mp3",
+    pages: 95,
+    year: 2018,
+    language: "Español",
+    description: "Una explicación accesible, concisa y sumamente gráfica sobre la naturaleza del dinero en el mundo contemporáneo: qué es la inflación, cómo se crea el crédito bancario, qué distingue al dinero fíat del valor real, y cómo estructurar una estrategia de protección patrimonial y generación de riqueza basada en activos tangibles.",
+    cover: "covers/c-emprendedores-las-21-leyes-absolutamente-inquebrantables-del-dinero.jpg",
+    downloads: 1530,
+    featured: true,
+    aiAnalysis: {
+      genre: "Economía Básica, Finanzas Prácticas & Pedagogía Monetaria",
+      vibe: "Didáctico, Claro, Revelador & Pragmático",
+      keyConcepts: [
+        "Qué es Realmente el Dinero: Medio de Cambio y Almacén de Valor",
+        "El Impacto Silencioso de la Inflación en el Ahorro Tradicional",
+        "Interés Compuesto: La Octava Maravilla del Mundo Financiero",
+        "Diversificación y Construcción de Fuentes de Flujo Múltiples"
+      ],
+      targetAudience: "Jóvenes, profesionales y cualquier persona que quiera entender de una vez por todas cómo se mueve el dinero en el mundo real.",
+      aiSummary: "Audiolibro didáctico (16 MB) que traduce los conceptos más complejos de la macroeconomía y las finanzas a lecciones cotidianas e inmediatamente aplicables."
+    }
+  },
+  {
+    id: 2656,
+    title: "La Ley de la Atracción: El Secreto Revelado (Audiolibro)",
+    author: "Tres Iniciados del Pensamiento Positivo",
+    category: "Espiritualidad & sabiduría",
+    collection: "Colección Audiolibros",
+    subtopic: "Frecuencia Mental, Resonancia Cuántica y Manifestación",
+    format: "audio",
+    audioUrl: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ley-atraccion-parte1.mp3",
+    tracks: [
+        { title: "Parte I: El Principio Universal de Atracción", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ley-atraccion-parte1.mp3" },
+        { title: "Parte II: Aplicación Práctica y Manifestación", url: "https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/audiolibros-v1/ley-atraccion-parte2.mp3" }
+    ],
+    pages: 200,
+    year: 2017,
+    language: "Español",
+    description: "Audiolibro completo en dos partes que desentraña los misterios de la Ley de la Atracción desde una perspectiva práctica y profunda. Explica cómo la mente actúa como una estación emisora y receptora de frecuencias vibratorias, y cómo el alineamiento congruente entre pensamientos, emociones y acciones deliberadas genera sincronicidades favorables para alcanzar cualquier objetivo de vida.",
+    cover: "covers/c-2616-ley-de-atraccion-michael-losier.jpg",
+    downloads: 2120,
+    featured: true,
+    aiAnalysis: {
+      genre: "Manifestación Consciente, Espiritualidad & Psicología Cuántica",
+      vibe: "Enfocado, Trascendental, Alentador & Profundo",
+      keyConcepts: [
+        "La Mente como Transmisor y Receptor de Frecuencias Vibratorias",
+        "Alineación Emocional: Sentir el Estado Deseado como Hecho Presente",
+        "Eliminación de la Duda y la Resistencia Interna",
+        "Acción Inspirada frente al Esfuerzo Agotador"
+      ],
+      targetAudience: "Buscadores de desarrollo interior, ley de atracción y dominio de la energía mental.",
+      aiSummary: "Edición íntegra en audio (114 MB en 2 partes) que guía al oyente en la práctica deliberada de la ley de atracción para manifestar bienestar, paz y abundancia."
+    }
+  },
+
   {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
