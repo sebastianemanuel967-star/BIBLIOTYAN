@@ -1758,11 +1758,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let audioPlayerInitialized = false;
 
   function getAudioStreamUrl(rawUrl) {
-    if (!rawUrl) return '';
-    if (rawUrl.includes('github.com') && rawUrl.includes('/releases/download/')) {
-      return `/stream?url=${encodeURIComponent(rawUrl)}`;
-    }
-    return rawUrl;
+    return rawUrl || '';
   }
 
   function initAudioPlayer() {
@@ -1963,8 +1959,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (audio.paused) {
       const playPromise = audio.play();
       if (playPromise !== undefined) {
-        playPromise.catch(e => {
+        playPromise.then(() => {
+          const icon = document.getElementById('audioPlayIcon');
+          if (icon) icon.className = 'fa-solid fa-pause';
+          const indicator = document.getElementById('audioPulseIndicator');
+          if (indicator) indicator.classList.add('playing');
+        }).catch(e => {
           console.warn('Playback prevented:', e);
+          showToast('Toca el botón Play para iniciar el audio', 'info');
         });
       }
     } else {
