@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A0D2E"/>
+      <stop offset="50%" stop-color="#12081F"/>
+      <stop offset="100%" stop-color="#0A0412"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+    <linearGradient id="violetGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9d4edd"/>
+      <stop offset="100%" stop-color="#c77dff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="600" fill="url(#bgGrad)"/>
+  <rect width="400" height="600" fill="url(#glow)"/>
+
+  <!-- Border Frame -->
+  <rect x="15" y="15" width="370" height="570" fill="none" stroke="url(#violetGrad)" stroke-width="1.5" stroke-opacity="0.4" rx="8"/>
+  <rect x="22" y="22" width="356" height="556" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" stroke-opacity="0.3" rx="6"/>
+
+  <!-- Top Brand Header -->
+  <text x="200" y="55" text-anchor="middle" fill="#c77dff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="3">AUDIOTYAN &bull; COLECCIÓN MAESTRA</text>
+
+  <!-- Decorative Icon / Symbol Circle -->
+  <circle cx="200" cy="180" r="55" fill="#1e1038" stroke="url(#violetGrad)" stroke-width="2"/>
+  <path d="M175 180 A25 25 0 0 1 225 180 V195 A8 8 0 0 1 217 203 H213 V180 H221 A17 17 0 0 0 179 180 H187 V203 H183 A8 8 0 0 1 175 195 Z" fill="#e0b0ff"/>
+  <circle cx="200" cy="180" r="8" fill="url(#goldGrad)"/>
+
+  <!-- Book Title -->
+  <text x="200" y="285" text-anchor="middle" fill="#FFFFFF" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="24" font-weight="700" letter-spacing="1">LA DIVINA COMEDIA</text>
+  <text x="200" y="320" text-anchor="middle" fill="url(#goldGrad)" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="18" font-weight="600" letter-spacing="2">EL INFIERNO</text>
+
+  <line x1="120" y1="350" x2="280" y2="350" stroke="url(#violetGrad)" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Author -->
+  <text x="200" y="385" text-anchor="middle" fill="#e0b0ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" letter-spacing="2">DANTE ALIGHIERI</text>
+  <text x="200" y="415" text-anchor="middle" fill="#9A87B3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" letter-spacing="1">AUDIOLIBRO ÍNTEGRO &bull; CLÁSICO UNIVERSAL</text>
+
+  <!-- Bottom Badge -->
+  <g transform="translate(130, 510)">
+    <rect width="140" height="32" rx="16" fill="#1A0D2E" stroke="url(#goldGrad)" stroke-width="1"/>
+    <text x="70" y="20" text-anchor="middle" fill="#FFD700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">NARRACIÓN COMPLETA</text>
+  </g>
+</svg>

@@ -1779,18 +1779,33 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filtros por temática
     if (currentSpotifyFilter === 'kiyosaki') {
       audioBooks = audioBooks.filter(b => 
-        (b.author && b.author.toLowerCase().includes('kiyosaki')) ||
-        (b.title && (b.title.toLowerCase().includes('dinero') || b.title.toLowerCase().includes('invertir') || b.title.toLowerCase().includes('rico') || b.title.toLowerCase().includes('flujo') || b.title.toLowerCase().includes('siglo 21')))
+        (b.author && (b.author.toLowerCase().includes('kiyosaki') || b.author.toLowerCase().includes('benoist'))) ||
+        (b.title && (b.title.toLowerCase().includes('dinero') || b.title.toLowerCase().includes('invertir') || b.title.toLowerCase().includes('rico') || b.title.toLowerCase().includes('flujo') || b.title.toLowerCase().includes('siglo 21') || b.title.toLowerCase().includes('ambicioso')))
       );
     } else if (currentSpotifyFilter === 'maxwell') {
       audioBooks = audioBooks.filter(b => 
-        (b.author && (b.author.toLowerCase().includes('maxwell') || b.author.toLowerCase().includes('tracy') || b.author.toLowerCase().includes('robbins'))) ||
-        (b.title && (b.title.toLowerCase().includes('liderazgo') || b.title.toLowerCase().includes('ganarse') || b.title.toLowerCase().includes('relaciones') || b.title.toLowerCase().includes('cerrar') || b.title.toLowerCase().includes('gigante')))
+        (b.author && (b.author.toLowerCase().includes('maxwell') || b.author.toLowerCase().includes('tracy') || b.author.toLowerCase().includes('robbins') || b.author.toLowerCase().includes('cornejo') || b.author.toLowerCase().includes('bobadilla'))) ||
+        (b.title && (b.title.toLowerCase().includes('liderazgo') || b.title.toLowerCase().includes('ganarse') || b.title.toLowerCase().includes('relaciones') || b.title.toLowerCase().includes('cerrar') || b.title.toLowerCase().includes('gigante') || b.title.toLowerCase().includes('civilización') || b.title.toLowerCase().includes('actitud') || b.title.toLowerCase().includes('leyes') || b.title.toLowerCase().includes('cambio')))
       );
     } else if (currentSpotifyFilter === 'exito') {
       audioBooks = audioBooks.filter(b => 
-        (b.author && (b.author.toLowerCase().includes('napoleon') || b.author.toLowerCase().includes('camilo') || b.author.toLowerCase().includes('hill'))) ||
-        (b.title && (b.title.toLowerCase().includes('atracción') || b.title.toLowerCase().includes('positiva') || b.title.toLowerCase().includes('vaca') || b.title.toLowerCase().includes('águila') || b.title.toLowerCase().includes('piense')))
+        (b.author && (b.author.toLowerCase().includes('napoleon') || b.author.toLowerCase().includes('camilo') || b.author.toLowerCase().includes('hill') || b.author.toLowerCase().includes('ziglar') || b.author.toLowerCase().includes('allen') || b.author.toLowerCase().includes('villalobos') || b.author.toLowerCase().includes('dey') || b.author.toLowerCase().includes('proctor'))) ||
+        (b.title && (b.title.toLowerCase().includes('atracción') || b.title.toLowerCase().includes('positiva') || b.title.toLowerCase().includes('vaca') || b.title.toLowerCase().includes('águila') || b.title.toLowerCase().includes('piense') || b.title.toLowerCase().includes('metas') || b.title.toLowerCase().includes('funcione') || b.title.toLowerCase().includes('sueña') || b.title.toLowerCase().includes('cambie') || b.title.toLowerCase().includes('primer día')))
+      );
+    } else if (currentSpotifyFilter === 'conferencias') {
+      audioBooks = audioBooks.filter(b => 
+        (b.author && (b.author.toLowerCase().includes('kenji') || b.author.toLowerCase().includes('bobadilla') || b.author.toLowerCase().includes('cornejo') || b.author.toLowerCase().includes('villalobos') || b.author.toLowerCase().includes('habif') || b.author.toLowerCase().includes('benoist'))) ||
+        (b.title && (b.title.toLowerCase().includes('conferencia') || b.title.toLowerCase().includes('disciplina') || b.title.toLowerCase().includes('mitos') || b.title.toLowerCase().includes('generación') || b.title.toLowerCase().includes('temores') || b.title.toLowerCase().includes('civilización') || b.title.toLowerCase().includes('actitud') || b.title.toLowerCase().includes('promesa')))
+      );
+    } else if (currentSpotifyFilter === 'clasicos') {
+      audioBooks = audioBooks.filter(b => 
+        (b.author && (b.author.toLowerCase().includes('dante') || b.author.toLowerCase().includes('saramago') || b.author.toLowerCase().includes('poe') || b.author.toLowerCase().includes('neruda') || b.author.toLowerCase().includes('heller'))) ||
+        (b.title && (b.title.toLowerCase().includes('comedia') || b.title.toLowerCase().includes('infierno') || b.title.toLowerCase().includes('intermitencias') || b.title.toLowerCase().includes('escarabajo') || b.title.toLowerCase().includes('poemas') || b.title.toLowerCase().includes('color')))
+      );
+    } else if (currentSpotifyFilter === 'bienestar') {
+      audioBooks = audioBooks.filter(b => 
+        (b.author && (b.author.toLowerCase().includes('sleep') || b.author.toLowerCase().includes('cabral') || b.author.toLowerCase().includes('proctor') || b.author.toLowerCase().includes('habif') || b.author.toLowerCase().includes('crecimiento') || b.author.toLowerCase().includes('mente'))) ||
+        (b.title && (b.title.toLowerCase().includes('sleep') || b.title.toLowerCase().includes('relax') || b.title.toLowerCase().includes('distraído') || b.title.toLowerCase().includes('deprimido') || b.title.toLowerCase().includes('miedo') || b.title.toLowerCase().includes('confianza') || b.title.toLowerCase().includes('promesa') || b.title.toLowerCase().includes('dominio propio')))
       );
     }
 

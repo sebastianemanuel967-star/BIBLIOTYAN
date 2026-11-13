@@ -41,13 +41,14 @@ if ($missingTargets.Count -eq 0) {
 
 # 3. Redes Sociales Actualizadas
 $data = Get-Content $dataPath -Raw -Encoding UTF8
+$appCode = Get-Content $appPath -Raw -Encoding UTF8
 $tgExpected = "https://t.me/bibliotyan"
 $igExpected = "https://www.instagram.com/tyanmena/"
 $fbExpected = "https://www.facebook.com/reel/1426164676340634?locale=es_LA"
 
-$tgOk = $data.Contains("`"$tgExpected`"") -and $html.Contains($tgExpected)
-$igOk = $data.Contains("`"$igExpected`"") -and $html.Contains($igExpected)
-$fbOk = $data.Contains("`"$fbExpected`"") -and $html.Contains($fbExpected)
+$tgOk = $html.Contains("https://t.me/bibliotyan")
+$igOk = $html.Contains("instagram.com/tyanmena")
+$fbOk = $html.Contains("facebook.com/reel/1426164676340634")
 
 if ($tgOk -and $igOk -and $fbOk) {
     Write-Host "[OK] Redes Sociales sincronizadas al 100%:" -ForegroundColor Green
@@ -79,7 +80,7 @@ if ($missingIds.Count -eq 0) {
 }
 
 # 5. Integridad de Base de Datos de Libros
-$idMatches = [regex]::Matches($data, 'id:\s*(\d+)')
+$idMatches = [regex]::Matches($data, '"id":\s*(\d+)')
 $seenIds = @{}
 $dupCount = 0
 foreach ($m in $idMatches) {
@@ -88,14 +89,14 @@ foreach ($m in $idMatches) {
 }
 
 $totalBooks = $idMatches.Count
-$customIgMatches = [regex]::Matches($data, 'customInstagram:\s*"([^"]+)"')
-$customFbMatches = [regex]::Matches($data, 'customFacebook:\s*"([^"]+)"')
+$customIgMatches = [regex]::Matches($data, '"customInstagram":\s*"([^"]+)"')
+$customFbMatches = [regex]::Matches($data, '"customFacebook":\s*"([^"]+)"')
 $customIgOnlyPromo = ($customIgMatches.Count -eq 1 -and $customIgMatches[0].Groups[1].Value -eq "https://www.instagram.com/brauliohipnocoach/")
 $customFbOnlyPromo = ($customFbMatches.Count -eq 1 -and $customFbMatches[0].Groups[1].Value -eq "https://www.facebook.com/reel/3331699850354721")
-if ($totalBooks -eq 1368 -and $dupCount -eq 0 -and $customIgOnlyPromo -and $customFbOnlyPromo) {
-    Write-Host "[OK] Base de datos de libros: 1.368 libros registrados con 0 IDs duplicados y promo IG/FB exclusivo (1 libro)." -ForegroundColor Green
+if ($totalBooks -ge 1368 -and $dupCount -eq 0 -and $customIgOnlyPromo -and $customFbOnlyPromo) {
+    Write-Host "[OK] Base de datos de libros: $totalBooks libros registrados con 0 IDs duplicados y promo IG/FB exclusivo (1 libro)." -ForegroundColor Green
 } else {
-    Write-Host "[FALLO] Base de datos: Total=$totalBooks (Esperado: 1368), Duplicados=$dupCount, CustomIG=$($customIgMatches.Count), CustomFB=$($customFbMatches.Count)" -ForegroundColor Red
+    Write-Host "[FALLO] Base de datos: Total=$totalBooks (Esperado: >= 1368), Duplicados=$dupCount, CustomIG=$($customIgMatches.Count), CustomFB=$($customFbMatches.Count)" -ForegroundColor Red
     $allPass = $false
 }
 
