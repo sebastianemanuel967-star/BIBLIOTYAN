@@ -319,25 +319,141 @@
       </div>
     </section>
 
-    <!-- ==================== AUDIOTYAN — SECCIÓN DE AUDIOLIBROS ==================== -->
-    <section class="audiotyan-section" id="audiotyan">
-      <div class="section-header">
-        <span class="section-kicker"><i data-lucide="headphones"></i> EXPERIENCIA INMERSIVA</span>
-        <h2>AUDIOTYAN</h2>
-        <p>Audiolibros &iacute;ntegros de Finanzas, Liderazgo y Crecimiento con reproductor interactivo y selector de cap&iacute;tulos</p>
-        <div class="accent-line"></div>
-      </div>
-      <div class="audiotyan-bar">
-        <div class="audiotyan-stats">
-          <span><i data-lucide="headphones"></i> <strong>20</strong> Audiolibros Maestros</span>
-          <span><i data-lucide="list-music"></i> <strong>128</strong> Cap&iacute;tulos en Alta Definici&oacute;n</span>
-          <span><i data-lucide="zap"></i> Streaming Inmediato</span>
+    <!-- ==================== AUDIOTYAN — EXPERIENCIA SPOTIFY DE AUDIOLIBROS & CURSOS ==================== -->
+    <section class="audiotyan-section spotify-theme" id="audiotyan">
+      <div class="spotify-hero-banner">
+        <div class="spotify-hero-glow"></div>
+        <div class="spotify-hero-content">
+          <div class="spotify-verified-badge">
+            <span class="spotify-badge-dot"></span>
+            <i data-lucide="headphones"></i> AUDIOTYAN STUDIO • AUDIO EXCLUSIVO
+          </div>
+          <h2 class="spotify-hero-title">El Spotify del Conocimiento</h2>
+          <p class="spotify-hero-subtitle">
+            Audiolibros &iacute;ntegros y pr&oacute;ximos cursos en audio con selector de cap&iacute;tulos, reproducci&oacute;n continua y streaming optimizado para m&oacute;vil.
+          </p>
+          <div class="spotify-hero-stats">
+            <span class="s-stat"><i data-lucide="disc"></i> <strong>20</strong> Audiolibros Maestros</span>
+            <span class="s-stat"><i data-lucide="list-music"></i> <strong>128</strong> Cap&iacute;tulos HD</span>
+            <span class="s-stat"><i data-lucide="sparkles"></i> <strong>Cursos en Audio</strong> Pr&oacute;ximamente</span>
+          </div>
+          <div class="spotify-hero-actions">
+            <button type="button" class="btn-spotify-play-all" onclick="openAudioPlayerById(2644)">
+              <i class="fa-solid fa-play"></i> Reproducir Colecci&oacute;n
+            </button>
+            <button type="button" class="btn-spotify-explore" onclick="selectCategory('Audiolibros', false, true); document.getElementById('catalog').scrollIntoView({behavior: 'smooth'});">
+              <i data-lucide="list-filter"></i> Ver en Cat&aacute;logo
+            </button>
+          </div>
         </div>
-        <button type="button" class="btn-audiotyan-explore" onclick="selectCategory('Audiolibros', false, true); document.getElementById('catalog').scrollIntoView({behavior: 'smooth'});">
-          <i data-lucide="list-filter"></i> Ver todos en el Cat&aacute;logo
-        </button>
       </div>
-      <div class="audiotyan-grid" id="audiotyanGrid"></div>
+
+      <!-- Barra de Filtros y Búsqueda estilo Spotify Chips -->
+      <div class="spotify-controls-bar">
+        <div class="spotify-search-box">
+          <i data-lucide="search" class="spotify-search-icon"></i>
+          <input type="text" id="spotifySearchInput" class="spotify-search-input" placeholder="Buscar audiolibro, autor o cap&iacute;tulo..." oninput="onSpotifySearch(this.value)">
+        </div>
+        <div class="spotify-chips-row">
+          <button type="button" class="spotify-chip active" data-sub="all" onclick="filterSpotifyShelf('all')">Todos</button>
+          <button type="button" class="spotify-chip" data-sub="kiyosaki" onclick="filterSpotifyShelf('kiyosaki')">Finanzas & Riqueza</button>
+          <button type="button" class="spotify-chip" data-sub="maxwell" onclick="filterSpotifyShelf('maxwell')">Liderazgo & Mentalidad</button>
+          <button type="button" class="spotify-chip" data-sub="exito" onclick="filterSpotifyShelf('exito')">Leyes del &Eacute;xito</button>
+          <button type="button" class="spotify-chip chip-courses" data-sub="cursos" onclick="filterSpotifyShelf('cursos')">🎓 Cursos en Audio <span class="chip-new-tag">Nuevo</span></button>
+        </div>
+      </div>
+
+      <!-- Cuadrícula Principal de Audiolibros estilo Spotify -->
+      <div class="spotify-section-shelf">
+        <div class="spotify-shelf-header">
+          <div class="shelf-title-wrap">
+            <h3 class="spotify-shelf-title">Audiolibros Maestros Disponibles</h3>
+            <span class="spotify-shelf-sub">Reproduce instant&aacute;neamente con streaming optimizado</span>
+          </div>
+          <span class="spotify-badge-count" id="spotifyAudioCount">20 t&iacute;tulos</span>
+        </div>
+        <div class="audiotyan-grid spotify-grid" id="audiotyanGrid"></div>
+      </div>
+
+      <!-- Shelves / Cursos en Audio Próximamente -->
+      <div class="spotify-section-shelf" id="spotifyCoursesShelf">
+        <div class="spotify-shelf-header">
+          <div class="shelf-title-wrap">
+            <h3 class="spotify-shelf-title">🎓 Pr&oacute;ximos Cursos en Audio</h3>
+            <span class="spotify-shelf-sub">Espacio exclusivo preparado para cursos tem&aacute;ticos y masterclasses en audio</span>
+          </div>
+          <span class="spotify-badge-count">Pr&oacute;ximo estreno</span>
+        </div>
+        <div class="spotify-courses-grid">
+          <div class="spotify-course-card">
+            <div class="course-cover-wrap">
+              <div class="course-placeholder-bg bg-purple">
+                <i data-lucide="trending-up"></i>
+              </div>
+              <span class="course-badge">AUDIO CURSO</span>
+            </div>
+            <div class="course-info">
+              <h4 class="course-title">M&aacute;ster en Finanzas Personales & Inversi&oacute;n Inteligente</h4>
+              <p class="course-desc">Aprende a construir activos, controlar flujo de caja y crear libertad financiera paso a paso.</p>
+              <div class="course-footer">
+                <span class="course-tag"><i data-lucide="clock"></i> En Producci&oacute;n</span>
+                <span class="course-pill">Subiendo Pronto</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="spotify-course-card">
+            <div class="course-cover-wrap">
+              <div class="course-placeholder-bg bg-emerald">
+                <i data-lucide="target"></i>
+              </div>
+              <span class="course-badge">AUDIO CURSO</span>
+            </div>
+            <div class="course-info">
+              <h4 class="course-title">Psicolog&iacute;a de Ventas de Alto Valor & Negociaci&oacute;n</h4>
+              <p class="course-desc">T&eacute;cnicas avanzadas de persuasi&oacute;n &eacute;tica, cierre de ventas y comunicaci&oacute;n de alto impacto.</p>
+              <div class="course-footer">
+                <span class="course-tag"><i data-lucide="clock"></i> En Producci&oacute;n</span>
+                <span class="course-pill">Subiendo Pronto</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="spotify-course-card">
+            <div class="course-cover-wrap">
+              <div class="course-placeholder-bg bg-blue">
+                <i data-lucide="compass"></i>
+              </div>
+              <span class="course-badge">AUDIO CURSO</span>
+            </div>
+            <div class="course-info">
+              <h4 class="course-title">Mentalidad de Alto Rendimiento & H&aacute;bitos At&oacute;micos</h4>
+              <p class="course-desc">Disciplina inquebrantable, superaci&oacute;n de la procrastinaci&oacute;n y foco l&aacute;ser en tus metas.</p>
+              <div class="course-footer">
+                <span class="course-tag"><i data-lucide="clock"></i> En Producci&oacute;n</span>
+                <span class="course-pill">Subiendo Pronto</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="spotify-course-card">
+            <div class="course-cover-wrap">
+              <div class="course-placeholder-bg bg-amber">
+                <i data-lucide="crown"></i>
+              </div>
+              <span class="course-badge">AUDIO CURSO</span>
+            </div>
+            <div class="course-info">
+              <h4 class="course-title">Liderazgo Transformacional & Formaci&oacute;n de Equipos</h4>
+              <p class="course-desc">Inspirar, delegar con eficacia y multiplicar el impacto de tu visi&oacute;n empresarial.</p>
+              <div class="course-footer">
+                <span class="course-tag"><i data-lucide="clock"></i> En Producci&oacute;n</span>
+                <span class="course-pill">Subiendo Pronto</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ==================== FRASE / REFLEXION EDITORIAL ==================== -->
@@ -643,6 +759,49 @@
     </div>
   </div>
 
+  <!-- ==================== BARRA SPOTIFY FLOTANTE AUDIOTYAN ==================== -->
+  <div class="spotify-bottom-bar" id="spotifyBottomBar" aria-label="Reproductor persistente AUDIOTYAN">
+    <div class="spotify-bar-inner">
+      <div class="spotify-bar-left" onclick="openAudioPlayer(currentAudioBook)" role="button" tabindex="0">
+        <img id="spotifyBarCover" src="covers/default.jpg" alt="Portada" class="spotify-bar-thumb" onerror="this.src='covers/default.jpg'">
+        <div class="spotify-bar-info">
+          <span id="spotifyBarTitle" class="spotify-bar-title">Audiolibro</span>
+          <span id="spotifyBarAuthor" class="spotify-bar-author">Autor</span>
+        </div>
+      </div>
+      <div class="spotify-bar-center">
+        <div class="spotify-bar-controls">
+          <button type="button" class="s-btn-ctrl" onclick="audioSkip(-15)" title="Retroceder 15s" aria-label="Retroceder 15s">
+            <i class="fa-solid fa-rotate-left"></i>
+          </button>
+          <button type="button" class="s-btn-ctrl" id="spotifyPrevBtn" onclick="audioPrevTrack()" title="Anterior" aria-label="Pista anterior">
+            <i class="fa-solid fa-backward-step"></i>
+          </button>
+          <button type="button" class="s-btn-play" id="spotifyPlayPauseBtn" onclick="toggleAudioPlay()" title="Reproducir / Pausa" aria-label="Reproducir o pausar">
+            <i class="fa-solid fa-play" id="spotifyPlayIcon"></i>
+          </button>
+          <button type="button" class="s-btn-ctrl" id="spotifyNextBtn" onclick="audioNextTrack()" title="Siguiente" aria-label="Pista siguiente">
+            <i class="fa-solid fa-forward-step"></i>
+          </button>
+          <button type="button" class="s-btn-ctrl" onclick="audioSkip(15)" title="Adelantar 15s" aria-label="Adelantar 15s">
+            <i class="fa-solid fa-rotate-right"></i>
+          </button>
+        </div>
+        <div class="spotify-bar-progress">
+          <span id="spotifyCurrentTime" class="s-time">0:00</span>
+          <input type="range" id="spotifyProgressBar" class="s-seek-slider" min="0" max="100" value="0" step="0.1" oninput="onAudioSeek(this.value)" aria-label="Control de reproducci&oacute;n">
+          <span id="spotifyDuration" class="s-time">0:00</span>
+        </div>
+      </div>
+      <div class="spotify-bar-right">
+        <button type="button" class="s-btn-speed" id="spotifySpeedBtn" onclick="cycleAudioSpeed()" title="Velocidad">1x</button>
+        <button type="button" class="s-btn-expand" onclick="openAudioPlayer(currentAudioBook)" title="Ampliar reproductor" aria-label="Ampliar reproductor">
+          <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- ==================== BARRA DE NAVEGACION INFERIOR MOBILE DOCK ==================== -->
   <nav class="mobile-bottom-dock" id="mobileBottomNav" aria-label="Navegaci&oacute;n m&oacute;vil">
     <div class="dock-inner">
@@ -670,8 +829,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=6.1"></script>
-  <script src="js/app.js?v=6.1"></script>
+  <script src="js/data.js?v=6.2"></script>
+  <script src="js/app.js?v=6.2"></script>
 
 </body>
 </html>

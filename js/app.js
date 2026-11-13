@@ -1588,8 +1588,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // AUDIOTYAN — SECCIÓN DE AUDIOLIBROS
+  // AUDIOTYAN — EXPERIENCIA SPOTIFY DE AUDIOLIBROS & CURSOS
   // ========================================================
+  let currentSpotifyFilter = 'all';
+  let currentSpotifyQuery = '';
+
   function renderAudioTyanSection() {
     const grid = document.getElementById('audiotyanGrid');
     if (!grid) return;
@@ -1599,9 +1602,49 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    const audioBooks = BOOKS.filter(b => b.format === 'audio' || b.category === 'Audiolibros' || b.audioUrl || (b.tracks && b.tracks.length > 0));
-    if (!audioBooks || audioBooks.length === 0) {
-      grid.innerHTML = '<p class="audiotyan-empty">Próximamente más audiolibros.</p>';
+    let audioBooks = BOOKS.filter(b => b.format === 'audio' || b.category === 'Audiolibros' || b.audioUrl || (b.tracks && b.tracks.length > 0));
+
+    // Filtros por temática
+    if (currentSpotifyFilter === 'kiyosaki') {
+      audioBooks = audioBooks.filter(b => 
+        (b.author && b.author.toLowerCase().includes('kiyosaki')) ||
+        (b.title && (b.title.toLowerCase().includes('dinero') || b.title.toLowerCase().includes('invertir') || b.title.toLowerCase().includes('rico') || b.title.toLowerCase().includes('flujo') || b.title.toLowerCase().includes('siglo 21')))
+      );
+    } else if (currentSpotifyFilter === 'maxwell') {
+      audioBooks = audioBooks.filter(b => 
+        (b.author && (b.author.toLowerCase().includes('maxwell') || b.author.toLowerCase().includes('tracy') || b.author.toLowerCase().includes('robbins'))) ||
+        (b.title && (b.title.toLowerCase().includes('liderazgo') || b.title.toLowerCase().includes('ganarse') || b.title.toLowerCase().includes('relaciones') || b.title.toLowerCase().includes('cerrar') || b.title.toLowerCase().includes('gigante')))
+      );
+    } else if (currentSpotifyFilter === 'exito') {
+      audioBooks = audioBooks.filter(b => 
+        (b.author && (b.author.toLowerCase().includes('napoleon') || b.author.toLowerCase().includes('camilo') || b.author.toLowerCase().includes('hill'))) ||
+        (b.title && (b.title.toLowerCase().includes('atracción') || b.title.toLowerCase().includes('positiva') || b.title.toLowerCase().includes('vaca') || b.title.toLowerCase().includes('águila') || b.title.toLowerCase().includes('piense')))
+      );
+    }
+
+    // Filtro por búsqueda en tiempo real
+    if (currentSpotifyQuery && currentSpotifyQuery.trim()) {
+      const q = currentSpotifyQuery.toLowerCase().trim();
+      audioBooks = audioBooks.filter(b => 
+        (b.title && b.title.toLowerCase().includes(q)) ||
+        (b.author && b.author.toLowerCase().includes(q)) ||
+        (b.description && b.description.toLowerCase().includes(q)) ||
+        (b.tracks && b.tracks.some(tr => tr.title && tr.title.toLowerCase().includes(q)))
+      );
+    }
+
+    const countEl = document.getElementById('spotifyAudioCount');
+    if (countEl) countEl.textContent = `${audioBooks.length} títulos`;
+
+    if (audioBooks.length === 0) {
+      grid.innerHTML = `
+        <div class="spotify-empty-state">
+          <i data-lucide="search-x"></i>
+          <p>No se encontraron audiolibros para "${escapeHtml(currentSpotifyQuery)}".</p>
+          <button type="button" class="btn-spotify-clear" onclick="filterSpotifyShelf('all')">Ver todos los audiolibros</button>
+        </div>
+      `;
+      refreshIcons();
       return;
     }
 
@@ -1613,20 +1656,20 @@ document.addEventListener('DOMContentLoaded', () => {
       const yearStr = b.year ? ` • ${b.year}` : '';
 
       return `
-        <article class="audiotyan-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
-          <div class="audiotyan-card-cover-wrap">
-            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" class="audiotyan-card-cover" onerror="this.onerror=null; this.src='covers/default.jpg';">
-            <span class="audiotyan-badge"><i data-lucide="headphones"></i> ${trackCount}</span>
-            <button type="button" class="audiotyan-play-overlay-btn" onclick="event.stopPropagation(); openAudioPlayerById(${b.id});" aria-label="Reproducir ${titleSafe}">
-              <i data-lucide="play"></i>
+        <article class="audiotyan-card spotify-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
+          <div class="audiotyan-card-cover-wrap spotify-card-cover-wrap">
+            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" class="audiotyan-card-cover spotify-card-cover" onerror="this.onerror=null; this.src='covers/default.jpg';">
+            <span class="audiotyan-badge spotify-badge"><i data-lucide="headphones"></i> ${trackCount}</span>
+            <button type="button" class="audiotyan-play-overlay-btn spotify-play-overlay-btn" onclick="event.stopPropagation(); openAudioPlayerById(${b.id});" aria-label="Reproducir ${titleSafe}">
+              <i class="fa-solid fa-play"></i>
             </button>
           </div>
-          <div class="audiotyan-card-info">
-            <h3 class="audiotyan-card-title" title="${titleSafe}">${titleSafe}</h3>
-            <p class="audiotyan-card-author">${authorSafe}${yearStr}</p>
-            <div class="audiotyan-card-footer">
-              <span class="audiotyan-card-tag"><i data-lucide="sparkles"></i> Master</span>
-              <span class="audiotyan-card-action"><i data-lucide="disc"></i> Escuchar</span>
+          <div class="audiotyan-card-info spotify-card-info">
+            <h3 class="audiotyan-card-title spotify-card-title" title="${titleSafe}">${titleSafe}</h3>
+            <p class="audiotyan-card-author spotify-card-author">${authorSafe}${yearStr}</p>
+            <div class="audiotyan-card-footer spotify-card-footer">
+              <span class="spotify-tag-audio"><i data-lucide="disc"></i> Master HD</span>
+              <span class="spotify-btn-listen"><i class="fa-solid fa-headphones"></i> Escuchar</span>
             </div>
           </div>
         </article>
@@ -1635,6 +1678,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     refreshIcons();
   }
+
+  function filterSpotifyShelf(filter) {
+    currentSpotifyFilter = filter;
+    document.querySelectorAll('.spotify-chip').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.sub === filter);
+    });
+    if (filter === 'cursos') {
+      const coursesShelf = document.getElementById('spotifyCoursesShelf');
+      if (coursesShelf) coursesShelf.scrollIntoView({ behavior: 'smooth' });
+    }
+    renderAudioTyanSection();
+  }
+  window.filterSpotifyShelf = filterSpotifyShelf;
+
+  function onSpotifySearch(val) {
+    currentSpotifyQuery = val || '';
+    renderAudioTyanSection();
+  }
+  window.onSpotifySearch = onSpotifySearch;
 
   function openAudioPlayerById(id) {
     if (typeof BOOKS === 'undefined') return;
@@ -1769,14 +1831,44 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // REPRODUCTOR DE AUDIOLIBROS INTERACTIVO (OPTIMIZADO MÓVIL)
+  // REPRODUCTOR DE AUDIOLIBROS INTERACTIVO (OPTIMIZADO MÓVIL & SPOTIFY BAR)
   // ========================================================
   let currentAudioBook = null;
   let currentTrackIndex = 0;
   let audioPlayerInitialized = false;
 
   function getAudioStreamUrl(rawUrl) {
-    return rawUrl || '';
+    if (!rawUrl) return '';
+    // Route GitHub release assets through Cloudflare Pages /stream endpoint:
+    // This provides Content-Type: audio/mp4 (or audio/mpeg), inline disposition,
+    // and HTTP 206 Partial Content (critical for iOS Safari and mobile playback)
+    if (rawUrl.startsWith('https://github.com/sebastianemanuel967-star/BIBLIOTYAN/releases/download/')) {
+      return `/stream?url=${encodeURIComponent(rawUrl)}`;
+    }
+    return rawUrl;
+  }
+
+  function updateSpotifyBottomBar() {
+    const bar = document.getElementById('spotifyBottomBar');
+    if (!bar) return;
+    if (!currentAudioBook) {
+      bar.classList.remove('active');
+      return;
+    }
+    bar.classList.add('active');
+
+    const cover = document.getElementById('spotifyBarCover');
+    const title = document.getElementById('spotifyBarTitle');
+    const author = document.getElementById('spotifyBarAuthor');
+    if (cover) cover.src = currentAudioBook.cover || 'covers/default.jpg';
+    if (title) {
+      const trName = (currentAudioBook.tracks && currentAudioBook.tracks[currentTrackIndex])
+        ? currentAudioBook.tracks[currentTrackIndex].title
+        : currentAudioBook.title;
+      title.textContent = `${currentAudioBook.title} — ${trName}`;
+      title.title = title.textContent;
+    }
+    if (author) author.textContent = currentAudioBook.author || 'AUDIOTYAN';
   }
 
   function initAudioPlayer() {
@@ -1798,22 +1890,34 @@ document.addEventListener('DOMContentLoaded', () => {
       if (progressBar && duration > 0) {
         progressBar.value = (curTime / duration) * 100;
       }
+
+      // Sincronizar barra persistente Spotify
+      const sCurTime = document.getElementById('spotifyCurrentTime');
+      const sDurTime = document.getElementById('spotifyDuration');
+      const sProgress = document.getElementById('spotifyProgressBar');
+      if (sCurTime) sCurTime.textContent = formatAudioTime(curTime);
+      if (sDurTime && !isNaN(duration) && duration > 0) sDurTime.textContent = formatAudioTime(duration);
+      if (sProgress && duration > 0) {
+        sProgress.value = (curTime / duration) * 100;
+      }
     });
 
     audio.addEventListener('play', () => {
       const icon = document.getElementById('audioPlayIcon');
-      if (icon) {
-        icon.className = 'fa-solid fa-pause';
-      }
+      if (icon) icon.className = 'fa-solid fa-pause';
+      const sIcon = document.getElementById('spotifyPlayIcon');
+      if (sIcon) sIcon.className = 'fa-solid fa-pause';
       const indicator = document.getElementById('audioPulseIndicator');
       if (indicator) indicator.classList.add('playing');
+      const bar = document.getElementById('spotifyBottomBar');
+      if (bar) bar.classList.add('active');
     });
 
     audio.addEventListener('pause', () => {
       const icon = document.getElementById('audioPlayIcon');
-      if (icon) {
-        icon.className = 'fa-solid fa-play';
-      }
+      if (icon) icon.className = 'fa-solid fa-play';
+      const sIcon = document.getElementById('spotifyPlayIcon');
+      if (sIcon) sIcon.className = 'fa-solid fa-play';
       const indicator = document.getElementById('audioPulseIndicator');
       if (indicator) indicator.classList.remove('playing');
     });
@@ -1824,6 +1928,8 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         const icon = document.getElementById('audioPlayIcon');
         if (icon) icon.className = 'fa-solid fa-play';
+        const sIcon = document.getElementById('spotifyPlayIcon');
+        if (sIcon) sIcon.className = 'fa-solid fa-play';
         const indicator = document.getElementById('audioPulseIndicator');
         if (indicator) indicator.classList.remove('playing');
       }
@@ -1922,16 +2028,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const prevBtn = document.getElementById('audioPrevBtn');
       const nextBtn = document.getElementById('audioNextBtn');
-      if (prevBtn) prevBtn.disabled = currentTrackIndex === 0;
-      if (nextBtn) nextBtn.disabled = currentTrackIndex === currentAudioBook.tracks.length - 1;
+      const sPrevBtn = document.getElementById('spotifyPrevBtn');
+      const sNextBtn = document.getElementById('spotifyNextBtn');
+      const isFirst = currentTrackIndex === 0;
+      const isLast = currentTrackIndex === currentAudioBook.tracks.length - 1;
+
+      if (prevBtn) prevBtn.disabled = isFirst;
+      if (nextBtn) nextBtn.disabled = isLast;
+      if (sPrevBtn) sPrevBtn.disabled = isFirst;
+      if (sNextBtn) sNextBtn.disabled = isLast;
     } else {
       currentTrackIndex = 0;
       trackUrl = currentAudioBook.audioUrl || '';
       trackName = currentAudioBook.title || 'Audiolibro Completo';
       const prevBtn = document.getElementById('audioPrevBtn');
       const nextBtn = document.getElementById('audioNextBtn');
+      const sPrevBtn = document.getElementById('spotifyPrevBtn');
+      const sNextBtn = document.getElementById('spotifyNextBtn');
       if (prevBtn) prevBtn.disabled = true;
       if (nextBtn) nextBtn.disabled = true;
+      if (sPrevBtn) sPrevBtn.disabled = true;
+      if (sNextBtn) sNextBtn.disabled = true;
     }
 
     const curTrackNameEl = document.getElementById('audioCurrentTrackName');
@@ -1949,26 +2066,33 @@ document.addEventListener('DOMContentLoaded', () => {
     const durTimeEl = document.getElementById('audioDuration');
     if (durTimeEl) durTimeEl.textContent = '0:00';
 
+    updateSpotifyBottomBar();
+
     if (autoplay) {
       const playPromise = audio.play();
       if (playPromise !== undefined) {
-        playPromise.catch(e => {
+        playPromise.then(() => {
+          const icon = document.getElementById('audioPlayIcon');
+          if (icon) icon.className = 'fa-solid fa-pause';
+          const sIcon = document.getElementById('spotifyPlayIcon');
+          if (sIcon) sIcon.className = 'fa-solid fa-pause';
+        }).catch(e => {
           console.log('Mobile autoplay requirement:', e);
           const icon = document.getElementById('audioPlayIcon');
           if (icon) icon.className = 'fa-solid fa-play';
+          const sIcon = document.getElementById('spotifyPlayIcon');
+          if (sIcon) sIcon.className = 'fa-solid fa-play';
         });
       }
     }
   }
 
   function closeAudioPlayer() {
-    const audio = document.getElementById('nativeAudioElement');
-    if (audio) {
-      audio.pause();
-    }
     const modal = document.getElementById('audioPlayerModal');
     if (modal) modal.classList.remove('active');
     document.body.style.overflow = '';
+    // Mantiene el audio sonando en la barra flotante de Spotify para que el usuario pueda seguir navegando
+    updateSpotifyBottomBar();
   }
 
   function toggleAudioPlay() {
@@ -1980,8 +2104,12 @@ document.addEventListener('DOMContentLoaded', () => {
         playPromise.then(() => {
           const icon = document.getElementById('audioPlayIcon');
           if (icon) icon.className = 'fa-solid fa-pause';
+          const sIcon = document.getElementById('spotifyPlayIcon');
+          if (sIcon) sIcon.className = 'fa-solid fa-pause';
           const indicator = document.getElementById('audioPulseIndicator');
           if (indicator) indicator.classList.add('playing');
+          const bar = document.getElementById('spotifyBottomBar');
+          if (bar) bar.classList.add('active');
         }).catch(e => {
           console.warn('Playback prevented:', e);
           showToast('Toca el botón Play para iniciar el audio', 'info');
@@ -1991,6 +2119,43 @@ document.addEventListener('DOMContentLoaded', () => {
       audio.pause();
     }
   }
+
+  function cycleAudioSpeed() {
+    const audio = document.getElementById('nativeAudioElement');
+    if (!audio) return;
+    const speeds = [1, 1.25, 1.5, 2];
+    const current = audio.playbackRate || 1;
+    let nextIdx = 0;
+    for (let i = 0; i < speeds.length; i++) {
+      if (Math.abs(speeds[i] - current) < 0.05) {
+        nextIdx = (i + 1) % speeds.length;
+        break;
+      }
+    }
+    const nextSpeed = speeds[nextIdx];
+    setAudioSpeed(nextSpeed);
+    const speedBtn = document.getElementById('spotifySpeedBtn');
+    if (speedBtn) speedBtn.textContent = `${nextSpeed}x`;
+  }
+  window.cycleAudioSpeed = cycleAudioSpeed;
+
+  // Desbloqueo anticipado de AudioContext en móviles (iOS Safari / Android)
+  function primeMobileAudio() {
+    const audio = document.getElementById('nativeAudioElement');
+    if (audio && !audio.dataset.primed) {
+      audio.dataset.primed = 'true';
+      const prevMuted = audio.muted;
+      audio.muted = true;
+      audio.play().then(() => {
+        audio.pause();
+        audio.muted = prevMuted;
+      }).catch(() => {
+        audio.muted = prevMuted;
+      });
+    }
+  }
+  document.addEventListener('touchstart', primeMobileAudio, { once: true, passive: true });
+  document.addEventListener('click', primeMobileAudio, { once: true, passive: true });
 
   function audioSkip(seconds) {
     const audio = document.getElementById('nativeAudioElement');
