@@ -1,9 +1,31 @@
 ﻿// ========================================================
-//  BIBLIOTYAN â€” The Personal Knowledge Archive
-//  Motor de AplicaciÃ³n & Experiencia Editorial Luxury
-//  Paleta: #09070D Â· #171020 Â· #21172C Â· #B66AFF
+//  BIBLIOTYAN — The Personal Knowledge Archive
+//  Motor de Aplicacion & Experiencia Editorial Luxury
+//  Paleta: #09070D · #171020 · #21172C · #B66AFF
 // ========================================================
 
+// ── Configuracion Global (disponible antes de DOMContentLoaded) ──
+const CONFIG = {
+  libraryName: 'BIBLIOTYAN',
+  tagline: 'Repositorio Editorial & Lectura Libre',
+  communityInviteUrl: 'https://t.me/bibliotyan',
+  socialMedia: {
+    telegram: { active: true, url: 'https://t.me/bibliotyan', label: 'Canal Oficial de Telegram', icon: 'fa-brands fa-telegram', color: '#229ED9' },
+    instagram: { active: true, url: 'https://www.instagram.com/tyanmena/', label: 'Instagram @tyanmena', icon: 'fa-brands fa-instagram', color: '#E4405F' },
+    facebook:  { active: true, url: 'https://www.facebook.com/reel/1426164676340634?locale=es_LA', label: 'Facebook', icon: 'fa-brands fa-facebook-f', color: '#1877F2' }
+  },
+  categories: ['Todos','National Geographic','E-Books (EPUB)','Productividad & Habitos','Finanzas & Inversion','Liderazgo & Estrategia','Marketing & Ventas','Crecimiento Personal','Neurociencia & Mente','Salud & Longevidad','Psicologia & Conducta','Tecnologia & Futuro','Autoayuda & Mente','Literatura Clasica','Ficcion & Novela','Filosofia & Estrategia'],
+  categoryColors: {
+    'National Geographic': '#eab308', 'E-Books (EPUB)': '#10b981',
+    'Productividad & Habitos': '#3b82f6', 'Finanzas & Inversion': '#059669',
+    'Liderazgo & Estrategia': '#f97316', 'Marketing & Ventas': '#ec4899',
+    'Crecimiento Personal': '#8b5cf6', 'Neurociencia & Mente': '#9333ea',
+    'Salud & Longevidad': '#06b6d4', 'Psicologia & Conducta': '#f43f5e',
+    'Tecnologia & Futuro': '#6366f1', 'Autoayuda & Mente': '#b469fc',
+    'Literatura Clasica': '#e879f9', 'Ficcion & Novela': '#a855f7',
+    'Filosofia & Estrategia': '#7e22ce', 'Otros': '#818cf8'
+  }
+};
 document.addEventListener('DOMContentLoaded', () => {
   // â”€â”€ Estado Global â”€â”€
   const PAGE_SIZE = 24;
@@ -2589,4 +2611,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   init();
 });
+
 
