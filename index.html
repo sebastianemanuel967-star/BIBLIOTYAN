@@ -551,7 +551,7 @@
 
       <div class="audio-player-body">
         <div class="audio-player-cover-box">
-          <img id="audioPlayerCover" src="" alt="Portada Audiolibro" onerror="handleCoverError(this)">
+          <img id="audioPlayerCover" alt="Portada Audiolibro">
           <div class="audio-pulse-indicator" id="audioPulseIndicator">
             <span class="pulse-bar bar-1"></span>
             <span class="pulse-bar bar-2"></span>
@@ -619,7 +619,7 @@
           </button>
         </div>
       </div>
-      <audio id="nativeAudioElement" preload="metadata"></audio>
+      <audio id="nativeAudioElement" preload="auto" playsinline webkit-playsinline></audio>
     </div>
   </div>
 
@@ -659,8 +659,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=5.8"></script>
-  <script src="js/app.js?v=5.8"></script>
+  <script src="js/data.js?v=5.9"></script>
+  <script src="js/app.js?v=5.9"></script>
 
 </body>
 </html>

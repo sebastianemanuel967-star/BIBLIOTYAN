@@ -1751,11 +1751,19 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // REPRODUCTOR DE AUDIOLIBROS INTERACTIVO
+  // REPRODUCTOR DE AUDIOLIBROS INTERACTIVO (OPTIMIZADO MÓVIL)
   // ========================================================
   let currentAudioBook = null;
   let currentTrackIndex = 0;
   let audioPlayerInitialized = false;
+
+  function getAudioStreamUrl(rawUrl) {
+    if (!rawUrl) return '';
+    if (rawUrl.includes('github.com') && rawUrl.includes('/releases/download/')) {
+      return `/stream?url=${encodeURIComponent(rawUrl)}`;
+    }
+    return rawUrl;
+  }
 
   function initAudioPlayer() {
     if (audioPlayerInitialized) return;
@@ -1808,7 +1816,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     audio.addEventListener('error', (e) => {
-      console.warn('Audio playback error', e);
+      console.warn('Audio playback error, attempting fallback', e);
+      if (audio.src && audio.src.includes('/stream?url=')) {
+        try {
+          const parsed = new URL(audio.src, window.location.origin);
+          const fallbackUrl = parsed.searchParams.get('url');
+          if (fallbackUrl && audio.src !== fallbackUrl) {
+            console.log('Falling back to direct release URL:', fallbackUrl);
+            audio.src = fallbackUrl;
+            audio.play().catch(err => console.warn('Fallback play error:', err));
+            return;
+          }
+        } catch (err) {}
+      }
     });
   }
 
@@ -1838,7 +1858,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const trackSelect = document.getElementById('audioTrackSelect');
     const trackWrapper = document.getElementById('audioPlaylistWrapper');
 
-    if (cover) cover.src = target.cover || '';
+    if (cover) {
+      cover.onerror = () => handleCoverError(cover, target.title);
+      cover.src = target.cover || '';
+    }
     if (title) title.textContent = target.title || 'Audiolibro';
     if (author) author.textContent = target.author || '';
 
@@ -1900,8 +1923,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const curTrackNameEl = document.getElementById('audioCurrentTrackName');
     if (curTrackNameEl) curTrackNameEl.textContent = trackName;
 
-    audio.src = trackUrl;
-    audio.load();
+    const streamUrl = getAudioStreamUrl(trackUrl);
+    if (audio.src !== streamUrl) {
+      audio.src = streamUrl;
+    }
 
     const progressBar = document.getElementById('audioProgressBar');
     if (progressBar) progressBar.value = 0;
@@ -1911,9 +1936,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (durTimeEl) durTimeEl.textContent = '0:00';
 
     if (autoplay) {
-      audio.play().catch(e => {
-        console.log('Autoplay status:', e);
-      });
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(e => {
+          console.log('Mobile autoplay requirement:', e);
+          const icon = document.getElementById('audioPlayIcon');
+          if (icon) icon.className = 'fa-solid fa-play';
+        });
+      }
     }
   }
 
@@ -1931,7 +1961,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const audio = document.getElementById('nativeAudioElement');
     if (!audio) return;
     if (audio.paused) {
-      audio.play().catch(e => console.warn(e));
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(e => {
+          console.warn('Playback prevented:', e);
+        });
+      }
     } else {
       audio.pause();
     }
