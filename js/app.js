@@ -641,29 +641,98 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // INICIALIZACIÓN
+  // CARGA ASÍNCRONA DE CATÁLOGO & SKELETON LOADERS
   // ========================================================
-  function init() {
+  function renderSkeletonCards() {
+    const grid = document.getElementById('booksGrid');
+    if (!grid) return;
+    const skeletonHtml = Array.from({ length: 10 }).map(() => `
+      <div class="book-card skeleton-card" aria-hidden="true">
+        <div class="card-cover-container skeleton-box skeleton-cover"></div>
+        <div class="card-details" style="padding: 0.85rem 0.65rem;">
+          <div class="skeleton-box" style="width: 45%; height: 11px; margin-bottom: 8px;"></div>
+          <div class="skeleton-box" style="width: 85%; height: 15px; margin-bottom: 6px;"></div>
+          <div class="skeleton-box" style="width: 60%; height: 13px;"></div>
+        </div>
+      </div>
+    `).join('');
+    grid.innerHTML = skeletonHtml;
+  }
+
+  function renderCatalogError() {
+    const grid = document.getElementById('booksGrid');
+    if (!grid) return;
+    grid.innerHTML = `
+      <div class="catalog-error-box" style="grid-column: 1 / -1; text-align: center; padding: 3.5rem 1.5rem; background: var(--bg-surface); border: 1px solid var(--purple-border); border-radius: var(--radius-md);">
+        <i class="fa-solid fa-triangle-exclamation" style="font-size: 2.2rem; color: var(--purple-light); margin-bottom: 1rem; display: block;"></i>
+        <h3 style="color: var(--text-main); font-size: 1.15rem; margin-bottom: 0.5rem;">No se pudo conectar con el catálogo</h3>
+        <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 1.25rem; max-width: 420px; margin-left: auto; margin-right: auto;">Ocurrió un problema de red al cargar los libros. Revisa tu conexión a internet.</p>
+        <button type="button" class="btn-primary" onclick="initCatalogData(true)" style="display: inline-flex; align-items: center; gap: 0.5rem; margin: 0 auto; padding: 0.55rem 1.25rem; background: var(--purple-primary); color: #fff; border: none; border-radius: var(--radius-sm); cursor: pointer;">
+          <i class="fa-solid fa-rotate-right"></i> Reintentar
+        </button>
+      </div>
+    `;
+  }
+
+  async function loadCatalogAsync(forceReload = false) {
+    if (window.BOOKS && Array.isArray(window.BOOKS) && window.BOOKS.length > 0 && !forceReload) {
+      return;
+    }
+
+    renderSkeletonCards();
+
+    try {
+      const res = await fetch('data/books.json?v=6.8');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      if (Array.isArray(data) && data.length > 0) {
+        window.BOOKS = data;
+      }
+    } catch (err) {
+      console.warn('Fallo al cargar data/books.json, usando catálogo fallback:', err);
+      if (!window.BOOKS || !Array.isArray(window.BOOKS) || window.BOOKS.length === 0) {
+        renderCatalogError();
+        return;
+      }
+    }
+  }
+
+  window.initCatalogData = async function(force = false) {
+    await loadCatalogAsync(force);
     normalizeBookUrls();
-    setupSearchBar();
-    renderFilterButtons();
+    renderBooks();
     renderMostReadShelf();
     renderEditorialShelf();
-    // renderDailyRecommendation();
-    renderBooks();
-    renderSocialLinks();
     renderAudioTyanSection();
-    renderDailyQuote();
+  };
+
+  // ========================================================
+  // INICIALIZACIÓN
+  // ========================================================
+  async function init() {
     renderFooter();
     initRequestSheet();
     setupSecretAdminAccess();
     setupMobileBottomNav();
-    updateStats();
-    updateCollectionShowcaseBadges();
     setupCollectionsCarousel();
     setupCollectionsStripScroll();
-    handleInitialUrl();
     initAudioPlayer();
+    setupSearchBar();
+
+    // Carga asíncrona de catálogo con skeleton loaders
+    await loadCatalogAsync();
+
+    normalizeBookUrls();
+    renderFilterButtons();
+    renderMostReadShelf();
+    renderEditorialShelf();
+    renderBooks();
+    renderSocialLinks();
+    renderAudioTyanSection();
+    renderDailyQuote();
+    updateStats();
+    updateCollectionShowcaseBadges();
+    handleInitialUrl();
     refreshIcons();
   }
 
@@ -710,9 +779,12 @@ document.addEventListener('DOMContentLoaded', () => {
       const isFav = state.favorites.includes(book.id);
       const card = document.createElement('div');
       card.className = 'editorial-mini-card';
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `${escapeHTML(book.title)} de ${escapeHTML(book.author)}`);
       card.innerHTML = `
         <div class="editorial-cover-wrap">
-          <img src="${escapeHTML(book.cover)}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" loading="lazy" onerror="handleCoverError(this)">
+          <img src="${escapeHTML(book.cover)}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" loading="lazy" decoding="async" width="140" height="200" onerror="handleCoverError(this)">
         </div>
         <div class="editorial-mini-info">
           <h4 class="editorial-mini-title">${escapeHTML(book.title)}</h4>
@@ -725,6 +797,13 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         </div>
       `;
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          if (e.target.closest('button')) return;
+          e.preventDefault();
+          openPreviewModal(book);
+        }
+      });
       card.addEventListener('click', () => openPreviewModal(book));
       shelf.appendChild(card);
     });
@@ -1008,12 +1087,16 @@ document.addEventListener('DOMContentLoaded', () => {
         formatText = 'EPUB';
       }
 
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `${escapeHTML(book.title)} de ${escapeHTML(book.author)}`);
+
       card.innerHTML = `
         <div class="card-cover-container">
           <span class="card-floating-badge">
             <i data-lucide="${formatIcon}"></i> ${formatText}
           </span>
-          <img src="${escapeHTML(book.cover)}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" loading="lazy" onerror="handleCoverError(this)">
+          <img src="${escapeHTML(book.cover)}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" loading="lazy" decoding="async" width="220" height="320" onerror="handleCoverError(this)">
         </div>
         <div class="card-details">
           <h3 class="card-title" title="${escapeHTML(book.title)}">${escapeHTML(book.title)}</h3>
@@ -1035,6 +1118,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
 
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          if (e.target.closest('button')) return;
+          e.preventDefault();
+          openPreviewModal(book);
+        }
+      });
       card.addEventListener('click', () => openPreviewModal(book));
       grid.appendChild(card);
     });
@@ -1063,6 +1153,66 @@ document.addEventListener('DOMContentLoaded', () => {
       state.visibleCount = PAGE_SIZE;
       renderBooks();
     });
+  }
+
+  // ========================================================
+  // ACCESIBILIDAD (A11Y) - TRAMPA DE FOCO & ESCAPE EN MODALES
+  // ========================================================
+  let lastActiveElementBeforeModal = null;
+
+  function trapFocusInModal(modalEl) {
+    if (!modalEl) return;
+    lastActiveElementBeforeModal = document.activeElement;
+    const focusableSelectors = 'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+    setTimeout(() => {
+      const focusable = Array.from(modalEl.querySelectorAll(focusableSelectors));
+      if (focusable.length > 0) {
+        focusable[0].focus();
+      }
+    }, 60);
+
+    function onModalKeyDown(e) {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        if (modalEl.id === 'previewModal') closePreviewModal();
+        else if (modalEl.id === 'socialModal') closeSocialModal();
+        else if (modalEl.id === 'requestSheetModal') closeRequestSheet();
+        else if (modalEl.id === 'readerModal') closeFullscreenReader();
+        else if (modalEl.id === 'audioPlayerModal') closeAudioPlayer();
+        return;
+      }
+
+      if (e.key === 'Tab') {
+        const focusable = Array.from(modalEl.querySelectorAll(focusableSelectors));
+        if (focusable.length === 0) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    }
+
+    modalEl._keyTrapHandler = onModalKeyDown;
+    document.addEventListener('keydown', onModalKeyDown);
+  }
+
+  function releaseFocusFromModal(modalEl) {
+    if (modalEl && modalEl._keyTrapHandler) {
+      document.removeEventListener('keydown', modalEl._keyTrapHandler);
+      modalEl._keyTrapHandler = null;
+    }
+    if (lastActiveElementBeforeModal && typeof lastActiveElementBeforeModal.focus === 'function') {
+      try {
+        lastActiveElementBeforeModal.focus();
+      } catch (err) {}
+    }
   }
 
   // ========================================================
@@ -1232,11 +1382,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+    trapFocusInModal(modal);
   }
 
   function closePreviewModal() {
     const modal = document.getElementById('previewModal');
-    if (modal) modal.classList.remove('active');
+    if (modal) {
+      modal.classList.remove('active');
+      releaseFocusFromModal(modal);
+    }
     document.body.style.overflow = '';
     try {
       updateCollectionUrl(state.currentFilter);
@@ -1269,13 +1423,19 @@ document.addEventListener('DOMContentLoaded', () => {
       frame.src = target.pdf;
     }
 
-    if (modal) modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      trapFocusInModal(modal);
+    }
   }
 
   function closeFullscreenReader() {
     const modal = document.getElementById('readerModal');
-    if (modal) modal.classList.remove('active');
+    if (modal) {
+      modal.classList.remove('active');
+      releaseFocusFromModal(modal);
+    }
     const frame = document.getElementById('fullscreenPdfFrame');
     if (frame) frame.src = '';
     document.body.style.overflow = '';
@@ -1428,11 +1588,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+    trapFocusInModal(modal);
   }
 
   function closeSocialModal() {
     const modal = document.getElementById('socialModal');
-    if (modal) modal.classList.remove('active');
+    if (modal) {
+      modal.classList.remove('active');
+      releaseFocusFromModal(modal);
+    }
     document.body.style.overflow = '';
   }
 
@@ -1520,11 +1684,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+    trapFocusInModal(modal);
   }
 
   function closeRequestSheet() {
     const modal = document.getElementById('requestSheetModal');
-    if (modal) modal.classList.remove('active');
+    if (modal) {
+      modal.classList.remove('active');
+      releaseFocusFromModal(modal);
+    }
     document.body.style.overflow = '';
   }
 
@@ -1661,7 +1829,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return `
         <article class="audiotyan-card brand-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
           <div class="audiotyan-card-cover-wrap brand-card-cover-wrap">
-            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" class="audiotyan-card-cover brand-card-cover" onerror="this.onerror=null; this.src='covers/default.jpg';">
+            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" decoding="async" width="220" height="220" class="audiotyan-card-cover brand-card-cover" onerror="this.onerror=null; this.src='covers/default.jpg';">
             <span class="audiotyan-badge brand-badge"><i class="fa-solid fa-headphones"></i> ${trackCount}</span>
             <button type="button" class="audiotyan-play-overlay-btn brand-play-overlay-btn" onclick="event.stopPropagation(); openAudioPlayerById(${b.id});" aria-label="Reproducir ${titleSafe}">
               <i class="fa-solid fa-play"></i>
@@ -1678,6 +1846,17 @@ document.addEventListener('DOMContentLoaded', () => {
         </article>
       `;
     }).join('');
+
+    // Accesibilidad teclado (Enter / Espacio)
+    document.querySelectorAll('.audiotyan-card').forEach(card => {
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          if (e.target.closest('button')) return;
+          e.preventDefault();
+          card.click();
+        }
+      });
+    });
   }
 
   function filterSpotifyShelf(filter) {
@@ -1689,13 +1868,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   window.filterSpotifyShelf = filterSpotifyShelf;
 
+  let audiotyanSearchTimer = null;
   function onSpotifySearch(val) {
-    currentSpotifyQuery = val || '';
     const clearBtn = document.getElementById('audiotyanSearchClearBtn');
     if (clearBtn) {
-      clearBtn.style.display = currentSpotifyQuery.trim() ? 'block' : 'none';
+      clearBtn.style.display = (val || '').trim() ? 'block' : 'none';
     }
-    renderAudioTyanSection();
+    clearTimeout(audiotyanSearchTimer);
+    audiotyanSearchTimer = setTimeout(() => {
+      currentSpotifyQuery = val || '';
+      renderAudioTyanSection();
+    }, 150);
   }
   window.onSpotifySearch = onSpotifySearch;
 
@@ -2077,6 +2260,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modal) {
       modal.classList.add('active');
       document.body.style.overflow = 'hidden';
+      trapFocusInModal(modal);
     }
   }
 
@@ -2160,7 +2344,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function closeAudioPlayer() {
     const modal = document.getElementById('audioPlayerModal');
-    if (modal) modal.classList.remove('active');
+    if (modal) {
+      modal.classList.remove('active');
+      releaseFocusFromModal(modal);
+    }
     document.body.style.overflow = '';
     // Mantiene el audio sonando en la barra flotante de Spotify para que el usuario pueda seguir navegando
     updateSpotifyBottomBar();

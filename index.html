@@ -6,8 +6,8 @@
   <title>BIBLIOTYAN &mdash; Tu Biblioteca Digital Abierta | Biblioteca Digital Gratuita</title>
   
   <!-- SEO Primario & Motores de B&uacute;squeda (Google, Bing) -->
-  <meta name="description" content="BIBLIOTYAN es una biblioteca digital y archivo editorial de conocimiento libre con colecciones de Filosof&iacute;a, Psicolog&iacute;a, Negocios, Econom&iacute;a, Breve Historia y Harvard Libros en PDF.">
-  <meta name="keywords" content="BIBLIOTYAN, bibliotyan, biblioteca digital, biblioteca digital gratuita, descargar libros pdf, libros gratis pdf, libros de harvard, coleccion breve historia, desarrollo personal, filosofia, psicologia, negocios, economia, historia, ciencia, biblioteca personal, epubs gratis">
+  <meta name="description" content="BIBLIOTYAN — Tu biblioteca digital abierta y archivo editorial de conocimiento libre con más de 1.300 libros y audiolibros selectos en PDF, EPUB y Audio. Filosofía, Psicología, Negocios, Harvard, Breve Historia y comunidad abierta en Telegram (https://t.me/bibliotyan). Acceso 100% libre.">
+  <meta name="keywords" content="BIBLIOTYAN, bibliotyan, biblioteca digital, biblioteca digital gratuita, descargar libros pdf, libros gratis pdf, audiolibros gratis, audiotyan, libros de harvard, coleccion breve historia, desarrollo personal, filosofia, psicologia, negocios, economia, historia, ciencia, telegram bibliotyan">
   <meta name="author" content="BIBLIOTYAN">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://bibliotyan.pages.dev/">
@@ -17,21 +17,23 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BIBLIOTYAN">
   <meta property="og:title" content="BIBLIOTYAN &mdash; Tu Biblioteca Digital Abierta">
-  <meta property="og:description" content="Biblioteca digital y archivo editorial de libros selectos en PDF y EPUB. Filosof&iacute;a, Psicolog&iacute;a, Negocios, Harvard y Breve Historia. Acceso 100% libre.">
+  <meta property="og:description" content="Descubre más de 1.300 libros y audiolibros selectos en PDF, EPUB y Audio. Filosofía, Psicología, Negocios, Harvard y Breve Historia. Acceso 100% libre y comunidad abierta en Telegram (https://t.me/bibliotyan).">
   <meta property="og:url" content="https://bibliotyan.pages.dev/">
   <meta property="og:image" content="https://bibliotyan.pages.dev/images/hero-mountains.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="BIBLIOTYAN — Tu Biblioteca Digital Abierta">
   <meta property="og:locale" content="es_ES">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="BIBLIOTYAN &mdash; Tu Biblioteca Digital Abierta">
-  <meta name="twitter:description" content="Biblioteca digital de libros curados en PDF y EPUB. Acceso libre a las grandes ideas del pensamiento universal.">
+  <meta name="twitter:description" content="Descubre más de 1.300 libros y audiolibros selectos en PDF, EPUB y Audio. Filosofía, Psicología, Negocios, Harvard y comunidad abierta en Telegram (https://t.me/bibliotyan). Acceso 100% libre.">
   <meta name="twitter:image" content="https://bibliotyan.pages.dev/images/hero-mountains.jpg">
 
-  <!-- Mobile, PWA & Theming -->
-  <meta name="theme-color" content="#09070D">
-  <meta name="msapplication-TileColor" content="#09070D">
+  <!-- Mobile, PWA & Theming (Violeta de Marca) -->
+  <meta name="theme-color" content="#120B1D">
+  <meta name="msapplication-TileColor" content="#120B1D">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="BIBLIOTYAN">
@@ -104,7 +106,7 @@
   </script>
 
   <!-- Estilos Premium Luxury Obsidian Violet -->
-  <link rel="stylesheet" href="css/styles.css?v=5.2">
+  <link rel="stylesheet" href="css/styles.css?v=5.3">
 </head>
 <body>
 
@@ -490,7 +492,7 @@
   </footer>
 
   <!-- ==================== MODAL DE VISTA PREVIA & IA ==================== -->
-  <div class="modal-overlay preview-modal" id="previewModal">
+  <div class="modal-overlay preview-modal" id="previewModal" role="dialog" aria-modal="true" aria-labelledby="previewTitle">
     <div class="modal-content">
       <div class="modal-drag-handle"></div>
       <button class="modal-close" onclick="closePreviewModal()" title="Cerrar" aria-label="Cerrar ventana">
@@ -578,7 +580,7 @@
   </div>
 
   <!-- ==================== MODAL DE AGRADECIMIENTO (REDES SOCIALES) ==================== -->
-  <div class="modal-overlay social-modal" id="socialModal">
+  <div class="modal-overlay social-modal" id="socialModal" role="dialog" aria-modal="true" aria-labelledby="socialModalTitle">
     <div class="modal-content">
       <div class="modal-drag-handle"></div>
       <button class="modal-close" onclick="closeSocialModal()" title="Cerrar" aria-label="Cerrar ventana">
@@ -613,7 +615,7 @@
   </div>
 
   <!-- ==================== BOTTOM SHEET: SOLICITAR LIBRO ==================== -->
-  <div class="modal-overlay request-sheet-modal" id="requestSheetModal">
+  <div class="modal-overlay request-sheet-modal" id="requestSheetModal" role="dialog" aria-modal="true" aria-label="Solicitar libro">
     <div class="modal-content request-sheet-content">
       <div class="modal-drag-handle"></div>
       <button class="modal-close" onclick="closeRequestSheet()" title="Cerrar" aria-label="Cerrar ventana">
@@ -647,7 +649,7 @@
   </div>
 
   <!-- ==================== LECTOR EN PANTALLA COMPLETA ==================== -->
-  <div class="modal-overlay reader-modal" id="readerModal">
+  <div class="modal-overlay reader-modal" id="readerModal" role="dialog" aria-modal="true" aria-label="Lector de libro en pantalla completa">
     <div class="reader-modal-content">
       <div class="reader-toolbar">
         <div class="reader-book-info">
@@ -671,7 +673,7 @@
   </div>
 
   <!-- ==================== REPRODUCTOR DE AUDIOLIBROS ==================== -->
-  <div class="modal-overlay audio-player-modal" id="audioPlayerModal">
+  <div class="modal-overlay audio-player-modal" id="audioPlayerModal" role="dialog" aria-modal="true" aria-label="Reproductor de audiolibros">
     <div class="audio-player-card">
       <div class="audio-player-header">
         <div class="audio-header-info">
@@ -836,8 +838,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=6.7"></script>
-  <script src="js/app.js?v=6.7"></script>
+  <script src="js/data.js?v=6.8"></script>
+  <script src="js/app.js?v=6.8"></script>
 
 </body>
 </html>
