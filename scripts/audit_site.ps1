@@ -5,7 +5,7 @@
 $repoDir = Split-Path -Parent $PSScriptRoot
 $htmlPath = Join-Path $repoDir "index.html"
 $appPath = Join-Path $repoDir "js\app.js"
-$dataPath = Join-Path $repoDir "js\data.js"
+$dataPath = Join-Path $repoDir "data\books.json"
 $stylesPath = Join-Path $repoDir "css\styles.css"
 
 Write-Host "================== AUDITORÍA DE SALUD BIBLIOTYAN ==================" -ForegroundColor Cyan

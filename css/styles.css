@@ -1993,6 +1993,10 @@ body {
   opacity: 1;
 }
 
+.modal-overlay.social-modal {
+  z-index: 12000;
+}
+
 .modal-content {
   background: var(--bg-surface);
   border: 1px solid var(--purple-border);

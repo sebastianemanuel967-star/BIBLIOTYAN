@@ -125,6 +125,81 @@ document.addEventListener('DOMContentLoaded', () => {
     img.src = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='420' viewBox='0 0 300 420'><rect width='100%' height='100%' fill='%23171020'/><rect x='10' y='10' width='280' height='400' fill='none' stroke='%23B66AFF' stroke-width='2' stroke-opacity='0.4'/><circle cx='150' cy='180' r='45' fill='%2321172C' stroke='%23B66AFF' stroke-width='2'/><text x='150' y='192' font-family='sans-serif' font-size='32' fill='%23B66AFF' font-weight='bold' text-anchor='middle'>" + initial + "</text><text x='150' y='260' font-family='sans-serif' font-size='14' fill='%23F2EEF5' text-anchor='middle'>BIBLIOTYAN</text><text x='150' y='285' font-family='sans-serif' font-size='11' fill='%23B66AFF' text-anchor='middle'>Edici%C3%B3n Digital</text></svg>";
   };
 
+  // ── Generador inteligente de portadas para audiolibros (SVG Luxury Obsidian & Violet) ──
+  function generateAudioCoverDataUri(title, author, category) {
+    const safeTitle = String(title || 'Audiolibro').trim();
+    const safeAuthor = String(author || 'Autor BIBLIOTYAN').trim();
+    const safeCategory = String(category || 'AUDIOTYAN').trim().toUpperCase();
+
+    const words = safeTitle.split(/\s+/);
+    const lines = [];
+    let cur = '';
+    words.forEach(w => {
+      if ((cur ? cur + ' ' + w : w).length <= 22) {
+        cur = cur ? cur + ' ' + w : w;
+      } else {
+        if (cur) lines.push(cur);
+        cur = w;
+      }
+    });
+    if (cur) lines.push(cur);
+    const displayLines = lines.slice(0, 3);
+    if (lines.length > 3 && displayLines[2]) displayLines[2] += '...';
+
+    const startY = 195;
+    const lineHeight = 26;
+    const titleTexts = displayLines.map((line, idx) => {
+      const y = startY + (idx * lineHeight);
+      return `<text x="200" y="${y}" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">${escapeHTML(line)}</text>`;
+    }).join('');
+
+    const authorY = startY + (displayLines.length * lineHeight) + 26;
+
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+      <defs>
+        <linearGradient id="audBg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#171020"/>
+          <stop offset="50%" stop-color="#0F0A17"/>
+          <stop offset="100%" stop-color="#261738"/>
+        </linearGradient>
+        <linearGradient id="audAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#B66AFF"/>
+          <stop offset="100%" stop-color="#8E3EE8"/>
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#audBg)"/>
+      <rect x="12" y="12" width="376" height="376" rx="16" fill="none" stroke="#B66AFF" stroke-width="1.5" stroke-opacity="0.35"/>
+      <circle cx="200" cy="105" r="46" fill="#21172C" stroke="url(#audAccent)" stroke-width="2.5"/>
+      <circle cx="200" cy="105" r="38" fill="none" stroke="#B66AFF" stroke-width="1" stroke-opacity="0.35" stroke-dasharray="3,3"/>
+      <circle cx="200" cy="105" r="14" fill="#B66AFF" fill-opacity="0.2" stroke="#B66AFF" stroke-width="1.5"/>
+      <path d="M188 106 C188 94, 212 94, 212 106 V114 A4 4 0 0 1 208 118 H206 A4 4 0 0 1 202 114 V106 A4 4 0 0 1 206 102" fill="none" stroke="#B66AFF" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M188 114 A4 4 0 0 0 192 118 H194 A4 4 0 0 0 198 114 V106 A4 4 0 0 0 194 102" fill="none" stroke="#B66AFF" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="100" y="26" width="200" height="22" rx="11" fill="#B66AFF" fill-opacity="0.15" stroke="#B66AFF" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="200" y="41" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#B66AFF" text-anchor="middle" letter-spacing="1.5">${escapeHTML(safeCategory)}</text>
+      ${titleTexts}
+      <text x="200" y="${authorY}" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#D4B8FF" text-anchor="middle">${escapeHTML(safeAuthor)}</text>
+      <line x1="120" y1="335" x2="280" y2="335" stroke="#B66AFF" stroke-opacity="0.25" stroke-width="1"/>
+      <text x="200" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#B66AFF" text-anchor="middle" letter-spacing="2">AUDIOTYAN &#8226; MASTER HD</text>
+    </svg>`;
+
+    return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+  }
+  window.generateAudioCoverDataUri = generateAudioCoverDataUri;
+
+  // Fallback inteligente para portadas de audiolibros
+  window.handleAudioCoverError = function(img, bookId) {
+    if (!img) return;
+    img.onerror = null;
+    let b = null;
+    if (bookId && typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) {
+      b = BOOKS.find(x => x.id === Number(bookId));
+    }
+    const title = (b && b.title) || img.dataset.title || img.alt || 'Audiolibro';
+    const author = (b && b.author) || img.dataset.author || '';
+    const cat = (b && b.category) || 'AUDIOTYAN';
+    img.src = generateAudioCoverDataUri(title, author, cat);
+  };
+
   // ========================================================
   // SISTEMA DE FAVORITOS (MI BIBLIOTECA)
   // ========================================================
@@ -1487,7 +1562,11 @@ document.addEventListener('DOMContentLoaded', () => {
     closePreviewModal();
     closeFullscreenReader();
 
-    state.selectedFormat = format || (state.currentBook && state.currentBook.epub && !state.currentBook.pdf ? 'epub' : 'pdf');
+    const isAudio = format === 'audio' || (state.currentBook && state.currentBook.format === 'audio') || (!state.currentBook && currentAudioBook);
+    if (isAudio && (!state.currentBook || state.currentBook.format !== 'audio') && currentAudioBook) {
+      state.currentBook = currentAudioBook;
+    }
+    state.selectedFormat = isAudio ? 'audio' : (format || (state.currentBook && state.currentBook.epub && !state.currentBook.pdf ? 'epub' : 'pdf'));
 
     const modal = document.getElementById('socialModal');
     const container = document.getElementById('socialButtonsContainer');
@@ -1499,11 +1578,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const isHarvard = state.currentBook && state.currentBook.category === 'HARVARD LIBROS';
 
     if (iconEl && titleEl && msgEl) {
-      if (isHarvard) {
+      if (isAudio) {
+        iconEl.className = 'fa-solid fa-headphones';
+        titleEl.textContent = 'Descarga Libre de Audiolibro';
+        msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> compartimos audiolibros completos con streaming y descarga en alta calidad sin costo. Si valoras nuestro trabajo, apóyanos siguiendo nuestras redes comunitarias:';
+      } else if (isHarvard) {
         iconEl.className = 'fa-solid fa-building-columns';
-        titleEl.textContent = 'Apoya al Creador â€¢ ColecciÃ³n Harvard';
-        msgEl.innerHTML = 'Para mantener activa y disponible esta colecciÃ³n de Harvard, <strong>apoya al creador</strong>. Gracias a su esfuerzo y dedicaciÃ³n tenemos estos ejemplares completos para ti. Ãšnete y apÃ³yalo en sus canales comunitarios:';
+        titleEl.textContent = 'Apoya al Creador • Colección Harvard';
+        msgEl.innerHTML = 'Para mantener activa y disponible esta colección de Harvard, <strong>apoya al creador</strong>. Gracias a su esfuerzo y dedicación tenemos estos ejemplares completos para ti. Únete y apóyalo en sus canales comunitarios:';
       } else {
+        iconEl.className = 'fa-solid fa-shield-heart';
+        titleEl.textContent = 'Descarga Libre y Gratuita';
+        msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apóyanos siguiendo nuestras redes comunitarias:';
+      }
+    } else {
         iconEl.className = 'fa-solid fa-shield-heart';
         titleEl.textContent = 'Descarga Libre y Gratuita';
         msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apÃ³yanos siguiendo nuestras redes comunitarias:';
@@ -1584,17 +1672,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const actionContainer = document.getElementById('socialActionButtonsContainer');
-    if (actionContainer && state.currentBook) {
-      const book = state.currentBook;
+    if (actionContainer && (state.currentBook || currentAudioBook)) {
+      const book = state.currentBook || currentAudioBook;
+      const isAudioBook = (state.selectedFormat === 'audio' || book.format === 'audio');
       const hasBoth = (book.format === 'dual' || (book.pdf && book.epub));
 
-      if (hasBoth && !format) {
+      if (isAudioBook) {
+        actionContainer.innerHTML = `
+          <button class="btn-confirmed-download" onclick="downloadCurrentBook('audio')">
+            <i class="fa-solid fa-headphones"></i> ¡Ya los sigo! Descargar Audiolibro
+          </button>
+          <button class="btn-skip-download" onclick="downloadCurrentBook('audio')" style="margin-top: 0.6rem;">
+            Descargar sin seguir (Audio HD)
+          </button>
+        `;
+      } else if (hasBoth && !format) {
         actionContainer.innerHTML = `
           <button class="btn-confirmed-download" onclick="downloadCurrentBook('pdf')">
-            <i class="fa-solid fa-file-pdf"></i> Â¡Ya los sigo! Descargar en PDF
+            <i class="fa-solid fa-file-pdf"></i> ¡Ya los sigo! Descargar en PDF
           </button>
           <button class="btn-confirmed-download" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); border-color: #10b981; margin-top: 0.5rem;" onclick="downloadCurrentBook('epub')">
-            <i class="fa-solid fa-book-open-reader"></i> Â¡Ya los sigo! Descargar en EPUB
+            <i class="fa-solid fa-book-open-reader"></i> ¡Ya los sigo! Descargar en EPUB
           </button>
           <button class="btn-skip-download" onclick="downloadCurrentBook('pdf')" style="margin-top: 0.6rem;">
             Descargar sin seguir (PDF)
@@ -1603,7 +1701,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (state.selectedFormat === 'epub') {
         actionContainer.innerHTML = `
           <button class="btn-confirmed-download" style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); border-color: #10b981;" onclick="downloadCurrentBook('epub')">
-            <i class="fa-solid fa-book-open-reader"></i> Â¡Ya los sigo! Descargar EPUB
+            <i class="fa-solid fa-book-open-reader"></i> ¡Ya los sigo! Descargar EPUB
           </button>
           <button class="btn-skip-download" onclick="downloadCurrentBook('epub')" style="margin-top: 0.6rem;">
             Descargar sin seguir
@@ -1612,7 +1710,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         actionContainer.innerHTML = `
           <button class="btn-confirmed-download" onclick="downloadCurrentBook('pdf')">
-            <i class="fa-solid fa-file-pdf"></i> Â¡Ya los sigo! Descargar PDF
+            <i class="fa-solid fa-file-pdf"></i> ¡Ya los sigo! Descargar PDF
           </button>
           <button class="btn-skip-download" onclick="downloadCurrentBook('pdf')" style="margin-top: 0.6rem;">
             Descargar sin seguir
@@ -1632,20 +1730,65 @@ document.addEventListener('DOMContentLoaded', () => {
       modal.classList.remove('active');
       releaseFocusFromModal(modal);
     }
-    document.body.style.overflow = '';
+    const audioModal = document.getElementById('audioPlayerModal');
+    if (audioModal && audioModal.classList.contains('active')) {
+      document.body.style.overflow = 'hidden';
+      trapFocusInModal(audioModal);
+    } else {
+      document.body.style.overflow = '';
+    }
   }
 
   function downloadCurrentBook(format) {
-    if (!state.currentBook) return;
+    const book = state.currentBook || currentAudioBook;
+    if (!book) return;
     closeSocialModal();
 
-    const book = state.currentBook;
     const chosenFormat = format || state.selectedFormat || (book.epub && !book.pdf ? 'epub' : 'pdf');
+
+    if (chosenFormat === 'audio' || book.format === 'audio') {
+      let filePath = '';
+      let trackSuffix = '';
+      if (book.tracks && book.tracks.length > 0) {
+        const idx = (currentAudioBook && currentAudioBook.id === book.id && typeof currentTrackIndex === 'number') ? currentTrackIndex : 0;
+        const tr = book.tracks[idx] || book.tracks[0];
+        filePath = tr.url;
+        trackSuffix = tr.title ? ` - ${tr.title}` : '';
+      } else {
+        filePath = book.audioUrl;
+      }
+
+      book.downloads = (book.downloads || 0) + 1;
+      renderBooks();
+      updateStats();
+
+      if (filePath) {
+        const ext = filePath.toLowerCase().includes('.mp3') ? 'mp3' : 'm4a';
+        const link = document.createElement('a');
+        link.href = filePath;
+        link.download = `${book.title}${trackSuffix}.${ext}`;
+        if (filePath.startsWith('http')) {
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+        }
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        showToast('Descarga Iniciada', `Disfruta el audiolibro "${book.title}".`);
+      } else {
+        showToast('Solicitud en Proceso', 'El audiolibro está preparándose. Puedes solicitarlo por nuestro canal de Telegram.');
+      }
+      return;
+    }
 
     let filePath = book.pdf;
     let ext = 'pdf';
 
     if (chosenFormat === 'epub' && book.epub) {
+      filePath = book.epub;
+      ext = 'epub';
+    } else if (!book.pdf && book.epub) {
       filePath = book.epub;
       ext = 'epub';
     } else if (!book.pdf && book.epub) {
@@ -1873,13 +2016,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const trackCount = b.tracks && b.tracks.length > 1 ? `${b.tracks.length} CapÃ­tulos` : 'Audiolibro Completo';
       const authorSafe = typeof escapeHtml === 'function' ? escapeHtml(b.author || 'Autor') : (b.author || 'Autor');
       const titleSafe = typeof escapeHtml === 'function' ? escapeHtml(b.title || 'Audiolibro') : (b.title || 'Audiolibro');
-      const coverUrl = b.cover || 'covers/default.jpg';
+      const coverUrl = (b.cover && b.cover !== 'covers/default.jpg') ? b.cover : generateAudioCoverDataUri(b.title, b.author, b.category);
       const yearStr = b.year ? ` â€¢ ${b.year}` : '';
 
       return `
         <article class="audiotyan-card brand-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
           <div class="audiotyan-card-cover-wrap brand-card-cover-wrap">
-            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" decoding="async" width="220" height="220" class="audiotyan-card-cover brand-card-cover" onerror="this.onerror=null; this.src='covers/default.jpg';">
+            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" decoding="async" width="220" height="220" class="audiotyan-card-cover brand-card-cover" onerror="handleAudioCoverError(this, ${b.id});">
             <span class="audiotyan-badge brand-badge"><i class="fa-solid fa-headphones"></i> ${trackCount}</span>
             <button type="button" class="audiotyan-play-overlay-btn brand-play-overlay-btn" onclick="event.stopPropagation(); openAudioPlayerById(${b.id});" aria-label="Reproducir ${titleSafe}">
               <i class="fa-solid fa-play"></i>
@@ -2153,7 +2296,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const title = document.getElementById('spotifyBarTitle');
     const author = document.getElementById('spotifyBarAuthor');
     if (cover) {
-      cover.src = currentAudioBook.cover || 'covers/default.jpg';
+      cover.onerror = () => handleAudioCoverError(cover, currentAudioBook ? currentAudioBook.id : null);
+      cover.src = (currentAudioBook.cover && currentAudioBook.cover !== 'covers/default.jpg') ? currentAudioBook.cover : generateAudioCoverDataUri(currentAudioBook.title, currentAudioBook.author, currentAudioBook.category);
       cover.style.display = 'block';
     }
     if (title) {
@@ -2278,8 +2422,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const trackWrapper = document.getElementById('audioPlaylistWrapper');
 
     if (cover) {
-      cover.onerror = () => handleCoverError(cover, target.title);
-      cover.src = target.cover || '';
+      cover.onerror = () => handleAudioCoverError(cover, target.id);
+      cover.src = (target.cover && target.cover !== 'covers/default.jpg') ? target.cover : generateAudioCoverDataUri(target.title, target.author, target.category);
     }
     if (title) title.textContent = target.title || 'Audiolibro';
     if (author) author.textContent = target.author || '';
@@ -2510,49 +2654,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function downloadCurrentAudioTrack() {
     if (!currentAudioBook) return;
-    let url = '';
-    let filename = '';
-    if (currentAudioBook.tracks && currentAudioBook.tracks[currentTrackIndex]) {
-      url = currentAudioBook.tracks[currentTrackIndex].url;
-      filename = `${currentAudioBook.title} - ${currentAudioBook.tracks[currentTrackIndex].title}.m4a`;
-    } else {
-      url = currentAudioBook.audioUrl;
-      filename = `${currentAudioBook.title}.m4a`;
-    }
-    if (url) {
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      a.target = '_blank';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      showToast('Iniciando descarga del audiolibro...', 'success');
-    }
+    state.currentBook = currentAudioBook;
+    openSocialModal('audio');
   }
 
   function downloadCurrentAudioTrackDirect(book) {
     const target = book || state.currentBook || currentAudioBook;
     if (!target) return;
-    let url = '';
-    let filename = '';
-    if (target.tracks && target.tracks[0]) {
-      url = target.tracks[0].url;
-      filename = `${target.title} - ${target.tracks[0].title}.m4a`;
-    } else {
-      url = target.audioUrl;
-      filename = `${target.title}.m4a`;
-    }
-    if (url) {
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      a.target = '_blank';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      showToast('Iniciando descarga del audiolibro...', 'success');
-    }
+    state.currentBook = target;
+    openSocialModal('audio');
   }
 
   // Cierre de modales
