@@ -661,6 +661,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateStats();
     updateCollectionShowcaseBadges();
     setupCollectionsCarousel();
+    setupCollectionsStripScroll();
     handleInitialUrl();
     initAudioPlayer();
     refreshIcons();
@@ -1835,6 +1836,31 @@ document.addEventListener('DOMContentLoaded', () => {
     if (elDummies) elDummies.textContent = dCount;
     if (elHistoria) elHistoria.textContent = hCount;
     if (elHarvard) elHarvard.textContent = hbrCount;
+  }
+
+  // Desplazamiento horizontal e indicador de fade para Colecciones y Selección
+  window.scrollCollectionsStrip = function(amount) {
+    const strip = document.getElementById('specialCollectionsGrid');
+    if (strip) {
+      strip.scrollBy({ left: amount, behavior: 'smooth' });
+    }
+  };
+
+  function setupCollectionsStripScroll() {
+    const strip = document.getElementById('specialCollectionsGrid');
+    const wrapper = document.querySelector('.collections-strip-wrapper');
+    if (!strip || !wrapper) return;
+
+    function updateFadeIndicators() {
+      const atStart = strip.scrollLeft <= 8;
+      const atEnd = strip.scrollLeft + strip.clientWidth >= strip.scrollWidth - 12;
+      wrapper.classList.toggle('scrolled-start', !atStart);
+      wrapper.classList.toggle('scrolled-end', atEnd);
+    }
+
+    strip.addEventListener('scroll', updateFadeIndicators, { passive: true });
+    window.addEventListener('resize', updateFadeIndicators, { passive: true });
+    updateFadeIndicators();
   }
 
   function setupCollectionsCarousel() {

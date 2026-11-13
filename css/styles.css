@@ -575,17 +575,18 @@ body {
   background: var(--bg-surface);
   border: 1px solid var(--purple-border);
   border-radius: var(--radius-md);
-  padding: 0.85rem 0.35rem 0.78rem;
+  padding: 0.75rem 0.35rem;
+  height: 84px;
+  box-sizing: border-box;
   text-align: center;
   text-decoration: none;
   color: var(--text-main);
   cursor: pointer;
-  transition: var(--transition);
+  transition: background var(--transition), border-color var(--transition), box-shadow var(--transition), transform var(--transition);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.42rem;
   min-width: 0;
 }
 
@@ -597,14 +598,19 @@ body {
 }
 
 .knowledge-card-icon {
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
+  font-size: 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: var(--purple-primary);
-  transition: var(--transition);
+  transition: transform 0.2s ease, color 0.2s ease;
+  flex-shrink: 0;
 }
 
 .knowledge-card:hover .knowledge-card-icon {
-  transform: scale(1.08);
+  transform: scale(1.1);
   color: var(--purple-light);
 }
 
@@ -617,25 +623,113 @@ body {
   text-overflow: ellipsis;
   max-width: 100%;
   line-height: 1.25;
+  margin-top: 0.4rem;
+  display: block;
 }
 
 @media (min-width: 768px) {
   .knowledge-card {
-    padding: 1.1rem 0.5rem 0.95rem;
-    gap: 0.5rem;
+    height: 96px;
+    padding: 0.95rem 0.5rem;
   }
   .knowledge-card-icon {
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
+    font-size: 1.5rem;
   }
   .knowledge-card-label {
     font-size: 0.85rem;
+    margin-top: 0.45rem;
   }
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
    COLECCIONES COMPACTAS + SELECCIÓN EDITORIAL
    ══════════════════════════════════════════════════════════════════════════ */
+.collections-strip-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Gradiente indicador de desbordamiento horizontal */
+.collections-strip-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0.7rem;
+  width: 52px;
+  pointer-events: none;
+  background: linear-gradient(to right, transparent, var(--bg-dark));
+  opacity: 1;
+  transition: opacity 0.25s ease;
+  z-index: 4;
+}
+
+.collections-strip-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0.7rem;
+  width: 40px;
+  pointer-events: none;
+  background: linear-gradient(to left, transparent, var(--bg-dark));
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 4;
+}
+
+.collections-strip-wrapper.scrolled-start::before {
+  opacity: 1;
+}
+
+.collections-strip-wrapper.scrolled-end::after {
+  opacity: 0;
+}
+
+/* Botones flechas de navegación lateral en escritorio */
+.strip-scroll-btn {
+  display: none;
+  position: absolute;
+  top: calc(50% - 0.35rem);
+  transform: translateY(-50%);
+  z-index: 6;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(23, 16, 32, 0.92);
+  border: 1px solid var(--purple-border);
+  color: var(--purple-light);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.strip-scroll-btn:hover {
+  background: var(--purple-primary);
+  color: #ffffff;
+  border-color: var(--purple-light);
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 0 14px rgba(182, 106, 255, 0.5);
+}
+
+.strip-scroll-prev {
+  left: -12px;
+}
+
+.strip-scroll-next {
+  right: -12px;
+}
+
+@media (min-width: 900px) {
+  .strip-scroll-btn {
+    display: inline-flex;
+  }
+}
+
 .collections-compact-strip {
   display: flex;
   gap: 0.48rem;

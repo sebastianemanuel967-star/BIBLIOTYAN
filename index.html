@@ -104,7 +104,7 @@
   </script>
 
   <!-- Estilos Premium Luxury Obsidian Violet -->
-  <link rel="stylesheet" href="css/styles.css?v=5.1">
+  <link rel="stylesheet" href="css/styles.css?v=5.2">
 </head>
 <body>
 
@@ -179,38 +179,38 @@
         <div class="section-title-row">
           <h2 class="section-title">Explora por conocimiento</h2>
           <a href="#catalog" class="section-view-all" onclick="selectKnowledgeCategory('Todos')">
-            Ver todos <i data-lucide="arrow-right"></i>
+            Ver todos <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
 
         <div class="knowledge-grid" id="knowledgeGrid">
           <button type="button" class="knowledge-card" onclick="selectKnowledgeCategory('Filosofía')" title="Explorar Filosof&iacute;a">
-            <i data-lucide="landmark" class="knowledge-card-icon"></i>
+            <i class="fa-solid fa-landmark knowledge-card-icon"></i>
             <span class="knowledge-card-label">Filosof&iacute;a</span>
           </button>
 
           <button type="button" class="knowledge-card" onclick="selectKnowledgeCategory('Psicología')" title="Explorar Psicolog&iacute;a">
-            <i data-lucide="brain" class="knowledge-card-icon"></i>
+            <i class="fa-solid fa-brain knowledge-card-icon"></i>
             <span class="knowledge-card-label">Psicolog&iacute;a</span>
           </button>
 
           <button type="button" class="knowledge-card" onclick="selectKnowledgeCategory('Negocios')" title="Explorar Negocios">
-            <i data-lucide="trending-up" class="knowledge-card-icon"></i>
+            <i class="fa-solid fa-chart-line knowledge-card-icon"></i>
             <span class="knowledge-card-label">Negocios</span>
           </button>
 
           <button type="button" class="knowledge-card" onclick="selectKnowledgeCategory('Economía')" title="Explorar Econom&iacute;a">
-            <i data-lucide="coins" class="knowledge-card-icon"></i>
+            <i class="fa-solid fa-coins knowledge-card-icon"></i>
             <span class="knowledge-card-label">Econom&iacute;a</span>
           </button>
 
           <button type="button" class="knowledge-card" onclick="selectKnowledgeCategory('Historia')" title="Explorar Historia">
-            <i data-lucide="hourglass" class="knowledge-card-icon"></i>
+            <i class="fa-solid fa-hourglass-half knowledge-card-icon"></i>
             <span class="knowledge-card-label">Historia</span>
           </button>
 
           <button type="button" class="knowledge-card" onclick="selectKnowledgeCategory('Ciencia')" title="Explorar Ciencia">
-            <i data-lucide="atom" class="knowledge-card-icon"></i>
+            <i class="fa-solid fa-atom knowledge-card-icon"></i>
             <span class="knowledge-card-label">Ciencia</span>
           </button>
         </div>
@@ -223,42 +223,52 @@
         <div class="section-title-row">
           <h2 class="section-title">Colecciones y Selecci&oacute;n</h2>
           <a href="#catalog" class="section-view-all" onclick="selectSpecialFilter('Recomendados')">
-            Ver todos <i data-lucide="arrow-right"></i>
+            Ver todos <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
 
-        <div class="collections-compact-strip" id="specialCollectionsGrid" aria-label="Colecciones destacadas">
-          <button type="button" class="collection-chip-compact chip-robert-greene" id="cardColGreene" onclick="selectCategory('Robert Greene', true, true)">
-            <span class="chip-name">Robert Greene</span>
-            <span class="chip-count" id="colCountGreene">6</span>
+        <div class="collections-strip-wrapper">
+          <button type="button" class="strip-scroll-btn strip-scroll-prev" onclick="scrollCollectionsStrip(-280)" aria-label="Desplazar colecciones a la izquierda">
+            <i class="fa-solid fa-chevron-left"></i>
           </button>
-          <button type="button" class="collection-chip-compact chip-jacobo-grinberg" id="cardColGrinberg" onclick="selectCategory('Jacobo Grinberg', true, true)">
-            <span class="chip-name">Jacobo Grinberg</span>
-            <span class="chip-count" id="colCountGrinberg">25</span>
-          </button>
-          <button type="button" class="collection-chip-compact chip-dummies" id="cardColDummies" onclick="selectCategory('PARA DUMMIES', true, true)">
-            <span class="chip-name">Para Dummies</span>
-            <span class="chip-count" id="colCountDummies">70</span>
-          </button>
-          <button type="button" class="collection-chip-compact chip-historia" id="cardColHistoria" onclick="selectCategory('BREVE HISTORIA', true, true)">
-            <span class="chip-name">Breve Historia</span>
-            <span class="chip-count" id="colCountHistoria">142</span>
-          </button>
-          <button type="button" class="collection-chip-compact chip-harvard" id="cardColHarvard" onclick="selectCategory('HARVARD LIBROS', true, true)">
-            <span class="chip-name">Harvard Libros</span>
-            <span class="chip-count" id="colCountHarvard">27</span>
-          </button>
-          <button type="button" class="collection-chip-compact chip-emprendedores" id="cardColEmprendedores" onclick="selectCategory('LIBROS EMPRENDEDORES', true, true)">
-            <span class="chip-name">Emprendedores</span>
-            <span class="chip-count" id="colCountEmprendedores">394</span>
-          </button>
-          <button type="button" class="collection-chip-compact chip-teologia" id="cardColTeologia" onclick="selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true)">
-            <span class="chip-name">Teolog&iacute;a</span>
-            <span class="chip-count" id="colCountTeologia">38</span>
-          </button>
-          <button type="button" class="collection-chip-compact chip-administracion" id="cardColAdmin" onclick="selectCategory('Libros de Administración', true, true)">
-            <span class="chip-name">Administraci&oacute;n</span>
-            <span class="chip-count" id="colCountAdmin">197</span>
+
+          <div class="collections-compact-strip" id="specialCollectionsGrid" aria-label="Colecciones destacadas">
+            <button type="button" class="collection-chip-compact chip-robert-greene" id="cardColGreene" onclick="selectCategory('Robert Greene', true, true)">
+              <span class="chip-name">Robert Greene</span>
+              <span class="chip-count" id="colCountGreene">6</span>
+            </button>
+            <button type="button" class="collection-chip-compact chip-jacobo-grinberg" id="cardColGrinberg" onclick="selectCategory('Jacobo Grinberg', true, true)">
+              <span class="chip-name">Jacobo Grinberg</span>
+              <span class="chip-count" id="colCountGrinberg">25</span>
+            </button>
+            <button type="button" class="collection-chip-compact chip-dummies" id="cardColDummies" onclick="selectCategory('PARA DUMMIES', true, true)">
+              <span class="chip-name">Para Dummies</span>
+              <span class="chip-count" id="colCountDummies">70</span>
+            </button>
+            <button type="button" class="collection-chip-compact chip-historia" id="cardColHistoria" onclick="selectCategory('BREVE HISTORIA', true, true)">
+              <span class="chip-name">Breve Historia</span>
+              <span class="chip-count" id="colCountHistoria">142</span>
+            </button>
+            <button type="button" class="collection-chip-compact chip-harvard" id="cardColHarvard" onclick="selectCategory('HARVARD LIBROS', true, true)">
+              <span class="chip-name">Harvard Libros</span>
+              <span class="chip-count" id="colCountHarvard">27</span>
+            </button>
+            <button type="button" class="collection-chip-compact chip-emprendedores" id="cardColEmprendedores" onclick="selectCategory('LIBROS EMPRENDEDORES', true, true)">
+              <span class="chip-name">Emprendedores</span>
+              <span class="chip-count" id="colCountEmprendedores">394</span>
+            </button>
+            <button type="button" class="collection-chip-compact chip-teologia" id="cardColTeologia" onclick="selectCategory('TEOLOGÍA CONTEMPORÁNEA', true, true)">
+              <span class="chip-name">Teolog&iacute;a</span>
+              <span class="chip-count" id="colCountTeologia">38</span>
+            </button>
+            <button type="button" class="collection-chip-compact chip-administracion" id="cardColAdmin" onclick="selectCategory('Libros de Administración', true, true)">
+              <span class="chip-name">Administraci&oacute;n</span>
+              <span class="chip-count" id="colCountAdmin">197</span>
+            </button>
+          </div>
+
+          <button type="button" class="strip-scroll-btn strip-scroll-next" onclick="scrollCollectionsStrip(280)" aria-label="Desplazar colecciones a la derecha">
+            <i class="fa-solid fa-chevron-right"></i>
           </button>
         </div>
 
@@ -826,8 +836,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=6.6"></script>
-  <script src="js/app.js?v=6.6"></script>
+  <script src="js/data.js?v=6.7"></script>
+  <script src="js/app.js?v=6.7"></script>
 
 </body>
 </html>
