@@ -649,7 +649,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // renderDailyRecommendation();
     renderBooks();
     renderSocialLinks();
-    renderWhyReadSection();
+    renderAudioTyanSection();
     renderDailyQuote();
     renderFooter();
     initRequestSheet();
@@ -1588,45 +1588,63 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // BENEFICIOS DE LA LECTURA
+  // AUDIOTYAN — SECCIÓN DE AUDIOLIBROS
   // ========================================================
-  function renderWhyReadSection() {
-    const grid = document.querySelector('.why-read-grid');
+  function renderAudioTyanSection() {
+    const grid = document.getElementById('audiotyanGrid');
     if (!grid) return;
 
-    const reasons = [
-      {
-        icon: 'brain',
-        title: 'Neuroplasticidad y Reserva Cognitiva',
-        text: 'La lectura activa estimula redes neuronales complejas, fortaleciendo la memoria de trabajo y desacelerando el declive cognitivo.'
-      },
-      {
-        icon: 'compass',
-        title: 'Expansión de Criterio',
-        text: 'Sumergirse en textos rigurosos permite asimilar modelos mentales diversos y contrastar perspectivas con profundidad.'
-      },
-      {
-        icon: 'target',
-        title: 'Enfoque y Atención Sostenida',
-        text: 'Contrarresta la dispersión de estímulos inmediatos, cultivando la capacidad de análisis prolongado y pensamiento crítico.'
-      },
-      {
-        icon: 'heart-handshake',
-        title: 'Regulación del Sistema Nervioso',
-        text: 'Estudios confirman que periodos breves de lectura concentrada reducen pulsaciones y niveles de cortisol fisiológico.'
-      }
-    ];
+    if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) {
+      grid.innerHTML = '<p class="audiotyan-empty">Cargando audiolibros...</p>';
+      return;
+    }
 
-    grid.innerHTML = reasons.map(r => `
-      <div class="why-card">
-        <div class="why-icon"><i data-lucide="${r.icon}"></i></div>
-        <h3>${r.title}</h3>
-        <p>${r.text}</p>
-      </div>
-    `).join('');
+    const audioBooks = BOOKS.filter(b => b.format === 'audio' || b.category === 'Audiolibros' || b.audioUrl || (b.tracks && b.tracks.length > 0));
+    if (!audioBooks || audioBooks.length === 0) {
+      grid.innerHTML = '<p class="audiotyan-empty">Próximamente más audiolibros.</p>';
+      return;
+    }
+
+    grid.innerHTML = audioBooks.map(b => {
+      const trackCount = b.tracks && b.tracks.length > 1 ? `${b.tracks.length} Capítulos` : 'Audiolibro Completo';
+      const authorSafe = typeof escapeHtml === 'function' ? escapeHtml(b.author || 'Autor') : (b.author || 'Autor');
+      const titleSafe = typeof escapeHtml === 'function' ? escapeHtml(b.title || 'Audiolibro') : (b.title || 'Audiolibro');
+      const coverUrl = b.cover || 'covers/default.jpg';
+      const yearStr = b.year ? ` • ${b.year}` : '';
+
+      return `
+        <article class="audiotyan-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
+          <div class="audiotyan-card-cover-wrap">
+            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" class="audiotyan-card-cover" onerror="this.onerror=null; this.src='covers/default.jpg';">
+            <span class="audiotyan-badge"><i data-lucide="headphones"></i> ${trackCount}</span>
+            <button type="button" class="audiotyan-play-overlay-btn" onclick="event.stopPropagation(); openAudioPlayerById(${b.id});" aria-label="Reproducir ${titleSafe}">
+              <i data-lucide="play"></i>
+            </button>
+          </div>
+          <div class="audiotyan-card-info">
+            <h3 class="audiotyan-card-title" title="${titleSafe}">${titleSafe}</h3>
+            <p class="audiotyan-card-author">${authorSafe}${yearStr}</p>
+            <div class="audiotyan-card-footer">
+              <span class="audiotyan-card-tag"><i data-lucide="sparkles"></i> Master</span>
+              <span class="audiotyan-card-action"><i data-lucide="disc"></i> Escuchar</span>
+            </div>
+          </div>
+        </article>
+      `;
+    }).join('');
 
     refreshIcons();
   }
+
+  function openAudioPlayerById(id) {
+    if (typeof BOOKS === 'undefined') return;
+    const b = BOOKS.find(x => x.id === Number(id));
+    if (b && typeof openAudioPlayer === 'function') {
+      openAudioPlayer(b);
+    }
+  }
+  window.openAudioPlayerById = openAudioPlayerById;
+  window.renderAudioTyanSection = renderAudioTyanSection;
 
   // ========================================================
   // REFLEXIÓN EDITORIAL

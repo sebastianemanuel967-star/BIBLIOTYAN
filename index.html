@@ -120,7 +120,7 @@
         <a href="#catalog" class="desktop-nav-link"><i data-lucide="book-open"></i> Cat&aacute;logo</a>
         <a href="#colecciones" class="desktop-nav-link"><i data-lucide="layers"></i> Colecciones</a>
         <a href="#requestSheetModal" class="desktop-nav-link badge-pill" onclick="event.preventDefault(); openRequestSheet();"><i data-lucide="send"></i> Solicitar Libro</a>
-        <a href="#beneficios" class="desktop-nav-link"><i data-lucide="sparkles"></i> Beneficios</a>
+        <a href="#audiotyan" class="desktop-nav-link audiotyan-nav-btn" id="navAudiotyan"><i data-lucide="headphones"></i> AUDIOTYAN</a>
       </nav>
 
       <div class="header-actions">
@@ -151,8 +151,8 @@
               <a href="#catalog" class="btn-hero-explore">
                 <i data-lucide="book-open"></i> Explorar biblioteca
               </a>
-              <a href="#beneficios" class="hero-how-link">
-                C&oacute;mo funciona <i data-lucide="arrow-right"></i>
+              <a href="#audiotyan" class="hero-how-link">
+                <i data-lucide="headphones"></i> AUDIOTYAN <i data-lucide="arrow-right"></i>
               </a>
             </div>
           </div>
@@ -319,14 +319,25 @@
       </div>
     </section>
 
-    <!-- ==================== BENEFICIOS DE LA LECTURA ==================== -->
-    <section class="why-read-section" id="beneficios">
+    <!-- ==================== AUDIOTYAN — SECCIÓN DE AUDIOLIBROS ==================== -->
+    <section class="audiotyan-section" id="audiotyan">
       <div class="section-header">
-        <h2>El H&aacute;bito de la Lectura</h2>
-        <p>Respaldado por la neurociencia y el desarrollo cognitivo</p>
+        <span class="section-kicker"><i data-lucide="headphones"></i> EXPERIENCIA INMERSIVA</span>
+        <h2>AUDIOTYAN</h2>
+        <p>Audiolibros &iacute;ntegros de Finanzas, Liderazgo y Crecimiento con reproductor interactivo y selector de cap&iacute;tulos</p>
         <div class="accent-line"></div>
       </div>
-      <div class="why-read-grid"></div>
+      <div class="audiotyan-bar">
+        <div class="audiotyan-stats">
+          <span><i data-lucide="headphones"></i> <strong>20</strong> Audiolibros Maestros</span>
+          <span><i data-lucide="list-music"></i> <strong>128</strong> Cap&iacute;tulos en Alta Definici&oacute;n</span>
+          <span><i data-lucide="zap"></i> Streaming Inmediato</span>
+        </div>
+        <button type="button" class="btn-audiotyan-explore" onclick="selectCategory('Audiolibros', false, true); document.getElementById('catalog').scrollIntoView({behavior: 'smooth'});">
+          <i data-lucide="list-filter"></i> Ver todos en el Cat&aacute;logo
+        </button>
+      </div>
+      <div class="audiotyan-grid" id="audiotyanGrid"></div>
     </section>
 
     <!-- ==================== FRASE / REFLEXION EDITORIAL ==================== -->
@@ -659,8 +670,8 @@
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=6.0"></script>
-  <script src="js/app.js?v=6.0"></script>
+  <script src="js/data.js?v=6.1"></script>
+  <script src="js/app.js?v=6.1"></script>
 
 </body>
 </html>
