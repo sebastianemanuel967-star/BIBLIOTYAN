@@ -1589,11 +1589,6 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         iconEl.className = 'fa-solid fa-shield-heart';
         titleEl.textContent = 'Descarga Libre y Gratuita';
-        msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apóyanos siguiendo nuestras redes comunitarias:';
-      }
-    } else {
-        iconEl.className = 'fa-solid fa-shield-heart';
-        titleEl.textContent = 'Descarga Libre y Gratuita';
         msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apÃ³yanos siguiendo nuestras redes comunitarias:';
       }
     }
