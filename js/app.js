@@ -1588,7 +1588,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // AUDIOTYAN — EXPERIENCIA SPOTIFY DE AUDIOLIBROS & CURSOS
+  // AUDIOTYAN — EXPERIENCIA DE AUDIOLIBROS & CURSOS
   // ========================================================
   let currentSpotifyFilter = 'all';
   let currentSpotifyQuery = '';
@@ -1639,12 +1639,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (audioBooks.length === 0) {
       grid.innerHTML = `
         <div class="spotify-empty-state">
-          <i data-lucide="search-x"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
           <p>No se encontraron audiolibros para "${escapeHtml(currentSpotifyQuery)}".</p>
           <button type="button" class="btn-spotify-clear" onclick="filterSpotifyShelf('all')">Ver todos los audiolibros</button>
         </div>
       `;
-      refreshIcons();
       return;
     }
 
@@ -1656,47 +1655,55 @@ document.addEventListener('DOMContentLoaded', () => {
       const yearStr = b.year ? ` • ${b.year}` : '';
 
       return `
-        <article class="audiotyan-card spotify-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
-          <div class="audiotyan-card-cover-wrap spotify-card-cover-wrap">
-            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" class="audiotyan-card-cover spotify-card-cover" onerror="this.onerror=null; this.src='covers/default.jpg';">
-            <span class="audiotyan-badge spotify-badge"><i data-lucide="headphones"></i> ${trackCount}</span>
-            <button type="button" class="audiotyan-play-overlay-btn spotify-play-overlay-btn" onclick="event.stopPropagation(); openAudioPlayerById(${b.id});" aria-label="Reproducir ${titleSafe}">
+        <article class="audiotyan-card brand-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
+          <div class="audiotyan-card-cover-wrap brand-card-cover-wrap">
+            <img src="${coverUrl}" alt="${titleSafe}" loading="lazy" class="audiotyan-card-cover brand-card-cover" onerror="this.onerror=null; this.src='covers/default.jpg';">
+            <span class="audiotyan-badge brand-badge"><i class="fa-solid fa-headphones"></i> ${trackCount}</span>
+            <button type="button" class="audiotyan-play-overlay-btn brand-play-overlay-btn" onclick="event.stopPropagation(); openAudioPlayerById(${b.id});" aria-label="Reproducir ${titleSafe}">
               <i class="fa-solid fa-play"></i>
             </button>
           </div>
-          <div class="audiotyan-card-info spotify-card-info">
-            <h3 class="audiotyan-card-title spotify-card-title" title="${titleSafe}">${titleSafe}</h3>
-            <p class="audiotyan-card-author spotify-card-author">${authorSafe}${yearStr}</p>
-            <div class="audiotyan-card-footer spotify-card-footer">
-              <span class="spotify-tag-audio"><i data-lucide="disc"></i> Master HD</span>
-              <span class="spotify-btn-listen"><i class="fa-solid fa-headphones"></i> Escuchar</span>
+          <div class="audiotyan-card-info brand-card-info">
+            <h3 class="audiotyan-card-title brand-card-title" title="${titleSafe}">${titleSafe}</h3>
+            <p class="audiotyan-card-author brand-card-author">${authorSafe}${yearStr}</p>
+            <div class="audiotyan-card-footer brand-card-footer">
+              <span class="audiotyan-tag-audio"><i class="fa-solid fa-compact-disc"></i> Master HD</span>
+              <span class="audiotyan-btn-listen"><i class="fa-solid fa-headphones"></i> Escuchar</span>
             </div>
           </div>
         </article>
       `;
     }).join('');
-
-    refreshIcons();
   }
 
   function filterSpotifyShelf(filter) {
     currentSpotifyFilter = filter;
-    document.querySelectorAll('.spotify-chip').forEach(btn => {
+    document.querySelectorAll('.audiotyan-chip').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.sub === filter);
     });
-    if (filter === 'cursos') {
-      const coursesShelf = document.getElementById('spotifyCoursesShelf');
-      if (coursesShelf) coursesShelf.scrollIntoView({ behavior: 'smooth' });
-    }
     renderAudioTyanSection();
   }
   window.filterSpotifyShelf = filterSpotifyShelf;
 
   function onSpotifySearch(val) {
     currentSpotifyQuery = val || '';
+    const clearBtn = document.getElementById('audiotyanSearchClearBtn');
+    if (clearBtn) {
+      clearBtn.style.display = currentSpotifyQuery.trim() ? 'block' : 'none';
+    }
     renderAudioTyanSection();
   }
   window.onSpotifySearch = onSpotifySearch;
+
+  function clearAudiotyanSearch() {
+    const input = document.getElementById('spotifySearchInput');
+    if (input) input.value = '';
+    currentSpotifyQuery = '';
+    const clearBtn = document.getElementById('audiotyanSearchClearBtn');
+    if (clearBtn) clearBtn.style.display = 'none';
+    renderAudioTyanSection();
+  }
+  window.clearAudiotyanSearch = clearAudiotyanSearch;
 
   function openAudioPlayerById(id) {
     if (typeof BOOKS === 'undefined') return;
@@ -1853,14 +1860,21 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!bar) return;
     if (!currentAudioBook) {
       bar.classList.remove('active');
+      bar.style.display = 'none';
       return;
     }
-    bar.classList.add('active');
+    bar.style.display = 'flex';
+    requestAnimationFrame(() => {
+      bar.classList.add('active');
+    });
 
     const cover = document.getElementById('spotifyBarCover');
     const title = document.getElementById('spotifyBarTitle');
     const author = document.getElementById('spotifyBarAuthor');
-    if (cover) cover.src = currentAudioBook.cover || 'covers/default.jpg';
+    if (cover) {
+      cover.src = currentAudioBook.cover || 'covers/default.jpg';
+      cover.style.display = 'block';
+    }
     if (title) {
       const trName = (currentAudioBook.tracks && currentAudioBook.tracks[currentTrackIndex])
         ? currentAudioBook.tracks[currentTrackIndex].title
