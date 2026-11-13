@@ -1000,6 +1000,66 @@ const BOOKS = [
     }
   },
   {
+    id: 2641,
+    title: "Las leyes de la suerte: Un sistema para el éxito a prueba de errores",
+    author: "Brian Tracy",
+    category: "Crecimiento Personal",
+    subtopic: "Causalidad, Probabilidades, Mente Superconsciente y Hábitos de Éxito",
+    format: "pdf",
+    pdf: "pdfs/b2641_las-leyes-de-la-suerte-brian-tracy.pdf?v=5.4",
+    pages: 218,
+    year: 2023,
+    language: "Español",
+    description: "En 'Las leyes de la suerte', Brian Tracy desmitifica el azar y revela que la suerte no es un golpe fortuito del destino, sino un resultado matemático de causas, probabilidades y preparación mental. Apoyándose en la ley de causa y efecto, el autor demuestra que las personas de mayor éxito no esperan pasivamente que la fortuna les sonría; en cambio, aumentan activamente sus probabilidades de acierto mediante el dominio de sus pensamientos, el desarrollo de metas claras, la activación de la mente superconsciente, la acción continua y la perseverancia inquebrantable ante cualquier obstáculo.",
+    cover: "covers/c-2641-las-leyes-de-la-suerte-brian-tracy.jpg",
+    downloads: 620,
+    featured: true,
+    aiAnalysis: {
+      genre: "Desarrollo Personal, Productividad & Filosofía del Éxito",
+      vibe: "Sistemático, Inspirador, Científico-Práctico & Motivador",
+      keyConcepts: [
+        "La Ley de Causa y Efecto: Todo Resultado Tiene un Origen Específico",
+        "La Ley de las Probabilidades: Multiplicar Intentos para Forzar el Éxito",
+        "La Mente Superconsciente: Intuición y Sincronicidad Dirigida",
+        "Claridad de Intención y Enfoque Ininterrumpido en Metas",
+        "Preparación Constante y Reconocimiento de Oportunidades",
+        "Persistencia Tenaz: La Prueba de Fuego que Separa el Azar del Triunfo"
+      ],
+      targetAudience: "Profesionales, emprendedores, vendedores y cualquier persona decidida a tomar las riendas de su destino y construir su propio camino hacia el éxito predecible.",
+      aiSummary: "Obra clave de Brian Tracy (Aguilar / Gildan Media, 218 pp., 2023). El autor desmonta el mito de la buena o mala fortuna para presentar un método pragmático basado en leyes universales del pensamiento y la acción, permitiendo al lector multiplicar sistemáticamente sus probabilidades de victoria en cualquier área de la vida."
+    }
+  },
+  {
+    id: 2642,
+    title: "Ofertas de 100 M$: Cómo hacer ofertas tan buenas que la gente se sienta estúpida si las rechaza",
+    author: "Alex Hormozi",
+    category: "Marketing & Ventas",
+    subtopic: "Ofertas Grand Slam, Ecuación del Valor, Precios Premium y Garantías",
+    format: "pdf",
+    pdf: "pdfs/b2642_ofertas-de-100-m-alex-hormozi.pdf?v=5.4",
+    pages: 277,
+    year: 2023,
+    language: "Español",
+    description: "Alex Hormozi comparte en 'Ofertas de 100 M$' ($100M Offers) el sistema exacto que utilizó para escalar múltiples empresas y generar decenas de millones de dólares. El libro enseña a escapar de la trampa de los productos genéricos y las guerras de precios mediante la creación de 'Ofertas Grand Slam': propuestas de valor tan irresistibles, diferenciadas y valiosas que los clientes no puedan rechazarlas. A través de la descomposición matemática de la Ecuación del Valor, Hormozi detalla cómo maximizar el resultado soñado y la probabilidad percibida de éxito, reduciendo a cero el tiempo de espera y el esfuerzo del cliente, complementándolo con estrategias de escasez, urgencia, bonos de alto impacto y garantías audaces.",
+    cover: "covers/c-2642-ofertas-de-100-m-alex-hormozi.jpg",
+    downloads: 890,
+    featured: true,
+    aiAnalysis: {
+      genre: "Marketing, Ventas, Negocios & Emprendimiento",
+      vibe: "Pragmático, Disruptivo, Audaz & Extremadamente Accionable",
+      keyConcepts: [
+        "Ofertas Grand Slam: Desmarcarse de la Competencia y Dominar Mercados",
+        "La Ecuación del Valor: Resultado Soñado × Probabilidad / (Tiempo × Esfuerzo)",
+        "Estrategia de Precios Premium: Cobrar Más para Ofrecer Mucho Más Valor",
+        "Diseño de Soluciones: Transformar Cada Problema en una Solución Tangible",
+        "Escasez y Urgencia Genuinas: Despertar la Decisión Inmediata de Compra",
+        "Garantías Audaces y Bonos de Alto Impacto que Rompen Cualquier Objeción"
+      ],
+      targetAudience: "Fundadores, consultores, agencias, vendedores, prestadores de servicios y emprendedores digitales que buscan multiplicar sus conversiones, ingresos y márgenes de ganancia.",
+      aiSummary: "Best-seller de referencia global de Alex Hormozi (EBL Books, 277 pp., 2023). Una obra maestra sobre psicología de precios y arquitectura de ofertas comerciales, diseñada para eliminar la resistencia de compra y permitir a cualquier negocio cobrar tarifas premium mientras entrega un valor abrumador a sus clientes."
+    }
+  },
+  {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
     author: "Daniel Kahneman",
