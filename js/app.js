@@ -26,6 +26,19 @@ const CONFIG = {
     'Filosofia & Estrategia': '#7e22ce', 'Otros': '#818cf8'
   }
 };
+
+// ── Citas Editoriales sobre Lectura y Sabiduria ──
+const QUOTES = [
+  { text: "Un lector vive mil vidas antes de morir. El que nunca lee vive solo una.", author: "George R.R. Martin" },
+  { text: "Todo hombre puede ser, si se lo propone, escultor de su propio cerebro.", author: "Santiago Ramon y Cajal" },
+  { text: "La lectura es para la mente lo que el ejercicio es para el cuerpo.", author: "Joseph Addison" },
+  { text: "Somos lo que hacemos dia a dia de modo que la excelencia no es un acto, sino un habito.", author: "Aristoteles" },
+  { text: "Si no tienes tiempo para leer, no tienes el tiempo para escribir.", author: "Stephen King" },
+  { text: "El cerebro no es un vaso por llenar, sino una lampara por encender.", author: "Plutarco" },
+  { text: "La mente que se abre a una nueva idea jamas volvera a su tamano original.", author: "Albert Einstein" },
+  { text: "Los libros son espejos: solo ves en ellos lo que ya tienes dentro.", author: "Carlos Ruiz Zafon" },
+  { text: "Siempre imagine que el paraiso seria algun tipo de biblioteca.", author: "Jorge Luis Borges" }
+];
 document.addEventListener('DOMContentLoaded', () => {
   // â”€â”€ Estado Global â”€â”€
   const PAGE_SIZE = 24;
