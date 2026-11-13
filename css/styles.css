@@ -168,6 +168,20 @@ body {
   text-transform: uppercase;
 }
 
+/* Scroll Progress Bar (Violeta de la Marca) */
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--purple-primary) 0%, var(--purple-light) 100%);
+  z-index: 2100;
+  box-shadow: 0 0 10px rgba(182, 106, 255, 0.7);
+  transition: width 0.08s ease-out;
+  pointer-events: none;
+}
+
 /* Desktop Navigation Links */
 .desktop-nav-links {
   display: none;
@@ -187,22 +201,53 @@ body {
   font-size: 0.88rem;
   font-weight: 500;
   transition: var(--transition);
-  padding: 0.4rem 0.6rem;
+  padding: 0.45rem 0.75rem;
   border-radius: var(--radius-sm);
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
+  position: relative;
 }
 
-.desktop-nav-link:hover, .desktop-nav-link.active {
+.desktop-nav-link:hover {
   color: var(--text-main);
   background: var(--purple-soft);
 }
 
-.desktop-nav-link.badge-pill {
-  background: rgba(182, 106, 255, 0.15);
-  border: 1px solid var(--purple-border);
+.desktop-nav-link.active {
   color: var(--purple-light);
+  background: rgba(182, 106, 255, 0.08);
+  font-weight: 600;
+}
+
+.desktop-nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0.75rem;
+  right: 0.75rem;
+  height: 2px;
+  background: linear-gradient(90deg, var(--purple-primary), var(--purple-light));
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(182, 106, 255, 0.6);
+}
+
+.desktop-nav-link.badge-pill {
+  background: linear-gradient(135deg, rgba(182, 106, 255, 0.22) 0%, rgba(138, 43, 226, 0.32) 100%);
+  border: 1px solid var(--purple-border);
+  color: #d8b4fe !important;
+  font-weight: 600;
+  padding: 0.45rem 1.05rem;
+  border-radius: var(--radius-full);
+  box-shadow: 0 0 12px rgba(182, 106, 255, 0.25);
+}
+
+.desktop-nav-link.badge-pill:hover {
+  background: linear-gradient(135deg, rgba(182, 106, 255, 0.35) 0%, rgba(138, 43, 226, 0.48) 100%);
+  border-color: var(--purple-light);
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 18px rgba(182, 106, 255, 0.4);
 }
 
 /* Header Right Actions */
@@ -1767,16 +1812,31 @@ body {
   color: var(--text-main);
 }
 
-/* Active State: Vibrant Purple */
+/* Active State: Vibrant Purple with Visible Indicator Line */
+.dock-item.active {
+  color: var(--purple-light);
+}
+
 .dock-item.active svg, .dock-item.active i {
-  color: var(--purple-primary);
-  filter: drop-shadow(0 0 8px rgba(182, 106, 255, 0.5));
+  color: var(--purple-light);
+  filter: drop-shadow(0 0 8px rgba(182, 106, 255, 0.6));
   transform: translateY(-1px);
 }
 
 .dock-item.active .dock-label {
-  color: var(--purple-primary);
+  color: var(--purple-light);
   font-weight: 600;
+}
+
+.dock-item.active::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 22px;
+  height: 2.5px;
+  background: linear-gradient(90deg, var(--purple-primary), var(--purple-light));
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(182, 106, 255, 0.7);
 }
 
 /* ══════════════════════════════════════════════════════════════════════════
@@ -3821,29 +3881,6 @@ body {
 
 .request-sheet-alt-link:hover {
   color: var(--purple-light);
-}
-
-/* ========================================================
-   AUDIOTYAN — SECCIÓN Y NAVEGACIÓN DE AUDIOLIBROS
-   ======================================================== */
-.desktop-nav-link.audiotyan-nav-btn {
-  background: linear-gradient(135deg, rgba(182, 106, 255, 0.15) 0%, rgba(138, 43, 226, 0.25) 100%);
-  border: 1px solid rgba(182, 106, 255, 0.45);
-  color: #d8b4fe !important;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  padding: 0.42rem 0.95rem;
-  border-radius: var(--radius-full);
-  box-shadow: 0 0 14px rgba(182, 106, 255, 0.22);
-  transition: all 0.25s ease;
-}
-
-.desktop-nav-link.audiotyan-nav-btn:hover {
-  background: linear-gradient(135deg, rgba(182, 106, 255, 0.3) 0%, rgba(138, 43, 226, 0.45) 100%);
-  border-color: var(--purple-light);
-  color: #ffffff !important;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 20px rgba(182, 106, 255, 0.4);
 }
 
 /* ========================================================

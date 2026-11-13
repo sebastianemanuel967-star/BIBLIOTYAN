@@ -493,6 +493,9 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (tab === 'catalogo') {
       const cat = document.getElementById('catalog');
       if (cat) cat.scrollIntoView({ behavior: 'smooth' });
+    } else if (tab === 'audiotyan') {
+      const at = document.getElementById('audiotyan');
+      if (at) at.scrollIntoView({ behavior: 'smooth' });
     } else if (tab === 'buscar') {
       focusSearch();
     } else if (tab === 'solicitar') {
@@ -1734,40 +1737,59 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // NAVEGACIÓN MÓVIL INFERIOR (SCROLL SPY)
+  // NAVEGACIÓN, SCROLL SPY & BARRA DE PROGRESO DE SCROLL
   // ========================================================
   function setupMobileBottomNav() {
     const bottomNav = document.getElementById('mobileBottomNav');
-    if (!bottomNav) return;
-
-    const navItems = bottomNav.querySelectorAll('.dock-item');
+    const navItems = bottomNav ? bottomNav.querySelectorAll('.dock-item') : [];
+    const desktopLinks = document.querySelectorAll('.desktop-nav-link:not(.badge-pill)');
+    const progressBar = document.getElementById('scrollProgressBar');
 
     const sections = [
-      { id: 'catalogo', el: document.getElementById('catalog') }
+      { id: 'audiotyan', desktopId: 'navAudiotyan', dockTab: 'audiotyan', el: document.getElementById('audiotyan') },
+      { id: 'catalog', desktopId: 'navCatalog', dockTab: 'catalogo', el: document.getElementById('catalog') },
+      { id: 'colecciones', desktopId: 'navColecciones', dockTab: 'catalogo', el: document.getElementById('colecciones') }
     ];
 
-    function updateActiveTab() {
-      if (state.currentFilter === 'Mi biblioteca') return;
-      const scrollPos = window.scrollY + 220;
-      let activeTab = 'inicio';
-
-      if (scrollPos > 300) {
-        activeTab = 'catalogo';
+    function updateNavScrollSpy() {
+      // 1. Barra de progreso superior violeta
+      if (progressBar) {
+        const scrollY = window.scrollY || window.pageYOffset || 0;
+        const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const pct = totalHeight > 0 ? (scrollY / totalHeight) * 100 : 0;
+        progressBar.style.width = Math.min(100, Math.max(0, pct)) + '%';
       }
 
-      sections.forEach(s => {
+      // 2. Detección de sección activa para Desktop y Mobile
+      if (state.currentFilter === 'Mi biblioteca') return;
+      const scrollPos = (window.scrollY || window.pageYOffset || 0) + 240;
+      let activeSection = null;
+
+      for (let i = 0; i < sections.length; i++) {
+        const s = sections[i];
         if (s.el && scrollPos >= s.el.offsetTop) {
-          activeTab = s.id;
+          activeSection = s;
+          break;
         }
+      }
+
+      // Enlaces de escritorio
+      desktopLinks.forEach(link => {
+        const isMatch = activeSection && link.id === activeSection.desktopId;
+        link.classList.toggle('active', !!isMatch);
       });
 
+      // Pestañas de barra móvil inferior
+      const targetDockTab = activeSection ? activeSection.dockTab : 'inicio';
       navItems.forEach(item => {
         const tab = item.getAttribute('data-tab');
-        item.classList.toggle('active', tab === activeTab);
+        item.classList.toggle('active', tab === targetDockTab);
       });
     }
 
-    window.addEventListener('scroll', updateActiveTab, { passive: true });
+    window.addEventListener('scroll', updateNavScrollSpy, { passive: true });
+    window.addEventListener('resize', updateNavScrollSpy, { passive: true });
+    updateNavScrollSpy();
   }
 
   function updateStats() {

@@ -104,31 +104,25 @@
   </script>
 
   <!-- Estilos Premium Luxury Obsidian Violet -->
-  <link rel="stylesheet" href="css/styles.css?v=5.0">
+  <link rel="stylesheet" href="css/styles.css?v=5.1">
 </head>
 <body>
 
   <!-- ==================== APP HEADER (EDITORIAL LUXURY) ==================== -->
   <header class="app-header">
+    <div class="scroll-progress-bar" id="scrollProgressBar"></div>
     <div class="header-inner">
       <a href="#" class="brand-logo" onclick="event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'});">
-        <i data-lucide="book-marked" class="brand-book-icon"></i>
+        <i class="fa-solid fa-bookmark brand-book-icon"></i>
         <span class="brand-text">BIBLIOTYAN</span>
       </a>
 
       <nav class="desktop-nav-links">
-        <a href="#catalog" class="desktop-nav-link"><i data-lucide="book-open"></i> Cat&aacute;logo</a>
-        <a href="#colecciones" class="desktop-nav-link"><i data-lucide="layers"></i> Colecciones</a>
-        <a href="#requestSheetModal" class="desktop-nav-link badge-pill" onclick="event.preventDefault(); openRequestSheet();"><i data-lucide="send"></i> Solicitar Libro</a>
-        <a href="#audiotyan" class="desktop-nav-link audiotyan-nav-btn" id="navAudiotyan"><i data-lucide="headphones"></i> AUDIOTYAN</a>
+        <a href="#catalog" class="desktop-nav-link" id="navCatalog" data-section="catalog"><i class="fa-solid fa-book-open"></i> Cat&aacute;logo</a>
+        <a href="#colecciones" class="desktop-nav-link" id="navColecciones" data-section="colecciones"><i class="fa-solid fa-layer-group"></i> Colecciones</a>
+        <a href="#audiotyan" class="desktop-nav-link" id="navAudiotyan" data-section="audiotyan"><i class="fa-solid fa-headphones"></i> AUDIOTYAN</a>
+        <a href="#requestSheetModal" class="desktop-nav-link badge-pill" onclick="event.preventDefault(); openRequestSheet();"><i class="fa-solid fa-paper-plane"></i> Solicitar Libro</a>
       </nav>
-
-      <div class="header-actions">
-        <button type="button" class="header-icon-btn" id="headerNotifBtn" title="Notificaciones" onclick="openNotifications()" aria-label="Notificaciones">
-          <i data-lucide="bell"></i>
-          <span class="notif-dot"></span>
-        </button>
-      </div>
     </div>
   </header>
 
@@ -809,31 +803,31 @@
   <nav class="mobile-bottom-dock" id="mobileBottomNav" aria-label="Navegaci&oacute;n m&oacute;vil">
     <div class="dock-inner">
       <button type="button" class="dock-item active" data-tab="inicio" onclick="handleDockNav('inicio')" aria-label="Inicio">
-        <i data-lucide="home"></i>
+        <i class="fa-solid fa-house"></i>
         <span class="dock-label">Inicio</span>
       </button>
       <button type="button" class="dock-item" data-tab="catalogo" onclick="handleDockNav('catalogo')" aria-label="Cat&aacute;logo">
-        <i data-lucide="book-open"></i>
+        <i class="fa-solid fa-book-open"></i>
         <span class="dock-label">Cat&aacute;logo</span>
       </button>
-      <button type="button" class="dock-item" data-tab="buscar" onclick="handleDockNav('buscar')" aria-label="Buscar">
-        <i data-lucide="search"></i>
-        <span class="dock-label">Buscar</span>
+      <button type="button" class="dock-item" data-tab="audiotyan" onclick="handleDockNav('audiotyan')" aria-label="AUDIOTYAN">
+        <i class="fa-solid fa-headphones"></i>
+        <span class="dock-label">AUDIOTYAN</span>
       </button>
       <button type="button" class="dock-item" data-tab="solicitar" onclick="handleDockNav('solicitar')" aria-label="Solicitar">
-        <i data-lucide="send"></i>
+        <i class="fa-solid fa-paper-plane"></i>
         <span class="dock-label">Solicitar</span>
       </button>
       <button type="button" class="dock-item" data-tab="biblioteca" onclick="handleDockNav('biblioteca')" aria-label="Mi biblioteca">
-        <i data-lucide="bookmark"></i>
+        <i class="fa-solid fa-bookmark"></i>
         <span class="dock-label">Mi biblioteca</span>
       </button>
     </div>
   </nav>
 
   <!-- Scripts -->
-  <script src="js/data.js?v=6.5"></script>
-  <script src="js/app.js?v=6.5"></script>
+  <script src="js/data.js?v=6.6"></script>
+  <script src="js/app.js?v=6.6"></script>
 
 </body>
 </html>
