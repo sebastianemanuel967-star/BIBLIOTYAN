@@ -1060,6 +1060,37 @@ const BOOKS = [
     }
   },
   {
+    id: 2643,
+    title: "El Kybalion: Filosofía hermética del antiguo Egipto y Grecia",
+    author: "Tres Iniciados (Hermes Trismegisto)",
+    category: "Espiritualidad & sabiduría",
+    subtopic: "Mentalismo, Correspondencia, Vibración, Polaridad, Ritmo, Causa y Efecto, y Género",
+    format: "pdf",
+    pdf: "pdfs/b2643_el-kybalion-tres-iniciados.pdf?v=5.5",
+    pages: 115,
+    year: 1908,
+    language: "Español",
+    description: "Publicado anónimamente en 1908 por 'Tres Iniciados', El Kybalion es una de las obras cumbres del esoterismo y la filosofía oculta occidental, fundamentada en las antiquísimas enseñanzas atribuidas a Hermes Trismegisto. El texto compendia los 7 principios herméticos universales que rigen el cosmos y la conciencia: Mentalismo («El TODO es Mente; el universo es mental»), Correspondencia («Como es arriba, es abajo»), Vibración («Nada está inmóvil; todo se mueve; todo vibra»), Polaridad («Los opuestos son idénticos en naturaleza, pero diferentes en grado»), Ritmo («La medida del movimiento hacia la derecha es la misma que la oscilación a la izquierda»), Causa y Efecto («Toda causa tiene su efecto; la suerte es una ley no reconocida») y Género («La generación se manifiesta en todos los planos»). Una clave maestra atemporal para dominar la transmutación mental y el autogobierno espiritual.",
+    cover: "covers/c-2643-el-kybalion-tres-iniciados.jpg",
+    downloads: 1450,
+    featured: true,
+    aiAnalysis: {
+      genre: "Filosofía Oculta, Hermetismo & Sabiduría Esotérica",
+      vibe: "Místico, Trascendental, Profundo & Esclarecedor",
+      keyConcepts: [
+        "Principio de Mentalismo: La Naturaleza Mental del Universo y el TODO",
+        "Principio de Correspondencia: La Clave Maestra entre Planos Cósmicos",
+        "Principio de Vibración: Grados de Energía y Transmutación Mental",
+        "Principio de Polaridad: Reconciliación de Paradojas y Alquimia Emocional",
+        "Principio de Ritmo: La Ley de Neutralización y Compensación",
+        "Principio de Causa y Efecto: Convertirse en Causa en lugar de Efecto",
+        "Principio de Género: Generación Masculina y Femenina en la Mente y la Materia"
+      ],
+      targetAudience: "Buscadores espirituales, filósofos, estudiosos del misticismo y toda persona interesada en comprender las leyes universales del pensamiento y la realidad.",
+      aiSummary: "Tratado fundamental de la tradición hermética (1908, 115 pp.). Condensa de manera lúcida los axiomas transmitidos 'de labios a oídos' a través de los siglos, dotando al lector de una brújula filosófica y práctica para comprender los planos físico, mental y espiritual y elevar su conciencia sobre el destino ordinario."
+    }
+  },
+  {
     id: 1960,
     title: "Pensar rápido, pensar despacio",
     author: "Daniel Kahneman",
