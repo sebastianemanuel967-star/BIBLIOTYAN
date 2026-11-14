@@ -381,7 +381,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const cat = categoryName || state.currentFilter;
     const url = getCollectionShareUrl(cat);
     let msg = '';
-    if (cat === 'HARVARD LIBROS') {
+    if (cat === 'Brian Tracy' || cat === 'Colección Brian Tracy' || cat === 'BRIAN TRACY') {
+      const btCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => (b.author && b.author.toLowerCase().includes('brian tracy')) || (b.collection && b.collection.includes('Brian Tracy'))).length : 23;
+      msg = `*Coleccion BRIAN TRACY en BIBLIOTYAN*\n` +
+        `Accede y descarga gratis ${btCount} libros imprescindibles de Brian Tracy sobre exito, metas, psicologia de ventas y productividad en PDF:\n\n` +
+        `- Traguese ese Sapo\n` +
+        `- Habitos para ser Millonario\n` +
+        `- Conecta con el Dinero\n` +
+        `- Plan de Vuelo\n` +
+        `- Negociacion y Motivacion\n` +
+        `- Y decenas de titulos mas...\n\n` +
+        `*Enlace directo a la coleccion:*\n${url}`;
+    } else if (cat === 'HARVARD LIBROS') {
       const hbrCount = getHarvardBookCount();
       msg = `*Coleccion HARVARD LIBROS en BIBLIOTYAN*\n` +
         `Accede y descarga gratis los ${hbrCount} titulos de Harvard Business Review Press en PDF:\n\n` +
@@ -435,6 +446,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (!categoryName || categoryName === 'Todos' || categoryName === 'Más leídos' || categoryName === 'Nuevos' || categoryName === 'Recomendados') {
         params.delete('coleccion');
+        params.delete('categoria');
+        params.delete('cat');
+      } else if (categoryName === 'Brian Tracy' || categoryName === 'Colección Brian Tracy') {
+        params.set('coleccion', 'brian-tracy');
         params.delete('categoria');
         params.delete('cat');
       } else if (categoryName === 'Robert Greene' || categoryName === 'Colección Robert Greene') {
@@ -509,7 +524,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Sincronizar chips de colecciones especiales
     document.querySelectorAll('.collection-chip-compact').forEach(btn => {
-      const isMatch = (btn.id === 'cardColGreene' && (categoryName === 'Robert Greene' || categoryName === 'Colección Robert Greene')) ||
+      const isMatch = (btn.id === 'cardColTracy' && (categoryName === 'Brian Tracy' || categoryName === 'Colección Brian Tracy')) ||
+                      (btn.id === 'cardColGreene' && (categoryName === 'Robert Greene' || categoryName === 'Colección Robert Greene')) ||
                       (btn.id === 'cardColGrinberg' && (categoryName === 'Jacobo Grinberg' || categoryName === 'Colección Jacobo Grinberg')) ||
                       (btn.id === 'cardColDummies' && (categoryName === 'PARA DUMMIES' || categoryName === 'Colección Para Dummies')) ||
                       (btn.id === 'cardColHistoria' && (categoryName === 'BREVE HISTORIA' || categoryName === 'Colección Breve Historia')) ||
@@ -633,7 +649,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let targetCat = null;
     if (colParam) {
       const cleanSlug = slugify(colParam);
-      if (cleanSlug === 'robert-greene' || cleanSlug === 'greene' || cleanSlug.includes('greene')) {
+      if (cleanSlug === 'brian-tracy' || cleanSlug === 'tracy' || cleanSlug.includes('tracy')) {
+        targetCat = 'Brian Tracy';
+      } else if (cleanSlug === 'robert-greene' || cleanSlug === 'greene' || cleanSlug.includes('greene')) {
         targetCat = 'Robert Greene';
       } else if (cleanSlug === 'jacobo-grinberg' || cleanSlug === 'grinberg' || cleanSlug.includes('grinberg')) {
         targetCat = 'Jacobo Grinberg';
@@ -652,6 +670,8 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         targetCat = CONFIG.categories.find(c => slugify(c) === cleanSlug || slugify(c).includes(cleanSlug) || cleanSlug.includes(slugify(c)));
       }
+    } else if (hash.includes('brian-tracy') || hash.includes('tracy')) {
+      targetCat = 'Brian Tracy';
     } else if (hash.includes('harvard')) {
       targetCat = 'HARVARD LIBROS';
     } else if (hash.includes('dummies')) {
@@ -662,7 +682,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (targetCat) {
       selectCategory(targetCat, true, false);
-      if (targetCat === 'Robert Greene') {
+      if (targetCat === 'Brian Tracy') {
+        const btCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => (b.author && b.author.toLowerCase().includes('brian tracy')) || (b.collection && b.collection.includes('Brian Tracy'))).length : 23;
+        showToast('Colección Brian Tracy', `Explorando las ${btCount} obras de Brian Tracy sobre éxito, metas y ventas`);
+      } else if (targetCat === 'Robert Greene') {
         showToast('Colección Robert Greene', 'Explorando las obras sobre poder, estrategia y maestría');
       } else if (targetCat === 'Jacobo Grinberg') {
         showToast('Colección Jacobo Grinberg', 'Explorando la Teoría Sintérgica, Neuroalgoritmos y Chamanismo');
@@ -792,7 +815,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSkeletonCards();
 
     try {
-      const res = await fetch('data/books.json?v=9.3');
+      const res = await fetch('data/books.json?v=9.4');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {
@@ -947,6 +970,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'Más leídos',
       'Nuevos',
       'Recomendados',
+      'Brian Tracy',
       'HARVARD LIBROS',
       'BREVE HISTORIA',
       'PARA DUMMIES',
@@ -981,6 +1005,7 @@ document.addEventListener('DOMContentLoaded', () => {
       else if (cat === 'Más leídos') iconHtml = '<i data-lucide="trending-up"></i>';
       else if (cat === 'Nuevos') iconHtml = '<i data-lucide="sparkles"></i>';
       else if (cat === 'Recomendados') iconHtml = '<i data-lucide="award"></i>';
+      else if (cat === 'Brian Tracy') iconHtml = '<i data-lucide="target"></i>';
       else if (cat === 'HARVARD LIBROS') iconHtml = '<i data-lucide="building-2"></i>';
       else if (cat === 'BREVE HISTORIA') iconHtml = '<i data-lucide="landmark"></i>';
       else if (cat === 'PARA DUMMIES') iconHtml = '<i data-lucide="lightbulb"></i>';
@@ -1049,6 +1074,8 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesCategory = (book.format === 'epub' || book.format === 'dual' || !!book.epub);
       } else if (state.currentFilter === 'Audiolibros' || state.currentFilter === 'Colección Audiolibros') {
         matchesCategory = (book.format === 'audio' || !!book.audioUrl || !!book.tracks || (book.collection && book.collection.includes('Audiolibro')));
+      } else if (state.currentFilter === 'Brian Tracy' || state.currentFilter === 'Colección Brian Tracy' || state.currentFilter === 'BRIAN TRACY') {
+        matchesCategory = (book.author && book.author.toLowerCase().includes('brian tracy')) || (book.collection && book.collection.includes('Brian Tracy'));
       } else if (state.currentFilter === 'Robert Greene' || state.currentFilter === 'Colección Robert Greene' || state.currentFilter === 'ROBERT GREENE') {
         matchesCategory = (book.author && book.author.toLowerCase().includes('robert greene')) || (book.collection && book.collection.includes('Robert Greene'));
       } else if (state.currentFilter === 'Jacobo Grinberg' || state.currentFilter === 'Colección Jacobo Grinberg' || state.currentFilter === 'JACOBO GRINBERG') {
@@ -2186,6 +2213,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateCollectionShowcaseBadges() {
     if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return;
+    const btCount = BOOKS.filter(b => (b.author && b.author.toLowerCase().includes('brian tracy')) || (b.collection && b.collection.includes('Brian Tracy'))).length;
     const rgCount = BOOKS.filter(b => (b.author && b.author.toLowerCase().includes('robert greene')) || (b.collection && b.collection.includes('Robert Greene'))).length;
     const jgCount = BOOKS.filter(b => (b.author && b.author.toLowerCase().includes('grinberg')) || (b.collection && b.collection.includes('Grinberg'))).length;
     const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES' || (b.collection && b.collection.includes('Dummies'))).length;
@@ -2195,6 +2223,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const eCount = BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length;
     const aCount = BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length;
 
+    const elTracy = document.getElementById('colCountTracy');
     const elGreene = document.getElementById('colCountGreene');
     const elGrinberg = document.getElementById('colCountGrinberg');
     const elTeologia = document.getElementById('colCountTeologia');
@@ -2204,6 +2233,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const elHistoria = document.getElementById('colCountHistoria');
     const elHarvard = document.getElementById('colCountHarvard');
 
+    if (elTracy) elTracy.textContent = btCount;
     if (elGreene) elGreene.textContent = rgCount;
     if (elGrinberg) elGrinberg.textContent = jgCount;
 
