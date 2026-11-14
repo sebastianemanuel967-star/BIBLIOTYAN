@@ -1343,8 +1343,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const catColor = CONFIG.categoryColors[book.category] || '#B66AFF';
     const analysis = book.aiAnalysis || AIClassifier.analyze(book);
 
+    const isAudio = book.format === 'audio';
+    const coverOnError = isAudio ? `handleAudioCoverError(this, ${book.id})` : 'handleCoverError(this)';
+    const coverSrc = isAudio && (!book.cover || book.cover === 'covers/default.jpg')
+      ? generateAudioCoverDataUri(book.title, book.author, book.category)
+      : escapeHTML(book.cover);
+
     document.getElementById('previewCover').innerHTML = `
-      <img src="${escapeHTML(book.cover)}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" onerror="handleCoverError(this)">
+      <img src="${coverSrc}" alt="${escapeHTML(book.title)}" data-title="${escapeHTML(book.title)}" width="240" height="340" loading="lazy" decoding="async" onerror="${coverOnError}">
     `;
 
     const catEl = document.getElementById('previewCategory');

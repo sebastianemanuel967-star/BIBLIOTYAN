@@ -106,7 +106,7 @@
   </script>
 
   <!-- Estilos Premium Luxury Obsidian Violet -->
-  <link rel="stylesheet" href="css/styles.css?v=8.5">
+  <link rel="stylesheet" href="css/styles.css?v=8.6">
 </head>
 <body>
 
@@ -690,7 +690,7 @@
 
       <div class="audio-player-body">
         <div class="audio-player-cover-box">
-          <img id="audioPlayerCover" alt="Portada Audiolibro">
+          <img id="audioPlayerCover" alt="Portada Audiolibro" width="320" height="320" loading="lazy" decoding="async">
           <div class="audio-pulse-indicator" id="audioPulseIndicator">
             <span class="pulse-bar bar-1"></span>
             <span class="pulse-bar bar-2"></span>
@@ -775,7 +775,7 @@
   <div class="spotify-bottom-bar" id="spotifyBottomBar" aria-label="Reproductor persistente AUDIOTYAN" style="display: none;">
     <div class="spotify-bar-inner">
       <div class="spotify-bar-left" onclick="openAudioPlayer()" role="button" tabindex="0">
-        <img id="spotifyBarCover" src="" alt="Portada" class="spotify-bar-thumb" style="display: none;" onerror="this.src='covers/default.jpg'">
+        <img id="spotifyBarCover" src="" alt="Portada" class="spotify-bar-thumb" width="48" height="48" loading="lazy" decoding="async" style="display: none;" onerror="handleAudioCoverError(this, null)">
         <div class="spotify-bar-info">
           <span id="spotifyBarTitle" class="spotify-bar-title"></span>
           <span id="spotifyBarAuthor" class="spotify-bar-author"></span>
@@ -842,10 +842,11 @@
 
   <!-- Scripts -->
   <script src="js/data.js?v=8.0"></script>
-  <script src="js/app.js?v=8.5"></script>
+  <script src="js/app.js?v=8.6"></script>
 
 </body>
 </html>
+
 
 
 
