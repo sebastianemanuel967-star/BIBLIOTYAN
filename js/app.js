@@ -1,4 +1,4 @@
-﻿// ========================================================
+// ========================================================
 //  BIBLIOTYAN — The Personal Knowledge Archive
 //  Motor de Aplicacion & Experiencia Editorial Luxury
 //  Paleta: #09070D · #171020 · #21172C · #B66AFF
@@ -792,7 +792,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSkeletonCards();
 
     try {
-      const res = await fetch('data/books.json?v=8.8');
+      const res = await fetch('data/books.json?v=8.9');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {
