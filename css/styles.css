@@ -1997,6 +1997,39 @@ body {
   z-index: 12000;
 }
 
+.modal-overlay.social-modal .modal-content {
+  max-width: 520px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .modal-overlay.social-modal {
+    padding: 0.75rem;
+  }
+  .modal-overlay.social-modal .modal-content {
+    padding: 1.25rem 1rem;
+    border-radius: var(--radius-lg, 16px);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .social-follow-card {
+    padding: 0.65rem 0.85rem;
+  }
+  .social-card-info {
+    min-width: 0;
+    flex: 1;
+  }
+  .social-card-title,
+  .social-card-sub {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
 .modal-content {
   background: var(--bg-surface);
   border: 1px solid var(--purple-border);
