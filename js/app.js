@@ -383,44 +383,44 @@ document.addEventListener('DOMContentLoaded', () => {
     let msg = '';
     if (cat === 'HARVARD LIBROS') {
       const hbrCount = getHarvardBookCount();
-      msg = `ðŸ›ï¸ *Colección HARVARD LIBROS en BIBLIOTYAN*\n` +
-        `Accede y descarga gratis los ${hbrCount} títulos de Harvard Business Review Press en PDF:\n\n` +
-        `• Serie Inteligencia Emocional\n` +
-        `• Serie Management en 20 Minutos\n` +
-        `• Autoconciencia, Empatía, Productividad y Liderazgo\n\n` +
-        ` *Enlace directo a la colección:*\n${url}`;
+      msg = `*Coleccion HARVARD LIBROS en BIBLIOTYAN*\n` +
+        `Accede y descarga gratis los ${hbrCount} titulos de Harvard Business Review Press en PDF:\n\n` +
+        `- Serie Inteligencia Emocional\n` +
+        `- Serie Management en 20 Minutos\n` +
+        `- Autoconciencia, Empatia, Productividad y Liderazgo\n\n` +
+        `*Enlace directo a la coleccion:*\n${url}`;
     } else if (cat === 'LIBROS EMPRENDEDORES' || cat === 'EMPRENDEDORES') {
       const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 24;
-      msg = `\uD83D\uDE80 *Colecci\u00f3n EMPRENDEDORES en BIBLIOTYAN*\n` +
+      msg = `*Coleccion EMPRENDEDORES en BIBLIOTYAN*\n` +
         `Accede y descarga gratis ${eCount} libros imprescindibles de negocios, startups, finanzas, ventas y liderazgo en PDF:\n\n` +
-        `\u2022 El M\u00e9todo Lean Startup (Eric Ries)\n` +
-        `\u2022 La Vaca P\u00farpura (Seth Godin)\n` +
-        `\u2022 Perdiendo la Virginidad (Richard Branson)\n` +
-        `\u2022 Finanzas para Emprendedores (Antonio Manzanera)\n` +
-        `\u2022 El Tao de Warren Buffett\n` +
-        `\u2022 Y decenas de t\u00edtulos m\u00e1s...\n\n` +
-        `\uD83D\uDC49 *Enlace directo a la colecci\u00f3n:*\n${url}`;
+        `- El Metodo Lean Startup (Eric Ries)\n` +
+        `- La Vaca Purpura (Seth Godin)\n` +
+        `- Perdiendo la Virginidad (Richard Branson)\n` +
+        `- Finanzas para Emprendedores (Antonio Manzanera)\n` +
+        `- El Tao de Warren Buffett\n` +
+        `- Y decenas de titulos mas...\n\n` +
+        `*Enlace directo a la coleccion:*\n${url}`;
     } else if (cat === 'TEOLOGÍA CONTEMPORÁNEA' || cat === 'TEOLOGIA' || cat === 'CTC') {
       const tCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA').length : 38;
-      msg = ` *Colección TEOLÃ“GICA CONTEMPORÁNEA en BIBLIOTYAN*\n` +
+      msg = `*Coleccion TEOLOGICA CONTEMPORANEA en BIBLIOTYAN*\n` +
         `Accede y descarga gratis ${tCount} obras de referencia de Editorial CLIE en PDF:\n\n` +
-        `• Teología Sistemática y Exégesis Bíblica\n` +
-        `• Comentarios y Hermenéutica Avanzada\n` +
-        `• Cristología e Historia de las Doctrinas\n\n` +
-        ` *Enlace directo a la colección:*\n${url}`;
+        `- Teologia Sistematica y Exegesis Biblica\n` +
+        `- Comentarios y Hermeneutica Avanzada\n` +
+        `- Cristologia e Historia de las Doctrinas\n\n` +
+        `*Enlace directo a la coleccion:*\n${url}`;
     } else if (cat === 'PARA DUMMIES') {
       const dummiesCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
-      msg = ` *Colección PARA DUMMIES en BIBLIOTYAN*\n` +
-        `Accede y descarga gratis ${dummiesCount} guías prácticas de la icónica colección Para Dummies en PDF:\n\n` +
-        `• Finanzas e Inversión\n` +
-        `• Excel, Windows y Tecnología\n` +
-        `• Idiomas, Música y Arte\n` +
-        `• Ajedrez, Jardinería y Salud\n\n` +
-        ` *Enlace directo a la colección:*\n${url}`;
+      msg = `*Coleccion PARA DUMMIES en BIBLIOTYAN*\n` +
+        `Accede y descarga gratis ${dummiesCount} guias practicas de la iconica coleccion Para Dummies en PDF:\n\n` +
+        `- Finanzas e Inversion\n` +
+        `- Excel, Windows y Tecnologia\n` +
+        `- Idiomas, Musica y Arte\n` +
+        `- Ajedrez, Jardineria y Salud\n\n` +
+        `*Enlace directo a la coleccion:*\n${url}`;
     } else {
-      msg = ` *Colección "${cat}" en BIBLIOTYAN*\n` +
+      msg = `*Coleccion "${cat}" en BIBLIOTYAN*\n` +
         `Explora y descarga libros completos en PDF y EPUB de alta calidad:\n\n` +
-        ` *Enlace directo:*\n${url}`;
+        `*Enlace directo:*\n${url}`;
     }
     const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
     window.open(waUrl, '_blank');
@@ -567,7 +567,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // ========================================================
-  // BÃšSQUEDA Y NAVEGACIÃ“N
+  // BÚSQUEDA Y NAVEGACIÓN
   // ========================================================
   window.focusSearch = function() {
     const input = document.getElementById('searchInput');
@@ -623,7 +623,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // ========================================================
-  // GESTIÃ“N DE ENLACES INICIALES (DEEP LINKS)
+  // GESTIÓN DE ENLACES INICIALES (DEEP LINKS)
   // ========================================================
   function handleInitialUrl() {
     const params = new URLSearchParams(window.location.search);
@@ -792,7 +792,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSkeletonCards();
 
     try {
-      const res = await fetch('data/books.json?v=9.1');
+      const res = await fetch('data/books.json?v=9.2');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {
@@ -817,7 +817,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // ========================================================
-  // INICIALIZACIÃ“N
+  // INICIALIZACIÓN
   // ========================================================
   async function init() {
     renderFooter();
@@ -847,7 +847,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // BÃšSQUEDA EN TIEMPO REAL (DEBOUNCE 150 MS)
+  // BÚSQUEDA EN TIEMPO REAL (DEBOUNCE 150 MS)
   // ========================================================
   function setupSearchBar() {
     const input = document.getElementById('searchInput');
@@ -870,7 +870,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // LO MÁS LEÍDO & SELECCIÃ“N EDITORIAL (HORIZONTAL SHELVES)
+  // LO MÁS LEÍDO & SELECCIÓN EDITORIAL (HORIZONTAL SHELVES)
   // ========================================================
   const MOST_READ_IDS = [2613, 1453, 1519, 1960, 1232, 2089, 1491, 2136, 2240, 1830];
   const EDITORIAL_SELECTION_IDS = [1960, 1087, 1467, 1453, 1519, 1491, 1476, 1411, 603];
@@ -935,7 +935,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderDailyRecommendation() {}
   window.openDailyRecommendation = function() {};
   // ========================================================
-  // FILTROS DE GÃ‰NERO Y COLECCIÃ“N (PILLS)
+  // FILTROS DE GÉNERO Y COLECCIÓN (PILLS)
   // ========================================================
   function renderFilterButtons() {
     const bar = document.getElementById('filterBar');
@@ -1326,7 +1326,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // MODAL VISTA PREVIA Y DIAGNÃ“STICO IA
+  // MODAL VISTA PREVIA Y DIAGNÓSTICO IA
   // ========================================================
   function openPreviewModal(book, updateUrl = true) {
     if (!book) return;
@@ -1590,7 +1590,7 @@ document.addEventListener('DOMContentLoaded', () => {
         msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> compartimos audiolibros completos con streaming y descarga en alta calidad sin costo. Si valoras nuestro trabajo, apóyanos siguiendo nuestras redes comunitarias:';
       } else if (isHarvard) {
         iconEl.className = 'fa-solid fa-building-columns';
-        titleEl.textContent = 'Apoya al Creador • Colección Harvard';
+        titleEl.textContent = 'Apoya al Creador - Colección Harvard';
         msgEl.innerHTML = 'Para mantener activa y disponible esta colección de Harvard, <strong>apoya al creador</strong>. Gracias a su esfuerzo y dedicación tenemos estos ejemplares completos para ti. Únete y apóyalo en sus canales comunitarios:';
       } else {
         iconEl.className = 'fa-solid fa-shield-heart';
@@ -1904,7 +1904,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // NOTIFICACIÃ“N TOAST
+  // NOTIFICACIÓN TOAST
   // ========================================================
   function showToast(title, message) {
     const toast = document.getElementById('toast');
@@ -2018,7 +2018,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const authorSafe = typeof escapeHtml === 'function' ? escapeHtml(b.author || 'Autor') : (b.author || 'Autor');
       const titleSafe = typeof escapeHtml === 'function' ? escapeHtml(b.title || 'Audiolibro') : (b.title || 'Audiolibro');
       const coverUrl = (b.cover && b.cover !== 'covers/default.jpg') ? b.cover : generateAudioCoverDataUri(b.title, b.author, b.category);
-      const yearStr = b.year ? ` • ${b.year}` : '';
+      const yearStr = b.year ? ` &bull; ${b.year}` : '';
 
       return `
         <article class="audiotyan-card brand-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
@@ -2097,7 +2097,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.renderAudioTyanSection = renderAudioTyanSection;
 
   // ========================================================
-  // REFLEXIÃ“N EDITORIAL
+  // REFLEXIÓN EDITORIAL
   // ========================================================
   function renderDailyQuote() {
     const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
@@ -2115,7 +2115,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // NAVEGACIÃ“N, SCROLL SPY & BARRA DE PROGRESO DE SCROLL
+  // NAVEGACIÓN, SCROLL SPY & BARRA DE PROGRESO DE SCROLL
   // ========================================================
   function setupMobileBottomNav() {
     const bottomNav = document.getElementById('mobileBottomNav');
@@ -2263,7 +2263,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // REPRODUCTOR DE AUDIOLIBROS INTERACTIVO (OPTIMIZADO MÃ“VIL & SPOTIFY BAR)
+  // REPRODUCTOR DE AUDIOLIBROS INTERACTIVO (OPTIMIZADO MÓVIL & SPOTIFY BAR)
   // ========================================================
   let currentAudioBook = null;
   let currentTrackIndex = 0;

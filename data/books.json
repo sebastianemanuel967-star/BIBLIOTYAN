@@ -39958,5 +39958,35 @@
                            "targetAudience":  "Emprendedores noveles y experimentados, dueños de negocios, directores comerciales y profesionales decididos a maximizar sus resultados económicos con metodologías probadas.",
                            "aiSummary":  "Manual integral de Brian Tracy (Editorial HarperEnfoque / Thomas Nelson, 244 pp.) que ofrece un mapa de ruta detallado para sortear los escollos empresariales comunes, optimizar las operaciones de cualquier empresa y generar riqueza sostenible mediante la acción disciplinada y la excelencia directiva."
                        }
+    },
+    {
+        "id":  2697,
+        "title":  "Autodisciplina Espartana: Cómo desarrollar la disciplina espartana, mentalidad, motivación y una inquebrantable fuerza de voluntad",
+        "author":  "Maximus Z. Russell",
+        "category":  "Desarrollo Personal",
+        "subtopic":  "Autodisciplina, Fuerza de Voluntad, Fortaleza Mental y Hábitos Estoicos",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2697_autodisciplina-espartana-z-russell-maximus.pdf",
+        "pages":  176,
+        "year":  2020,
+        "language":  "Español",
+        "description":  "Guía práctica y directa inspirada en la legendaria disciplina de los guerreros de Esparta. Maximus Z. Russell desglosa cómo forjar una fuerza de voluntad inquebrantable, controlar los impulsos inmediatos, eliminar las excusas y aplicar el rigor mental necesario para alcanzar metas ambiciosas y dominar cualquier aspecto de la vida diaria.",
+        "cover":  "covers/c-2697-autodisciplina-espartana-z-russell-maximus.jpg",
+        "downloads":  465,
+        "featured":  true,
+        "collection":  "Colección Crecimiento y Éxito",
+        "aiAnalysis":  {
+                           "genre":  "Desarrollo Personal, Filosofía Estoica \u0026 Alto Rendimiento",
+                           "vibe":  "Disciplinado, Firme, Motivador \u0026 Orientado a la Acción",
+                           "keyConcepts":  [
+                                               "La Mentalidad Espartana: Control de Impulsos y Resistencia al Confort",
+                                               "Eliminación de la Procrastinación mediante Reglas Innegociables",
+                                               "Forja de Hábitos de Hierro y Rutinas de Alto Impacto",
+                                               "Resiliencia Psicológica y Dominio del Diálogo Interno",
+                                               "Enfoque Obsesivo y Compromiso Total con los Objetivos"
+                                           ],
+                           "targetAudience":  "Lectores que buscan fortalecer su fuerza de voluntad, superar la pereza y la postergación, y adoptar un estilo de vida de disciplina militar aplicada a metas personales y profesionales.",
+                           "aiSummary":  "Compendio práctico de Maximus Z. Russell (176 pp.) que extrae las lecciones de la milicia espartana y la filosofía estoica para erradicar las justificaciones mentales y construir una disciplina inquebrantable capaz de transformar la productividad y el carácter."
+                       }
     }
 ]
