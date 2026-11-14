@@ -40,7 +40,7 @@ const QUOTES = [
   { text: "Siempre imagine que el paraiso seria algun tipo de biblioteca.", author: "Jorge Luis Borges" }
 ];
 document.addEventListener('DOMContentLoaded', () => {
-  // â”€â”€ Estado Global â”€â”€
+  // ── Estado Global ──
   const PAGE_SIZE = 24;
 
   const state = {
@@ -267,8 +267,8 @@ document.addEventListener('DOMContentLoaded', () => {
   async function shareBook(book) {
     if (!book) return;
     const shareUrl = getBookShareUrl(book);
-    const shareTitle = `${book.title} â€” BIBLIOTYAN`;
-    const shareText = `Lee y descarga "${book.title}" de ${book.author} en BIBLIOTYAN â€” Tu Biblioteca Digital Abierta:`;
+    const shareTitle = `${book.title} — BIBLIOTYAN`;
+    const shareText = `Lee y descarga "${book.title}" de ${book.author} en BIBLIOTYAN — Tu Biblioteca Digital Abierta:`;
 
     if (navigator.share && window.isSecureContext) {
       try {
@@ -332,9 +332,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!state.currentBook) return;
     const book = state.currentBook;
     const shareUrl = getBookShareUrl(book);
-    const msg = `ðŸ“– *${book.title}* â€” ${book.author}\n\n` +
+    const msg = ` *${book.title}* — ${book.author}\n\n` +
       `Descarga gratuita en PDF de alta calidad en *BIBLIOTYAN*:\n` +
-      `ðŸ‘‰ ${shareUrl}`;
+      ` ${shareUrl}`;
     const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
     window.open(waUrl, '_blank');
   }
@@ -383,12 +383,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let msg = '';
     if (cat === 'HARVARD LIBROS') {
       const hbrCount = getHarvardBookCount();
-      msg = `ðŸ›ï¸ *ColecciÃ³n HARVARD LIBROS en BIBLIOTYAN*\n` +
+      msg = `ðŸ›ï¸ *Colección HARVARD LIBROS en BIBLIOTYAN*\n` +
         `Accede y descarga gratis los ${hbrCount} títulos de Harvard Business Review Press en PDF:\n\n` +
-        `â€¢ Serie Inteligencia Emocional\n` +
-        `â€¢ Serie Management en 20 Minutos\n` +
-        `â€¢ Autoconciencia, EmpatÃ­a, Productividad y Liderazgo\n\n` +
-        `ðŸ‘‰ *Enlace directo a la colecciÃ³n:*\n${url}`;
+        `• Serie Inteligencia Emocional\n` +
+        `• Serie Management en 20 Minutos\n` +
+        `• Autoconciencia, Empatía, Productividad y Liderazgo\n\n` +
+        ` *Enlace directo a la colección:*\n${url}`;
     } else if (cat === 'LIBROS EMPRENDEDORES' || cat === 'EMPRENDEDORES') {
       const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES').length : 24;
       msg = `\uD83D\uDE80 *Colecci\u00f3n EMPRENDEDORES en BIBLIOTYAN*\n` +
@@ -402,25 +402,25 @@ document.addEventListener('DOMContentLoaded', () => {
         `\uD83D\uDC49 *Enlace directo a la colecci\u00f3n:*\n${url}`;
     } else if (cat === 'TEOLOGÍA CONTEMPORÁNEA' || cat === 'TEOLOGIA' || cat === 'CTC') {
       const tCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA').length : 38;
-      msg = `ðŸ“– *ColecciÃ³n TEOLÃ“GICA CONTEMPORÃNEA en BIBLIOTYAN*\n` +
+      msg = ` *Colección TEOLÃ“GICA CONTEMPORÁNEA en BIBLIOTYAN*\n` +
         `Accede y descarga gratis ${tCount} obras de referencia de Editorial CLIE en PDF:\n\n` +
-        `â€¢ TeologÃ­a SistemÃ¡tica y ExÃ©gesis BÃ­blica\n` +
-        `â€¢ Comentarios y HermenÃ©utica Avanzada\n` +
-        `â€¢ CristologÃ­a e Historia de las Doctrinas\n\n` +
-        `ðŸ‘‰ *Enlace directo a la colecciÃ³n:*\n${url}`;
+        `• Teología Sistemática y Exégesis Bíblica\n` +
+        `• Comentarios y Hermenéutica Avanzada\n` +
+        `• Cristología e Historia de las Doctrinas\n\n` +
+        ` *Enlace directo a la colección:*\n${url}`;
     } else if (cat === 'PARA DUMMIES') {
       const dummiesCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
-      msg = `ðŸ’¡ *ColecciÃ³n PARA DUMMIES en BIBLIOTYAN*\n` +
+      msg = ` *Colección PARA DUMMIES en BIBLIOTYAN*\n` +
         `Accede y descarga gratis ${dummiesCount} guías prácticas de la icónica colección Para Dummies en PDF:\n\n` +
-        `â€¢ Finanzas e InversiÃ³n\n` +
-        `â€¢ Excel, Windows y TecnologÃ­a\n` +
-        `â€¢ Idiomas, MÃºsica y Arte\n` +
-        `â€¢ Ajedrez, JardinerÃ­a y Salud\n\n` +
-        `ðŸ‘‰ *Enlace directo a la colecciÃ³n:*\n${url}`;
+        `• Finanzas e Inversión\n` +
+        `• Excel, Windows y Tecnología\n` +
+        `• Idiomas, Música y Arte\n` +
+        `• Ajedrez, Jardinería y Salud\n\n` +
+        ` *Enlace directo a la colección:*\n${url}`;
     } else {
-      msg = `ðŸ“š *ColecciÃ³n "${cat}" en BIBLIOTYAN*\n` +
+      msg = ` *Colección "${cat}" en BIBLIOTYAN*\n` +
         `Explora y descarga libros completos en PDF y EPUB de alta calidad:\n\n` +
-        `ðŸ‘‰ *Enlace directo:*\n${url}`;
+        ` *Enlace directo:*\n${url}`;
     }
     const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
     window.open(waUrl, '_blank');
@@ -478,8 +478,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const qs = params.toString();
       const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
       const pageTitle = categoryName && categoryName !== 'Todos'
-        ? `${categoryName} â€” BIBLIOTYAN`
-        : 'BIBLIOTYAN â€” Tu Biblioteca Digital Abierta';
+        ? `${categoryName} — BIBLIOTYAN`
+        : 'BIBLIOTYAN — Tu Biblioteca Digital Abierta';
       window.history.replaceState({ filter: categoryName }, pageTitle, newUrl);
     } catch (e) {}
   }
@@ -792,7 +792,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSkeletonCards();
 
     try {
-      const res = await fetch('data/books.json?v=8.0');
+      const res = await fetch('data/books.json?v=8.8');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {
@@ -870,7 +870,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // LO MÃS LEÃDO & SELECCIÃ“N EDITORIAL (HORIZONTAL SHELVES)
+  // LO MÁS LEÍDO & SELECCIÃ“N EDITORIAL (HORIZONTAL SHELVES)
   // ========================================================
   const MOST_READ_IDS = [2613, 1453, 1519, 1960, 1232, 2089, 1491, 2136, 2240, 1830];
   const EDITORIAL_SELECTION_IDS = [1960, 1087, 1467, 1453, 1519, 1491, 1476, 1411, 603];
@@ -1533,7 +1533,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const frame = document.getElementById('fullscreenPdfFrame');
 
     if (titleEl) titleEl.textContent = target.title;
-    if (authorEl) authorEl.textContent = target.author ? `â€” ${target.author}` : '';
+    if (authorEl) authorEl.textContent = target.author ? `— ${target.author}` : '';
 
     if (frame && target.pdf) {
       frame.src = target.pdf;
@@ -1939,7 +1939,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // AUDIOTYAN â€” EXPERIENCIA DE AUDIOLIBROS & CURSOS
+  // AUDIOTYAN — EXPERIENCIA DE AUDIOLIBROS & CURSOS
   // ========================================================
   let currentSpotifyFilter = 'all';
   let currentSpotifyQuery = '';
@@ -2018,7 +2018,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const authorSafe = typeof escapeHtml === 'function' ? escapeHtml(b.author || 'Autor') : (b.author || 'Autor');
       const titleSafe = typeof escapeHtml === 'function' ? escapeHtml(b.title || 'Audiolibro') : (b.title || 'Audiolibro');
       const coverUrl = (b.cover && b.cover !== 'covers/default.jpg') ? b.cover : generateAudioCoverDataUri(b.title, b.author, b.category);
-      const yearStr = b.year ? ` â€¢ ${b.year}` : '';
+      const yearStr = b.year ? ` • ${b.year}` : '';
 
       return `
         <article class="audiotyan-card brand-card" onclick="openAudioPlayerById(${b.id})" role="button" tabindex="0" aria-label="Escuchar ${titleSafe}">
@@ -2106,7 +2106,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const textEl = document.getElementById('dailyQuoteText');
     const authorEl = document.getElementById('dailyQuoteAuthor');
     if (textEl && quote) textEl.textContent = `"${quote.text}"`;
-    if (authorEl && quote) authorEl.textContent = `â€” ${quote.author}`;
+    if (authorEl && quote) authorEl.textContent = `— ${quote.author}`;
   }
 
   function renderFooter() {
@@ -2305,7 +2305,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const trName = (currentAudioBook.tracks && currentAudioBook.tracks[currentTrackIndex])
         ? currentAudioBook.tracks[currentTrackIndex].title
         : currentAudioBook.title;
-      title.textContent = `${currentAudioBook.title} â€” ${trName}`;
+      title.textContent = `${currentAudioBook.title} — ${trName}`;
       title.title = title.textContent;
     }
     if (author) author.textContent = currentAudioBook.author || 'AUDIOTYAN';
@@ -2735,6 +2735,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   init();
 });
+
 
 
 
