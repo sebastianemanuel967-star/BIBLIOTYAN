@@ -792,7 +792,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSkeletonCards();
 
     try {
-      const res = await fetch('data/books.json?v=9.0');
+      const res = await fetch('data/books.json?v=9.1');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {

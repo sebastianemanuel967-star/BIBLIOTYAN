@@ -39928,5 +39928,35 @@
                            "targetAudience":  "Emprendedores, líderes, profesionales y toda persona que busque acelerar la consecución de sus sueños y construir una trayectoria de vida exitosa sin desvíos.",
                            "aiSummary":  "Obra esencial de Brian Tracy (Editorial Taller del Éxito, 148 pp.) que desglosa cómo los aviones pasan el 99% del tiempo fuera de curso pero llegan a destino gracias a constantes microcorrecciones. Enseña a trazar una ruta clara hacia el éxito personal y financiero mediante metas escritas, preparación rigurosa y determinación absoluta."
                        }
+    },
+    {
+        "id":  2696,
+        "title":  "El Camino hacia la Riqueza en Acción: Estrategias de éxito para el emprendedor",
+        "author":  "Brian Tracy",
+        "category":  "Emprendimiento \u0026 Negocios",
+        "subtopic":  "Estrategias Empresariales, Finanzas para Emprendedores, Creación de Negocios y Riqueza",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2696_el-camino-hacia-la-riqueza-en-accion-brian-tracy.pdf",
+        "pages":  244,
+        "year":  2009,
+        "language":  "Español",
+        "description":  "Brian Tracy condensa en esta obra magna las lecciones prácticas definitivas para construir un negocio rentable y perdurable desde cero. A través de principios comprobados sobre selección de mercado, diseño de ventajas competitivas, fijación estratégica de precios, gestión financiera prudente y liderazgo de equipos de alto rendimiento, este libro transforma la teoría empresarial en un manual de acción inmediato para multiplicar ingresos y consolidar la independencia financiera.",
+        "cover":  "covers/c-2696-el-camino-hacia-la-riqueza-en-accion-brian-tracy.jpg",
+        "downloads":  475,
+        "featured":  true,
+        "collection":  "Colección Emprendedores",
+        "aiAnalysis":  {
+                           "genre":  "Emprendimiento, Negocios \u0026 Creación de Riqueza",
+                           "vibe":  "Estratégico, Práctico, Contundente \u0026 Orientado a la Rentabilidad",
+                           "keyConcepts":  [
+                                               "Las Leyes Fundamentales del Emprendimiento Exitoso",
+                                               "Diferenciación y Creación de Ventajas Competitivas Sólidas",
+                                               "Gestión del Flujo de Caja y Control Financiero Riguroso",
+                                               "Psicología de Ventas y Marketing de Alta Conversión",
+                                               "Desarrollo de Hábitos Diarios de Riqueza y Liderazgo Estratégico"
+                                           ],
+                           "targetAudience":  "Emprendedores noveles y experimentados, dueños de negocios, directores comerciales y profesionales decididos a maximizar sus resultados económicos con metodologías probadas.",
+                           "aiSummary":  "Manual integral de Brian Tracy (Editorial HarperEnfoque / Thomas Nelson, 244 pp.) que ofrece un mapa de ruta detallado para sortear los escollos empresariales comunes, optimizar las operaciones de cualquier empresa y generar riqueza sostenible mediante la acción disciplinada y la excelencia directiva."
+                       }
     }
 ]
