@@ -40198,5 +40198,35 @@
                            "targetAudience":  "Comerciales, emprendedores, directores generales y cualquier profesional que busque cerrar mejores tratos, proteger sus márgenes y construir alianzas duraderas.",
                            "aiSummary":  "Manual directo y estratégico de Brian Tracy (Grupo Nelson / AMACOM, 96 pp.) que compila 21 tácticas esenciales de negociación para obtener siempre condiciones ventajosas construyendo relaciones a largo plazo."
                        }
+    },
+    {
+        "id":  2705,
+        "title":  "Amor Fati: Ama tu Destino (Memento Mori)",
+        "author":  "Casimiro Ruiz",
+        "category":  "Desarrollo Personal",
+        "subtopic":  "Filosofía Estoica, Amor Fati, Resiliencia Emocional y Fortaleza Mental",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2705_amor-fati-ama-tu-destino-casimiro-ruiz.pdf",
+        "pages":  111,
+        "year":  2025,
+        "language":  "Español",
+        "description":  "Obra inspiradora de Casimiro Ruiz construida sobre la milenaria máxima estoica y nietzscheana del \u0027Amor Fati\u0027: no limitarse a tolerar lo que ocurre, sino amarlo apasionadamente como parte indispensable de tu propio crecimiento. A través de 100 reflexiones profundas y contundentes, este libro enseña a abrazar la adversidad, transformar el dolor en combustible espiritual y vivir con serenidad inquebrantable ante cualquier giro del destino.",
+        "cover":  "covers/c-2705-amor-fati-ama-tu-destino-casimiro-ruiz.jpg",
+        "downloads":  460,
+        "featured":  true,
+        "collection":  "Colección Crecimiento y Éxito",
+        "aiAnalysis":  {
+                           "genre":  "Filosofía Estoica, Crecimiento Personal \\u0026 Resiliencia",
+                           "vibe":  "Profundo, Sereno, Contundente \\u0026 Transformador",
+                           "keyConcepts":  [
+                                               "El Concepto de Amor Fati: Aceptación Activa y Amor al Destino",
+                                               "Lecciones del Estoicismo Clásico: Marco Aurelio, Epicteto y Séneca",
+                                               "Transmutación de la Adversidad en Oportunidad de Crecimiento",
+                                               "Desapego del Control Externo y Enfoque en la Virtud Interior",
+                                               "Memento Mori y la Claridad de Vivir con Propósito Presente"
+                                           ],
+                           "targetAudience":  "Lectores interesados en el estoicismo práctico, la fortaleza mental, la filosofía de vida y la superación de crisis emocionales con dignidad y serenidad.",
+                           "aiSummary":  "Tratado contemporáneo de Casimiro Ruiz (111 pp.) que condensa la sabiduría de los grandes filósofos estoicos para forjar una mentalidad invulnerable capaz de hallar paz y significado en cada circunstancia de la existencia."
+                       }
     }
 ]
