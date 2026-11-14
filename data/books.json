@@ -39898,5 +39898,35 @@
                            "targetAudience":  "Emprendedores, negociadores, psicólogos, líderes, comunicadores y cualquier persona interesada en entender los resortes ocultos de la decisión humana.",
                            "aiSummary":  "Clásico imprescindible de la psicología aplicada y los negocios que desglosa con rigor experimental y anécdotas reales por qué aceptamos propuestas y cómo protegernos de influencias no deseadas."
                        }
+    },
+    {
+        "id":  2695,
+        "title":  "Plan de Vuelo: Cómo lograr tus metas más rápido de lo que creías posible",
+        "author":  "Brian Tracy",
+        "category":  "Desarrollo Personal",
+        "subtopic":  "Fijación de Metas, Aceleración del Éxito, Determinación y Autodisciplina",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2695_plan-de-vuelo-brian-tracy.pdf",
+        "pages":  148,
+        "year":  2010,
+        "language":  "Español",
+        "description":  "Brian Tracy utiliza la elocuente metáfora del plan de vuelo de la aviación comercial para enseñar cómo despegar con un destino claro, navegar con determinación y realizar constantes correcciones de rumbo en el aire. Con principios prácticos para definir propósitos inquebrantables, activar la autodisciplina y superar turbulencias imprevistas, este clásico guía paso a paso para alcanzar metas ambiciosas mucho más rápido de lo imaginado.",
+        "cover":  "covers/c-2695-plan-de-vuelo-brian-tracy.jpg",
+        "downloads":  490,
+        "featured":  true,
+        "collection":  "Colección Crecimiento y Éxito",
+        "aiAnalysis":  {
+                           "genre":  "Desarrollo Personal, Fijación de Metas \u0026 Estrategia de Éxito",
+                           "vibe":  "Inspirador, Práctico, Estratégico \u0026 Orientado a la Acción",
+                           "keyConcepts":  [
+                                               "La Metáfora de la Aviación: Despegue, Vuelo y Corrección Continua de Rumbo",
+                                               "Claridad Absoluta en el Destino: Definición Precisa de Objetivos",
+                                               "Vencer la Gravedad del Fracaso: Superación del Miedo y la Inercia",
+                                               "Gestión de Turbulencias: Resiliencia y Adaptabilidad ante Imprevistos",
+                                               "Aceleración y Enfoque Mental Inquebrantable"
+                                           ],
+                           "targetAudience":  "Emprendedores, líderes, profesionales y toda persona que busque acelerar la consecución de sus sueños y construir una trayectoria de vida exitosa sin desvíos.",
+                           "aiSummary":  "Obra esencial de Brian Tracy (Editorial Taller del Éxito, 148 pp.) que desglosa cómo los aviones pasan el 99% del tiempo fuera de curso pero llegan a destino gracias a constantes microcorrecciones. Enseña a trazar una ruta clara hacia el éxito personal y financiero mediante metas escritas, preparación rigurosa y determinación absoluta."
+                       }
     }
 ]
