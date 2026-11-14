@@ -60,23 +60,23 @@ document.addEventListener('DOMContentLoaded', () => {
   window.state = state;
 
   const KNOWLEDGE_MATCHERS = {
-    'FilosofÃ­a': {
-      categories: ['Espiritualidad & sabidurÃ­a', 'TEOLOGÃA CONTEMPORÃNEA'],
+    'Filosofía': {
+      categories: ['Espiritualidad & sabiduría', 'TEOLOGÍA CONTEMPORÁNEA'],
       collections: ['Estoica', 'Teolog'],
-      keywords: ['filosof', 'estoic', 'sabidur', 'Ã©tica', 'etica', 'pensamiento', 'aristÃ³teles', 'aristoteles', 'platÃ³n', 'platon', 'sÃ©neca', 'seneca', 'marco aurelio', 'epicteto', 'nietzsche', 'kant', 'sÃ³crates', 'socrates', 'spinoza']
+      keywords: ['filosof', 'estoic', 'sabidur', 'ética', 'etica', 'pensamiento', 'aristóteles', 'aristoteles', 'platón', 'platon', 'séneca', 'seneca', 'marco aurelio', 'epicteto', 'nietzsche', 'kant', 'sócrates', 'socrates', 'spinoza']
     },
-    'PsicologÃ­a': {
-      categories: ['PsicologÃ­a & Conducta', 'Autoayuda & Mente', 'Neurociencia & Mente', 'Crecimiento Personal', 'Productividad & HÃ¡bitos'],
+    'Psicología': {
+      categories: ['Psicología & Conducta', 'Autoayuda & Mente', 'Neurociencia & Mente', 'Crecimiento Personal', 'Productividad & Hábitos'],
       collections: [],
-      keywords: ['psicolog', 'mente', 'cerebro', 'emocion', 'conducta', 'neuro', 'ansiedad', 'cognitiv', 'hÃ¡bito', 'habito', 'trauma', 'ego', 'conciencia', 'hipno']
+      keywords: ['psicolog', 'mente', 'cerebro', 'emocion', 'conducta', 'neuro', 'ansiedad', 'cognitiv', 'hábito', 'habito', 'trauma', 'ego', 'conciencia', 'hipno']
     },
     'Negocios': {
-      categories: ['Liderazgo & Estrategia', 'Marketing & Ventas', 'HARVARD LIBROS', 'LIBROS EMPRENDEDORES', 'Libros de AdministraciÃ³n'],
+      categories: ['Liderazgo & Estrategia', 'Marketing & Ventas', 'HARVARD LIBROS', 'LIBROS EMPRENDEDORES', 'Libros de Administración'],
       collections: ['Emprendedor', 'Administra', 'Harvard'],
       keywords: ['negocio', 'empresa', 'marketing', 'venta', 'liderazgo', 'startup', 'estrategia', 'gerencia', 'marca', 'management', 'cliente', 'productividad']
     },
-    'EconomÃ­a': {
-      categories: ['Finanzas & InversiÃ³n'],
+    'Economía': {
+      categories: ['Finanzas & Inversión'],
       collections: [],
       keywords: ['econom', 'finanz', 'dinero', 'invers', 'riqueza', 'capital', 'bolsa', 'mercado', 'macroeconom', 'microeconom', 'bitcoin', 'cripto', 'activo', 'presupuesto', 'impuesto']
     },
@@ -86,9 +86,9 @@ document.addEventListener('DOMContentLoaded', () => {
       keywords: ['historia', 'guerra', 'imperio', 'roma', 'grecia', 'egipto', 'edad media', 'revoluci', 'antigu', 'siglo', 'civilizaci', 'batalla', 'mitolog', 'renacimiento']
     },
     'Ciencia': {
-      categories: ['TecnologÃ­a & Futuro', 'Salud & Longevidad', 'Neurociencia & Mente'],
+      categories: ['Tecnología & Futuro', 'Salud & Longevidad', 'Neurociencia & Mente'],
       collections: ['National Geographic'],
-      keywords: ['ciencia', 'fÃ­sica', 'fisica', 'quÃ­mic', 'quimic', 'biolog', 'matemÃ¡t', 'matemat', 'astrono', 'universo', 'cosmos', 'cuÃ¡ntic', 'cuantic', 'genÃ©tica', 'genetica', 'evoluci', 'inteligencia artificial', 'algoritmo', 'datos', 'programaci', 'tecnolog', 'neurociencia', 'medicina', 'cerebro', 'cuerpo', 'salud', 'ecolog', 'fisiolog', 'epigen']
+      keywords: ['ciencia', 'física', 'fisica', 'químic', 'quimic', 'biolog', 'matemát', 'matemat', 'astrono', 'universo', 'cosmos', 'cuántic', 'cuantic', 'genética', 'genetica', 'evoluci', 'inteligencia artificial', 'algoritmo', 'datos', 'programaci', 'tecnolog', 'neurociencia', 'medicina', 'cerebro', 'cuerpo', 'salud', 'ecolog', 'fisiolog', 'epigen']
     }
   };
 
@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateFavoriteButtons();
 
-    // Si estamos en la pestaÃ±a Mi biblioteca, re-renderizar
+    // Si estamos en la pestaña Mi biblioteca, re-renderizar
     if (state.currentFilter === 'Mi biblioteca') {
       renderBooks();
     }
@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
           text: shareText,
           url: shareUrl
         });
-        showToast('Enlace Compartido', `Has compartido "${book.title}" con Ã©xito.`);
+        showToast('Enlace Compartido', `Has compartido "${book.title}" con éxito.`);
         return;
       } catch (err) {
         if (err.name === 'AbortError') return;
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function copyLinkToClipboard(url, title) {
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url).then(() => {
-        showToast('Â¡Enlace Copiado!', `El enlace de "${title}" estÃ¡ en tu portapapeles.`);
+        showToast('¡Enlace Copiado!', `El enlace de "${title}" está en tu portapapeles.`);
       }).catch(() => {
         legacyCopy(url, title);
       });
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
     input.select();
     try {
       document.execCommand('copy');
-      showToast('Â¡Enlace Copiado!', `El enlace de "${title}" se copiÃ³ al portapapeles.`);
+      showToast('¡Enlace Copiado!', `El enlace de "${title}" se copió al portapapeles.`);
     } catch (e) {
       prompt('Copia este enlace para compartir el libro:', url);
     }
@@ -350,13 +350,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (categoryName === 'PARA DUMMIES') {
       return `${base}?coleccion=dummies`;
     }
-    if (categoryName === 'TEOLOGÃA CONTEMPORÃNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') {
+    if (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') {
       return `${base}?coleccion=teologia`;
     }
     if (categoryName === 'LIBROS EMPRENDEDORES' || categoryName === 'EMPRENDEDORES') {
       return `${base}?coleccion=emprendedores`;
     }
-    if (categoryName === 'Libros de AdministraciÃ³n' || categoryName === 'ADMINISTRACION' || categoryName === 'administracion') {
+    if (categoryName === 'Libros de Administración' || categoryName === 'ADMINISTRACION' || categoryName === 'administracion') {
       return `${base}?coleccion=administracion`;
     }
     return `${base}?coleccion=${slugify(categoryName)}`;
@@ -365,10 +365,10 @@ document.addEventListener('DOMContentLoaded', () => {
   function copyCollectionLink(categoryName) {
     const cat = categoryName || state.currentFilter;
     const url = getCollectionShareUrl(cat);
-    const label = cat === 'HARVARD LIBROS' ? 'ColecciÃ³n Harvard Libros' : `ColecciÃ³n ${cat}`;
+    const label = cat === 'HARVARD LIBROS' ? 'Colección Harvard Libros' : `Colección ${cat}`;
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url).then(() => {
-        showToast('Â¡Enlace Copiado!', `Enlace directo de ${label} copiado al portapapeles.`);
+        showToast('¡Enlace Copiado!', `Enlace directo de ${label} copiado al portapapeles.`);
       }).catch(() => {
         legacyCopy(url, label);
       });
@@ -384,7 +384,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (cat === 'HARVARD LIBROS') {
       const hbrCount = getHarvardBookCount();
       msg = `ðŸ›ï¸ *ColecciÃ³n HARVARD LIBROS en BIBLIOTYAN*\n` +
-        `Accede y descarga gratis los ${hbrCount} tÃ­tulos de Harvard Business Review Press en PDF:\n\n` +
+        `Accede y descarga gratis los ${hbrCount} títulos de Harvard Business Review Press en PDF:\n\n` +
         `â€¢ Serie Inteligencia Emocional\n` +
         `â€¢ Serie Management en 20 Minutos\n` +
         `â€¢ Autoconciencia, EmpatÃ­a, Productividad y Liderazgo\n\n` +
@@ -400,8 +400,8 @@ document.addEventListener('DOMContentLoaded', () => {
         `\u2022 El Tao de Warren Buffett\n` +
         `\u2022 Y decenas de t\u00edtulos m\u00e1s...\n\n` +
         `\uD83D\uDC49 *Enlace directo a la colecci\u00f3n:*\n${url}`;
-    } else if (cat === 'TEOLOGÃA CONTEMPORÃNEA' || cat === 'TEOLOGIA' || cat === 'CTC') {
-      const tCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'TEOLOGÃA CONTEMPORÃNEA').length : 38;
+    } else if (cat === 'TEOLOGÍA CONTEMPORÁNEA' || cat === 'TEOLOGIA' || cat === 'CTC') {
+      const tCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA').length : 38;
       msg = `ðŸ“– *ColecciÃ³n TEOLÃ“GICA CONTEMPORÃNEA en BIBLIOTYAN*\n` +
         `Accede y descarga gratis ${tCount} obras de referencia de Editorial CLIE en PDF:\n\n` +
         `â€¢ TeologÃ­a SistemÃ¡tica y ExÃ©gesis BÃ­blica\n` +
@@ -411,7 +411,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (cat === 'PARA DUMMIES') {
       const dummiesCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
       msg = `ðŸ’¡ *ColecciÃ³n PARA DUMMIES en BIBLIOTYAN*\n` +
-        `Accede y descarga gratis ${dummiesCount} guÃ­as prÃ¡cticas de la icÃ³nica colecciÃ³n Para Dummies en PDF:\n\n` +
+        `Accede y descarga gratis ${dummiesCount} guías prácticas de la icónica colección Para Dummies en PDF:\n\n` +
         `â€¢ Finanzas e InversiÃ³n\n` +
         `â€¢ Excel, Windows y TecnologÃ­a\n` +
         `â€¢ Idiomas, MÃºsica y Arte\n` +
@@ -433,15 +433,15 @@ document.addEventListener('DOMContentLoaded', () => {
       params.delete('id');
       params.delete('book');
 
-      if (!categoryName || categoryName === 'Todos' || categoryName === 'MÃ¡s leÃ­dos' || categoryName === 'Nuevos' || categoryName === 'Recomendados') {
+      if (!categoryName || categoryName === 'Todos' || categoryName === 'Más leídos' || categoryName === 'Nuevos' || categoryName === 'Recomendados') {
         params.delete('coleccion');
         params.delete('categoria');
         params.delete('cat');
-      } else if (categoryName === 'Robert Greene' || categoryName === 'ColecciÃ³n Robert Greene') {
+      } else if (categoryName === 'Robert Greene' || categoryName === 'Colección Robert Greene') {
         params.set('coleccion', 'robert-greene');
         params.delete('categoria');
         params.delete('cat');
-      } else if (categoryName === 'Jacobo Grinberg' || categoryName === 'ColecciÃ³n Jacobo Grinberg') {
+      } else if (categoryName === 'Jacobo Grinberg' || categoryName === 'Colección Jacobo Grinberg') {
         params.set('coleccion', 'jacobo-grinberg');
         params.delete('categoria');
         params.delete('cat');
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
         params.set('coleccion', 'dummies');
         params.delete('categoria');
         params.delete('cat');
-      } else if (categoryName === 'TEOLOGÃA CONTEMPORÃNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') {
+      } else if (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'TEOLOGIA' || categoryName === 'CTC') {
         params.set('coleccion', 'teologia');
         params.delete('categoria');
         params.delete('cat');
@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
         params.set('coleccion', 'emprendedores');
         params.delete('categoria');
         params.delete('cat');
-      } else if (categoryName === 'Libros de AdministraciÃ³n' || categoryName === 'ADMINISTRACION') {
+      } else if (categoryName === 'Libros de Administración' || categoryName === 'ADMINISTRACION') {
         params.set('coleccion', 'administracion');
         params.delete('categoria');
         params.delete('cat');
@@ -509,14 +509,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Sincronizar chips de colecciones especiales
     document.querySelectorAll('.collection-chip-compact').forEach(btn => {
-      const isMatch = (btn.id === 'cardColGreene' && (categoryName === 'Robert Greene' || categoryName === 'ColecciÃ³n Robert Greene')) ||
-                      (btn.id === 'cardColGrinberg' && (categoryName === 'Jacobo Grinberg' || categoryName === 'ColecciÃ³n Jacobo Grinberg')) ||
-                      (btn.id === 'cardColDummies' && (categoryName === 'PARA DUMMIES' || categoryName === 'ColecciÃ³n Para Dummies')) ||
-                      (btn.id === 'cardColHistoria' && (categoryName === 'BREVE HISTORIA' || categoryName === 'ColecciÃ³n Breve Historia')) ||
-                      (btn.id === 'cardColHarvard' && (categoryName === 'HARVARD LIBROS' || categoryName === 'ColecciÃ³n Harvard Libros')) ||
-                      (btn.id === 'cardColEmprendedores' && (categoryName === 'LIBROS EMPRENDEDORES' || categoryName === 'ColecciÃ³n Emprendedores')) ||
-                      (btn.id === 'cardColTeologia' && (categoryName === 'TEOLOGÃA CONTEMPORÃNEA' || categoryName === 'ColecciÃ³n TeolÃ³gica ContemporÃ¡nea')) ||
-                      (btn.id === 'cardColAdmin' && (categoryName === 'Libros de AdministraciÃ³n' || categoryName === 'ColecciÃ³n Libros de AdministraciÃ³n'));
+      const isMatch = (btn.id === 'cardColGreene' && (categoryName === 'Robert Greene' || categoryName === 'Colección Robert Greene')) ||
+                      (btn.id === 'cardColGrinberg' && (categoryName === 'Jacobo Grinberg' || categoryName === 'Colección Jacobo Grinberg')) ||
+                      (btn.id === 'cardColDummies' && (categoryName === 'PARA DUMMIES' || categoryName === 'Colección Para Dummies')) ||
+                      (btn.id === 'cardColHistoria' && (categoryName === 'BREVE HISTORIA' || categoryName === 'Colección Breve Historia')) ||
+                      (btn.id === 'cardColHarvard' && (categoryName === 'HARVARD LIBROS' || categoryName === 'Colección Harvard Libros')) ||
+                      (btn.id === 'cardColEmprendedores' && (categoryName === 'LIBROS EMPRENDEDORES' || categoryName === 'Colección Emprendedores')) ||
+                      (btn.id === 'cardColTeologia' && (categoryName === 'TEOLOGÍA CONTEMPORÁNEA' || categoryName === 'Colección Teológica Contemporánea')) ||
+                      (btn.id === 'cardColAdmin' && (categoryName === 'Libros de Administración' || categoryName === 'Colección Libros de Administración'));
       btn.classList.toggle('active', isMatch);
     });
 
@@ -590,7 +590,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   window.openNotifications = function() {
-    showToast('BIBLIOTYAN', 'CatÃ¡logo actualizado con colecciones de Harvard, Breve Historia y novedades.');
+    showToast('BIBLIOTYAN', 'Catálogo actualizado con colecciones de Harvard, Breve Historia y novedades.');
   };
 
   window.handleDockNav = function(tab) {
@@ -617,7 +617,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (cat) cat.scrollIntoView({ behavior: 'smooth' });
       renderBooks();
       if (state.favorites.length === 0) {
-        showToast('Mi biblioteca', 'AÃºn no tienes libros guardados. Pulsa el marcador en cualquier libro para guardarlo.');
+        showToast('Mi biblioteca', 'Aún no tienes libros guardados. Pulsa el marcador en cualquier libro para guardarlo.');
       }
     }
   };
@@ -646,9 +646,9 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (cleanSlug === 'emprendedores' || cleanSlug === 'libros-emprendedores' || cleanSlug.includes('emprendedor')) {
         targetCat = 'LIBROS EMPRENDEDORES';
       } else if (cleanSlug === 'teologia' || cleanSlug === 'teologica' || cleanSlug === 'ctc' || cleanSlug.includes('teolog')) {
-        targetCat = 'TEOLOGÃA CONTEMPORÃNEA';
+        targetCat = 'TEOLOGÍA CONTEMPORÁNEA';
       } else if (cleanSlug === 'administracion' || cleanSlug === 'libros-de-administracion' || cleanSlug.includes('administra')) {
-        targetCat = 'Libros de AdministraciÃ³n';
+        targetCat = 'Libros de Administración';
       } else {
         targetCat = CONFIG.categories.find(c => slugify(c) === cleanSlug || slugify(c).includes(cleanSlug) || cleanSlug.includes(slugify(c)));
       }
@@ -657,31 +657,31 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (hash.includes('dummies')) {
       targetCat = 'PARA DUMMIES';
     } else if (hash.includes('administra')) {
-      targetCat = 'Libros de AdministraciÃ³n';
+      targetCat = 'Libros de Administración';
     }
 
     if (targetCat) {
       selectCategory(targetCat, true, false);
       if (targetCat === 'Robert Greene') {
-        showToast('ColecciÃ³n Robert Greene', 'Explorando las obras sobre poder, estrategia y maestrÃ­a');
+        showToast('Colección Robert Greene', 'Explorando las obras sobre poder, estrategia y maestría');
       } else if (targetCat === 'Jacobo Grinberg') {
-        showToast('ColecciÃ³n Jacobo Grinberg', 'Explorando la TeorÃ­a SintÃ©rgica, Neuroalgoritmos y Chamanismo');
+        showToast('Colección Jacobo Grinberg', 'Explorando la Teoría Sintérgica, Neuroalgoritmos y Chamanismo');
       } else if (targetCat === 'HARVARD LIBROS') {
         const hbrCount = getHarvardBookCount();
-        showToast('ColecciÃ³n Harvard Activa', `Explorando los ${hbrCount} tÃ­tulos de Harvard Business Review`);
+        showToast('Colección Harvard Activa', `Explorando los ${hbrCount} títulos de Harvard Business Review`);
       } else if (targetCat === 'BREVE HISTORIA') {
-        showToast('ColecciÃ³n Breve Historia', 'Explorando los 142 tÃ­tulos de Ediciones Nowtilus');
+        showToast('Colección Breve Historia', 'Explorando los 142 títulos de Ediciones Nowtilus');
       } else if (targetCat === 'PARA DUMMIES') {
         const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
-        showToast('ColecciÃ³n Para Dummies', `Explorando las ${dCount} guÃ­as prÃ¡cticas en PDF`);
+        showToast('Colección Para Dummies', `Explorando las ${dCount} guías prácticas en PDF`);
       } else if (targetCat === 'LIBROS EMPRENDEDORES') {
         const eCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length : 394;
-        showToast('ColecciÃ³n Emprendedores', `Explorando los ${eCount} libros de negocios y startups en PDF`);
-      } else if (targetCat === 'Libros de AdministraciÃ³n') {
-        const aCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de AdministraciÃ³n').length : 197;
-        showToast('ColecciÃ³n AdministraciÃ³n Activa', `Explorando los ${aCount} manuales y tratados de gestiÃ³n empresarial`);
+        showToast('Colección Emprendedores', `Explorando los ${eCount} libros de negocios y startups en PDF`);
+      } else if (targetCat === 'Libros de Administración') {
+        const aCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length : 197;
+        showToast('Colección Administración Activa', `Explorando los ${aCount} manuales y tratados de gestión empresarial`);
       } else {
-        showToast('ColecciÃ³n Seleccionada', `Mostrando tÃ­tulos de "${targetCat}"`);
+        showToast('Colección Seleccionada', `Mostrando títulos de "${targetCat}"`);
       }
     }
 
@@ -731,7 +731,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /**
-   * Calcula el total actual de tÃ­tulos en la colecciÃ³n HARVARD LIBROS.
+   * Calcula el total actual de títulos en la colección HARVARD LIBROS.
    */
   function getHarvardBookCount() {
     if (typeof BOOKS === 'undefined' || !Array.isArray(BOOKS)) return 27;
@@ -751,7 +751,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // CARGA ASÃNCRONA DE CATÃLOGO & SKELETON LOADERS
+  // CARGA ASÍNCRONA DE CATÁLOGO & SKELETON LOADERS
   // ========================================================
   function renderSkeletonCards() {
     const grid = document.getElementById('booksGrid');
@@ -775,8 +775,8 @@ document.addEventListener('DOMContentLoaded', () => {
     grid.innerHTML = `
       <div class="catalog-error-box" style="grid-column: 1 / -1; text-align: center; padding: 3.5rem 1.5rem; background: var(--bg-surface); border: 1px solid var(--purple-border); border-radius: var(--radius-md);">
         <i class="fa-solid fa-triangle-exclamation" style="font-size: 2.2rem; color: var(--purple-light); margin-bottom: 1rem; display: block;"></i>
-        <h3 style="color: var(--text-main); font-size: 1.15rem; margin-bottom: 0.5rem;">No se pudo conectar con el catÃ¡logo</h3>
-        <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 1.25rem; max-width: 420px; margin-left: auto; margin-right: auto;">OcurriÃ³ un problema de red al cargar los libros. Revisa tu conexiÃ³n a internet.</p>
+        <h3 style="color: var(--text-main); font-size: 1.15rem; margin-bottom: 0.5rem;">No se pudo conectar con el catálogo</h3>
+        <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 1.25rem; max-width: 420px; margin-left: auto; margin-right: auto;">Ocurrió un problema de red al cargar los libros. Revisa tu conexión a internet.</p>
         <button type="button" class="btn-primary" onclick="initCatalogData(true)" style="display: inline-flex; align-items: center; gap: 0.5rem; margin: 0 auto; padding: 0.55rem 1.25rem; background: var(--purple-primary); color: #fff; border: none; border-radius: var(--radius-sm); cursor: pointer;">
           <i class="fa-solid fa-rotate-right"></i> Reintentar
         </button>
@@ -799,7 +799,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.BOOKS = data;
       }
     } catch (err) {
-      console.warn('Fallo al cargar data/books.json, usando catÃ¡logo fallback:', err);
+      console.warn('Fallo al cargar data/books.json, usando catálogo fallback:', err);
       if (!window.BOOKS || !Array.isArray(window.BOOKS) || window.BOOKS.length === 0) {
         renderCatalogError();
         return;
@@ -829,7 +829,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initAudioPlayer();
     setupSearchBar();
 
-    // Carga asÃ­ncrona de catÃ¡logo con skeleton loaders
+    // Carga asíncrona de catálogo con skeleton loaders
     await loadCatalogAsync();
 
     normalizeBookUrls();
@@ -944,30 +944,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const filterList = [
       'Todos',
-      'MÃ¡s leÃ­dos',
+      'Más leídos',
       'Nuevos',
       'Recomendados',
       'HARVARD LIBROS',
       'BREVE HISTORIA',
       'PARA DUMMIES',
       'LIBROS EMPRENDEDORES',
-      'Libros de AdministraciÃ³n',
-      'TEOLOGÃA CONTEMPORÃNEA',
+      'Libros de Administración',
+      'TEOLOGÍA CONTEMPORÁNEA',
       'National Geographic',
       'E-Books (EPUB)',
       'Audiolibros',
-      'Espiritualidad & sabidurÃ­a',
+      'Espiritualidad & sabiduría',
       'Autoayuda & Mente',
       'Neurociencia & Mente',
-      'Productividad & HÃ¡bitos',
-      'Finanzas & InversiÃ³n',
+      'Productividad & Hábitos',
+      'Finanzas & Inversión',
       'Liderazgo & Estrategia',
       'Marketing & Ventas',
       'Crecimiento Personal',
-      'PsicologÃ­a & Conducta',
+      'Psicología & Conducta',
       'Salud & Longevidad',
-      'TecnologÃ­a & Futuro',
-      'Libros en InglÃ©s'
+      'Tecnología & Futuro',
+      'Libros en Inglés'
     ];
 
     filterList.forEach(cat => {
@@ -978,15 +978,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
       let iconHtml = '';
       if (cat === 'Todos') iconHtml = '<i data-lucide="grid"></i>';
-      else if (cat === 'MÃ¡s leÃ­dos') iconHtml = '<i data-lucide="trending-up"></i>';
+      else if (cat === 'Más leídos') iconHtml = '<i data-lucide="trending-up"></i>';
       else if (cat === 'Nuevos') iconHtml = '<i data-lucide="sparkles"></i>';
       else if (cat === 'Recomendados') iconHtml = '<i data-lucide="award"></i>';
       else if (cat === 'HARVARD LIBROS') iconHtml = '<i data-lucide="building-2"></i>';
       else if (cat === 'BREVE HISTORIA') iconHtml = '<i data-lucide="landmark"></i>';
       else if (cat === 'PARA DUMMIES') iconHtml = '<i data-lucide="lightbulb"></i>';
       else if (cat === 'LIBROS EMPRENDEDORES') iconHtml = '<i data-lucide="trending-up"></i>';
-      else if (cat === 'Libros de AdministraciÃ³n') iconHtml = '<i data-lucide="briefcase"></i>';
-      else if (cat === 'TEOLOGÃA CONTEMPORÃNEA') iconHtml = '<i data-lucide="scroll"></i>';
+      else if (cat === 'Libros de Administración') iconHtml = '<i data-lucide="briefcase"></i>';
+      else if (cat === 'TEOLOGÍA CONTEMPORÁNEA') iconHtml = '<i data-lucide="scroll"></i>';
       else if (cat === 'Audiolibros') iconHtml = '<i data-lucide="headphones"></i>';
       else if (cat === 'E-Books (EPUB)') iconHtml = '<i data-lucide="book-open"></i>';
 
@@ -1017,7 +1017,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // RENDERIZADO DEL CATÃLOGO (24 EN 24 + GRID 2 COLUMNAS)
+  // RENDERIZADO DEL CATÁLOGO (24 EN 24 + GRID 2 COLUMNAS)
   // ========================================================
   function renderBooks() {
     const grid = document.getElementById('booksGrid');
@@ -1035,7 +1035,7 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesCategory = true;
       } else if (KNOWLEDGE_MATCHERS[state.currentFilter]) {
         matchesCategory = matchesKnowledgeArea(book, state.currentFilter);
-      } else if (state.currentFilter === 'MÃ¡s leÃ­dos') {
+      } else if (state.currentFilter === 'Más leídos') {
         matchesCategory = true;
       } else if (state.currentFilter === 'Nuevos') {
         matchesCategory = true;
@@ -1047,29 +1047,29 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesCategory = (book.collection === 'National Geographic' || book.category === 'National Geographic');
       } else if (state.currentFilter === 'E-Books (EPUB)') {
         matchesCategory = (book.format === 'epub' || book.format === 'dual' || !!book.epub);
-      } else if (state.currentFilter === 'Audiolibros' || state.currentFilter === 'ColecciÃ³n Audiolibros') {
+      } else if (state.currentFilter === 'Audiolibros' || state.currentFilter === 'Colección Audiolibros') {
         matchesCategory = (book.format === 'audio' || !!book.audioUrl || !!book.tracks || (book.collection && book.collection.includes('Audiolibro')));
-      } else if (state.currentFilter === 'Robert Greene' || state.currentFilter === 'ColecciÃ³n Robert Greene' || state.currentFilter === 'ROBERT GREENE') {
+      } else if (state.currentFilter === 'Robert Greene' || state.currentFilter === 'Colección Robert Greene' || state.currentFilter === 'ROBERT GREENE') {
         matchesCategory = (book.author && book.author.toLowerCase().includes('robert greene')) || (book.collection && book.collection.includes('Robert Greene'));
-      } else if (state.currentFilter === 'Jacobo Grinberg' || state.currentFilter === 'ColecciÃ³n Jacobo Grinberg' || state.currentFilter === 'JACOBO GRINBERG') {
+      } else if (state.currentFilter === 'Jacobo Grinberg' || state.currentFilter === 'Colección Jacobo Grinberg' || state.currentFilter === 'JACOBO GRINBERG') {
         matchesCategory = (book.author && book.author.toLowerCase().includes('grinberg')) || (book.collection && book.collection.includes('Grinberg'));
-      } else if (state.currentFilter === 'LIBROS EMPRENDEDORES' || state.currentFilter === 'ColecciÃ³n Emprendedores') {
+      } else if (state.currentFilter === 'LIBROS EMPRENDEDORES' || state.currentFilter === 'Colección Emprendedores') {
         matchesCategory = (book.collection && book.collection.includes('Emprendedor')) || book.category === 'LIBROS EMPRENDEDORES';
-      } else if (state.currentFilter === 'PARA DUMMIES' || state.currentFilter === 'ColecciÃ³n Para Dummies') {
+      } else if (state.currentFilter === 'PARA DUMMIES' || state.currentFilter === 'Colección Para Dummies') {
         matchesCategory = (book.collection && book.collection.includes('Dummies')) || book.category === 'PARA DUMMIES';
-      } else if (state.currentFilter === 'BREVE HISTORIA' || state.currentFilter === 'ColecciÃ³n Breve Historia') {
+      } else if (state.currentFilter === 'BREVE HISTORIA' || state.currentFilter === 'Colección Breve Historia') {
         matchesCategory = (book.collection && book.collection.includes('Breve Historia')) || book.category === 'BREVE HISTORIA';
-      } else if (state.currentFilter === 'HARVARD LIBROS' || state.currentFilter === 'ColecciÃ³n Harvard Libros') {
+      } else if (state.currentFilter === 'HARVARD LIBROS' || state.currentFilter === 'Colección Harvard Libros') {
         matchesCategory = (book.collection && book.collection.includes('Harvard')) || book.category === 'HARVARD LIBROS';
-      } else if (state.currentFilter === 'TEOLOGÃA CONTEMPORÃNEA' || state.currentFilter === 'ColecciÃ³n TeolÃ³gica ContemporÃ¡nea') {
-        matchesCategory = (book.collection && book.collection.includes('Teolog')) || book.category === 'TEOLOGÃA CONTEMPORÃNEA';
-      } else if (state.currentFilter === 'Libros de AdministraciÃ³n' || state.currentFilter === 'ColecciÃ³n Libros de AdministraciÃ³n' || state.currentFilter === 'LIBROS DE ADMINISTRACIÃ“N' || state.currentFilter === 'ADMINISTRACION') {
-        matchesCategory = (book.collection && book.collection.includes('Administra')) || book.category === 'Libros de AdministraciÃ³n';
+      } else if (state.currentFilter === 'TEOLOGÍA CONTEMPORÁNEA' || state.currentFilter === 'Colección Teológica Contemporánea') {
+        matchesCategory = (book.collection && book.collection.includes('Teolog')) || book.category === 'TEOLOGÍA CONTEMPORÁNEA';
+      } else if (state.currentFilter.toLowerCase().indexOf('administra') > -1) {
+        matchesCategory = (book.collection && book.collection.includes('Administra')) || book.category === 'Libros de Administración';
       } else {
         matchesCategory = book.category === state.currentFilter;
       }
 
-      // 2. Filtrado de bÃºsqueda en tiempo real
+      // 2. Filtrado de búsqueda en tiempo real
       const q = (state.searchQuery || '').toLowerCase();
       const matchesSearch = !q ||
         (book.title && book.title.toLowerCase().includes(q)) ||
@@ -1086,7 +1086,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sortSelect = document.getElementById('sortSelect');
     let sortBy = sortSelect ? sortSelect.value : state.sortBy;
 
-    if (state.currentFilter === 'MÃ¡s leÃ­dos') {
+    if (state.currentFilter === 'Más leídos') {
       sortBy = 'popular';
     } else if (state.currentFilter === 'Nuevos') {
       sortBy = 'recent';
@@ -1130,8 +1130,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (countEl) {
-      const filterLabel = state.currentFilter === 'Todos' ? 'CatÃ¡logo' : state.currentFilter;
-      countEl.textContent = `${filterLabel} Â· ${filtered.length} ${filtered.length === 1 ? 'libro' : 'libros'}`;
+      const filterLabel = state.currentFilter === 'Todos' ? 'Catálogo' : state.currentFilter;
+      countEl.textContent = `${filterLabel} · ${filtered.length} ${filtered.length === 1 ? 'libro' : 'libros'}`;
     }
 
     grid.innerHTML = '';
@@ -1142,12 +1142,12 @@ document.addEventListener('DOMContentLoaded', () => {
         grid.innerHTML = `
           <div style="grid-column: 1/-1; text-align: center; padding: 3rem 1rem; color: var(--text-muted)">
             <i data-lucide="bookmark" style="width: 44px; height: 44px; color: var(--purple-primary); margin: 0 auto 1rem; display: block;"></i>
-            <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.2rem">Tu biblioteca estÃ¡ vacÃ­a</h3>
+            <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.2rem">Tu biblioteca está vacía</h3>
             <p style="max-width: 440px; margin: 0 auto 1.25rem; line-height: 1.5; color: var(--text-secondary);">
-              AÃºn no has guardado ningÃºn libro. Pulsa el icono de marcador en tus tÃ­tulos favoritos para verlos aquÃ­ reunidos.
+              Aún no has guardado ningún libro. Pulsa el icono de marcador en tus títulos favoritos para verlos aquí reunidos.
             </p>
             <button type="button" class="btn-hero-explore" onclick="selectCategory('Todos', false, true)">
-              Explorar CatÃ¡logo Completo
+              Explorar Catálogo Completo
             </button>
           </div>
         `;
@@ -1160,7 +1160,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <i data-lucide="book-open" style="width: 44px; height: 44px; color: var(--purple-primary); margin: 0 auto 1rem; display: block;"></i>
             <h3 style="color: var(--text-main); margin-bottom: 0.5rem; font-size: 1.2rem">No se encontraron libros</h3>
             <p style="max-width: 460px; margin: 0 auto 1.2rem; line-height: 1.5; color: var(--text-secondary);">
-              ${queryNotice} Si buscas un tÃ­tulo que aÃºn no figura en el archivo, puedes pedirlo directo al equipo.
+              ${queryNotice} Si buscas un título que aún no figura en el archivo, puedes pedirlo directo al equipo.
             </p>
             <button type="button" class="btn-hero-explore" id="emptyRequestBtn">
               Solicitar este libro
@@ -1212,7 +1212,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <h3 class="card-title" title="${escapeHTML(book.title)}">${escapeHTML(book.title)}</h3>
           <p class="card-author">${escapeHTML(book.author)}</p>
           <div class="card-meta-row">
-            <span class="card-category-pill" title="Filtrar colecciÃ³n ${escapeHTML(book.category)}">${escapeHTML(book.category)}</span>
+            <span class="card-category-pill" title="Filtrar colección ${escapeHTML(book.category)}">${escapeHTML(book.category)}</span>
             <button type="button" class="card-fav-btn ${isFav ? 'active' : ''}" data-id="${book.id}" onclick="event.stopPropagation(); toggleFavorite(${book.id}, event)" title="${isFav ? 'Quitar de favoritos' : 'Guardar en favoritos'}" aria-label="Guardar en favoritos">
               <i data-lucide="bookmark"></i>
             </button>
@@ -1360,7 +1360,7 @@ document.addEventListener('DOMContentLoaded', () => {
       catEl.style.color = 'var(--purple-light)';
       catEl.style.borderColor = 'var(--purple-border)';
       catEl.style.cursor = 'pointer';
-      catEl.title = `Ver toda la colecciÃ³n de ${book.category}`;
+      catEl.title = `Ver toda la colección de ${book.category}`;
       catEl.onclick = () => {
         closePreviewModal();
         selectCategory(book.category, true, true);
@@ -1371,7 +1371,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (colLinkEl) {
       if (book.category === 'HARVARD LIBROS') {
         colLinkEl.style.display = 'inline-flex';
-        colLinkEl.innerHTML = '<i class="fa-solid fa-layer-group"></i> ColecciÃ³n Harvard Libros';
+        colLinkEl.innerHTML = '<i class="fa-solid fa-layer-group"></i> Colección Harvard Libros';
         colLinkEl.onclick = (e) => {
           e.preventDefault();
           closePreviewModal();
@@ -1379,7 +1379,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
       } else if (book.category === 'BREVE HISTORIA') {
         colLinkEl.style.display = 'inline-flex';
-        colLinkEl.innerHTML = '<i class="fa-solid fa-landmark"></i> ColecciÃ³n Breve Historia (142 Libros)';
+        colLinkEl.innerHTML = '<i class="fa-solid fa-landmark"></i> Colección Breve Historia (142 Libros)';
         colLinkEl.onclick = (e) => {
           e.preventDefault();
           closePreviewModal();
@@ -1388,7 +1388,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else if (book.category === 'PARA DUMMIES') {
         const dCount = (typeof BOOKS !== 'undefined' && Array.isArray(BOOKS)) ? BOOKS.filter(b => b.category === 'PARA DUMMIES').length : 70;
         colLinkEl.style.display = 'inline-flex';
-        colLinkEl.innerHTML = `<i class="fa-solid fa-lightbulb"></i> ColecciÃ³n Para Dummies (${dCount} Libros)`;
+        colLinkEl.innerHTML = `<i class="fa-solid fa-lightbulb"></i> Colección Para Dummies (${dCount} Libros)`;
         colLinkEl.onclick = (e) => {
           e.preventDefault();
           closePreviewModal();
@@ -1425,7 +1425,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('previewAuthor').textContent = book.author;
     document.getElementById('previewDescription').textContent = book.description;
 
-    // DiagnÃ³stico inteligente
+    // Diagnóstico inteligente
     const aiTagsEl = document.getElementById('previewAiTags');
     const aiTargetEl = document.getElementById('previewAiTarget');
     if (aiTagsEl) {
@@ -1433,7 +1433,7 @@ document.addEventListener('DOMContentLoaded', () => {
       aiTagsEl.innerHTML = concepts.map(c => `<span class="ai-tag-item"># ${escapeHTML(c)}</span>`).join('');
     }
     if (aiTargetEl) {
-      aiTargetEl.textContent = analysis.targetAudience || 'Lectores que valoran el pensamiento crÃ­tico y el desarrollo cognitivo.';
+      aiTargetEl.textContent = analysis.targetAudience || 'Lectores que valoran el pensamiento crítico y el desarrollo cognitivo.';
     }
 
     // Aviso de Apoyo al Creador (Exclusivo para libros de Harvard)
@@ -1521,7 +1521,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!target) return;
     state.currentBook = target;
 
-    // En mÃ³vil o enlaces directos, abrir en pestaÃ±a limpia
+    // En móvil o enlaces directos, abrir en pestaña limpia
     if (target.pdf && (target.pdf.startsWith('http') || window.innerWidth <= 768)) {
       window.open(target.pdf, '_blank');
       return;
@@ -1595,26 +1595,26 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         iconEl.className = 'fa-solid fa-shield-heart';
         titleEl.textContent = 'Descarga Libre y Gratuita';
-        msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apÃ³yanos siguiendo nuestras redes comunitarias:';
+        msgEl.innerHTML = 'En <strong>BIBLIOTYAN</strong> no cobramos dinero. Nuestra iniciativa busca democratizar el acceso al conocimiento. Si valoras nuestro trabajo, apóyanos siguiendo nuestras redes comunitarias:';
       }
     }
     container.innerHTML = '';
 
     const socialMeta = {
       telegram: {
-        subtitle: 'Canal oficial Â· Libros diarios & avisos',
+        subtitle: 'Canal oficial · Libros diarios & avisos',
         badge: 'Unirse',
         badgeColor: '#229ED9',
         iconBg: 'linear-gradient(135deg, #229ED9 0%, #1778a6 100%)'
       },
       instagram: {
-        subtitle: 'Comunidad Â· Novedades & lecturas',
+        subtitle: 'Comunidad · Novedades & lecturas',
         badge: 'Seguir',
         badgeColor: '#E4405F',
         iconBg: 'linear-gradient(45deg, #f09433, #dc2743, #bc1888)'
       },
       facebook: {
-        subtitle: 'PÃ¡gina oficial Â· ReseÃ±as & videos',
+        subtitle: 'Página oficial · Reseñas & videos',
         badge: 'Seguir',
         badgeColor: '#1877F2',
         iconBg: 'linear-gradient(135deg, #1877F2 0%, #0d5bb5 100%)'
@@ -1626,12 +1626,12 @@ document.addEventListener('DOMContentLoaded', () => {
       instagram: {
         url: state.currentBook.customInstagram,
         label: 'Instagram @brauliohipnocoach',
-        subtitle: 'Autor de Hacia Adentro Â· Promo especial'
+        subtitle: 'Autor de Hacia Adentro · Promo especial'
       },
       facebook: {
         url: state.currentBook.customFacebook,
-        label: 'Facebook del Autor Â· Braulio RamÃ­rez',
-        subtitle: 'Video promocional Â· Hacia Adentro'
+        label: 'Facebook del Autor · Braulio Ramírez',
+        subtitle: 'Video promocional · Hacia Adentro'
       }
     } : {};
 
@@ -1817,7 +1817,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       showToast('Descarga Iniciada', `Disfruta la lectura de "${book.title}" (${ext.toUpperCase()}).`);
     } else {
-      showToast('Solicitud en Proceso', `El archivo estÃ¡ preparÃ¡ndose. Puedes solicitarlo por nuestro canal de Telegram.`);
+      showToast('Solicitud en Proceso', `El archivo está preparándose. Puedes solicitarlo por nuestro canal de Telegram.`);
     }
   }
 
@@ -1835,8 +1835,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (waBtn) {
       const msg = cleanTitle
-        ? `Hola BIBLIOTYAN, me gustarÃ­a solicitar el libro: ${cleanTitle}`
-        : 'Hola BIBLIOTYAN, me gustarÃ­a solicitar un libro para el catÃ¡logo.';
+        ? `Hola BIBLIOTYAN, me gustaría solicitar el libro: ${cleanTitle}`
+        : 'Hola BIBLIOTYAN, me gustaría solicitar un libro para el catálogo.';
       waBtn.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`;
     }
   }
@@ -1955,7 +1955,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let audioBooks = BOOKS.filter(b => b.format === 'audio' || b.category === 'Audiolibros' || b.audioUrl || (b.tracks && b.tracks.length > 0));
 
-    // Filtros por temÃ¡tica
+    // Filtros por temática
     if (currentSpotifyFilter === 'kiyosaki') {
       audioBooks = audioBooks.filter(b => 
         (b.author && (b.author.toLowerCase().includes('kiyosaki') || b.author.toLowerCase().includes('benoist'))) ||
@@ -1964,17 +1964,17 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (currentSpotifyFilter === 'maxwell') {
       audioBooks = audioBooks.filter(b => 
         (b.author && (b.author.toLowerCase().includes('maxwell') || b.author.toLowerCase().includes('tracy') || b.author.toLowerCase().includes('robbins') || b.author.toLowerCase().includes('cornejo') || b.author.toLowerCase().includes('bobadilla'))) ||
-        (b.title && (b.title.toLowerCase().includes('liderazgo') || b.title.toLowerCase().includes('ganarse') || b.title.toLowerCase().includes('relaciones') || b.title.toLowerCase().includes('cerrar') || b.title.toLowerCase().includes('gigante') || b.title.toLowerCase().includes('civilizaciÃ³n') || b.title.toLowerCase().includes('actitud') || b.title.toLowerCase().includes('leyes') || b.title.toLowerCase().includes('cambio')))
+        (b.title && (b.title.toLowerCase().includes('liderazgo') || b.title.toLowerCase().includes('ganarse') || b.title.toLowerCase().includes('relaciones') || b.title.toLowerCase().includes('cerrar') || b.title.toLowerCase().includes('gigante') || b.title.toLowerCase().includes('civilización') || b.title.toLowerCase().includes('actitud') || b.title.toLowerCase().includes('leyes') || b.title.toLowerCase().includes('cambio')))
       );
     } else if (currentSpotifyFilter === 'exito') {
       audioBooks = audioBooks.filter(b => 
         (b.author && (b.author.toLowerCase().includes('napoleon') || b.author.toLowerCase().includes('camilo') || b.author.toLowerCase().includes('hill') || b.author.toLowerCase().includes('ziglar') || b.author.toLowerCase().includes('allen') || b.author.toLowerCase().includes('villalobos') || b.author.toLowerCase().includes('dey') || b.author.toLowerCase().includes('proctor'))) ||
-        (b.title && (b.title.toLowerCase().includes('atracciÃ³n') || b.title.toLowerCase().includes('positiva') || b.title.toLowerCase().includes('vaca') || b.title.toLowerCase().includes('Ã¡guila') || b.title.toLowerCase().includes('piense') || b.title.toLowerCase().includes('metas') || b.title.toLowerCase().includes('funcione') || b.title.toLowerCase().includes('sueÃ±a') || b.title.toLowerCase().includes('cambie') || b.title.toLowerCase().includes('primer dÃ­a')))
+        (b.title && (b.title.toLowerCase().includes('atracción') || b.title.toLowerCase().includes('positiva') || b.title.toLowerCase().includes('vaca') || b.title.toLowerCase().includes('águila') || b.title.toLowerCase().includes('piense') || b.title.toLowerCase().includes('metas') || b.title.toLowerCase().includes('funcione') || b.title.toLowerCase().includes('sueña') || b.title.toLowerCase().includes('cambie') || b.title.toLowerCase().includes('primer día')))
       );
     } else if (currentSpotifyFilter === 'conferencias') {
       audioBooks = audioBooks.filter(b => 
         (b.author && (b.author.toLowerCase().includes('kenji') || b.author.toLowerCase().includes('bobadilla') || b.author.toLowerCase().includes('cornejo') || b.author.toLowerCase().includes('villalobos') || b.author.toLowerCase().includes('habif') || b.author.toLowerCase().includes('benoist'))) ||
-        (b.title && (b.title.toLowerCase().includes('conferencia') || b.title.toLowerCase().includes('disciplina') || b.title.toLowerCase().includes('mitos') || b.title.toLowerCase().includes('generaciÃ³n') || b.title.toLowerCase().includes('temores') || b.title.toLowerCase().includes('civilizaciÃ³n') || b.title.toLowerCase().includes('actitud') || b.title.toLowerCase().includes('promesa')))
+        (b.title && (b.title.toLowerCase().includes('conferencia') || b.title.toLowerCase().includes('disciplina') || b.title.toLowerCase().includes('mitos') || b.title.toLowerCase().includes('generación') || b.title.toLowerCase().includes('temores') || b.title.toLowerCase().includes('civilización') || b.title.toLowerCase().includes('actitud') || b.title.toLowerCase().includes('promesa')))
       );
     } else if (currentSpotifyFilter === 'clasicos') {
       audioBooks = audioBooks.filter(b => 
@@ -1984,11 +1984,11 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (currentSpotifyFilter === 'bienestar') {
       audioBooks = audioBooks.filter(b => 
         (b.author && (b.author.toLowerCase().includes('sleep') || b.author.toLowerCase().includes('cabral') || b.author.toLowerCase().includes('proctor') || b.author.toLowerCase().includes('habif') || b.author.toLowerCase().includes('crecimiento') || b.author.toLowerCase().includes('mente'))) ||
-        (b.title && (b.title.toLowerCase().includes('sleep') || b.title.toLowerCase().includes('relax') || b.title.toLowerCase().includes('distraÃ­do') || b.title.toLowerCase().includes('deprimido') || b.title.toLowerCase().includes('miedo') || b.title.toLowerCase().includes('confianza') || b.title.toLowerCase().includes('promesa') || b.title.toLowerCase().includes('dominio propio')))
+        (b.title && (b.title.toLowerCase().includes('sleep') || b.title.toLowerCase().includes('relax') || b.title.toLowerCase().includes('distraído') || b.title.toLowerCase().includes('deprimido') || b.title.toLowerCase().includes('miedo') || b.title.toLowerCase().includes('confianza') || b.title.toLowerCase().includes('promesa') || b.title.toLowerCase().includes('dominio propio')))
       );
     }
 
-    // Filtro por bÃºsqueda en tiempo real
+    // Filtro por búsqueda en tiempo real
     if (currentSpotifyQuery && currentSpotifyQuery.trim()) {
       const q = currentSpotifyQuery.toLowerCase().trim();
       audioBooks = audioBooks.filter(b => 
@@ -2000,7 +2000,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const countEl = document.getElementById('spotifyAudioCount');
-    if (countEl) countEl.textContent = `${audioBooks.length} tÃ­tulos`;
+    if (countEl) countEl.textContent = `${audioBooks.length} títulos`;
 
     if (audioBooks.length === 0) {
       grid.innerHTML = `
@@ -2014,7 +2014,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     grid.innerHTML = audioBooks.map(b => {
-      const trackCount = b.tracks && b.tracks.length > 1 ? `${b.tracks.length} CapÃ­tulos` : 'Audiolibro Completo';
+      const trackCount = b.tracks && b.tracks.length > 1 ? `${b.tracks.length} Capítulos` : 'Audiolibro Completo';
       const authorSafe = typeof escapeHtml === 'function' ? escapeHtml(b.author || 'Autor') : (b.author || 'Autor');
       const titleSafe = typeof escapeHtml === 'function' ? escapeHtml(b.title || 'Audiolibro') : (b.title || 'Audiolibro');
       const coverUrl = (b.cover && b.cover !== 'covers/default.jpg') ? b.cover : generateAudioCoverDataUri(b.title, b.author, b.category);
@@ -2138,7 +2138,7 @@ document.addEventListener('DOMContentLoaded', () => {
         progressBar.style.width = Math.min(100, Math.max(0, pct)) + '%';
       }
 
-      // 2. DetecciÃ³n de secciÃ³n activa para Desktop y Mobile
+      // 2. Detección de sección activa para Desktop y Mobile
       if (state.currentFilter === 'Mi biblioteca') return;
       const scrollPos = (window.scrollY || window.pageYOffset || 0) + 240;
       let activeSection = null;
@@ -2157,7 +2157,7 @@ document.addEventListener('DOMContentLoaded', () => {
         link.classList.toggle('active', !!isMatch);
       });
 
-      // PestaÃ±as de barra mÃ³vil inferior
+      // Pestañas de barra móvil inferior
       const targetDockTab = activeSection ? activeSection.dockTab : 'inicio';
       navItems.forEach(item => {
         const tab = item.getAttribute('data-tab');
@@ -2191,9 +2191,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const dCount = BOOKS.filter(b => b.category === 'PARA DUMMIES' || (b.collection && b.collection.includes('Dummies'))).length;
     const hCount = BOOKS.filter(b => b.category === 'BREVE HISTORIA' || (b.collection && b.collection.includes('Breve Historia'))).length;
     const hbrCount = BOOKS.filter(b => b.category === 'HARVARD LIBROS' || (b.collection && b.collection.includes('Harvard'))).length;
-    const tCount = BOOKS.filter(b => b.category === 'TEOLOGÃA CONTEMPORÃNEA' || (b.collection && b.collection.includes('Teolog'))).length;
+    const tCount = BOOKS.filter(b => b.category === 'TEOLOGÍA CONTEMPORÁNEA' || (b.collection && b.collection.includes('Teolog'))).length;
     const eCount = BOOKS.filter(b => b.category === 'LIBROS EMPRENDEDORES' || (b.collection && b.collection.includes('Emprendedor'))).length;
-    const aCount = BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de AdministraciÃ³n').length;
+    const aCount = BOOKS.filter(b => (b.collection && b.collection.includes('Administra')) || b.category === 'Libros de Administración').length;
 
     const elGreene = document.getElementById('colCountGreene');
     const elGrinberg = document.getElementById('colCountGrinberg');
@@ -2215,7 +2215,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (elHarvard) elHarvard.textContent = hbrCount;
   }
 
-  // Desplazamiento horizontal e indicador de fade para Colecciones y SelecciÃ³n
+  // Desplazamiento horizontal e indicador de fade para Colecciones y Selección
   window.scrollCollectionsStrip = function(amount) {
     const strip = document.getElementById('specialCollectionsGrid');
     if (strip) {
@@ -2429,7 +2429,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (title) title.textContent = target.title || 'Audiolibro';
     if (author) author.textContent = target.author || '';
 
-    // Llenar selector de capÃ­tulos
+    // Llenar selector de capítulos
     if (trackSelect) {
       trackSelect.innerHTML = '';
       if (target.tracks && target.tracks.length > 0) {
@@ -2565,7 +2565,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (bar) bar.classList.add('active');
         }).catch(e => {
           console.warn('Playback prevented:', e);
-          showToast('Toca el botÃ³n Play para iniciar el audio', 'info');
+          showToast('Toca el botón Play para iniciar el audio', 'info');
         });
       }
     } else {
@@ -2592,7 +2592,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   window.cycleAudioSpeed = cycleAudioSpeed;
 
-  // Desbloqueo anticipado de AudioContext en mÃ³viles (iOS Safari / Android)
+  // Desbloqueo anticipado de AudioContext en móviles (iOS Safari / Android)
   function primeMobileAudio() {
     const audio = document.getElementById('nativeAudioElement');
     if (audio && !audio.dataset.primed) {
@@ -2735,5 +2735,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   init();
 });
-
+
+
 

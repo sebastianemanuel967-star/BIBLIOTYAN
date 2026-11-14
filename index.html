@@ -103,10 +103,13 @@
     if (typeof pdfjsLib !== 'undefined') {
       pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
     }
+    // Stubs tempranos de seguridad para evitar ReferenceErrors en carga inicial
+    window.handleCoverError = window.handleCoverError || function(img) { if (img) { img.onerror = null; img.style.opacity = '0.7'; } };
+    window.handleAudioCoverError = window.handleAudioCoverError || function(img) { if (img) { img.onerror = null; img.style.opacity = '0.7'; } };
   </script>
 
   <!-- Estilos Premium Luxury Obsidian Violet -->
-  <link rel="stylesheet" href="css/styles.css?v=8.6">
+  <link rel="stylesheet" href="css/styles.css?v=8.7">
 </head>
 <body>
 
@@ -775,7 +778,7 @@
   <div class="spotify-bottom-bar" id="spotifyBottomBar" aria-label="Reproductor persistente AUDIOTYAN" style="display: none;">
     <div class="spotify-bar-inner">
       <div class="spotify-bar-left" onclick="openAudioPlayer()" role="button" tabindex="0">
-        <img id="spotifyBarCover" src="" alt="Portada" class="spotify-bar-thumb" width="48" height="48" loading="lazy" decoding="async" style="display: none;" onerror="handleAudioCoverError(this, null)">
+        <img id="spotifyBarCover" alt="Portada" class="spotify-bar-thumb" width="48" height="48" loading="lazy" decoding="async" style="display: none;">
         <div class="spotify-bar-info">
           <span id="spotifyBarTitle" class="spotify-bar-title"></span>
           <span id="spotifyBarAuthor" class="spotify-bar-author"></span>
@@ -842,10 +845,11 @@
 
   <!-- Scripts -->
   <script src="js/data.js?v=8.0"></script>
-  <script src="js/app.js?v=8.6"></script>
+  <script src="js/app.js?v=8.7"></script>
 
 </body>
 </html>
+
 
 
 
