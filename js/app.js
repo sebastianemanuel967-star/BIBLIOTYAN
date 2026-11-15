@@ -815,7 +815,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSkeletonCards();
 
     try {
-      const res = await fetch('data/books.json?v=9.5');
+      const res = await fetch('data/books.json?v=9.6');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {
@@ -893,18 +893,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ========================================================
-  // LO MÁS LEÍDO & SELECCIÓN EDITORIAL (HORIZONTAL SHELVES)
+  // LO MÁS LEÍDO & SELECCIÓN EDITORIAL (HORIZONTAL SHELVES DIVERSIFICADAS)
   // ========================================================
-  const MOST_READ_IDS = [2613, 1453, 1519, 1960, 1232, 2089, 1491, 2136, 2240, 1830];
-  const EDITORIAL_SELECTION_IDS = [1960, 1087, 1467, 1453, 1519, 1491, 1476, 1411, 603];
+  // Selección diversa y multidisciplinar de alta reputación y descargas (excluye estrictamente audiolibros)
+  const MOST_READ_IDS = [2613, 1960, 2694, 2643, 2240, 2620, 2705, 2697, 2701, 1830];
+  // Selección editorial de obras cumbre complementarias (cero solapamiento con Lo más leído)
+  const EDITORIAL_SELECTION_IDS = [1453, 1519, 1491, 1476, 1411, 2695, 603, 2089, 2626, 2611];
 
   function renderShelfBooks(shelfId, bookIds) {
     const shelf = document.getElementById(shelfId);
     if (!shelf) return;
 
-    const curated = bookIds.map(id => BOOKS.find(b => b.id === id)).filter(Boolean);
+    // Filtrar estrictamente libros de lectura (garantizar que nunca se mezcle ningún audiolibro)
+    const curated = bookIds
+      .map(id => BOOKS.find(b => b.id === id))
+      .filter(b => b && b.format !== 'audio' && !b.audioUrl && (!b.collection || !b.collection.includes('Audiolibro')));
     if (curated.length === 0) {
-      curated.push(...BOOKS.slice(0, 6));
+      curated.push(...BOOKS.filter(b => b && b.format !== 'audio' && !b.audioUrl).slice(0, 6));
     }
 
     shelf.innerHTML = '';
@@ -1053,6 +1058,17 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCollectionBanner();
 
     let filtered = BOOKS.filter(book => {
+      // Separación estricta: los audiolibros no se mezclan con los libros de lectura en el catálogo general
+      const isAudio = book.format === 'audio' || !!book.audioUrl || (book.collection && book.collection.includes('Audiolibro'));
+      const isAudioFilter = state.currentFilter === 'Audiolibros' || state.currentFilter === 'Colección Audiolibros';
+
+      if (isAudio && !isAudioFilter) {
+        return false;
+      }
+      if (!isAudio && isAudioFilter) {
+        return false;
+      }
+
       // 1. Filtrado especial, por area de conocimiento o de categoria
       let matchesCategory = false;
 
@@ -1126,18 +1142,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (idxA !== -1 && idxB !== -1) return idxA - idxB;
         if (idxA !== -1) return -1;
         if (idxB !== -1) return 1;
-        return b.downloads - a.downloads;
+        return (b.downloads || 0) - (a.downloads || 0);
       });
     } else {
       switch (sortBy) {
         case 'popular':
-          filtered.sort((a, b) => b.downloads - a.downloads);
+          filtered.sort((a, b) => (b.downloads || 0) - (a.downloads || 0));
           break;
         case 'alpha':
-          filtered.sort((a, b) => a.title.localeCompare(b.title));
+          filtered.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
           break;
         case 'recent':
-          filtered.sort((a, b) => b.id - a.id);
+          filtered.sort((a, b) => (b.id || 0) - (a.id || 0));
           break;
         case 'curated':
         default:
