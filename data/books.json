@@ -40228,5 +40228,335 @@
                            "targetAudience":  "Lectores interesados en el estoicismo práctico, la fortaleza mental, la filosofía de vida y la superación de crisis emocionales con dignidad y serenidad.",
                            "aiSummary":  "Tratado contemporáneo de Casimiro Ruiz (111 pp.) que condensa la sabiduría de los grandes filósofos estoicos para forjar una mentalidad invulnerable capaz de hallar paz y significado en cada circunstancia de la existencia."
                        }
+    },
+    {
+        "id":  2706,
+        "title":  "12 Reglas para Vivir: Un antídoto al caos",
+        "author":  "Jordan B. Peterson",
+        "category":  "Desarrollo Personal",
+        "subtopic":  "Psicología Clínica, Filosofía Práctica, Responsabilidad Individual y Estructura Moral",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2706_12-reglas-para-vivir-jordan-b-peterson.pdf",
+        "pages":  532,
+        "year":  2018,
+        "language":  "Español",
+        "description":  "Obra cumbre internacional del psicólogo clínico Jordan B. Peterson. A través de doce postulados lúcidos y rigurosos combinados con sabiduría milenaria, neurobiología y casos clínicos, Peterson ofrece un antídoto contundente contra el caos existencial: asumir la máxima responsabilidad por la propia vida, sostener la verdad y edificar el carácter frente a la adversidad.",
+        "cover":  "covers/c-2706-12-reglas-para-vivir-jordan-b-peterson.jpg",
+        "downloads":  495,
+        "featured":  true,
+        "collection":  "Colección Crecimiento y Éxito",
+        "aiAnalysis":  {
+                           "genre":  "Psicología Clínica, Filosofía Moral \u0026 Superación Personal",
+                           "vibe":  "Riguroso, Lúcido, Desafiante \u0026 Transformador",
+                           "keyConcepts":  [
+                                               "La Regla de la Langosta: Postura, Neuroquímica y Respeto Propio",
+                                               "Cuidarte como a Alguien de Quien Eres Responsable",
+                                               "Compararte con Quien Eras Ayer, no con los Demás",
+                                               "Ordena Tu Propia Casa Antes de Criticar al Mundo",
+                                               "Persigue lo que Tiene Significado, no lo que es Conveniente"
+                                           ],
+                           "targetAudience":  "Lectores que buscan orientación moral sólida, autodisciplina madura y bases psicológicas profundas para superar la confusión y liderar sus vidas.",
+                           "aiSummary":  "Tratado contemporáneo de Jordan Peterson (532 pp.) que entrelaza psicología evolutiva, mitología y ética práctica para superar el caos y dotar de propósito indeleble la existencia humana."
+                       }
+    },
+    {
+        "id":  2707,
+        "title":  "Administración del tiempo",
+        "author":  "Brian Tracy",
+        "category":  "Emprendimiento \u0026 Negocios",
+        "subtopic":  "Productividad, Gestión del Tiempo, Planificación Estratégica y Eficiencia Personal",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2707_administracion-del-tiempo-brian-tracy.pdf",
+        "pages":  93,
+        "year":  2014,
+        "language":  "Español",
+        "description":  "Guía práctica y condensada de Brian Tracy y Johnny Peña con 21 principios probados para duplicar tu productividad y recuperar el dominio de tus horas. Enseña a priorizar según la Ley de Pareto 80/20, erradicar la procrastinación, delegar con precisión y blindar bloques de tiempo para proyectos de alto impacto.",
+        "cover":  "covers/c-2707-administracion-del-tiempo-brian-tracy.jpg",
+        "downloads":  485,
+        "featured":  true,
+        "collection":  "Colección Brian Tracy",
+        "aiAnalysis":  {
+                           "genre":  "Productividad, Alto Rendimiento \u0026 Eficiencia Operativa",
+                           "vibe":  "Práctico, Enérgico, Directo \u0026 de Aplicación Inmediata",
+                           "keyConcepts":  [
+                                               "La Regla 80/20 Aplicada al Horario Diario",
+                                               "El Método de Cuatro Pasos para Establecer Prioridades Claras",
+                                               "Manejo Implacable de Interrupciones y Ladrones de Tiempo",
+                                               "Técnica de Bloques de Tiempo para Trabajo Profundo",
+                                               "Delegación Efectiva y Automatización de Rutinas"
+                                           ],
+                           "targetAudience":  "Profesionales, ejecutivos y emprendedores que necesitan multiplicar sus resultados reduciendo el estrés y la sobrecarga laboral.",
+                           "aiSummary":  "Compendio táctico de Brian Tracy (93 pp.) con técnicas definitivas de gestión del tiempo para enfocarse en actividades de máximo retorno económico y profesional."
+                       }
+    },
+    {
+        "id":  2708,
+        "title":  "Aprende a promocionar tu trabajo: 10 recursos para artistas, diseñadores y creativos",
+        "author":  "Austin Kleon",
+        "category":  "Creatividad \u0026 Diseño",
+        "subtopic":  "Marketing para Creativos, Marca Personal, Difusión de Proyectos y Narrativa Digital",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2708_aprende-a-promocionar-tu-trabajo-austin-kleon.pdf",
+        "pages":  224,
+        "year":  2014,
+        "language":  "Español",
+        "description":  "Secuela imprescindible del aclamado \u0027Roba como un artista\u0027. Austin Kleon desmitifica la autopromoción agresiva y propone un enfoque generoso y auténtico: compartir el proceso creativo día a día, construir una audiencia leal, ser un aficionado apasionado y transformar tu oficio en una comunidad abierta.",
+        "cover":  "covers/c-2708-aprende-a-promocionar-tu-trabajo-austin-kleon.jpg",
+        "downloads":  480,
+        "featured":  true,
+        "collection":  "Colección Creatividad e Innovación",
+        "aiAnalysis":  {
+                           "genre":  "Creatividad, Marketing Creativo \u0026 Marca Personal",
+                           "vibe":  "Visual, Inspirador, Cercano \u0026 Práctico",
+                           "keyConcepts":  [
+                                               "No Tienes que ser un Genio: Conviértete en Aficionado Curioso",
+                                               "Enseña lo que Sabes: Comparte Pequeños Fragmentos a Diario",
+                                               "Abre Tu Sala de Máquinas: Muestra el Proceso, no solo el Producto",
+                                               "Aprende a Recibir Golpes: Resiliencia ante la Crítica Pública",
+                                               "Construye Tu Propia Comunidad Creativa y Sostenible"
+                                           ],
+                           "targetAudience":  "Artistas, diseñadores, programadores, escritores y creadores de contenido que quieren dar visibilidad a sus obras sin vender su alma.",
+                           "aiSummary":  "Manifiesto visual de Austin Kleon (224 pp.) con 10 principios para conectar con tu audiencia compartiendo generosamente el trabajo diario y hallando tu voz."
+                       }
+    },
+    {
+        "id":  2709,
+        "title":  "Autobiografía de un Yogui",
+        "author":  "Paramahansa Yogananda",
+        "category":  "Espiritualidad \u0026 Filosofía",
+        "subtopic":  "Kriya Yoga, Sabiduría Oriental, Mística y Realización Espiritual",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2709_autobiografia-de-un-yogui-paramahansa-yogananda.pdf",
+        "pages":  289,
+        "year":  1946,
+        "language":  "Español",
+        "description":  "Considerada una de las obras espirituales más influyentes de la historia moderna (el único libro que Steve Jobs leía cada año). Narra la vida y milagros de Paramahansa Yogananda, su encuentro con sabios y maestros de Oriente, y los fundamentos científicos y trascendentes del Kriya Yoga como vía directa hacia la autorrealización divina.",
+        "cover":  "covers/c-2709-autobiografia-de-un-yogui-paramahansa-yogananda.jpg",
+        "downloads":  490,
+        "featured":  true,
+        "collection":  "Colección Clásicos del Pensamiento",
+        "aiAnalysis":  {
+                           "genre":  "Espiritualidad Clásica, Biografía Mística \u0026 Yoga",
+                           "vibe":  "Elevado, Trascendente, Místico \u0026 Revelador",
+                           "keyConcepts":  [
+                                               "La Ciencia Espiritual del Kriya Yoga",
+                                               "Unión Filosófica de la Sabiduría Oriental y el Pensamiento Occidental",
+                                               "Leyes Universales de la Conciencia y la Manifestación",
+                                               "El Camino del Discípulo con Gurús y Santos Auténticos",
+                                               "Superación de la Ilusión Cósmica (Maya) y Trascendencia"
+                                           ],
+                           "targetAudience":  "Buscadores espirituales, practicantes de meditación y amantes de la filosofía perenne y el crecimiento interior.",
+                           "aiSummary":  "Clásico espiritual universal de Paramahansa Yogananda (289 pp.) que abrió las puertas de la meditación y el yoga a Occidente mediante un testimonio vívido de santidad y sabiduría cósmica."
+                       }
+    },
+    {
+        "id":  2710,
+        "title":  "El Libro Rojo (Liber Novus)",
+        "author":  "Carl Gustav Jung",
+        "category":  "Psicología \u0026 Mente",
+        "subtopic":  "Inconsciente Colectivo, Arquetipos, Imaginación Activa y Psicología Analítica",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2710_el-libro-rojo-carl-gustav-jung.pdf",
+        "pages":  642,
+        "year":  2009,
+        "language":  "Español",
+        "description":  "El manuscrito más legendario, misterioso y fundamental de la psicología analítica contemporánea. Escrito e iluminado a mano por Carl Gustav Jung durante dieciséis años de confrontación directa con su inconsciente, Liber Novus documenta sus visiones, diálogos arquetípicos y el génesis de su teoría sobre el proceso de individuación.",
+        "cover":  "covers/c-2710-el-libro-rojo-carl-gustav-jung.jpg",
+        "downloads":  488,
+        "featured":  true,
+        "collection":  "Colección Clásicos del Pensamiento",
+        "aiAnalysis":  {
+                           "genre":  "Psicología Profunda, Psicología Analítica \u0026 Misticismo Simbólico",
+                           "vibe":  "Enigmático, Monumental, Arquetípico \u0026 Revelador",
+                           "keyConcepts":  [
+                                               "El Descenso al Inconsciente Colectivo",
+                                               "Técnica de la Imaginación Activa y Diálogo con Arquetipos",
+                                               "La Integración de la Sombra y el Encuentro con Filemón",
+                                               "El Proceso de Individuación como Búsqueda del Sí-Mismo (Selbst)",
+                                               "El Poder Sanador del Mito y los Mandalas Interiores"
+                                           ],
+                           "targetAudience":  "Psicólogos, terapeutas, investigadores de la mente humana y exploradores de los mitos, símbolos y la conciencia.",
+                           "aiSummary":  "Obra monumental e histórica de Carl G. Jung (642 pp.) que plasma sus experiencias más íntimas y el mapa arquetípico que fundamentó toda la psicología analítica moderna."
+                       }
+    },
+    {
+        "id":  2711,
+        "title":  "El Libro Tibetano de la Vida y de la Muerte",
+        "author":  "Sogyal Rimpoché",
+        "category":  "Espiritualidad \u0026 Filosofía",
+        "subtopic":  "Budismo Tibetano, Meditación Dzogchen, Bardos y Trascendencia",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2711_el-libro-tibetano-de-la-vida-y-de-la-muerte-sogyal-rimpoche.pdf",
+        "pages":  489,
+        "year":  1992,
+        "language":  "Español",
+        "description":  "Manual magistral que unifica la sabiduría ancestral del budismo tibetano con la mirada científica y humanista de Occidente. Sogyal Rimpoché explica la naturaleza de la mente, la práctica de la meditación, la compasión, el significado de los bardos y cómo acompañar con amor y serenidad el tránsito hacia la muerte para vivir con plenitud absoluta.",
+        "cover":  "covers/c-2711-el-libro-tibetano-de-la-vida-y-de-la-muerte-sogyal-rimpoche.jpg",
+        "downloads":  475,
+        "featured":  true,
+        "collection":  "Colección Clásicos del Pensamiento",
+        "aiAnalysis":  {
+                           "genre":  "Budismo Tibetano, Meditación Dzogchen \u0026 Tanatología Espiritual",
+                           "vibe":  "Sereno, Compasivo, Luminoso \u0026 Profundamente Sanador",
+                           "keyConcepts":  [
+                                               "La Verdadera Naturaleza de la Mente (Rigpa)",
+                                               "La Meditación como Despertar de la Paz Interior",
+                                               "Compasión Universal y la Práctica de Tonglen",
+                                               "Las Etapas de los Bardos y el Tránsito Consciente de la Muerte",
+                                               "Acompañamiento Amoroso y Apoyo Espiritual a Moribundos"
+                                           ],
+                           "targetAudience":  "Interesados en la meditación budista, el sentido profundo de la vida, la superación del duelo y la tanatología compasiva.",
+                           "aiSummary":  "Tratado espiritual de referencia mundial (489 pp.) que expone la visión tibetana sobre la existencia y el más allá, enseñando a vivir con paz presente y sin temor."
+                       }
+    },
+    {
+        "id":  2712,
+        "title":  "Es Puro Marketing: Una guía diferente para aprender y disfrutar del marketing",
+        "author":  "Raúl Díaz Miranda",
+        "category":  "Emprendimiento \u0026 Negocios",
+        "subtopic":  "Marketing Digital, Estrategia Comercial, Branding y Psicología del Consumidor",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2712_es-puro-marketing-raul-diaz-miranda.pdf",
+        "pages":  123,
+        "year":  2021,
+        "language":  "Español",
+        "description":  "Guía moderna, desenfadada y repleta de ejemplos prácticos escrita por Raúl Díaz Miranda. Descompone los conceptos complejos del marketing contemporáneo en lecciones ágiles: propuesta de valor, embudos de conversión, posicionamiento de marca y cómo cautivar a la audiencia sin jerga técnica aburrida.",
+        "cover":  "covers/c-2712-es-puro-marketing-raul-diaz-miranda.jpg",
+        "downloads":  470,
+        "featured":  true,
+        "collection":  "Colección Emprendedores",
+        "aiAnalysis":  {
+                           "genre":  "Marketing Moderno, Estrategia Comercial \u0026 Branding",
+                           "vibe":  "Fresco, Ágil, Divertido \u0026 Didáctico",
+                           "keyConcepts":  [
+                                               "La Verdadera Propuesta de Valor Diferencial",
+                                               "Psicología del Consumidor: ¿Por qué Compramos Realmente?",
+                                               "Storytelling de Marca y Conexión Emocional",
+                                               "Embudos de Ventas Claros y Métricas que Importan",
+                                               "Estrategias Prácticas para Campañas Digitales Efectivas"
+                                           ],
+                           "targetAudience":  "Emprendedores, publicistas noveles, creadores digitales y cualquier persona que quiera dominar el marketing con sentido común.",
+                           "aiSummary":  "Guía dinámica y entretenida de Raúl Díaz Miranda (123 pp.) que enseña los secretos del marketing actual con humor, casos reales y aplicación directa."
+                       }
+    },
+    {
+        "id":  2713,
+        "title":  "La vaca púrpura: Diferénciate para transformar tu negocio",
+        "author":  "Seth Godin",
+        "category":  "Emprendimiento \u0026 Negocios",
+        "subtopic":  "Marketing Disruptivo, Innovación, Diferenciación y Ventaja Competitiva",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2713_la-vaca-purpura-seth-godin.pdf",
+        "pages":  110,
+        "year":  2003,
+        "language":  "Español",
+        "description":  "Un clásico indispensable del marketing moderno de Seth Godin. El autor sostiene que las 4 \u0027P\u0027 tradicionales ya no alcanzan en un mundo saturado de productos mediocres. Para triunfar hoy en día, tu negocio o producto debe ser una \u0027Vaca Púrpura\u0027: algo extraordinario, digno de atención, memorable y radicalmente innovador.",
+        "cover":  "covers/c-2713-la-vaca-purpura-seth-godin.jpg",
+        "downloads":  492,
+        "featured":  true,
+        "collection":  "Colección Emprendedores",
+        "aiAnalysis":  {
+                           "genre":  "Marketing Disruptivo, Innovación \u0026 Estrategia Empresarial",
+                           "vibe":  "Visionario, Disruptivo, Provocador \u0026 Brillante",
+                           "keyConcepts":  [
+                                               "Lo Extraordinario frente a lo \u0027Muy Bueno\u0027 (que ya es Invisible)",
+                                               "La Muerte de la Publicidad Masiva Tradicional",
+                                               "Dirigirse a los Innovadores y \u0027Otakus\u0027 Apasionados del Nicho",
+                                               "El Riesgo Real es No Arriesgarse (Ser Aburrido Fracasa)",
+                                               "Diseñar la Viralidad Directamente en el Producto Mismo"
+                                           ],
+                           "targetAudience":  "Emprendedores, directores de innovación, profesionales de marketing y creadores de proyectos que buscan destacar de forma arrolladora.",
+                           "aiSummary":  "Clásico absoluto del marketing de Seth Godin (110 pp.) que revoluciona la forma de concebir productos extraordinarios que se comercializan por sí mismos."
+                       }
+    },
+    {
+        "id":  2714,
+        "title":  "Mercadotecnia (La biblioteca del éxito)",
+        "author":  "Brian Tracy",
+        "category":  "Emprendimiento \u0026 Negocios",
+        "subtopic":  "Estrategias de Mercadotecnia, Posicionamiento, Ventas y Captación de Clientes",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2714_mercadotecnia-la-biblioteca-del-exito-brian-tracy.pdf",
+        "pages":  128,
+        "year":  2014,
+        "language":  "Español",
+        "description":  "Volumen estratégico de la prestigiosa serie \u0027La biblioteca del éxito\u0027. Brian Tracy desvela 21 tácticas probadas de mercadotecnia para identificar el mercado meta idóneo, fijar precios rentables, superar a la competencia y maximizar el valor de vida de cada cliente mediante ventajas diferenciales sólidas.",
+        "cover":  "covers/c-2714-mercadotecnia-la-biblioteca-del-exito-brian-tracy.jpg",
+        "downloads":  486,
+        "featured":  true,
+        "collection":  "Colección Brian Tracy",
+        "aiAnalysis":  {
+                           "genre":  "Mercadotecnia Estratégica, Ventas \u0026 Posicionamiento Comercial",
+                           "vibe":  "Pragmático, Estructurado, Enfocado a Resultados \u0026 Comercial",
+                           "keyConcepts":  [
+                                               "Las Cuatro Claves del Éxito en Mercadotecnia: Especialización y Diferenciación",
+                                               "Definición Quirúrgica del Cliente Ideal y sus Necesidades",
+                                               "Tácticas para Dominar la Competencia y Ganar Cuota de Mercado",
+                                               "Estrategias de Fijación de Precios de Máxima Rentabilidad",
+                                               "El Servicio Excepcional como el Mayor Motor de Ventas Futuras"
+                                           ],
+                           "targetAudience":  "Líderes de ventas, dueños de negocios, consultores comerciales y profesionales que desean impulsar la facturación de forma sostenible.",
+                           "aiSummary":  "Manual de alto impacto de Brian Tracy (128 pp.) con 21 principios ineludibles para diseñar campañas de mercadotecnia eficaces y fidelizar clientes."
+                       }
+    },
+    {
+        "id":  2715,
+        "title":  "Roba como un artista: Las 10 cosas que nadie te ha dicho sobre ser creativo",
+        "author":  "Austin Kleon",
+        "category":  "Creatividad \u0026 Diseño",
+        "subtopic":  "Creatividad Aplicada, Pensamiento Lateral, Innovación y Proceso Creativo",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2715_roba-como-un-artista-austin-kleon.pdf",
+        "pages":  160,
+        "year":  2012,
+        "language":  "Español",
+        "description":  "El manifiesto creativo más celebrado de la era digital. Austin Kleon enseña que nada es completamente original y que todo arte es el resultado de transformar influencias. Con 10 principios directos, gráficos y dinámicos, el libro te invita a abrazar tus pasiones, crear tu propia genealogía de influencias y ponerte manos a la obra sin esperar la inspiración perfecta.",
+        "cover":  "covers/c-2715-roba-como-un-artista-austin-kleon.jpg",
+        "downloads":  494,
+        "featured":  true,
+        "collection":  "Colección Creatividad e Innovación",
+        "aiAnalysis":  {
+                           "genre":  "Creatividad, Arte \u0026 Desarrollo Personal",
+                           "vibe":  "Revolucionario, Conciso, Inspirador \u0026 Estimulante",
+                           "keyConcepts":  [
+                                               "Roba como un Artista: Nada es Totalmente Original",
+                                               "No Esperes a Saber Quién Eres para Comenzar",
+                                               "Escribe el Libro que Te Gustaría Leer",
+                                               "Usa Tus Manos: Desconéctate de las Pantallas para Crear",
+                                               "Los Pasatiempos y Proyectos Paralelos Alimentan la Genialidad"
+                                           ],
+                           "targetAudience":  "Creativos, artistas, diseñadores, emprendedores, escritores y cualquier persona con ganas de desbloquear su potencial creador.",
+                           "aiSummary":  "Best seller internacional de Austin Kleon (160 pp.) que redefine la creatividad en el siglo XXI con consejos claros y estimulantes para crear con libertad."
+                       }
+    },
+    {
+        "id":  2716,
+        "title":  "Storytelling: La escritura mágica - Técnicas para hacer que te lean y seducir con tus textos",
+        "author":  "Carlos Salas",
+        "category":  "Comunicación \u0026 Escritura",
+        "subtopic":  "Storytelling, Redacción Persuasiva, Neurocomunicación y Estructura Narrativa",
+        "format":  "pdf",
+        "pdf":  "pdfs/b2716_storytelling-la-escritura-magica-carlos-salas.pdf",
+        "pages":  149,
+        "year":  2017,
+        "language":  "Español",
+        "description":  "Obra de referencia del periodista y consultor Carlos Salas. Enseña a redactar textos magnéticos combinando técnicas narrativas de guionistas de Hollywood con psicología cognitiva. Descubre cómo estructurar aperturas cautivadoras, mantener la tensión narrativa y redactar correos, artículos y propuestas comerciales que atrapen de principio a fin.",
+        "cover":  "covers/c-2716-storytelling-la-escritura-magica-carlos-salas.jpg",
+        "downloads":  478,
+        "featured":  true,
+        "collection":  "Colección Comunicación y Oratoria",
+        "aiAnalysis":  {
+                           "genre":  "Storytelling, Comunicación Persuasiva \u0026 Redacción Estratégica",
+                           "vibe":  "Didáctico, Cautivador, Práctico \u0026 Persuasivo",
+                           "keyConcepts":  [
+                                               "El Gancho de Apertura: Captar la Atención en los Primeros 5 Segundos",
+                                               "La Estructura de Tres Actos en Textos Profesionales y de Negocios",
+                                               "Eliminación de Adjetivos Inútiles y Claridad Visual en la Prosa",
+                                               "Técnicas de Suspenso y Preguntas Abiertas que Mantienen la Lectura",
+                                               "El Poder de las Emociones y Anécdotas sobre los Datos Fríos"
+                                           ],
+                           "targetAudience":  "Periodistas, copywriters, directores de marketing, oradores y ejecutivos que necesitan comunicarse con contundencia y magnetismo.",
+                           "aiSummary":  "Manual ameno y práctico de Carlos Salas (149 pp.) que revela los trucos de la neurocomunicación y el storytelling para convertir cualquier texto en una lectura adictiva."
+                       }
     }
 ]

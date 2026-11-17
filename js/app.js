@@ -896,7 +896,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // LO MÁS LEÍDO & SELECCIÓN EDITORIAL (HORIZONTAL SHELVES DIVERSIFICADAS)
   // ========================================================
   // Selección diversa y multidisciplinar de alta reputación y descargas (excluye estrictamente audiolibros)
-  const MOST_READ_IDS = [2613, 1960, 2694, 2643, 2240, 2620, 2705, 2697, 2701, 1830];
+  const MOST_READ_IDS = [2706, 2715, 2713, 2707, 2709, 2710, 2705, 2697, 2701, 2613];
   // Selección editorial de obras cumbre complementarias (cero solapamiento con Lo más leído)
   const EDITORIAL_SELECTION_IDS = [1453, 1519, 1491, 1476, 1411, 2695, 603, 2089, 2626, 2611];
 
